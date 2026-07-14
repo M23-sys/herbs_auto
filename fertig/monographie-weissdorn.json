@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "id": "crataegus-monogyna",
+  "botany": {
+    "scientific_name": "Crataegus monogyna Jacq.",
+    "common_names_de": ["Eingriffeliger Weißdorn", "Weißdorn", "Hagedorn", "Weißdorn", "Mehlbeere (regional missverständlich)", "Heckendorn"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Blatt und Blüte (Folium cum Flore)"],
+    "drug_name_latin": "Crataegi folium cum flore",
+    "synonym_note": "Arzneilich gleichwertig genutzt werden Crataegus monogyna Jacq. und Crataegus laevigata (Poir.) DC. (Syn. C. oxyacantha auct.). Die id bezieht sich auf die häufigere Art C. monogyna; die App sollte C. laevigata mit erfassen."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal an Blüte/Frucht: Crataegus monogyna hat EINEN Griffel und die Frucht EINEN Steinkern ('eingriffelig'); C. laevigata hat 2–3 Griffel/Steinkerne",
+      "Blätter tief eingeschnitten (3–7 Lappen), Buchten breit und stumpf, Lappen nur an der Spitze etwas gezähnt, sonst ganzrandig",
+      "Dorniger Strauch oder kleiner Baum (2–6, selten bis 10 m) mit kräftigen Sprossdornen",
+      "Blüten weiß (selten rosa), 5-zählig, in doldenrispigen Blütenständen, mit deutlichem (etwas unangenehmem) Duft; Blütezeit Mai (bis Anfang Juni)",
+      "Früchte ('Mehlbeeren'/Apfelfrüchtchen) im Herbst rot, mehlig, mit einem Steinkern",
+      "Standort: Hecken, Waldränder, Gebüsche, sonnig bis halbschattig, sehr verbreitet"
+    ],
+    "season": "Blüte Mai bis Anfang Juni; Fruchtreife September/Oktober",
+    "habitat": "Hecken, Waldränder, Gebüsche, Böschungen; anspruchslos, sonnig bis halbschattig. In Mitteleuropa sehr häufig und heimisch.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-sehr-haeufig"}
+    ],
+    "collection_rules": [
+      "Arzneilich zählt der belaubte, blühende Zweig (Blätter MIT Blüten) zur Blütezeit im Mai — nicht nur die Blüte allein.",
+      "Griffel-/Steinkernzahl an mehreren Blüten/Früchten prüfen: überwiegend 1 = C. monogyna, überwiegend 2–3 = C. laevigata (beide arzneilich gleichwertig).",
+      "Im blühenden/belaubten Zustand ist Weißdorn durch weiße 5-zählige Blüten, tief gelappte Blätter und Sprossdornen gut kenntlich; zur Abgrenzung von der Schlehe siehe confusions."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Schlehe / Schwarzdorn",
+      "scientific_name": "Prunus spinosa",
+      "toxicity_level": "essbar",
+      "toxin": "Blausäureglykoside (Amygdalin) in den Samenkernen — Fruchtfleisch/Blüte unbedenklich",
+      "note": "Ebenfalls dorniger Heckenstrauch. Unterscheidung: Schlehe blüht VOR dem Laubaustrieb (weiße Blüten am kahlen Zweig, oft März/April), Blätter klein und ungeteilt (nicht gelappt); Früchte blau-schwarze Steinfrüchte. Weißdorn blüht MIT Laub im Mai, Blätter tief gelappt, Früchte rot. Verwechslung der Blätter/Blüten ungefährlich; nur die Schlehen-Samenkerne sind wegen Blausäureglykosiden nicht zu verzehren."
+    },
+    {
+      "name": "Zweigriffeliger Weißdorn",
+      "scientific_name": "Crataegus laevigata",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Sehr ähnlich und arzneilich GLEICHWERTIG (HMPC/ESCOP fassen beide als 'Crataegus spp.'). Unterschied: weniger tief gelappte Blätter, 2–3 Griffel/Steinkerne. Verwechslung unbedenklich."
+    },
+    {
+      "name": "Kirschpflaume / Wildpflaume",
+      "scientific_name": "Prunus cerasifera",
+      "toxicity_level": "essbar",
+      "toxin": "Blausäureglykoside in den Kernen",
+      "note": "Früh blühender Heckenstrauch, weiße Blüten teils vor dem Laub; Blätter ungeteilt-eiförmig (nicht gelappt), Früchte rote/gelbe Pflaumen mit einem Steinkern. Über die tief gelappten Weißdornblätter und die Blütezeit (Mai, mit Laub) gut abgrenzbar. Fruchtfleisch essbar, Kerne nicht verzehren."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Die relevanten Doppelgänger sind andere Rosengewächse (Schlehe, Kirschpflaume, Zweigriffeliger Weißdorn) — allesamt nicht lebensgefährlich; problematisch sind lediglich deren Samenkerne (Blausäureglykoside), nicht Blatt/Blüte. Ein tödlich giftiger Doppelgänger von Blatt/Blüte ist nicht bekannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Oligomere Procyanidine (OPC) — als wirkbestimmend angesehen",
+      "Flavonoide (Hyperosid, Vitexin-2''-O-rhamnosid, Rutin, Vitexin)",
+      "Triterpensäuren (Crataegus-/Ursol-/Oleanolsäure), Amine (geringe Mengen), Phenolcarbonsäuren"
+    ],
+    "lead_substance": "Oligomere Procyanidine und Flavonoide (Standardisierung der Extrakte meist auf OPC oder Flavonoide) — kardioprotektiv/positiv inotrop-vasodilatatorisch in präklinischen Modellen.",
+    "solubility_note": "Flavonoide und OPC sind hinreichend wasserlöslich, sodass ein Tee die Stoffe teilweise extrahiert; für reproduzierbare Wirkung werden jedoch standardisierte Trockenextrakte (z. B. WS 1442, LI 132) eingesetzt. Alkoholische Auszüge (Tinktur) sind ebenfalls gebräuchlich.",
+    "heat_light_sensitivity": "Flavonoide licht-/oxidationsempfindlich; Droge trocken und lichtgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Präklinisch: mäßig positiv inotrop, Verlängerung der Refraktärzeit, Koronardilatation und Endothel-/antioxidative Effekte (NO-vermittelte Vasodilatation), zugeschrieben v. a. OPC und Flavonoiden. Die Wirkung ist mild und tritt erst bei längerer, regelmäßiger Anwendung ein.",
+    "evidence_caveat": "Wichtig: Die frühere Indikation Herzinsuffizienz NYHA II (Kommission E, 1994) wird von der HMPC NICHT mehr als well-established use anerkannt. Die große SPICE-Studie (WS 1442) zeigte keinen sicheren Mortalitäts-/Morbiditätsvorteil im Gesamtkollektiv (nur ein Signal in einer Subgruppe mit milder Herzinsuffizienz). Aktuell nur traditional use für 'vorübergehende nervöse Herzbeschwerden'. Wichtiger Sicherheitspunkt ist die Gefahr der Fehl-/Selbstdiagnose bei echter Herzerkrankung.",
+    "pharmacokinetics": "Procyanidine/Flavonoide werden nur begrenzt resorbiert; Wirkeintritt verzögert, kumulativ über Wochen. Detaillierte Humandaten begrenzt — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Vorübergehende nervöse Herzbeschwerden (Herzklopfen), nach ärztlichem Ausschluss ernster Ursachen",
+      "synonyms": ["Herzklopfen", "Herzstolpern", "nervöses Herz", "Herzunruhe", "Aufregungsherz", "funktionelle Herzbeschwerden"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC (2016): traditional use zur symptomatischen Behandlung vorübergehender nervöser Herzbeschwerden wie Herzklopfen — AUSDRÜCKLICH erst, nachdem ein Arzt ernste Erkrankungen ausgeschlossen hat. Kein well-established use.",
+      "realistic_expectation": "Kann bei funktionellen/nervösen Herzbeschwerden ohne organische Ursache subjektiv beruhigen. KEINE Behandlung einer Herzinsuffizienz, Herzrhythmusstörung oder koronaren Herzkrankheit; diese müssen ärztlich abgeklärt und behandelt werden.",
+      "source": "EMA/HMPC EU herbal monograph Crataegus spp., folium cum flore (traditional use, 2016)"
+    },
+    {
+      "canonical": "Leichte Stress-/Anspannungssymptome und Einschlafhilfe",
+      "synonyms": ["innere Unruhe", "Anspannung", "Nervosität", "Einschlafstörungen", "Stress"],
+      "evidence_tag": "TU",
+      "comment": "HMPC nennt zusätzlich die traditionelle Anwendung zur Linderung leichter Stresssymptome und als Einschlafhilfe.",
+      "realistic_expectation": "Milde, traditionell begründete Beruhigung; kein Sedativum mit belegter Wirkstärke. Bei anhaltenden Schlaf-/Angststörungen ärztliche Abklärung.",
+      "source": "EMA/HMPC (traditional use)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sehr gut verträgliches, mildes Pflanzenmittel für vorübergehende nervöse/funktionelle Herzbeschwerden (Herzklopfen ohne organische Ursache) und leichte Unruhe. Präklinisch kardioprotektive Effekte; Wirkung mild und erst nach regelmäßiger Anwendung.",
+    "overstated": "Der populäre Ruf als 'Herzstärkungsmittel bei Herzschwäche' ist überholt: Die Indikation Herzinsuffizienz NYHA II wurde von der HMPC gestrichen (kein well-established use), da überzeugende klinische Nutzenbelege fehlen (SPICE-Studie). Weißdorn ersetzt weder ACE-Hemmer/Betablocker noch die kardiologische Diagnostik — die eigentliche Gefahr ist, dass Selbstbehandlung eine ernste Herzerkrankung verschleppt.",
+    "effect_size": "mild; symptomatisch, langsam einsetzend"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierter Trockenextrakt (z. B. WS 1442, LI 132) als Filmtablette/Kapsel", "Teeaufguss aus Blättern mit Blüten", "Tinktur"],
+    "form_rationale": "Für reproduzierbare Wirkung werden standardisierte Extrakte bevorzugt (definierter OPC-/Flavonoidgehalt). Ein Tee aus Blättern mit Blüten ist traditionell gebräuchlich, da Flavonoide/OPC teilweise wasserlöslich sind, aber weniger reproduzierbar dosiert.",
+    "standard_dose": "Standardisierte Extrakte typisch 160–900 mg Trockenextrakt/Tag (nach Präparat/Fachinformation); Tee: ca. 1–1,5 g Droge pro Tasse, mehrmals täglich. Wirkung erst nach mehrwöchiger regelmäßiger Einnahme. Bei Herzbeschwerden zunächst ärztliche Abklärung.",
+    "preservation": "Droge trocken, licht- und luftgeschützt lagern; Fertigpräparate nach Herstellerangabe."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Weißdorn oder Rosengewächse",
+      "Herzbeschwerden ohne ärztliche Abklärung — vor Selbstanwendung müssen ernste kardiale Ursachen ausgeschlossen sein"
+    ],
+    "pregnancy_lactation": "Unzureichende Datenlage; Anwendung in Schwangerschaft und Stillzeit mangels Daten nicht empfohlen bzw. nur nach ärztlicher Rücksprache. Defensiv: unsicher — zu prüfen.",
+    "adverse_effects": "Sehr selten und mild: gastrointestinale Beschwerden, Kopfschmerz, Schwindel, selten allergische Hautreaktionen. Insgesamt gute Verträglichkeit.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Theoretisch additive Effekte am Herzen: mögliche Verstärkung der Wirkung von Herzglykosiden (Digitalis) sowie von blutdruck-/herzwirksamen Arzneimitteln; klinisch bislang nicht belastbar belegt",
+        "affected": "Herzglykoside (Digoxin/Digitoxin), Antihypertensiva, Nitrate, Antiarrhythmika",
+        "clinical_relevance": "gering — überwiegend theoretisch; bei gleichzeitiger kardialer Medikation ärztlich begleiten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Weißdorn ist sehr sicher, aber NICHT bei echter Herzschwäche/Herzerkrankung geeignet — die frühere NYHA-II-Indikation ist gestrichen; er hilft nur bei nervösem Herzklopfen ohne organische Ursache, und ernste Herzsymptome müssen zuerst ärztlich abgeklärt werden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Belaubte, blühende Zweigspitzen (Blätter mit Blüten) zur Vollblüte im Mai; Früchte im Herbst (September/Oktober), falls separat verwendet.",
+    "harvest_month_tags": [5, 6],
+    "harvest_organ": "Blatt und Blüte (Folium cum Flore)",
+    "method": "Junge belaubte Blütentriebe an trockenen Tagen schneiden; nicht ganze Zweige abreißen (Hecken schonen).",
+    "processing": "Rasch und luftig im Schatten trocknen (Flavonoide licht-/wärmeempfindlich), nicht über ~40 °C.",
+    "storage": "Trocken, dunkel, luftdicht; getrocknete Droge innerhalb etwa eines Jahres verwenden."
+  },
+  "kitchen": {
+    "uses": ["Reife rote Früchte zu Mus, Gelee, Fruchtleder oder als Mehlzusatz", "Blüten/Blätter als milder Teeaufguss"],
+    "culinary_vs_medicinal": "Kulinarisch werden vor allem die mehligen roten Früchte genutzt (mild, ungiftig); arzneilich zählt der standardisierte Extrakt aus Blättern mit Blüten. Die Küchenverwendung ist unbedenklich, aber ohne relevanten arzneilichen Effekt."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig bis halbschattig, nahezu jeder nicht zu nasse Boden.",
+    "hardiness": "Vollkommen winterhart, sehr robust, langlebig.",
+    "propagation": "Aussaat (Kaltkeimer, oft erst im 2. Jahr keimend) oder Gehölzvermehrung; bewährtes Heckengehölz.",
+    "bodensee_suitability": "Heimisch und im Bodenseeraum sehr häufig; ideale, ökologisch wertvolle Heckenpflanze (Bienenweide, Vogelnährgehölz), bestens geeignet."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Dorniger Strauch mit weißen, 5-zähligen Blüten in Doldenrispen zur Maiblüte", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Tief gelapptes Blatt und Blüte mit einem Griffel (C. monogyna); Frucht mit einem Steinkern", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Crataegus spp., folium cum flore (traditional use, 2016; Streichung der NYHA-II-Indikation)",
+    "Kommission E — Crataegi folium cum flore (historisch positiv für NYHA II, nach heutiger HMPC-Bewertung überholt)",
+    "ESCOP — Crataegi folium cum flore",
+    "Benefit-Risk-Bewertung Crataegus-Extrakt WS 1442 / SPICE-Studie (Sekundärliteratur, Websuche)",
+    "Botanische Bestimmungsquellen zu Crataegus monogyna vs. laevigata und Abgrenzung Prunus spinosa (Websuche; EMA-Primärquelle beim direkten Abruf nicht erreichbar — Evidenzgrad ärztlich gegenzuprüfen)"
+  ]
+}

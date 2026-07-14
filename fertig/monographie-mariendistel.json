@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "id": "silybum-marianum",
+  "botany": {
+    "scientific_name": "Silybum marianum (L.) Gaertn.",
+    "common_names_de": ["Mariendistel", "Mariendistel", "Frauendistel", "Fieberdistel", "Christi Krone", "Milchdistel"],
+    "family": "Korbblütler (Asteraceae / Compositae)",
+    "drug_part": ["Frucht/Samen (Fructus)"],
+    "drug_name_latin": "Silybi mariani fructus (Cardui mariae fructus)",
+    "synonym_note": "Älteres Synonym: Carduus marianus L. Aktuell akzeptierter Name ist Silybum marianum (L.) Gaertn. — die id bezieht sich hierauf."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: große, glänzend dunkelgrüne Blätter mit auffälliger milchig-weißer Marmorierung/Netzzeichnung entlang der Blattadern — kein anderer heimischer Distelverwandter zeigt diese weiße Aderung",
+      "Blätter buchtig gelappt, am Rand mit gelblich-weißen, bis ~8 mm langen, kräftigen Dornen bewehrt",
+      "Blütenköpfe einzeln, groß (kugelig), purpurrot; Hüllblätter dick, ledrig, in lange dornige Anhängsel auslaufend",
+      "Aufrechte, kräftige ein- bis zweijährige Pflanze, 0,5–1,5 m hoch",
+      "Früchte glänzend braun-schwarz gesprenkelt mit weißlichem, leicht abfallendem Haarkranz (Pappus); Blütezeit Juni bis September",
+      "Standort: sonnig, warm, nährstoffreich; ursprünglich mediterran, bei uns verwildert an Wegrändern, Schuttplätzen, Weiden"
+    ],
+    "season": "Blüte Juni bis September; Fruchtreife August bis September",
+    "habitat": "Wärmeliebend; sonnige, nährstoffreiche Ruderalstellen, Weiden, Wegränder, Schuttplätze. Mediterrane Herkunft, in Mitteleuropa kultiviert und verwildert.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur-selten-verwildert"}
+    ],
+    "collection_rules": [
+      "Arzneilich zählt die reife FRUCHT, nicht das Kraut — Früchte erst bei voller Reife (glänzend, hart) ernten.",
+      "Die weiße Blattmarmorierung ist das entscheidende Bestätigungsmerkmal gegenüber allen anderen violett blühenden Disteln (Kratzdistel, Ringdistel, Eselsdistel), deren Blätter durchgehend grün sind.",
+      "Vorsicht beim Umgang mit den kräftigen Dornen (Hüllblätter, Blattrand); feste Handschuhe."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Eselsdistel",
+      "scientific_name": "Onopordum acanthium",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ähnliche Wuchsform und purpurne Blütenköpfe, aber Blätter graugrün-filzig und OHNE die weiße Aderung; Stängel breit geflügelt. Ungiftig. Verwechslung harmlos, arzneilich aber nicht gleichwertig (kein Silymarin)."
+    },
+    {
+      "name": "Kratzdisteln / Ringdisteln",
+      "scientific_name": "Cirsium spp. / Carduus spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Zahlreiche wilde, violett blühende Distelarten mit dorniger Wuchsform. Unterscheidung: Laubblätter durchgehend grün, NIEMALS milchig-weiß marmoriert. Ungiftig; Verwechslung ungefährlich, liefert jedoch keine wirksame Droge."
+    },
+    {
+      "name": "Keine giftige oder lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Die Mariendistel ist durch die weiße Blattmarmorierung eindeutig kennzeichenbar; alle in Frage kommenden Doppelgänger sind andere ungiftige Distelverwandte. Ein giftiger oder tödlicher Doppelgänger ist nicht bekannt. Die Pflanze selbst ist in allen Teilen ungiftig (junge Blätter/Knospen/Wurzel sogar essbar)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonolignane, zusammengefasst als Silymarin-Komplex (Frucht ~1,5–3 %): v. a. Silibinin (Silybin A/B), Silychristin, Silydianin, Isosilibinin",
+      "Fettes Öl (~20–30 % in der Frucht), Eiweiß",
+      "Flavonoide, Sterole, Schleimstoffe (geringe Anteile)"
+    ],
+    "lead_substance": "Silymarin (Leitsubstanz Silibinin) — membranstabilisierend/antioxidativ an der Leberzelle; Standardisierung der Extrakte erfolgt auf Silymarin, berechnet als Silibinin.",
+    "solubility_note": "ENTSCHEIDEND: Silymarin ist lipophil und in Wasser sehr schlecht löslich. Ein Tee aus den Früchten enthält daher kaum Wirkstoff und ist pharmakologisch weitgehend unwirksam. Arzneilich sinnvoll sind nur STANDARDISIERTE Trockenextrakte (Kapseln/Dragees), z. T. mit galenisch verbesserter Bioverfügbarkeit.",
+    "heat_light_sensitivity": "Silymarin gilt als hinreichend stabil; das fette Öl der Frucht kann bei langer/warmer Lagerung ranzig werden. Ganze Früchte trocken und kühl lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Silibinin wirkt experimentell antioxidativ (Radikalfänger), membranstabilisierend an der Hepatozytenmembran (erschwert das Eindringen von Lebergiften) und fördert präklinisch die Regeneration von Leberzellen (Stimulation der RNA-/Proteinsynthese). Für die intravenöse Silibinin-Form ist zudem eine kompetitive Hemmung der Aufnahme des Knollenblätterpilz-Gifts Amatoxin in die Leberzelle belegt.",
+    "evidence_caveat": "Die zellulären Mechanismen sind gut untersucht, die klinische Wirksamkeit der ORALEN Zubereitung bei Lebererkrankungen ist jedoch uneinheitlich und für einen well-established-use-Status nach HMPC NICHT ausreichend belegt (siehe indications). Populärer Ruf als 'Leberschutz' übersteigt die belastbare Studienlage. Klar abzugrenzen ist die intravenöse Silibinin-Therapie bei Amanita-Vergiftung — das ist eine klinische Notfallmaßnahme, keine Selbstanwendung.",
+    "pharmacokinetics": "Orale Bioverfügbarkeit von Silymarin gering (schlechte Wasserlöslichkeit; resorbierter Anteil je nach Galenik grob 20–50 %). Überwiegend biliäre Ausscheidung, enterohepatischer Kreislauf. Verbesserte Galeniken (z. B. Phospholipid-/Solubilisat-Formulierungen) erhöhen die Aufnahme."
+  },
+  "indications": [
+    {
+      "canonical": "Funktionelle dyspeptische Beschwerden (Völlegefühl, Blähungen)",
+      "synonyms": ["Verdauungsbeschwerden", "Völlegefühl", "Blähungen", "Druckgefühl im Oberbauch", "Reizmagen", "verdorbener Magen"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC führt Silybi mariani fructus ausschließlich als traditional use: symptomatische Behandlung von Verdauungsbeschwerden (Völlegefühl, Blähungen). Kommission E: dyspeptische Beschwerden.",
+      "realistic_expectation": "Kann leichte Verdauungsbeschwerden symptomatisch lindern. Keine belegte kausale Heilwirkung; kein Ersatz für die Abklärung anhaltender Oberbauchbeschwerden.",
+      "source": "EMA/HMPC EU herbal monograph Silybum marianum (L.) Gaertn., fructus (traditional use); Kommission E"
+    },
+    {
+      "canonical": "Unterstützung der Leberfunktion / begleitend bei toxischen Leberschäden und chronisch-entzündlichen Lebererkrankungen",
+      "synonyms": ["Leberschutz", "Leberkur", "Fettleber", "Leberentgiftung", "erhöhte Leberwerte", "Leberzirrhose (begleitend)"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC: traditional use 'zur Unterstützung der Leberfunktion' — ausdrücklich NICHT well-established use. Kommission E positiv für Mariendistel-Zubereitungen (standardisiert) bei toxischen Leberschäden und supportiv bei chronisch-entzündlichen Lebererkrankungen und Leberzirrhose. ESCOP nennt supportive/adjuvante Anwendung bei alkoholisch/toxischen und chronisch-entzündlichen Leberleiden. Klinische Wirksamkeitsnachweise bleiben uneinheitlich.",
+      "realistic_expectation": "Traditionell/adjuvant zur Unterstützung — KEIN Freibrief: ersetzt weder Alkoholkarenz noch die Behandlung der Grunderkrankung und keine hepatologische Diagnostik. Der beworbene 'Leberschutz' ist deutlich stärker als die belastbare Evidenz. Nur standardisierte Extrakte sind sinnvoll; Tee wirkt praktisch nicht.",
+      "source": "EMA/HMPC (traditional use); Kommission E; ESCOP — Silybi mariani fructus"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliches pflanzliches Mittel, das leichte Verdauungsbeschwerden lindern und begleitend/traditionell die Leberfunktion unterstützen kann. Präklinisch gut belegte antioxidative/membranstabilisierende Effekte des Silymarins. Sinnvoll nur als standardisierter Extrakt.",
+    "overstated": "Der Ruf als kausaler 'Leberschützer/Entgifter' übersteigt die Evidenz: HMPC vergibt nur traditional use, KEIN well-established use. Als Tee praktisch unwirksam (Silymarin wasserunlöslich). Ersetzt keine Ursachenbehandlung (z. B. Alkoholkarenz) und keine ärztliche Leberdiagnostik. Die spektakuläre i.v.-Silibinin-Wirkung bei Knollenblätterpilz-Vergiftung ist eine Klinik-Notfalltherapie, kein Argument für die Kapsel-Selbstanwendung.",
+    "effect_size": "mild bis moderat; symptomatisch/supportiv, nicht kurativ"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierter Trockenextrakt (Kapseln/Dragees), auf Silymarin berechnet als Silibinin", "galenisch bioverfügbarkeitsverbesserte Extrakte"],
+    "form_rationale": "Weil Silymarin lipophil und wasserunlöslich ist, geht es kaum in einen Tee über. Wirksam sind nur konzentrierte, standardisierte Trockenextrakte. Tee/loses Pulver sind allenfalls für milde dyspeptische Anwendung tradiert, aber pharmakologisch schwach.",
+    "standard_dose": "Übliche standardisierte Extrakte liefern ca. 200–400 mg Silymarin pro Tag (berechnet als Silibinin), verteilt auf mehrere Einzelgaben; genaue Dosierung nach Präparat/Fachinformation. Bei anhaltenden Beschwerden oder Verdacht auf Lebererkrankung ärztliche Abklärung.",
+    "preservation": "Fertigpräparate laut Herstellerangabe. Ganze Früchte trocken, kühl und lichtgeschützt lagern (fettes Öl neigt zum Ranzigwerden)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Mariendistel oder andere Korbblütler (Asteraceae)"
+    ],
+    "pregnancy_lactation": "Unzureichende Datenlage. Mangels systematischer Sicherheitsdaten wird die Anwendung in Schwangerschaft und Stillzeit nicht empfohlen bzw. sollte nur nach ärztlicher Rücksprache erfolgen. Einstufung defensiv: unsicher — zu prüfen.",
+    "adverse_effects": "Insgesamt gut verträglich. Gelegentlich leicht laxierende Wirkung, selten milde gastrointestinale Beschwerden (Übelkeit, weicher Stuhl). Selten allergische Reaktionen, besonders bei Korbblütler-Allergie.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Silymarin hemmt in vitro schwach mehrere CYP450-Enzyme (v. a. CYP2C9, CYP3A4, CYP2C19, CYP2D6) sowie Transporter (P-gp, OATP); klinisch überwiegend nur bei supratherapeutischen Konzentrationen und meist ohne relevante Auswirkung",
+        "affected": "CYP-abhängig verstoffwechselte Arzneistoffe (z. B. bestimmte Antikoagulanzien, Statine); Relevanz im Einzelfall bei enger therapeutischer Breite prüfen",
+        "clinical_relevance": "gering — überwiegend theoretisch/in vitro; bei kritischen Substraten (z. B. Vitamin-K-Antagonisten) vorsichtshalber beachten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Mariendistel unterstützt die Leber allenfalls begleitend (nur traditional use, KEIN well-established use) und nur als standardisierter Extrakt — der Tee ist praktisch unwirksam; erhöhte Leberwerte oder Lebererkrankungen gehören ärztlich abgeklärt und ursächlich behandelt, nicht mit einer 'Leberkur' überdeckt."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Reife Früchte im Spätsommer (August bis September), wenn die Blütenköpfe aufblühen/aufplatzen und der weiße Haarkranz erscheint.",
+    "harvest_month_tags": [8, 9],
+    "harvest_organ": "Frucht (Fructus / reife Samen)",
+    "method": "Reife Blütenköpfe abschneiden, nachtrocknen, Früchte ausklopfen und vom Pappus (Haarkranz) trennen. Handschuhe wegen der Dornen.",
+    "processing": "Früchte vollständig trocknen; für die Anwendung wird standardisiert extrahiert (industriell). Selbstgemahlenes Pulver ist wegen schlechter Wirkstofffreisetzung schwach.",
+    "storage": "Trocken, kühl, lichtgeschützt und luftdicht; wegen des fetten Öls begrenzt haltbar (Ranzigkeit vermeiden)."
+  },
+  "kitchen": {
+    "uses": ["Junge, entdornte Blätter als Gemüse/Salat", "geschälte Blütenböden ähnlich Artischocke", "geröstete Früchte historisch als Kaffee-Ersatz"],
+    "culinary_vs_medicinal": "Kulinarisch werden die ungiftigen jungen Pflanzenteile genutzt; arzneilich zählt allein der Silymarin-Gehalt der reifen Frucht, der über die Küche nicht relevant aufgenommen wird."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, durchlässiger, nährstoffreicher Boden; anspruchslos, versamt sich stark.",
+    "hardiness": "Ein- bis zweijährig; frosthart genug für Mitteleuropa, stirbt nach der Fruchtreife ab.",
+    "propagation": "Aussaat im Frühjahr direkt ins Freiland; selbstaussäend (kann sich ausbreiten).",
+    "bodensee_suitability": "Im wärmebegünstigten Bodenseeraum gut kultivierbar; als Zier-/Nutzpflanze geeignet, neigt aber zum Verwildern — Selbstaussaat im Auge behalten."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Kräftige Distel mit purpurnen Blütenköpfen und weiß marmorierten, dornigen Blättern", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blatt mit charakteristischer milchig-weißer Aderung/Marmorierung — sicheres Bestimmungsmerkmal", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Silybum marianum (L.) Gaertn., fructus (traditional use; Silybi mariani fructus)",
+    "Kommission E — Cardui mariae fructus / Mariendistelfrüchte (positiv: dyspeptische Beschwerden; toxische Leberschäden, supportiv bei chronisch-entzündlichen Lebererkrankungen und Zirrhose)",
+    "ESCOP — Cardui mariae fructus / Silybi mariani fructus",
+    "Fachquellen zu Silymarin-Löslichkeit/Bioverfügbarkeit und CYP-Interaktionen (Websuche; Primärquelle EMA-PDF beim direkten Abruf nicht erreichbar — Evidenzgrad ärztlich gegenzuprüfen)"
+  ]
+}

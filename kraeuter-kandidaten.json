@@ -75,8 +75,8 @@
       "latin": "Silybum marianum",
       "tier": 1,
       "reason": "WEU Lebererkrankungen (Silymarin)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-mariendistel.json"
     },
     {
       "id": "crataegus-monogyna",
@@ -84,8 +84,8 @@
       "latin": "Crataegus monogyna",
       "tier": 1,
       "reason": "WEU Herzinsuffizienz NYHA II — kardiale Indikation, neu im Katalog",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-weissdorn.json"
     },
     {
       "id": "aesculus-hippocastanum",
