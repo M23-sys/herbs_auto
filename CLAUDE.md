@@ -6,9 +6,9 @@ entsprechend: fachlich präzise, aber defensiv.
 
 > **Betriebsart: autonome Cloud-Routine.** Dieses Repository wird alle 6 Stunden von
 > einer Claude-Code-Routine bearbeitet. **Niemand bestätigt dabei etwas, niemand liest
-> mit.** Jeder Lauf startet mit einem frischen Klon von `main` und ohne jede Erinnerung
-> an den Lauf davor. Der gesamte Zustand steckt in den Dateien dieses Repos — was du
-> nicht committest, ist verloren.
+> mit.** Jeder Lauf startet mit einem frischen Klon des Default-Branches und ohne jede
+> Erinnerung an den Lauf davor. Der gesamte Zustand steckt in den Dateien dieses Repos —
+> was du nicht erfolgreich pushst, ist verloren.
 
 ## Dateien in diesem Projekt
 
@@ -23,6 +23,37 @@ entsprechend: fachlich präzise, aber defensiv.
 | `fertig/` | Hier landen abgeschlossene Monographien |
 | `state/lauf-log.md` | Protokoll jedes Laufs |
 | `docs/kraeuter-kandidaten.md` | Nur Lesestoff. **Nicht maßgeblich, nicht bearbeiten.** |
+
+## Git — bitte genau lesen
+
+Der Default-Branch dieses Repos heißt **`claude/main`**. Das ist Absicht, kein Versehen:
+Routine-Läufe dürfen nur auf Branches pushen, die mit `claude/` beginnen. Ein Branch
+namens `main` wäre für dich unerreichbar.
+
+Daraus folgen zwei Regeln:
+
+**1. Lege KEINEN eigenen Arbeitsbranch an.**
+Kein `git checkout -b`, kein Branch mit Zufallsnamen. Arbeite direkt auf dem Branch, den
+der Klon mitbringt (`claude/main`). Ein Commit auf einem selbst angelegten Branch ist
+verloren — der nächste Lauf klont wieder `claude/main` und sieht ihn nie.
+
+**2. Committe immer alles zusammen:**
+die Monographien **plus** die Statusänderung in `kraeuter-kandidaten.json` **plus** das
+Log. Ein Commit ohne Statusänderung führt dazu, dass der nächste Lauf dieselben Kräuter
+noch einmal bearbeitet.
+
+```bash
+git add -A
+git commit -m "monographien: <Kraut1>, <Kraut2>"
+git push origin claude/main
+```
+
+Scheitert der Push, weil sich `claude/main` zwischenzeitlich geändert hat:
+`git pull --rebase origin claude/main`, dann erneut pushen.
+
+Scheitert der Push mit **403**: Das ist eine Rechte- oder Policy-Sperre, kein Netzfehler.
+Nicht wiederholen, nicht umgehen, keinen anderen Branch und keinen anderen Schreibweg
+suchen. Melde den Fehler im Klartext und beende den Lauf.
 
 ## Ablauf pro Lauf
 
@@ -39,7 +70,7 @@ schlimmer als ein kleiner Katalog.
 5. JSON nach `monographie-template.json` ausfüllen
 6. `python3 validate_monographie.py fertig/monographie-xyz.json` — muss fehlerfrei sein
 7. Status auf `"entwurf_fertig"` setzen, `"datei"` eintragen
-8. `state/lauf-log.md` ergänzen, committen, auf `main` pushen
+8. `state/lauf-log.md` ergänzen, committen, auf `claude/main` pushen
 
 ### Abbruchbedingung — wichtig
 
@@ -119,14 +150,6 @@ Das sind **keine Heilpflanzen**, sondern Erkennungs- und Warneinträge:
 - **`synonyms` pro Indikation:** Laienbegriffe! Davon lebt die Symptomsuche
   („Halsschmerzen" muss „Rachenentzündung" finden)
 - **`realistic_expectation`:** Was darf man erwarten — und was **nicht**
-
-## Git
-
-- Committe auf `main`. Commit-Message: `monographien: <Kraut1>, <Kraut2>`
-- Scheitert der Push, weil `main` sich geändert hat: `git pull --rebase`, dann erneut pushen
-- Committe **immer** alles zusammen: die Monographien, den Status in
-  `kraeuter-kandidaten.json` und das Log. Ein Commit ohne Statusänderung führt dazu,
-  dass der nächste Lauf dieselben Kräuter noch einmal bearbeitet.
 
 ## Zum Schluss
 
