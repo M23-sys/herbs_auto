@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "id": "gattung-art",
+  "botany": {
+    "scientific_name": "",
+    "common_names_de": [
+      ""
+    ],
+    "family": "",
+    "drug_part": [
+      ""
+    ],
+    "drug_name_latin": ""
+  },
+  "identification": {
+    "key_features": [
+      "",
+      "",
+      ""
+    ],
+    "season": "",
+    "habitat": "",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      ""
+    ]
+  },
+  "confusions": [
+    {
+      "name": "",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": ""
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      ""
+    ],
+    "lead_substance": "",
+    "solubility_note": "",
+    "heat_light_sensitivity": ""
+  },
+  "pharmacology": {
+    "mechanism": "",
+    "evidence_caveat": "",
+    "pharmacokinetics": ""
+  },
+  "indications": [
+    {
+      "canonical": "",
+      "synonyms": [
+        ""
+      ],
+      "evidence_tag": "TU",
+      "comment": "",
+      "realistic_expectation": "",
+      "source": ""
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "",
+    "overstated": "",
+    "effect_size": ""
+  },
+  "preparation": {
+    "recommended_forms": [
+      ""
+    ],
+    "form_rationale": "",
+    "standard_dose": "",
+    "preservation": ""
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      ""
+    ],
+    "pregnancy_lactation": "",
+    "adverse_effects": "",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "",
+        "affected": "",
+        "clinical_relevance": ""
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": ""
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "",
+    "processing": "",
+    "storage": ""
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": ""
+  },
+  "garden": {
+    "site_soil": "",
+    "hardiness": "",
+    "propagation": "",
+    "bodensee_suitability": ""
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    ""
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kräuter-Monographie",
+  "description": "Struktureller Vertrag. Die SEMANTISCHEN Sicherheitsregeln (z.B. deadly_confusion muss gesetzt sein, wenn ein Doppelgänger lebensgefährlich ist) prüft validate_monographie.py — nicht dieses Schema.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "botany",
+    "identification",
+    "confusions",
+    "chemistry",
+    "pharmacology",
+    "indications",
+    "expectation_summary",
+    "preparation",
+    "safety",
+    "harvest_processing_storage",
+    "kitchen",
+    "garden",
+    "sources"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+-[a-z]+$",
+      "description": "gattung-art, klein, exakt der akzeptierte botanische Name. Die App gleicht Pl@ntNet-Treffer darüber ab."
+    },
+    "botany": {
+      "type": "object",
+      "required": [
+        "scientific_name",
+        "common_names_de",
+        "family",
+        "drug_part"
+      ],
+      "properties": {
+        "scientific_name": {
+          "type": "string"
+        },
+        "common_names_de": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "family": {
+          "type": "string"
+        },
+        "drug_part": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "drug_name_latin": {
+          "type": "string"
+        },
+        "synonym_note": {
+          "type": "string",
+          "description": "nur bei Taxonomie-Änderung, z.B. Rosmarinus -> Salvia"
+        }
+      }
+    },
+    "identification": {
+      "type": "object",
+      "required": [
+        "key_features",
+        "habitat",
+        "region_occurrence",
+        "collection_rules"
+      ],
+      "properties": {
+        "key_features": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          },
+          "description": "das SICHERSTE Merkmal zuerst"
+        },
+        "season": {
+          "type": "string"
+        },
+        "habitat": {
+          "type": "string"
+        },
+        "region_occurrence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "region": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "wild-haeufig",
+                  "wild-selten",
+                  "wild-sehr-haeufig",
+                  "kultur-und-verwildert",
+                  "nur-kultur",
+                  "nur-kultur-selten-verwildert"
+                ]
+              }
+            }
+          }
+        },
+        "collection_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "confusions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "NIEMALS leer lassen. Gibt es keine, einen Eintrag 'keine relevante Verwechslung bekannt' mit Begründung.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "toxicity_level",
+          "note"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "scientific_name": {
+            "type": "string"
+          },
+          "toxicity_level": {
+            "enum": [
+              "essbar",
+              "giftig",
+              "lebensgefährlich"
+            ]
+          },
+          "toxin": {
+            "type": "string",
+            "description": "Pflicht, wenn giftig oder lebensgefährlich"
+          },
+          "note": {
+            "type": "string",
+            "description": "WIE unterscheiden — feldtauglich, konkret"
+          }
+        }
+      }
+    },
+    "chemistry": {
+      "type": "object",
+      "required": [
+        "main_groups",
+        "lead_substance",
+        "solubility_note"
+      ],
+      "properties": {
+        "main_groups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lead_substance": {
+          "type": "string"
+        },
+        "solubility_note": {
+          "type": "string",
+          "description": "Leitet die Zubereitungsform her: Tee vs. Öl vs. Tinktur"
+        },
+        "heat_light_sensitivity": {
+          "type": "string"
+        }
+      }
+    },
+    "pharmacology": {
+      "type": "object",
+      "required": [
+        "mechanism",
+        "evidence_caveat"
+      ],
+      "properties": {
+        "mechanism": {
+          "type": "string"
+        },
+        "evidence_caveat": {
+          "type": "string",
+          "description": "Wo ist die Datenlage schwach? Ehrlich."
+        },
+        "pharmacokinetics": {
+          "type": "string"
+        }
+      }
+    },
+    "indications": {
+      "type": "array",
+      "description": "Bei Warneinträgen (flags.not_for_use) LEER.",
+      "items": {
+        "type": "object",
+        "required": [
+          "canonical",
+          "synonyms",
+          "evidence_tag",
+          "realistic_expectation",
+          "source"
+        ],
+        "properties": {
+          "canonical": {
+            "type": "string",
+            "description": "medizinischer Fachbegriff"
+          },
+          "synonyms": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "description": "Laienbegriffe — davon lebt die Suche"
+          },
+          "evidence_tag": {
+            "type": "string",
+            "pattern": "^(WEU|RCT|ESCOP\\+|TU|PRÄ|TRAD)(/(WEU|RCT|ESCOP\\+|TU|PRÄ|TRAD))*$"
+          },
+          "comment": {
+            "type": "string"
+          },
+          "realistic_expectation": {
+            "type": "string",
+            "description": "Was darf man erwarten — und was NICHT"
+          },
+          "source": {
+            "type": "string",
+            "description": "konkret: 'HMPC traditional use', 'ESCOP', 'Cochrane 2016'"
+          }
+        }
+      }
+    },
+    "expectation_summary": {
+      "type": "object",
+      "required": [
+        "plausible",
+        "overstated"
+      ],
+      "properties": {
+        "plausible": {
+          "type": "string"
+        },
+        "overstated": {
+          "type": "string"
+        },
+        "effect_size": {
+          "type": "string"
+        }
+      }
+    },
+    "preparation": {
+      "type": "object",
+      "required": [
+        "recommended_forms",
+        "form_rationale"
+      ],
+      "properties": {
+        "recommended_forms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "form_rationale": {
+          "type": "string",
+          "description": "aus der Chemie abgeleitet"
+        },
+        "standard_dose": {
+          "type": "string"
+        },
+        "preservation": {
+          "type": "string"
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "contraindications",
+        "pregnancy_lactation",
+        "interactions",
+        "flags",
+        "key_warning"
+      ],
+      "properties": {
+        "tox_ceiling": {
+          "type": "string",
+          "description": "Pflicht, wenn flags.toxin_ceiling true"
+        },
+        "contraindications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pregnancy_lactation": {
+          "type": "string"
+        },
+        "adverse_effects": {
+          "type": "string"
+        },
+        "interactions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "pharmakokinetisch",
+                  "pharmakodynamisch",
+                  "theoretisch",
+                  "keine relevanten"
+                ]
+              },
+              "mechanism": {
+                "type": "string"
+              },
+              "affected": {
+                "type": "string"
+              },
+              "clinical_relevance": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "flags": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "deadly_confusion": {
+              "type": "boolean"
+            },
+            "toxin_ceiling": {
+              "type": "boolean"
+            },
+            "raw_toxicity": {
+              "type": "boolean"
+            },
+            "requires_heating": {
+              "type": "boolean"
+            },
+            "hepatotoxic": {
+              "type": "boolean"
+            },
+            "pregnancy_contraindicated": {
+              "type": "boolean"
+            },
+            "interaction_heavy": {
+              "type": "boolean"
+            },
+            "cyp3a4_inducer": {
+              "type": "boolean"
+            },
+            "pgp_inducer": {
+              "type": "boolean"
+            },
+            "serotonergic": {
+              "type": "boolean"
+            },
+            "lowers_seizure_threshold": {
+              "type": "boolean"
+            },
+            "photosensitizing": {
+              "type": "boolean"
+            },
+            "asteraceae_allergy": {
+              "type": "boolean"
+            },
+            "apiaceae_confusion_young": {
+              "type": "boolean"
+            },
+            "topical_only": {
+              "type": "boolean"
+            },
+            "high_safety": {
+              "type": "boolean"
+            },
+            "infant_facial_caution": {
+              "type": "boolean"
+            },
+            "not_for_use": {
+              "type": "boolean"
+            },
+            "reflux_caution": {
+              "type": "boolean"
+            },
+            "cardiorenal_flush_caution": {
+              "type": "boolean"
+            },
+            "oil_age_restriction": {
+              "type": "boolean"
+            },
+            "toxin_type": {
+              "type": "string",
+              "description": "Pflicht, wenn toxin_ceiling true. z.B. 'Thujon', 'Pyrrolizidinalkaloide'"
+            }
+          }
+        },
+        "key_warning": {
+          "type": "string",
+          "description": "Der EINE Satz, der im Feld zählt"
+        }
+      }
+    },
+    "harvest_processing_storage": {
+      "type": "object",
+      "required": [
+        "harvest_time",
+        "harvest_month_tags",
+        "harvest_organ"
+      ],
+      "properties": {
+        "harvest_time": {
+          "type": "string"
+        },
+        "harvest_month_tags": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          }
+        },
+        "harvest_organ": {
+          "type": "string",
+          "description": "Blatt | Blüte | Wurzel | Kraut | Frucht | Rinde | Samen"
+        },
+        "method": {
+          "type": "string"
+        },
+        "processing": {
+          "type": "string"
+        },
+        "storage": {
+          "type": "string"
+        }
+      }
+    },
+    "kitchen": {
+      "type": "object",
+      "properties": {
+        "uses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "culinary_vs_medicinal": {
+          "type": "string"
+        }
+      }
+    },
+    "garden": {
+      "type": "object",
+      "properties": {
+        "site_soil": {
+          "type": "string"
+        },
+        "hardiness": {
+          "type": "string"
+        },
+        "propagation": {
+          "type": "string"
+        },
+        "bodensee_suitability": {
+          "type": "string"
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "user_layer": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

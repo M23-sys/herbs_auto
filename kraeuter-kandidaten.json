@@ -1,0 +1,820 @@
+{
+  "schema_version": "1.0",
+  "beschreibung": "Arbeitswarteschlange für Monographien. Claude Code arbeitet Stufe 1 zuerst ab, in Stapeln von 3-5.",
+  "status_werte": [
+    "offen",
+    "in_arbeit",
+    "entwurf_fertig",
+    "geprueft",
+    "uebersprungen"
+  ],
+  "stufen": {
+    "1": "Höchste Evidenz (HMPC well-established use / RCT) — Rückgrat des Katalogs",
+    "2": "Sicherheitskritisch (Toxine, Verwechslung, Interaktion) — füllt die Register",
+    "3": "Warneinträge: Giftpflanzen ohne Anwendung, nur Erkennung und Warnung",
+    "4": "Regional wild (Bodensee/Voralpen)",
+    "5": "Küche und Mittelmeer"
+  },
+  "vorhanden": [
+    "salvia-officinalis",
+    "allium-ursinum",
+    "hypericum-perforatum",
+    "sambucus-nigra",
+    "symphytum-officinale",
+    "mentha-piperita",
+    "thymus-vulgaris",
+    "matricaria-chamomilla",
+    "urtica-dioica",
+    "calendula-officinalis",
+    "achillea-millefolium",
+    "melissa-officinalis",
+    "artemisia-absinthium",
+    "plantago-lanceolata",
+    "salvia-rosmarinus"
+  ],
+  "kandidaten": [
+    {
+      "id": "valeriana-officinalis",
+      "common": "Baldrian",
+      "latin": "Valeriana officinalis",
+      "tier": 1,
+      "reason": "WEU/ESCOP Schlaf & Unruhe — stärkste Sedativum-Evidenz",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "hedera-helix",
+      "common": "Efeu",
+      "latin": "Hedera helix",
+      "tier": 1,
+      "reason": "WEU produktiver Husten",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "primula-veris",
+      "common": "Echte Schlüsselblume",
+      "latin": "Primula veris",
+      "tier": 1,
+      "reason": "WEU nur in Fixkombination (mit Thymian) — Evidenz-Lehrstück",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "althaea-officinalis",
+      "common": "Eibisch",
+      "latin": "Althaea officinalis",
+      "tier": 1,
+      "reason": "Schleimdroge, Reizhusten",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "silybum-marianum",
+      "common": "Mariendistel",
+      "latin": "Silybum marianum",
+      "tier": 1,
+      "reason": "WEU Lebererkrankungen (Silymarin)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "crataegus-monogyna",
+      "common": "Weißdorn",
+      "latin": "Crataegus monogyna",
+      "tier": 1,
+      "reason": "WEU Herzinsuffizienz NYHA II — kardiale Indikation, neu im Katalog",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "aesculus-hippocastanum",
+      "common": "Rosskastanie",
+      "latin": "Aesculus hippocastanum",
+      "tier": 1,
+      "reason": "WEU chronische Veneninsuffizienz",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "zingiber-officinale",
+      "common": "Ingwer",
+      "latin": "Zingiber officinale",
+      "tier": 1,
+      "reason": "WEU Reisekrankheit/Übelkeit; Blutungs-Interaktion",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "plantago-ovata",
+      "common": "Indischer Flohsamen",
+      "latin": "Plantago ovata",
+      "tier": 1,
+      "reason": "WEU Obstipation/Reizdarm",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "linum-usitatissimum",
+      "common": "Lein",
+      "latin": "Linum usitatissimum",
+      "tier": 1,
+      "reason": "Quellstoff-Laxans; Blausäureglykoside",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "frangula-alnus",
+      "common": "Faulbaum",
+      "latin": "Frangula alnus",
+      "tier": 1,
+      "reason": "Anthranoid-Laxans; Missbrauchsrisiko, regional wild",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "foeniculum-vulgare",
+      "common": "Fenchel",
+      "latin": "Foeniculum vulgare",
+      "tier": 1,
+      "reason": "Karminativum; Estragol-Frage bei Kindern",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "pimpinella-anisum",
+      "common": "Anis",
+      "latin": "Pimpinella anisum",
+      "tier": 1,
+      "reason": "Karminativum, Expektorans",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "carum-carvi",
+      "common": "Kümmel",
+      "latin": "Carum carvi",
+      "tier": 1,
+      "reason": "Karminativum; stärkste Blähungs-Evidenz",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "glycyrrhiza-glabra",
+      "common": "Süßholz",
+      "latin": "Glycyrrhiza glabra",
+      "tier": 1,
+      "reason": "Ulkus/Husten; Pseudohyperaldosteronismus — Toxin-Grenze!",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "cetraria-islandica",
+      "common": "Isländisches Moos",
+      "latin": "Cetraria islandica",
+      "tier": 1,
+      "reason": "Schleimhautreizung; Flechte, kein Kraut",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "passiflora-incarnata",
+      "common": "Passionsblume",
+      "latin": "Passiflora incarnata",
+      "tier": 1,
+      "reason": "Unruhe/Einschlafhilfe",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "lavandula-angustifolia",
+      "common": "Lavendel",
+      "latin": "Lavandula angustifolia",
+      "tier": 1,
+      "reason": "Silexan: RCT bei Angststörung — starke Evidenz",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "ginkgo-biloba",
+      "common": "Ginkgo",
+      "latin": "Ginkgo biloba",
+      "tier": 1,
+      "reason": "WEU Demenz/Claudicatio; Blutungsrisiko",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "cynara-cardunculus",
+      "common": "Artischocke",
+      "latin": "Cynara cardunculus",
+      "tier": 1,
+      "reason": "Dyspepsie, Lipidsenkung; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "arctostaphylos-uva-ursi",
+      "common": "Echte Bärentraube",
+      "latin": "Arctostaphylos uva-ursi",
+      "tier": 1,
+      "reason": "Harnwegsinfekt; strikte Anwendungsdauer (Hydrochinon)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "vitex-agnus-castus",
+      "common": "Mönchspfeffer",
+      "latin": "Vitex agnus-castus",
+      "tier": 1,
+      "reason": "PMS/Mastodynie; Prolaktin, Interaktionen",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "cucurbita-pepo",
+      "common": "Gartenkürbis",
+      "latin": "Cucurbita pepo",
+      "tier": 1,
+      "reason": "BPH-Miktionsbeschwerden — 2. Prostata-Fall",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "echinacea-purpurea",
+      "common": "Purpur-Sonnenhut",
+      "latin": "Echinacea purpurea",
+      "tier": 1,
+      "reason": "Erkältung — klassischer 'Erwartung dämpfen'-Fall",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "allium-sativum",
+      "common": "Knoblauch",
+      "latin": "Allium sativum",
+      "tier": 1,
+      "reason": "Lipide/Blutdruck; Blutungs-Interaktion; Bärlauch-Verwandter",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "tussilago-farfara",
+      "common": "Huflattich",
+      "latin": "Tussilago farfara",
+      "tier": 2,
+      "reason": "Pyrrolizidinalkaloide — 1. PA-Fall",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "petasites-hybridus",
+      "common": "Gewöhnliche Pestwurz",
+      "latin": "Petasites hybridus",
+      "tier": 2,
+      "reason": "PA + Migräne-Evidenz + Hepatotoxizität",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "borago-officinalis",
+      "common": "Borretsch",
+      "latin": "Borago officinalis",
+      "tier": 2,
+      "reason": "PA im Kraut — Küchenkraut mit Toxin",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "chelidonium-majus",
+      "common": "Schöllkraut",
+      "latin": "Chelidonium majus",
+      "tier": 2,
+      "reason": "Hepatotoxizität — Marktrücknahmen",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "acorus-calamus",
+      "common": "Kalmus",
+      "latin": "Acorus calamus",
+      "tier": 2,
+      "reason": "beta-Asaron, kanzerogen — Toxin-Grenze",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "tanacetum-vulgare",
+      "common": "Rainfarn",
+      "latin": "Tanacetum vulgare",
+      "tier": 2,
+      "reason": "Thujon — 3. Thujon-Träger, macht Register robust",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "artemisia-vulgaris",
+      "common": "Gewöhnlicher Beifuß",
+      "latin": "Artemisia vulgaris",
+      "tier": 2,
+      "reason": "Wermut-Verwandter; Allergen",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "galium-odoratum",
+      "common": "Waldmeister",
+      "latin": "Galium odoratum",
+      "tier": 2,
+      "reason": "Cumarin — Dosisgrenze, Küchenklassiker",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "actaea-racemosa",
+      "common": "Traubensilberkerze",
+      "latin": "Actaea racemosa",
+      "tier": 2,
+      "reason": "Menopause; Lebertoxizität-Signal",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "angelica-archangelica",
+      "common": "Echte Engelwurz",
+      "latin": "Angelica archangelica",
+      "tier": 2,
+      "reason": "Doldenblütler; Furocumarine/Photosensibilisierung",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "aegopodium-podagraria",
+      "common": "Giersch",
+      "latin": "Aegopodium podagraria",
+      "tier": 2,
+      "reason": "Doldenblütler-Verwechslung; Wildgemüse",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "anthriscus-cerefolium",
+      "common": "Echter Kerbel",
+      "latin": "Anthriscus cerefolium",
+      "tier": 2,
+      "reason": "VERWECHSLUNG mit Schierling — tödlich",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "rumex-acetosa",
+      "common": "Wiesen-Sauerampfer",
+      "latin": "Rumex acetosa",
+      "tier": 2,
+      "reason": "Oxalsäure; Verwechslung mit Aronstab",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "arnica-montana",
+      "common": "Arnika",
+      "latin": "Arnica montana",
+      "tier": 2,
+      "reason": "nur topisch, innerlich toxisch; geschützt; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "tanacetum-parthenium",
+      "common": "Mutterkraut",
+      "latin": "Tanacetum parthenium",
+      "tier": 2,
+      "reason": "Migräneprophylaxe; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "colchicum-autumnale",
+      "common": "Herbstzeitlose",
+      "latin": "Colchicum autumnale",
+      "tier": 3,
+      "reason": "WARNEINTRAG — Colchicin, Bärlauch-Doppelgänger",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "convallaria-majalis",
+      "common": "Maiglöckchen",
+      "latin": "Convallaria majalis",
+      "tier": 3,
+      "reason": "WARNEINTRAG — Herzglykoside, Bärlauch-Doppelgänger",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "conium-maculatum",
+      "common": "Gefleckter Schierling",
+      "latin": "Conium maculatum",
+      "tier": 3,
+      "reason": "WARNEINTRAG — Coniin, Doldenblütler-Doppelgänger",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "digitalis-purpurea",
+      "common": "Roter Fingerhut",
+      "latin": "Digitalis purpurea",
+      "tier": 3,
+      "reason": "WARNEINTRAG — Digitoxin; Beinwell-Verwechslung!",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "aconitum-napellus",
+      "common": "Blauer Eisenhut",
+      "latin": "Aconitum napellus",
+      "tier": 3,
+      "reason": "WARNEINTRAG — giftigste Pflanze Europas",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "atropa-belladonna",
+      "common": "Tollkirsche",
+      "latin": "Atropa belladonna",
+      "tier": 3,
+      "reason": "WARNEINTRAG — Atropin",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "heracleum-mantegazzianum",
+      "common": "Riesen-Bärenklau",
+      "latin": "Heracleum mantegazzianum",
+      "tier": 3,
+      "reason": "WARNEINTRAG — phototoxische Verbrennungen",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "andromeda-polifolia",
+      "common": "Rosmarinheide",
+      "latin": "Andromeda polifolia",
+      "tier": 3,
+      "reason": "WARNEINTRAG — Grayanotoxine; Rosmarin-Namensfalle",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "taraxacum-officinale",
+      "common": "Löwenzahn",
+      "latin": "Taraxacum officinale",
+      "tier": 4,
+      "reason": "Bitterstoff, Galle, Durchspülung; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "bellis-perennis",
+      "common": "Gänseblümchen",
+      "latin": "Bellis perennis",
+      "tier": 4,
+      "reason": "Wildkraut, mild; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "stellaria-media",
+      "common": "Vogelmiere",
+      "latin": "Stellaria media",
+      "tier": 4,
+      "reason": "Wildgemüse; Verwechslung Ackergauchheil (giftig)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "glechoma-hederacea",
+      "common": "Gundermann",
+      "latin": "Glechoma hederacea",
+      "tier": 4,
+      "reason": "Lippenblütler, Wildkraut",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "alliaria-petiolata",
+      "common": "Knoblauchsrauke",
+      "latin": "Alliaria petiolata",
+      "tier": 4,
+      "reason": "Senföle, Wildgemüse",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "alchemilla-vulgaris",
+      "common": "Frauenmantel",
+      "latin": "Alchemilla vulgaris",
+      "tier": 4,
+      "reason": "Gerbstoffe, Frauenheilkunde (traditionell)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "potentilla-erecta",
+      "common": "Blutwurz",
+      "latin": "Potentilla erecta",
+      "tier": 4,
+      "reason": "stärkste Gerbstoffdroge — Durchfall",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "potentilla-anserina",
+      "common": "Gänsefingerkraut",
+      "latin": "Potentilla anserina",
+      "tier": 4,
+      "reason": "Krämpfe, Gerbstoffe",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "agrimonia-eupatoria",
+      "common": "Odermennig",
+      "latin": "Agrimonia eupatoria",
+      "tier": 4,
+      "reason": "Gerbstoffe, Rachen",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "filipendula-ulmaria",
+      "common": "Echtes Mädesüß",
+      "latin": "Filipendula ulmaria",
+      "tier": 4,
+      "reason": "Salicylate — ASS-Vorläufer; Salicylat-Allergie",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "galium-verum",
+      "common": "Echtes Labkraut",
+      "latin": "Galium verum",
+      "tier": 4,
+      "reason": "Lab-Enzym, Volksmedizin",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "cichorium-intybus",
+      "common": "Gemeine Wegwarte",
+      "latin": "Cichorium intybus",
+      "tier": 4,
+      "reason": "Bitterstoff; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "verbascum-thapsus",
+      "common": "Kleinblütige Königskerze",
+      "latin": "Verbascum thapsus",
+      "tier": 4,
+      "reason": "Schleimdroge, Husten",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "malva-sylvestris",
+      "common": "Wilde Malve",
+      "latin": "Malva sylvestris",
+      "tier": 4,
+      "reason": "Schleimdroge, Reizhusten",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "solidago-virgaurea",
+      "common": "Echte Goldrute",
+      "latin": "Solidago virgaurea",
+      "tier": 4,
+      "reason": "Durchspülung Harnwege; Korbblütler",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "ononis-spinosa",
+      "common": "Dornige Hauhechel",
+      "latin": "Ononis spinosa",
+      "tier": 4,
+      "reason": "Durchspülung",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "centaurium-erythraea",
+      "common": "Echtes Tausendgüldenkraut",
+      "latin": "Centaurium erythraea",
+      "tier": 4,
+      "reason": "Bittermittel; geschützt",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "salix-alba",
+      "common": "Silberweide",
+      "latin": "Salix alba",
+      "tier": 4,
+      "reason": "Salicin — ASS-Ursprung; Schmerz",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "betula-pendula",
+      "common": "Hänge-Birke",
+      "latin": "Betula pendula",
+      "tier": 4,
+      "reason": "Durchspülung; Pollenallergie",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "quercus-robur",
+      "common": "Stieleiche",
+      "latin": "Quercus robur",
+      "tier": 4,
+      "reason": "Rinde, Gerbstoffe, Sitzbäder",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "juglans-regia",
+      "common": "Walnuss",
+      "latin": "Juglans regia",
+      "tier": 4,
+      "reason": "Blatt, Gerbstoffe, Hautleiden",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "tilia-cordata",
+      "common": "Winterlinde",
+      "latin": "Tilia cordata",
+      "tier": 4,
+      "reason": "Blüte, Diaphoretikum bei Erkältung",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "rosa-canina",
+      "common": "Hunds-Rose",
+      "latin": "Rosa canina",
+      "tier": 4,
+      "reason": "Hagebutte, Vitamin C, Arthrose (Galaktolipid)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "prunus-spinosa",
+      "common": "Schlehe",
+      "latin": "Prunus spinosa",
+      "tier": 4,
+      "reason": "Blüte/Frucht; Blausäure in Samen",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "vaccinium-myrtillus",
+      "common": "Heidelbeere",
+      "latin": "Vaccinium myrtillus",
+      "tier": 4,
+      "reason": "Gerbstoffe, Durchfall; Fuchsbandwurm-Mythos",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "humulus-lupulus",
+      "common": "Hopfen",
+      "latin": "Humulus lupulus",
+      "tier": 4,
+      "reason": "Sedativum, meist mit Baldrian",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "pulmonaria-officinalis",
+      "common": "Echtes Lungenkraut",
+      "latin": "Pulmonaria officinalis",
+      "tier": 4,
+      "reason": "PA-Verdacht — prüfen! Raublattgewächs",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "oenothera-biennis",
+      "common": "Gemeine Nachtkerze",
+      "latin": "Oenothera biennis",
+      "tier": 4,
+      "reason": "Gamma-Linolensäure, Neurodermitis",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "gentiana-lutea",
+      "common": "Gelber Enzian",
+      "latin": "Gentiana lutea",
+      "tier": 4,
+      "reason": "stärkstes Bittermittel; GESCHÜTZT; Verwechslung Weißer Germer (tödlich)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "origanum-vulgare",
+      "common": "Oregano",
+      "latin": "Origanum vulgare",
+      "tier": 5,
+      "reason": "Carvacrol, antimikrobiell",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "origanum-majorana",
+      "common": "Majoran",
+      "latin": "Origanum majorana",
+      "tier": 5,
+      "reason": "Küche + Verdauung",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "satureja-montana",
+      "common": "Bergbohnenkraut",
+      "latin": "Satureja montana",
+      "tier": 5,
+      "reason": "Küche, Verdauung",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "hyssopus-officinalis",
+      "common": "Ysop",
+      "latin": "Hyssopus officinalis",
+      "tier": 5,
+      "reason": "Lippenblütler; Pinocamphon (Krampfschwelle)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "laurus-nobilis",
+      "common": "Echter Lorbeer",
+      "latin": "Laurus nobilis",
+      "tier": 5,
+      "reason": "Küche; Kontaktallergie",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "myrtus-communis",
+      "common": "Gemeine Myrte",
+      "latin": "Myrtus communis",
+      "tier": 5,
+      "reason": "Mittelmeer, Atemwege",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "levisticum-officinale",
+      "common": "Liebstöckel",
+      "latin": "Levisticum officinale",
+      "tier": 5,
+      "reason": "Doldenblütler; Durchspülung; Photosensibilisierung",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "petroselinum-crispum",
+      "common": "Petersilie",
+      "latin": "Petroselinum crispum",
+      "tier": 5,
+      "reason": "Apiol — Schwangerschaft! Verwechslung Hundspetersilie (giftig)",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "tropaeolum-majus",
+      "common": "Kapuzinerkresse",
+      "latin": "Tropaeolum majus",
+      "tier": 5,
+      "reason": "Senföle; WEU-nahe Fixkombination mit Meerrettich",
+      "status": "offen",
+      "datei": null
+    },
+    {
+      "id": "armoracia-rusticana",
+      "common": "Meerrettich",
+      "latin": "Armoracia rusticana",
+      "tier": 5,
+      "reason": "Senföle; Harnwegsinfekt/Atemwege",
+      "status": "offen",
+      "datei": null
+    }
+  ]
+}
