@@ -1,0 +1,64 @@
+name: Routine-Branch in claude/main uebernehmen
+
+# Jeder Routine-Lauf bekommt von der Claude-Infrastruktur einen frischen
+# Wegwerf-Branch (claude/blissful-goldberg-w0elqa o. ae.). Ohne diese Automatik
+# bliebe claude/main ewig unveraendert -- und jeder Lauf wuerde dieselben zwei
+# Kraeuter neu bearbeiten. Dieser Workflow holt die Arbeit zurueck in den
+# Default-Branch, damit der naechste Lauf den Fortschritt sieht.
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+# Laeufe nacheinander abarbeiten, nie parallel -- sonst kollidieren zwei
+# Merges auf claude/main.
+concurrency:
+  group: merge-claude-main
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    # Der Default-Branch selbst darf sich nicht in sich selbst mergen.
+    if: github.ref != 'refs/heads/claude/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: claude/main
+          fetch-depth: 0
+
+      - name: Arbeitsbranch in claude/main mergen
+        run: |
+          set -euo pipefail
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          echo "Uebernehme Branch: $BRANCH"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin "$BRANCH"
+
+          if git merge --ff-only "origin/$BRANCH"; then
+            echo "Fast-forward erfolgreich."
+          else
+            echo "Kein Fast-forward moeglich -- versuche echten Merge."
+            git merge --no-edit "origin/$BRANCH" || {
+              echo "::error::Merge-Konflikt zwischen $BRANCH und claude/main."
+              echo "::error::Bitte von Hand aufloesen. Die Arbeit liegt weiterhin auf $BRANCH."
+              exit 1
+            }
+          fi
+
+          git push origin claude/main
+          echo "claude/main ist aktualisiert."
+
+      - name: Uebernommenen Arbeitsbranch aufraeumen
+        # Nur wenn der Merge geklappt hat. Bei Konflikt bleibt der Branch stehen.
+        run: |
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          git push origin --delete "$BRANCH" || echo "Branch $BRANCH konnte nicht geloescht werden (nicht schlimm)."
