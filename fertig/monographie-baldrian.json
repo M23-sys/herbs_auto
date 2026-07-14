@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "id": "valeriana-officinalis",
+  "botany": {
+    "scientific_name": "Valeriana officinalis L.",
+    "common_names_de": ["Echter Baldrian", "Großer Baldrian", "Katzenkraut", "Stinkwurz"],
+    "family": "Geißblattgewächse (Caprifoliaceae)",
+    "drug_part": ["Wurzel und Wurzelstock (Radix cum Rhizoma)"],
+    "drug_name_latin": "Valerianae radix",
+    "synonym_note": "Valeriana officinalis L. ist eine Sammelart (s.l.). Die Droge stammt taxonomisch früher aus der Familie Valerianaceae; diese wird heute (APG) als Unterfamilie Valerianoideae in die Caprifoliaceae gestellt."
+  },
+  "identification": {
+    "key_features": [
+      "Charakteristischer, unangenehm-süßlicher Baldriangeruch der getrockneten Wurzel (sicherstes Merkmal; frische Wurzel riecht kaum)",
+      "Unpaarig gefiederte, gegenständige Blätter mit meist 5–11 (bis 21) lanzettlichen, grob gesägten Fiederblättchen",
+      "Aufrechter, gefurchter, innen markiger bis hohler Stängel, 50–150 (bis 200) cm hoch",
+      "Doldenrispiger (trugdoldiger) Blütenstand aus vielen kleinen, hellrosa bis weißen, dreilappigen Röhrenblüten",
+      "Kurzes Rhizom mit zahlreichen dünnen, gelblich-braunen Wurzeln"
+    ],
+    "season": "Blütezeit Juni bis August (September)",
+    "habitat": "Feuchte Wiesen, Gräben, Ufer, Auwälder, feuchte Waldränder; auf nährstoffreichen, wechselfeuchten Böden",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Wurzel im Herbst (September/Oktober) des 2. Jahres oder im zeitigen Frühjahr graben, gründlich waschen, bei höchstens 40 °C trocknen — erst dann bildet sich der typische Geruch.",
+      "ACHTUNG Doldenblütler-Verwechslung: Junge, gefiederte Baldrianblätter ähneln denen tödlich giftiger Doldenblütler (Schierling). Nur eindeutig blühende Pflanzen mit typischem Baldrian-Wurzelgeruch sammeln — im Zweifel stehen lassen.",
+      "Baldrian gehört NICHT zu den Doldenblütlern (Blütenstand nur doldenähnlich); Verwechslungsschutz ist der charakteristische Wurzelgeruch und der dreilappige Blütenbau."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin",
+      "note": "Wächst wie Baldrian an feuchten Standorten/Ufern; junge fiederschnittige Blätter ähneln sich. Cicuta hat einen kammerig-quergefächerten, hohlen Wurzelstock (angeschnitten gelblicher Milchsaft) und Doldenblüten — kein Baldriangeruch. Bereits kleine Mengen des Wurzelstocks sind tödlich. Im Zweifel niemals sammeln."
+    },
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin (Piperidinalkaloid)",
+      "note": "Doppelt bis dreifach gefiederte Blätter können jungen Baldriankräutern ähneln. Kennzeichen: rot-braun gefleckter, kahler Stängel, unangenehmer Mäuseurin-Geruch beim Zerreiben, echte Doppeldolden — im Gegensatz zum doldenähnlichen, dreilappigen Blütenstand des Baldrians."
+    },
+    {
+      "name": "Hundspetersilie",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (Aethusin, Cynapin)",
+      "note": "Fein gefiederte, dreieckige Blattspreite. Unterscheidung: unangenehmer Knoblauch-/Geruch, glänzende Blattunterseite, echte Dolden mit einseitig herabhängenden Hüllblättchen; Baldrian hat gegenständige Fiederblätter und Wurzelgeruch."
+    },
+    {
+      "name": "Andere Baldrian-Arten (z. B. Kleiner/Sumpf-Baldrian, Valeriana dioica)",
+      "scientific_name": "Valeriana dioica",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährliche Verwechslung; kleiner, meist zweihäusig, ärmer an Wirkstoff. Für die Droge ist Valeriana officinalis s.l. gefordert — arzneilich nicht gleichwertig, aber nicht giftig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl 0,3–0,7 % (u. a. Bornylacetat, Valerenal)",
+      "Sesquiterpencarbonsäuren: Valerensäure und Derivate (Leitsubstanzen, Standardisierung)",
+      "Valepotriate (Iridoide, instabil; v. a. in Frischdroge/Tinktur)",
+      "Lignane, geringe Mengen GABA und freie Aminosäuren"
+    ],
+    "lead_substance": "Valerensäure — analytische Leitsubstanz; ein einzelner allein wirkbestimmender Stoff ist nicht gesichert (Vielstoffgemisch).",
+    "solubility_note": "Wirksame Bestandteile teils lipophil (ätherisches Öl, Valerensäure), teils wasserlöslich. Bewährt sind wässrig-alkoholische Trockenextrakte (Kapsel/Dragee), Tinktur und Tee; die HMPC-Belegkraft (well-established use) gilt nur für den ethanolischen Trockenextrakt.",
+    "heat_light_sensitivity": "Valepotriate sind hitze- und lagerungsempfindlich und zerfallen; standardisiert wird auf Valerensäure. Ätherisches Öl ist flüchtig — dicht und kühl lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Wahrscheinlich modulierende Wirkung am GABAerg-System und an Adenosin-A1-Rezeptoren; Valerensäure moduliert GABA_A-Rezeptoren. Der genaue Wirkmechanismus ist nicht abschließend geklärt (Vielstoffgemisch).",
+    "evidence_caveat": "Klinische Studien sind heterogen, oft klein und methodisch begrenzt; systematische Übersichten (u. a. Cochrane) kommen zu uneinheitlichen Ergebnissen. Die Effektstärke auf objektive Schlafparameter ist bestenfalls mild. Der volle Effekt tritt oft erst nach 2–4 Wochen regelmäßiger Einnahme ein.",
+    "pharmacokinetics": "Pharmakokinetik der zahlreichen Inhaltsstoffe nur unvollständig charakterisiert — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Nervöse Anspannung und innere Unruhe",
+      "synonyms": ["Nervosität", "Anspannung", "Aufregung", "Stress", "Reizbarkeit", "Unruhe"],
+      "evidence_tag": "WEU/ESCOP+",
+      "comment": "EU-Herbal-Monograph (EMA/HMPC): well-established use ausdrücklich nur für den ethanolischen Trockenextrakt (DER 3–7,4:1, Ethanol 40–70 % V/V) zur Linderung leichter nervlicher Anspannung. Andere Zubereitungen (Tee, Tinktur, Presssaft) sind als traditional use eingestuft.",
+      "realistic_expectation": "Mildernde, entspannende Wirkung bei leichter Unruhe. KEIN Anxiolytikum vom Wirkgrad eines Benzodiazepins; kein Effekt bei Angststörung oder Panik. Wirkung setzt langsam und mild ein.",
+      "source": "EMA/HMPC EU herbal monograph Valeriana officinalis L., radix (2016); ESCOP-Monographie; Kommission E (positiv)"
+    },
+    {
+      "canonical": "Leichte Ein- und Durchschlafstörungen",
+      "synonyms": ["Einschlafprobleme", "schlecht schlafen", "Schlafstörung", "nicht durchschlafen", "unruhiger Schlaf"],
+      "evidence_tag": "WEU/TU",
+      "comment": "Als Schlafhilfe im EMA-Monograph geführt; well-established use für den ethanolischen Trockenextrakt, traditional use für übrige Zubereitungen. Wird häufig mit Hopfen kombiniert.",
+      "realistic_expectation": "Kann das Einschlafen erleichtern und die subjektive Schlafqualität verbessern. Objektiv messbare Effekte sind gering; kein verlässliches Schlafmittel bei ausgeprägter Insomnie. Regelmäßige Anwendung über 2–4 Wochen nötig, keine Akutwirkung wie bei Schlafmitteln.",
+      "source": "EMA/HMPC EU herbal monograph Valeriana officinalis L., radix (2016); ESCOP; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes pflanzliches Beruhigungs- und Einschlafhilfsmittel bei leichter Unruhe und nervös bedingten Schlafproblemen; sehr gute Verträglichkeit; kein Abhängigkeits- oder relevantes Hangover-Risiko.",
+    "overstated": "Wird oft als 'pflanzliches Schlafmittel so stark wie Tabletten' beworben — das ist es nicht. Keine belegte Wirkung bei Angst-, Panik- oder Depressionsstörungen; keine zuverlässige Akutwirkung; die Studienlage ist uneinheitlich.",
+    "effect_size": "mild; symptomatisch, langsam einsetzend"
+  },
+  "preparation": {
+    "recommended_forms": ["Trockenextrakt (Kapsel/Dragee)", "Tee (Aufguss/Kaltauszug)", "Tinktur", "Bademischung"],
+    "form_rationale": "Der ethanolische Trockenextrakt trägt die stärkste (WEU-)Evidenz und erfasst lipophile wie hydrophile Bestandteile. Tee und Tinktur sind traditionell bewährt; für den Tee wird wegen flüchtiger Öle oft ein Kaltauszug oder kurzer Aufguss empfohlen.",
+    "standard_dose": "Trockenextrakt: Einzeldosis bis ~600 mg, bei Schlafstörungen ~0,5–1 h vor dem Zubettgehen; bei Unruhe bis zu 3×/Tag. Tee: 2–3 g Droge/Tasse, mehrmals täglich und vor dem Schlafengehen. Tinktur: 1–3 ml mehrmals täglich. Anwendung bei Erwachsenen und Jugendlichen ab 12 Jahren; voller Effekt oft erst nach 2–4 Wochen.",
+    "preservation": "Trocken, kühl und lichtgeschützt lagern; getrocknete Wurzel innerhalb etwa eines Jahres verbrauchen (ätherisches Öl verflüchtigt sich)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Überempfindlichkeit gegen Baldrian",
+      "Kinder unter 12 Jahren (keine ausreichenden Daten; im EMA-Monograph nicht empfohlen)"
+    ],
+    "pregnancy_lactation": "Anwendung in Schwangerschaft und Stillzeit mangels ausreichender Daten nicht empfohlen (EMA/HMPC).",
+    "adverse_effects": "Insgesamt sehr gut verträglich. Selten gastrointestinale Beschwerden (Übelkeit, Bauchkrämpfe), Kopfschmerzen. Bei sehr hoher Dosierung Benommenheit möglich; kein belegtes Abhängigkeitspotenzial.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Möglicherweise additive sedierende Wirkung",
+        "affected": "Zentral dämpfende Mittel (Benzodiazepine, Barbiturate, Opioide, sedierende Antihistaminika), Alkohol",
+        "clinical_relevance": "gering bis relevant"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "In-vitro-Hinweise auf Beeinflussung von CYP-Enzymen; klinische Relevanz nicht belegt — unsicher — zu prüfen",
+        "affected": "CYP3A4-Substrate (theoretisch)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Pflanze selbst ist sehr sicher — die Gefahr liegt beim Wildsammeln: junge, gefiederte Baldrianblätter ähneln tödlich giftigen Doldenblütlern (Wasser-/Gefleckter Schierling). Nur mit sicherem Baldrian-Wurzelgeruch und eindeutigem Blütenbau sammeln, sonst Apotheken-/Fertigware verwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst (September/Oktober) oder im zeitigen Frühjahr des 2. Jahres",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Wurzel (Radix cum Rhizoma)",
+    "method": "Wurzelstock ausgraben, oberirdische Teile entfernen, Erde gründlich abwaschen, größere Teile längs teilen.",
+    "processing": "Bei höchstens 40 °C schonend trocknen — erst durch enzymatische/oxidative Vorgänge beim Trocknen entsteht der typische Baldriangeruch.",
+    "storage": "Getrocknet, dicht verschlossen, trocken und lichtgeschützt; innerhalb etwa eines Jahres verwenden."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine relevante kulinarische Verwendung. Baldrian ist eine reine Arznei-/Genussdroge (Tee); bekannt ist die stark anziehende Wirkung auf Katzen (Actinidin/Valeriansäure)."
+  },
+  "garden": {
+    "site_soil": "Feuchte, nährstoffreiche, tiefgründige Böden; sonnig bis halbschattig.",
+    "hardiness": "Voll winterhart (mehrjährige Staude).",
+    "propagation": "Aussaat (Lichtkeimer) im Frühjahr oder Teilung des Wurzelstocks; versamt sich willig.",
+    "bodensee_suitability": "Gut geeignet — heimisch und an feuchten Standorten der Bodenseeregion verbreitet; im Garten an feuchter Stelle problemlos zu kultivieren."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Echter Baldrian mit doldenrispigem, hellrosa Blütenstand", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Unpaarig gefiederte, gegenständige Blätter und getrocknete Wurzel", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Valeriana officinalis L., radix, EMA/HMPC/150846/2015 (final 2016)",
+    "EMA/HMPC — Assessment report Valeriana officinalis L., radix",
+    "ESCOP Monograph Valerianae radix",
+    "Kommission E Monographie Baldrianwurzel (positiv)",
+    "Gartenjournal / Arzneipflanzenlexikon / Giftpflanzen.com — Verwechslungshinweise Doldenblütler (recherchiert)"
+  ]
+}

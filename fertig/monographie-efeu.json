@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "id": "hedera-helix",
+  "botany": {
+    "scientific_name": "Hedera helix L.",
+    "common_names_de": ["Gemeiner Efeu", "Gewöhnlicher Efeu", "Eppich"],
+    "family": "Araliengewächse (Araliaceae)",
+    "drug_part": ["Blatt (Folium)"],
+    "drug_name_latin": "Hederae helicis folium"
+  },
+  "identification": {
+    "key_features": [
+      "Immergrüne, holzige Kletterpflanze mit Haftwurzeln, die an Bäumen und Mauern emporwächst",
+      "Ledrige, glänzende Blätter mit deutlich hellerer Aderung; an nicht-blühenden Trieben 3–5-lappig, an blühenden Trieben rautenförmig-ganzrandig (Blattdimorphismus)",
+      "Blüht erst im Alter (September–Oktober) mit unscheinbaren gelbgrünen Blüten in kugeligen Dolden",
+      "Schwarzblaue, kugelige Beeren (Steinfrüchte), die über den Winter reifen — GIFTIG",
+      "Wechselständige Blattstellung, Blätter wintergrün und lederartig"
+    ],
+    "season": "Blüte September bis Oktober; Fruchtreife Frühjahr des Folgejahres",
+    "habitat": "Wälder, Gebüsche, Parks, Gärten, an Bäumen, Mauern und Felsen; schattentolerant",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Für Selbstzubereitung NICHT empfohlen: Efeu ist eine Giftpflanze. Nur standardisierte Fertigextrakte verwenden — die wirksame und verträgliche Dosis ist an den Extrakt gebunden.",
+      "Falls Blätter dennoch gesammelt werden: nur die Laubblätter, niemals Beeren; Haftwurzeln und immergrünes, ledriges Laub bestätigen die Art.",
+      "Beim Umgang mit frischem Efeuschnitt Handschuhe tragen — Kontaktdermatitis (Falcarinol)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wilder Wein / Jungfernrebe",
+      "scientific_name": "Parthenocissus spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Calciumoxalat-Raphiden (v. a. in Beeren), Oxalsäure",
+      "note": "Ebenfalls kletternd, oft an denselben Standorten. Unterscheidung: Jungfernrebe ist laubwerfend mit auffälliger roter Herbstfärbung und meist 5-fingrigen Blättern und klettert mit Haftscheiben — Efeu ist immergrün, ledrig, klettert mit Haftwurzeln. Beeren beider Arten nicht essen."
+    },
+    {
+      "name": "Kletternder Giftsumach / Gift-Efeu",
+      "scientific_name": "Toxicodendron radicans",
+      "toxicity_level": "giftig",
+      "toxin": "Urushiol",
+      "note": "In Mitteleuropa nur selten (als Ziergehölz eingeschleppt), aber namensgleich ('Gift-Efeu'). Dreiteilige (nicht gelappte) Blätter, laubwerfend; verursacht schwere allergische Kontaktdermatitis. Nicht mit dem heimischen Efeu verwechseln."
+    },
+    {
+      "name": "Gundermann (Erdefeu/Gundelrebe)",
+      "scientific_name": "Glechoma hederacea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nur Namens- und Bodendecker-Verwechslung, nicht giftig (Lippenblütler). Kriechend, krautig, mit rundlich-nierenförmigen, gekerbten Blättern und blauvioletten Lippenblüten — botanisch völlig anders als der holzige Efeu."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (Bidesmoside/Monodesmoside), 2,5–6 %",
+      "Hederacosid C (Hauptsaponin, Leitsubstanz)",
+      "α-Hederin (aktives Metabolit-/Aglykon-nahes Saponin)",
+      "Polyacetylene (Falcarinol — Kontaktallergen), Flavonoide, Phenolcarbonsäuren"
+    ],
+    "lead_substance": "Hederacosid C und dessen Metabolit α-Hederin — sekretolytisch/bronchospasmolytisch wirksam.",
+    "solubility_note": "Saponine sind wasser- und ethanollöslich; therapeutisch werden standardisierte Trocken- oder Flüssigextrakte (z. B. in Hustensäften) eingesetzt. Ein selbst gekochter Efeu-Tee ist wegen der Giftigkeit der Pflanze NICHT zu empfehlen.",
+    "heat_light_sensitivity": "unsicher — zu prüfen (Extrakte werden standardisiert hergestellt)."
+  },
+  "pharmacology": {
+    "mechanism": "α-Hederin hemmt die Internalisierung von β2-adrenergen Rezeptoren, wodurch die β2-adrenerge Antwort erhalten bleibt: sekretolytisch (mehr/dünnflüssigeres Bronchialsekret, Surfactant-Freisetzung) und bronchospasmolytisch.",
+    "evidence_caveat": "Der Wirkmechanismus stützt sich überwiegend auf präklinische Daten; klinische Studien zeigen Nutzen bei produktivem Husten, sind aber teils methodisch begrenzt und häufig herstellerfinanziert.",
+    "pharmacokinetics": "unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Produktiver (verschleimter) Husten als Expektorans",
+      "synonyms": ["Husten mit Schleim", "verschleimter Husten", "festsitzender Husten", "Bronchitis-Husten", "Abhusten"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC EU-Herbal-Monograph: well-established use als Expektorans bei produktivem Husten (Trocken-, Flüssig- und Dickextrakte). Anwendung bei Erwachsenen, Jugendlichen und Kindern ab 2 Jahren; bei Kindern 2–5 Jahre nur unter ärztlicher Begleitung.",
+      "realistic_expectation": "Kann zähen Schleim lösen und das Abhusten erleichtern. KEIN Hustenstiller (nicht bei trockenem Reizhusten sinnvoll) und kein Antibiotikum — behandelt nicht die Ursache. Bei Kombination mit hustenstillenden Mitteln (Antitussiva) drohen Sekretstau.",
+      "source": "EMA/HMPC EU herbal monograph Hedera helix L., folium (Revision 2); ESCOP; Kommission E (positiv)"
+    },
+    {
+      "canonical": "Katarrhe der oberen Atemwege / Bronchialkatarrh (traditionell)",
+      "synonyms": ["Erkältungshusten", "Bronchialkatarrh", "Schleim in den Bronchien"],
+      "evidence_tag": "TU",
+      "comment": "Für bestimmte Zubereitungen (z. B. Teeaufguss) als traditional use eingeordnet; die belastbare Evidenz liegt beim standardisierten Extrakt (siehe oben).",
+      "realistic_expectation": "Unterstützend bei erkältungsbedingtem, verschleimtem Husten. Selbst zubereiteter Tee ist wegen der Giftigkeit der Pflanze nicht zu empfehlen.",
+      "source": "EMA/HMPC EU herbal monograph Hedera helix L., folium (Revision 2)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut belegtes pflanzliches Expektorans (Schleimlöser) bei produktivem Husten, auch für Kinder ab 2 Jahren als standardisierter Extrakt (Saft) geeignet; im Rahmen der Zulassung gut verträglich.",
+    "overstated": "Kein Mittel gegen trockenen Reizhusten und kein Ersatz für Antibiotika bei bakterieller Infektion. Der 'natürliche' Ruf verdeckt, dass die Pflanze selbst (Beeren, frisches Laub) giftig ist — nur der aufbereitete Extrakt ist Arznei.",
+    "effect_size": "mild bis moderat; symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierter Trockenextrakt (Hustensaft/Tropfen)", "Flüssigextrakt", "Brausetabletten"],
+    "form_rationale": "Wirkung und Sicherheit sind an den standardisierten, auf Hederacosid C eingestellten Extrakt gebunden. Aus der Giftigkeit der Rohpflanze folgt: keine Selbstzubereitung von Tee — nur Fertigpräparate.",
+    "standard_dose": "Nach Herstellerangabe/Monograph, z. B. Trockenextrakt (DER 5–7,5:1) — Erwachsene/Jugendliche insgesamt etwa 35–105 mg Extrakt täglich, Kinder altersadaptiert reduziert; Anwendung ab 2 Jahren. Bei Kindern unter 2 Jahren kontraindiziert. Bei anhaltendem Husten (> 1 Woche), Atemnot, Fieber oder blutigem/eitrigem Auswurf ärztlich abklären.",
+    "preservation": "Fertigpräparate nach Herstellerangabe lagern und Haltbarkeit beachten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Überempfindlichkeit gegen Efeu oder andere Araliengewächse",
+      "Kinder unter 2 Jahren (Gefahr der Verschlimmerung von Atemwegssymptomen)"
+    ],
+    "pregnancy_lactation": "Anwendung in Schwangerschaft und Stillzeit mangels ausreichender Daten nicht empfohlen (EMA/HMPC).",
+    "adverse_effects": "Gelegentlich gastrointestinale Beschwerden (Übelkeit, Erbrechen, Durchfall), selten allergische Reaktionen (Hautausschlag, Atemnot). Überdosierung des Extrakts kann Übelkeit, Erbrechen, Durchfall und Unruhe auslösen. Frischer Efeuschnitt kann Kontaktdermatitis (Falcarinol) verursachen.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "In-vitro-Hinweise auf zeitabhängige Hemmung von CYP2C8 und CYP2C19; klinische Relevanz nicht belegt — unsicher — zu prüfen",
+        "affected": "Substrate von CYP2C8/CYP2C19 (theoretisch)",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Sekretstau möglich",
+        "affected": "Hustenstiller (Antitussiva, z. B. Codein, Dextromethorphan) — nicht gleichzeitig sinnvoll",
+        "clinical_relevance": "relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": true,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Efeu ist eine Giftpflanze: Beeren und frisches Laub enthalten Saponine und Falcarinol — bereits 2–3 Beeren können bei Kindern Vergiftungserscheinungen auslösen. Arznei ist ausschließlich der standardisierte Fertigextrakt, kein selbst gekochter Tee; nicht bei Kindern unter 2 Jahren anwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter grundsätzlich ganzjährig verfügbar (immergrün); Selbstsammlung wegen Giftigkeit nicht empfohlen",
+    "harvest_month_tags": [5, 6, 7, 8, 9],
+    "harvest_organ": "Blatt (Folium)",
+    "method": "Arzneilich nur industrielle Extraktgewinnung; Selbstzubereitung nicht empfohlen.",
+    "processing": "Standardisierte Extraktion (ethanolisch/wässrig-ethanolisch), Einstellung auf Hederacosid C.",
+    "storage": "Fertigpräparate nach Herstellerangabe."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung — die Pflanze ist giftig. Ausschließlich arzneilich als standardisierter Extrakt."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; schattig bis halbschattig, frische bis feuchte, humose Böden.",
+    "hardiness": "Voll winterhart, immergrün, sehr wüchsig.",
+    "propagation": "Stecklinge und Absenker sehr leicht; Haftwurzeln bewurzeln an Kontaktflächen.",
+    "bodensee_suitability": "Heimisch und weit verbreitet; als Bodendecker/Fassadengrün gut geeignet. Hinweis: Beeren sind giftig — in Gärten mit Kleinkindern beachten; kann Mauerwerk und Bäume überwachsen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Kletternder immergrüner Efeu mit Haftwurzeln an Baumstamm", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blattdimorphismus: 3–5-lappige Jugendblätter vs. rautenförmige Altersblätter; schwarzblaue Beeren", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Hedera helix L., folium, Revision 2",
+    "EMA/HMPC — Assessment report on Hedera helix L., folium, Revision 2",
+    "ESCOP Monograph Hederae folium",
+    "Kommission E Monographie Efeublätter (positiv)",
+    "Gesellschaft für Toxikologie / Giftpflanzen-Recherche — Giftigkeit von Beeren und Falcarinol-Kontaktdermatitis (recherchiert)"
+  ]
+}
