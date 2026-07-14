@@ -93,8 +93,8 @@
       "latin": "Aesculus hippocastanum",
       "tier": 1,
       "reason": "WEU chronische Veneninsuffizienz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-rosskastanie.json"
     },
     {
       "id": "zingiber-officinale",
@@ -102,8 +102,8 @@
       "latin": "Zingiber officinale",
       "tier": 1,
       "reason": "WEU Reisekrankheit/Übelkeit; Blutungs-Interaktion",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-ingwer.json"
     },
     {
       "id": "plantago-ovata",

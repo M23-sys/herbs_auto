@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "id": "zingiber-officinale",
+  "botany": {
+    "scientific_name": "Zingiber officinale Roscoe",
+    "common_names_de": ["Ingwer", "Echter Ingwer", "Ingwerwurzel (missverständlich)", "Immerwurzel"],
+    "family": "Ingwergewächse (Zingiberaceae)",
+    "drug_part": ["Rhizom (Rhizoma)"],
+    "drug_name_latin": "Zingiberis rhizoma",
+    "synonym_note": "Arzneilich und kulinarisch genutzt wird das Rhizom (Wurzelstock), umgangssprachlich unpräzise 'Ingwerwurzel' genannt — botanisch ein Spross-, kein Wurzelorgan."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: verzweigtes, geweihartig-fingerförmiges, außen hellbraunes, innen blassgelbes Rhizom mit dem typischen scharf-aromatischen Ingwergeruch/-geschmack",
+      "Frische Schnittfläche faserig, saftig-gelblich, intensiv würzig-scharf",
+      "Oberirdisch schilfartige, bis ~1 m hohe beblätterte Scheinstämme mit lanzettlichen, zweizeilig angeordneten Blättern (bei uns nur im Anbau/Topf)",
+      "Blüten (im mitteleuropäischen Anbau selten) in ährenartigen, zapfenförmigen Blütenständen auf eigenem Stängel",
+      "Handelsware ist praktisch immer das getrocknete oder frische Rhizom — Verwechslung im Feld in Mitteleuropa nicht relevant, da nicht heimisch/wild"
+    ],
+    "season": "Tropische Kulturpflanze; Ernte des Rhizoms je nach Anbau ganzjährig/nach Vegetationsende. In Mitteleuropa kein wildes Vorkommen.",
+    "habitat": "Ursprünglich tropisches Süd-/Südostasien; weltweit in den Tropen kultiviert (Indien, China, Nigeria u. a.). In Mitteleuropa nur als Kübel-/Gewächshauspflanze.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Kein Wildsammeln in Mitteleuropa möglich — Bezug als Lebensmittel/Droge (Frischrhizom oder getrocknetes, gemahlenes Rhizom).",
+      "Qualität: festes, pralles Frischrhizom mit glatter Schale und kräftigem Aroma; getrocknete Droge intensiv scharf riechend.",
+      "Beim Kauf getrockneter/gemahlener Ware auf Reinheit achten (Ingwer wird selten mit anderen Rhizomen wie Galgant oder Kurkuma verwechselt/gestreckt — beide unbedenklich, aber geschmacklich/wirklich abweichend)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Galgant",
+      "scientific_name": "Alpinia officinarum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Naher Verwandter aus derselben Familie (Zingiberaceae), Rhizom optisch ähnlich, aber härter/holziger, blasser und mit anderem, campherartig-schärferem Aroma. Unbedenklich, aber schwächere/andere Wirkung — keine Gefahr, nur Qualitäts-/Wirksamkeitsfrage."
+    },
+    {
+      "name": "Kurkuma / Gelbwurz",
+      "scientific_name": "Curcuma longa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls Zingiberaceae; Rhizom kleiner, innen leuchtend orange (Ingwer blassgelb), Geschmack erdig-bitter statt scharf. Unbedenkliche Verwechslung; leicht an der Schnittfarbe zu unterscheiden."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Ingwer wird als kultiviertes Rhizom bezogen, es gibt in Mitteleuropa kein wildwachsendes, giftiges Doppelgänger-Rhizom. Die einzigen realistischen Verwechslungen (Galgant, Kurkuma) sind essbare Verwandte. Ein tödlich giftiger Doppelgänger ist nicht bekannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (Zingiberen, β-Sesquiphellandren, Curcumen u. a.) — Aroma",
+      "Scharfstoffe: Gingerole (v. a. 6-Gingerol) und deren Umwandlungsprodukte Shogaole (v. a. 6-Shogaol, entsteht beim Trocknen/Erhitzen)",
+      "Diarylheptanoide, Stärke, fettes Öl"
+    ],
+    "lead_substance": "6-Gingerol (und 6-Shogaol) — verantwortlich für Schärfe und die antiemetische/prokinetische Wirkung.",
+    "solubility_note": "Scharfstoffe und ätherisches Öl sind wenig wasserlöslich, aber gut in Alkohol/Öl löslich; wirksame Zubereitungen sind Pulver/Kapseln des ganzen Rhizoms, Tinktur oder frisch — ein reiner Wasseraufguss (Tee) extrahiert die lipophilen Scharfstoffe nur teilweise.",
+    "heat_light_sensitivity": "Beim Trocknen/Erhitzen wandeln sich Gingerole teilweise in Shogaole um (schärfer); ätherisches Öl flüchtig — kühl, trocken und dicht verschlossen lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Antiemetisch v. a. über periphere Angriffspunkte im Magen-Darm-Trakt: Förderung der Magenentleerung/Prokinetik und antagonistische Effekte an 5-HT3- (Serotonin-) und muscarinergen Rezeptoren; zusätzlich karminative und schwach entzündungshemmende Effekte der Scharfstoffe. Im Gegensatz zu vielen Antiemetika ohne zentrale Sedierung.",
+    "evidence_caveat": "Gut belegt ist die Anwendung gegen Reisekrankheit/Übelkeit (HMPC well-established use). Bei Schwangerschaftsübelkeit und postoperativer/chemotherapieinduzierter Übelkeit ist die Datenlage positiv, aber heterogen und nicht durchgängig als well-established eingestuft. Für weitere Anwendungen (Dyspepsie, Erkältung, Gelenkschmerzen) nur traditional use.",
+    "pharmacokinetics": "Gingerole/Shogaole werden resorbiert und rasch metabolisiert (Glucuronidierung); kurze Halbwertszeit. Detaillierte Humandaten begrenzt — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Prävention von Übelkeit und Erbrechen bei Reisekrankheit (Kinetose)",
+      "synonyms": ["Reiseübelkeit", "Seekrankheit", "Reisekrankheit", "Übelkeit", "Erbrechen vorbeugen", "Schwindel beim Reisen", "Kinetose"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC: well-established use zur Vorbeugung von Übelkeit und Erbrechen bei Reisekrankheit bei Erwachsenen. Ausdrücklich NICHT für Kinder und Jugendliche unter 18 Jahren in dieser (WEU-)Indikation. Auch Kommission E: Verhütung der Symptome der Reisekrankheit.",
+      "realistic_expectation": "Kann der Reiseübelkeit vorbeugend entgegenwirken (Einnahme vor Reisebeginn), ohne die sedierende Wirkung klassischer Antihistaminika. Hilft nicht zuverlässig bei bereits bestehendem starkem Erbrechen und ersetzt bei schweren Verläufen keine ärztliche Behandlung.",
+      "source": "EMA/HMPC EU herbal monograph Zingiber officinale Roscoe, rhizoma (well-established use); Kommission E"
+    },
+    {
+      "canonical": "Leichte krampfartige Magen-Darm-Beschwerden / Dyspepsie (Blähungen, Völlegefühl)",
+      "synonyms": ["Blähungen", "Völlegefühl", "Verdauungsbeschwerden", "Magendrücken", "Appetitlosigkeit", "verdorbener Magen"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC: traditional use zur symptomatischen Behandlung leichter krampfartiger Magen-Darm-Beschwerden einschließlich Blähungen und Völlegefühl sowie bei vorübergehendem Appetitverlust; Kommission E: dyspeptische Beschwerden.",
+      "realistic_expectation": "Traditionell begründete, milde karminativ-verdauungsfördernde Wirkung; kein Ersatz für Abklärung anhaltender oder starker Magen-Darm-Beschwerden.",
+      "source": "EMA/HMPC (traditional use); Kommission E"
+    },
+    {
+      "canonical": "Symptomatische Anwendung bei Erkältung und leichten Gelenkschmerzen (traditionell)",
+      "synonyms": ["Erkältung", "Erkältungsbeschwerden", "Gliederschmerzen", "leichte Gelenkschmerzen"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC: traditional use zur Linderung von Erkältungssymptomen und leichten Gelenkbeschwerden.",
+      "realistic_expectation": "Rein traditionell begründet, milde Wirkung; kein belegter Nutzen, der Schmerz- oder Erkältungsmittel ersetzt.",
+      "source": "EMA/HMPC (traditional use)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Ingwer beugt Übelkeit und Erbrechen bei Reisekrankheit wirksam vor (HMPC well-established use) — ohne die Müdigkeit klassischer Antiemetika — und wirkt mild karminativ/verdauungsfördernd. Er ist als Gewürz und in üblichen Mengen gut verträglich.",
+    "overstated": "Ingwer ist kein universelles Heilmittel: Für Erkältung, Gelenkschmerzen, Entzündungen und 'Immunstärkung' gibt es nur traditionelle bzw. schwache Evidenz. In der Schwangerschaft ist er nicht pauschal 'unbedenklich' — hohe Dosen sind zu meiden und die Kommission E rät bei Schwangerschaftserbrechen zur Zurückhaltung. Als vermeintlicher 'natürlicher Blutverdünner' sollte er bei Antikoagulation nicht unkritisch hochdosiert werden.",
+    "effect_size": "moderat bei Reiseübelkeit (Prävention); sonst mild, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Pulver/Kapsel aus getrocknetem Rhizom (standardisiert dosierbar)", "Frisches Rhizom (Kauen/Aufguss)", "Tinktur", "Aufguss/Tee (kulinarisch)"],
+    "form_rationale": "Für die belegte antiemetische Wirkung ist eine definierte Dosis des ganzen Rhizoms (Pulver/Kapsel) am zuverlässigsten, da die lipophilen Scharfstoffe im reinen Wassertee nur teilweise übergehen. Frischrhizom und Tee sind vor allem kulinarisch/traditionell.",
+    "standard_dose": "Reisekrankheit (WEU, Erwachsene): 1–2 g Ingwerpulver etwa 30–60 Minuten vor Reiseantritt, ggf. wiederholt; Tagesdosis üblicherweise nicht über ~2 g Trockendroge. Als Verdauungshilfe entsprechend geringere Mengen. Hohe Dosen (> 4 g/Tag) meiden.",
+    "preservation": "Frischrhizom kühl; getrocknetes Pulver trocken, dicht verschlossen und lichtgeschützt (Aromaverlust)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Ingwer",
+      "Gallensteinleiden nur nach ärztlicher Rücksprache (Ingwer wirkt cholekinetisch/gallenflussfördernd)"
+    ],
+    "pregnancy_lactation": "Schwangerschaft: Studien mit üblichen Mengen zeigten kein erhöhtes Fehlbildungsrisiko; niedrige Dosen (bis ca. 1 g/Tag) gelten bei Schwangerschaftsübelkeit als vertretbar. Dennoch defensiv: hohe Dosen meiden, vor der Anwendung als Arzneimittel ärztlich abstimmen — die Kommission E rät bei Schwangerschaftserbrechen zur Zurückhaltung. Stillzeit: unzureichende Daten, kulinarische Mengen unbedenklich; arzneiliche Anwendung unsicher — zu prüfen.",
+    "adverse_effects": "In üblichen Mengen selten; gelegentlich Sodbrennen, Aufstoßen, leichte Magen-Darm-Reizung, Mundschleimhautreizung. Höhere Dosen können Reflux verstärken.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "In vitro Hemmung der Thromboxansynthese/Thrombozytenaggregation; klinisch bei therapeutischen Mengen nicht belegt, jedoch Berichte über verstärkte Blutungsneigung/INR-Veränderungen bei hohen Ingwerdosen (> 4 g/Tag) zusammen mit Gerinnungshemmern.",
+        "affected": "Antikoagulanzien/Thrombozytenaggregationshemmer (z. B. Cumarine/Vitamin-K-Antagonisten, ASS)",
+        "clinical_relevance": "gering bei üblichen Mengen; bei Antikoagulation und hohen Dosen relevant — dann ärztlich begleiten"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Möglicher Einfluss auf Blutzucker und Blutdruck diskutiert (schwach); theoretisch additive Effekte mit Antidiabetika/Antihypertensiva.",
+        "affected": "Antidiabetika, Antihypertensiva",
+        "clinical_relevance": "gering — überwiegend theoretisch"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "reflux_caution": true,
+      "high_safety": false
+    },
+    "key_warning": "In Gewürz- und üblichen Mengen sehr sicher, aber die belegte Reisekrankheits-Indikation (1–2 g) gilt nur für Erwachsene (nicht unter 18 Jahren); hohe Dosen (> 4 g/Tag) sind bei Antikoagulation und in der Schwangerschaft zu meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Tropische Kulturpflanze; Rhizomernte nach Vegetationsende bzw. ganzjährig aus Anbau. In Mitteleuropa nur Kübel-/Gewächshauskultur, keine wilde Ernte.",
+    "harvest_month_tags": [],
+    "harvest_organ": "Rhizom",
+    "method": "Rhizom nach Absterben des Krauts ausgraben (im Anbau); für die Küche laufend Bezug als Frisch- oder Trockenware.",
+    "processing": "Frisch verwenden oder waschen, in Scheiben schneiden und trocknen/mahlen; beim Trocknen entstehen aus Gingerolen die schärferen Shogaole.",
+    "storage": "Frischrhizom kühl (Kühlschrank/Wochen); Pulver trocken, dicht, lichtgeschützt."
+  },
+  "kitchen": {
+    "uses": ["Frisch gerieben/geschnitten in Currys, Suppen, Wok, Marinaden", "Ingwertee/-shot", "kandiert oder als Gewürzpulver für Gebäck", "in Getränken (Ginger Ale, Limonade)"],
+    "culinary_vs_medicinal": "Fließender Übergang: kulinarisch geht es um Aroma/Schärfe in beliebiger Menge; arzneilich um definierte Dosen (1–2 g Trockendroge) zur Reisekrankheitsprävention. Übliche Küchenmengen sind unbedenklich; die Grenze zur arzneilichen Wirkung liegt bei der gezielten, dosierten Einnahme."
+  },
+  "garden": {
+    "site_soil": "Warm, hell, humos-durchlässig, gleichmäßig feucht; frostempfindlich.",
+    "hardiness": "Nicht winterhart (tropisch) — bei uns nur Topf-/Kübelkultur, im Winter frostfrei.",
+    "propagation": "Aus einem Stück Frischrhizom mit Austriebsknospe ('Auge') in warmer, feuchter Erde antreiben.",
+    "bodensee_suitability": "Freiland im Bodenseeraum ungeeignet (frostempfindlich); als Kübelpflanze auf warmer Terrasse/im Gewächshaus möglich, Ertrag jedoch gering. Ehrlich: eher Liebhaberkultur als Nutzertrag."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Schilfartige beblätterte Scheinstämme der Kulturpflanze", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Geweihartig verzweigtes, außen hellbraunes, innen blassgelbes Rhizom mit scharfem Aroma", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Zingiber officinale Roscoe, rhizoma, Revision 1 (well-established use Reisekrankheit; traditional use Dyspepsie/Erkältung/Gelenkschmerzen; keine Anwendung < 18 Jahre in der WEU-Indikation)",
+    "EMA — Zingiberis rhizoma, herbal medicinal product overview",
+    "Kommission E — Zingiberis rhizoma (dyspeptische Beschwerden, Verhütung der Reisekrankheit)",
+    "Embryotox — Ingwer (Schwangerschaft: kein erhöhtes Fehlbildungsrisiko in üblichen Mengen)",
+    "Sekundärliteratur zu Interaktion mit Antikoagulanzien (> 4 g/Tag) und cholekinetischer Wirkung (Websuche; EMA-Primär-PDFs beim direkten Abruf mit HTTP 403 blockiert — Evidenzgrad WEU laut HMPC-Datenbank/Sekundärquellen, ärztlich gegenzuprüfen)"
+  ]
+}

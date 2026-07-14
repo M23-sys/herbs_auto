@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "id": "aesculus-hippocastanum",
+  "botany": {
+    "scientific_name": "Aesculus hippocastanum L.",
+    "common_names_de": ["Gewöhnliche Rosskastanie", "Rosskastanie", "Gemeine Rosskastanie", "Kastanie (missverständlich)"],
+    "family": "Seifenbaumgewächse (Sapindaceae)",
+    "drug_part": ["Samen (Semen)"],
+    "drug_name_latin": "Hippocastani semen",
+    "synonym_note": "Früher zur Familie der Rosskastaniengewächse (Hippocastanaceae) gestellt; diese wird heute in die Seifenbaumgewächse (Sapindaceae) eingegliedert. Arzneilich genutzt wird der Samen (Hippocastani semen), nicht Rinde oder Blatt."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: gefingert zusammengesetztes Blatt aus meist 5–7 handförmig angeordneten, sitzenden Teilblättchen an einem langen Stiel — die essbare Edelkastanie hat einfache, einzeln stehende, gesägte Blätter",
+      "Große weiße (rot gefleckte) aufrechte 'Kerzen'-Blütenstände im Mai",
+      "Fruchtkapsel grün mit wenigen kräftigen, kurzen Stacheln, enthält meist 1(–2) große glänzend braune Samen mit großem hellem Nabelfleck",
+      "Samen rundlich, mit charakteristischem großem grauweißem Fleck ('Auge') — im Gegensatz zur abgeflachten, zugespitzten, an einer Seite mit Büschel versehenen Edelkastanie",
+      "Stattlicher Baum bis 25–30 m mit breiter Krone, klebrige Winterknospen",
+      "Standort: Parks, Alleen, Gärten; als Zierbaum weit verbreitet und häufig verwildernd"
+    ],
+    "season": "Blüte Mai (April bis Juni); Fruchtreife September/Oktober",
+    "habitat": "Als Zierbaum in Parks, Alleen, Biergärten und Gärten angepflanzt; ursprünglich Balkan (Südosteuropa). In Mitteleuropa vielfach eingebürgert und verwildert.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "kultur-und-verwildert"}
+    ],
+    "collection_rules": [
+      "WICHTIG: Der rohe Samen ist nicht essbar und leicht giftig (Saponine/Aescin, Aesculin). Arzneilich wird NICHT der rohe Samen oder ein selbst gekochter Tee genutzt, sondern ausschließlich ein industriell hergestellter, standardisierter Trockenextrakt. Selbstsammeln zur Einnahme ist nicht sinnvoll und potenziell schädlich.",
+      "Bei Sammlung (z. B. für Bastelzwecke) sicher von der essbaren Edelkastanie/Marone abgrenzen: gefingertes Blatt vs. einfaches Blatt, Fruchtkapsel mit wenigen dicken Stacheln vs. dicht und lang bestachelter Igel der Edelkastanie, runder Samen mit hellem Fleck vs. abgeflachter, zugespitzter Maronensamen.",
+      "Kinder aktiv fernhalten — Verwechslung roher Rosskastaniensamen mit Esskastanien führt zu Übelkeit, Erbrechen und Durchfall."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Edelkastanie / Esskastanie (Marone)",
+      "scientific_name": "Castanea sativa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die klassische und sicherheitsrelevante Verwechslung — gerade bei Kindern und beim herbstlichen Sammeln. Merkmale: Edelkastanie hat EINFACHE, einzeln stehende, länglich-gesägte Blätter (Rosskastanie: gefingert, 5–7 Blättchen); die Fruchthülle der Edelkastanie ist ein dicht und lang bestachelter 'Igel' (Rosskastanie: wenige kurze, dicke Stacheln); der Maronensamen ist abgeflacht, zugespitzt, mit Büschelchen an der Spitze (Rosskastaniensamen rund mit großem hellem Nabelfleck). Wird der rohe Rosskastaniensamen für eine Marone gehalten und gegessen, drohen Übelkeit, Erbrechen und Durchfall."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Der einzige regelmäßig auftretende Doppelgänger ist die essbare Edelkastanie (Castanea sativa). Ein tödlich giftiger Doppelgänger des Samens ist nicht bekannt. Die Gefahr geht vom rohen Rosskastaniensamen selbst aus (leicht giftig), nicht von einer anderen giftigen Art."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponin-Gemisch Aescin (β-Aescin, wirkbestimmend; ca. 3–10 % im Samen)",
+      "Cumarinderivate/Hydroxycumarine (Aesculin, Fraxin)",
+      "Flavonoide (Quercetin-, Kämpferol-Glykoside), Gerbstoffe/Proanthocyanidine, Stärke, fettes Öl"
+    ],
+    "lead_substance": "Aescin — ein Gemisch von Triterpensaponinen; antiexsudativ, ödemprotektiv und venentonisierend (Abdichtung des Kapillarendothels, Hemmung der lysosomalen Gefäßpermeabilität).",
+    "solubility_note": "Aescin ist ein Saponin; die Wirkung ist nur mit standardisiertem, auf Triterpenglykoside eingestelltem Trockenextrakt reproduzierbar erzielbar. Ein häuslicher Tee aus rohen Samen ist ungeeignet und wegen der Reizstoffe/Aesculin nicht zu empfehlen.",
+    "heat_light_sensitivity": "Handelsübliche standardisierte Extrakte/Fertigpräparate sind stabil; Lagerung nach Herstellerangabe."
+  },
+  "pharmacology": {
+    "mechanism": "Aescin vermindert die Kapillarpermeabilität und -fragilität, wirkt antiexsudativ und antiödematös und erhöht den Venentonus. Diskutiert werden eine Hemmung des enzymatischen Abbaus von Proteoglykanen der Kapillarwand und ein 'sealing'-Effekt am Endothel. Dadurch Rückgang von Beinödem, Schwere- und Spannungsgefühl.",
+    "evidence_caveat": "Für den standardisierten Rosskastaniensamen-Trockenextrakt bei chronischer Veneninsuffizienz liegt vergleichsweise gute klinische Evidenz vor (u. a. Cochrane-Review, das kurzfristige Besserung von Ödem und Beschwerden belegt) — die HMPC führt diese Anwendung als well-established use. Belegt ist eine symptomatische Kurzzeit-Wirkung; ein Beleg, dass die Progression der Venenerkrankung aufgehalten wird, fehlt. Für die weniger standardisierten und die topischen Zubereitungen ist die Evidenz schwächer (traditional use).",
+    "pharmacokinetics": "Aescin-Bioverfügbarkeit nach oraler Gabe gering und variabel; retardierte Formulierungen sollen die Magenverträglichkeit verbessern. Detaillierte Humandaten begrenzt — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Chronische Veneninsuffizienz (CVI)",
+      "synonyms": ["Krampfadern", "schwere Beine", "müde Beine", "geschwollene Beine", "Wadenkrämpfe", "Beinödem", "Venenschwäche", "Besenreiser (Beschwerden)", "Spannungsgefühl in den Beinen", "Juckreiz der Beine"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC: well-established use für standardisierten Trockenextrakt aus Rosskastaniensamen (Ethanol 40–80 %, eingestellt auf Triterpenglykoside berechnet als Aescin/Protoaescigenin) zur oralen Behandlung der chronischen Veneninsuffizienz mit Symptomen wie geschwollene Beine, Krampfadern, Schwere-, Spannungs- und Schmerzgefühl, Müdigkeit, Juckreiz und Wadenkrämpfe.",
+      "realistic_expectation": "Kann Beinödem, Schwere-, Spannungs- und Schmerzgefühl bei CVI symptomatisch lindern (kurzfristig belegt). Ersetzt NICHT Kompressionstherapie, Bewegung und ärztliche Abklärung; heilt weder Krampfadern noch eine Thrombose und beseitigt vorhandene Varizen nicht. Bei akuter Beinschwellung, Rötung oder Schmerz (Thromboseverdacht) sofort ärztlich abklären.",
+      "source": "EMA/HMPC EU herbal monograph Aesculus hippocastanum L., semen (well-established use); Cochrane Review Horse chestnut seed extract for chronic venous insufficiency"
+    },
+    {
+      "canonical": "Beschwerden bei leichten venösen Durchblutungsstörungen und bei Prellungen/Blutergüssen (topisch)",
+      "synonyms": ["schwere Beine", "Blutergüsse", "Prellungen", "Venenbeschwerden äußerlich"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC: traditional use für weitere (auch topische, als Gel/Salbe) Zubereitungen zur Linderung von Beschwerden und Schweregefühl der Beine bei kleineren venösen Durchblutungsstörungen sowie zur Linderung von Prellungssymptomen.",
+      "realistic_expectation": "Traditionell begründete, milde Linderung; kein Ersatz für die orale standardisierte Anwendung oder ärztliche Behandlung. Wirknachweis für topische Formen begrenzt.",
+      "source": "EMA/HMPC (traditional use)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Standardisierter oraler Rosskastaniensamen-Trockenextrakt lindert bei chronischer Veneninsuffizienz kurzfristig Beinödem, Schwere-, Spannungs- und Schmerzgefühl — mit für ein Phytotherapeutikum guter klinischer Evidenz (HMPC well-established use).",
+    "overstated": "Rosskastanie 'heilt' keine Krampfadern und lässt bestehende Varizen nicht verschwinden; sie ersetzt weder Kompressionsstrümpfe noch ärztliche Diagnostik. Der rohe Samen ist KEIN harmloses Hausmittel — nur der pharmazeutisch aufbereitete, standardisierte Extrakt ist arzneilich verwendbar, roher Samen/selbstgemachter Tee sind leicht giftig. Eine Thrombose oder ein Venenleiden mit Rötung/Schmerz darf nicht selbst behandelt werden.",
+    "effect_size": "mild bis moderat; symptomatisch, kurzfristig belegt"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierter Trockenextrakt (auf Aescin/Triterpenglykoside eingestellt) als Retard-Kapsel/-Tablette", "Topisches Gel/Salbe (traditionell)"],
+    "form_rationale": "Nur der auf Aescin standardisierte, industriell hergestellte Extrakt erlaubt eine reproduzierbare, sichere Dosierung; Retardformen verbessern die Magenverträglichkeit des schleimhautreizenden Saponins. Rohdroge/Tee sind wegen Reizwirkung und schwankendem Gehalt ungeeignet.",
+    "standard_dose": "Üblich sind ca. 100 mg Aescin pro Tag, verteilt auf 2 Einzelgaben (z. B. 50 mg morgens und abends als Retardpräparat); Dosierung nach Fachinformation des jeweiligen Präparats. Nach Besserung ggf. Reduktion. Anwendung nur nach ärztlicher Abklärung der Beinbeschwerden.",
+    "preservation": "Fertigpräparate trocken und nach Herstellerangabe lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Rosskastanie/Aescin",
+      "Roher Rosskastaniensamen ist zur Einnahme ungeeignet (leicht giftig) — nur standardisierte Fertigpräparate verwenden",
+      "Akute Beinbeschwerden mit Rötung/Schmerz/Schwellung (Thromboseverdacht) — zuerst ärztlich abklären, keine Selbstbehandlung"
+    ],
+    "pregnancy_lactation": "Unzureichende Datenlage; Anwendung in Schwangerschaft und Stillzeit mangels ausreichender Sicherheitsdaten nicht empfohlen bzw. nur nach ärztlicher Rücksprache. Defensiv: unsicher — zu prüfen.",
+    "adverse_effects": "Gelegentlich Magen-Darm-Beschwerden (Übelkeit, Magendruck), Juckreiz, Kopfschmerz, Schwindel; topisch selten allergische Hautreaktionen. Insgesamt bei standardisierten Präparaten meist gute Verträglichkeit. Achtung: Roher Samen (Fehleinnahme) verursacht Übelkeit, Erbrechen, Durchfall.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Aescin ist stark plasmaeiweißgebunden; theoretisch denkbare Verstärkung der Wirkung von Antikoagulanzien; einzelne Hinweise auf mögliche additive nephrotoxische Effekte mit nierenschädigenden Substanzen. Klinisch nicht belastbar belegt.",
+        "affected": "Antikoagulanzien (z. B. Vitamin-K-Antagonisten, ggf. weitere Gerinnungshemmer); potenziell nephrotoxische Arzneimittel",
+        "clinical_relevance": "gering — überwiegend theoretisch; bei gleichzeitiger Antikoagulation ärztlich begleiten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Nur der standardisierte, pharmazeutisch aufbereitete Trockenextrakt ist arzneilich verwendbar — rohe Rosskastaniensamen sind leicht giftig (Übelkeit/Erbrechen/Durchfall), und Beinbeschwerden mit Rötung/Schmerz/Schwellung müssen zum Ausschluss einer Thrombose zuerst ärztlich abgeklärt werden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Samenreife September/Oktober. Hinweis: Die arzneiliche Droge wird industriell zu standardisiertem Extrakt verarbeitet; eine häusliche Ernte zur Selbstanwendung ist nicht vorgesehen und wegen der Giftigkeit des rohen Samens nicht sinnvoll.",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Samen",
+    "method": "Keine Selbstanwendung des rohen Samens. (Industrielle Gewinnung reifer Samen zur Extraktherstellung.)",
+    "processing": "Standardisierte Extraktion (Ethanol 40–80 %), Einstellung auf Triterpenglykoside (Aescin) — nur pharmazeutisch.",
+    "storage": "Fertigpräparate trocken, nach Herstellerangabe."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung — der Samen ist roh giftig und darf nicht mit der essbaren Edelkastanie/Marone (Castanea sativa) verwechselt werden. Arzneilich zählt ausschließlich der standardisierte Extrakt."
+  },
+  "garden": {
+    "site_soil": "Tiefgründige, frische, nährstoffreiche Böden; sonnig; als Groß- und Alleebaum.",
+    "hardiness": "Vollkommen winterhart, sehr robust und langlebig.",
+    "propagation": "Aussaat der frischen Samen (Kaltkeimer) im Herbst.",
+    "bodensee_suitability": "Im Bodenseeraum als Park- und Alleebaum verbreitet und gut geeignet; als Nutz-/Heilpflanze für den Hausgarten jedoch ohne praktischen Wert (Droge nur industriell verwendbar). Achtung: Befall durch die Rosskastanien-Miniermotte häufig."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Großbaum mit aufrechten weißen 'Blütenkerzen' im Mai", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Gefingertes Blatt (5–7 Teilblättchen) und glänzend brauner Samen mit großem hellem Nabelfleck; Fruchtkapsel mit wenigen dicken Stacheln", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Aesculus hippocastanum L., semen (well-established use CVI; traditional use weitere/topische Zubereitungen), Revision 1",
+    "EMA — Horse-chestnut seed, summary for the public (Hippocastani semen)",
+    "Cochrane Review — Horse chestnut seed extract for chronic venous insufficiency (symptomatische Kurzzeit-Wirksamkeit)",
+    "Kommission E — Hippocastani semen (chronische Veneninsuffizienz)",
+    "Botanische Abgrenzung Aesculus hippocastanum (Sapindaceae) vs. Castanea sativa (Fagaceae): Blatt-, Frucht- und Samenmerkmale (Websuche; EMA-Primärquellen beim direkten PDF-Abruf mit HTTP 403 blockiert — Evidenzgrad WEU laut HMPC-Datenbank/Sekundärquellen, ärztlich gegenzuprüfen)"
+  ]
+}
