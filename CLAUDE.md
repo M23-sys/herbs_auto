@@ -45,7 +45,7 @@ noch einmal bearbeitet.
 ```bash
 git add -A
 git commit -m "monographien: <Kraut1>, <Kraut2>"
-git push origin claude/main
+git push origin HEAD
 ```
 
 Scheitert der Push, weil sich `claude/main` zwischenzeitlich geändert hat:
