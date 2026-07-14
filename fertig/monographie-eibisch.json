@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "id": "althaea-officinalis",
+  "botany": {
+    "scientific_name": "Althaea officinalis L.",
+    "common_names_de": ["Echter Eibisch", "Eibisch", "Weiße Malve", "Samtpappel", "Heilwurz"],
+    "family": "Malvengewächse (Malvaceae)",
+    "drug_part": ["Wurzel (Radix)", "Blatt (Folium)"],
+    "drug_name_latin": "Althaeae radix; Althaeae folium"
+  },
+  "identification": {
+    "key_features": [
+      "Bis 1,5 m hohe, aufrechte Staude, ganze Pflanze dicht samtig-graufilzig behaart (weich, nicht rau)",
+      "Blätter graugrün, filzig, 3–5-lappig bis schwach gelappt, gekerbt-gesägt, wechselständig",
+      "Blüten blass-rosa bis weiß, 3–5 cm, mit dickem Staubblattbündel (Malvaceen-Typ), in den Blattachseln",
+      "Außenkelch aus 6–9 Zipfeln (Malve: 3 Zipfel) — wichtiges Bestimmungsmerkmal",
+      "Wurzel außen graubraun, innen weiß, faserig, beim Kauen stark schleimig; Standort feucht/salzhaltig"
+    ],
+    "season": "Blüte Juli bis September",
+    "habitat": "Feuchte, salztolerante Standorte: Gräben, Ufer, Salzwiesen, Auen; meist kultiviert",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur-selten-verwildert"}
+    ],
+    "collection_rules": [
+      "Meist Kulturpflanze; wild in der Region selten. Wurzel im Herbst des 2. Jahres, geschält und rasch getrocknet (sonst verfärbt/verschimmelt der schleimreiche Wurzelkörper).",
+      "Außenkelch mit 6–9 Zipfeln bestätigt die Art gegenüber echten Malven (Malva, 3 Außenkelchzipfel).",
+      "Ganze Pflanze weich-samtfilzig (nicht rau/kratzig) — Abgrenzung zu rau behaarten Verwechslern."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wilde Malve / Käsepappel",
+      "scientific_name": "Malva sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nächster Verwandter, ebenfalls Schleimdroge und arzneilich genutzt — Verwechslung ungefährlich. Unterscheidung: Malve hat kräftiger rosaviolette, dunkel geaderte Blüten und nur 3 Außenkelchzipfel; Eibisch ist samtig-filzig mit blasseren Blüten und 6–9 Zipfeln."
+    },
+    {
+      "name": "Stockrose / Stockmalve",
+      "scientific_name": "Alcea rosea (Althaea rosea)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Große Gartenmalve, ungiftig; wird gelegentlich (Blüten) als Ersatz-/Verfälschungsdroge genutzt. Deutlich höherwüchsig, große teller­förmige Blüten in vielen Farben; geringerer Schleimgehalt. Keine Gefahr, aber arzneilich nicht gleichwertig."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Innerhalb der Malvengewächse bestehen nur Verwechslungen mit anderen ungiftigen Schleimdrogen; ein giftiger oder lebensgefährlicher Doppelgänger der samtig-filzigen, feuchtestandort-typischen Pflanze ist nicht bekannt. Bei Kauf getrockneter Schnittdroge auf Verfälschung mit anderen Malvaceen achten."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (Wurzel ca. 10–20 %, teils bis ~35 % angegeben; saure Polysaccharide/Galakturonorhamnane)",
+      "Pektine, Stärke (Wurzel), Zucker",
+      "Flavonoide und Cumarine (v. a. im Blatt), geringe Gehalte"
+    ],
+    "lead_substance": "Hochmolekulare Schleimpolysaccharide — bilden einen schützenden Film auf gereizten Schleimhäuten (demulzierend/reizlindernd).",
+    "solubility_note": "Schleimstoffe sind wasserlöslich, aber HITZEEMPFINDLICH und werden durch Kochen abgebaut — deshalb KALTAUSZUG (Mazerat) statt Aufguss. Alkohol fällt Schleim aus, daher ist Tinktur ungeeignet.",
+    "heat_light_sensitivity": "Schleimstoffe werden beim Kochen abgebaut; die Wurzel enthält zudem Stärke, die im Kaltauszug nicht verkleistert — ein weiterer Grund für die Kaltzubereitung."
+  },
+  "pharmacology": {
+    "mechanism": "Rein physikalisch-demulzierend: Die Polysaccharide legen sich als viskoser Schutzfilm über die entzündete/gereizte Schleimhaut von Rachen, Speiseröhre und Magen, dämpfen den Hustenreiz und schützen vor weiterer Reizung. Keine systemische Resorption der Schleimstoffe.",
+    "evidence_caveat": "Wirkung ist plausibel und traditionell gut belegt, aber die kontrollierte klinische Studienlage ist begrenzt; Einstufung als traditional use, nicht well-established use.",
+    "pharmacokinetics": "Schleimstoffe werden nicht resorbiert, sondern wirken lokal im Verdauungs-/Rachenraum."
+  },
+  "indications": [
+    {
+      "canonical": "Reizhusten und Schleimhautreizung im Mund-/Rachenraum",
+      "synonyms": ["trockener Husten", "Reizhusten", "Halskratzen", "Halsschmerzen", "wunder Hals", "Heiserkeit", "gereizter Rachen"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use als Demulzens bei Reizung von Mund-/Rachenschleimhaut und damit verbundenem trockenem Reizhusten. Kommission E positiv; ESCOP positiv.",
+      "realistic_expectation": "Lindert trockenen Reizhusten und wunden/gereizten Hals durch einen schützenden Schleimfilm. Symptomatisch und kurzwirksam — kein Schleimlöser bei produktivem Husten, kein Antibiotikum, behandelt nicht die Ursache.",
+      "source": "EMA/HMPC EU herbal monograph Althaea officinalis L., radix (traditional use); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Leichte Reizung der Magenschleimhaut / leichte Magenbeschwerden",
+      "synonyms": ["gereizter Magen", "Magenbrennen", "empfindlicher Magen", "Sodbrennen"],
+      "evidence_tag": "TU",
+      "comment": "Traditionelle Anwendung als schleimhautschützendes Mittel bei leichter Reizung der Magenschleimhaut (Kommission E/ESCOP nennen leichte Magenschleimhaut-Reizung).",
+      "realistic_expectation": "Kann leichte Magenreizung lindern (Schutzfilm). Kein Ersatz für die Abklärung anhaltender Magenbeschwerden.",
+      "source": "Kommission E; ESCOP; EMA/HMPC (traditional use)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sehr sicheres, reizlinderndes Schleimmittel bei trockenem Reizhusten und gereizten Schleimhäuten in Mund, Rachen und Magen — Wirkung durch physikalischen Schutzfilm, gut verträglich, auch für Kinder geeignet.",
+    "overstated": "Kein Schleimlöser/Expektorans bei verschleimtem Husten und kein entzündungshemmendes 'Heilmittel' — die Wirkung ist rein lokal-schützend und hält nur an, solange der Film aufliegt. Kochen zerstört den Wirkstoff.",
+    "effect_size": "mild; symptomatisch, lokal"
+  },
+  "preparation": {
+    "recommended_forms": ["Kaltauszug (Mazerat) der Wurzel", "Eibischsirup", "Lutschpastillen", "Blatt-Kaltauszug/Teeaufguss"],
+    "form_rationale": "Wegen der hitzeempfindlichen Schleimstoffe KALT ansetzen: ca. 1–2 h in kaltem Wasser ziehen lassen, dann kurz leicht erwärmen (nicht kochen). Alkoholische Tinkturen fällen den Schleim und sind ungeeignet.",
+    "standard_dose": "Wurzel: ca. 0,5–3 g pro Einzeldosis als Kaltmazerat, mehrmals täglich (Tagesdosis Größenordnung 6 g Wurzel bzw. 5 g Blatt, gemäß Monographien). Bei Kindern altersadaptiert. Bei Husten > 1 Woche oder Atemnot/Fieber ärztlich abklären.",
+    "preservation": "Kaltauszug frisch zubereiten und zeitnah verbrauchen (mikrobiell anfällig); Sirup gekühlt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Eibisch/Malvengewächse (selten)"
+    ],
+    "pregnancy_lactation": "Keine Bedenken bekannt; mangels systematischer Daten formal zurückhaltend, wird aber traditionell als unbedenklich angesehen (lokal wirkend, keine Resorption). Im Zweifel ärztlich abklären.",
+    "adverse_effects": "Sehr selten allergische Reaktionen. Ansonsten keine relevanten unerwünschten Wirkungen; gute Verträglichkeit auch bei Kindern.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Der Schleimfilm kann die Aufnahme (Resorption) gleichzeitig eingenommener Arzneistoffe im Magen-Darm-Trakt verzögern oder vermindern",
+        "affected": "andere oral eingenommene Arzneimittel (allgemein)",
+        "clinical_relevance": "gering bis relevant — als Vorsichtsmaßnahme mit ~30–60 min zeitlichem Abstand einnehmen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Sehr sichere Schleimdroge — wichtigster Punkt: NICHT kochen (zerstört die Schleimstoffe), sondern kalt ansetzen; andere Medikamente mit zeitlichem Abstand einnehmen, da der Schleimfilm ihre Aufnahme verzögern kann."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Spätherbst des 2. Jahres (nach dem Einziehen); Blätter kurz vor/zur Blütezeit im Sommer.",
+    "harvest_month_tags": [6, 7, 8, 9, 10, 11],
+    "harvest_organ": "Wurzel (Radix); Blatt (Folium)",
+    "method": "Wurzeln ausgraben, waschen, äußere Korkschicht schälen (Handelsware oft geschält), in Stücke schneiden; Blätter pflücken.",
+    "processing": "RASCH bei ≤ 40 °C trocknen — der hohe Schleim-/Zuckergehalt macht die Wurzel sonst anfällig für Verfärbung und Schimmel.",
+    "storage": "Trocken, luftdicht, vor Feuchtigkeit geschützt (Schleimdroge zieht Wasser); Trockendroge innerhalb ~1 Jahr verwenden."
+  },
+  "kitchen": {
+    "uses": ["Historisch Grundlage der ursprünglichen Marshmallow-Süßware (Wurzelschleim)", "Junge Blätter/Blüten als milde Salatzugabe"],
+    "culinary_vs_medicinal": "Kulinarisch heute unbedeutend (moderne Marshmallows enthalten keinen Eibisch mehr); arzneilich zählt der Schleimgehalt der Wurzel. Küche und Heilkunde überschneiden sich in der milden, ungiftigen Natur der Pflanze."
+  },
+  "garden": {
+    "site_soil": "Nährstoffreiche, feuchte, auch salztolerante Böden; sonnig.",
+    "hardiness": "Winterhart, mehrjährige Staude.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung; Wurzelernte ab dem 2. Standjahr.",
+    "bodensee_suitability": "An feuchten, nährstoffreichen Standorten (Teichrand, feuchte Beete) gut kultivierbar; als Zier- und Heilpflanze geeignet."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Hohe, samtig-graufilzige Staude mit blassrosa Malvenblüten", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Außenkelch mit 6–9 Zipfeln und filzige, gelappte Blätter — Abgrenzung zur echten Malve", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Althaea officinalis L., radix (traditional use)",
+    "EMA/HMPC — EU herbal monograph Althaea officinalis L., folium (traditional use)",
+    "Kommission E — Eibischwurzel/Eibischblätter (positiv)",
+    "ESCOP — Althaeae radix",
+    "Arzneipflanzen-/Phytotherapie-Fachquellen zu Kaltauszug, Schleimgehalt und Resorptionsinteraktion (recherchiert)"
+  ]
+}

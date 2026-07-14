@@ -57,8 +57,8 @@
       "latin": "Primula veris",
       "tier": 1,
       "reason": "WEU nur in Fixkombination (mit Thymian) — Evidenz-Lehrstück",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-schluesselblume.json"
     },
     {
       "id": "althaea-officinalis",
@@ -66,8 +66,8 @@
       "latin": "Althaea officinalis",
       "tier": 1,
       "reason": "Schleimdroge, Reizhusten",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-eibisch.json"
     },
     {
       "id": "silybum-marianum",

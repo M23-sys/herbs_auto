@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "id": "primula-veris",
+  "botany": {
+    "scientific_name": "Primula veris L.",
+    "common_names_de": ["Echte Schlüsselblume", "Frühlings-Schlüsselblume", "Wiesen-Schlüsselblume", "Himmelsschlüssel", "Primel"],
+    "family": "Primelgewächse (Primulaceae)",
+    "drug_part": ["Wurzel (Radix)", "Blüte (Flos)"],
+    "drug_name_latin": "Primulae radix; Primulae flos",
+    "synonym_note": "Arzneilich gleichrangig verwendet wird auch Primula elatior (L.) Hill (Hohe/Wald-Schlüsselblume); die HMPC-Monographien führen beide Arten gemeinsam."
+  },
+  "identification": {
+    "key_features": [
+      "Grundständige Blattrosette aus runzeligen, gekerbten, unterseits filzig-behaarten Blättern, die sich abrupt in den Blattstiel verschmälern (bei P. elatior allmählicher Übergang)",
+      "Blattloser, aufrechter Blütenschaft mit einer einseitswendigen, nickenden Dolde",
+      "Dottergelbe Blüten mit fünf orangeroten Schlundflecken und ausgeprägtem Duft (P. elatior: blasser, schwefelgelb, ohne deutliche Flecken, geruchlos)",
+      "Kelch bauchig aufgeblasen, deutlich heller/gelbgrün, dem Kronröhren-Ansatz nicht anliegend",
+      "Blüht sehr früh im Jahr (März–April/Mai); Wuchshöhe 10–30 cm"
+    ],
+    "season": "Blüte März bis Mai",
+    "habitat": "Magerwiesen, Halbtrockenrasen, lichte Laubwälder, Wegränder auf kalkhaltigen, eher trockenen Böden; sonnig bis halbschattig",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-selten"}
+    ],
+    "collection_rules": [
+      "WICHTIG: Die Echte Schlüsselblume ist in Deutschland besonders geschützt (BArtSchV) und regional stark gefährdet — Wildsammlung ist grundsätzlich unzulässig. Arzneidroge nur aus Anbau/Handel.",
+      "Sichere Bestimmung über die Blüte (dottergelb, orangerote Schlundflecken, duftend) vor jeder Nutzung; die Wurzel wird arzneilich bevorzugt (höchster Saponingehalt).",
+      "Blattrosetten NICHT im blütenlosen Zustand nutzen — Verwechslungsgefahr mit dem tödlich giftigen Fingerhut (Digitalis), dessen erstjährige Rosette ähnlich weichhaarig-runzelig aussieht."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Roter Fingerhut (erstjährige Blattrosette)",
+      "scientific_name": "Digitalis purpurea",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzwirksame Glykoside (Digitoxin, Digoxin u. a.)",
+      "note": "Kritische Verwechslung im blütenlosen Zustand: Beide bilden eine grundständige Rosette weichhaariger, runzeliger Blätter. Fingerhut-Blätter sind größer, länger zugespitzt, unterseits graufilzig und laufen am Stiel herab (nicht abrupt verschmälert); die Schlüsselblume riecht angenehm, die Blätter sind kleiner und gekerbt. Im Zweifel NICHT sammeln — schon wenige Gramm Fingerhutblatt können tödlich sein. Nur blühende, sicher bestimmte Pflanzen verwenden."
+    },
+    {
+      "name": "Hohe/Wald-Schlüsselblume",
+      "scientific_name": "Primula elatior",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährliche Verwechslung — arzneilich gleichwertig und in denselben HMPC-Monographien geführt. Unterscheidung: blassere, schwefelgelbe, geruchlose Blüten ohne kräftige orangerote Schlundflecken, Kelch dem Kronröhren-Ansatz anliegend."
+    },
+    {
+      "name": "Becher-Primel / Zimmer-Primeln",
+      "scientific_name": "Primula obconica",
+      "toxicity_level": "giftig",
+      "toxin": "Primin (Chinon-Kontaktallergen)",
+      "note": "Als Zierpflanze relevant, nicht im Freiland: starkes Kontaktallergen (Primin), kann allergische Kontaktdermatitis auslösen. Die Echte Schlüsselblume enthält nur sehr wenig bis kein Primin, ist aber botanisch verwandt — bei bekannter Primel-Allergie vorsichtig sein."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (Wurzel ca. 5–10 %, oleanan-Typ: Primulasäure/Primulasaponin)",
+      "Phenolglykoside (Primverin, Primulaverin — Vorstufen von Salicylsäuremethylester)",
+      "Flavonoide (v. a. in der Blüte), Carotinoide, Gerbstoffe, Kieselsäure"
+    ],
+    "lead_substance": "Triterpensaponine der Wurzel — sekretolytisch/expektorierend über reflektorische Reizung der Magenschleimhaut.",
+    "solubility_note": "Saponine sind wasser- und ethanollöslich — daher Tee (Dekokt/Aufguss) der Wurzel, Fluidextrakt oder Tinktur geeignet. Die Blüte (mit Flavonoiden) wird eher als milder Aufguss verwendet.",
+    "heat_light_sensitivity": "unsicher — zu prüfen; Saponine gelten als hitzestabil genug für die Teezubereitung."
+  },
+  "pharmacology": {
+    "mechanism": "Die Triterpensaponine reizen die Magenschleimhaut; über einen vagal vermittelten Reflex wird die Bronchialsekretion gesteigert und das Sekret verflüssigt (sekretolytisch/sekretomotorisch), was das Abhusten erleichtert. Zusätzlich diskutierte direkte Wirkung auf die Bronchialdrüsen.",
+    "evidence_caveat": "Der Wirkmechanismus ist überwiegend pharmakologisch/traditionell begründet. Belastbare klinische Evidenz besteht v. a. für die FIXKOMBINATION Schlüsselblumenwurzel + Thymian (RCT bei akuter Bronchitis), NICHT für die Einzeldroge — das ist ein Lehrbeispiel dafür, dass Kombinationsevidenz nicht auf den Einzelstoff übertragbar ist.",
+    "pharmacokinetics": "unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Produktiver (verschleimter) Husten, Katarrhe der oberen Atemwege",
+      "synonyms": ["Husten mit Schleim", "verschleimter Husten", "festsitzender Husten", "Bronchitis", "Erkältungshusten", "Abhusten"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC führt Primulae radix (und Primulae flos) als traditional use zur Schleimlösung bei Erkältungshusten. Kommission E positiv (Katarrhe der Atemwege). ESCOP: produktiver Husten, Katarrh. Für die Einzeldroge KEIN well-established use — die WEU-nahe/RCT-Evidenz betrifft die Fixkombination mit Thymian.",
+      "realistic_expectation": "Kann als Schleimlöser das Abhusten bei verschleimtem Erkältungshusten erleichtern. Kein Hustenstiller (nicht bei trockenem Reizhusten), kein Antibiotikum, keine Heilung der Infektion. Die überzeugendste Studienlage betrifft nicht die reine Schlüsselblume, sondern die Kombination mit Thymian.",
+      "source": "EMA/HMPC EU herbal monograph Primula veris L. / Primula elatior (L.) Hill, radix (traditional use); Kommission E (positiv); ESCOP"
+    },
+    {
+      "canonical": "Blütenzubereitung bei Erkältung (traditionell)",
+      "synonyms": ["Erkältungstee", "Reizhusten", "Katarrh"],
+      "evidence_tag": "TU",
+      "comment": "Primulae flos als traditional use; mildere Wirkung, saponinärmer als die Wurzel.",
+      "realistic_expectation": "Unterstützender, milder Erkältungstee. Wirkung schwächer als die der Wurzel; keine belastbare klinische Evidenz.",
+      "source": "EMA/HMPC EU herbal monograph Primula veris/elatior, flos (traditional use)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Traditionell und regulatorisch anerkannter pflanzlicher Schleimlöser (Saponindroge) bei verschleimtem Erkältungshusten; als Fixkombination mit Thymian sogar mit RCT-Evidenz.",
+    "overstated": "Die Einzeldroge Schlüsselblume ist NICHT durch eigene RCTs als well-established belegt — die oft zitierte 'Evidenz' stammt von Kombinationspräparaten. Kein Mittel gegen trockenen Reizhusten und kein Antibiotika-Ersatz.",
+    "effect_size": "mild bis moderat; symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Wurzeltee (Dekokt/Aufguss)", "Fluidextrakt", "Tinktur", "Fertigpräparate (oft Fixkombination mit Thymian)"],
+    "form_rationale": "Die wirksamen Saponine der Wurzel sind wasserlöslich — Tee und ethanolische Auszüge extrahieren sie gut. Klinisch am besten belegt sind standardisierte Fertigpräparate.",
+    "standard_dose": "Wurzel: ca. 0,2–0,5 g als Einzeldosis für einen Aufguss, mehrmals täglich (Tagesdosis Größenordnung 0,5–1,5 g Droge); Blüte in höherer Menge. Fertigpräparate nach Herstellerangabe. Bei Husten > 1 Woche, Fieber, Atemnot oder eitrigem/blutigem Auswurf ärztlich abklären.",
+    "preservation": "Trockendroge licht- und feuchtigkeitsgeschützt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Schlüsselblume/Primeln",
+      "Vorsicht bei Magen-/Darmgeschwüren und Gastritis (Saponine reizen die Magenschleimhaut)"
+    ],
+    "pregnancy_lactation": "Mangels ausreichender Daten in Schwangerschaft und Stillzeit nicht empfohlen (EMA/HMPC).",
+    "adverse_effects": "Gelegentlich Magenbeschwerden, Übelkeit, Erbrechen (saponinbedingte Schleimhautreizung), selten allergische Reaktionen. Bei Umgang mit Primeln (bes. Zimmerprimeln) Kontaktdermatitis möglich.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Interaktionen dokumentiert",
+        "affected": "—",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Pflanze selbst ist nur schwach reizend, ABER: die blütenlose Blattrosette kann mit der erstjährigen Rosette des tödlich giftigen Fingerhuts (Digitalis) verwechselt werden — nur sicher bestimmte, blühende Pflanzen verwenden. Zudem streng geschützt: keine Wildsammlung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst (nach dem Einziehen) oder zeitigen Frühjahr; Blüte während der Blüte (März–Mai). Wegen Naturschutz nur aus Anbau/Handel.",
+    "harvest_month_tags": [3, 4, 5, 9, 10],
+    "harvest_organ": "Wurzel (Radix); Blüte (Flos)",
+    "method": "Wurzel ausgraben, waschen, zerkleinern; Blüten ohne Kelch pflücken. Wildsammlung unzulässig (geschützt).",
+    "processing": "An der Luft oder bei ≤ 40 °C schonend trocknen.",
+    "storage": "Trocken, licht- und luftgeschützt; Trockendroge innerhalb ~1 Jahr verwenden."
+  },
+  "kitchen": {
+    "uses": ["Blüten als essbare Dekoration/Sirup (nur aus Anbau, wegen Naturschutz)"],
+    "culinary_vs_medicinal": "Kulinarisch spielen nur die ungiftigen Blüten eine (geringe) Rolle; arzneilich zählt v. a. die saponinreiche Wurzel. Wegen des Schutzstatus keine Wildentnahme."
+  },
+  "garden": {
+    "site_soil": "Kalkhaltige, eher magere, durchlässige Böden; sonnig bis halbschattig.",
+    "hardiness": "Voll winterhart, ausdauernd.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung nach der Blüte.",
+    "bodensee_suitability": "Standortgerecht auf kalkhaltigen Wiesen gut kultivierbar; die geschützte Wildpflanze im Garten zu ziehen ist die naturschonende Alternative zur Wildsammlung."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühende Echte Schlüsselblume mit nickender, einseitswendiger Dolde dottergelber Blüten", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Runzelige, unterseits filzige Blattrosette — Abgrenzung zur Fingerhut-Rosette beachten", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Primula veris L. and/or Primula elatior (L.) Hill, radix (traditional use)",
+    "EMA/HMPC — EU herbal monograph Primula veris L. and Primula elatior (L.) Hill, flos (traditional use)",
+    "Kommission E — Primelwurzel/Primelblüten (positiv)",
+    "ESCOP — Primulae radix",
+    "Arzneipflanzen-Lexikon; giftpflanzen-/Naturschutz-Recherche zur Fingerhut-Verwechslung und zum Schutzstatus (recherchiert)"
+  ]
+}
