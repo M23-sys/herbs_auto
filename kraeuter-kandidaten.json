@@ -39,8 +39,8 @@
       "latin": "Valeriana officinalis",
       "tier": 1,
       "reason": "WEU/ESCOP Schlaf & Unruhe — stärkste Sedativum-Evidenz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-baldrian.json"
     },
     {
       "id": "hedera-helix",
@@ -48,8 +48,8 @@
       "latin": "Hedera helix",
       "tier": 1,
       "reason": "WEU produktiver Husten",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-efeu.json"
     },
     {
       "id": "primula-veris",
