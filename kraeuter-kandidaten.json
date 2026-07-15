@@ -111,8 +111,8 @@
       "latin": "Plantago ovata",
       "tier": 1,
       "reason": "WEU Obstipation/Reizdarm",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-flohsamen.json"
     },
     {
       "id": "linum-usitatissimum",
@@ -120,8 +120,8 @@
       "latin": "Linum usitatissimum",
       "tier": 1,
       "reason": "Quellstoff-Laxans; Blausäureglykoside",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-lein.json"
     },
     {
       "id": "frangula-alnus",

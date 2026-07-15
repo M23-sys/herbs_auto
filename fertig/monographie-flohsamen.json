@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "id": "plantago-ovata",
+  "botany": {
+    "scientific_name": "Plantago ovata Forssk.",
+    "common_names_de": ["Indischer Flohsamen", "Indischer Wegerich", "Flohsamen (hell/blond)", "Ispaghula", "Blonde Flohsamen"],
+    "family": "Wegerichgewächse (Plantaginaceae)",
+    "drug_part": ["Samen (Semen)", "Samenschalen / Testa (Seminis tegumentum)"],
+    "drug_name_latin": "Plantaginis ovatae semen; Plantaginis ovatae seminis tegumentum",
+    "synonym_note": "Synonym Plantago ispaghula Roxb. Arzneilich werden zwei Drogen unterschieden: der ganze Samen (Semen) und die abgetrennte Samenschale (Tegumentum, 'Flohsamenschalen'); die Schale ist quellstärker und wird geringer dosiert. Nicht verwechseln mit dem einheimischen Spitz-/Breitwegerich (andere Anwendung) oder dem 'schwarzen' Flohsamen Plantago afra/psyllium."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: Die Droge sind kleine (ca. 1,5–3,5 mm), boot-/kahnförmige, glatt-glänzende, hellbraun-rosa Samen mit einem dunkleren Längsfleck (Hilum) auf der gewölbten Seite — bzw. weißlich-hellbeige, papierdünne Samenschalen.",
+      "In Wasser bilden Samen/Schalen binnen Minuten eine dicke, farblose bis leicht trübe Gallerte (Schleim) — quellen auf ein Vielfaches (Schalen bis ~40-faches Volumen).",
+      "Geruch und Geschmack praktisch neutral, schleimig; kein bitterer, scharfer oder aromatischer Eindruck.",
+      "Handelsware ist immer der gereinigte Samen oder die Schale — in Mitteleuropa kein Wildvorkommen, keine Feldbestimmung nötig.",
+      "Ganze Pflanze (im Anbau, Indien/Iran/Pakistan): niedriges, rosettiges einjähriges Kraut mit schmalen, linealen behaarten Blättern und walzlichen Ähren — bei uns nicht anzutreffen."
+    ],
+    "season": "Einjährige Kulturpflanze warm-trockener Gebiete (v. a. Indien, Pakistan, Iran); Aussaat/Ernte dort saisonal. In Mitteleuropa kein wildes Vorkommen.",
+    "habitat": "Trockene, sandige Standorte subtropischer Regionen; ausschließlich kultiviert, nicht heimisch.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Kein Wildsammeln — die Droge wird als Arznei-/Lebensmittelware bezogen (Samen oder Schalen, ggf. als Granulat/Pulver).",
+      "Auf Qualität achten: sauber, frei von Fremdbesatz, gutes Quellvermögen. Reine 'Flohsamenschalen' quellen stärker als der ganze Samen und werden niedriger dosiert.",
+      "Nicht verwechseln mit dem 'schwarzen'/französischen Flohsamen (Plantago afra, syn. P. psyllium) — ebenfalls essbar/arzneilich, aber andere Droge mit etwas geringerem Quellvermögen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Schwarzer/Französischer Flohsamen (Sand-Wegerich)",
+      "scientific_name": "Plantago afra (syn. Plantago psyllium)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandte, ebenfalls arzneilich genutzte Flohsamen-Art; dunklere Samen, etwas geringeres Quellvermögen. Unbedenkliche Verwechslung — gleiche Wirkrichtung (Quellmittel), keine Gefahr, nur Dosis-/Qualitätsfrage."
+    },
+    {
+      "name": "Einheimischer Spitz-/Breitwegerich",
+      "scientific_name": "Plantago lanceolata / Plantago major",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gleiche Gattung, aber traditionell als Blatt-Droge bei Husten/Hautreizung genutzt, NICHT als Quell-Laxans. Namens- und Gattungsverwechslung ohne Giftgefahr; die Samen des Indischen Flohsamens sind eine eigene Handelsdroge."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Indischer Flohsamen wird als gereinigte Handelsdroge (Samen/Schalen) bezogen, es besteht keine Feldsammlung und damit kein Risiko eines giftigen Doppelgängers. Die realistischen Verwechslungen sind essbare/arzneiliche Verwandte. Ein tödlich giftiger Doppelgänger ist nicht bekannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (Arabinoxylane) in der Samenschale/Epidermis — Hauptwirkstoff, 20–30 % (Schale deutlich höher); stark wasserbindend",
+      "Ballaststoffe/Zellulose",
+      "Etwas fettes Öl, Eiweiß, Iridoidglykoside (Aucubin) in Spuren"
+    ],
+    "lead_substance": "Schleimpolysaccharide (Arabinoxylane) der Samenschale — binden Wasser und bilden ein Gel; sie tragen die laxierende (Volumen-/Quell-)Wirkung.",
+    "solubility_note": "Der Schleim quillt in Wasser (kalt) zu einer Gallerte; die Droge wird NICHT als Tee/Auszug, sondern als quellendes Ganzkorn/Granulat mit reichlich Flüssigkeit eingenommen. Entscheidend ist ausreichend mitgetrunkenes Wasser (Richtwert ~30 ml je 1 g), sonst droht Verklumpung/Verschluss.",
+    "heat_light_sensitivity": "Trockene Droge lagerstabil; Quellvermögen bleibt bei trockener, dichter Lagerung erhalten. Kein besonderer Hitze-/Lichtabbau relevant."
+  },
+  "pharmacology": {
+    "mechanism": "Rein physikalisch-mechanisch: Die Schleimpolysaccharide binden Wasser, vergrößern das Stuhlvolumen und machen den Stuhl weicher/gleitfähiger; die Dehnung der Darmwand fördert reflektorisch die Peristaltik (Volumen-/Füllungslaxans). Bei Durchfall bindet das Gel überschüssiges Wasser (stuhlregulierend, 'bidirektional'). Für die Schalen ist zusätzlich eine cholesterinsenkende Wirkung belegt (Bindung von Gallensäuren, vermehrte Ausscheidung).",
+    "evidence_caveat": "Die laxierende Wirkung bei habitueller Verstopfung ist gut belegt (HMPC well-established use, > 900 Patienten in Studien). Für Reizdarm und die Cholesterinsenkung (v. a. Schalen) ist die Evidenz solide (ESCOP), aber die Effektgröße bei Cholesterin ist moderat und diätbegleitend zu sehen.",
+    "pharmacokinetics": "Wird nicht resorbiert, sondern wirkt lokal im Darmlumen und wird weitgehend unverändert/als Ballaststoff ausgeschieden. Klinisch relevant ist v. a. die VERZÖGERUNG der Resorption gleichzeitig eingenommener Arzneistoffe."
+  },
+  "indications": [
+    {
+      "canonical": "Habituelle (chronische) Obstipation",
+      "synonyms": ["Verstopfung", "chronische Verstopfung", "harter Stuhl", "seltener Stuhlgang", "träger Darm", "Stuhlregulierung"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC: well-established use zur Behandlung der habituellen Verstopfung. Wirkung tritt meist nach 12–24 h, ggf. erst nach 2–3 Tagen ein. Gilt als Quellmittel der ersten Wahl, weil nicht gewöhnungsbildend im Sinne der Anthranoid-Laxanzien.",
+      "realistic_expectation": "Reguliert den Stuhl sanft und ist für die Dauereinnahme geeignet — wirkt aber NICHT sofort wie ein Reizlaxans und ersetzt nicht die Abklärung neu aufgetretener oder alarmierender Beschwerden (Blut im Stuhl, Gewichtsverlust, Wechsel des Stuhlverhaltens). Nur mit ausreichend Flüssigkeit sinnvoll.",
+      "source": "EMA/HMPC EU herbal monograph Plantaginis ovatae semen / seminis tegumentum (well-established use); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Zustände mit erwünschtem weichem Stuhl (Analfissuren, Hämorrhoiden, nach anorektalen Eingriffen, Schwangerschaft)",
+      "synonyms": ["Analfissur", "Hämorrhoiden", "schmerzhafter Stuhlgang", "weicher Stuhl gewünscht", "Verstopfung in der Schwangerschaft"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC well-established use bzw. Kommission E: Erleichterung der Darmentleerung, wenn ein weicher Stuhl erwünscht ist. In der Schwangerschaft gelten Quellmittel als Laxans der Wahl.",
+      "realistic_expectation": "Macht den Stuhl weicher und die Entleerung weniger schmerzhaft; behandelt aber nicht die Ursache (Fissur, Hämorrhoiden) selbst.",
+      "source": "EMA/HMPC (well-established use); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Reizdarmsyndrom (unterstützend, faserreiche Kost)",
+      "synonyms": ["Reizdarm", "Reizdarmsyndrom", "RDS", "empfindlicher Darm", "wechselnder Stuhl"],
+      "evidence_tag": "ESCOP+",
+      "comment": "ESCOP/Kommission E: unterstützend bei Reizdarm bzw. wenn eine ballaststoffreiche Ernährung erwünscht ist. Löslicher Ballaststoff wird bei RDS häufig besser vertragen als unlöslicher (Weizenkleie).",
+      "realistic_expectation": "Kann Stuhlkonsistenz und -frequenz stabilisieren; Wirkung individuell unterschiedlich, anfangs möglich vermehrte Blähungen. Keine Heilung des Reizdarms.",
+      "source": "ESCOP; Kommission E"
+    },
+    {
+      "canonical": "Unterstützende Behandlung bei Durchfall verschiedener Ursache",
+      "synonyms": ["Durchfall", "Diarrhoe", "dünner Stuhl", "Stuhl eindicken"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "Kommission E/ESCOP: unterstützend bei Durchfall — das Gel bindet Wasser und dickt den Stuhl ein. Kein Ersatz für Rehydratation/Ursachenabklärung bei schwerem oder anhaltendem Durchfall.",
+      "realistic_expectation": "Kann breiigen Stuhl etwas festigen; behandelt nicht die Ursache und ersetzt bei Fieber, Blut oder Dauer > wenige Tage die ärztliche Abklärung nicht.",
+      "source": "Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Ergänzung bei leichter bis mäßiger Hypercholesterinämie (v. a. Flohsamenschalen)",
+      "synonyms": ["erhöhtes Cholesterin", "Cholesterinsenkung", "Blutfette"],
+      "evidence_tag": "ESCOP+",
+      "comment": "ESCOP: Flohsamenschalen als Ergänzung zu einer fettarmen Diät bei leichter bis mäßiger Hypercholesterinämie. Gilt v. a. für die Schalen (Tegumentum), nicht als eigenständige Therapie.",
+      "realistic_expectation": "Moderate, diätbegleitende Senkung des LDL-Cholesterins möglich — kein Ersatz für Statine bei behandlungsbedürftigem Risiko. Nutzen nur bei regelmäßiger Einnahme.",
+      "source": "ESCOP (seminis tegumentum)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sanftes, gut verträgliches Quell-/Volumenlaxans zur Stuhlregulierung bei chronischer Verstopfung und wenn weicher Stuhl erwünscht ist (HMPC well-established use) — auch für die Dauer- und Schwangerschaftsanwendung geeignet und nicht gewöhnungsbildend. Schalen zusätzlich mild cholesterinsenkend.",
+    "overstated": "Kein 'Detox'- oder Entschlackungsmittel und kein Schlankmacher. Wirkt nicht akut/sofort. Ohne ausreichendes Mittrinken wirkungslos und sogar gefährlich (Verschlussrisiko). Die Cholesterinsenkung ist moderat und ersetzt keine leitliniengerechte Lipidtherapie.",
+    "effect_size": "moderat und zuverlässig bei Verstopfung (symptomatisch/regulierend); mild bei Cholesterin"
+  },
+  "preparation": {
+    "recommended_forms": ["Ganze Samen oder Flohsamenschalen (in Wasser gequollen)", "Granulat/Pulver zum Einrühren", "Fertigpräparate (Beutel)"],
+    "form_rationale": "Die Wirkung ist ein physikalischer Quelleffekt — deshalb wird die Droge als quellendes Ganzkorn/Granulat mit reichlich Flüssigkeit eingenommen, NICHT als abgeseihter Tee. Schalen quellen stärker und werden niedriger dosiert als der ganze Samen.",
+    "standard_dose": "Ganze Samen: ca. 12–40 g/Tag (Kommission E), verteilt auf Einzelgaben; Flohsamenschalen: ca. 4–20 g/Tag. Jede Einzelgabe mit reichlich Wasser einnehmen (Richtwert ~30 ml je 1 g Droge) und über den Tag zusätzlich ausreichend trinken. Einschleichend dosieren. Andere Arzneimittel mit 30–60 min Abstand einnehmen.",
+    "preservation": "Trocken, dicht verschlossen und trocken lagern (die Droge zieht Feuchtigkeit); Quellvermögen bleibt so erhalten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte oder drohende Darmverengung/Darmverschluss (Ileus, Stenosen), krankhafte Verengung im Magen-Darm-Trakt",
+      "Verengungen/Schluckstörungen der Speiseröhre",
+      "Schwer einstellbarer Diabetes mellitus",
+      "Akutes, ungeklärtes Abdomen; plötzlich veränderter Stuhlgang unklarer Ursache",
+      "Bekannte Überempfindlichkeit gegen Flohsamen"
+    ],
+    "pregnancy_lactation": "Schwangerschaft und Stillzeit: Quellmittel gelten als Laxans der Wahl, da sie nicht resorbiert werden. Anwendung möglich, wenn Ernährungsumstellung nicht ausreicht; auf ausreichende Flüssigkeitszufuhr achten. Keine Hinweise auf ein Risiko in der Stillzeit.",
+    "adverse_effects": "Anfangs Blähungen/Völlegefühl, meist vorübergehend. Selten allergische Reaktionen (auch berufliche Sensibilisierung/Asthma gegen Flohsamen-Staub bei Verarbeitung). Bei zu wenig Flüssigkeit Verklumpung mit Risiko von Speiseröhren-/Darmverschluss.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Der Schleim kann die Resorption gleichzeitig eingenommener Arzneistoffe verzögern/vermindern (Bindung/verlangsamte Passage).",
+        "affected": "u. a. Schilddrüsenhormone (Levothyroxin), Lithium, Carbamazepin, Herzglykoside (Digoxin), Cumarine, Vitamin B12, Mineralstoffe",
+        "clinical_relevance": "relevant — Einnahme anderer Arzneimittel um 30–60 min versetzen"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Verzögerte Kohlenhydratresorption kann den Blutzucker senken; bei Diabetes kann der Insulin-/Antidiabetika-Bedarf sinken.",
+        "affected": "Insulin, orale Antidiabetika",
+        "clinical_relevance": "relevant bei Diabetes — ärztliche Kontrolle/Dosisanpassung"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Immer mit reichlich Flüssigkeit einnehmen (ca. 30 ml Wasser je 1 g) — ohne ausreichendes Trinken droht Verklumpung mit Speiseröhren- oder Darmverschluss; nicht bei Darmverengung/Ileus oder Schluckstörung, und andere Arzneimittel zeitversetzt (30–60 min) einnehmen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Kulturpflanze subtropischer Regionen; Samenreife/Ernte im Anbauland. In Mitteleuropa keine eigene Ernte.",
+    "harvest_month_tags": [],
+    "harvest_organ": "Samen",
+    "method": "Bezug als gereinigte Handelsdroge (Samen oder Schalen); keine Wildsammlung.",
+    "processing": "Samen und Schalen werden maschinell getrennt; Verarbeitung zu Ganzkorn, Granulat oder Pulver.",
+    "storage": "Trocken, dicht verschlossen, vor Feuchtigkeit geschützt lagern."
+  },
+  "kitchen": {
+    "uses": ["Als Ballaststoffquelle in Müsli/Joghurt/Smoothies eingerührt", "Als Binde-/Quellmittel und Ei-Ersatz beim (glutenfreien) Backen", "Schalen zum Andicken"],
+    "culinary_vs_medicinal": "Kulinarisch als Ballaststoffzusatz in kleinen Mengen; arzneilich als dosiertes Quelllaxans (12–40 g Samen bzw. 4–20 g Schalen/Tag). In beiden Fällen gilt: immer reichlich Flüssigkeit dazu."
+  },
+  "garden": {
+    "site_soil": "Warm, vollsonnig, sandig-durchlässig; an subtropisch-trockenes Klima angepasst.",
+    "hardiness": "Einjährig, wärmebedürftig; nicht auf mitteleuropäischen Ackerbau ausgelegt.",
+    "propagation": "Aussaat im Anbauland; bei uns gärtnerisch unbedeutend.",
+    "bodensee_suitability": "Für den Bodenseeraum als Nutzpflanze ungeeignet (Klima/Reifebedarf); die Droge wird importiert. Ehrlich: kein sinnvoller Eigenanbau."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Boot-/kahnförmige helle Samen bzw. weißliche Flohsamenschalen", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "In Wasser gequollene, farblose Schleimgallerte um die Samen", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Plantaginis ovatae semen (well-established use: habituelle Obstipation, Zustände mit erwünschtem weichem Stuhl)",
+    "EMA/HMPC — EU herbal monograph Plantaginis ovatae seminis tegumentum (Flohsamenschalen; well-established use; Assessment report 2013)",
+    "Kommission E — Plantaginis ovatae semen/testa (chronische Obstipation, weicher Stuhl erwünscht, Reizdarm, unterstützend bei Durchfall)",
+    "ESCOP — Plantaginis ovatae semen/testa (inkl. Hypercholesterinämie-Zusatz für die Schalen)",
+    "Sekundärquellen zu Interaktionen (verzögerte Arzneistoffresorption, Insulinbedarf) und Flüssigkeitsregel (~30 ml/g) — Websuche; EMA-Primär-PDFs beim direkten Abruf mit HTTP 403 blockiert, Evidenzgrad WEU laut HMPC-Datenbank/Sekundärquellen, ärztlich gegenzuprüfen"
+  ]
+}

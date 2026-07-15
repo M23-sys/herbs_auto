@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "id": "linum-usitatissimum",
+  "botany": {
+    "scientific_name": "Linum usitatissimum L.",
+    "common_names_de": ["Lein", "Saat-Lein", "Flachs", "Leinsamen (Droge)", "Öllein"],
+    "family": "Leingewächse (Linaceae)",
+    "drug_part": ["Samen (Semen)", "fettes Öl (Leinöl, Oleum lini)"],
+    "drug_name_latin": "Lini semen",
+    "synonym_note": "Kulturpflanze (Faser-/Öllein); arzneilich ist der reife Samen (Lini semen). Nicht verwechseln mit dem wilden, abführend-giftigen Purgier-Lein (Linum catharticum)."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: flache, eiförmig-zugespitzte, glatt-glänzende Samen von 4–6 mm Länge, glänzend braun (bis goldgelb bei Goldlein), mit spitzem, leicht gebogenem Ende.",
+      "Samen werden beim Einweichen in Wasser durch die Schleim-Epidermis schlüpfrig und von einer dünnen Gelschicht überzogen.",
+      "Geschmack mild-ölig/nussig, Geruch schwach; frisch geschrotet nussig, ranzig bei Verderb (hoher Anteil ungesättigter Fettsäuren).",
+      "Handelsware: gereinigte ganze oder geschrotete Samen; in Mitteleuropa auch als Ackerkultur (blaue, fünfzählige Blüten, kugelige Kapselfrüchte) — die Droge selbst wird jedoch als Samen bezogen.",
+      "Ganze Pflanze: aufrechtes, schlankes einjähriges Kraut mit schmalen Blättern und himmelblauen (selten weißen) Blüten; Kapsel mit 10 Samenfächern."
+    ],
+    "season": "Blüte Juni–August; Samenreife/Ernte August–September (Ackerkultur).",
+    "habitat": "Kulturpflanze auf Äckern; verwildert selten. Die einheimischen Wild-Leinarten (u. a. Purgier-Lein) wachsen auf Magerrasen/Wiesen.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "kultur-und-verwildert"}
+    ],
+    "collection_rules": [
+      "Droge wird als gereinigter Samen bezogen; kein Wildsammeln nötig.",
+      "Ganze Samen sind toxikologisch günstiger als geschrotete (siehe Blausäure): geschrotet nur frisch und in begrenzter Menge verwenden.",
+      "Nicht mit dem wilden Purgier-Lein (Linum catharticum) verwechseln — dessen Kraut ist ein drastisches, bitteres Abführmittel."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Purgier-Lein (Wiesen-Lein)",
+      "scientific_name": "Linum catharticum",
+      "toxicity_level": "giftig",
+      "toxin": "Bitterstoff Linin (drastisch abführend)",
+      "note": "Einheimischer Wild-Lein auf Magerrasen; enthält den bitteren Stoff Linin und wirkt stark/drastisch abführend, in größeren Mengen mit Übelkeit und Brechreiz. Kleiner, dünner, mit winzigen WEISSEN Blüten (Saat-Lein: große BLAUE Blüten, große Samen). Betrifft v. a. das Kraut, nicht Handels-Leinsamen — aber bei Wildpflanzen sicher abgrenzen."
+    },
+    {
+      "name": "Zierlein / großblütiger Lein",
+      "scientific_name": "Linum grandiflorum, Linum austriacum u. a.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Zier-Leinarten aus dem Garten; Samen werden nicht als Droge genutzt. Keine bekannte Giftgefahr im üblichen Sinn, aber botanisch andere Art — für arzneiliche Nutzung nur Saat-Lein (Linum usitatissimum) verwenden."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung der Handelsdroge",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Als gereinigter Handelssamen bezogen, besteht keine Feldsammlung und kein giftiger Doppelgänger. Das eigentliche Sicherheitsthema ist NICHT eine Verwechslung, sondern die im Samen selbst enthaltenen cyanogenen Glykoside (siehe Toxin-Grenze)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe der Samenschale (ca. 3–6 %) — quellend, laxierend/schleimhautschützend",
+      "Fettes Öl (ca. 30–45 %) mit hohem Anteil α-Linolensäure (Omega-3)",
+      "Cyanogene Glykoside (ca. 0,1–1,5 %): Linustatin, Neolinustatin, Linamarin — Blausäure-Vorstufen",
+      "Lignane (v. a. Secoisolariciresinol-Diglucosid, SDG) — Phytoöstrogen-Vorstufen; Eiweiß (20–27 %)"
+    ],
+    "lead_substance": "Schleimpolysaccharide der Samenschale (Quell-/Laxanswirkung). Toxikologisch führend: cyanogene Glykoside (Blausäure-Potenzial).",
+    "solubility_note": "Schleim quillt in (kaltem) Wasser — die Droge wirkt als quellendes Ganzkorn mit reichlich Flüssigkeit, nicht als abgeseihter Tee. Das fette Öl ist getrennt als Leinöl (Speiseöl, Omega-3) relevant. Für die Schleimwirkung Samen nicht abseihen.",
+    "heat_light_sensitivity": "Fettes Öl stark oxidationsempfindlich (rasch ranzig) — kühl/dunkel lagern. Blausäurefreisetzung: ganze Samen setzen praktisch keine Blausäure frei; erst Zerkleinern/Kauen/Schroten aktiviert das samen­eigene Enzym (β-Glucosidase) und setzt Blausäure frei (Erhitzen/Kochen inaktiviert das Enzym teilweise)."
+  },
+  "pharmacology": {
+    "mechanism": "Laxierend über die quellenden Schleimstoffe: Wasserbindung vergrößert das Stuhlvolumen, macht ihn gleitfähig und regt durch Dehnung die Peristaltik an (Volumenlaxans). Der Schleim wirkt zudem reizmildernd auf Schleimhäute (innerlich bei Reizzuständen, äußerlich als warmer Breiumschlag). Die α-Linolensäure und Lignane werden gesundheitlich diskutiert, sind aber nicht Grundlage der arzneilichen Laxans-Indikation.",
+    "evidence_caveat": "Die laxierende Wirkung bei Verstopfung ist gut etabliert (HMPC well-established use). Populäre Wirkversprechen zu Herz-Kreislauf, Hormonhaushalt oder Krebs durch Lignane/Omega-3 sind NICHT als Arzneiwirkung belegt und gehören nicht in die Selbstmedikation.",
+    "pharmacokinetics": "Schleim/Ballaststoff wirkt lokal im Darm und wird nicht resorbiert; verzögert jedoch die Resorption gleichzeitig eingenommener Arzneistoffe. Cyanogene Glykoside können bei zerkleinerter Droge zu Blausäure umgesetzt und resorbiert werden — in üblichen Mengen unbedenklich, in Übermengen toxikologisch relevant."
+  },
+  "indications": [
+    {
+      "canonical": "Chronische Obstipation",
+      "synonyms": ["Verstopfung", "chronische Verstopfung", "harter Stuhl", "träger Darm", "Stuhlregulierung"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC: well-established use zur Behandlung der (chronischen) Verstopfung sowie in Zuständen, in denen ein weicher Stuhl erwünscht ist. Ganze oder frisch angequetschte Samen mit reichlich Flüssigkeit; Wirkeintritt nach 12–24 h, oft erst nach einigen Tagen.",
+      "realistic_expectation": "Sanftes, für die Dauereinnahme geeignetes Quelllaxans — nicht gewöhnungsbildend, aber nicht akut wirksam. Nur mit ausreichend Trinkmenge sinnvoll und sicher; ersetzt nicht die Abklärung neuer/alarmierender Beschwerden.",
+      "source": "EMA/HMPC EU herbal monograph Linum usitatissimum, semen (well-established use); Kommission E"
+    },
+    {
+      "canonical": "Reizdarm / Kolonschäden nach Laxanzienabusus (unterstützend)",
+      "synonyms": ["Reizdarm", "Reizdarmsyndrom", "empfindlicher Darm", "geschädigter Darm nach Abführmittel"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC/Kommission E: als quellender Ballaststoff bei Reizdarm bzw. zur Regeneration nach Laxanzienmissbrauch. Evidenz überwiegend erfahrungsbasiert/traditionell mit positiver Monographie-Einordnung.",
+      "realistic_expectation": "Kann die Stuhlkonsistenz stabilisieren; anfangs sind Blähungen möglich. Keine Heilung des Reizdarms.",
+      "source": "EMA/HMPC; Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Innerlich reizmildernd bei Schleimhautreizung von Magen/Darm (traditionell)",
+      "synonyms": ["gereizter Magen", "Magenschleimhautreizung", "Sodbrennen (begleitend)", "Reizmagen"],
+      "evidence_tag": "TU",
+      "comment": "Traditionelle Anwendung des Schleims als Reizschutz (z. B. als Leinsamenschleim). Symptomatisch, kein Ersatz für Diagnostik/Therapie bei Gastritis oder Ulkus.",
+      "realistic_expectation": "Kann kurzfristig reizlindernd wirken; keine belegte Heilwirkung auf Schleimhauterkrankungen.",
+      "source": "Kommission E (traditionelle Anwendung)"
+    },
+    {
+      "canonical": "Äußerlich als warmer Breiumschlag bei lokalen Entzündungen (traditionell)",
+      "synonyms": ["Leinsamenumschlag", "Kataplasma", "heißer Wickel", "Umschlag bei Entzündung"],
+      "evidence_tag": "TU",
+      "comment": "Kommission E: äußerlich als warmer Breiumschlag/Kataplasma bei lokalen Entzündungen. Auf Verbrühungsgefahr durch zu heißen Brei achten.",
+      "realistic_expectation": "Wärme-/Schleimwirkung eines Umschlags; traditionell, keine spezifische Arzneiwirkung des Leinsamens belegt.",
+      "source": "Kommission E (äußerliche traditionelle Anwendung)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Zuverlässiges, mildes Quell-/Volumenlaxans bei chronischer Verstopfung (HMPC well-established use), für die Dauereinnahme geeignet und nicht gewöhnungsbildend; äußerlich traditionell als warmer Umschlag. Leinöl ist eine gute Omega-3-Quelle in der Ernährung.",
+    "overstated": "Kein belegtes Mittel gegen erhöhte Blutfette, Hormonstörungen, Wechseljahresbeschwerden oder Krebs — die populären Lignan-/Omega-3-Versprechen sind keine Arzneiwirkung. 'Gesund und harmlos' gilt NUR mit Maß: geschroteter Leinsamen setzt Blausäure frei und ist mengenbegrenzt; ohne ausreichendes Trinken droht Darmverschluss.",
+    "effect_size": "moderat und zuverlässig bei Verstopfung (symptomatisch/regulierend); äußerlich mild"
+  },
+  "preparation": {
+    "recommended_forms": ["Ganze oder frisch geschrotete Samen (mit reichlich Flüssigkeit)", "Leinsamenschleim (Abkochung, abgeseiht) für Reizmagen", "Warmer Breiumschlag (äußerlich)"],
+    "form_rationale": "Als Laxans wirken die quellenden Schleimstoffe des ganzen/geschroteten Samens mit reichlich Wasser — nicht der abgeseihte Auszug. Ganze Samen sind wegen der Blausäure toxikologisch günstiger; frisch geschrotet setzt mehr Schleim (und mehr Blausäure) frei. Für die reine Reizschutzwirkung wird der abgeseihte Schleim genutzt.",
+    "standard_dose": "Innerlich (Kommission E): 2–3× täglich 1 Esslöffel (ca. 5–10 g) ganze oder frisch angequetschte Samen mit je mindestens 150 ml Flüssigkeit; über den Tag zusätzlich reichlich trinken. Geschroteten Leinsamen wegen der Blausäure auf ca. 20 g/Tag begrenzen (BfR). Äußerlich: 30–50 g Leinsamenmehl als warmer Breiumschlag. Andere Arzneimittel mit 30–60 min Abstand einnehmen.",
+    "preservation": "Samen trocken/dunkel; geschroteten Leinsamen nur frisch verwenden (Ranzigkeit). Leinöl kühl, dunkel, dicht verschlossen und rasch verbrauchen."
+  },
+  "safety": {
+    "tox_ceiling": "Cyanogene Glykoside (Blausäure-Potenzial, ca. 50 mg Blausäure je 100 g). Ganze Samen setzen kaum Blausäure frei; geschrotet/gekaut wird sie enzymatisch freigesetzt. BfR: max. ~20 g geschroteter Leinsamen pro Tag; Einzelmengen bis ~15 g je Portion. Nicht in großen Mengen roh-geschrotet verzehren, besonders nicht bei Kindern.",
+    "contraindications": [
+      "Darmverschluss/Ileus, drohende oder bestehende Darmverengung/Stenose, Verschluss von Speiseröhre oder Magen-Darm-Passage",
+      "Akutes entzündliches Darmgeschehen unklarer Ursache",
+      "Unfähigkeit, ausreichend Flüssigkeit zuzuführen"
+    ],
+    "pregnancy_lactation": "Als Laxans (Quellmittel) in üblichen Nahrungsmengen vertretbar. Wegen der phytoöstrogen wirksamen Lignane und unzureichender Daten sollten arzneilich hohe Mengen in Schwangerschaft und Stillzeit gemieden bzw. ärztlich abgestimmt werden — im Zweifel defensiv, unsicher — zu prüfen.",
+    "adverse_effects": "Anfangs Blähungen/Völlegefühl. Bei zu wenig Flüssigkeit Verklumpung mit Risiko von Speiseröhren-/Darmverschluss. Übermäßiger Verzehr geschroteter Samen kann durch Blausäurefreisetzung zu Vergiftungserscheinungen führen. Selten allergische Reaktionen.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Schleim/Ballaststoff verzögert bzw. vermindert die Resorption gleichzeitig eingenommener Arzneistoffe.",
+        "affected": "u. a. Schilddrüsenhormone (Levothyroxin), Herzglykoside (Digoxin), andere oral resorbierte Arzneistoffe",
+        "clinical_relevance": "relevant — Einnahme anderer Arzneimittel um 30–60 min versetzen"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Verzögerte Kohlenhydrat-/Glukoseaufnahme kann den Blutzucker senken; theoretischer Zusatzeffekt zu Antidiabetika.",
+        "affected": "Insulin, orale Antidiabetika",
+        "clinical_relevance": "gering bis relevant — bei Diabetes beobachten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Cyanogene Glykoside (Blausäure)",
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Immer mit reichlich Flüssigkeit einnehmen (je Portion ≥ 150 ml, zusätzlich viel trinken) — sonst Gefahr von Speiseröhren-/Darmverschluss; geschroteten Leinsamen wegen freigesetzter Blausäure auf ca. 20 g/Tag begrenzen und nicht bei Darmverengung/Ileus anwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Samenreife August–September (Ackerkultur).",
+    "harvest_month_tags": [8, 9],
+    "harvest_organ": "Samen",
+    "method": "Reife Kapseln ernten, dreschen; Samen reinigen. Meist Bezug als Handelsware.",
+    "processing": "Ganze Samen lagern; nur bei Bedarf frisch schroten (Blausäure/Ranzigkeit). Leinöl kalt pressen.",
+    "storage": "Ganze Samen trocken, dunkel, kühl; geschrotete Ware und Öl nur kurz und kühl/dunkel."
+  },
+  "kitchen": {
+    "uses": ["Ganze oder geschrotete Samen in Müsli/Joghurt/Brot", "Leinöl kalt über Speisen (Omega-3, nicht zum Braten)", "Leinsamenschleim"],
+    "culinary_vs_medicinal": "Kulinarisch als Ballaststoff-/Omega-3-Quelle in Maßen; arzneilich als dosiertes Quelllaxans (2–3× 1 EL/Tag) mit reichlich Flüssigkeit. In BEIDEN Fällen gilt die Blausäure-Grenze für geschrotete Ware (ca. 20 g/Tag)."
+  },
+  "garden": {
+    "site_soil": "Sonnig, durchlässiger, nährstoffmäßiger Boden; anspruchslose einjährige Ackerkultur.",
+    "hardiness": "Einjährig; Aussaat im Frühjahr.",
+    "propagation": "Aussaat aus Samen.",
+    "bodensee_suitability": "Im Bodenseeraum als einjährige Kultur (Öl-/Faserlein) grundsätzlich möglich; als Zierlein im Garten gut. Ehrlich: für die eigene Drogengewinnung lohnt eher der Zukauf gereinigter Samen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Saat-Lein mit himmelblauen fünfzähligen Blüten und Kapselfrüchten", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Flache, glänzend braune, zugespitzte Leinsamen", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Linum usitatissimum L., semen (well-established use: Obstipation/weicher Stuhl; traditional use)",
+    "Kommission E — Lini semen (Obstipation, Reizdarm, Reizmagen innerlich; äußerlich Kataplasma)",
+    "ESCOP — Lini semen",
+    "BfR / AGES — cyanogene Glykoside in Leinsamen (Blausäure-Potenzial ~50 mg/100 g; Empfehlung max. ~20 g geschrotet/Tag; ganze Samen setzen kaum Blausäure frei)",
+    "Sekundärquellen zu Verwechslung Purgier-Lein (Linum catharticum, Linin, drastisch abführend), Interaktionen (verzögerte Arzneistoffresorption) und Lignan-/Phytoöstrogen-Frage — Websuche; EMA-Primär-PDFs beim direkten Abruf mit HTTP 403 blockiert, Evidenzgrad WEU laut HMPC-Datenbank/Sekundärquellen, ärztlich gegenzuprüfen"
+  ]
+}
