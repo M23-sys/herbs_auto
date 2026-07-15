@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "id": "salvia-rosmarinus",
+  "botany": {
+    "scientific_name": "Salvia rosmarinus",
+    "common_names_de": ["Rosmarin", "Echter Rosmarin"],
+    "family": "Lamiaceae",
+    "drug_part": ["Blatt (Rosmarini folium)", "ätherisches Öl (Rosmarini aetheroleum)"],
+    "drug_name_latin": "Rosmarini folium (Blatt), Rosmarini aetheroleum (Öl)",
+    "synonym_note": "früher Rosmarinus officinalis L. — die Gattung wurde 2017 in Salvia eingegliedert. Pl@ntNet meldet meist den neuen Namen."
+  },
+  "identification": {
+    "key_features": [
+      "Immergrüner, aromatischer Halbstrauch (bis ~1,5 m), stark verzweigt",
+      "Schmale, ledrige, nadelartige Blätter — oberseits dunkelgrün, unterseits weißfilzig, Rand eingerollt",
+      "Vierkantiger Stängel (Lamiaceae), im Alter verholzt",
+      "Hellblaue bis violette Lippenblüten in den Blattachseln",
+      "Intensiv harzig-kampferartiger Geruch beim Zerreiben — das sicherste Merkmal"
+    ],
+    "season": "Blüte je nach Standort ab Winter/Frühjahr, im Mittelmeerraum teils ganzjährig",
+    "habitat": "Sonnige, trockene, kalkhaltige Standorte; Macchia, Küstenhänge, Felsheiden",
+    "region_occurrence": [
+      {"region": "Mittelmeerraum (Toskana, Italien)", "status": "wild-haeufig"},
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Der Geruch ist der beste Bestätiger — unverwechselbar harzig-kampferartig",
+      "In Mitteleuropa praktisch nur Gartenkultur; Wildvorkommen im Mittelmeerraum",
+      "Nicht mit der giftigen Rosmarinheide (Andromeda polifolia) verwechseln — die wächst in Mooren, nie in trockener Macchia"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Rosmarinheide / Lavendelheide",
+      "scientific_name": "Andromeda polifolia",
+      "toxicity_level": "giftig",
+      "toxin": "Grayanotoxine (Andromedotoxin)",
+      "note": "Trägt den Namen zu Recht: schmale, ledrige Blätter mit eingerolltem Rand und heller Unterseite. ABER: Moorpflanze (Hochmoor, saurer Boden) — Rosmarin wächst nie dort, sondern in trockener, kalkiger Macchia. Kein Rosmarin-Geruch. Rosa Glockenblüten statt Lippenblüten. In der Toskana kein Thema, in mitteleuropäischen Mooren relevant."
+    },
+    {
+      "name": "Lavendel",
+      "scientific_name": "Lavandula angustifolia",
+      "toxicity_level": "essbar",
+      "note": "Ähnlicher Habitus und Standort, Blätter aber weicher und graufilzig; völlig anderer Duft. Ungefährlich."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (1–2,5 %): 1,8-Cineol, Campher, α-Pinen, Borneol, Bornylacetat, Verbenon",
+      "Lamiaceen-Gerbstoffe (bis ~8 %), v. a. Rosmarinsäure",
+      "Diterpen-Phenole (Carnosol, Carnosolsäure) — stark antioxidativ",
+      "Flavonoide, Triterpene, Bitterstoffe"
+    ],
+    "lead_substance": "1,8-Cineol und Campher (ätherisches Öl); Rosmarinsäure und Carnosolsäure (Polyphenole)",
+    "solubility_note": "Zweigeteilt: ätherisches Öl lipophil/flüchtig → Badezusatz, Einreibung, Tinktur. Rosmarinsäure und Gerbstoffe wasserlöslich → Tee. Der HMPC-Beleg für äußerliche Anwendung stützt sich auf das Öl, der innerliche auf den Aufguss.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig — Aufguss abgedeckt ziehen lassen; Trocknung schonend"
+  },
+  "pharmacology": {
+    "mechanism": "Innerlich: karminativ und spasmolytisch am Magen-Darm-Trakt (ätherisches Öl), choleretisch/Gallefluss-fördernd (ESCOP), Bitterstoffwirkung. Äußerlich: hyperämisierend — Campher und Cineol reizen die Hautdurchblutung, daher die Anwendung bei Muskel-/Gelenkschmerz und leichten peripheren Durchblutungsstörungen. Zusätzlich stark antioxidativ (Carnosolsäure, Rosmarinsäure) und mild antimikrobiell.",
+    "evidence_caveat": "Klinische Studienlage insgesamt heterogen und begrenzt; kein 'well-established use'. Die häufig zitierten Effekte auf Kognition/Stimmung sind präklinisch bzw. aus kleinen Studien.",
+    "pharmacokinetics": "Nicht sauber charakterisiert. Campher ist ZNS-gängig — relevant für die Sicherheitsbewertung bei Überdosis und bei Kleinkindern."
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden / leichte krampfartige Magen-Darm-Beschwerden",
+      "synonyms": ["Verdauungsbeschwerden", "Völlegefühl", "Blähungen", "Magenkrämpfe", "Magenbeschwerden", "Appetitlosigkeit", "Dyspepsie"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use (innerlich); ESCOP zusätzlich Verbesserung der Leber-/Gallefunktion; Kommission E positiv",
+      "realistic_expectation": "Plausible symptomatische Linderung als Tee. Evidenz traditionell, nicht WEU. Kein Ersatz bei anhaltenden Beschwerden.",
+      "source": "HMPC traditional use (Rosmarini folium); ESCOP; Kommission E (1990)"
+    },
+    {
+      "canonical": "Leichte Muskel- und Gelenkschmerzen (äußerlich)",
+      "synonyms": ["Muskelschmerzen", "Gelenkschmerzen", "Rheuma", "Verspannung", "Muskelkater", "Badezusatz"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use — Badezusatz bzw. verdünntes Öl äußerlich; ESCOP/Kommission E: unterstützend bei rheumatischen Beschwerden",
+      "realistic_expectation": "Spürbare, aber unspezifische Wirkung über Hautdurchblutung (Wärmegefühl). Symptomatisch und unterstützend — keine Krankheitsmodifikation.",
+      "source": "HMPC traditional use (Rosmarini folium/aetheroleum, äußerlich); ESCOP; Kommission E"
+    },
+    {
+      "canonical": "Leichte periphere Durchblutungsstörungen (äußerlich)",
+      "synonyms": ["Durchblutungsstörungen", "kalte Hände", "kalte Füße", "Kreislaufbeschwerden", "Kreislauf"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use (äußerlich); Kommission E: Kreislaufbeschwerden",
+      "realistic_expectation": "Traditionelle Anwendung, hyperämisierender Effekt plausibel. Nicht bei relevanter arterieller Verschlusskrankheit — dort gehört die Abklärung zum Arzt.",
+      "source": "HMPC traditional use (äußerlich); Kommission E"
+    },
+    {
+      "canonical": "Kognition / Gedächtnis / Stimmung",
+      "synonyms": ["Gedächtnis", "Konzentration", "Kognition", "Stimmung", "Aromatherapie"],
+      "evidence_tag": "PRÄ",
+      "comment": "Kleine Studien und präklinische Daten (Cholinesterase-Hemmung, Aromainhalation); populär, aber schwach belegt",
+      "realistic_expectation": "Nicht als Nootropikum belegt. Erwartung niedrig halten — hier ist der Ruf deutlich größer als die Evidenz.",
+      "source": "präklinisch; kleine Studien; keine Monographie-Indikation"
+    },
+    {
+      "canonical": "Wundheilung / leichtes Antiseptikum (äußerlich)",
+      "synonyms": ["Wunde", "Wundheilung", "Antiseptikum", "Hautentzündung"],
+      "evidence_tag": "ESCOP+",
+      "comment": "ESCOP: äußerlich als leichtes Antiseptikum zur Förderung der Wundheilung",
+      "realistic_expectation": "Untergeordnete Anwendung. NICHT auf offene oder größere Wunden (siehe Sicherheit).",
+      "source": "ESCOP-Monographie (2003)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Verlässliches Küchen- und Badekraut: Tee bei Verdauungsbeschwerden, Badezusatz/Einreibung bei Verspannungen und Kältegefühl. Starkes Antioxidans in der Küche (auch als natürliches Konservierungsmittel genutzt).",
+    "overstated": "Rosmarin als Gedächtnis- oder Konzentrationsmittel — populär, aber nicht belegt. Ebenso 'Kreislaufmittel' im Sinne einer Therapie: der Effekt ist lokal-hyperämisierend, nicht kardial.",
+    "effect_size": "mild bis moderat, durchweg symptomatisch; keine WEU-Indikation"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Aufguss (innerlich, abgedeckt ziehen — sonst entweicht das Öl)",
+      "Badezusatz (Aufguss oder verdünntes Öl) bei Muskel-/Gelenkbeschwerden",
+      "Verdünnte Einreibung/Salbe (äußerlich)",
+      "Küchengewürz (frisch oder getrocknet)"
+    ],
+    "form_rationale": "Chemie-abgeleitet: Die hyperämisierende Wirkung stammt vom lipophilen ätherischen Öl → Bad/Einreibung. Die verdauungsfördernde Wirkung nutzt wasserlösliche Anteile + Öl → Aufguss, abgedeckt. Ätherisches Öl NIEMALS unverdünnt auf die Haut.",
+    "standard_dose": "Tagesdosen nicht überschreiten: ca. 6 g Blätter für Teeaufgüsse; ca. 20 Tropfen ätherisches Öl; ca. 50 g Blätter für ein Vollbad.",
+    "preservation": "Getrocknet, ganz, dicht und lichtgeschützt lagern; erst vor Gebrauch zerkleinern (Ölverlust)."
+  },
+  "safety": {
+    "tox_ceiling": "Kein klassisches Toxin in der Blattdroge. Sicherheitsrelevant ist das ätherische Öl: Campher ist ZNS-gängig und kann in hoher Dosis Krämpfe auslösen; 1,8-Cineol kann bei Säuglingen/Kleinkindern einen Laryngospasmus (Stimmritzenkrampf) auslösen. Tagesdosen einhalten (ca. 6 g Blatt / 20 Tropfen Öl / 50 g Badezusatz).",
+    "contraindications": [
+      "Ätherisches Öl nicht im Gesicht von Säuglingen und Kleinkindern (Cineol/Campher → Laryngospasmus)",
+      "Nicht auf offene Wunden, geschädigte Haut oder Schleimhäute",
+      "Vorsicht bei Krampfleiden/Epilepsie (Campher senkt die Krampfschwelle)",
+      "Kein Vollbad bei größeren Hautverletzungen, akuten Hauterkrankungen, schwerer Herzinsuffizienz oder Bluthochdruck (Kreislaufbelastung durch hyperämisierendes Bad)",
+      "Verschluss der Gallenwege (Gallefluss-fördernde Wirkung)",
+      "Überempfindlichkeit gegen Lamiaceae"
+    ],
+    "pregnancy_lactation": "Arzneiliche Anwendung in Schwangerschaft und Stillzeit meiden (traditionell in hohen Dosen als emmenagog/abortiv beschrieben; unzureichende Daten). Küchenmengen sind unproblematisch.",
+    "adverse_effects": "Selten allergische Hautreaktionen und Kontaktdermatitis (v. a. Öl). Bei Überdosis des Öls: Magen-Darm-Reizung, im Extremfall ZNS-Symptome/Krämpfe (Campher).",
+    "interactions": [
+      {"type": "pharmakodynamisch", "mechanism": "Campher senkt die Krampfschwelle — theoretisch additiv mit krampfschwellensenkenden Substanzen", "clinical_relevance": "relevant bei Epilepsie/Antiepileptika; in Küchen- und Teemengen gering"},
+      {"type": "pharmakodynamisch", "mechanism": "hyperämisierendes Vollbad belastet den Kreislauf", "clinical_relevance": "relevant bei schwerer Herzinsuffizienz/Hypertonie"},
+      {"type": "theoretisch", "mechanism": "gerbstoffreiche Zubereitungen können die Resorption von Arzneistoffen mindern", "clinical_relevance": "gering; ggf. 1–2 h Abstand"}
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "lowers_seizure_threshold": true,
+      "infant_facial_caution": true
+    },
+    "key_warning": "Zwei Punkte: Das ätherische Öl gehört nicht ins Gesicht kleiner Kinder (Laryngospasmus durch Cineol/Campher), und Campher senkt die Krampfschwelle — bei Epilepsie meiden. Das Vollbad ist eine Kreislaufbelastung. Als Küchengewürz dagegen völlig unbedenklich."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Ganzjährig möglich (immergrün); höchster Ölgehalt kurz vor bzw. zur Blüte, an einem trockenen Vormittag",
+    "harvest_month_tags": [4, 5, 6, 7, 8, 9],
+    "harvest_organ": "Blatt (beblätterte Triebspitzen)",
+    "method": "Junge, nicht verholzte Triebspitzen schneiden; nicht ins alte Holz zurückschneiden",
+    "processing": "Luftig und schattig trocknen, max. ~35 °C — höhere Temperaturen vertreiben das ätherische Öl",
+    "storage": "Getrocknet, ganz, in dicht schließenden, lichtgeschützten Gefäßen; Aroma- und Wirkverlust über ~1 Jahr"
+  },
+  "kitchen": {
+    "uses": ["Mediterrane Küche: Lamm, Kartoffeln, Focaccia, Schmorgerichte", "Kräuter der Provence", "Rosmarinöl/-butter", "natürliches Antioxidans (Fettkonservierung)"],
+    "culinary_vs_medicinal": "Küchenmengen liegen weit unter jeder kritischen Dosis und sind unbedenklich — auch in Schwangerschaft. Problematisch wird nur das konzentrierte ätherische Öl."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, durchlässig, mager, kalkverträglich; Staunässe ist der häufigste Todesgrund",
+    "hardiness": "Nur bedingt winterhart (ca. bis −10 °C, sortenabhängig). Am Bodensee: geschützter Standort oder Kübel mit Winterquartier — im Freiland riskant.",
+    "propagation": "Stecklinge im Sommer (sehr einfach) oder Absenker; Aussaat langwierig",
+    "bodensee_suitability": "Als Kübelpflanze gut, im Freiland heikel — im Gegensatz zur Toskana, wo er wild in der Macchia steht. Sorte 'Arp' oder 'Veitshöchheim' gelten als robuster."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Rosmarin-Strauch mit Blüten", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "nadelartiges Blatt, Unterseite weißfilzig, Rand eingerollt", "url": "", "source": "", "license": ""},
+    {"role": "confusion", "caption": "Rosmarinheide (Andromeda polifolia) im Vergleich", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — Rosmarini folium und Rosmarini aetheroleum (traditional use, 2011/2022): innerlich dyspeptische Beschwerden und leichte krampfartige Magen-Darm-Beschwerden; äußerlich leichte Muskel-/Gelenkschmerzen und leichte periphere Durchblutungsstörungen. Kein well-established use.",
+    "ESCOP-Monographie (2003): innerlich Leber-/Gallefunktion und Dyspepsie; äußerlich rheumatische Beschwerden, Kreislaufbeschwerden, leichtes Antiseptikum",
+    "Kommission E (1990); WHO Vol. 4",
+    "Ph. Eur. (Rosmarinblätter Nr. 1560, Rosmarinöl); Wichtl: Teedrogen und Phytopharmaka",
+    "Taxonomie: Gattungsumstellung Rosmarinus → Salvia (2017)"
+  ]
+}
