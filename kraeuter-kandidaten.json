@@ -1,5 +1,7 @@
 {
   "schema_version": "1.0",
+  "reihenfolge": "docs/wunschliste.json hat IMMER Vorrang vor dieser Liste. Erst wenn die Wunschliste leer ist, den naechsten offenen Kandidaten mit niedrigster tier nehmen.",
+  "dedup_pflicht": "Vor jedem Bau gegen fertig/ (inkl. botany.synonyms) UND das Feld 'vorhanden' pruefen.",
   "beschreibung": "Arbeitswarteschlange für Monographien. Claude Code arbeitet Stufe 1 zuerst ab, in Stapeln von 3-5.",
   "status_werte": [
     "offen",
@@ -39,8 +41,8 @@
       "latin": "Valeriana officinalis",
       "tier": 1,
       "reason": "WEU/ESCOP Schlaf & Unruhe — stärkste Sedativum-Evidenz",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-baldrian.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "hedera-helix",
@@ -48,8 +50,8 @@
       "latin": "Hedera helix",
       "tier": 1,
       "reason": "WEU produktiver Husten",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-efeu.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "primula-veris",
@@ -57,8 +59,8 @@
       "latin": "Primula veris",
       "tier": 1,
       "reason": "WEU nur in Fixkombination (mit Thymian) — Evidenz-Lehrstück",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-schluesselblume.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "althaea-officinalis",
@@ -66,8 +68,8 @@
       "latin": "Althaea officinalis",
       "tier": 1,
       "reason": "Schleimdroge, Reizhusten",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-eibisch.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "silybum-marianum",
@@ -75,8 +77,8 @@
       "latin": "Silybum marianum",
       "tier": 1,
       "reason": "WEU Lebererkrankungen (Silymarin)",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-mariendistel.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "crataegus-monogyna",
@@ -84,8 +86,8 @@
       "latin": "Crataegus monogyna",
       "tier": 1,
       "reason": "WEU Herzinsuffizienz NYHA II — kardiale Indikation, neu im Katalog",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-weissdorn.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "aesculus-hippocastanum",
@@ -93,8 +95,8 @@
       "latin": "Aesculus hippocastanum",
       "tier": 1,
       "reason": "WEU chronische Veneninsuffizienz",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-rosskastanie.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "zingiber-officinale",
@@ -102,8 +104,8 @@
       "latin": "Zingiber officinale",
       "tier": 1,
       "reason": "WEU Reisekrankheit/Übelkeit; Blutungs-Interaktion",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-ingwer.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "plantago-ovata",
@@ -111,8 +113,8 @@
       "latin": "Plantago ovata",
       "tier": 1,
       "reason": "WEU Obstipation/Reizdarm",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-flohsamen.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "linum-usitatissimum",
@@ -120,8 +122,8 @@
       "latin": "Linum usitatissimum",
       "tier": 1,
       "reason": "Quellstoff-Laxans; Blausäureglykoside",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-lein.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "frangula-alnus",
@@ -129,8 +131,8 @@
       "latin": "Frangula alnus",
       "tier": 1,
       "reason": "Anthranoid-Laxans; Missbrauchsrisiko, regional wild",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-faulbaum.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "foeniculum-vulgare",
@@ -138,8 +140,8 @@
       "latin": "Foeniculum vulgare",
       "tier": 1,
       "reason": "Karminativum; Estragol-Frage bei Kindern",
-      "status": "entwurf_fertig",
-      "datei": "fertig/monographie-fenchel.json"
+      "status": "offen",
+      "datei": null
     },
     {
       "id": "pimpinella-anisum",

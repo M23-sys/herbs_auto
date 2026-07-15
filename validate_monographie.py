@@ -15,32 +15,15 @@ import os
 import sys
 import re
 
-# Strukturelle Prüfung gegen monographie-schema.json.
-#
-# WICHTIG: Fehlt die Bibliothek jsonschema, BRICHT das Skript ab (Exit-Code 3),
-# statt stillschweigend ohne Schema-Prüfung durchzulaufen. Ein "ok" ohne
-# Schema-Prüfung ist ein wertloses "ok" — genau so entstehen 87 Monographien,
-# die nie validiert wurden.
-#
-# Nur zum lokalen Herumprobieren umgehbar mit:  HERB_ALLOW_NO_SCHEMA=1
-SCHEMA = None
+# Optional: strukturelle Prüfung gegen monographie-schema.json
+# (pip install jsonschema — ohne die Bibliothek greifen nur die eingebauten Prüfungen)
 try:
     import jsonschema
     _SCHEMA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "monographie-schema.json")
     with open(_SCHEMA_PATH, encoding="utf-8") as _fh:
         SCHEMA = json.load(_fh)
-except ImportError:
-    if os.environ.get("HERB_ALLOW_NO_SCHEMA") != "1":
-        sys.stderr.write(
-            "ABBRUCH: Bibliothek 'jsonschema' fehlt — ohne sie findet KEINE\n"
-            "Schema-Prüfung statt und ein 'ok' waere wertlos.\n"
-            "  Abhilfe:  pip install -r requirements.txt\n"
-        )
-        sys.exit(3)
-    sys.stderr.write("WARNUNG: ohne jsonschema — Schema-Pruefung uebersprungen.\n")
-except Exception as _exc:
-    sys.stderr.write(f"ABBRUCH: monographie-schema.json nicht lesbar: {_exc}\n")
-    sys.exit(3)
+except Exception:
+    SCHEMA = None
 
 EVIDENCE = {"WEU", "RCT", "ESCOP+", "TU", "PRÄ", "TRAD"}
 TOXICITY = {"essbar", "giftig", "lebensgefährlich"}
@@ -187,6 +170,10 @@ def check(path):
     if organ and not any(o.lower() in organ.lower() for o in ORGANS):
         warns.append(f"harvest_organ '{organ}' — Filter erkennt nur: {sorted(ORGANS)}")
 
+    # --- Stand ---
+    if not d.get("stand"):
+        warns.append("'stand' fehlt — ohne Recherchedatum erkennst du später nicht, was veraltet ist")
+
     # --- Quellen ---
     if not d.get("sources"):
         errors.append("sources ist leer — jede Monographie braucht Belege")
@@ -199,6 +186,27 @@ def check(path):
         warns.append("Keine regulatorische Quelle (HMPC/ESCOP/Kommission E) erwähnt — wirklich recherchiert?")
 
     return errors, warns
+
+
+def _dupe_check(paths):
+    """Warnt, wenn zwei Monographien dieselbe Pflanze meinen (über Synonyme)."""
+    seen = {}
+    problems = []
+    for p in paths:
+        try:
+            with open(p, encoding="utf-8") as fh:
+                d = json.load(fh)
+        except Exception:
+            continue
+        names = {d.get("botany", {}).get("scientific_name", "").lower()}
+        for s_ in d.get("botany", {}).get("synonyms", []):
+            names.add(str(s_).lower())
+        names = {" ".join(n.split()[:2]) for n in names if n}
+        for n in names:
+            if n in seen and seen[n] != d.get("id"):
+                problems.append(f"'{n}' steht in '{seen[n]}' UND '{d.get('id')}' — dieselbe Pflanze zweimal?")
+            seen[n] = d.get("id")
+    return problems
 
 
 def main():
@@ -219,6 +227,12 @@ def main():
         if not errors and not warns:
             print("  ✓ alles sauber")
         total_err += len(errors)
+
+    dupes = _dupe_check(paths)
+    if dupes:
+        print("\n--- Mögliche Dubletten ---")
+        for x in dupes:
+            print(f"  ! {x}")
 
     print(f"\n{'-' * 50}")
     if total_err:

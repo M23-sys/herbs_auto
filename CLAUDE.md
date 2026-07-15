@@ -1,84 +1,87 @@
 # Herbarium clinicum — Projektanweisung
 
-Du erstellst evidenzbasierte Heilpflanzen-Monographien als JSON für ein medizinisches
-Nachschlagewerk. Der Nutzer ist **Arzt** und prüft jede Monographie nach. Schreibe
-entsprechend: fachlich präzise, aber defensiv.
-
-> **Betriebsart: autonome Cloud-Routine.** Dieses Repository wird alle 6 Stunden von
-> einer Claude-Code-Routine bearbeitet. **Niemand bestätigt dabei etwas, niemand liest
-> mit.** Jeder Lauf startet mit einem frischen Klon des Default-Branches und ohne jede
-> Erinnerung an den Lauf davor. Der gesamte Zustand steckt in den Dateien dieses Repos —
-> was du nicht erfolgreich pushst, ist verloren.
+Du erstellst evidenzbasierte Heilpflanzen-Monographien als JSON für ein medizinisches Nachschlagewerk. Der Nutzer ist **Arzt** und prüft jede Monographie nach. Schreibe entsprechend: fachlich präzise, aber defensiv.
 
 ## Dateien in diesem Projekt
 
 | Datei | Zweck |
 |---|---|
-| `kraeuter-kandidaten.json` | **Arbeitswarteschlange — die maßgebliche Quelle.** Hier steht, was zu tun ist und was erledigt ist. |
-| `monographie-schema.json` | Struktureller Vertrag (JSON Schema, Draft-07) |
+| `kraeuter-kandidaten.json` | Arbeitswarteschlange — hier steht, was zu tun ist |
+| `monographie-schema.json` | Struktureller Vertrag (JSON Schema) |
 | `monographie-template.json` | Leeres Gerüst zum Ausfüllen |
 | `validate_monographie.py` | Prüfskript — **muss** fehlerfrei laufen |
-| `MONOGRAPHIE-SPEC.md` | Ausführliche Bau-Spezifikation — bei Zweifeln dort nachsehen |
-| `requirements.txt` | `pip install -r requirements.txt` **vor** dem ersten Prüflauf |
 | `fertig/` | Hier landen abgeschlossene Monographien |
-| `state/lauf-log.md` | Protokoll jedes Laufs |
-| `docs/kraeuter-kandidaten.md` | Nur Lesestoff. **Nicht maßgeblich, nicht bearbeiten.** |
 
-## Git — bitte genau lesen
+Einmalig: `pip install jsonschema` (sonst prüft das Skript nur eingeschränkt).
 
-Der Default-Branch dieses Repos heißt **`claude/main`**. Das ist Absicht, kein Versehen:
-Routine-Läufe dürfen nur auf Branches pushen, die mit `claude/` beginnen. Ein Branch
-namens `main` wäre für dich unerreichbar.
+## Reihenfolge — die Wunschliste hat IMMER Vorrang
 
-Daraus folgen zwei Regeln:
+**1. Zuerst `docs/wunschliste.json` lesen.** Sie wird von der Herbarium-App geschrieben und enthält Kräuter, die der Arzt **tatsächlich in der Hand hatte**. Das schlägt jede theoretische Prioritätsstufe.
 
-**1. Lege KEINEN eigenen Arbeitsbranch an.**
-Kein `git checkout -b`, kein Branch mit Zufallsnamen. Arbeite direkt auf dem Branch, den
-der Klon mitbringt (`claude/main`). Ein Commit auf einem selbst angelegten Branch ist
-verloren — der nächste Lauf klont wieder `claude/main` und sieht ihn nie.
+**2. Erst wenn die Wunschliste leer ist**, den nächsten offenen Kandidaten aus `kraeuter-kandidaten.json` nehmen — niedrigste `tier` zuerst.
 
-**2. Committe immer alles zusammen:**
-die Monographien **plus** die Statusänderung in `kraeuter-kandidaten.json` **plus** das
-Log. Ein Commit ohne Statusänderung führt dazu, dass der nächste Lauf dieselben Kräuter
-noch einmal bearbeitet.
+**3. Ist auch die Kandidatenliste leer**, weiter mit der Wunschliste, sobald dort etwas Neues auftaucht.
 
-```bash
-git add -A
-git commit -m "monographien: <Kraut1>, <Kraut2>"
-git push origin HEAD
+Die Wunschliste hakst du **nicht** ab — das macht die App selbst, sobald die Monographie in `fertig/` liegt. Du **überspringst** einfach, was schon da ist. Eine Schreibrichtung pro Datei, keine Konflikte:
+
+| Datei | Wer schreibt |
+|---|---|
+| `docs/wunschliste.json` | **nur die App** |
+| `fertig/*.json` | **nur du** |
+| `docs/changelog.json` | **nur du** |
+| `kraeuter-kandidaten.json` | **nur du** |
+
+## Deduplikation — vor jedem Stapel
+
+Bevor du etwas baust, prüfe gegen **drei** Quellen, ob die Pflanze schon existiert:
+
+1. alle `id` in `fertig/`
+2. alle `botany.synonyms` in `fertig/` — **wichtig!**
+3. `kraeuter-kandidaten.json` → `vorhanden`
+
+**Warum die Synonyme entscheidend sind:** Botanische Namen ändern sich. Rosmarin heißt heute *Salvia rosmarinus*, früher *Rosmarinus officinalis*. Ohne Synonym-Abgleich baust du eine zweite Monographie unter dem alten Namen — und niemand merkt es. Trage bei jeder Art die lateinischen Altnamen in `botany.synonyms` ein.
+
+## Ablauf pro Stapel
+
+**Stapelgröße: 3–5 Kräuter. Nicht mehr.** Der Engpass ist die ärztliche Sichtung, nicht die Erzeugung.
+
+1. `docs/wunschliste.json` lesen → sonst `kraeuter-kandidaten.json`
+2. Deduplikation gegen `fertig/` **inkl. Synonyme**
+3. **Recherchieren** (siehe unten) — nicht aus dem Gedächtnis schreiben
+4. JSON nach `monographie-template.json` ausfüllen — mit `stand` (heutiges Datum) und `herkunft: "ki-recherchiert"`
+5. `python3 validate_monographie.py fertig/monographie-xyz.json` — muss fehlerfrei sein
+6. Datei nach `fertig/` legen
+7. **`docs/changelog.json` ergänzen** (siehe unten)
+8. Kurz zusammenfassen, was du gefunden hast — **besonders Überraschungen**
+
+## Changelog — ein Satz pro Änderung
+
+Nach jedem Stapel `docs/changelog.json` ergänzen (anhängen, nicht überschreiben):
+
+```json
+{"eintraege": [
+  {"ts": "2026-07-14T09:00:00Z",
+   "id": "valeriana-officinalis",
+   "common": "Baldrian",
+   "art": "neu",
+   "sha": "",
+   "text": "Erstfassung. HMPC führt WEU für Einschlafstörungen; ESCOP zusätzlich Unruhe."}
+]}
 ```
 
-Scheitert der Push, weil sich `claude/main` zwischenzeitlich geändert hat:
-`git pull --rebase origin claude/main`, dann erneut pushen.
+Bei **Aktualisierungen** ist der `text` das Wichtigste. Schreib ihn **bewusst** — nicht aus der Commit-Nachricht:
 
-Scheitert der Push mit **403**: Das ist eine Rechte- oder Policy-Sperre, kein Netzfehler.
-Nicht wiederholen, nicht umgehen, keinen anderen Branch und keinen anderen Schreibweg
-suchen. Melde den Fehler im Klartext und beende den Lauf.
+> *„Interaktion mit Benzodiazepinen ergänzt; Evidenz von TU auf ESCOP+ korrigiert."*
 
-## Ablauf pro Lauf
+Die App zeigt diesen Satz oben in der Monographie und setzt sie automatisch auf **„ungesichtet"** zurück. Der Arzt wird also genau dorthin geführt, wo sich etwas geändert hat. Ein nichtssagender Text („Datei aktualisiert") macht diesen Mechanismus wertlos.
 
-**Genau 2 Kräuter pro Lauf. Nicht mehr, auch wenn Zeit bleibt.** Der Engpass ist die
-ärztliche Prüfung, nicht die Erzeugung. Ein Rückstau ungeprüfter Monographien ist
-schlimmer als ein kleiner Katalog.
+Das Feld `sha` darfst du leer lassen — die App füllt es beim Abgleich selbst.
 
-1. `pip install -r requirements.txt` — ohne `jsonschema` bricht das Prüfskript ab
-2. `kraeuter-kandidaten.json` lesen; die nächsten 2 Einträge mit `"status": "offen"`
-   nehmen — **niedrigste `tier` zuerst**, bei gleicher Stufe in Listenreihenfolge
-3. **Selbstheilung:** Existiert `fertig/monographie-<name>.json` bereits, gilt der
-   Eintrag als erledigt — Status korrigieren und den nächsten nehmen
-4. **Recherchieren** (siehe unten) — nicht aus dem Gedächtnis schreiben
-5. JSON nach `monographie-template.json` ausfüllen
-6. `python3 validate_monographie.py fertig/monographie-xyz.json` — muss fehlerfrei sein
-7. Status auf `"entwurf_fertig"` setzen, `"datei"` eintragen
-8. `state/lauf-log.md` ergänzen, committen, auf `claude/main` pushen
+## Neue Pflichtfelder
 
-### Abbruchbedingung — wichtig
-
-**Maximal 3 Korrekturversuche pro Kraut.** Danach: Datei nicht nach `fertig/` legen,
-Status auf `"uebersprungen"`, Grund ins Log, mit dem nächsten Kraut weitermachen.
-Der Lauf darf daran nicht scheitern — eine Endlosschleife verbrennt das Tageslimit.
-
-Setze `status` **niemals** auf `"geprueft"`. Das macht nur der Arzt.
+- **`stand`**: `"2026-07-14"` — Datum der Recherche. Nach zwei Jahren erkennt der Arzt damit, was veraltet ist (HMPC-Monographien werden überarbeitet).
+- **`herkunft`**: `"ki-recherchiert"` — deine Monographien. Die 15 handkuratierten tragen `"kuratiert"`. Die App zeigt den Unterschied dauerhaft an. **Ändere `"kuratiert"` niemals in `"ki-recherchiert"`.**
+- **`botany.synonyms`**: lateinische Altnamen, z. B. `["Rosmarinus officinalis"]`. Leeres Array, wenn keine.
 
 ## Recherche — nicht verhandelbar
 
@@ -87,30 +90,19 @@ Vor jeder Monographie **im Netz nachschlagen**:
 - **EMA/HMPC-Monographie** der Art (entscheidet über `WEU` vs. `TU`)
 - **ESCOP** und **Kommission E**
 - Bei Sicherheitsfragen: Toxin, Grenzwerte, Fallberichte
-- **Aktuell akzeptierter botanischer Name** (Taxonomie ändert sich!)
 
-**Wenn du etwas nicht belegen kannst, schreibe `"unsicher — zu prüfen"`.** Ein ehrliches
-Fragezeichen ist wertvoll; eine erfundene Gewissheit ist gefährlich. Weil niemand
-mitliest, gilt hier strenger als sonst: **im Zweifel defensiv.**
+**Wenn du etwas nicht belegen kannst, schreibe `"unsicher — zu prüfen"`.** Ein ehrliches Fragezeichen ist wertvoll; eine erfundene Gewissheit ist gefährlich.
 
 ## Die drei Regeln, an denen alles hängt
 
 **1. Verwechslungen niemals stillschweigend leer lassen.**
-Ein leeres `confusions`-Array sieht in der App aus wie „ungefährlich". Das ist die
-gefährlichste Lüge, die diese Datei erzählen kann. Suche **aktiv** nach giftigen
-Doppelgängern — besonders bei Doldenblütlern (Schierling!), Zwiebelpflanzen
-(Herbstzeitlose, Maiglöckchen) und Raublattgewächsen. Gibt es wirklich keine, trage
-einen Eintrag `"keine relevante Verwechslung bekannt"` mit Begründung ein.
+Ein leeres `confusions`-Array sieht in der App aus wie „ungefährlich". Das ist die gefährlichste Lüge, die diese Datei erzählen kann. Suche **aktiv** nach giftigen Doppelgängern — besonders bei Doldenblütlern (Schierling!), Zwiebelpflanzen (Herbstzeitlose, Maiglöckchen) und Raublattgewächsen. Gibt es wirklich keine, trage einen Eintrag `"keine relevante Verwechslung bekannt"` mit Begründung ein.
 
 **2. Evidenz nicht schönen.**
-`WEU` nur, wenn die HMPC-Monographie das ausdrücklich so führt. Populärer Ruf ist kein
-Evidenzgrad. Der Nutzer will ausdrücklich wissen, wo die Erwartungen zu hoch sind —
-dafür ist `expectation_summary.overstated` da. Nutze es.
+`WEU` nur, wenn die HMPC-Monographie das ausdrücklich so führt. Populärer Ruf ist kein Evidenzgrad. Der Nutzer will ausdrücklich wissen, wo die Erwartungen zu hoch sind — dafür ist `expectation_summary.overstated` da. Nutze es.
 
 **3. Flags müssen zur Substanz passen.**
-Wenn ein Doppelgänger `lebensgefährlich` ist, muss `flags.deadly_confusion` true sein.
-Wenn `toxin_ceiling` true ist, brauchst du `toxin_type` und `safety.tox_ceiling`. Das
-Prüfskript fängt Widersprüche — verlass dich nicht darauf, sondern denk mit.
+Wenn ein Doppelgänger `lebensgefährlich` ist, muss `flags.deadly_confusion` true sein. Wenn `toxin_ceiling` true ist, brauchst du `toxin_type` und `safety.tox_ceiling`. Das Prüfskript fängt Widersprüche — verlass dich nicht darauf, sondern denk mit.
 
 ## Evidenz-Skala
 
@@ -127,8 +119,7 @@ Kombination erlaubt: `TU/ESCOP+`, `WEU/RCT`.
 
 ## Warneinträge (tier 3)
 
-Herbstzeitlose, Schierling, Fingerhut, Eisenhut, Maiglöckchen, Tollkirsche,
-Riesen-Bärenklau, Rosmarinheide.
+Herbstzeitlose, Schierling, Fingerhut, Eisenhut, Maiglöckchen, Tollkirsche, Riesen-Bärenklau, Rosmarinheide.
 
 Das sind **keine Heilpflanzen**, sondern Erkennungs- und Warneinträge:
 
@@ -141,22 +132,14 @@ Das sind **keine Heilpflanzen**, sondern Erkennungs- und Warneinträge:
 
 ## Konventionen
 
-- **Dateiname:** `monographie-<deutscher-name>.json` — klein, ohne Umlaute
-  (`monographie-baerlauch.json`)
-- **`id`:** `gattung-art`, klein (`allium-ursinum`). Muss dem **aktuell akzeptierten**
-  botanischen Namen entsprechen — die App gleicht Pl@ntNet-Treffer darüber ab.
-  Achtung: Rosmarin ist heute *Salvia rosmarinus*.
+- **Dateiname:** `monographie-<deutscher-name>.json` — klein, ohne Umlaute (`monographie-baerlauch.json`)
+- **`id`:** `gattung-art`, klein (`allium-ursinum`). Muss dem **aktuell akzeptierten** botanischen Namen entsprechen — die App gleicht Pl@ntNet-Treffer darüber ab. Achtung: Rosmarin ist heute *Salvia rosmarinus*.
 - **Sprache:** durchgehend Deutsch
-- **`synonyms` pro Indikation:** Laienbegriffe! Davon lebt die Symptomsuche
-  („Halsschmerzen" muss „Rachenentzündung" finden)
+- **`synonyms` pro Indikation:** Laienbegriffe! Davon lebt die Symptomsuche („Halsschmerzen" muss „Rachenentzündung" finden)
 - **`realistic_expectation`:** Was darf man erwarten — und was **nicht**
 
 ## Zum Schluss
 
-Das Prüfskript kontrolliert Struktur und Konsistenz. Es kann **nicht** prüfen, ob deine
-Inhalte stimmen. Diese Verantwortung liegt bei dir und danach beim Arzt.
+Das Prüfskript kontrolliert Struktur und Konsistenz. Es kann **nicht** prüfen, ob deine Inhalte stimmen. Diese Verantwortung liegt bei dir und danach beim Arzt.
 
-Wenn dir bei der Recherche etwas auffällt, das über die Monographie hinausgeht — ein
-Widerspruch, eine überraschende Interaktion, eine Verwechslung, die im Katalog noch
-nirgends steht — **schreib es ins Log.** Es liest niemand mit; das Log ist dein einziger
-Kanal zum Arzt. Genau solche Funde machen das Herbarium besser.
+Wenn dir bei der Recherche etwas auffällt, das über die Monographie hinausgeht — ein Widerspruch, eine überraschende Interaktion, eine Verwechslung, die im Katalog noch nirgends steht — **sag es dazu.** Genau solche Funde machen das Herbarium besser.
