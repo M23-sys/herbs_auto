@@ -242,3 +242,35 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet weiterhin zahlrei
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert 38 Altfehler in 11 frueheren (offenbar handkuratierten, ohne `herkunft`-Feld) Monographien: baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut. Ursache u. a. kombinierte `toxicity_level`-Werte wie 'essbar/gering', die das aktuelle Schema nicht mehr erlaubt. Auftragsgemaess (genau 2 Monographien) NICHT angefasst. Empfehlung unveraendert: eigener Bereinigungslauf.
+
+---
+
+## Lauf 2026-07-15 (20:00 UTC) — Isländisches Moos, Passionsblume
+
+**Auswahl (genau 2):** Wunschliste hat Vorrang. `docs/wunschliste.json` (Stand 2026-07-15, 5 Eintraege) enthielt KEINEN offenen Wunsch mehr — alle fuenf (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis) liegen bereits in `fertig/` (per Dedup gegen id + botany.synonyms bestaetigt). Daher beide Plaetze aus der **Kandidatenliste**, Tier 1, erste offene Eintraege in Listenreihenfolge:
+1. **cetraria-islandica (Isländisches Moos)** — Kandidat, Tier 1 → `fertig/monographie-islaendisches-moos.json`, Status `entwurf_fertig`
+2. **passiflora-incarnata (Passionsblume)** — Kandidat, Tier 1 → `fertig/monographie-passionsblume.json`, Status `entwurf_fertig`
+
+**Dedup:** Beide gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprueft — nicht vorhanden. Synonyme selbst eingetragen (Cetraria: Lichen islandicus L.; Passiflora: Granadilla incarnata (L.) Medik.). Keine Selbstheilung noetig (keine der beiden neuen ids hatte bereits eine Datei; kein weiterer "offen"-Kandidat lag in `fertig/`).
+
+**Recherche-Kanal:** WebSearch funktionierte gut. **WebFetch war in diesem Lauf durchgaengig blockiert (HTTP 403 von ALLEN Zielhosts** — EMA, arzneipflanzenlexikon.info, altmeyers.org, e-lactancia, accurateclinic, Health Canada). Die EMA/HMPC- und ESCOP-**Primaerquellen konnten NICHT direkt eingesehen werden**. Evidenzgrade (beide TU bzw. Passiflora TU/ESCOP+) wurden auf das gesetzt, was mehrere konsistente Sekundaerquellen + die HMPC-Zusammenfassungen belegen; nicht geraten. **Primaerquelle nicht erreichbar — Evidenzgrad ungeprueft, aerztliche Gegenpruefung noetig.**
+
+**Pruefergebnis:** Beide bestehen `validate_monographie.py` einzeln und gemeinsam fehlerfrei (0 Fehler), nur der erwuenschte "unsicher/zu pruefen"-Hinweis. **0 Korrekturversuche.**
+
+**Hauptquellen:**
+- Isländisches Moos: EMA/HMPC EU herbal monograph Cetraria islandica (L.) Ach. s.l., thallus (traditional use, EMA/HMPC/678891/2013); Kommission E; arzneipflanzenlexikon.info/apotheken.de/pharmawiki (Dosierung, Zubereitung); ScienceDirect/ResearchGate zur Schwermetall-Bioakkumulation; Naturschutz-/Flechtenquellen (Cladonia rangiferina, Letharia vulpina/Vulpinsaeure).
+- Passionsblume: EMA/HMPC EU herbal monograph Passiflora incarnata L., herba (traditional use) + Assessment report 2014; ESCOP Passiflorae herba; Kommission E; arzneipflanzenlexikon.info (Tagesdosis 4-8 g, Anwendungsdauer 2 Wochen, Kinder <12 nicht); Rehwald 1995 (Harman-Alkaloide nur Spuren) & Holbik 2010 (Gynocardin nicht reproduzierbar); Bestimmungsquellen P. incarnata vs. P. caerulea.
+
+### Ueberraschungen / unsichere Stellen fuer den Arzt
+
+- **Isländisches Moos ist eine FLECHTE, kein Moos** (Pilz-Alge-Symbiose). Der Reason-Eintrag der Warteschlange ("Flechte, kein Kraut") stimmt. Das hat zwei Konsequenzen: (1) `harvest_organ` als "Kraut (ganzer Thallus/Flechtenkoerper)" formuliert, damit der Erntekalender-Filter greift; (2) nicht gaertnerisch kultivierbar (extrem langsames Wachstum) → `garden.bodensee_suitability` = nicht anbaubar.
+- **Isländisches Moos — die eigentliche Gefahr ist der SAMMELORT, nicht die Droge.** Flechten haben keine Cuticula und akkumulieren Cadmium/Blei/Quecksilber massiv aus der Luft (Cetraria islandica hat in Studien die hoechste Cd-Aufnahme). Wildsammlung an Strassen/Industrie daher riskant; zudem ist die Art regional geschuetzt. Das steht bewusst prominent in `key_warning` und `collection_rules`. `high_safety` deshalb **false** (obwohl die Droge selbst sehr sicher ist).
+- **Isländisches Moos — Zwei-Wege-Zubereitung ist der klinisch relevante Punkt.** Schleimstoffe (wasserloeslich) fuer die Reizlinderung → Kaltmazerat/kurzer Aufguss, Bitterstoffe koennen ausgewaschen werden. Fuer die Appetit-Indikation dagegen heiss und bitter belassen. In `chemistry.solubility_note` und `preparation` erklaert. Kein giftiger PFLANZEN-Doppelgaenger, aber die giftige Wolfsflechte (Letharia vulpina, gelbgruen, Vulpinsaeure) als `giftig` eingetragen — `deadly_confusion=false`, weil giftig, nicht lebensgefaehrlich.
+- **Isländisches Moos — Evidenz bewusst nur TU.** Trotz festem Ruf als "Lungen-/Hustenmittel" nur traditional use; die in-vitro antimikrobiellen Flechtensaeuren rechtfertigen KEINE Infekttherapie → in `expectation_summary.overstated` und als "unsicher — zu pruefen" vermerkt.
+- **Passionsblume — Evidenz TU/ESCOP+, NICHT WEU.** HMPC nur traditional use; ESCOP + Kommission E positiv. Es gibt einzelne kleine RCTs (praeop. Angst), aber keine belastbare WEU-Grundlage. Defensiv als TU/ESCOP+ getaggt — bitte nicht hochstufen.
+- **Passionsblume — zentrale Verwechslung ist eine QUALITAETS-/Verfaelschungsfrage, kein toedlicher Doppelgaenger.** Die in deutschen Gaerten dominante winterharte P. caerulea (FUENFlappig, blau-weiss) ist NICHT die arzneiliche P. incarnata (DREIlappig, weiss-lila) und enthaelt mehr cyanogene Glykoside. Als `giftig` eingetragen, aber `deadly_confusion=false` (keine akute Lebensgefahr in ueblichen Mengen). Fuer den Arzt/Pl@ntNet-Abgleich relevant: bei einem "Bodensee"-Fund ist P. caerulea deutlich wahrscheinlicher als die arzneiliche Art — `region_occurrence` = nur-kultur (P. incarnata bei uns nicht sicher winterhart).
+- **Passionsblume — zwei alte Sicherheitsmythen aktiv entschaerft:** (1) Die frueher befuerchtete MAO-Hemmung durch Harman-/beta-Carbolin-Alkaloide gilt als ueberholt — die Gehalte liegen nur im ppm-Bereich (Rehwald 1995), klinisch irrelevant. (2) Das cyanogene Glykosid Gynocardin liess sich in P. incarnata nicht reproduzierbar isolieren (Holbik 2010). Beide als `theoretisch`/`gering`/"unsicher — zu pruefen" markiert, damit weder eine falsche Interaktionswarnung noch eine falsche Entwarnung entsteht. Bitte gegenpruefen.
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert die ~38 Altfehler in 11 frueheren, offenbar handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut). Auftragsgemaess (genau 2 Monographien) NICHT angefasst. Empfehlung unveraendert: eigener Bereinigungslauf. Meine beiden neuen Dateien bestehen die Pruefung einzeln und gemeinsam fehlerfrei.

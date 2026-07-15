@@ -176,8 +176,8 @@
       "latin": "Cetraria islandica",
       "tier": 1,
       "reason": "Schleimhautreizung; Flechte, kein Kraut",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-islaendisches-moos.json"
     },
     {
       "id": "passiflora-incarnata",
@@ -185,8 +185,8 @@
       "latin": "Passiflora incarnata",
       "tier": 1,
       "reason": "Unruhe/Einschlafhilfe",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-passionsblume.json"
     },
     {
       "id": "lavandula-angustifolia",

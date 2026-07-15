@@ -63,6 +63,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Liquiritiae radix als TRADITIONAL USE (dyspeptische Beschwerden/Sodbrennen, Expektorans); Kommission E + ESCOP positiv (u.a. Ulcus). Sicherheitskern ist das TOXIN-CEILING: Glycyrrhizin hemmt 11β-HSD2 -> Pseudohyperaldosteronismus (Bluthochdruck, Hypokaliaemie, Oedeme). toxin_ceiling=true (Glycyrrhizin), interaction_heavy=true (Digoxin, Diuretika, Kortikoide, Antihypertensiva), pregnancy_contraindicated=true (Fruehgeburtsrisiko). Grenzen: arzneilich max. ~4 Wochen, Dauerkonsum ≤~100 mg Glycyrrhizin/Tag. Achtung versteckte Lakritzquellen (Suesswaren/Tee) summieren die Dosis. HMPC-Revision 1 in Konsultation 2025 — Einstufung ungeprueft."
+    },
+    {
+      "ts": "2026-07-15T20:00:00Z",
+      "id": "cetraria-islandica",
+      "common": "Isländisches Moos",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). WICHTIG: botanisch eine FLECHTE, kein Moos. HMPC + Kommission E fuehren Lichen islandicus als TRADITIONAL USE fuer Schleimhautreizung Mund/Rachen mit trockenem Reizhusten (Schleimstoffe) und voruebergehende Appetitlosigkeit (Bitterstoffe/Flechtensaeuren) — beide TU, kein WEU. Zwei-Wege-Droge: Kaltmazerat/Aufguss reizlindernd, heiss+bitter appetitanregend. Sicherheitskern liegt NICHT in der Droge (sehr gut vertraeglich, keine Ueberdosisfaelle), sondern beim Wildsammeln: Flechten akkumulieren stark Cadmium/Blei/Quecksilber (nicht an Strassen/Industrie sammeln), Art regional geschuetzt, und die grellgelbe giftige Wolfsflechte (Letharia vulpina, Vulpinsaeure) nie verwechseln. deadly_confusion=false (Wolfsflechte giftig, nicht lebensgefaehrlich)."
+    },
+    {
+      "ts": "2026-07-15T20:00:30Z",
+      "id": "passiflora-incarnata",
+      "common": "Passionsblume",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Passiflorae herba als TRADITIONAL USE (leichte nervoese Unruhe/mentaler Stress, Einschlafhilfe); ESCOP + Kommission E positiv → TU/ESCOP+, kein WEU. Milde, sehr sichere Beruhigungsdroge; Sedierung moeglich (Fahrtuechtigkeit), Schwangerschaft/Stillzeit meiden. Zentrale Verwechslung: die in deutschen Gaerten haeufige winterharte BLAUE Passionsblume (P. caerulea, FUENFlappige Blaetter) ist NICHT die arzneiliche Art (P. incarnata: DREIlappig) und enthaelt mehr cyanogene Glykoside → als Verfaelschung/Qualitaetsrisiko, giftig eingetragen. Zwei alte Sicherheitsmythen entschaerft: relevante MAO-hemmende Harman-Alkaloide gelten als ueberholt (nur ppm-Spuren), und das cyanogene Gynocardin liess sich in P. incarnata nicht reproduzierbar isolieren (Holbik 2010) — beide als unsicher/gering vermerkt."
     }
   ]
 }

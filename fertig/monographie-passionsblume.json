@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "id": "passiflora-incarnata",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Passiflora incarnata L.",
+    "common_names_de": ["Passionsblume", "Fleischfarbene Passionsblume", "Maypop", "Fleischrote Passionsblume"],
+    "family": "Passionsblumengewächse (Passifloraceae)",
+    "drug_part": ["Oberirdisches Kraut, getrocknet (blühend/fruchtend)"],
+    "drug_name_latin": "Passiflorae herba",
+    "synonyms": ["Granadilla incarnata (L.) Medik.", "Passiflora edulis var. incarnata"],
+    "synonym_note": "Passiflora incarnata L. ist der aktuell akzeptierte Name. Arzneilich ist AUSSCHLIESSLICH diese Art (Passiflorae herba) gemeint — dekorative Garten-Passionsblumen wie P. caerulea sind NICHT gleichwertig (siehe confusions)."
+  },
+  "identification": {
+    "key_features": [
+      "Kletternde, krautige Staude mit Ranken; Blätter DREILAPPIG (sicherstes Abgrenzungsmerkmal gegenüber der fünflappigen P. caerulea), fein gesägt, wechselständig",
+      "Auffällige Blüte mit weiß-lila Kranzfäden (Corona/Nebenkrone), die etwa so lang wie oder länger als die Blütenblätter sind; Grundfarbe weißlich mit purpurn-lila Strahlenkranz",
+      "Fünf Staubblätter und drei Griffel deutlich über der Blüte erhoben (typischer 'Passions'-Blütenbau)",
+      "Eiförmige, gelblich-grüne Beere ('Maypop') bei Reife",
+      "Rankende Wuchsform, an Stützen kletternd, sommergrün"
+    ],
+    "season": "Blütezeit Juni bis September (in Kultur)",
+    "habitat": "Heimisch im südöstlichen Nordamerika (Waldränder, offene Flächen); in Mitteleuropa nur Kultur, meist im Topf/Kübel oder geschützt",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Arzneilich verwendet wird ausschließlich Passiflora incarnata (Passiflorae herba). Vor der Ernte Art sicher bestätigen: DREILAPPIGE Blätter, weiß-lila Blüte.",
+      "Erntet wird das oberirdische Kraut zur Blüte-/frühen Fruchtzeit; die häufig als Zierpflanze gehaltene Blaue Passionsblume (P. caerulea, fünflappige Blätter) NICHT als Droge verwenden.",
+      "In Mitteleuropa praktisch immer Kulturpflanze; für Arzneizwecke standardisierte Apotheken-/Fertigware bevorzugen, da Verwechslung/Verfälschung mit anderen Passiflora-Arten verbreitet ist."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Blaue Passionsblume",
+      "scientific_name": "Passiflora caerulea",
+      "toxicity_level": "giftig",
+      "toxin": "Cyanogene Glykoside (v. a. in unreifen Früchten/Blättern); nicht die arzneiliche Art",
+      "note": "Die in deutschen Gärten mit Abstand häufigste Passionsblume (winterhart bis ca. -10 °C) und die wichtigste Verwechslung/Verfälschung. Unterscheidung: FÜNFlappige Blätter (P. incarnata: DREIlappig), blau-weiße Blüten mit kurzer Corona. Enthält höhere Gehalte cyanogener Glykoside und ist arzneilich NICHT gleichwertig; unreife Früchte/Pflanzenteile gelten als schwach giftig. Keine akute Lebensgefahr in üblichen Mengen, aber nicht als Passiflorae herba verwenden."
+    },
+    {
+      "name": "Maracuja / Essbare Passionsfrucht",
+      "scientific_name": "Passiflora edulis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Reife Frucht essbar (Maracuja), aber andere Art — arzneilich nicht als Passiflorae herba geführt. Blätter/unreife Früchte enthalten ebenfalls cyanogene Glykoside. Nicht als medizinische Droge verwenden."
+    },
+    {
+      "name": "Sonstige Zier-Passiflora-Arten und -Hybriden",
+      "scientific_name": "Passiflora spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Cyanogene Glykoside (artabhängig, meist gering)",
+      "note": "Zahlreiche Garten-Hybriden im Handel; Wirkstoffprofil und cyanogene Glykoside variieren, arzneiliche Gleichwertigkeit nicht gegeben. Nur eindeutig bestimmte P. incarnata verwenden — im Zweifel geprüfte Ware."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide (C-Glykoside): v. a. Vitexin, Isovitexin, Orientin, Isoorientin, Schaftosid — analytische Leitgruppe",
+      "Spuren von β-Carbolin-(Harman-)Alkaloiden (Harman, Harmin u. a.) — nur im ppm-Bereich, Nachweis uneinheitlich",
+      "Maltol, γ-Pyrone; cyanogenes Glykosid (Gynocardin) beschrieben, in P. incarnata aber nicht sicher reproduzierbar isoliert (Holbik et al. 2010)"
+    ],
+    "lead_substance": "Flavonoid-C-Glykoside (Vitexin/Isovitexin) als Marker/Standardisierung; ein einzelner wirkbestimmender Stoff ist nicht gesichert (Vielstoffgemisch).",
+    "solubility_note": "Flavonoide sind wasser-/ethanollöslich; bewährt sind Tee (Aufguss), Tinktur und wässrig-alkoholische Trockenextrakte. Für Fertigpräparate meist standardisierte Extrakte.",
+    "heat_light_sensitivity": "Flavonoide sind für den Aufguss ausreichend stabil; Droge trocken und lichtgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Wahrscheinlich Modulation des GABAergen Systems (angstlösend/beruhigend); die genauen wirksamen Prinzipien und der Mechanismus sind nicht abschließend geklärt und werden dem Flavonoid-/Gesamtextrakt zugeschrieben.",
+    "evidence_caveat": "Die Anwendung beruht überwiegend auf Erfahrung (HMPC traditional use, ESCOP, Kommission E). Es gibt einzelne kleinere klinische Studien (u. a. präoperative Angst, Unruhe), aber keine belastbare, große RCT-Evidenz für 'well-established use'. Effekte sind mild. Die frühere Annahme relevanter MAO-hemmender Harman-Alkaloide gilt als überholt — die Gehalte sind zu gering für eine klinisch relevante MAO-Hemmung — unsicher — zu prüfen.",
+    "pharmacokinetics": "Pharmakokinetik der Inhaltsstoffe nur unvollständig charakterisiert."
+  },
+  "indications": [
+    {
+      "canonical": "Nervöse Unruhe und leichte Symptome von mentalem Stress",
+      "synonyms": ["innere Unruhe", "Nervosität", "Anspannung", "Stress", "Reizbarkeit", "Aufregung", "Lampenfieber", "Angespanntheit"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC führt Passiflorae herba als traditional use zur Linderung leichter Symptome von mentalem Stress. ESCOP-Monographie positiv (Angespanntheit, Unruhe, Reizbarkeit mit Einschlafstörungen); Kommission E: nervöse Unruhezustände. Kein well-established use.",
+      "realistic_expectation": "Mild beruhigend/entspannend bei leichter nervöser Unruhe. KEIN Anxiolytikum vom Wirkgrad eines Benzodiazepins; keine belegte Wirkung bei Angststörung, Panik oder Depression. Oft in Kombination (z. B. mit Baldrian/Melisse).",
+      "source": "EMA/HMPC EU herbal monograph Passiflora incarnata L., herba (traditional use); ESCOP-Monographie; Kommission E (positiv)"
+    },
+    {
+      "canonical": "Nervös bedingte Einschlafstörungen",
+      "synonyms": ["Einschlafprobleme", "schlecht einschlafen", "unruhiger Schlaf", "Einschlafhilfe", "Schlafstörung durch Unruhe"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use als Einschlafhilfe; ESCOP: Unruhe/Reizbarkeit mit Einschlafstörungen. Wirkung setzt mild und eher bei regelmäßiger Anwendung ein.",
+      "realistic_expectation": "Kann das Einschlafen bei nervöser Unruhe erleichtern; kein zuverlässiges Schlafmittel bei ausgeprägter Insomnie, keine sichere Akutwirkung. Bei Beschwerden über 2 Wochen ärztlich abklären.",
+      "source": "EMA/HMPC EU herbal monograph Passiflora incarnata L., herba (traditional use); ESCOP; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, sehr gut verträgliches Beruhigungsmittel bei nervöser Unruhe, Anspannung und nervös bedingten Einschlafstörungen; kein Abhängigkeitspotenzial.",
+    "overstated": "Wird oft als starkes 'pflanzliches Beruhigungsmittel' oder Ersatz für Anxiolytika/Schlafmittel dargestellt — das ist nicht belegt. Keine gesicherte Wirkung bei Angststörung, Panik oder Depression; Evidenz ist begrenzt, Effekte sind mild.",
+    "effect_size": "mild; symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Tee (Aufguss)", "Trockenextrakt (Tablette/Dragee)", "Tinktur", "Kombinationspräparate (mit Baldrian/Melisse/Hopfen)"],
+    "form_rationale": "Flavonoide sind wasser-/alkohollöslich → Tee, Tinktur und Trockenextrakte sinnvoll. Standardisierte Extrakte in Fertigpräparaten sichern gleichmäßigen Gehalt und vermeiden das Verwechslungs-/Verfälschungsrisiko der Rohdroge.",
+    "standard_dose": "Tagesdosis ca. 4–8 g Droge. Tee: 1–2 g geschnittenes Kraut mit ca. 150 ml kochendem Wasser übergießen, 5–10 min ziehen lassen, mehrmals täglich und ggf. vor dem Schlafengehen. Erwachsene und Jugendliche ab 12 Jahren; Fertigpräparate nach Herstellerangabe.",
+    "preservation": "Trocken, kühl und lichtgeschützt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Passionsblume",
+      "Kinder unter 12 Jahren (keine ausreichenden Daten; EMA/HMPC nicht empfohlen)"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit mangels ausreichender Daten nicht empfohlen (EMA/HMPC); zudem Berichte über potenziell uteruskontrahierende Inhaltsstoffe — vorsorglich meiden.",
+    "adverse_effects": "Insgesamt sehr gut verträglich. Selten: Überempfindlichkeits-/allergische Hautreaktionen, gastrointestinale Beschwerden (Übelkeit, Krämpfe, Durchfall), selten Herzklopfen/Tachykardie. Möglich ist Müdigkeit/Schläfrigkeit — Vorsicht beim Führen von Fahrzeugen und Bedienen von Maschinen.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Möglicherweise additive sedierende Wirkung",
+        "affected": "Zentral dämpfende Mittel (Benzodiazepine, sedierende Antihistaminika, Hypnotika, Opioide), Alkohol",
+        "clinical_relevance": "gering bis relevant"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "β-Carbolin-(Harman-)Alkaloide gelten theoretisch als MAO-Hemmer; die Gehalte in P. incarnata sind jedoch sehr gering, klinische Relevanz nicht belegt — unsicher — zu prüfen",
+        "affected": "MAO-Hemmer, serotonerge/aminerge Arzneistoffe (theoretisch)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die arzneiliche Passiflora incarnata ist mild und sicher — verwende aber NUR diese Art: die häufig im Garten gehaltene Blaue Passionsblume (P. caerulea, fünflappige Blätter) ist nicht gleichwertig und enthält mehr cyanogene Glykoside. Sedierung möglich (Fahrtüchtigkeit), in Schwangerschaft/Stillzeit meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Zur Blüte- bis frühen Fruchtzeit (Juni–September)",
+    "harvest_month_tags": [6, 7, 8, 9],
+    "harvest_organ": "Kraut (oberirdische Teile, blühend/fruchtend)",
+    "method": "Oberirdische Triebe zur Blütezeit schneiden; nur eindeutig bestimmte P. incarnata (dreilappige Blätter).",
+    "processing": "Rasch und schonend trocknen, vor Licht schützen.",
+    "storage": "Getrocknet, trocken und lichtgeschützt; Flavonoidgehalt erhalten."
+  },
+  "kitchen": {
+    "uses": ["Kraut als Beruhigungstee (Genussdroge)"],
+    "culinary_vs_medicinal": "Kulinarisch spielt nur die essbare Frucht anderer Arten (Maracuja, P. edulis) eine Rolle. Das Kraut von P. incarnata ist eine Arznei-/Teedroge; die Grenze zwischen mildem Beruhigungstee und Arznei ist fließend."
+  },
+  "garden": {
+    "site_soil": "Sonnig, geschützt, durchlässiger, nährstoffreicher Boden; Kletterhilfe nötig.",
+    "hardiness": "In Mitteleuropa nur bedingt/kaum winterhart — meist als Kübelpflanze frostfrei überwintern (P. incarnata ist frostempfindlicher als die winterhärtere P. caerulea).",
+    "propagation": "Aussaat, Stecklinge oder Teilung; Anzucht wärmebedürftig.",
+    "bodensee_suitability": "Nur als Kultur-/Kübelpflanze mit Winterschutz; im Freiland der Bodenseeregion nicht sicher winterhart. Für den Arzneibedarf Apotheken-/Fertigware bevorzugen (Verwechslungsrisiko mit Zierarten)."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Kletternde Passiflora incarnata mit weiß-lila Blüte und dreilappigen Blättern", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Dreilappiges Blatt und Blütenbau — Abgrenzung zur fünflappigen P. caerulea", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Passiflora incarnata L., herba (traditional use; final community monograph)",
+    "EMA/HMPC — Assessment report on Passiflora incarnata L., herba (2014)",
+    "ESCOP-Monographie Passiflorae herba",
+    "Kommission E Monographie Passionsblumenkraut (positiv, nervöse Unruhezustände)",
+    "Arzneipflanzen-Lexikon (arzneipflanzenlexikon.info) — Passionsblume: Dosierung, Anwendungsdauer, Kinder ab 12 (recherchiert 2026-07-15)",
+    "Rehwald et al. 1995 (HPLC, Harman-Alkaloide im Spurenbereich); Holbik et al. 2010 (Gynocardin nicht reproduzierbar) — recherchiert",
+    "Bestimmungsquellen zur Abgrenzung P. incarnata (dreilappig) vs. P. caerulea (fünflappig, cyanogene Glykoside)"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "id": "cetraria-islandica",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Cetraria islandica (L.) Acharius s.l.",
+    "common_names_de": ["Isländisches Moos", "Islandmoos", "Isländische Flechte", "Fiebermoos", "Lungenmoos"],
+    "family": "Schüsselflechten (Parmeliaceae) — botanisch eine Flechte, KEIN Moos",
+    "drug_part": ["Ganzer Flechtenkörper / Thallus (Lichen islandicus)"],
+    "drug_name_latin": "Lichen islandicus (Cetrariae islandicae thallus)",
+    "synonyms": ["Lichen islandicus L.", "Cetraria islandica (L.) Ach."],
+    "synonym_note": "Basionym ist Lichen islandicus L. — daher der Drogenname 'Lichen islandicus'. Botanisch eine Flechte (Symbiose aus Pilz und Alge), trotz des Trivialnamens KEIN Moos. In der HMPC-Monographie als Sammelart 's.l.' (sensu lato) geführt."
+  },
+  "identification": {
+    "key_features": [
+      "Blattartig-bandförmiger, aufrechter bis polsterartiger Thallus, 3–12 cm hoch, unregelmäßig geweihartig-gabelig verzweigt (sicherstes Gesamtbild); keine Blätter, keine Wurzeln, keine Blüten — es ist eine Flechte",
+      "Oberseite braungrün bis kastanienbraun (feucht grünlich, trocken braun und brüchig), Unterseite heller grau-weißlich bis grünlich",
+      "Bandränder mit kurzen, stachelig-bewimperten Zähnchen (mit dunklen Randfransen/Cilien) und weißlichen Pünktchen (Pseudocyphellen) auf der Unterseite",
+      "Trocken hornartig hart und starr, angefeuchtet knorpelig-weich und biegsam",
+      "Bitterer Geschmack beim Kauen (Flechtensäuren/Bitterstoffe); typischer, schwacher Flechtengeruch"
+    ],
+    "season": "Ganzjährig sichtbar (Flechte, kein saisonaler Austrieb); Sammlung bei Trockenheit",
+    "habitat": "Lichte, saure, magere Standorte: Heiden, Moore, Nadelwälder, alpine Matten und Felsheiden; auf saurem, humosem Boden oder Totholz, boreal-montan bis alpin, lichtliebend und luftreinheitsbedürftig",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-selten"}
+    ],
+    "collection_rules": [
+      "Sammelgut ist der ganze, trockene Thallus; bei feuchter Witterung ist die Flechte weich und schlecht zu ernten — an trockenen Spätsommer-/Herbsttagen sammeln.",
+      "NATURSCHUTZ: Cetraria islandica ist in Teilen Mitteleuropas selten und regional geschützt — vor dem Sammeln die landesrechtliche Lage prüfen; im Zweifel Apothekenware verwenden statt wild sammeln.",
+      "SCHADSTOFF-VORSICHT: Flechten haben keine schützende Cuticula und reichern Schwermetalle (Cadmium, Blei, Quecksilber) sowie Luftschadstoffe stark aus der Umgebung an. NICHT an Straßen, Industrie- oder Altlastflächen sammeln; für Arzneizwecke geprüfte Ware bevorzugen.",
+      "Abgrenzung zu ähnlichen Strauchflechten über Farbe und Wuchsform (siehe confusions): braungrüne, bandartige, geweihartig-gezähnte Lappen — NICHT die intensiv gelbgrüne Wolfsflechte, NICHT die filigran-graue Rentierflechte."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wolfsflechte",
+      "scientific_name": "Letharia vulpina",
+      "toxicity_level": "giftig",
+      "toxin": "Vulpinsäure (ZNS-Gift)",
+      "note": "Die einzige wirklich giftige Flechte Mitteleuropas. Auffällig INTENSIV GELBGRÜN (Vulpinsäure), wächst vor allem auf Nadelholz/Totholz in Bergwäldern. Vulpinsäure wirkt auf das Zentralnervensystem und wurde früher als Wolfs-/Fuchsgift genutzt. Klare Abgrenzung durch die grelle Gelbfärbung — Isländisches Moos ist braungrün. Farbe im Zweifel entscheidend, gelbe Flechten NIEMALS verwenden."
+    },
+    {
+      "name": "Rentierflechte / Rentiermoos",
+      "scientific_name": "Cladonia rangiferina",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufige ungefährliche Verwechslung, oft begrifflich mit 'Islandmoos' vermengt. Rentierflechte ist zart, grau-weißlich, filigran und fein-rentiergeweihartig verzweigt (dünn, korallenartig), ohne die breiten braungrünen Bänder des Isländischen Mooses. Arzneilich nicht gleichwertig, aber nicht giftig."
+    },
+    {
+      "name": "Andere Cetraria-/Strauchflechten (z. B. Kahle Nabelflechten, Bartflechten Usnea)",
+      "scientific_name": "Cetraria spp. / Usnea spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Verschiedene braune bis grüngraue Strauch- und Bartflechten können makroskopisch ähneln. Meist nicht akut giftig, aber arzneilich nicht als Lichen islandicus verwendbar. Nur die typisch braungrüne, bandförmige, gezähnt-bewimperte Cetraria islandica mit bitterem Geschmack verwenden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimpolysaccharide bis über 50 %: Lichenin (Flechtenstärke, β-glucan) und Isolichenin — demulzierende Hauptwirkstoffe",
+      "Flechtensäuren ca. 2–3 % (Bitterstoffe): Fumarprotocetrarsäure, Protolichesterinsäure, Cetrarsäure, Usninsäure — antimikrobiell/bitter",
+      "Weitere Bitterstoffe; geringe Anteile an Proteinen und Spurenelementen"
+    ],
+    "lead_substance": "Schleimpolysaccharide (Lichenin/Isolichenin) für die reizlindernde Wirkung; Fumarprotocetrarsäure als charakteristische Flechtensäure/Bitterstoff.",
+    "solubility_note": "Zwei-Wege-Droge: Die Schleimstoffe sind wasserlöslich (Kaltmazerat oder Aufguss → reizlindernd bei Husten). Die bitteren Flechtensäuren gehen erst bei heißem Aufguss/längerem Ziehen über → für die Appetit anregende (Bitterstoff-)Wirkung heiß zubereiten, für die reine Reizlinderung kann durch kurzes Überbrühen und Abgießen der Bitterstoff entfernt werden (Kaltmazerat).",
+    "heat_light_sensitivity": "Schleimstoffe sind hitzestabil genug für Aufguss; die getrocknete Flechte ist gut lagerfähig. Für schleimschonende Zubereitung Kaltauszug möglich."
+  },
+  "pharmacology": {
+    "mechanism": "Reizlinderung (Demulzens): Die Schleimpolysaccharide legen sich als schützender Film über gereizte Schleimhäute in Mund/Rachen und dämpfen so den trockenen Reizhusten. Appetitanregung: Die Bitterstoffe (Flechtensäuren) wirken als Amarum reflektorisch speichel- und magensaftfördernd. Flechtensäuren zeigen in vitro antimikrobielle Effekte.",
+    "evidence_caveat": "Die Wirkung beruht auf langjähriger Erfahrung (HMPC traditional use) und plausiblem Wirkprinzip (Schleimstoffe, Bitterstoffe), NICHT auf hochwertigen klinischen Studien. Kontrollierte RCTs fehlen weitgehend. Die in vitro beobachteten antimikrobiellen/antiviralen Effekte der Flechtensäuren sind klinisch nicht belegt — unsicher — zu prüfen.",
+    "pharmacokinetics": "Schleimstoffe wirken lokal an der Schleimhaut und werden nicht nennenswert resorbiert; systemische Pharmakokinetik nicht relevant charakterisiert."
+  },
+  "indications": [
+    {
+      "canonical": "Reizung der Schleimhäute in Mund und Rachen mit trockenem Reizhusten",
+      "synonyms": ["Halskratzen", "trockener Reizhusten", "wunder Hals", "Rachenreizung", "Heiserkeit", "Kratzen im Hals", "gereizter Hals"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC führt Lichen islandicus als traditional-use-Arzneimittel zur Linderung von Schleimhautreizungen im Mund-/Rachenraum und des damit verbundenen trockenen Reizhustens. Kommission E: positiv für dieselbe Indikation. Kein well-established use.",
+      "realistic_expectation": "Lindert das Kratzen und den trockenen Reizhusten durch einen reizmildernden Schleimfilm — v. a. als Lutschpastille oder Tee sinnvoll. KEIN Schleimlöser bei produktivem Husten, kein Antibiotikum, heilt keine Bronchitis/Pneumonie. Symptomatische, milde Wirkung.",
+      "source": "EMA/HMPC EU herbal monograph Cetraria islandica (L.) Acharius s.l., thallus (traditional use, 2014/2015); Kommission E (positiv)"
+    },
+    {
+      "canonical": "Vorübergehende Appetitlosigkeit",
+      "synonyms": ["kein Appetit", "Appetitmangel", "Appetitlosigkeit", "Inappetenz", "mangelnder Appetit"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use und Kommission E (positiv) auch bei vorübergehender Appetitlosigkeit — hier über die Bitterstoffwirkung (Amarum). Dafür heiß und bitter zubereiten (Bitterstoffe nicht auswaschen).",
+      "realistic_expectation": "Kann als Bittermittel den Appetit anregen. Wirkt nur bei funktioneller, vorübergehender Appetitlosigkeit unterstützend; klärt keine dahinterliegende Erkrankung ab. Anhaltende Appetitlosigkeit ärztlich abklären lassen.",
+      "source": "EMA/HMPC EU herbal monograph Cetraria islandica, thallus (traditional use); Kommission E (positiv)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, sehr gut verträgliches Reizlinderungsmittel bei Halskratzen und trockenem Reizhusten (Schleimstoffe) und ein Bittermittel bei vorübergehender Appetitlosigkeit. Bewährt als Lutschpastille und Tee.",
+    "overstated": "Wird gelegentlich als 'Lungenheilmittel', Immun- oder Antibiotika-Ersatz oder als Mittel gegen Tuberkulose/schwere Atemwegsinfekte beworben — dafür gibt es keinen Beleg. Die in vitro antimikrobiellen Flechtensäuren rechtfertigen keine Therapie bakterieller Infekte.",
+    "effect_size": "mild; rein symptomatisch (Reizlinderung / Bitterstoff)"
+  },
+  "preparation": {
+    "recommended_forms": ["Lutschpastillen/Lutschtabletten", "Tee (Aufguss oder Kaltmazerat)", "Sirup", "Fluidextrakt"],
+    "form_rationale": "Lutschpastillen halten den reizlindernden Schleim lange an der Rachenschleimhaut — ideal bei Halskratzen/Reizhusten. Tee: für Reizhusten schleimschonend (kurz überbrühen, ggf. Bitterstoffe abgießen); für Appetitlosigkeit heiß und bitter belassen. Aus der Chemie abgeleitet: Schleim wasserlöslich, Bitterstoffe steuern über die Zubereitungsart die Zielwirkung.",
+    "standard_dose": "Tagesdosis ca. 4–6 g Droge. Tee: 2–4 g fein geschnittene Droge mit ca. 150 ml kochendem Wasser übergießen, nach ca. 10 min abseihen, mehrmals täglich; zur reinen Reizlinderung Bitterstoffe durch kurzes Überbrühen und Abgießen entfernbar. Fertigpräparate (Pastillen) nach Herstellerangabe.",
+    "preservation": "Getrocknet, trocken und lichtgeschützt lagern; als Flechte gut haltbar."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Isländisches Moos",
+      "Bei Magen-/Zwölffingerdarmgeschwür Bitterstoffzubereitungen zurückhaltend einsetzen (Bitterstoffe steigern die Magensaftsekretion)"
+    ],
+    "pregnancy_lactation": "Mangels ausreichender Daten wird die Anwendung in Schwangerschaft und Stillzeit nicht empfohlen (EMA/HMPC). Als reine Reizlinderung (Schleimstoff) sonst risikoarm, aber nicht formal belegt.",
+    "adverse_effects": "In therapeutischer Dosierung sehr gut verträglich; im HMPC-Bericht keine relevanten Nebenwirkungen und keine Überdosierungsfälle dokumentiert. Der bittere Geschmack kann als unangenehm empfunden werden; bei empfindlichen Personen theoretisch Magenreizung durch Bitterstoffe.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Schleimstoffe können theoretisch die Resorption gleichzeitig eingenommener Arzneimittel verzögern (allgemeine Schleimdrogen-Vorsicht)",
+        "affected": "gleichzeitig oral eingenommene Arzneimittel (zeitlicher Abstand ratsam)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Droge selbst ist sehr sicher — das Hauptrisiko liegt beim Wildsammeln: Flechten reichern Cadmium/Blei/Quecksilber stark an (nicht an Straßen/Industrie sammeln, Art ist zudem regional geschützt) und die grellgelbe, giftige Wolfsflechte (Vulpinsäure) darf nie verwechselt werden. Im Zweifel geprüfte Apothekenware."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Trockene Tage im Spätsommer und Herbst (August–Oktober); ganzjährig möglich, aber trocken am besten zu ernten",
+    "harvest_month_tags": [8, 9, 10],
+    "harvest_organ": "Kraut (ganzer Thallus/Flechtenkörper)",
+    "method": "Ganzen Thallus vom Untergrund (Boden/Totholz) ablösen; nur an unbelasteten Standorten, Naturschutz beachten.",
+    "processing": "Von Fremdmaterial (Nadeln, Erde, andere Flechten) reinigen, an der Luft trocknen.",
+    "storage": "Trocken, kühl und lichtgeschützt in geschlossenen Gefäßen; als Flechte lange haltbar."
+  },
+  "kitchen": {
+    "uses": ["Historisch als Notnahrung/Mehlstreckung nach Auswaschen der Bitterstoffe", "Schleim als Verdickungs-/Geliermittel"],
+    "culinary_vs_medicinal": "Kulinarisch nur historisch relevant (Hungernahrung, nach Entbittern). Medizinisch stehen Reizlinderung (Schleim) und Appetitanregung (Bitterstoff) im Vordergrund — die Zubereitungsart entscheidet über die Zielwirkung."
+  },
+  "garden": {
+    "site_soil": "Als Flechte nicht kultivierbar; benötigt saure, magere, luftreine Naturstandorte und wächst extrem langsam.",
+    "hardiness": "Sehr frosthart (boreal-alpin), aber nicht gärtnerisch anzuziehen.",
+    "propagation": "Keine praktikable gärtnerische Vermehrung (Flechtensymbiose, sehr langsames Wachstum).",
+    "bodensee_suitability": "Als Kultur ungeeignet — nicht anbaubar. Wild in der Bodenseeregion selten und eher in höheren, luftreinen Voralpen-/Alpenlagen; regional geschützt. Für den Bedarf Apothekenware nutzen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Braungrüner, bandförmig-geweihartig verzweigter Thallus des Isländischen Mooses", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Bewimperte, gezähnte Bandränder und hellere Unterseite — Abgrenzung zur grellgelben Wolfsflechte", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Cetraria islandica (L.) Acharius s.l., thallus (traditional use; final 2014/2015, EMA/HMPC/678891/2013)",
+    "EMA/HMPC — Assessment report on Cetraria islandica (L.) Acharius s.l., thallus",
+    "Kommission E Monographie Lichen islandicus / Isländisches Moos (positiv)",
+    "Arzneipflanzen-Lexikon (arzneipflanzenlexikon.info) — Isländisches Moos: Inhaltsstoffe, Dosierung, Zubereitung (recherchiert 2026-07-15)",
+    "Literatur zur Schwermetall-Bioakkumulation in Cetraria islandica (Cd/Pb/Hg als Bioindikator; ScienceDirect, ResearchGate — recherchiert)",
+    "Naturschutz-/Flechtenquellen zur Verwechslung mit Rentierflechte (Cladonia rangiferina) und giftiger Wolfsflechte (Letharia vulpina, Vulpinsäure)"
+  ]
+}
