@@ -149,8 +149,8 @@
       "latin": "Pimpinella anisum",
       "tier": 1,
       "reason": "Karminativum, Expektorans",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-anis.json"
     },
     {
       "id": "carum-carvi",

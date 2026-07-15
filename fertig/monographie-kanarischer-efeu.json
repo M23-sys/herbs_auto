@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "id": "hedera-canariensis",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Hedera canariensis Willd.",
+    "common_names_de": ["Kanarischer Efeu", "Kanaren-Efeu", "Madeira-Efeu", "Algerischer Efeu (Handelsname)"],
+    "family": "Araliengewächse (Araliaceae)",
+    "drug_part": ["keine arzneiliche Verwendung — Zierpflanze"],
+    "drug_name_latin": "",
+    "synonyms": ["Hedera algeriensis Rantonnet ex C.Morren (im Gartenbau meist gleichgesetzt)", "Hedera grandifolia hort.", "Hedera maderensis K.Koch ex A.Rutherf. (nahe verwandt, teils als eigene Art abgetrennt)"],
+    "synonym_note": "Taxonomie uneinheitlich: die Art wurde früher als Unterart/Varietät des Gemeinen Efeus geführt (Hedera helix subsp./var. canariensis) und wird im Handel oft mit Hedera algeriensis gleichgesetzt. Akzeptierter Artname laut POWO/Kew: Hedera canariensis Willd. Welchen Namen der Pl@ntNet-Treffer trug, der zu diesem Wunschlisten-Eintrag führte, ist unsicher — zu prüfen; verwechselt wird v. a. der arzneiliche Hedera helix."
+  },
+  "identification": {
+    "key_features": [
+      "Immergrüne, holzige Kletterpflanze mit Haftwurzeln — wie der Gemeine Efeu, aber mit deutlich GRÖSSEREN (bis 15–20 cm breiten), glänzend dunkelgrünen, ledrigen Blättern, die meist ungelappt bis flach 3-lappig sind (Gemeiner Efeu: kleinere, deutlich 3–5-lappige Jugendblätter)",
+      "Junge Triebe und Blattstiele auffällig rötlich-weinrot überlaufen (beim Gemeinen Efeu grünlich) — wichtiges Unterscheidungsmerkmal",
+      "Blattadern oft rötlich getönt (beim Gemeinen Efeu hell/weißlich abgesetzt)",
+      "Häufig als panaschierte Zierform 'Gloire de Marengo' mit cremeweiß gerandeten Blättern im Handel; Beeren (falls Blüte) schwarz und GIFTIG"
+    ],
+    "season": "Blüht in Kultur selten, dann im Herbst; bei uns fast nur vegetativ als Zierpflanze",
+    "habitat": "Heimat Kanarische Inseln, Madeira und Nordwestafrika; in Mitteleuropa nur als frostempfindliche Zier-, Kübel- oder Zimmerpflanze",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Keine Sammlung zu Heilzwecken — giftige Zierpflanze ohne Arzneimonographie.",
+      "Beim Rückschnitt Handschuhe tragen: der frische Pflanzensaft enthält Falcarinol und kann Kontaktekzeme auslösen.",
+      "Wird eine kletternde Efeu-Pflanze arzneilich in Betracht gezogen, ist ausschließlich der Gemeine Efeu (Hedera helix) gemeint — und auch dort nur als standardisierter Fertigextrakt, nie als Selbstzubereitung."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gemeiner / Arzneilicher Efeu",
+      "scientific_name": "Hedera helix",
+      "toxicity_level": "giftig",
+      "toxin": "Triterpensaponine (Hederacosid C, α-Hederin), Falcarinol",
+      "note": "Die entscheidende Verwechslung. NUR Hedera helix besitzt eine EMA/HMPC-Zulassung als Expektorans — und zwar ausschließlich als standardisierter Fertigextrakt. Der Kanarische Efeu ist eine andere Art OHNE Wirksamkeitsbeleg; seine Blätter/Beeren dürfen nicht als Ersatz verwendet werden. Unterscheidung: H. helix hat kleinere, meist deutlich gelappte Blätter, grüne Triebe und helle Blattadern."
+    },
+    {
+      "name": "Wilder Wein / Jungfernrebe",
+      "scientific_name": "Parthenocissus spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Calciumoxalat-Raphiden (v. a. Beeren), Oxalsäure",
+      "note": "Ebenfalls kletternd, oft an denselben Standorten. Aber laubwerfend mit auffälliger roter Herbstfärbung, meist 5-fingrigen Blättern und Klettern über Haftscheiben — Efeu ist immergrün und klettert mit Haftwurzeln. Beeren nicht essen."
+    },
+    {
+      "name": "Gundermann (Erd-Efeu, Gundelrebe)",
+      "scientific_name": "Glechoma hederacea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nur Namensverwechslung ('Efeu'). Krautig kriechender Lippenblütler mit rundlich-nierenförmigen, gekerbten Blättern und blauvioletten Lippenblüten — botanisch völlig anders und nicht giftig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (Glykoside von Hederagenin und Oleanolsäure: Hederasaponin B/C, α-Hederin)",
+      "Polyacetylene (Falcarinol — Kontaktallergen)",
+      "Flavonoide"
+    ],
+    "lead_substance": "α-Hederin / Hederasaponine (in vitro hämolytisch und molluskizid aktiv)",
+    "solubility_note": "Saponine sind wasser- und ethanollöslich; therapeutisch jedoch NICHT relevant, da für diese Art keine standardisierte Zubereitung und keine Zulassung existiert.",
+    "heat_light_sensitivity": "unsicher — zu prüfen (keine arzneiliche Zubereitung)."
+  },
+  "pharmacology": {
+    "mechanism": "Die Saponine wirken in vitro hämolytisch, molluskizid und antimykotisch. Ob die für Hedera helix beschriebene sekretolytische Wirkung (Erhalt der β2-adrenergen Antwort durch α-Hederin) auf Hedera canariensis übertragbar ist, ist NICHT belegt.",
+    "evidence_caveat": "Für Hedera canariensis existiert KEINE klinische Evidenz und keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie. Verfügbar sind nur präklinische Saponin-Studien. Die Wirksamkeitsaussagen der Hedera-helix-Monographie dürfen nicht auf diese Art übertragen werden.",
+    "pharmacokinetics": "unsicher — zu prüfen (keine Anwendung)."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung: Der Kanarische Efeu ist eine giftige Zierpflanze und NICHT der arzneiliche Efeu (Hedera helix).",
+    "overstated": "Der 'Efeu'-Name legt die schleimlösende Hustenwirkung des Arznei-Efeus (Hedera helix) nahe. Für Hedera canariensis ist diese Wirkung nicht belegt; Blätter und Beeren sind giftig und eignen sich nicht zur Selbstmedikation.",
+    "effect_size": "kein belegter arzneilicher Effekt"
+  },
+  "preparation": {
+    "recommended_forms": ["keine — nicht zur Anwendung"],
+    "form_rationale": "Keine Zubereitung: giftige Zierpflanze ohne Wirksamkeitsbeleg und ohne standardisierten Extrakt. Wer die Efeu-Wirkung gegen Husten sucht, benötigt ein zugelassenes Hedera-helix-Fertigpräparat.",
+    "standard_dose": "entfällt",
+    "preservation": "entfällt"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "jede innerliche Anwendung (giftig)",
+      "Überempfindlichkeit gegen Araliengewächse"
+    ],
+    "pregnancy_lactation": "Keine Anwendung — giftige Zierpflanze ohne Daten.",
+    "adverse_effects": "Beeren und Blätter enthalten Saponine: bei Verzehr Übelkeit, Erbrechen, Durchfall und Bauchkrämpfe, bei größeren Mengen (v. a. Beeren, besonders bei Kindern) auch Kreislauf- und ZNS-Symptome. Frischer Pflanzensaft/Blattkontakt kann eine allergische Kontaktdermatitis auslösen (Falcarinol).",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "keine arzneiliche Anwendung",
+        "affected": "—",
+        "clinical_relevance": "entfällt"
+      }
+    ],
+    "flags": {
+      "not_for_use": true,
+      "raw_toxicity": true,
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein Heil-Efeu! Der Kanarische Efeu ist eine GIFTIGE Zierpflanze — Beeren und Blätter lösen Magen-Darm-Vergiftungen aus, frischer Saft Kontaktekzeme. Die hustenlösende EMA-Zulassung gilt AUSSCHLIESSLICH für den standardisierten Extrakt des Gemeinen Efeus (Hedera helix), nicht für diese Art."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Keine Ernte — giftige Zierpflanze ohne arzneiliche Verwendung.",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "entfällt",
+    "processing": "entfällt",
+    "storage": "entfällt"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische oder arzneiliche Verwendung — giftige Zierpflanze."
+  },
+  "garden": {
+    "site_soil": "Humoser, frischer Boden; hell bis halbschattig; als Kübel- oder Zimmerpflanze.",
+    "hardiness": "Frostempfindlich (nur etwa bis −5 °C), im Bodenseeraum im Freiland nicht zuverlässig winterhart — Kübel/Wintergarten.",
+    "propagation": "Stecklinge bewurzeln leicht.",
+    "bodensee_suitability": "Nur als Kübel- oder Zimmerpflanze geeignet; im Freiland nicht winterhart. Giftig — in Haushalten mit Kindern und Haustieren beachten."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Kanarischer Efeu, kletternd, mit großen glänzenden Blättern und rötlichen Trieben", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Großes, ungelapptes bis flach 3-lappiges Blatt und weinrot überlaufener Blattstiel — Unterschied zum Gemeinen Efeu", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Plants of the World Online (POWO), Kew — Hedera canariensis Willd. (akzeptierter Name, Synonymie)",
+    "GBIF — Hedera canariensis Willd.",
+    "Trees and Shrubs Online — Hedera canariensis (Taxonomie/Abgrenzung H. algeriensis, H. maderensis)",
+    "PubMed 19143139 — Molluscicidal saponins from leaves of Hedera canariensis",
+    "Giftpflanzen-/Toxikologie-Recherche — Saponine und Falcarinol (Kontaktdermatitis, GI-Vergiftung) bei Hedera-Arten",
+    "EMA/HMPC — European Union herbal monograph on Hedera helix L., folium (zur Abgrenzung: nur H. helix ist zugelassen)"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "id": "pimpinella-anisum",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Pimpinella anisum L.",
+    "common_names_de": ["Anis", "Echter Anis", "Süßer Kümmel", "Brotsamen"],
+    "family": "Doldenblütler (Apiaceae / Umbelliferae)",
+    "drug_part": ["reife, getrocknete Frucht ('Anissamen', botanisch eine Spaltfrucht)"],
+    "drug_name_latin": "Anisi fructus (ätherisches Öl: Anisi aetheroleum)",
+    "synonyms": ["Anisum vulgare Gaertn.", "Anisum officinarum Moench", "Sison anisum (L.) Spreng.", "Apium anisum (L.) Crantz"],
+    "synonym_note": "Botanisch eindeutig, aber NICHT verwandt mit Sternanis (Illicium verum, Schisandraceae) — trotz nahezu identischem Aroma (Anethol) und ähnlichem Namen. Diese Namensgleichheit ist eine relevante Verwechslungsquelle (siehe confusions)."
+  },
+  "identification": {
+    "key_features": [
+      "Intensiver, süßlich-anisartiger Geruch ALLER Pflanzenteile beim Zerreiben — das ist das sicherste Feldmerkmal und der entscheidende Unterschied zu giftigen Doldenblütlern (Schierling riecht widerlich nach Mäuseurin, nicht nach Anis)",
+      "Einjähriger, 30–60 cm hoher, fein behaarter Doldenblütler; Grundblätter lang gestielt, rundlich-nierenförmig und gekerbt, obere Stängelblätter fiederteilig (deutlicher Blattdimorphismus)",
+      "Kleine weiße Blüten in lockeren Doppeldolden (meist 7–15 Döldchen) ohne auffällige Hüllblätter",
+      "Frucht 3–5 mm lang, birnenförmig, graugrün bis bräunlich, fein behaart, längsgerippt, mit starkem Anisduft"
+    ],
+    "season": "Blüte Juli–August; Fruchtreife August–September",
+    "habitat": "Wärmeliebende Kulturpflanze aus dem östlichen Mittelmeerraum/Vorderasien; in Mitteleuropa nur im Anbau (Garten/Feld), keine Wildvorkommen",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Anis ist eine Kulturpflanze — arzneilich nur aus sicherer Herkunft (Anbau/Apotheke) verwenden, NIEMALS wildwachsende Doldenblütler als 'Anis' sammeln.",
+      "Bei Eigenanbau: Geruchsprobe ist Pflicht — nur der typische Anisduft bestätigt die Art. Jeder abweichende, unangenehme Geruch bedeutet Verwechslungsgefahr mit giftigen Umbelliferen.",
+      "Früchte bei Vollreife ernten, nachtrocknen und ganz lagern; erst unmittelbar vor Gebrauch anquetschen (ätherisches Öl ist flüchtig)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und verwandte Piperidinalkaloide (Atemlähmung)",
+      "note": "Klassischer tödlicher Doldenblütler. Unterscheidung: rotbraun gefleckter, kahler Stängel, widerlicher Geruch nach Mäuseurin (KEIN Anisduft), größer und meist mehrjährig-hochwüchsig. Wenige Gramm können tödlich sein — im Zweifel Finger weg."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin (Krampfgift)",
+      "note": "An feuchten Standorten (Gräben, Ufer). Kammerig gegliederte, dickfleischige Wurzel; löst heftige, oft tödliche Krämpfe aus. Kein Anisduft. Nicht mit Anis verwechseln."
+    },
+    {
+      "name": "Hundspetersilie / Gartenschierling",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (Aethusin u. a.)",
+      "note": "Ackerbeikraut, riecht unangenehm (nicht nach Anis); unter den Döldchen hängen typische lange, herabgeschlagene Hüllblättchen ('Läppchen'). Hat schon zu Todesfällen geführt — jede geruchlose oder streng riechende 'Anis'-Pflanze ist verdächtig."
+    },
+    {
+      "name": "Japanischer Sternanis",
+      "scientific_name": "Illicium anisatum (Syn. I. religiosum)",
+      "toxicity_level": "giftig",
+      "toxin": "Anisatin (neurotoxisches Krampfgift)",
+      "note": "KEIN Doldenblütler, aber die wichtigste Aroma-/Namensverwechslung: Er sieht dem essbaren Echten Sternanis (Illicium verum) sehr ähnlich und wird als Verunreinigung in 'Sternanis'-Tee gefunden. Solcher Tee hat bei SÄUGLINGEN Krämpfe ausgelöst. Weder mit echtem Anis (Pimpinella) noch mit echtem Sternanis (I. verum) gleichsetzen; Sternanis-Tee nicht bei Säuglingen einsetzen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (etwa 1,5–5 %)",
+      "trans-Anethol (Hauptkomponente, ca. 80–95 % des äth. Öls) — Leitsubstanz und Aromaträger",
+      "Estragol (Methylchavicol, bis etwa 5 %) — im Verdacht, genotoxisch/kanzerogen zu sein",
+      "fettes Öl, Cumarine (Spuren), Flavonoide, geringe Mengen Furanocumarine"
+    ],
+    "lead_substance": "trans-Anethol",
+    "solubility_note": "Das ätherische Öl ist kaum wasserlöslich, aber flüchtig: Früchte VOR dem Aufguss anquetschen und den Tee zugedeckt ziehen lassen, sonst entweicht der Wirkstoff. Tinktur und reines Öl konzentrieren die Inhaltsstoffe (inkl. Estragol) deutlich stärker als Tee.",
+    "heat_light_sensitivity": "Ätherisches Öl licht-, luft- und wärmeempfindlich (Anethol oxidiert/polymerisiert). Ganze Früchte kühl, trocken und dunkel lagern, erst unmittelbar vor Gebrauch zerstoßen."
+  },
+  "pharmacology": {
+    "mechanism": "trans-Anethol wirkt spasmolytisch auf die glatte Magen-Darm-Muskulatur (karminativ, entblähend) und sekretolytisch/expektorierend über eine Reizung des Flimmerepithels der Atemwege. In vitro zusätzlich schwach östrogenartige und antimikrobielle Effekte.",
+    "evidence_caveat": "Die Wirkbelege stützen sich überwiegend auf traditionelle Anwendung und präklinische Daten; kontrollierte klinische Studien am Menschen fehlen weitgehend. Die EMA/HMPC stuft Anis ausschließlich als 'traditional use' ein — NICHT als well-established use.",
+    "pharmacokinetics": "Anethol wird rasch resorbiert und hepatisch metabolisiert. Estragol wird teilweise zum reaktiven 1'-Hydroxy-Metaboliten umgesetzt (Grund für die Mengen-/Dauerbegrenzung). Genaue humanpharmakokinetische Daten: unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter, krampfartiger Magen-Darm-Beschwerden einschließlich Blähungen und Völlegefühl (dyspeptische Beschwerden)",
+      "synonyms": ["Blähungen", "Blähbauch", "Völlegefühl", "Bauchkrämpfe", "Bauchweh", "Verdauungsbeschwerden", "Magendrücken", "Winde"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Linderung leichter krampfartiger GI-Beschwerden inkl. Blähungen und Flatulenz. Kommission E positiv für dyspeptische Beschwerden; ESCOP-Monographie Anisi fructus. Anwendung nur bei Erwachsenen und Jugendlichen über 12 Jahren, nicht länger als 2 Wochen.",
+      "realistic_expectation": "Kann leichte Blähungen und krampfartiges Magendrücken kurzfristig lindern. Kein Mittel gegen ernsthafte Magen-Darm-Erkrankungen, Reizdarm oder Säuglingskoliken. Bei anhaltenden oder starken Beschwerden ärztlich abklären.",
+      "source": "EMA/HMPC herbal monograph Pimpinella anisum L., fructus (traditional use); ESCOP Anisi fructus; Kommission E (positiv)"
+    },
+    {
+      "canonical": "Expektorans bei erkältungsbedingtem, verschleimtem Husten (Katarrh der oberen Atemwege)",
+      "synonyms": ["verschleimter Husten", "Husten mit Schleim", "Erkältungshusten", "festsitzender Husten", "Bronchialkatarrh", "Abhusten"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use als Expektorans bei Husten im Zusammenhang mit Erkältungen. Kommission E positiv für Katarrhe der Atemwege; ESCOP nennt leichte Entzündungen der oberen Atemwege. Nur Erwachsene/Jugendliche über 12 Jahren, max. 2 Wochen.",
+      "realistic_expectation": "Unterstützt das Lösen und Abhusten von zähem Schleim. Kein Hustenstiller (nicht sinnvoll bei trockenem Reizhusten) und kein Antibiotikum — behandelt nicht die Ursache.",
+      "source": "EMA/HMPC herbal monograph Pimpinella anisum L., fructus (traditional use); Kommission E (positiv); ESCOP"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, traditionell gut belegtes Karminativum und Expektorans für die kurzzeitige Selbstbehandlung von Blähungen und verschleimtem Erkältungshusten bei Erwachsenen und Jugendlichen über 12 Jahren.",
+    "overstated": "Kein 'well-established use' — nur traditional use. Nicht belegt bei Reizdarm, als Milchbildungsmittel (Galaktagogum) oder gegen Asthma. Besonders die verbreitete Anwendung als beruhigender 'Anis-/Sternanis-Tee' bei SÄUGLINGSKOLIKEN ist nicht belegt und mit dem äth. Öl bzw. verunreinigtem Sternanis sogar gefährlich.",
+    "effect_size": "mild, symptomatisch, kurzfristig"
+  },
+  "preparation": {
+    "recommended_forms": ["Teeaufguss aus frisch angequetschten Früchten", "Bestandteil von Husten- und Magen-Darm-Teemischungen", "Tinktur", "ätherisches Öl nur stark verdünnt und streng dosiert"],
+    "form_rationale": "Weil das wirksame Anethol flüchtig ist, müssen die Früchte unmittelbar vor dem Aufguss angequetscht und zugedeckt gezogen werden. Das konzentrierte ätherische Öl birgt ein deutlich höheres Estragol- und Reizrisiko und ist daher nur begrenzt und nicht bei Kindern/Schwangeren einzusetzen.",
+    "standard_dose": "HMPC/Kommission E: mittlere Tagesdosis etwa 3 g Früchte (Einzeldosis ~1–1,5 g als Aufguss, 2–3×/Tag); Höchstmenge ca. 5 g Früchte bzw. 0,3 g ätherisches Öl pro Tag. Nicht länger als 2 Wochen ohne ärztlichen Rat, nur Erwachsene und Jugendliche über 12 Jahren.",
+    "preservation": "Ganze Früchte kühl, trocken, dunkel und luftdicht aufbewahren; erst vor Gebrauch zerstoßen."
+  },
+  "safety": {
+    "tox_ceiling": "Estragol ist im Tierversuch genotoxisch und kanzerogen; die EU begrenzt die Estragol-Exposition in Lebensmitteln und pflanzlichen Arzneien. Praktische Konsequenz: Anwendungsdauer auf max. 2 Wochen begrenzen, hohe Dosen und besonders das konzentrierte ätherische Öl meiden (v. a. bei Kindern und in der Schwangerschaft). Ein exakter Grenzwert für die übliche Teemenge ist nicht definiert — unsicher — zu prüfen.",
+    "contraindications": [
+      "bekannte Allergie gegen Anis/Anethol oder andere Doldenblütler (Kreuzallergie mit Fenchel, Sellerie, Koriander, Kümmel möglich)",
+      "arzneiliche Anwendung bei Kindern unter 12 Jahren; das ätherische Öl grundsätzlich nicht bei Säuglingen und Kleinkindern (Gefahr von Laryngo-/Bronchospasmus)"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit ist die arzneiliche Anwendung mangels Daten nicht empfohlen (EMA/HMPC); die Estragol-Genotoxizität und die schwach östrogenartige Anethol-Wirkung sprechen zusätzlich dagegen. Küchenübliche Gewürzmengen gelten als unbedenklich.",
+    "adverse_effects": "Selten allergische Reaktionen von Haut, Atemwegen und Magen-Darm-Trakt (Anethol); sehr selten photoallergische Reaktionen. Überdosierung des ätherischen Öls kann Übelkeit, Erbrechen und ZNS-Symptome auslösen.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "schwach östrogenartige Effekte von Anethol in vitro",
+        "affected": "hormonabhängige Erkrankungen / Hormontherapie (theoretisch)",
+        "clinical_relevance": "gering — klinisch nicht belegt, unsicher — zu prüfen"
+      },
+      {
+        "type": "keine relevanten",
+        "mechanism": "keine klinisch belegten Arzneimittelinteraktionen für die üblichen Zubereitungen/Mengen bekannt",
+        "affected": "—",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": true,
+      "toxin_type": "Estragol (Methylchavicol)",
+      "apiaceae_confusion_young": true,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "raw_toxicity": false,
+      "high_safety": false
+    },
+    "key_warning": "Anis ist ein Doldenblütler: Beim Selbstsammeln droht Verwechslung mit tödlichem Schierling (Conium, Cicuta) — nur der intensive Anisduft der Frucht bestätigt die Art. Arzneilich nur bei Erwachsenen/Jugendlichen über 12 Jahren und höchstens 2 Wochen; das ätherische Öl NICHT bei Säuglingen. Vorsicht auch bei 'Sternanis'-Tee für Säuglinge: japanischer Sternanis (Illicium anisatum) kann als Verunreinigung Krämpfe auslösen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Früchte bei Vollreife (August–September) ernten, wenn sie graugrün abtrocknen. Anis ist eine Kulturpflanze — keine Wildsammlung.",
+    "harvest_month_tags": [8, 9],
+    "harvest_organ": "Frucht (Samen)",
+    "method": "Reife Dolden abschneiden, kopfüber nachtrocknen lassen, dann ausdreschen und Spreu absieben.",
+    "processing": "Vollständig trocknen; die ganzen Früchte lagern, nicht vorab mahlen.",
+    "storage": "Kühl, trocken, dunkel und luftdicht; ganze Früchte behalten das Aroma monatelang, gemahlene verlieren es rasch."
+  },
+  "kitchen": {
+    "uses": ["Backwaren (Anisbrot, Springerle, Spekulatius, Pfefferkuchen)", "Anislikör (Ouzo, Pastis, Sambuca, Raki, Anisette)", "Gewürz für Kohl-, Fisch- und Schmorgerichte", "Anistee"],
+    "culinary_vs_medicinal": "Küchenübliche Gewürzmengen sind unbedenklich. Die arzneiliche Anwendung folgt einer definierten, begrenzten Dosis und Dauer (max. 2 Wochen)."
+  },
+  "garden": {
+    "site_soil": "Warmer, sonniger, geschützter Standort; durchlässiger, kalkhaltiger, nährstoffreicher Boden.",
+    "hardiness": "Einjährig und frostempfindlich; benötigt eine lange, warme Vegetationszeit für sichere Fruchtreife.",
+    "propagation": "Direktsaat ab Ende April/Mai an Ort und Stelle (Wurzel verträgt Verpflanzen schlecht).",
+    "bodensee_suitability": "In wintermilden, warmen Lagen am Bodensee als einjährige Kultur möglich, aber wärmebedürftig; volle Fruchtreife gelingt nur in guten Sommern. Keine Wildvorkommen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Anis mit weißen Doppeldolden und fiederteiligen oberen Blättern", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Reife, birnenförmige, gerippte Anisfrüchte mit typischem Anisduft", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Pimpinella anisum L., fructus (traditional use)",
+    "EMA/HMPC — Assessment report on Pimpinella anisum L., fructus and Pimpinella anisum L., aetheroleum",
+    "ESCOP Monograph Anisi fructus (Aniseed)",
+    "Kommission E Monographie Anis (Anisi fructus) — positiv, dyspeptische Beschwerden und Katarrhe der Atemwege",
+    "Shojaii & Abdollahi Fard, 'Review of Pharmacological Properties and Chemical Constituents of Pimpinella anisum', ISRN Pharmaceutics 2012 (PMC3405664)",
+    "EU/EFSA-Bewertung zu Estragol (Genotoxizität/Expositionsbegrenzung)",
+    "Toxikologische Fallberichte zu Illicium-anisatum-Verunreinigung in Sternanis-Tee bei Säuglingen (recherchiert)"
+  ]
+}
