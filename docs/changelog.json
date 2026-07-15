@@ -1,0 +1,20 @@
+{
+  "eintraege": [
+    {
+      "ts": "2026-07-15T09:11:48Z",
+      "id": "potentilla-reptans",
+      "common": "Kriechendes Fingerkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Wunschliste. Volksmedizinische Gerbstoffdroge (Durchfall, Mund-/Rachenspülung, kleine Wunden) — KEINE HMPC/ESCOP/Kommission-E-Monographie; daher durchgehend TRAD getaggt. Nicht mit der besser belegten Tormentillwurzel (Potentilla erecta) gleichsetzen. Sicher, essbar, kein giftiger Doppelgänger."
+    },
+    {
+      "ts": "2026-07-15T09:11:48Z",
+      "id": "nepeta-nepetella",
+      "common": "Kleine Katzenminze",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Wunschliste. Mediterrane Zier-/Duftpflanze OHNE belegten Heilwert (keine HMPC/ESCOP/Kommission-E-Monographie), in der Bodenseeregion NICHT wild heimisch (Fund = Kultur oder Fehlbestimmung). Nicht mit der arzneilich genutzten Echten Katzenminze (Nepeta cataria) verwechseln. Alle Indikationsangaben TRAD/unsicher."
+    }
+  ]
+}

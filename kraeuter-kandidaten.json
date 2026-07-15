@@ -41,8 +41,8 @@
       "latin": "Valeriana officinalis",
       "tier": 1,
       "reason": "WEU/ESCOP Schlaf & Unruhe — stärkste Sedativum-Evidenz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-baldrian.json"
     },
     {
       "id": "hedera-helix",
@@ -50,8 +50,8 @@
       "latin": "Hedera helix",
       "tier": 1,
       "reason": "WEU produktiver Husten",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-efeu.json"
     },
     {
       "id": "primula-veris",
@@ -59,8 +59,8 @@
       "latin": "Primula veris",
       "tier": 1,
       "reason": "WEU nur in Fixkombination (mit Thymian) — Evidenz-Lehrstück",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-schluesselblume.json"
     },
     {
       "id": "althaea-officinalis",
@@ -68,8 +68,8 @@
       "latin": "Althaea officinalis",
       "tier": 1,
       "reason": "Schleimdroge, Reizhusten",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-eibisch.json"
     },
     {
       "id": "silybum-marianum",
@@ -77,8 +77,8 @@
       "latin": "Silybum marianum",
       "tier": 1,
       "reason": "WEU Lebererkrankungen (Silymarin)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-mariendistel.json"
     },
     {
       "id": "crataegus-monogyna",
@@ -86,8 +86,8 @@
       "latin": "Crataegus monogyna",
       "tier": 1,
       "reason": "WEU Herzinsuffizienz NYHA II — kardiale Indikation, neu im Katalog",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-weissdorn.json"
     },
     {
       "id": "aesculus-hippocastanum",
@@ -95,8 +95,8 @@
       "latin": "Aesculus hippocastanum",
       "tier": 1,
       "reason": "WEU chronische Veneninsuffizienz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-rosskastanie.json"
     },
     {
       "id": "zingiber-officinale",
@@ -104,8 +104,8 @@
       "latin": "Zingiber officinale",
       "tier": 1,
       "reason": "WEU Reisekrankheit/Übelkeit; Blutungs-Interaktion",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-ingwer.json"
     },
     {
       "id": "plantago-ovata",
@@ -113,8 +113,8 @@
       "latin": "Plantago ovata",
       "tier": 1,
       "reason": "WEU Obstipation/Reizdarm",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-flohsamen.json"
     },
     {
       "id": "linum-usitatissimum",
@@ -122,8 +122,8 @@
       "latin": "Linum usitatissimum",
       "tier": 1,
       "reason": "Quellstoff-Laxans; Blausäureglykoside",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-lein.json"
     },
     {
       "id": "frangula-alnus",
@@ -131,8 +131,8 @@
       "latin": "Frangula alnus",
       "tier": 1,
       "reason": "Anthranoid-Laxans; Missbrauchsrisiko, regional wild",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-faulbaum.json"
     },
     {
       "id": "foeniculum-vulgare",
@@ -140,8 +140,8 @@
       "latin": "Foeniculum vulgare",
       "tier": 1,
       "reason": "Karminativum; Estragol-Frage bei Kindern",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-fenchel.json"
     },
     {
       "id": "pimpinella-anisum",

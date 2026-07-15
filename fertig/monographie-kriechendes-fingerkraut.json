@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "id": "potentilla-reptans",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Potentilla reptans L.",
+    "common_names_de": [
+      "Kriechendes Fingerkraut",
+      "Fünffingerkraut"
+    ],
+    "family": "Rosaceae (Rosengewächse)",
+    "drug_part": [
+      "Kraut (Potentillae reptantis herba)",
+      "Wurzel (Radix)"
+    ],
+    "drug_name_latin": "Potentillae reptantis herba",
+    "synonyms": [],
+    "synonym_note": "Aktuell akzeptierter Name Potentilla reptans L.; keine relevante Taxonomie-Änderung. NICHT gleichzusetzen mit der besser belegten Arzneidroge Tormentillwurzel (Potentilla erecta) — siehe Verwechslung/Evidenz."
+  },
+  "identification": {
+    "key_features": [
+      "Blatt handförmig 5-zählig gefingert (daher 'Fünffingerkraut') — alle 5 gesägten Blättchen entspringen einem Punkt",
+      "Kriechende oberirdische Ausläufer, die an den Knoten wurzeln (wie Erdbeere) und Matten bilden",
+      "Einzeln stehende, lang gestielte gelbe Blüten mit meist 5 herzförmig ausgerandeten Kronblättern (gelegentlich erscheinen mehr)",
+      "Kronblätter deutlich länger als der Kelch; Außenkelch vorhanden; Blüten aus den Blattachseln der Ausläufer"
+    ],
+    "season": "Blüte Juni bis August (September)",
+    "habitat": "Wegränder, Wiesen, Äcker, Schuttplätze, lückige Rasen; nährstoffreiche, oft verdichtete Böden; sonnig bis halbschattig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Kombination bestätigend: 5-zählig gefingertes Blatt + kriechende, an den Knoten wurzelnde Ausläufer + einzelne gelbe 5-blättrige Blüte",
+      "Ältere Blätter und die Wurzel enthalten am meisten Gerbstoff und werden arzneilich bevorzugt",
+      "Abgrenzung: Gänsefingerkraut (gefiederte, silbrige Blätter) und Erdbeere/Erdbeer-Fingerkraut (3-zählig, weiße Blüten) — siehe Verwechslung"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gänsefingerkraut",
+      "scientific_name": "Potentilla anserina",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Blätter gefiedert (viele Fiederblättchen), Unterseite silbrig-seidig behaart — nicht 5-zählig handförmig gefingert. Ebenfalls essbar/traditionell genutzt; Verwechslung ungefährlich, aber botanisch andere Droge."
+    },
+    {
+      "name": "Blutwurz / Tormentill",
+      "scientific_name": "Potentilla erecta",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die eigentliche, besser belegte Gerbstoff-Arzneidroge (Kommission E/ESCOP: Tormentillwurzel). Aufrechter Wuchs OHNE wurzelnde Ausläufer, Blüten meist 4-zählig (4 Kronblätter). Verwechslung ist nicht gefährlich, aber P. reptans ist arzneilich schwächer und kaum belegt — die Evidenz von P. erecta darf nicht übertragen werden."
+    },
+    {
+      "name": "Wald-Erdbeere / Erdbeer-Fingerkraut",
+      "scientific_name": "Fragaria vesca / Potentilla sterilis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "3-zählige Blätter und weiße Blüten (P. reptans: 5-zählig, gelb). Ungiftig."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Das handförmig 5-zählige Blatt mit gelben Blüten und wurzelnden Ausläufern hat in Mitteleuropa keinen tödlich giftigen Doppelgänger; die infrage kommenden ähnlichen Arten (Fingerkräuter, Erdbeeren) sind sämtlich ungiftig. Aktiv gesucht, nicht stillschweigend leer gelassen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe (Ellag-/Catechingerbstoffe, agrimoniinartig) — Hauptwirkprinzip",
+      "Flavonoide",
+      "Bitterstoffe",
+      "wenig Schleimstoffe",
+      "Triterpene/Phytosterole",
+      "Cumarine (gering)",
+      "Cholin (berichtet, unsicher — zu prüfen)"
+    ],
+    "lead_substance": "Gerbstoffe (adstringierend) — Grundlage der traditionellen Anwendung bei Durchfall und Schleimhautentzündungen",
+    "solubility_note": "Gerbstoffe wasserlöslich → Tee/Abkochung (innerlich, Gurgeln, Umschläge); Tinktur ebenfalls möglich. Für die gerbstoffreichere Wurzel Abkochung (Dekokt).",
+    "heat_light_sensitivity": "Gerbstoffe hitzestabil; Dekokt der Wurzel unproblematisch"
+  },
+  "pharmacology": {
+    "mechanism": "Adstringierende (zusammenziehende) Wirkung der Gerbstoffe an Schleimhäuten: oberflächliche Proteinfällung → verminderte Sekretion/Permeabilität, mild lokal antientzündlich und reizmildernd; traditionell auch 'blutstillend' und 'blutreinigend' genannt.",
+    "evidence_caveat": "Keine HMPC-, ESCOP- oder Kommission-E-Monographie für Potentilla reptans (Stand 2026-07). Die Anwendung stützt sich auf Volksmedizin und die Analogie zur belegteren Tormentillwurzel (Potentilla erecta). Kontrollierte klinische Studien fehlen praktisch vollständig — 'unsicher — zu prüfen'.",
+    "pharmacokinetics": "nicht charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Unspezifische akute Durchfallerkrankung (innerlich)",
+      "synonyms": [
+        "Durchfall",
+        "Diarrhö",
+        "Bauchweh",
+        "Magen-Darm-Beschwerden",
+        "flotter Otto"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Gerbstoffdroge; keine regulatorische Monographie für P. reptans — die belegte Gerbstoff-Indikation betrifft die Tormentillwurzel (P. erecta).",
+      "realistic_expectation": "Allenfalls milde, symptomatische adstringierende Wirkung bei leichtem Durchfall. Keine belegte Wirkung; bei blutigem/anhaltendem Durchfall oder Fieber ärztlich abklären.",
+      "source": "Volksmedizin/Kräuterliteratur; Analogie zu Kommission E 'Tormentillwurzel'"
+    },
+    {
+      "canonical": "Entzündungen im Mund- und Rachenraum (Gurgeln/Spülen, topisch)",
+      "synonyms": [
+        "Halsschmerzen",
+        "Rachenentzündung",
+        "Zahnfleischentzündung",
+        "Mundschleimhautentzündung",
+        "Aphthen",
+        "Gurgeln"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle adstringierende Spülung; keine kontrollierte Evidenz für diese Art.",
+      "realistic_expectation": "Kann als Gurgel-/Spüllösung subjektiv zusammenziehend und reizmildernd wirken; ersetzt keine Behandlung bakterieller Infekte.",
+      "source": "Volksmedizin; Analogie Gerbstoffdrogen (ESCOP/Kommission E Tormentill)"
+    },
+    {
+      "canonical": "Kleine oberflächliche Hautwunden und Entzündungen (Umschlag, topisch)",
+      "synonyms": [
+        "kleine Wunden",
+        "Hautentzündung",
+        "Schürfwunde",
+        "Umschlag",
+        "Wundkraut"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Wundauflage der Volksmedizin.",
+      "realistic_expectation": "Traditionelle unterstützende Pflege bei Bagatellverletzungen; kein Ersatz für die Versorgung tieferer oder infizierter Wunden.",
+      "source": "Volksmedizin/Kräuterliteratur"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, adstringierendes Gerbstoffkraut der Volksmedizin — plausibel symptomatisch bei leichtem Durchfall und als Mund-/Rachenspülung.",
+    "overstated": "'Blutreinigende', fiebersenkende oder heilende Wirkungen; jede Gleichsetzung mit der besser belegten Tormentillwurzel. Für P. reptans selbst gibt es keine belastbare oder regulatorische Evidenz.",
+    "effect_size": "mild, symptomatisch; Evidenz nur traditionell (TRAD)"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Abkochung (innerlich)",
+      "Abkochung als Gurgel-/Spüllösung",
+      "Aufguss/Abkochung für Umschläge (topisch)"
+    ],
+    "form_rationale": "Wasserlösliche Gerbstoffe → wässrige Zubereitung; für die gerbstoffreichere Wurzel Abkochung (Dekokt), für das Kraut Aufguss.",
+    "standard_dose": "unsicher — zu prüfen: volksmedizinisch ca. 1–2 TL getrocknetes Kraut/Wurzel auf 250 ml als Tee/Abkochung, bis 2–3×/Tag; keine standardisierte, belegte Dosierung.",
+    "preservation": "getrocknet, trocken und lichtgeschützt lagern"
+  },
+  "safety": {
+    "tox_ceiling": "kein Toxin mit Grenzwert bekannt",
+    "contraindications": [
+      "bekannte Überempfindlichkeit",
+      "empfindlicher Magen: Gerbstoffe können in größeren Mengen Übelkeit auslösen"
+    ],
+    "pregnancy_lactation": "Keine Daten zur arzneilichen Anwendung — 'unsicher — zu prüfen'. Gelegentliche Tee-/Küchenmengen vermutlich unkritisch; arzneiliche Anwendung mangels Daten meiden.",
+    "adverse_effects": "Gerbstoffe können in größeren Mengen Magenreizung/Übelkeit auslösen und die Resorption gleichzeitig eingenommener Stoffe (z. B. Eisen, Alkaloide) vermindern.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe komplexieren/adsorbieren Wirkstoffe → verminderte Resorption",
+        "affected": "orale Eisenpräparate, alkaloidhaltige Arzneistoffe; zeitlicher Abstand ~1–2 h einhalten",
+        "clinical_relevance": "gering bei üblichen Mengen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "high_safety": true
+    },
+    "key_warning": "Sehr sicheres, essbares Gerbstoffkraut ohne giftigen Doppelgänger — das eigentliche 'Risiko' ist die schwache Evidenz: Die Wirkung ist nur traditionell, nicht belegt. Bei anhaltendem/blutigem Durchfall oder Fieber nicht selbst behandeln, sondern ärztlich abklären."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Kraut zur Blütezeit (Juni–August); Wurzel im Herbst (September–Oktober)",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_organ": "Kraut / Wurzel",
+    "method": "oberirdisches Kraut schneiden; Wurzel ausgraben und reinigen",
+    "processing": "luftig und schattig trocknen; Wurzel zerkleinern",
+    "storage": "trocken, lichtgeschützt"
+  },
+  "kitchen": {
+    "uses": [
+      "junge Blätter/Triebe sparsam als (bitteres, gerbstoffreiches) Wildkraut",
+      "Wurzel früher in Notzeiten gekocht"
+    ],
+    "culinary_vs_medicinal": "Kulinarisch nur sparsam (gerbstoffbitter); der arzneiliche 'Nutzen' ist gerade der hohe Gerbstoffgehalt."
+  },
+  "garden": {
+    "site_soil": "sonnig bis halbschattig, nährstoffreich; verträgt Verdichtung und Trittbelastung",
+    "hardiness": "voll winterhart, ausdauernd, über wurzelnde Ausläufer stark ausbreitend (kann zum Unkraut werden)",
+    "propagation": "Ausläufer/Teilung; Selbstaussaat",
+    "bodensee_suitability": "heimisch und häufig; im Garten eher nützliches Wildkraut als Zierpflanze — Ausbreitung im Auge behalten."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Kriechendes Fingerkraut mit gelber Einzelblüte und wurzelnden Ausläufern",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "handförmig 5-zählig gefingertes Blatt ('Fünffingerkraut')",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Potentilla reptans (Stand 2026-07) — Recherche gegen EMA-Herbal-Medicines-Liste",
+    "Kommission E / ESCOP 'Tormentillae rhizoma' (Potentilla erecta) — als belegte Gerbstoff-Analogie herangezogen, NICHT deckungsgleich",
+    "Heilpflanzen-/Wildpflanzenportraits (pflanzenfreunde.com, NaturaDB, krautgeschwister.de, heilwiese.com) — Volksmedizin, Inhaltsstoffe, Verwechslungsmerkmale",
+    "Botanische Bestimmungsquellen (pflanzen-deutschland.de, Wikipedia) — Merkmale, Abgrenzung Potentilla anserina/erecta und Fragaria"
+  ]
+}

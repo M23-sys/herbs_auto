@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "id": "nepeta-nepetella",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Nepeta nepetella L.",
+    "common_names_de": [
+      "Kleine Katzenminze",
+      "Zwerg-Katzenminze"
+    ],
+    "family": "Lamiaceae (Lippenblütler)",
+    "drug_part": [
+      "Kraut (blühend) — keine etablierte Arzneidroge"
+    ],
+    "drug_name_latin": "unsicher — keine etablierte Drogenbezeichnung",
+    "synonyms": [],
+    "synonym_note": "Aktuell akzeptierter Name Nepeta nepetella L. (lesser cat-mint). WICHTIG: NICHT die arzneilich (schwach) genutzte Echte Katzenminze (Nepeta cataria) — eigene Art, siehe Verwechslung. N. nepetella ist eine Elternart der Zier-Hybride Nepeta ×faassenii."
+  },
+  "identification": {
+    "key_features": [
+      "Vierkantiger Stängel und gegenständige Blätter (typisch Lippenblütler/Lamiaceae)",
+      "Kleine, schmal-lanzettliche bis eiförmige, grau-grün behaarte Blätter; aromatisch-minziger 'Katzenminz'-Geruch beim Zerreiben",
+      "Kleine weiße bis blass-lila/rosa Lippenblüten in lockeren, quirligen Scheinähren",
+      "Buschig-polsteriger Wuchs, ca. 30–60 cm; Standort trocken-sonnig, mediterran"
+    ],
+    "season": "Blüte Sommer (Juni–September)",
+    "habitat": "trockene, steinige, sonnige Standorte; heimisch in SW-Europa und im westlichen Mittelmeerraum. In Mitteleuropa nur kultiviert.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "ACHTUNG: In der Bodenseeregion NICHT wild heimisch (Verbreitung: Frankreich, Spanien, Italien, Pyrenäen, W-Alpen, Apennin, Algerien, Marokko). Ein Fund dort ist kultiviert (Zierpflanze) oder eine Fehlbestimmung einer anderen Nepeta-/Lippenblütler-Art — Bestimmung durch Fachperson absichern.",
+      "Bestätigend: vierkantiger Stängel + gegenständige Blätter + aromatischer Katzenminz-Geruch + weiß-lila Lippenblüten in Quirlen",
+      "Keine etablierte Sammel-/Arzneitradition — Nutzung allenfalls als aromatisches Küchen-/Duftkraut, ohne belegten Heilwert"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Echte Katzenminze",
+      "scientific_name": "Nepeta cataria",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die eigentlich (schwach) volksmedizinisch genutzte Art (Karminativum/mildes Beruhigungsmittel). Größer, Blätter herzförmig-gezähnt, graufilzig; N. nepetella niedriger mit schmaleren Blättern. WICHTIG: Wirk-/Anwendungsangaben zu N. cataria NICHT unbesehen auf N. nepetella übertragen."
+    },
+    {
+      "name": "Blaue Garten-Katzenminze (Zier-Hybride)",
+      "scientific_name": "Nepeta ×faassenii",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufige Zierpflanze (N. nepetella ist eine Elternart), blau-violette Blüten. Rein ornamental, keine Arzneidroge; ungiftig."
+    },
+    {
+      "name": "Gundermann",
+      "scientific_name": "Glechoma hederacea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Kriechender Lippenblütler mit ähnlichem Aroma und lila Lippenblüten, aber nierenförmigen Blättern und kriechendem Wuchs (N. nepetella buschig-aufrecht). Für den Menschen ungiftig (nur für Pferde in großen Mengen problematisch)."
+    },
+    {
+      "name": "Steinquendel / Kleine Bergminze",
+      "scientific_name": "Clinopodium nepeta (syn. Calamintha nepeta)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ähnlicher Name ('nepeta') und minziger Geruch, andere Gattung; kulinarisch genutzt. Verwechslung ungefährlich, botanisch aber verschieden."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Innerhalb der infrage kommenden Lippenblütler (Nepeta, Glechoma, Clinopodium, Mentha) gibt es keinen tödlich giftigen Doppelgänger. Dennoch ist sichere Artbestimmung nötig, weil die (ohnehin dünnen) Heilwert-Zuschreibungen zwischen den Arten differieren. Aktiv gesucht, nicht stillschweigend leer gelassen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl mit Nepetalactonen (Iridoide)",
+      "weitere Iridoidglykoside",
+      "phenolische Verbindungen/Flavonoide",
+      "Gerbstoffe (gering)"
+    ],
+    "lead_substance": "Nepetalactone (ätherisches Öl) — verantwortlich für das charakteristische Aroma und die Katzen-anlockende Wirkung; eine arzneiliche Leitsubstanz für den Menschen ist nicht etabliert.",
+    "solubility_note": "ätherisches Öl flüchtig und wenig wasserlöslich → Aufguss (abgedeckt) nur schwach wirksam; kulinarisch am ehesten frisch. Kein belegter arzneilicher Zubereitungsweg.",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig sowie licht- und hitzeempfindlich"
+  },
+  "pharmacology": {
+    "mechanism": "Für den Menschen kein gesicherter Wirkmechanismus. Für die Gattung Nepeta (v. a. N. cataria) werden mild karminative, spasmolytische und beruhigende Effekte diskutiert (Iridoide/ätherisches Öl); für N. nepetella liegen praktisch keine pharmakologischen Daten vor.",
+    "evidence_caveat": "Keine HMPC-, ESCOP- oder Kommission-E-Monographie für Nepeta nepetella (Stand 2026-07); auch für die Gattung ist die klinische Evidenz sehr dünn. Nahezu alle Angaben sind 'unsicher — zu prüfen'.",
+    "pharmacokinetics": "nicht charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Leichte Verdauungsbeschwerden / innere Unruhe (traditionell, gattungsbezogen)",
+      "synonyms": [
+        "Blähungen",
+        "Bauchweh",
+        "Verdauungsbeschwerden",
+        "Unruhe",
+        "Nervosität",
+        "Einschlafhilfe"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Nur volksmedizinische, überwiegend auf die verwandte Echte Katzenminze (N. cataria) bezogene Anwendung als Karminativum/mildes Beruhigungsmittel; für N. nepetella nicht eigenständig belegt — 'unsicher — zu prüfen'.",
+      "realistic_expectation": "Keine belegte Heilwirkung. Allenfalls ein aromatischer Kräutertee mit unspezifisch mildem Effekt; kein Ersatz für wirksame Mittel.",
+      "source": "Volksmedizin (gattungsbezogen, v. a. N. cataria); keine artspezifische regulatorische Quelle"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches Lippenblütler-/Katzenminzen-Kraut mit angenehmem Geruch; als Duft-, Küchen-, Bienen- und Katzenpflanze. Ein eigenständiger, belegter Heilwert existiert nicht.",
+    "overstated": "Jede konkrete Heilwirkung. Insbesondere dürfen die (ohnehin schwachen) Zuschreibungen der Echten Katzenminze (N. cataria) nicht auf N. nepetella übertragen werden.",
+    "effect_size": "kein belegter Effekt (TRAD/unsicher)"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frisches Kraut als Aroma/Gewürz",
+      "Aufguss (Kräutertee, ohne belegten Heilwert)"
+    ],
+    "form_rationale": "Das ätherische Öl bestimmt das Aroma; eine arzneiliche Standardzubereitung ist nicht etabliert.",
+    "standard_dose": "unsicher — zu prüfen: keine etablierte arzneiliche Dosierung; kulinarisch sparsam nach Geschmack.",
+    "preservation": "frisch verwenden oder schonend trocknen (Aroma flüchtig)"
+  },
+  "safety": {
+    "tox_ceiling": "kein Toxin mit Grenzwert bekannt",
+    "contraindications": [
+      "bekannte Überempfindlichkeit gegen Lippenblütler",
+      "Schwangerschaft/Stillzeit: arzneiliche Anwendung mangels Daten meiden"
+    ],
+    "pregnancy_lactation": "Keine Daten für N. nepetella — 'unsicher — zu prüfen'. Für die verwandte N. cataria werden traditionell emmenagoge/uteruswirksame Effekte diskutiert; arzneiliche Anwendung in der Schwangerschaft daher vorsichtshalber meiden. Küchenmengen vermutlich unkritisch.",
+    "adverse_effects": "Nicht systematisch dokumentiert; als Lippenblütler allgemein gut verträglich. Allergische Reaktionen möglich.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "keine klinisch relevanten Interaktionen für N. nepetella bekannt (Datenlage fehlt)",
+        "affected": "unsicher — zu prüfen",
+        "clinical_relevance": "gering/unbekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein belegter Heilwert — eine mediterrane Zier-/Duftpflanze, in der Bodenseeregion nicht wild heimisch. Nicht mit der (schwach) arzneilich genutzten Echten Katzenminze (Nepeta cataria) verwechseln und deren Zuschreibungen nicht übertragen; arzneiliche Anwendung in Schwangerschaft/Stillzeit meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "blühendes Kraut im Sommer (Juni–September), nur aus Kultur",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend)",
+    "method": "obere Triebe schneiden",
+    "processing": "schonend lufttrocknen (Aroma flüchtig) oder frisch verwenden",
+    "storage": "trocken, licht- und luftdicht (Aromaverlust)"
+  },
+  "kitchen": {
+    "uses": [
+      "frische Blätter/Triebe sparsam als aromatisches Würz-/Duftkraut (minzig)",
+      "als Katzen- und Bienenpflanze im Garten"
+    ],
+    "culinary_vs_medicinal": "Die Verwendung ist im Kern kulinarisch/ornamental; ein medizinischer Nutzen ist nicht belegt."
+  },
+  "garden": {
+    "site_soil": "vollsonnig, trocken, durchlässig-steinig, kalkverträglich (mediterran)",
+    "hardiness": "mäßig winterhart; in raueren Lagen (Voralpen) durchlässiger Boden und ggf. Winterschutz nötig",
+    "propagation": "Aussaat, Teilung, Stecklinge",
+    "bodensee_suitability": "als mediterrane Steingartenpflanze an sehr warmen, trockenen, geschützten Standorten möglich; nicht heimisch, verwildert kaum. Für Katzen-/Insektenfreunde interessant."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Kleine Katzenminze, buschiger Wuchs mit weiß-lila Blütenquirlen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "vierkantiger Stängel mit gegenständigen, grau-grünen schmalen Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Nepeta nepetella (Stand 2026-07)",
+    "Wikipedia (en/de) 'Nepeta nepetella', 'Nepeta', 'Katzenminzen' — akzeptierter Name, Verbreitung (Frankreich, Spanien, Italien, Pyrenäen, W-Alpen, Apennin, Algerien, Marokko), Familie, Nepetalacton",
+    "Übersichtsarbeiten zur Gattung Nepeta (traditionelle Nutzung, Phytochemie, Iridoide) — ScienceDirect-Review 'The genus Nepeta'; Monograph Nepeta cataria (Southern Cross University) als Abgrenzung",
+    "Hinweis: Primärquellen (EMA etc.) nicht einschlägig, da für diese Art keine Monographie existiert; Gattungsangaben nur als Analogie/Abgrenzung"
+  ]
+}
