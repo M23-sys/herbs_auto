@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "id": "foeniculum-vulgare",
+  "botany": {
+    "scientific_name": "Foeniculum vulgare Mill.",
+    "common_names_de": ["Fenchel", "Gewöhnlicher Fenchel", "Bitterfenchel", "Süßfenchel", "Gemüsefenchel"],
+    "drug_part": ["reife, trockene Spaltfrucht (Fructus) des Bitterfenchels (var. vulgare) bzw. Süßfenchels (var. dulce)"],
+    "drug_name_latin": "Foeniculi amari fructus (Bitterfenchel), Foeniculi dulcis fructus (Süßfenchel)",
+    "family": "Doldenblütler (Apiaceae / Umbelliferae)",
+    "synonym_note": "Arzneilich verwendet werden die Früchte (botanisch Spaltfrüchte, umgangssprachlich 'Fenchelsamen'). Zu unterscheiden sind Bitterfenchel (var. vulgare, höherer Fenchongehalt) und Süßfenchel (var. dulce, anetholbetont) — HMPC führt getrennte Monographien."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: intensiver, süßlich-aromatischer ANIS-/Fenchelgeruch beim Zerreiben von Frucht oder Kraut — dies unterscheidet Fenchel zuverlässig vom tödlichen Gefleckten Schierling (der nach Mäuseurin/muffig riecht) und von der Hundspetersilie (unangenehm riechend).",
+      "Blätter mehrfach fein gefiedert, in fadenförmige, weiche Zipfel aufgelöst ('dillähnlich'); die ganze Pflanze kahl und blaugrün bereift.",
+      "Gelbe Blüten in großen, vielstrahligen Dolden OHNE Hüll- und Hüllchenblätter.",
+      "Früchte 4–10 mm lang, länglich-zylindrisch, mit 5 deutlich hervortretenden Längsrippen; beim Zerdrücken stark aromatisch.",
+      "Stängel kräftig, gerillt, oben verzweigt; Pflanze 1–2 m hoch, mehrjährig kultiviert.",
+      "Aus dem Mittelmeerraum stammend; als Gewürz-/Gemüsepflanze kultiviert, in wärmeren Lagen verwildert."
+    ],
+    "season": "Blüte Juli–September; Fruchtreife September–Oktober.",
+    "habitat": "Kulturpflanze (Gewürz-, Arznei-, Gemüsefenchel); wild/verwildert an warmen, trockenen Ruderalstellen, Wegrändern und Böschungen, v. a. in wintermilden Lagen.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "kultur-und-verwildert"}
+    ],
+    "collection_rules": [
+      "Als Droge werden praktisch ausschließlich kultivierte, gereinigte Früchte bezogen — kein Wildsammeln nötig.",
+      "Falls doch Wildbestände genutzt werden: GERUCHSPROBE ist entscheidend — nur die deutlich nach Anis/Fenchel riechende Pflanze verwenden. Jede unangenehm oder muffig riechende Dolde stehen lassen (Schierling-Verwechslung, lebensgefährlich).",
+      "Gefleckten Schierling ausschließen: dessen Stängel ist rot/purpurn gefleckt und die Pflanze riecht widerlich — Fenchelstängel ist ungefleckt blaugrün und aromatisch."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und verwandte Piperidin-Alkaloide (Atemlähmung)",
+      "note": "Tödlicher Doldenblütler. Unterscheidung: Schierling hat einen ROT/PURPURN GEFLECKTEN Stängel und riecht beim Zerreiben widerlich nach Mäuseurin — Fenchel ist ungefleckt, blaugrün bereift und riecht intensiv nach Anis. Verwechslung v. a. bei jungen, blühlosen Pflanzen möglich; im Zweifel Geruchsprobe."
+    },
+    {
+      "name": "Hundspetersilie (Gartenschierling)",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (aethusinartige Verbindungen)",
+      "note": "Ähnlicher fein gefiederter Doldenblütler; Blätter unterseits stark GLÄNZEND, Geruch beim Zerreiben unangenehm (nicht anisartig). Charakteristisch die langen, herabhängenden Hüllchenblätter am Döldchen ('Bärtchen'). Fenchel riecht deutlich süß-aromatisch."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin (schwere Krämpfe, oft tödlich)",
+      "note": "An feuchten Ufern/Gräben; einer der giftigsten Doldenblütler Europas, kammerig gegliedertes Wurzelrhizom, aromatisch-sellerieartiger Geruch der Wurzel. Standort und fehlender Anisgeruch grenzen ihn vom (trocken-warm stehenden) Fenchel ab."
+    },
+    {
+      "name": "Dill",
+      "scientific_name": "Anethum graveolens",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Harmlose Verwechslung: sieht mit fein gefiederten Blättern und gelben Dolden fenchelähnlich aus, riecht aber typisch nach Dill. Keine Gefahr, aber botanisch andere Art."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (Bitterfenchel ca. 2–6 %, Süßfenchel ca. 2–6 %): trans-Anethol (Hauptkomponente, süß-aromatisch), Fenchon (bitter, im Bitterfenchel höher), Estragol (Methylchavicol)",
+      "fettes Öl, Eiweiß, Flavonoide, Zucker"
+    ],
+    "lead_substance": "trans-Anethol (karminativ/spasmolytisch, sekretolytisch) und Fenchon (bitter, geschmacksbestimmend im Bitterfenchel). Estragol ist toxikologisch führend (genotoxisch/kanzerogen im Tiermodell).",
+    "solubility_note": "Die wirksamen ätherischen Öle sind flüchtig und nur begrenzt wasserlöslich — Früchte deshalb VOR dem Aufguss frisch anquetschen/zerstoßen und den Tee zugedeckt ziehen lassen, damit das Öl nicht mit dem Dampf entweicht. Für höhere Ölausbeute Tinktur/Fenchelöl.",
+    "heat_light_sensitivity": "Ätherisches Öl licht-, luft- und wärmeempfindlich; ganze Früchte lagern besser als gemahlene. Fenchelhonig/-sirup und Tee stets frisch."
+  },
+  "pharmacology": {
+    "mechanism": "Karminativ und leicht spasmolytisch: die ätherischen Öle (Anethol) entspannen die glatte Darmmuskulatur, fördern den Abgang von Darmgasen und regen die Magen-Darm-Motilität mild an. Sekretolytisch/expektorierend an den Atemwegen (Reflex über die Magenschleimhaut und direkte Wirkung). Anethol wirkt zudem schwach östrogenartig (Phytoöstrogen).",
+    "evidence_caveat": "Einordnung durchweg als traditional use (HMPC): langjährige Erfahrung, aber keine belastbare klinische Wirksamkeitsevidenz für Monopräparate. Populäre Wirkversprechen (Milchbildung, kindliche Koliken) sind nicht sicher belegt; wegen des Estragolgehalts ist gerade bei Säuglingen/Kleinkindern Zurückhaltung geboten.",
+    "pharmacokinetics": "Anethol und Estragol werden resorbiert und hepatisch metabolisiert; Estragol wird teilweise zu einem reaktiven, potenziell genotoxischen Metaboliten (1'-Hydroxyestragol) umgesetzt — Grundlage der Anwendungs- und Dosisbegrenzung."
+  },
+  "indications": [
+    {
+      "canonical": "Leichte krampfartige Magen-Darm-Beschwerden, Blähungen und Völlegefühl",
+      "synonyms": ["Blähungen", "Blähbauch", "Völlegefühl", "Bauchweh", "Verdauungsbeschwerden", "Bauchkrämpfe"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC: traditional use zur symptomatischen Behandlung leichter krampfartiger Magen-Darm-Beschwerden einschließlich Blähungen und Flatulenz. Klassisches Karminativum.",
+      "realistic_expectation": "Kann leichte Blähungen und Völlegefühl mildern; wohltuend als warmer Tee. Keine Wirkung auf ernstere oder anhaltende Beschwerden — dann ärztliche Abklärung. Anwendung zeitlich begrenzt (Estragol).",
+      "source": "EMA/HMPC EU herbal monograph Foeniculum vulgare, fructus (traditional use); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Leichte krampfartige Menstruationsbeschwerden",
+      "synonyms": ["Regelschmerzen", "Menstruationskrämpfe", "Unterleibskrämpfe bei der Periode"],
+      "evidence_tag": "TU",
+      "comment": "HMPC: traditional use bei leichten krampfartigen Beschwerden im Zusammenhang mit der Menstruation.",
+      "realistic_expectation": "Traditionell lindernd bei leichten Regelkrämpfen; kein Ersatz für Analgetika bei starker Dysmenorrhoe. Zeitlich begrenzt anwenden.",
+      "source": "EMA/HMPC (traditional use)"
+    },
+    {
+      "canonical": "Katarrhe der oberen Atemwege / Husten bei Erkältung (schleimlösend)",
+      "synonyms": ["Husten", "Erkältungshusten", "festsitzender Schleim", "verschleimte Atemwege", "Bronchialkatarrh"],
+      "evidence_tag": "TU",
+      "comment": "HMPC: traditional use als Expektorans bei Husten im Zusammenhang mit Erkältung; oft als Fenchelhonig/-sirup.",
+      "realistic_expectation": "Mild schleimlösend/reizlindernd; unterstützend bei Erkältungshusten. Keine kausale Wirkung. Fenchelhonig für Säuglinge unter 1 Jahr wegen Botulismusrisiko des Honigs meiden.",
+      "source": "EMA/HMPC (traditional use); ESCOP"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Bewährtes, gut verträgliches Karminativum bei leichten Blähungen/Verdauungsbeschwerden und mild schleimlösend bei Erkältungshusten (HMPC traditional use); als warmer Tee auch reizlindernd.",
+    "overstated": "Wirksamkeit ist traditionell begründet, nicht klinisch belegt. 'Völlig harmloses Kinder-/Babymittel' trifft nicht zu: der Estragolgehalt begrenzt Dosis und Anwendungsdauer, insbesondere bei Säuglingen und Kleinkindern. Nicht belegtes Mittel zur Milchbildung oder gegen Dreimonatskoliken im engeren Sinn.",
+    "effect_size": "mild, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Teeaufguss aus frisch zerstoßenen Früchten", "Fenchelhonig/-sirup (Husten)", "Tinktur", "Fenchelöl (dosisbegrenzt)"],
+    "form_rationale": "Da die wirksamen ätherischen Öle flüchtig und schlecht wasserlöslich sind, werden die Früchte unmittelbar vor der Zubereitung angequetscht und der Tee zugedeckt gezogen — so bleibt das Öl im Aufguss. Für Hustenanwendungen ist der Sirup gebräuchlich.",
+    "standard_dose": "Erwachsene/Jugendliche: 1,5–2 g frisch zerstoßene Fenchelfrüchte mit ca. 150–200 ml kochendem Wasser übergießen, zugedeckt 10–15 min ziehen lassen, 2–3× täglich frisch. Anwendungsdauer bei Erwachsenen max. ca. 2 Wochen; Kinder 4–12 Jahre max. 1 Woche und nur, wenn die tägliche Estragolaufnahme den Richtwert (1,0 µg/kg KG) nicht überschreitet. Nicht bei Kindern unter 4 Jahren.",
+    "preservation": "Ganze Früchte trocken, dunkel, luftdicht; erst bei Bedarf zerstoßen. Sirupe kühl und begrenzt haltbar."
+  },
+  "safety": {
+    "tox_ceiling": "Estragol (Methylchavicol) im ätherischen Öl ist im Tiermodell genotoxisch/kanzerogen — deshalb Anwendungsdauer und -menge begrenzen: Erwachsene max. ca. 2 Wochen, Kinder 4–12 J. max. 1 Woche, nicht unter 4 Jahren. Estragolaufnahme in Schwangerschaft/Stillzeit möglichst niedrig halten (Richtwert der Behörden ~1 mg/Tag). Die HMPC-Monographie zu Bitterfenchel-ÖL wurde wegen der Estragol-Genotoxizität zurückgezogen.",
+    "contraindications": [
+      "Bekannte Allergie gegen Fenchel oder andere Doldenblütler (Sellerie-Beifuß-Gewürz-Syndrom)",
+      "Kinder unter 4 Jahren (arzneiliche Anwendung)"
+    ],
+    "pregnancy_lactation": "Die arzneiliche Anwendung (v. a. konzentriert/Öl) wird in Schwangerschaft und Stillzeit mangels ausreichender Daten und wegen des Estragols nicht empfohlen; zudem schwach östrogene Wirkung des Anethols. Fenchel als Gewürz/gelegentlicher Tee in üblichen Mengen gilt als vertretbar. Konkrete Grenzwerte für die arzneiliche Anwendung: unsicher — zu prüfen.",
+    "adverse_effects": "Selten allergische Reaktionen an Haut/Atemwegen (Kreuzallergie mit Sellerie, Beifuß, anderen Doldenblütlern/Gewürzen). Sehr selten Übelkeit bei hoher Öl-Dosis. Insgesamt gut verträglich.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Schwach östrogene Wirkung des Anethols könnte theoretisch hormonabhängige Therapien/Zustände beeinflussen.",
+        "affected": "Hormontherapie, Tamoxifen, östrogenabhängige Tumoren (theoretisch)",
+        "clinical_relevance": "gering — klinisch nicht gesichert, bei Risikopatientinnen beachten"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Einzelberichte zu verminderter Resorption bestimmter Antibiotika bei gleichzeitiger Einnahme großer Fenchelmengen.",
+        "affected": "Ciprofloxacin (Einzelbericht)",
+        "clinical_relevance": "gering — Einnahme zeitlich versetzen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": true,
+      "toxin_type": "Estragol (Methylchavicol)",
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "apiaceae_confusion_young": true,
+      "photosensitizing": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Anwendung zeitlich begrenzen (Erwachsene ~2 Wochen, Kinder 4–12 J. ~1 Woche, nicht unter 4 Jahren) wegen des genotoxischen Estragols; bei Wildsammlung von Doldenblütlern droht die tödliche Verwechslung mit Schierling — nur die eindeutig nach Anis riechende Pflanze verwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Fruchtreife September–Oktober; Dolden abschneiden, wenn die Früchte grünbraun ausgereift sind.",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Frucht",
+    "method": "Reife Dolden schneiden, nachtrocknen, Früchte ausdreschen und reinigen.",
+    "processing": "Ganze Früchte trocknen; nicht mahlen (Ölverlust). Erst zur Anwendung anquetschen.",
+    "storage": "Trocken, dunkel, luftdicht; ganze Früchte deutlich lagerstabiler als gemahlene."
+  },
+  "kitchen": {
+    "uses": ["Fenchelfrüchte als Gewürz (Brot, Fisch, Eintöpfe)", "Fenchelknolle (var. azoricum) als Gemüse", "Fencheltee als Getränk"],
+    "culinary_vs_medicinal": "Als Gewürz und Gemüse in Speisemengen unbedenklich und beliebt. Arzneilich als dosierter Tee/Sirup mit Zeitbegrenzung wegen Estragol. Der Übergang ist fließend — die Estragol-Begrenzung gilt vor allem für konzentrierte, wiederholte arzneiliche Anwendung, nicht für gelegentliches Würzen."
+  },
+  "garden": {
+    "site_soil": "Sonnig, warm, durchlässiger, nährstoffreicher Boden; mag Wärme.",
+    "hardiness": "In milden Lagen mehrjährig, in rauem Klima oft nur ein-/zweijährig; Knollenfenchel meist einjährig gezogen.",
+    "propagation": "Aussaat ab Frühjahr; Direktsaat bevorzugt.",
+    "bodensee_suitability": "Der wintermilde Bodenseeraum ist für Fenchel gut geeignet; Gewürz-/Knollenfenchel gedeihen zuverlässig. Ehrlich: für die Drogengewinnung reicht der Zukauf gereinigter Früchte meist aus."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Fenchel mit fein gefiederten Blättern und gelber Dolde ohne Hüllblätter", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Gerippte, längliche Fenchelfrüchte", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monographs Foeniculum vulgare Miller subsp. vulgare var. vulgare (Bitterfenchel) und var. dulce (Süßfenchel), fructus (traditional use: leichte krampfartige GI-Beschwerden/Blähungen, Menstruationsbeschwerden, Katarrhe der oberen Atemwege) — Primär-PDF beim direkten Abruf mit HTTP 403 blockiert, Angaben aus HMPC-Datenbank und Sekundärquellen, ärztlich gegenzuprüfen",
+    "EMA/HMPC — Rückzug der Monographie zu Bitterfenchel-Öl wegen Estragol-Genotoxizität; Estragol-Richtwerte für Kinder (1,0 µg/kg KG) und Anwendungsdauer",
+    "Kommission E — Foeniculi fructus; ESCOP — Foeniculi fructus",
+    "Arzneipflanzen-Lexikon / PharmaWiki / Altmeyers Enzyklopädie — Dosierung (1,5–2 g zerstoßene Früchte, 2–3×/Tag), Bitter- vs. Süßfenchel, Verwechslung Doldenblütler (Schierling, Hundspetersilie); Geruchsprobe als Bestimmungsmerkmal — Websuche"
+  ]
+}

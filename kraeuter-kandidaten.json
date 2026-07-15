@@ -129,8 +129,8 @@
       "latin": "Frangula alnus",
       "tier": 1,
       "reason": "Anthranoid-Laxans; Missbrauchsrisiko, regional wild",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-faulbaum.json"
     },
     {
       "id": "foeniculum-vulgare",
@@ -138,8 +138,8 @@
       "latin": "Foeniculum vulgare",
       "tier": 1,
       "reason": "Karminativum; Estragol-Frage bei Kindern",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-fenchel.json"
     },
     {
       "id": "pimpinella-anisum",

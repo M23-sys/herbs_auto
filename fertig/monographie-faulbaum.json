@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "id": "frangula-alnus",
+  "botany": {
+    "scientific_name": "Frangula alnus Mill.",
+    "common_names_de": ["Gewöhnlicher Faulbaum", "Faulbaum", "Pulverholz", "Glatter Faulbaum", "Grindholz"],
+    "drug_part": ["getrocknete, mindestens ein Jahr gelagerte Stamm- und Zweigrinde (Cortex)"],
+    "drug_name_latin": "Frangulae cortex",
+    "family": "Kreuzdorngewächse (Rhamnaceae)",
+    "synonym_note": "Früher Rhamnus frangula L.; heute akzeptiert Frangula alnus Mill. Nicht zu verwechseln mit der amerikanischen Cascara/Sagradarinde (Frangula purshiana, syn. Rhamnus purshiana) — eigene Droge, eigene Monographie."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: dornenloser Strauch mit WECHSELSTÄNDIGEN, ganzrandigen (nicht gesägten) Blättern — im Gegensatz zum ähnlichen Kreuzdorn, der Dornen und gegenständige, gesägte Blätter trägt.",
+      "Blätter breit-elliptisch, glänzend, mit 6–10 Paar stark bogig zur Blattspitze verlaufenden, parallelen Seitennerven.",
+      "Beeren durchlaufen den Sommer über die Farben grün → rot → schwarz; auf demselben Strauch stehen oft alle Reifestufen gleichzeitig ('Kirsche und Blüte'-Bild).",
+      "Rinde der Zweige graubraun mit auffälligen hellen, quer gestreckten Korkwarzen (Lentizellen); frisch geschabt zeigt die Innenrinde beim Befeuchten und Reiben eine gelb-rötliche Verfärbung.",
+      "Unauffällige, kleine grünlich-weiße Zwitterblüten in den Blattachseln (Mai–Juni), 5-zählig.",
+      "Bevorzugt feuchte Standorte: Bruch- und Auwälder, Moore, Ufer, feuchte Gebüsche."
+    ],
+    "season": "Blüte Mai–Juni; Beerenreife Juli–September. Rindengewinnung im Frühjahr (Saftfluss).",
+    "habitat": "Feuchte bis nasse Wälder, Moore, Bruchwälder, Ufer, Hecken; auf sauren bis mäßig basischen Böden. In Mitteleuropa verbreitet.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Rinde nur von zweifelsfrei bestimmten, dornenlosen Sträuchern mit wechselständigen, ganzrandigen Blättern schälen — Kreuzdorn (dornig, gegenständig, gesägt) sicher ausschließen.",
+      "GRUNDREGEL Anthranoiddroge: Frische Rinde ist NICHT verwendbar. Sie muss vor Gebrauch mindestens 1 Jahr trocken gelagert oder bei 80–100 °C im Heißluftstrom nachgetrocknet werden, sonst löst sie heftiges Erbrechen und krampfartige Koliken aus (instabile Anthron-Vorstufen müssen zu den milderen Anthrachinon-Glykosiden oxidieren).",
+      "Beeren nicht sammeln/verzehren — giftig; besonders Kinder vor den schwarzen Beeren warnen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Echter Kreuzdorn (Purgier-Kreuzdorn)",
+      "scientific_name": "Rhamnus cathartica",
+      "toxicity_level": "giftig",
+      "toxin": "Anthranoide (Emodin u. a.), drastisch abführend; Beeren stark purgierend/giftig",
+      "note": "Nächster Verwandter und Hauptverwechslung. Unterscheidung: Kreuzdorn hat DORNEN (dornig endende Kurztriebe), GEGENSTÄNDIGE und fein GESÄGTE Blätter; Faulbaum ist dornenlos, wechselständig, ganzrandig. Kreuzdornrinde/-beeren wirken drastischer und sind kein gleichwertiger Ersatz."
+    },
+    {
+      "name": "Amerikanische Faulbaumrinde / Cascara sagrada",
+      "scientific_name": "Frangula purshiana (Rhamnus purshiana)",
+      "toxicity_level": "giftig",
+      "toxin": "Anthranoide (Cascaroside)",
+      "note": "Als Droge sehr ähnlich, aber eigene Art mit eigener Pharmakopöe-Norm und höherem/anderem Anthranoidgehalt. Verwechslung in der Handelsdroge möglich — Etikett/Herkunft prüfen. Nicht ungeprüft im Verhältnis 1:1 austauschen."
+    },
+    {
+      "name": "Schwarze Beeren essbarer/anderer Sträucher (Verwechslung durch Kinder)",
+      "scientific_name": "z. B. Prunus padus (Traubenkirsche), Vaccinium myrtillus (Heidelbeere)",
+      "toxicity_level": "giftig",
+      "toxin": "Faulbaumbeeren enthalten selbst Anthranoide — roh giftig, führen zu Übelkeit, Erbrechen, blutigem Durchfall",
+      "note": "Aktiv gesucht: Die reifen SCHWARZEN Faulbaumbeeren können mit essbaren schwarzen Beeren (Heidelbeere) oder mit Traubenkirsche verwechselt werden. Faulbaumbeeren sind giftig und dürfen nicht gegessen werden. Kein arzneilicher Gebrauch der Beeren."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Anthranoide (Hydroxyanthracenderivate), ca. 3–7 %: Glucofranguline A und B, Franguline A und B (Anthrachinon-Glykoside)",
+      "In der FRISCHEN Rinde zusätzlich reduzierte Anthron-/Dianthron-Formen — emetisch und stark reizend; wandeln sich bei Lagerung/Erwärmung in die milderen Anthrachinon-Glykoside um",
+      "Gerbstoffe, Flavonoide, Peptidalkaloide (Frangulanin)"
+    ],
+    "lead_substance": "Glucofrangulin A (1,8-Dihydroxyanthron-Glykosid) — Prodrug, wird erst im Dickdarm bakteriell zum wirksamen Anthron aktiviert. Wirkstärke wird als Hydroxyanthracenderivate, berechnet als Glucofrangulin A, standardisiert.",
+    "solubility_note": "Die glykosidischen Anthranoide sind wasserlöslich und gehen in den wässrigen Auszug (Abkochung/Kaltauszug) über — daher ist der Tee eine geeignete Form. Wirksamkeit erst nach kolonbakterieller Spaltung, deshalb tritt der Effekt erst nach 6–12 h ein.",
+    "heat_light_sensitivity": "Entscheidend ist die REIFUNG der Droge: frische Rinde enthält emetische Anthrone; erst ein Jahr Lagerung ODER Trocknung im Heißluftstrom (80–100 °C) oxidiert diese zu den verträglichen Anthrachinon-Glykosiden. Ohne diese Reifung ist die Droge nicht verwendbar."
+  },
+  "pharmacology": {
+    "mechanism": "Stimulierendes (antiabsorptiv-sekretagoges) Laxans: Die Anthranoid-Glykoside werden unverändert bis in den Dickdarm transportiert und dort von der Darmflora zu den aktiven Anthronen gespalten. Diese steigern die Wasser- und Elektrolytsekretion ins Darmlumen, hemmen die Rückresorption und regen die propulsive Motorik an. Wirkeintritt typisch 6–12 h nach Einnahme.",
+    "evidence_caveat": "Für die kurzfristige Behandlung der Verstopfung von der HMPC als well-established use anerkannt — jedoch überwiegend gestützt auf die Klasseneffekte der Anthranoide (v. a. Sennesblätter) und Erfahrungswissen; eigene aktuelle Monopräparat-RCT mit Faulbaumrinde fehlen weitgehend. Die frühere Sorge einer krebsfördernden Wirkung von Anthranoiden (Kolon) gilt heute bei bestimmungsgemäßer Kurzanwendung als nicht belegt, ist aber ein Grund zur Zurückhaltung bei Dauergebrauch.",
+    "pharmacokinetics": "Glykoside werden im oberen GI-Trakt kaum resorbiert (Prodrug-Prinzip), erst bakterielle Spaltung im Kolon setzt die Wirkform frei. Anthranoid-Metaboliten können in geringem Umfang resorbiert werden und Harn (Braunfärbung) sowie Muttermilch erreichen."
+  },
+  "indications": [
+    {
+      "canonical": "Kurzzeitbehandlung der gelegentlichen Obstipation",
+      "synonyms": ["Verstopfung", "gelegentliche Verstopfung", "harter Stuhl", "träger Darm", "Darmträgheit"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC: well-established use zur kurzfristigen Anwendung bei gelegentlicher Verstopfung sowie in Fällen, in denen ein weicher Stuhl erwünscht ist (z. B. Analfissur, Hämorrhoiden, nach anorektalen Eingriffen). Nur wenn Ballaststoffe/Quellmittel und Lebensstiländerung nicht ausreichen. Nicht länger als etwa 1–2 Wochen ohne ärztlichen Rat; Dosis auf die kleinste wirksame Menge einstellen.",
+      "realistic_expectation": "Zuverlässiges Stimulanzlaxans für die AKUTE, kurzfristige Anwendung — kein Dauermittel. Wirkung erst nach 6–12 h (abends nehmen, morgendlicher Stuhl). Behebt nicht die Ursache der Verstopfung; bei Dauergebrauch drohen Gewöhnung, Kaliumverlust und Darmträgheit.",
+      "source": "EMA/HMPC EU herbal monograph Rhamnus frangula L., cortex (well-established use, short-term treatment of occasional constipation); Kommission E; ESCOP (Frangulae cortex)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wirksames pflanzliches Stimulanzlaxans für die kurzfristige Behandlung akuter/gelegentlicher Verstopfung (HMPC well-established use), sanfter dosierbar als Sennes bei korrekt gereifter Droge.",
+    "overstated": "Kein 'sanftes Naturmittel für jeden Tag': Als Anthranoid gehört Faulbaumrinde zu den STIMULIERENDEN Laxanzien mit klaren Grenzen. Kein Mittel zur 'Darmreinigung', 'Entschlackung' oder Gewichtsabnahme. Dauer-/Fehlgebrauch führt zu Elektrolytverlust (Hypokaliämie), Pseudomelanosis coli und paradoxer Verschlimmerung der Verstopfung.",
+    "effect_size": "moderat bis stark, symptomatisch; nur zur Kurzanwendung"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierte Fertigpräparate (Dragees/Tropfen, auf Hydroxyanthracenderivate eingestellt) — bevorzugt", "Abkochung/Kaltauszug aus gereifter Rinde", "Tinktur/Fluidextrakt"],
+    "form_rationale": "Die wasserlöslichen Anthranoid-Glykoside gehen gut in den wässrigen Auszug über, daher ist der Tee grundsätzlich möglich. Wegen des stark schwankenden Wirkstoffgehalts der Rohdroge und der Notwendigkeit korrekter Reifung sind auf Hydroxyanthracenderivate standardisierte Fertigarzneimittel für die sichere Dosierung vorzuziehen.",
+    "standard_dose": "HMPC/ESCOP: kleinste Menge, die einen weichen Stuhl bewirkt; entsprechend 10–30 mg Hydroxyanthracenderivate (berechnet als Glucofrangulin A) pro Tag, als Einzeldosis abends. Wirkeintritt nach 6–12 h. Anwendung nicht länger als ca. 1–2 Wochen. NUR gereifte Rinde (≥1 Jahr gelagert oder heißluftgetrocknet).",
+    "preservation": "Getrocknete Rinde trocken, dunkel, gut verschlossen; die geforderte Reifung (≥1 Jahr) einhalten und Herstellungsdatum dokumentieren."
+  },
+  "safety": {
+    "tox_ceiling": "Anthranoide (Hydroxyanthracenderivate): Kurzanwendung, in der Regel max. 1–2 Wochen. FRISCHE oder ungenügend gereifte Rinde ist toxisch (heftiges Erbrechen, Koliken, blutiger Durchfall) — nur ≥1 Jahr gelagerte oder heißluftgetrocknete Droge verwenden. Chronischer Gebrauch: Hypokaliämie, Pseudomelanosis coli, Verstärkung einer atonischen Verstopfung. Beeren sind giftig und keine Droge.",
+    "contraindications": [
+      "Darmverschluss (Ileus), Darmstenose, atonische Verstopfung",
+      "Akut-entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa), Appendizitis",
+      "Bauchschmerzen unklarer Ursache, Übelkeit/Erbrechen",
+      "Schwere Dehydratation mit Wasser-/Elektrolytverlust",
+      "Kinder unter 12 Jahren",
+      "Schwangerschaft und Stillzeit"
+    ],
+    "pregnancy_lactation": "Kontraindiziert. In der Schwangerschaft wegen möglicher reflektorischer Stimulation und unzureichender Sicherheitsdaten zu meiden; Anthranoid-Metaboliten gehen in die Muttermilch über (mögliche Durchfälle beim Säugling), daher auch in der Stillzeit nicht anwenden.",
+    "adverse_effects": "Krampfartige Bauchschmerzen und dünnflüssige Stühle (v. a. bei Überdosierung / Reizdarm). Harmlose Braunfärbung des Urins. Bei Langzeitgebrauch Elektrolytverluste (v. a. Kalium), Pseudomelanosis coli (reversibel), Verschlechterung der Darmfunktion.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Kaliumverlust bei (Dauer-)Gebrauch verstärkt die Wirkung/Toxizität von Herzglykosiden und die Wirkung von Antiarrhythmika; additiver Kaliumverlust mit Thiaziden, Schleifendiuretika, Corticosteroiden, Süßholz.",
+        "affected": "Herzglykoside (Digoxin/Digitoxin), Antiarrhythmika, Diuretika, Corticosteroide, Süßholz",
+        "clinical_relevance": "relevant — bei Dauergebrauch hoch; Kurzanwendung einhalten, Kalium beachten"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Beschleunigte Darmpassage kann die Resorption gleichzeitig eingenommener oraler Arzneistoffe vermindern.",
+        "affected": "oral resorbierte Arzneistoffe allgemein",
+        "clinical_relevance": "gering bis relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Anthranoide (Hydroxyanthracenderivate)",
+      "raw_toxicity": true,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Nur gereifte Rinde (≥1 Jahr gelagert oder heißluftgetrocknet) und nur kurzfristig (max. 1–2 Wochen) verwenden — frische Rinde und Beeren sind giftig, Dauergebrauch führt zu Kaliumverlust und Darmschäden; nicht bei Ileus, entzündlicher Darmerkrankung, in Schwangerschaft/Stillzeit oder bei Kindern unter 12."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Rinde im Frühjahr (April–Juni) bei Saftfluss von jüngeren Zweigen schälen. Danach zwingend ≥1 Jahr reifen lassen.",
+    "harvest_month_tags": [4, 5, 6],
+    "harvest_organ": "Rinde",
+    "method": "Rinde von jüngeren Ästen/Zweigen längs ablösen; nicht ganze Sträucher ringeln.",
+    "processing": "Trocknen; anschließend mindestens 1 Jahr lagern ODER im Heißluftstrom bei 80–100 °C nachtrocknen, um die emetischen Anthron-Vorstufen zu den verträglichen Anthrachinon-Glykosiden zu oxidieren.",
+    "storage": "Trocken, dunkel, gut verschlossen; Reifedatum dokumentieren. Frische Ware nicht abgeben."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung. Alle Pflanzenteile — besonders die frische Rinde und die Beeren — sind giftig. Ausschließlich arzneilich als gereifte Rinde."
+  },
+  "garden": {
+    "site_soil": "Feuchte bis nasse, saure bis neutrale Böden; halbschattig. Wichtige Futterpflanze für Schmetterlingsraupen (Zitronenfalter).",
+    "hardiness": "Vollkommen winterhart, heimischer Strauch.",
+    "propagation": "Aussaat (Kaltkeimer) oder Stecklinge; Vögel verbreiten die Samen.",
+    "bodensee_suitability": "Im Bodensee-/Voralpenraum heimisch und in feuchten Lagen problemlos — ökologisch wertvoll. Für die eigene Drogengewinnung wegen der zwingenden Reifung und Dosierschwierigkeit aber wenig praktikabel; Fertigpräparate vorziehen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Faulbaum mit gleichzeitig grünen, roten und schwarzen Beeren", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Ganzrandiges, wechselständiges Blatt mit bogigen Seitennerven; dornenlose Zweige mit Lentizellen", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Rhamnus frangula L., cortex (well-established use: kurzfristige Behandlung gelegentlicher Verstopfung; Dosis 10–30 mg Hydroxyanthracenderivate/Tag als Glucofrangulin A) — Primär-PDF beim direkten Abruf mit HTTP 403 blockiert, Angaben aus HMPC-Datenbankeintrag und Sekundärquellen, ärztlich gegenzuprüfen",
+    "ESCOP — Frangulae cortex",
+    "Kommission E — Frangulae cortex (Obstipation)",
+    "Arzneipflanzen-Lexikon / Pharmakobotanik / PharmaWiki — Frangulae cortex: Reifungspflicht (≥1 Jahr bzw. Heißlufttrocknung), Toxizität frischer Rinde und Beeren, Verwechslung mit Kreuzdorn (Rhamnus cathartica)",
+    "Sekundärquellen zu Klassen-Sicherheit der Anthranoide (Hypokaliämie, Pseudomelanosis coli, Kontraindikationen Ileus/CED/Schwangerschaft/Stillzeit/Kinder <12) — Websuche"
+  ]
+}
