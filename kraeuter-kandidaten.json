@@ -158,8 +158,8 @@
       "latin": "Carum carvi",
       "tier": 1,
       "reason": "Karminativum; stärkste Blähungs-Evidenz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-kuemmel.json"
     },
     {
       "id": "glycyrrhiza-glabra",
@@ -167,8 +167,8 @@
       "latin": "Glycyrrhiza glabra",
       "tier": 1,
       "reason": "Ulkus/Husten; Pseudohyperaldosteronismus — Toxin-Grenze!",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-suessholz.json"
     },
     {
       "id": "cetraria-islandica",

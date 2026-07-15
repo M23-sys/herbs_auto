@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "id": "glycyrrhiza-glabra",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Glycyrrhiza glabra L.",
+    "common_names_de": ["Echtes Süßholz", "Süßholz", "Lakritzenwurzel", "Spanisches Süßholz"],
+    "family": "Hülsenfrüchtler / Schmetterlingsblütler (Fabaceae / Leguminosae)",
+    "drug_part": ["getrocknete, geschälte oder ungeschälte Wurzel und Ausläufer (Stolonen)"],
+    "drug_name_latin": "Liquiritiae radix (Süßholzwurzel)",
+    "synonyms": ["Glycyrrhiza glandulifera Waldst. & Kit.", "Liquiritia officinalis Moench", "Glycyrrhiza violacea Boiss.", "Glycyrrhiza brachycarpa Boiss."],
+    "synonym_note": "Die HMPC-Monographie (Liquiritiae radix) umfasst ausdrücklich mehrere Stammpflanzen: Glycyrrhiza glabra L., Glycyrrhiza inflata Bat. und Glycyrrhiza uralensis Fisch. Diese Arten werden arzneilich weitgehend gleichwertig verwendet; die Handelsdroge kann Mischungen sein. Für die App-Bestimmung (Pl@ntNet) ist die id auf die europäische Leitart glabra gesetzt."
+  },
+  "identification": {
+    "key_features": [
+      "Ausdauernder, 1–2 m hoher Halbstrauch mit tiefreichender Pfahlwurzel und langen, süß schmeckenden unterirdischen Ausläufern (Stolonen) — die eigentliche Droge; frisch angeschnittene Wurzel ist innen leuchtend gelb und intensiv süß",
+      "Unpaarig gefiederte Blätter mit 9–17 klebrig-drüsigen, eiförmigen Fiederblättchen",
+      "Blüten schmetterlingsförmig (typisch Fabaceae), blass violett bis bläulich, in aufrechten achselständigen Trauben; Blütezeit Juni–Juli",
+      "Frucht eine kahle bis leicht behaarte, längliche, flache Hülse mit wenigen Samen (bei G. glabra kahl — Unterschied zur stacheligen Hülse anderer Arten)",
+      "Wärmeliebende Kultur-/Mittelmeerpflanze; in Mitteleuropa keine natürlichen Wildvorkommen"
+    ],
+    "season": "Blüte Juni–Juli; Wurzelernte im Herbst des 3.–4. Standjahres",
+    "habitat": "Ursprünglich Südost-Europa, Mittelmeerraum, Vorder- und Zentralasien; tiefgründige, durchlässige, warme Böden. In Mitteleuropa nur in Kultur (Garten, historischer Anbau z. B. Bamberg), nicht wild.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Süßholz ist eine Kultur-/Importdroge — arzneilich aus Apotheke/sicherem Anbau beziehen, keine Wildsammlung in Mitteleuropa.",
+      "Bei Eigenanbau: Wurzeln/Stolonen erst ab dem 3.–4. Jahr im Herbst roden, waschen, schälen (optional) und trocknen.",
+      "Bestätiger: leuchtend gelbes, intensiv süßes Wurzelinneres — die Süße (Glycyrrhizin, ~50× süßer als Saccharose) ist das eindeutige Erkennungsmerkmal der Droge."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Andere Süßholz-Arten (Chinesisches / Aufgeblasenes Süßholz)",
+      "scientific_name": "Glycyrrhiza uralensis, Glycyrrhiza inflata",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Keine Gefahr, aber arzneilich relevant: Diese Arten liefern ebenfalls Liquiritiae radix und sind von der HMPC eingeschlossen. Glycyrrhizingehalt und Begleitstoffe können schwanken — die Handelsware kann Artenmischungen sein, was die tatsächliche Glycyrrhizin-Dosis unsicher macht (relevant fürs Toxin-Ceiling)."
+    },
+    {
+      "name": "Verstecktes Süßholz in Lakritz-Süßwaren und 'Wellness'-Tees",
+      "scientific_name": "Glycyrrhiza glabra (Zubereitung)",
+      "toxicity_level": "giftig",
+      "toxin": "Glycyrrhizin (Glycyrrhizinsäure)",
+      "note": "Die praktisch wichtigste 'Verwechslung' ist keine botanische, sondern eine DOSIS-Verwechslung: Lakritze, Lakritz-Tee, Kräuterbonbons und manche Magentees enthalten unerkannt Glycyrrhizin. Zusammen mit der Wurzel-Kur summiert sich die Tagesdosis unbemerkt in den kritischen Bereich (Bluthochdruck, Hypokaliämie). Immer nach zusätzlichen Lakritzquellen fragen."
+    },
+    {
+      "name": "Keine giftige Feld-Verwechslung der Wildpflanze bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Als kultivierte/importierte Wurzeldroge besteht in Mitteleuropa praktisch kein Risiko, sie mit einer giftigen Wildpflanze zu verwechseln (kein Selbstsammeln im Feld). Begründung, warum das confusions-Feld hier keine tödlichen Doppelgänger listet — die Gefahr liegt in der Dosis, nicht in der Bestimmung."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine: Glycyrrhizin (Glycyrrhizinsäure, Kaliumsalz), 2–15 % (Ph. Eur. mind. 4 %) — Leitsubstanz und zugleich Toxin",
+      "Flavonoide/Chalkone: Liquiritin, Isoliquiritin, Liquiritigenin (spasmolytisch, entzündungshemmend, magenschützend)",
+      "Isoflavone (u. a. Glabridin), Cumarine, Polysaccharide, ätherisches Öl (Spuren)"
+    ],
+    "lead_substance": "Glycyrrhizin (Glycyrrhizinsäure) — süß, sekretolytisch/schleimhautschützend, aber verantwortlich für die mineralokortikoiden Nebenwirkungen",
+    "solubility_note": "Glycyrrhizin und Flavonoide sind wasserlöslich — der Wurzeltee/Auszug extrahiert sie gut. Genau deshalb ist der Tee wirksam UND birgt das Glycyrrhizin-Risiko; die Dosis lässt sich über Wurzelmenge und Ziehzeit nur grob steuern.",
+    "heat_light_sensitivity": "Weitgehend wärmestabil; getrocknete Wurzel trocken und vor Feuchtigkeit geschützt lagern (verklumpt/schimmelt sonst)."
+  },
+  "pharmacology": {
+    "mechanism": "Glycyrrhizin/Glycyrrhetinsäure wirken sekretolytisch-expektorierend und schleimhautschützend (Förderung der Magenschleim-Bildung, entzündungshemmend). Sicherheitskritisch: Glycyrrhetinsäure hemmt die 11β-Hydroxysteroid-Dehydrogenase Typ 2 (11β-HSD2), sodass Cortisol am Mineralokortikoid-Rezeptor wirkt — Folge sind Natrium-/Wasserretention und Kaliumverlust (Pseudohyperaldosteronismus).",
+    "evidence_caveat": "Die EMA/HMPC führt Liquiritiae radix als 'traditional use' (dyspeptische Beschwerden, Expektorans), NICHT als well-established use. Kommission E und ESCOP sind positiv (u. a. Magen-/Zwölffingerdarmgeschwür, Katarrhe der oberen Atemwege), doch moderne, große RCTs zur Einzeldroge fehlen weitgehend. Ob die HMPC-Revision 2025 die Einstufung ändert, ist unsicher — zu prüfen.",
+    "pharmacokinetics": "Glycyrrhizin wird von der Darmflora zu Glycyrrhetinsäure hydrolysiert und enterohepatisch rezirkuliert — daraus resultiert eine LANGE Wirkdauer; mineralokortikoide Effekte können nach Absetzen noch wochenlang anhalten. Interindividuelle Empfindlichkeit stark unterschiedlich."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung dyspeptischer Beschwerden einschließlich Sodbrennen und Magenbeschwerden",
+      "synonyms": ["Magenbeschwerden", "Sodbrennen", "saures Aufstoßen", "Magendrücken", "Völlegefühl", "Reizmagen", "Magenschleimhautreizung", "Magengeschwür"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use bei dyspeptischen Beschwerden inkl. Sodbrennen. Kommission E positiv für Magen-/Zwölffingerdarmgeschwür (Ulcus), ESCOP-Monographie Liquiritiae radix. ANWENDUNG STRIKT ZEITLICH BEGRENZEN (in der Regel max. 4 Wochen ohne ärztlichen Rat) wegen Glycyrrhizin.",
+      "realistic_expectation": "Kann Magenbeschwerden und Sodbrennen kurzfristig lindern und die Magenschleimhaut schützen. KEINE Dauertherapie und kein Ersatz für abgeklärte Ulkus-/Refluxbehandlung (PPI). Bei längerer/höherer Anwendung drohen Bluthochdruck und Kaliummangel.",
+      "source": "EMA/HMPC herbal monograph Liquiritiae radix (traditional use); Kommission E (positiv, Ulcus); ESCOP Liquiritiae radix"
+    },
+    {
+      "canonical": "Expektorans bei Katarrhen der oberen Atemwege / erkältungsbedingtem, verschleimtem Husten",
+      "synonyms": ["verschleimter Husten", "Husten mit Schleim", "Erkältungshusten", "Bronchialkatarrh", "festsitzender Husten", "Abhusten", "Halskratzen"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use als Expektorans bei Husten im Zusammenhang mit Erkältungen. Kommission E positiv für Katarrhe der oberen Atemwege; ESCOP nennt entzündliche Atemwegsbeschwerden. Auch hier max. ~4 Wochen, dann Glycyrrhizin-Pause.",
+      "realistic_expectation": "Unterstützt das Lösen und Abhusten von zähem Schleim und lindert Halsreizung. Kein Hustenstiller bei trockenem Reizhusten und kein Antibiotikum. Bei Fieber, Atemnot oder eitrigem Auswurf ärztlich abklären.",
+      "source": "EMA/HMPC herbal monograph Liquiritiae radix (traditional use); Kommission E (positiv, Atemwegskatarrhe); ESCOP Liquiritiae radix"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Traditionell etabliertes, schleimhautschützendes und sekretolytisches Mittel für die KURZZEITIGE Selbstbehandlung von Magenbeschwerden/Sodbrennen und verschleimtem Erkältungshusten.",
+    "overstated": "Kein 'well-established use'. Nicht als Dauer-'Stärkungsmittel', 'Nebennieren-Tonikum', Leberentgifter oder Antivirustherapeutikum belegt. Der süße, harmlose Ruf von Lakritz täuscht: die eigentliche Botschaft ist NICHT 'wie sicher', sondern 'wie streng zeitlich begrenzt'.",
+    "effect_size": "mild bis moderat, symptomatisch; sicherheitskritisch durch das Toxin-Ceiling"
+  },
+  "preparation": {
+    "recommended_forms": ["Teeaufguss/Abkochung aus der zerkleinerten Wurzel", "Bestandteil von Magen- und Bronchialtees", "Fluidextrakt/Trockenextrakt", "Succus liquiritiae (Lakritzsaft) — glycyrrhizinreich, streng dosieren"],
+    "form_rationale": "Glycyrrhizin ist wasserlöslich und geht in Tee/Auszug über — deshalb wirksam, aber schwer exakt dosierbar. Standardisierte Extrakte erlauben eine bessere Glycyrrhizin-Kontrolle; entglycyrrhizinierte Präparate (DGL) reduzieren die mineralokortikoide Gefahr, sind aber ein anderer Wirkstoff.",
+    "standard_dose": "HMPC/Kommission E: mittlere Tagesdosis ca. 5–15 g Wurzel (entsprechend ~200–600 mg Glycyrrhizin) für die kurzzeitige arzneiliche Anwendung; Teeaufguss z. B. 1–1,5 g Wurzel/Tasse, 3×/Tag. NICHT länger als 4 Wochen ohne ärztlichen Rat. Als allgemeine Sicherheitsschwelle für DAUERKONSUM gelten ~100 mg Glycyrrhizin/Tag.",
+    "preservation": "Getrocknete Wurzel trocken, kühl und dunkel lagern."
+  },
+  "safety": {
+    "tox_ceiling": "Glycyrrhizin/Glycyrrhetinsäure hemmen 11β-HSD2 → Pseudohyperaldosteronismus. Allgemeine Sicherheitsschwelle für regelmäßigen Konsum: ~100 mg Glycyrrhizin/Tag (EFSA); arzneiliche Anwendung in der Regel auf MAX. 4 WOCHEN begrenzen. Wegen enterohepatischer Rezirkulation können Blutdruck-/Kaliumeffekte nach Absetzen noch wochenlang anhalten. Bei Risikopatienten schon deutlich geringere Mengen kritisch.",
+    "contraindications": [
+      "arterielle Hypertonie / bestehender Bluthochdruck",
+      "Hypokaliämie / kaliumarme Ernährung",
+      "schwere Niereninsuffizienz, Leberzirrhose und cholestatische Lebererkrankungen",
+      "gleichzeitige Einnahme kaliumsenkender Arzneien (Diuretika, Kortikoide, Laxanzien) oder von Herzglykosiden",
+      "Schwangerschaft und Stillzeit"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit nicht anwenden. Hoher Lakritz-/Glycyrrhizin-Konsum ist in Beobachtungsstudien mit erhöhtem Frühgeburtsrisiko und ungünstigen Effekten auf die kindliche Entwicklung (u. a. Kognition/HPA-Achse) assoziiert; zusätzlich Blutdruck-/Elektrolytrisiko. EMA/HMPC: nicht empfohlen.",
+    "adverse_effects": "Dosis-/zeitabhängig Pseudohyperaldosteronismus: Bluthochdruck, Natrium-/Wasserretention mit Ödemen, Hypokaliämie (Muskelschwäche, Herzrhythmusstörungen), metabolische Alkalose; in schweren Fällen Rhabdomyolyse und hypokaliämische Lähmung. Kopfschmerzen möglich.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "glycyrrhizininduzierte Hypokaliämie steigert die Toxizität von Herzglykosiden",
+        "affected": "Digoxin, Digitoxin und andere Herzglykoside",
+        "clinical_relevance": "hoch"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additiver Kaliumverlust",
+        "affected": "Thiazid-/Schleifendiuretika, systemische Kortikosteroide, stimulierende Laxanzien",
+        "clinical_relevance": "hoch"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Natrium-/Wasserretention und Blutdruckanstieg konterkarieren die Wirkung",
+        "affected": "Antihypertensiva",
+        "clinical_relevance": "relevant"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "erhöhtes Arrhythmierisiko bei Hypokaliämie",
+        "affected": "Antiarrhythmika und QT-verlängernde Arzneistoffe",
+        "clinical_relevance": "relevant"
+      }
+    ],
+    "flags": {
+      "toxin_ceiling": true,
+      "toxin_type": "Glycyrrhizin (Glycyrrhizinsäure)",
+      "interaction_heavy": true,
+      "pregnancy_contraindicated": true,
+      "deadly_confusion": false,
+      "hepatotoxic": false,
+      "raw_toxicity": false,
+      "high_safety": false
+    },
+    "key_warning": "Glycyrrhizin verursacht dosis- und zeitabhängig Pseudohyperaldosteronismus (Bluthochdruck, Kaliummangel, Ödeme): arzneilich max. ~4 Wochen und ≤ ~100 mg Glycyrrhizin/Tag bei Dauerkonsum. KONTRAINDIZIERT bei Hypertonie, Hypokaliämie, schwerer Nieren-/Lebererkrankung und in der Schwangerschaft; Vorsicht mit Digoxin, Diuretika und Kortikoiden. Immer nach versteckten Lakritzquellen fragen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzeln und Ausläufer im Herbst (Oktober–November) des 3.–4. Standjahres roden.",
+    "harvest_month_tags": [10, 11],
+    "harvest_organ": "Wurzel (und Ausläufer/Stolonen)",
+    "method": "Wurzelstock ausgraben, dickere Wurzeln und Stolonen abtrennen, waschen; nach Bedarf schälen.",
+    "processing": "In Stücke schneiden und langsam trocknen; erst vor Gebrauch zerkleinern.",
+    "storage": "Trocken, kühl, dunkel und luftdicht; getrocknete Wurzel ist lange haltbar."
+  },
+  "kitchen": {
+    "uses": ["Lakritze und Lakritz-Süßwaren", "Süßholz-/Lakritztee", "Aromatisierung von Getränken (z. B. Anis-/Kräuterliköre, 'Pontefract'-Süßwaren)", "natürlicher Süßstoff/Geschmacksverstärker"],
+    "culinary_vs_medicinal": "Die Grenze ist hier UNSCHARF und gerade deshalb gefährlich: Auch Lakritz-Süßwaren und -Tees liefern Glycyrrhizin. Wer Süßholz arzneilich nimmt, muss diese Quellen mitrechnen — die ~100-mg-Schwelle wird über 'harmlose' Naschware leicht überschritten (dokumentierte Bluthochdruck-/Hypokaliämie-Fälle durch Lakritzkonsum)."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, tiefgründiger, durchlässiger, eher sandig-lehmiger Boden ohne Staunässe.",
+    "hardiness": "Mehrjährig, in milden Lagen ausreichend winterhart; braucht eine lange, warme Vegetationszeit und mehrere Jahre bis zur erntereifen Wurzel.",
+    "propagation": "Über Wurzel-/Stolonenteilung oder Aussaat; breitet sich über Ausläufer aus (Wurzelsperre sinnvoll).",
+    "bodensee_suitability": "In wintermilden, warmen Lagen am Bodensee als mehrjährige Kübel- oder Beetkultur möglich, aber wärmebedürftig und langsam; keine Wildvorkommen. Ehrlich: eher ein Liebhaber-Anbau als eine verlässliche Wildsammeldroge."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Echtes Süßholz mit gefiederten Blättern und blassvioletten Schmetterlingsblüten in Traube", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Angeschnittene Süßholzwurzel: innen leuchtend gelb, intensiv süß (Glycyrrhizin)", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union / Community herbal monograph on Glycyrrhiza glabra L. and/or Glycyrrhiza inflata Bat. and/or Glycyrrhiza uralensis Fisch., radix (Liquiritiae radix, traditional use)",
+    "EMA/HMPC — Assessment report Liquiritiae radix (2012, Erstfassung; Revision 1 in Konsultation 2025 — nicht direkt geprüft)",
+    "ESCOP Monograph Liquiritiae radix (Liquorice root)",
+    "Kommission E Monographie Liquiritiae radix (positiv: Ulcus ventriculi/duodeni, Katarrhe der oberen Atemwege)",
+    "EFSA-Bewertung: Sicherheitsschwelle ~100 mg Glycyrrhizin/Tag; Fallberichte licorice-induzierter Pseudohyperaldosteronismus (Frontiers Pharmacol. 2021/2026, PMC8484325)",
+    "Reviews zu Frühgeburtsrisiko/kindlicher Entwicklung bei hohem Lakritzkonsum in der Schwangerschaft (recherchiert)"
+  ]
+}

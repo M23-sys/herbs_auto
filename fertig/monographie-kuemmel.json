@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "id": "carum-carvi",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Carum carvi L.",
+    "common_names_de": ["Wiesen-Kümmel", "Echter Kümmel", "Gemeiner Kümmel", "Feldkümmel", "Brotkümmel"],
+    "family": "Doldenblütler (Apiaceae / Umbelliferae)",
+    "drug_part": ["reife, getrocknete Frucht ('Kümmel', botanisch eine Spaltfrucht)", "ätherisches Öl aus der Frucht"],
+    "drug_name_latin": "Carvi fructus (ätherisches Öl: Carvi aetheroleum)",
+    "synonyms": ["Apium carvi (L.) Crantz", "Carum aromaticum Salisb.", "Foeniculum carvi (L.) Link", "Seseli carvi (L.) Lam.", "Bunium carvi (L.) M.Bieb."],
+    "synonym_note": "Botanisch stabil. NICHT verwechseln mit dem geschmacklich völlig anderen Kreuzkümmel/Cumin (Cuminum cyminum) — trotz ähnlichem deutschen Namen eine andere Gattung. 'Schwarzkümmel' (Nigella sativa) ist kein Doldenblütler und pharmakologisch nicht verwandt."
+  },
+  "identification": {
+    "key_features": [
+      "Charakteristischer Kümmelgeruch ALLER Pflanzenteile beim Zerreiben (Carvon) — das sicherste Feldmerkmal und der entscheidende Unterschied zu giftigen Doldenblütlern (Schierling riecht widerlich nach Mäuseurin, nicht nach Kümmel)",
+      "Zweijährig: im 1. Jahr nur Blattrosette, im 2. Jahr blühender Stängel; 30–80 cm (selten bis 120 cm) hoch, kantig-gefurchter, meist unten verzweigter Stängel",
+      "Blätter zwei- bis dreifach gefiedert, Endzipfel sehr schmal-linealisch (höchstens 1 mm breit) und fein zugespitzt — feiner zerteilt als bei Wilder Möhre",
+      "Kleine weiße bis rosa Blüten in flachen Doppeldolden ohne (oder mit nur sehr wenigen) Hüll- und Hüllchenblättern",
+      "Frucht 3–6 mm lang, sichelförmig gebogen, längsgerippt, braun, bei Reife in zwei Teilfrüchte zerfallend, mit intensivem Kümmelduft"
+    ],
+    "season": "Blüte Mai–Juni (–Juli); Fruchtreife Juli–August",
+    "habitat": "Frische, mäßig gedüngte Fett- und Bergwiesen, Weiderasen, Wegränder; kalkliebend. Von der collinen bis in die subalpine Stufe; zusätzlich als Gewürzpflanze im Feldbau kultiviert.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "GERUCHSPROBE IST PFLICHT: Nur der eindeutige Kümmelduft der zerriebenen Pflanze bestätigt die Art. Jeder abweichende, unangenehme oder fehlende Geruch bedeutet Verwechslungsgefahr mit giftigen Doldenblütlern — dann Finger weg.",
+      "Zur Fruchternte reife, noch nicht ausgefallene Dolden im Hochsommer schneiden; die Blattrosette des 1. Jahres ist schwer bestimmbar und sollte nicht als 'Kümmelkraut' gesammelt werden.",
+      "Bestätiger: schmal-linealische Blattzipfel, gerippte sichelförmige Frucht, fehlende Hüllblätter. Abgrenzung zu jedem gefleckten, kahlen oder streng riechenden Stängel (Schierling)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und verwandte Piperidinalkaloide (Atemlähmung)",
+      "note": "Der klassische tödliche Doldenblütler. Unterscheidung: rotbraun gefleckter, kahler, bereifter Stängel, widerlicher Geruch nach Mäuseurin (KEIN Kümmelduft), höherwüchsig. Wenige Gramm können tödlich sein. Kümmel hat NIE rote Stängelflecken und riecht typisch nach Kümmel."
+    },
+    {
+      "name": "Hundspetersilie / Gartenschierling",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (u. a. Aethusin/Ätherische-Öl-Polyacetylene)",
+      "note": "Acker- und Gartenbeikraut; riecht beim Zerreiben unangenehm (nicht nach Kümmel). Kennzeichen: lange, herabhängende Hüllchenblätter ('Bärtchen') unter den Döldchen. Hat zu Todesfällen geführt. Jede geruchlose oder streng riechende 'Kümmel'-Pflanze ist verdächtig."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin (Krampfgift)",
+      "note": "An nassen Standorten (Gräben, Ufer, Verlandungszonen) — dort, wo Wiesenkümmel gerade nicht wächst. Dickfleischige, quergekammerte Wurzel. Löst heftige, oft tödliche Krämpfe aus. Kein Kümmelduft."
+    },
+    {
+      "name": "Wilde Möhre",
+      "scientific_name": "Daucus carota",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufigster harmloser Wiesen-Doldenblütler zur selben Zeit. Unterscheidung: Wilde Möhre hat auffällig gefiederte Hüllblätter, oft eine dunkle 'Mohrenblüte' in der Doldenmitte, borstig behaarten Stängel und Möhrengeruch — Kümmel ist kahler, ohne Hüllblätter und riecht nach Kümmel. Verwechslung ungefährlich, aber sie schult den Blick fürs Bestimmen."
+    },
+    {
+      "name": "Kreuzkümmel / Cumin",
+      "scientific_name": "Cuminum cyminum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nur eine NAMENS- und Gewürzverwechslung, keine Feldverwechslung (Cumin ist eine wärmeliebende Kulturpflanze). Wichtig in der Küche/Apotheke: Cumin (Cuminaldehyd) schmeckt und wirkt anders als Kümmel (Carvon) und ist arzneilich nicht gleichzusetzen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (ca. 3–7 % in der Frucht)",
+      "(+)-Carvon (Leitsubstanz, meist ~50–65 % des äth. Öls) und (+)-Limonen (~30–45 %) — antikorrelierte Hauptkomponenten",
+      "fettes Öl (10–20 %), Eiweiß, Flavonoide (Quercetin-Derivate), Polysaccharide",
+      "nur Spuren von Estragol/Safrol (im Gegensatz zu Fenchel/Anis kein praktisch relevanter Estragol-Träger)"
+    ],
+    "lead_substance": "(+)-Carvon (karminativ-spasmolytisch, geschmacks- und geruchsbestimmend)",
+    "solubility_note": "Das wirksame ätherische Öl ist flüchtig und kaum wasserlöslich: Früchte UNMITTELBAR vor dem Aufguss anquetschen und den Tee zugedeckt ziehen lassen, sonst entweicht der Wirkstoff mit dem Dampf. Tinktur und reines Öl konzentrieren die Inhaltsstoffe stärker.",
+    "heat_light_sensitivity": "Ätherisches Öl licht-, luft- und wärmeempfindlich (Carvon oxidiert). Ganze Früchte kühl, trocken, dunkel lagern; erst vor Gebrauch zerstoßen — gemahlener Kümmel verliert das Aroma rasch."
+  },
+  "pharmacology": {
+    "mechanism": "Carvon und Limonen wirken direkt spasmolytisch auf die glatte Magen-Darm-Muskulatur (u. a. über Hemmung von L-Typ-Calciumkanälen) und karminativ — sie erleichtern den Abgang von Darmgasen und lindern krampfartige Blähungsbeschwerden. In vitro zusätzlich antibakterielle, antimykotische und antioxidative Effekte.",
+    "evidence_caveat": "Für die ARZNEILICHE EINZELDROGE stützt sich die Wirkung überwiegend auf traditionelle Anwendung und präklinische Daten; die EMA/HMPC führt Carvi fructus ausschließlich als 'traditional use', NICHT als well-established use. Belastbare RCT-Evidenz existiert v. a. für die FIXE KOMBINATION Pfefferminz-/Kümmelöl (Menthacarin) bei funktioneller Dyspepsie — diese Evidenz darf NICHT auf Kümmeltee oder Kümmelöl allein übertragen werden.",
+    "pharmacokinetics": "Carvon/Limonen werden rasch resorbiert, hepatisch metabolisiert und überwiegend renal ausgeschieden. Detaillierte humanpharmakokinetische Daten der Einzeldroge: unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter, krampfartiger Magen-Darm-Beschwerden einschließlich Blähungen und Völlegefühl (dyspeptische Beschwerden)",
+      "synonyms": ["Blähungen", "Blähbauch", "Völlegefühl", "Bauchkrämpfe", "Bauchweh", "Winde", "Verdauungsbeschwerden", "Magendrücken", "Krampfkolik"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur symptomatischen Linderung leichter krampfartiger Magen-Darm-Beschwerden inkl. Blähungen und Völlegefühl. Kommission E positiv (dyspeptische Beschwerden, Blähungen); ESCOP-Monographie Carvi fructus/aetheroleum. HMPC-Tagesdosis ca. 1,5–6 g Frucht als Aufguss. ESCOP nennt traditionell auch blähungsbedingte Koliken bei Kindern — hier ärztliche Rücksprache und Vorsicht bei Kleinkindern/Säuglingen (Öl meiden).",
+      "realistic_expectation": "Kann leichte Blähungen und krampfartiges Magendrücken kurzfristig lindern und ist ein bewährter, milder Bestandteil von Magen-Darm-Tees (oft mit Fenchel/Anis). Kein Mittel gegen ernsthafte Magen-Darm-Erkrankungen. Bei anhaltenden, starken oder neu auftretenden Beschwerden ärztlich abklären.",
+      "source": "EMA/HMPC herbal monograph Carum carvi L., fructus (traditional use); ESCOP Carvi fructus/Carvi aetheroleum; Kommission E (positiv)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, traditionell gut etabliertes Karminativum und Spasmolytikum für die kurzzeitige Selbstbehandlung von Blähungen und krampfartigem Völlegefühl; klassischer, gut verträglicher Bestandteil von Verdauungs- und 'Vier-Winde'-Teemischungen.",
+    "overstated": "Kein 'well-established use' — die zugelassene HMPC-Einstufung ist nur traditional use. Die guten Studien betreffen die FIXE Pfefferminz-/Kümmelöl-Kombination bei funktioneller Dyspepsie, nicht den Kümmeltee. Kümmel ist KEIN belegtes Mittel gegen Reizdarm als Krankheit, Gewichtsabnahme oder als 'Milchbildungstee'-Wundermittel.",
+    "effect_size": "mild, symptomatisch, kurzfristig"
+  },
+  "preparation": {
+    "recommended_forms": ["Teeaufguss aus frisch angequetschten Früchten", "Bestandteil von Magen-Darm-Teemischungen (mit Fenchel, Anis, Kamille)", "Tinktur", "ätherisches Öl nur stark verdünnt und streng dosiert"],
+    "form_rationale": "Weil das wirksame Carvon flüchtig ist, müssen die Früchte unmittelbar vor dem Aufguss angequetscht und der Tee zugedeckt gezogen werden. Das konzentrierte ätherische Öl wirkt stärker, birgt aber Reizrisiko und ist bei Kindern/Säuglingen und in der Schwangerschaft zurückhaltend einzusetzen.",
+    "standard_dose": "HMPC/Kommission E: mittlere Tagesdosis 1,5–6 g Frucht (Einzeldosis ~1–2 g als Aufguss mit 150 ml heißem Wasser, 10–15 min zugedeckt ziehen, 3–4×/Tag). Ätherisches Öl: nur wenige Tropfen/Tag und stark verdünnt. Bei anhaltenden Beschwerden ärztliche Rücksprache.",
+    "preservation": "Ganze Früchte kühl, trocken, dunkel und luftdicht aufbewahren; erst vor Gebrauch zerstoßen. Aroma hält so viele Monate."
+  },
+  "safety": {
+    "tox_ceiling": "Kein arzneilich definierter Toxin-Grenzwert für die Einzeldroge. Estragol/Safrol kommen nur in Spuren vor — anders als bei Fenchel/Anis besteht hier KEIN relevantes Estragol-Ceiling. Bei bestimmungsgemäßem Gebrauch gilt Kümmel als sehr sicher; für das konzentrierte ätherische Öl gelten die üblichen Vorsichtsmaßnahmen (nicht unverdünnt, nicht auf Schleimhäute/verletzte Haut, nicht bei Säuglingen ins Gesicht).",
+    "contraindications": [
+      "bekannte Allergie gegen Kümmel/Carvon oder andere Doldenblütler (mögliche Kreuzreaktion mit Fenchel, Anis, Sellerie, Koriander)",
+      "ätherisches Öl: nicht auf verletzte Haut, um die Augen oder auf Schleimhäute; Zurückhaltung bei Erkrankungen der Gallenwege/Leber (ESCOP-Vorsicht für Carvi aetheroleum)",
+      "ätherisches Öl nicht ins Gesicht von Säuglingen und Kleinkindern (Gefahr von Laryngo-/Bronchospasmus)"
+    ],
+    "pregnancy_lactation": "Küchenübliche Gewürzmengen gelten als unbedenklich. Die ARZNEILICHE Anwendung (v. a. des ätherischen Öls) wird mangels ausreichender Daten in Schwangerschaft und Stillzeit nicht empfohlen (EMA/HMPC, ESCOP).",
+    "adverse_effects": "Insgesamt sehr selten; gelegentlich allergische Haut-/Schleimhautreaktionen. Überdosierung des konzentrierten ätherischen Öls kann Magen-Darm-Reizung und ZNS-Symptome auslösen.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "für die üblichen Zubereitungen und Mengen der Einzeldroge sind keine klinisch belegten Arzneimittelinteraktionen bekannt",
+        "affected": "—",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "apiaceae_confusion_young": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "raw_toxicity": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kümmel ist ein Doldenblütler: Beim Selbstsammeln droht Verwechslung mit tödlichem Schierling (Conium, Cicuta) und giftiger Hundspetersilie — nur der eindeutige Kümmelduft der zerriebenen Pflanze bestätigt die Art, jeder abweichende Geruch bedeutet Gefahr. Die belastbare Wirksamkeitsevidenz gilt der fixen Pfefferminz-/Kümmelöl-Kombination, nicht dem Kümmeltee allein."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Reife Früchte im Hochsommer (Juli–August) des zweiten Jahres ernten, wenn die Dolden bräunen, aber noch nicht ausfallen.",
+    "harvest_month_tags": [7, 8],
+    "harvest_organ": "Frucht (Samen)",
+    "method": "Fruchtstände morgens (noch feucht, weniger Ausfall) schneiden, kopfüber in Papiertüten nachtrocknen, dann ausklopfen und Spreu absieben.",
+    "processing": "Vollständig trocknen; ganze Früchte lagern, nicht vorab mahlen.",
+    "storage": "Kühl, trocken, dunkel, luftdicht; ganze Früchte behalten das Aroma monatelang, gemahlene verlieren es rasch."
+  },
+  "kitchen": {
+    "uses": ["Brot- und Gebäckgewürz (Kümmelbrot, Fladen)", "Kohl-, Kraut- und Kartoffelgerichte (macht Blähendes bekömmlicher)", "Käse (z. B. Kümmelkäse)", "Kümmellikör/Aquavit", "Gewürz zu fettem Braten"],
+    "culinary_vs_medicinal": "Als Gewürz frei und unbedenklich verwendbar; genau hier liegt auch der karminative Nutzen (Kümmel im Krautgericht mindert Blähungen). Die arzneiliche Anwendung folgt einer definierten Dosis; das konzentrierte ätherische Öl ist kein Küchengewürz."
+  },
+  "garden": {
+    "site_soil": "Sonnig, frischer, nährstoffreicher, kalkhaltiger, nicht zu trockener Boden.",
+    "hardiness": "Zweijährig und voll winterhart; blüht und fruchtet im zweiten Jahr, samt sich dann aus.",
+    "propagation": "Direktsaat an Ort und Stelle (Pfahlwurzel verträgt Verpflanzen schlecht); Aussaat Frühjahr oder Spätsommer.",
+    "bodensee_suitability": "Sehr gut geeignet: Wiesenkümmel ist in den Wiesen der Bodensee-/Voralpenregion heimisch und wild häufig; im Garten problemlos als zweijährige Gewürzpflanze zu kultivieren."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Wiesen-Kümmel mit weißen Doppeldolden und fein zerteilten Blättern auf einer Fettwiese", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Reife, sichelförmig gebogene, längsgerippte Kümmelfrüchte mit typischem Kümmelduft", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Carum carvi L., fructus (traditional use)",
+    "EMA/HMPC — European Union herbal monograph on Carum carvi L., aetheroleum; Assessment report Carum carvi",
+    "ESCOP Monograph Carvi fructus / Carvi aetheroleum (Caraway)",
+    "Kommission E Monographie Carvi fructus (positiv: dyspeptische Beschwerden, Blähungen)",
+    "Johri, 'Cuminum cyminum and Carum carvi: An update' / Caraway review, Nat. Prod. Bioprospect. 2018 (PMC6328425)",
+    "Rich et al., RCT zu Menthacarin (Pfefferminz-/Kümmelöl) bei funktioneller Dyspepsie, Neurogastroenterol. Motil. 2017 (PubMed 28695660); Meta-Analyse Karger Dig. Dis. 2023",
+    "Essential-oil-Zusammensetzung (Carvon/Limonen): Tandfonline 2012; Estragol/Safrol-Spuren (recherchiert)"
+  ]
+}

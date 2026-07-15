@@ -214,3 +214,31 @@ Beim Sammel-Lauf `validate_monographie.py fertig/*.json` fallen **11 bereits vor
 ### Nebenbefund (unveraendert aus Vorlauf, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet weiterhin zahlreiche Altfehler in frueheren Monographien (u. a. baerlauch, johanniskraut, beinwell, kamille, ringelblume, salbei ...). Diese stammen aus frueheren Laeufen und wurden auftragsgemaess (genau 2 Monographien) NICHT angefasst. Empfehlung unveraendert: eigener Bereinigungslauf. Meine beiden neuen Dateien bestehen die Pruefung einzeln und gemeinsam fehlerfrei.
+
+---
+
+## Lauf 2026-07-15 (18:30 UTC) — Kümmel, Süßholz
+
+**Quelle der Auswahl:** Wunschliste (`docs/wunschliste.json`, 5 Eintraege) enthielt KEINE offenen Wuensche mehr — alle fuenf (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis) liegen bereits in `fertig/`. Daher beide Plaetze aus der **Kandidatenliste**, Tier 1, erste offene Eintraege in Listenreihenfolge:
+1. **carum-carvi (Kümmel)** — Kandidat, Tier 1
+2. **glycyrrhiza-glabra (Süßholz)** — Kandidat, Tier 1
+
+**Dedup:** Beide gegen `fertig/` (id + botany.synonyms) und `vorhanden` geprueft — nicht vorhanden. Synonyme selbst eingetragen. Keine Selbstheilung noetig (keine der neuen ids hatte bereits eine Datei).
+
+**Recherche-Kanal:** WebSearch funktionierte gut und lieferte belegte Sekundaer-/Primaerzusammenfassungen. **WebFetch war in diesem Lauf durchgaengig blockiert** (HTTP 403 von ALLEN Zielhosts inkl. EMA, Wikipedia, PMC, e-lactancia; der Agent-Proxy meldete keine relayFailures → Sperre auf Fetcher-Ebene, keine Policy-Sperre). Die EMA/HMPC-Primaer-PDFs konnten daher **nicht direkt** eingesehen werden. Evidenzgrade wurden auf das gesetzt, was die (zahlreichen, konsistenten) Sekundaerquellen + HMPC-Zusammenfassungen belegen; nicht geraten. **Aerztliche Gegenpruefung der Evidenzeinstufung empfohlen.**
+
+**Pruefergebnis:** Beide bestehen `validate_monographie.py` einzeln und gemeinsam fehlerfrei (nur der erwuenschte "unsicher/zu pruefen"-Hinweis). 0 Korrekturversuche noetig.
+
+**Hauptquellen:** EMA/HMPC Carvi fructus + Carvi aetheroleum; ESCOP Carvi; Kommission E Kümmel. EMA/HMPC Liquiritiae radix (Erstfassung 2012; Revision 1 in Konsultation 2025); ESCOP + Kommission E Süßholz; EFSA-Glycyrrhizin-Schwelle; Fallbericht-Reviews Pseudohyperaldosteronismus (Frontiers Pharmacol.).
+
+### Ueberraschungen / unsichere Stellen fuer den Arzt
+
+- **Kümmel — Evidenz-Falle:** HMPC listet nur **traditional use**. Die eigentlich guten RCTs betreffen die **fixe Pfefferminz-/Kuemmeloel-Kombination (Menthacarin)** bei funktioneller Dyspepsie — NICHT den Kuemmeltee/das Kuemmeloel allein. Bewusst in `pharmacology.evidence_caveat`, `expectation_summary.overstated` und `key_warning` getrennt gehalten, damit die Kombi-Evidenz nicht auf die Einzeldroge uebertragen wird.
+- **Kümmel — anders als Fenchel/Anis:** nur **Spuren** Estragol/Safrol → **kein** relevantes Estragol-Ceiling. `toxin_ceiling=false` gesetzt (bewusste Abweichung vom Anis-Muster). Bitte gegenpruefen.
+- **Süßholz — Verwechslungsfeld ungewoehnlich:** Als Import-/Kulturwurzel gibt es **keine giftige Feld-Verwechslung**; das echte Risiko ist eine **DOSIS-Verwechslung** (verstecktes Glycyrrhizin in Lakritz-Suesswaren/-Tees, die sich mit der Kur zur kritischen Tagesdosis summieren). `confusions` enthaelt daher bewusst (1) andere Glycyrrhiza-Arten, (2) versteckte Lakritzquellen als "giftig" (Glycyrrhizin), (3) eine begruendete "keine Feld-Verwechslung"-Zeile — statt erfundener botanischer Doppelgaenger.
+- **Süßholz — pregnancy_contraindicated=true** gesetzt (HMPC: "nicht empfohlen"; zusaetzlich Frühgeburts-/Entwicklungssignal aus Beobachtungsstudien). Bewusst defensiver als das reine "nicht empfohlen" der HMPC — bitte pruefen, ob die App-Register-Einstufung "kontraindiziert" so gewuenscht ist.
+- **Süßholz — HMPC-Dosis vs. Sicherheitsschwelle:** HMPC-Tagesdosis (5–15 g Wurzel ≈ 200–600 mg Glycyrrhizin, max. 4 Wochen) liegt DEUTLICH ueber der ~100-mg/Tag-Dauerkonsum-Schwelle (EFSA). Beide Werte stehen bewusst nebeneinander in `standard_dose`/`tox_ceiling` — der Widerspruch ist real (kurze Kur vs. Dauerkonsum) und sollte aerztlich eingeordnet werden.
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert 38 Altfehler in 11 frueheren (offenbar handkuratierten, ohne `herkunft`-Feld) Monographien: baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut. Ursache u. a. kombinierte `toxicity_level`-Werte wie 'essbar/gering', die das aktuelle Schema nicht mehr erlaubt. Auftragsgemaess (genau 2 Monographien) NICHT angefasst. Empfehlung unveraendert: eigener Bereinigungslauf.

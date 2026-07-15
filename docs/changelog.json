@@ -47,6 +47,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung aus der Wunschliste, bewusst als ERKENNUNGS-/WARNEINTRAG (not_for_use=true, keine Indikationen). Fuer Hedera canariensis existiert KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie — die zugelassene hustenloesende Efeu-Wirkung gilt ausschliesslich fuer den Gemeinen Efeu (Hedera helix, standardisierter Extrakt). Diese Art ist eine giftige Zierpflanze (Saponine, Falcarinol). Taxonomie uneinheitlich (frueher H. helix subsp./var. canariensis; im Handel mit H. algeriensis gleichgesetzt) — bitte Pl@ntNet-Bestimmung gegenpruefen."
+    },
+    {
+      "ts": "2026-07-15T18:30:00Z",
+      "id": "carum-carvi",
+      "common": "Kümmel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Carvi fructus als TRADITIONAL USE (nicht WEU!) fuer leichte krampfartige Magen-Darm-Beschwerden/Blaehungen; Kommission E + ESCOP positiv. Wichtige Nuance fuer die Erwartungssteuerung: die belastbare RCT-Evidenz betrifft die FIXE Pfefferminz-/Kuemmeloel-Kombination (Menthacarin) bei funktioneller Dyspepsie, NICHT den Kuemmeltee allein — nicht uebertragen. Doldenblueter -> deadly_confusion=true (Schierling/Hundspetersilie, Kuemmelduft als Erkennungsmerkmal). Anders als Fenchel/Anis KEIN relevantes Estragol-Ceiling (nur Spuren), daher toxin_ceiling=false."
+    },
+    {
+      "ts": "2026-07-15T18:30:30Z",
+      "id": "glycyrrhiza-glabra",
+      "common": "Süßholz",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Liquiritiae radix als TRADITIONAL USE (dyspeptische Beschwerden/Sodbrennen, Expektorans); Kommission E + ESCOP positiv (u.a. Ulcus). Sicherheitskern ist das TOXIN-CEILING: Glycyrrhizin hemmt 11β-HSD2 -> Pseudohyperaldosteronismus (Bluthochdruck, Hypokaliaemie, Oedeme). toxin_ceiling=true (Glycyrrhizin), interaction_heavy=true (Digoxin, Diuretika, Kortikoide, Antihypertensiva), pregnancy_contraindicated=true (Fruehgeburtsrisiko). Grenzen: arzneilich max. ~4 Wochen, Dauerkonsum ≤~100 mg Glycyrrhizin/Tag. Achtung versteckte Lakritzquellen (Suesswaren/Tee) summieren die Dosis. HMPC-Revision 1 in Konsultation 2025 — Einstufung ungeprueft."
     }
   ]
 }
