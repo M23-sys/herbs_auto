@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "id": "calendula-officinalis",
+  "botany": {
+    "scientific_name": "Calendula officinalis L.",
+    "common_names_de": [
+      "Ringelblume",
+      "Garten-Ringelblume",
+      "Sonnenbraut"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Blüte (Calendulae flos)"
+    ],
+    "drug_name_latin": "Calendulae flos (Zungenblüten, teils mit Röhrenblüten)"
+  },
+  "identification": {
+    "key_features": [
+      "Leuchtend gelb-orange Blütenköpfchen (5-7 cm), Zungen- + Röhrenblüten",
+      "30-50 cm hoch, oberer Teil verzweigt, weich behaarte Stängel",
+      "Wechselständige, längliche, weich behaarte Blätter",
+      "Ringförmig gekrümmte Früchte (Namensgeber); aromatischer Geruch"
+    ],
+    "season": "Blüte Juni bis September (kontinuierlich)",
+    "habitat": "Gartenpflanze; sonnig, durchlässige, mäßig nährstoffreiche Böden",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Klassische Gartenpflanze; kaum verwechselbar durch charakteristische orange Köpfchen",
+      "arzneilich v. a. die Zungenblüten (im Kelch/Röhrenblüten ~10x mehr ätherisches Öl/Allantoin)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Acker-Ringelblume",
+      "scientific_name": "Calendula arvensis",
+      "toxicity_level": "essbar/unwirksam",
+      "note": "kleinere Blüten, arzneilich weniger genutzt; keine toxische Verwechslung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (Calenduloside)",
+      "Triterpenalkohole",
+      "Flavonoide",
+      "Carotinoide (Beta-Carotin, Lycopin)",
+      "ätherisches Öl",
+      "Cumarine",
+      "Polysaccharide",
+      "Bitterstoff Calendulin"
+    ],
+    "lead_substance": "Triterpene/Triterpenalkohole (Faradiol-Ester) und Flavonoide (antiinflammatorisch, granulationsfördernd)",
+    "solubility_note": "wirksame Triterpene LIPOPHIL → Ölauszug/Salbe ist die logische Zubereitung; wasserlösliche Anteile → Aufguss für Umschläge/Spülung",
+    "heat_light_sensitivity": null
+  },
+  "pharmacology": {
+    "mechanism": "Bei lokaler Anwendung wundheilungsfördernd (Granulationsförderung, Epithelisierung), entzündungshemmend, mild antimikrobiell; Angriffspunkt v. a. Triterpene/Faradiol-Ester und Flavonoide",
+    "evidence_caveat": "traditionelle Anwendung + pharmakologische Plausibilität; belastbare RCTs begrenzt",
+    "pharmacokinetics": "topisch, systemisch nicht relevant"
+  },
+  "indications": [
+    {
+      "canonical": "Kleine Wunden / schlecht heilende Wunden (topisch)",
+      "synonyms": [
+        "Wunde",
+        "Wundheilung",
+        "kleine Wunden",
+        "Schürfwunde",
+        "Ulcus cruris",
+        "Hautverletzung"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP positiv (unterstützend bei Heilung kleiner Wunden); Kommission E (auch Wunden mit schlechter Heilungstendenz)",
+      "realistic_expectation": "Sinnvolle unterstützende Wundpflege bei kleinen/oberflächlichen Wunden; keine Anwendung bei tiefen/infizierten Wunden ohne ärztliche Beurteilung.",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (kleine Wunden, äußerlich)"
+    },
+    {
+      "canonical": "Leichte Hautentzündungen (topisch)",
+      "synonyms": [
+        "Hautentzündung",
+        "Hautreizung",
+        "Sonnenbrand",
+        "Ekzem",
+        "wunde Haut",
+        "Dermatitis"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC/ESCOP: leichte Entzündungen der Haut (z. B. Sonnenbrand)",
+      "realistic_expectation": "Lindernde Lokaltherapie bei leichter Hautreizung.",
+      "source": "HMPC/ESCOP+ (leichte Hautentzündungen)"
+    },
+    {
+      "canonical": "Leichte Entzündungen Mund-/Rachenschleimhaut (Spülung)",
+      "synonyms": [
+        "Halsschmerzen",
+        "Mundschleimhautentzündung",
+        "Zahnfleischentzündung",
+        "Gingivitis",
+        "Gurgeln",
+        "Rachenentzündung"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use; Kommission E (Mund-/Rachenschleimhaut)",
+      "realistic_expectation": "Risikoarme Spülung bei leichten Schleimhautentzündungen.",
+      "source": "HMPC traditional use; Kommission E (Mund-/Rachenschleimhaut)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Bewährte, risikoarme topische Wund- und Hautpflege mit plausibler entzündungshemmender/granulationsfördernder Wirkung",
+    "overstated": "innerliche Heilwirkungen — arzneilich anerkannt ist ausschließlich die äußerliche Anwendung; RingelblumenKRAUT (Calendulae herba) von Kommission E negativ bewertet",
+    "effect_size": "mild-moderat, topisch, symptomatisch/unterstützend"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Salbe/Creme (Ölauszug der Blüten)",
+      "Ölmazerat (Hautpflegeöl)",
+      "Aufguss für Umschläge",
+      "Spülung/Gurgellösung"
+    ],
+    "form_rationale": "SCHLÜSSELPRINZIP: die wirksamen Triterpene sind lipophil → Ölauszug/Salbe ist chemisch die richtige Form, NICHT ein wässriger Tee zum Trinken. Klassisches Beispiel: warum Ringelblumensalbe ein Ölauszug ist.",
+    "standard_dose": "Salbe/Öl mehrmals täglich dünn auftragen; Aufguss (1-2 TL/150 ml, 7 min) für Umschläge",
+    "preservation": "Ölauszug/Salbe kühl+dunkel; getrocknete Blüten dicht/lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "kein Toxin",
+    "contraindications": [
+      "Korbblütler-Allergie (Asteraceae) — CAVE Kreuzreaktion",
+      "Schwangerschaft/Stillzeit (mangels Daten, arzneilich)",
+      "Kinder < 6 Jahren (Datenlage)"
+    ],
+    "pregnancy_lactation": "arzneilich mangels Unbedenklichkeitsdaten zurückhaltend",
+    "adverse_effects": "selten Kontaktallergie (v. a. bei Korbblütler-Sensibilisierung)",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "topische Anwendung",
+        "clinical_relevance": "keine bekannten klinisch relevanten Interaktionen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "asteraceae_allergy": true,
+      "topical_only": true
+    },
+    "key_warning": "Nur äußerlich anerkannt; Korbblütler-Kreuzallergie beachten (gemeinsames Register mit Kamille/Schafgarbe). Nicht auf tiefe/infizierte Wunden ohne ärztliche Beurteilung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "voll geöffnete Blütenköpfchen Juni-September, trockener Vormittag",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blüte",
+    "method": "Köpfchen laufend abpflücken (fördert Nachblüte)",
+    "processing": "rasch luftig trocknen; für Salbe frische/getrocknete Blüten in Öl ausziehen",
+    "storage": "getrocknet dicht/lichtgeschützt; Ölauszug kühl/dunkel"
+  },
+  "kitchen": {
+    "uses": [
+      "essbare Blütenblätter als Deko/Farbgeber ('Safran des armen Mannes')",
+      "in Salaten"
+    ],
+    "culinary_vs_medicinal": "kulinarisch dekorativ; arzneiliche Wirkung ist die topische, nicht die verzehrte"
+  },
+  "garden": {
+    "site_soil": "sonnig, durchlässig, mäßig nährstoffreich, etwas sandig",
+    "hardiness": "einjährig, sät sich zuverlässig selbst aus",
+    "propagation": "Aussaat im Frühjahr; blüht lange, dankbar",
+    "bodensee_suitability": "sehr gut; einfache einjährige Aussaat, insektenfreundlich, ideale Einsteiger-Heilpflanze für Salben"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "orange Ringelblumenblüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "preparation",
+      "caption": "Ölauszug/Salbe aus Ringelblumenblüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Calendulae flos (traditional use, 2018; äußerlich Haut/Schleimhaut/kleine Wunden)",
+    "ESCOP-Monographie (2019; leichte Haut-/Schleimhautentzündungen, kleine Wunden)",
+    "Kommission E (1986; äußerlich Wunden, Mund-/Rachenschleimhaut; Calendulae herba negativ)",
+    "Ph. Eur.; WHO Vol. 2"
+  ]
+}

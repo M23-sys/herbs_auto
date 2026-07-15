@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "id": "allium-ursinum",
+  "botany": {
+    "scientific_name": "Allium ursinum L.",
+    "common_names_de": [
+      "Bärlauch",
+      "Wilder Knoblauch",
+      "Waldknoblauch",
+      "Hexenzwiebel"
+    ],
+    "family": "Amaryllidaceae",
+    "drug_part": [
+      "Blatt",
+      "Blüte",
+      "Zwiebel"
+    ],
+    "drug_name_latin": "Allii ursini herba/folium"
+  },
+  "identification": {
+    "key_features": [
+      "Jedes Blatt hat einen eigenen Stiel, entspringt einzeln aus dem Boden",
+      "Matte Blattunterseite mit deutlicher Mittelrippe",
+      "Knoblauchgeruch beim Zerreiben (aber trügerisch, siehe Regeln)",
+      "Weiche, empfindliche Blätter",
+      "Weiße sternförmige Doldenblüten ab Mitte April"
+    ],
+    "season": "Blätter Anfang März bis Mitte Mai; Blüte ab Mitte April",
+    "habitat": "Halbschattige, feuchte, nährstoffreiche Laub- und Auwälder; nicht auf offenen Wiesen",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Blatt für Blatt einzeln prüfen und ernten, nie büschelweise",
+      "Geruchstest nur beim ersten Blatt gültig (Finger kontaminieren danach)",
+      "Bestimmung vor Ort, nicht im Korb",
+      "Bei Unsicherheit nicht sammeln"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Herbstzeitlose",
+      "scientific_name": "Colchicum autumnale",
+      "toxicity_level": "lebensgefaehrlich",
+      "toxin": "Colchicin",
+      "lethal_note": "ca. 50-60 g Blätter (wenige Blätter) potenziell tödlich; kein spezifisches Gegengift",
+      "distinguishing_features": "Blätter ungestielt, aus Rosette, Scheide am Grund; geruchlos; glänzende Unterseite; eher Wiesen"
+    },
+    {
+      "name": "Maiglöckchen",
+      "scientific_name": "Convallaria majalis",
+      "toxicity_level": "giftig",
+      "toxin": "Herzglykoside",
+      "lethal_note": "meist Magen-Darm-Symptome, selten lebensbedrohlich",
+      "distinguishing_features": "zwei Blätter an gemeinsamem umfassten Stängel; glänzende Unterseite; geruchlos; tritt oft später aus"
+    },
+    {
+      "name": "Gefleckter Aronstab",
+      "scientific_name": "Arum maculatum",
+      "toxicity_level": "giftig",
+      "toxin": "Calciumoxalat, Scharfstoffe",
+      "distinguishing_features": "pfeilförmig, netznervig (nicht parallelnervig), oft dunkle Flecken; kein Knoblauchgeruch"
+    },
+    {
+      "name": "Salomonssiegel/Weißwurz",
+      "scientific_name": "Polygonatum spp.",
+      "toxicity_level": "giftig",
+      "distinguishing_features": "Blätter wechselständig am aufrechten Stängel; kein Knoblauchgeruch"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "schwefelhaltige Cysteinsulfoxide (Alliin)",
+      "Flavonoide",
+      "γ-Glutamylpeptide",
+      "ätherisches Öl (gering)"
+    ],
+    "lead_substance": "Allicin (entsteht beim Zerreiben aus Alliin via Alliinase)",
+    "solubility_note": "Allicin instabil, licht-/hitze-/lagerungsempfindlich; frisch am wirksamsten",
+    "heat_light_sensitivity": "hoch"
+  },
+  "pharmacology": {
+    "mechanism": "Effekte weitgehend aus Knoblauch (Allium sativum) extrapoliert: mild blutdrucksenkend, lipidmodulierend, thrombozytenaggregationshemmend, antimikrobiell (Thiosulfinate)",
+    "evidence_caveat": "Allium ursinum selbst deutlich schwächer untersucht als Knoblauch",
+    "pharmacokinetics": "nicht sauber charakterisiert; Allicin rasch zu Ajoen/Diallylsulfiden umgesetzt"
+  },
+  "indications": [
+    {
+      "canonical": "Kardiovaskuläre Unterstützung",
+      "synonyms": [
+        "Blutdruck",
+        "Cholesterin",
+        "Blutfette",
+        "Herz-Kreislauf"
+      ],
+      "evidence_tag": "PRÄ/TRAD",
+      "comment": "aus Knoblauch extrapoliert, kaum eigene klinische Daten",
+      "realistic_expectation": "allenfalls milde unterstützende Ernährungswirkung, kein Medikamentenersatz",
+      "source": "aus Allium sativum extrapoliert; kaum eigene klinische Daten"
+    },
+    {
+      "canonical": "Antimikrobiell",
+      "synonyms": [
+        "Infektabwehr",
+        "Bakterien"
+      ],
+      "evidence_tag": "PRÄ",
+      "comment": "In-vitro-Effekte",
+      "realistic_expectation": "klinisch nicht belegt",
+      "source": "In-vitro-Daten (Thiosulfinate)"
+    },
+    {
+      "canonical": "Verdauungsförderung / Frühjahrskur",
+      "synonyms": [
+        "Verdauung",
+        "Entschlackung",
+        "Frühjahrskur"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "rein traditionell",
+      "realistic_expectation": "symptomatisch/kulinarisch, keine spezifische Heilwirkung",
+      "source": "traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "gesundes nährstoffreiches Frühlingsgemüse, mildes knoblauchartiges Profil",
+    "overstated": "gezielte Therapie von Blutdruck/Cholesterin/Entgiftung (für A. ursinum nicht belegt)",
+    "effect_size": "als Heilmittel gering, als Lebensmittel vollwertig"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frisch (Pesto, Salat, roh)",
+      "Küchenwürze"
+    ],
+    "form_rationale": "schwefelaktive Wirkstoffe hitze-/lagerungsempfindlich → frisch verwenden",
+    "standard_dose": "keine etablierte Arzneidosis; Anwendung kulinarisch",
+    "preservation": "Einfrieren oder Pesto besser als Trocknen (Trocknen zerstört Wirkstoffe/Aroma)"
+  },
+  "safety": {
+    "tox_ceiling": "Pflanze selbst als Lebensmittel unbedenklich; Risiko liegt vollständig in der Verwechslung",
+    "contraindications": [],
+    "pregnancy_lactation": "als Lebensmittel unproblematisch",
+    "adverse_effects": "bei großen Mengen ggf. Magen-Darm-Reizung",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "theoretisch additiv mit Thrombozytenaggregationshemmern/Antikoagulanzien (wie Knoblauch)",
+        "clinical_relevance": "in Küchenmengen irrelevant, für Bärlauch nicht belegt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Das Risiko ist ein Bestimmungsrisiko, kein pharmakologisches. Verwechslungs-Abschnitt hat Vorrang."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "März bis vor Blühbeginn (ca. Mitte April)",
+    "harvest_month_tags": [
+      3,
+      4
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Blatt für Blatt einzeln, schonend, nicht überernten",
+    "processing": "möglichst frisch verarbeiten",
+    "storage": "frisch nur wenige Tage kühl; Einfrieren/Pesto zur Haltbarmachung; Trocknen nicht empfohlen"
+  },
+  "kitchen": {
+    "uses": [
+      "Pesto",
+      "Aufstriche",
+      "Suppen",
+      "Butter",
+      "Salate",
+      "essbare Blüten"
+    ],
+    "culinary_vs_medicinal": "praktisch identisch; ein Lebensmittel, keine separate Arzneidosis"
+  },
+  "garden": {
+    "site_soil": "halbschattig bis schattig, humos, feucht, unter Sträuchern/Hecken",
+    "hardiness": "voll winterhart, Geophyt (zieht nach Blüte ein)",
+    "propagation": "Kaltkeimer; einfacher über Zwiebeln/Teilung; breitet sich flächig aus",
+    "bodensee_suitability": "sehr gut; eigener Anbau eliminiert Verwechslungsrisiko (kein Maiglöckchen danebensetzen)"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Bärlauch Blätter, Bestand",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "gestieltes Einzelblatt / matte Unterseite",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Herbstzeitlose Blätter im Vergleich",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Maiglöckchen Blätter im Vergleich",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "BfR / Giftinformationszentren (Verwechslungsvergiftungen, Häufung April/Mai)",
+    "AGES Österreich (Merkmale, Colchicin-Letalität, weitere Doppelgänger)",
+    "Gartenfachquellen (Plantura, kraut&rüben, kostbarenatur, ÖKO-TEST)",
+    "Allgemeine Allium-Phytochemie (Alliin/Alliinase/Allicin-System)"
+  ]
+}

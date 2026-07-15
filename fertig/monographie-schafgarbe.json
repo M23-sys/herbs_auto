@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "id": "achillea-millefolium",
+  "botany": {
+    "scientific_name": "Achillea millefolium L.",
+    "common_names_de": [
+      "Gewöhnliche Schafgarbe",
+      "Schafgarbe"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut (Millefolii herba)",
+      "Blüte (Millefolii flos)"
+    ],
+    "drug_name_latin": "Millefolii herba (Kraut), Millefolii flos (Blüte)"
+  },
+  "identification": {
+    "key_features": [
+      "Fein 2-3fach gefiederte, 'tausendblättrige' Blätter (daher 'millefolium')",
+      "Weiße (selten rosa) Blütenköpfchen in flachen Schirmrispen (Doldentrugdolde)",
+      "Aromatischer, würziger Geruch beim Zerreiben; behaarter, kantiger Stängel",
+      "Ausdauernd, mit kurzen Ausläufern"
+    ],
+    "season": "Blüte Juni bis Oktober",
+    "habitat": "Wiesen, Weiden, Wegränder, Böschungen; sonnig, anspruchslos; sehr häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Fein gefiederte Blätter + flache weiße Blütenschirme + aromatischer Geruch als Kombination bestätigend",
+      "Vorsicht: junge Rosette vor Blüte kann mit anderen Doldenblütler-artigen Rosetten verwechselt werden — im Zweifel bis zur Blüte warten (siehe Verwechslung)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Junge Doldenblütler-Rosetten (z. B. Schierling, Wilde Möhre)",
+      "scientific_name": "Apiaceae spp.",
+      "toxicity_level": "teils lebensgefährlich (Schierling)",
+      "note": "im jungen Blattstadium können fein gefiederte Rosetten oberflächlich ähneln; Schafgarbe riecht aromatisch-würzig, Schierling unangenehm 'mäuseartig'. Bei Wildsammlung vor Blüte erhöhte Vorsicht — Blüte abwarten (Schafgarbe: flache weiße Schirme; Apiaceae: echte Dolden)"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (Chamazulen-Bildner, Sesquiterpenlactone)",
+      "Flavonoide",
+      "Gerbstoffe",
+      "Bitterstoffe (Achillein)",
+      "Kaffeesäurederivate"
+    ],
+    "lead_substance": "Sesquiterpenlactone + Flavonoide (spasmolytisch, antiinflammatorisch), Bitterstoffe (appetitanregend/verdauungsfördernd)",
+    "solubility_note": "wasserlösliche Anteile → Tee (innerlich/Sitzbad); auch Aufguss für Umschläge",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig; Aufguss abgedeckt ziehen"
+  },
+  "pharmacology": {
+    "mechanism": "Spasmolytisch und mild antiinflammatorisch (Flavonoide, Sesquiterpenlactone, Azulene), choleretisch/appetitanregend (Bitterstoffe), lokal adstringierend/blutstillend (Gerbstoffe; traditionell 'Wundkraut', daher 'Soldatenkraut')",
+    "evidence_caveat": "traditionelle Anwendung + pharmakologische Plausibilität; kontrollierte klinische Evidenz begrenzt",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Appetitlosigkeit & dyspeptische Beschwerden (innerlich)",
+      "synonyms": [
+        "Appetitlosigkeit",
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Blähungen",
+        "Flatulenz",
+        "Magenkrämpfe",
+        "Magenbeschwerden"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP; Kommission E positiv (Bitterstoff-/Spasmolyse-Prinzip)",
+      "realistic_expectation": "Plausible symptomatische Wirkung bei leichten Verdauungsbeschwerden; Evidenz traditionell.",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (Appetitlosigkeit/Dyspepsie)"
+    },
+    {
+      "canonical": "Leichte menstruationsbedingte Krämpfe / Pelvipathie (innerlich/Sitzbad)",
+      "synonyms": [
+        "Menstruationskrämpfe",
+        "Regelschmerzen",
+        "Unterleibskrämpfe",
+        "Pelvipathia vegetativa",
+        "Sitzbad"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use (leichte Menstruationskrämpfe); ESCOP: Sitzbäder bei Pelvipathia vegetativa",
+      "realistic_expectation": "Traditionelle unterstützende Anwendung bei leichten Krämpfen; kein Ersatz bei starken/organischen Beschwerden.",
+      "source": "HMPC traditional use; ESCOP+ (Menstruationskrämpfe; Sitzbäder Pelvipathie)"
+    },
+    {
+      "canonical": "Kleine oberflächliche Wunden (topisch)",
+      "synonyms": [
+        "Wunde",
+        "kleine Wunden",
+        "Hautentzündung",
+        "Schürfwunde",
+        "Wundkraut"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC/ESCOP traditional use, äußerlich bei kleinen oberflächlichen Wunden",
+      "realistic_expectation": "Traditionelle Wundpflege bei kleinen oberflächlichen Wunden.",
+      "source": "HMPC/ESCOP+ traditional use (kleine Wunden, äußerlich)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Vielseitiges mildes Bitter-/Spasmolyse-Kraut für Verdauung und leichte Krämpfe; traditionelles Wundkraut",
+    "overstated": "starke oder krankheitsmodifizierende Wirkungen — durchweg traditional use",
+    "effect_size": "mild-moderat, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Infus (innerlich)",
+      "Sitzbad",
+      "Aufguss für Umschläge (topisch)"
+    ],
+    "form_rationale": "wasserlösliche Wirkstoffe → Tee/Aufguss deckt innerliche und äußerliche Anwendung",
+    "standard_dose": "Tee ca. 4,5 g Droge/Tag (bzw. je Zubereitung); Aufguss für Umschläge/Sitzbäder",
+    "preservation": "getrocknet dicht/lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "kein klassisches Toxin",
+    "contraindications": [
+      "Korbblütler-Allergie (Asteraceae) — CAVE Kreuzreaktion",
+      "bekannte 'Schafgarben-Dermatitis' (Photo-/Kontaktdermatitis durch Sesquiterpenlactone)"
+    ],
+    "pregnancy_lactation": "arzneilich zurückhaltend (traditionell uteruswirksam diskutiert); Küchenmengen unkritisch",
+    "adverse_effects": "Kontaktdermatitis/Photosensibilisierung möglich (Sesquiterpenlactone), v. a. bei Korbblütler-Sensibilisierten",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "keine klinisch relevanten bekannt",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "asteraceae_allergy": true,
+      "apiaceae_confusion_young": true
+    },
+    "key_warning": "Zwei Punkte: Korbblütler-Kreuzallergie (Register mit Kamille/Ringelblume) und Vorsicht bei Wildsammlung junger Rosetten (oberflächliche Ähnlichkeit mit giftigen Doldenblütlern) — im Zweifel Blüte abwarten."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "blühendes Kraut Juni-Oktober, trockener Vormittag",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend) / Blüte",
+    "method": "obere blühende Triebe schneiden",
+    "processing": "luftig schattig trocknen (ätherisches Öl schonen)",
+    "storage": "getrocknet dicht/lichtgeschützt"
+  },
+  "kitchen": {
+    "uses": [
+      "junge Blätter als würziges Wildkraut (sparsam, bitter)",
+      "in Kräutermischungen"
+    ],
+    "culinary_vs_medicinal": "sparsam kulinarisch (bitter-aromatisch); arzneilich als Tee/Aufguss"
+  },
+  "garden": {
+    "site_soil": "sonnig, durchlässig, nährstoffreich; anspruchslos, trockenheitsverträglich",
+    "hardiness": "voll winterhart, mehrjährig, über Ausläufer ausbreitend",
+    "propagation": "Teilung (Frühjahr/Herbst) oder Aussaat; robust",
+    "bodensee_suitability": "sehr gut/wild vorhanden; wertvolle Insektenweide; Zuchtformen (bunt) nicht für Tee verwenden"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Schafgarbe mit flacher weißer Blütenschirmrispe",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "fein gefiedertes 'tausendblättriges' Blatt",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Millefolii herba & Millefolii flos (traditional use)",
+    "ESCOP-Monographie (Appetitlosigkeit, dyspeptische/krampfartige Beschwerden; extern Wunden; Sitzbäder Pelvipathie)",
+    "Kommission E",
+    "Reviews Achillea millefolium (Pharmakologie, Sesquiterpenlactone, Kontaktdermatitis)"
+  ]
+}

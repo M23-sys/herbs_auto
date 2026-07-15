@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "id": "sambucus-nigra",
+  "botany": {
+    "scientific_name": "Sambucus nigra L.",
+    "common_names_de": [
+      "Schwarzer Holunder",
+      "Holunder",
+      "Fliederbeere",
+      "Holler"
+    ],
+    "family": "Adoxaceae (früher Caprifoliaceae)",
+    "drug_part": [
+      "Blüte (Sambuci flos)",
+      "Frucht/Beere (Sambuci fructus)"
+    ],
+    "drug_name_latin": "Sambuci flos (Blüte), Sambuci fructus (Frucht)"
+  },
+  "identification": {
+    "key_features": [
+      "Verholzter Strauch/kleiner Baum bis ~6 m",
+      "Gefiederte Blätter mit 5-7 Fiederblättchen",
+      "Cremeweiße Blüten in flachen, tellerförmigen Doldenrispen (Mai-Juli)",
+      "Schwarz-violette Beeren in überhängenden Dolden (ab Spätsommer)"
+    ],
+    "season": "Blüte Mai-Juli; Fruchtreife August-September",
+    "habitat": "Siedlungsnähe, Wegränder, Waldsäume, Böschungen; häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Flache Blütenteller mit gefiederten Blättern und verholztem Wuchs als Bestätiger",
+      "Nur vollreife violett-schwarze Beeren verarbeiten; unreife (rote/grüne) aussortieren (höherer Sambunigringehalt)",
+      "Roten Holunder (S. racemosa, kegelförmige Blüten) und Attich (S. ebulus) meiden — stärker giftig"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Roter Holunder / Traubenholunder",
+      "scientific_name": "Sambucus racemosa",
+      "toxicity_level": "giftig",
+      "note": "kegelförmige (nicht flache) Blütenstände, rote Beeren; Samen bleiben auch nach Erhitzen giftig"
+    },
+    {
+      "name": "Attich / Zwerg-Holunder",
+      "scientific_name": "Sambucus ebulus",
+      "toxicity_level": "giftig",
+      "note": "krautig (nicht verholzt), aufrechte Beerenstände; deutlich giftiger als Schwarzer Holunder"
+    }
+  ],
+  "chemistry": {
+    "main_groups_blossom": [
+      "ätherisches Öl",
+      "Flavonoide (Rutin, Quercetin, Kämpferol)",
+      "Chlorogensäure",
+      "Gerbstoffe",
+      "Schleimstoffe"
+    ],
+    "main_groups_fruit": [
+      "Anthocyane",
+      "Vitamin C",
+      "Fruchtsäuren",
+      "Gerbstoffe",
+      "cyanogenes Glykosid Sambunigrin (roh)"
+    ],
+    "lead_substance": "Blüte: Flavonoide/ätherisches Öl; Frucht: Anthocyane. Sicherheitsrelevant: Sambunigrin (roh)",
+    "solubility_note": "Blütentee als Aufguss; Beeren als gekochter Saft/Sirup",
+    "heat_light_sensitivity": "Sambunigrin hitzelabil — durch Erhitzen (>80 °C, 15-20 min) zerstört"
+  },
+  "pharmacology": {
+    "mechanism": "Blüte: schweißtreibend (diaphoretisch), mild entzündungshemmend/reizlindernd (Flavonoide, ätherisches Öl). Frucht: antioxidativ (Anthocyane), immunmodulatorisch diskutiert bei Atemwegsinfekten",
+    "evidence_caveat": "Wirkmechanismen bei Atemwegsinfekten nicht abschließend geklärt; Studien betreffen meist Frucht-/Extraktpräparate",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Frühsymptome banaler Erkältung (Blüte)",
+      "synonyms": [
+        "Erkältung",
+        "Erkältungsbeginn",
+        "grippaler Infekt",
+        "Schwitzkur",
+        "Fieber",
+        "Schnupfen"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für Sambuci flos zur Linderung früher Erkältungssymptome; klinische Studien begrenzt",
+      "realistic_expectation": "Traditionelle unterstützende Schwitzkur; kann Symptome begleitend lindern, keine kausale Heilung.",
+      "source": "HMPC traditional use, Sambuci flos (frühe Erkältungssymptome)"
+    },
+    {
+      "canonical": "Infekte der oberen Atemwege (Frucht/Extrakt)",
+      "synonyms": [
+        "Atemwegsinfekt",
+        "Erkältungsdauer",
+        "Grippe",
+        "Husten"
+      ],
+      "evidence_tag": "PRÄ/TRAD",
+      "comment": "Metaanalyse (Hawkins 2019) deutet mögliche Verkürzung/Abschwächung an, Datenlage heterogen; keine EU-Monographie für die Frucht",
+      "realistic_expectation": "Möglicher milder symptomverkürzender Effekt, Evidenz uneinheitlich. Kein Ersatz für medizinische Abklärung bei schwerem Verlauf.",
+      "source": "Hawkins et al. 2019 (Metaanalyse); keine EU-Monographie für Frucht"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Blütentee als traditionelle Schwitzkur bei Erkältungsbeginn; Beerensirup als vitaminreiche Winterküche mit möglicher milder Wirkung",
+    "overstated": "Holunder als antivirales 'Grippemittel' — Evidenz zu schwach für therapeutische Ansprüche",
+    "effect_size": "gering-moderat, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Blüte: heißer Aufguss (2-3 g/200 ml, abgedeckt 10-15 min)",
+      "Frucht: gekochter Saft/Sirup (nie roh)"
+    ],
+    "form_rationale": "SICHERHEITSKRITISCH: rohe Beeren enthalten Sambunigrin → immer erhitzen (>80 °C, 15-20 min). Blüten sind ungiftig, Beeren roh unverträglich.",
+    "standard_dose": "Blütentee 2-4x täglich sehr warm; Beerensirup als Nahrungsergänzung",
+    "preservation": "Beeren gekocht als Saft/Sirup/Gelee haltbar; Blüten trocknen"
+  },
+  "safety": {
+    "tox_ceiling": "Rohe/unreife Beeren, Blätter und Rinde enthalten Sambunigrin (Blausäurevorstufe) → Übelkeit, Erbrechen, Krämpfe; durch Erhitzen zerstört",
+    "contraindications": [
+      "Rohverzehr der Beeren",
+      "Überempfindlichkeit gegen Holunder(pollen)"
+    ],
+    "pregnancy_lactation": "Blütentee in üblichen Mengen und gekochte Beerenprodukte traditionell vertretbar; hochkonzentrierte Präparate meiden; keine rohen Beeren",
+    "adverse_effects": "nach Rohverzehr Magen-Darm-Beschwerden; selten allergische Reaktionen (Pollen)",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Blütentee/gekochte Beeren in üblichen Mengen",
+        "clinical_relevance": "keine bekannten klinisch relevanten Interaktionen"
+      },
+      {
+        "type": "hinweis",
+        "mechanism": "sehr gerbstoffreiche Zusätze können Arzneiabsorption mindern",
+        "clinical_relevance": "gering, ggf. 1-2 h Abstand"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": true,
+      "requires_heating": true
+    },
+    "key_warning": "Die Sicherheitsfrage ist eine ZUBEREITUNGSfrage: roh = unverträglich (Sambunigrin), erhitzt = sicher. Kein Rohverzehr, unreife Beeren aussortieren, giftige Schwesterarten (Roter Holunder, Attich) abgrenzen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten Mai-Juli (trocken, voll geöffnet); Beeren August-September (vollreif violett-schwarz)",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blüte und Frucht (getrennt)",
+    "method": "Blütendolden trocken schneiden; nur reife Beerendolden, gründlich verlesen; bei Beerenverarbeitung Handschuhe (starker Farbstoff)",
+    "processing": "Blüten luftig trocknen; Beeren stets kochen (>80 °C, 15-20 min)",
+    "storage": "getrocknete Blüten dicht/dunkel; Beeren gekocht als Saft/Sirup haltbar"
+  },
+  "kitchen": {
+    "uses": [
+      "Holunderblütensirup",
+      "Blüten in Teig ausgebacken (Küchle)",
+      "Beerensaft/Gelee/Suppe (gekocht)",
+      "Likör"
+    ],
+    "culinary_vs_medicinal": "kulinarisch beliebt; identische Sicherheitsregel — Beeren nie roh, immer erhitzt"
+  },
+  "garden": {
+    "site_soil": "anspruchslos, nährstoffreich, sonnig bis halbschattig",
+    "hardiness": "voll winterhart, schnellwüchsig, langlebig",
+    "propagation": "Steckhölzer sehr leicht; sät sich auch selbst aus",
+    "bodensee_suitability": "sehr gut; häufig wild, pflegeleicht, insekten- und vogelfreundlich"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "flache cremeweiße Blütendolde",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "fruit",
+      "caption": "reife schwarze Beerendolde (überhängend)",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Roter Holunder: kegelförmiger Blütenstand",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Sambuci flos (traditional use, frühe Erkältungssymptome); keine EU-Monographie für Sambuci fructus",
+    "Hawkins et al. 2019 (Metaanalyse Holunder bei Atemwegsinfekten)",
+    "BfR / Landwirtschaftskammer (Sambunigrin, Rohverzehr, Erhitzen)",
+    "Wichtl: Teedrogen und Phytopharmaka"
+  ]
+}

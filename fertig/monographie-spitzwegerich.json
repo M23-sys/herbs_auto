@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "id": "plantago-lanceolata",
+  "botany": {
+    "scientific_name": "Plantago lanceolata L.",
+    "common_names_de": [
+      "Spitzwegerich",
+      "Spitz-Wegerich",
+      "Spießkraut"
+    ],
+    "family": "Plantaginaceae",
+    "drug_part": [
+      "Blatt/Kraut (Plantaginis lanceolatae folium/herba)"
+    ],
+    "drug_name_latin": "Plantaginis lanceolatae folium (Blatt), -herba (Kraut)"
+  },
+  "identification": {
+    "key_features": [
+      "Schmale, lanzettliche Blätter mit 3–7 deutlichen, parallelen Längsnerven",
+      "Blätter in bodenständiger Rosette",
+      "Langer, blattloser, gefurchter Blütenschaft mit kurzer walziger Blütenähre",
+      "Herausragende weißliche Staubblätter an der Ähre; beim Zerreiben mild-grasig"
+    ],
+    "season": "Blüte Mai bis September",
+    "habitat": "Wiesen, Weiden, Wegränder, Rasen; sehr häufig, anspruchslos; tiefe Pfahlwurzel",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Parallelnervige lanzettliche Blätter in Rosette + typische Blütenähre eindeutig",
+      "keine relevante toxische Verwechslung (sehr einsteigerfreundliche Wildpflanze)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Breitwegerich / Mittlerer Wegerich",
+      "scientific_name": "Plantago major / media",
+      "toxicity_level": "essbar",
+      "note": "verwandte Wegerich-Arten, breitere Blätter, gleichfalls essbar/nutzbar; keine toxische Verwechslung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Iridoidglykoside (Aucubin, Catalpol)",
+      "Schleimstoffe (Polysaccharide)",
+      "Gerbstoffe",
+      "Flavonoide",
+      "Kieselsäure"
+    ],
+    "lead_substance": "Aucubin (antimikrobiell/antiinflammatorisch), Schleimstoffe (reizlindernd), Gerbstoffe (adstringierend)",
+    "solubility_note": "wasserlöslich → Tee/Sirup/Frischpflanzensaft; Schleimstoffe am besten als Kaltauszug/Tee",
+    "heat_light_sensitivity": "Aucubin relativ empfindlich; Frischsaft/schonende Zubereitung erhält Wirkstoffe besser"
+  },
+  "pharmacology": {
+    "mechanism": "Reizlindernd durch Schleimstoffe (Film über gereizter Schleimhaut), adstringierend (Gerbstoffe), mild antimikrobiell/antiinflammatorisch (Aucubin); traditionell blutstillend/wundheilend topisch",
+    "evidence_caveat": "traditionelle Anwendung + pharmakologische Plausibilität; hochwertige klinische Studien begrenzt (Gesamtevidenz moderat)",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Trockener Reizhusten / Schleimhautreizung Mund-Rachen (innerlich)",
+      "synonyms": [
+        "Reizhusten",
+        "trockener Husten",
+        "Husten",
+        "Halskratzen",
+        "Halsschmerzen",
+        "Katarrh",
+        "Erkältungshusten",
+        "Schleimhautreizung"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use (Schleimhautreizungen Mund-/Rachenraum und damit verbundener trockener Reizhusten); ESCOP (Katarrhe der Luftwege); Kommission E",
+      "realistic_expectation": "Sinnvolle, sehr risikoarme Reizlinderung bei trockenem Husten/Halskratzen; symptomatisch. Einer der sichersten Fälle im Katalog.",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (Reizhusten/Schleimhautreizung)"
+    },
+    {
+      "canonical": "Entzündungen Mund-/Rachenschleimhaut (topisch/Spülung)",
+      "synonyms": [
+        "Mundschleimhautentzündung",
+        "Rachenentzündung",
+        "Gurgeln",
+        "wunder Hals"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "ESCOP/Kommission E: äußerlich/lokal bei entzündlichen Schleimhautveränderungen",
+      "realistic_expectation": "Risikoarme Lokalanwendung.",
+      "source": "ESCOP+; Kommission E (Mund-/Rachenschleimhaut, äußerlich)"
+    },
+    {
+      "canonical": "Insektenstiche / kleine Hautreizungen (topisch, Frischblatt)",
+      "synonyms": [
+        "Insektenstich",
+        "Mückenstich",
+        "Hautreizung",
+        "Juckreiz",
+        "kleine Wunde"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "volksmedizinisch: zerquetschtes Frischblatt auf Insektenstiche (Aucubin/Gerbstoffe); Erfahrungsheilkunde",
+      "realistic_expectation": "Traditionelles 'Feld-Hausmittel' bei Insektenstichen; kein belegter Ersatz, aber harmlos und praktisch.",
+      "source": "Erfahrungsheilkunde (Insektenstiche, Frischblatt)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Verlässliches, sehr sicheres Reizhusten-/Schleimhaut-Kraut; praktisches Frischblatt-Hausmittel bei Insektenstichen",
+    "overstated": "starke antibiotische/heilende Wirkungen — Aucubin-Antibiose bedarf weiterer Untersuchung; Evidenz traditional/moderat",
+    "effect_size": "mild-moderat, symptomatisch, sehr risikoarm"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Infus (ca. 3 g/150 ml, 10 min; 2–3 Tassen/Tag)",
+      "Hustensaft/Sirup",
+      "Frischpflanzensaft",
+      "zerquetschtes Frischblatt topisch"
+    ],
+    "form_rationale": "wasserlösliche Schleim-/Gerbstoffe → Tee/Sirup; Frischsaft erhält empfindliches Aucubin am besten",
+    "standard_dose": "mittlere Tagesdosis 4–6 g Kraut innerlich",
+    "preservation": "getrocknet dicht/lichtgeschützt; frisch/Sirup für besseren Wirkstofferhalt"
+  },
+  "safety": {
+    "tox_ceiling": "kein Toxin; sehr sichere Pflanze",
+    "contraindications": [
+      "Allergie gegen Bestandteile",
+      "innerlich keine Anwendung bei Kindern < 3 Jahren (Datenlage); orale Schleimhautanwendung < 18 J. eingeschränkt"
+    ],
+    "pregnancy_lactation": "in üblichen Mengen als unkritisch angesehen; arzneilich im Zweifel Rücksprache",
+    "adverse_effects": "sehr selten; gute Verträglichkeit",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "übliche Teezubereitung",
+        "clinical_relevance": "keine klinisch relevanten Interaktionen bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "high_safety": true
+    },
+    "key_warning": "Einer der sichersten Katalog-Einträge — keine relevante Verwechslung, kein Toxin, kaum Interaktionen. Ideale Einsteiger-Wildpflanze."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter/Kraut zur Blütezeit (Mai-September)",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blatt/Kraut",
+    "method": "Blätter/blühendes Kraut sammeln",
+    "processing": "rasch trocknen (Aucubin empfindlich) oder frisch zu Saft/Sirup verarbeiten",
+    "storage": "getrocknet dicht/lichtgeschützt; Frischsaft/Sirup gekühlt"
+  },
+  "kitchen": {
+    "uses": [
+      "junge Blätter als Wildsalat/Gemüse (pilzig-nussig)",
+      "Wildkräuter-Mischung"
+    ],
+    "culinary_vs_medicinal": "junge Blätter essbar; arzneilich als Tee/Saft — fließender Übergang"
+  },
+  "garden": {
+    "site_soil": "anspruchslos; Wiesen-/Rasenpflanze, sonnig, fast jeder Boden",
+    "hardiness": "voll winterhart, mehrjährig, tiefe Pfahlwurzel",
+    "propagation": "Selbstaussaat; meist ohnehin im Rasen vorhanden (aus der Natur gewinnbar)",
+    "bodensee_suitability": "sehr gut/ohnehin vorhanden; praktisch überall verfügbar, ideale Einsteigerpflanze"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Spitzwegerich Rosette mit Blütenähre",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "lanzettliches Blatt mit parallelen Längsnerven",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Plantaginis lanceolatae folium (traditional use: Schleimhautreizung Mund-/Rachen, trockener Reizhusten)",
+    "ESCOP-Monographie (Katarrhe der Luftwege; extern Schleimhautentzündungen)",
+    "Kommission E (Katarrhe, Schleimhautentzündungen, extern Hautentzündungen)",
+    "Ph. Eur.; DAB"
+  ]
+}

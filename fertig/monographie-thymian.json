@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "id": "thymus-vulgaris",
+  "botany": {
+    "scientific_name": "Thymus vulgaris L.",
+    "common_names_de": [
+      "Echter Thymian",
+      "Gartenthymian"
+    ],
+    "family": "Lamiaceae",
+    "drug_part": [
+      "Kraut (Thymi herba)",
+      "ätherisches Öl (Thymi aetheroleum)"
+    ],
+    "drug_name_latin": "Thymi herba (Kraut), Thymi aetheroleum (Öl)"
+  },
+  "identification": {
+    "key_features": [
+      "Niedriger, aromatischer, verholzender Zwergstrauch",
+      "Kleine, schmale, eingerollte graugrüne Blätter",
+      "Vierkantige Stängel (Lamiaceae)",
+      "Würzig-aromatischer Geruch beim Zerreiben (Thymol); hell-lila Lippenblüten"
+    ],
+    "season": "Blüte Mai bis Juli",
+    "habitat": "Sonnig, trocken, durchlässig, kalkhaltig; mediterrane Herkunft",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Gartenkultur; wilder heimischer Verwandter ist der Quendel/Feld-Thymian (Thymus pulegioides/serpyllum)",
+      "Würziger Thymol-Geruch als Bestätiger"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Quendel / Feld-Thymian",
+      "scientific_name": "Thymus pulegioides / serpyllum",
+      "toxicity_level": "essbar",
+      "note": "heimischer wilder Verwandter, ähnliche Verwendung, aromaärmer; keine toxische Verwechslung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (Thymol, Carvacrol) — Ph. Eur. min. 12 ml/kg, Thymol+Carvacrol ≥ 40% des Öls",
+      "Lamiaceen-Gerbstoffe (Rosmarinsäure)",
+      "Flavonoide"
+    ],
+    "lead_substance": "Thymol, Carvacrol (antimikrobiell, spasmolytisch, expektorierend)",
+    "solubility_note": "ätherisches Öl lipophil/flüchtig → Tinktur/Inhalation; Gerbstoffe/Flavonoide wasserlöslich → Tee",
+    "heat_light_sensitivity": "Öl flüchtig; Aufguss abgedeckt ziehen lassen"
+  },
+  "pharmacology": {
+    "mechanism": "Bronchospasmolytisch, sekretolytisch/expektorierend, antimikrobiell (Thymol/Carvacrol; teils COX-2-Hemmung durch Carvacrol); lokal adstringierend/antiseptisch",
+    "evidence_caveat": "klinische Evidenz begrenzt bis moderat; ein Teil der Studien betrifft KOMBINATIONSpräparate",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Produktiver Husten bei Erkältung (Thymian allein)",
+      "synonyms": [
+        "Husten",
+        "produktiver Husten",
+        "verschleimter Husten",
+        "Bronchitis",
+        "Katarrh",
+        "Erkältungshusten"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use für Thymi herba allein (kein WEU!); ESCOP positiv; Kommission E positiv. Wirkung plausibel, klinische Belege für Monopräparat begrenzt",
+      "realistic_expectation": "Sinnvolle traditionelle Anwendung bei verschleimtem Erkältungshusten; als Monopräparat schwächer belegt als sein Ruf vermuten lässt.",
+      "source": "HMPC traditional use, Thymi herba allein; ESCOP+; Kommission E"
+    },
+    {
+      "canonical": "Akute Bronchitis (Kombination Thymian + Primel/Efeu)",
+      "synonyms": [
+        "Bronchitis",
+        "akute Bronchitis",
+        "Bronchipret"
+      ],
+      "evidence_tag": "WEU",
+      "comment": "WEU-Status besteht NUR für fixe Kombinationen aus Thymian + Primelwurzel bzw. Efeu (RCT-Evidenz, z. B. Bronchipret®), nicht für Thymian allein",
+      "realistic_expectation": "In den geprüften Fixkombinationen klinisch belegt — wichtig: die starke Evidenz gehört der Kombination, nicht dem Thymian solo.",
+      "source": "HMPC well-established use NUR für Fixkombination Thymian+Primel/Efeu (RCT)"
+    },
+    {
+      "canonical": "Entzündungen Mund-/Rachenschleimhaut (topisch)",
+      "synonyms": [
+        "Halsschmerzen",
+        "Mundschleimhautentzündung",
+        "Gurgeln",
+        "Mundgeruch",
+        "Rachenentzündung"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "ESCOP: Mundspülung bei Schleimhautentzündungen; Kommission E; traditionell",
+      "realistic_expectation": "Risikoarme Lokalanwendung als Gurgellösung.",
+      "source": "ESCOP+; Kommission E (Mundspülung)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Traditionell bei verschleimtem Husten; in Fixkombination mit Primel/Efeu klinisch belegt (WEU)",
+    "overstated": "Thymian-Tee allein als evidenzbasierter Bronchitis-Behandler — der WEU-Beleg gehört der KOMBINATION, nicht dem Monopräparat",
+    "effect_size": "solo traditionell/moderat; Kombination klinisch relevant"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Infus (1–2 TL ≈ 3 g/Tasse, mehrmals täglich; Tagesdosis bis ~12 g)",
+      "Tinktur",
+      "Gurgellösung (~5% Aufguss)",
+      "Inhalation (Öl)"
+    ],
+    "form_rationale": "wasserlösliche + ätherische Anteile → Tee für Alltag, Tinktur/Inhalation für öl-betonte Wirkung",
+    "standard_dose": "Tee 1–2 TL/Tasse; Tagesdosis bis ca. 12 g Droge",
+    "preservation": "getrocknet dicht/lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "kein klassisches Toxin; Thymianöl konzentriert reizend — nicht unverdünnt anwenden",
+    "contraindications": [
+      "Überempfindlichkeit gegen Lamiaceae",
+      "flüssige Thymianzubereitungen nicht bei Kindern < 4 J.; Thymianöl nicht bei < 18 J."
+    ],
+    "pregnancy_lactation": "Tee in üblichen Mengen meist unproblematisch; konzentrierte Öl-Präparate meiden",
+    "adverse_effects": "sehr selten Überempfindlichkeitsreaktionen (Luftnot, Hautreaktionen, Schwellungen)",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Teedroge in üblichen Mengen",
+        "clinical_relevance": "keine klinisch relevanten Interaktionen bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "oil_age_restriction": true
+    },
+    "key_warning": "Lehrbeispiel Evidenz vs. Ruf: Thymian solo = traditional use; der WEU-Beleg gilt nur für Fixkombinationen (Thymian+Primel/Efeu). Öl bei Kindern eingeschränkt."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "kurz vor/zur Blüte (höchster Ölgehalt), trockener Vormittag",
+    "harvest_month_tags": [
+      5,
+      6,
+      7
+    ],
+    "harvest_organ": "Kraut (blühende Triebspitzen)",
+    "method": "Triebspitzen schneiden, Blätter/Blüten von Stängeln abstreifen",
+    "processing": "luftig schattig trocknen, mäßige Temperatur",
+    "storage": "getrocknet ganz, dicht/lichtgeschützt; erst vor Gebrauch zerkleinern"
+  },
+  "kitchen": {
+    "uses": [
+      "Fleisch",
+      "Eintöpfe",
+      "mediterrane Küche",
+      "Kräuter der Provence"
+    ],
+    "culinary_vs_medicinal": "Küchenmengen unproblematisch; arzneiliche Dosen höher konzentriert"
+  },
+  "garden": {
+    "site_soil": "vollsonnig, durchlässig, mager, kalkverträglich; Staunässe meiden",
+    "hardiness": "winterhart (jüngere Pflanzen ggf. Winterschutz), verholzt",
+    "propagation": "Aussaat, Stecklinge oder Teilung; regelmäßiger Rückschnitt gegen Verholzen",
+    "bodensee_suitability": "sehr gut; pflegeleichte, insektenfreundliche Kübel-/Beetpflanze"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Thymian Zwergstrauch mit Blüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "kleine eingerollte Blätter, vierkantiger Stängel",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Thymi herba & Thymi aetheroleum (traditional use, produktiver Erkältungshusten)",
+    "Pharmazeutische Zeitung (WEU nur für Fixkombinationen Thymian+Primel/Efeu, HMPC 2016)",
+    "ESCOP-Monographie (Katarrhe obere Luftwege, Bronchitis, Keuchhusten-unterstützend)",
+    "Kommission E; Ph. Eur. (Mindestölgehalt, Thymol/Carvacrol)"
+  ]
+}

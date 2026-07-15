@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "id": "hypericum-perforatum",
+  "botany": {
+    "scientific_name": "Hypericum perforatum L.",
+    "common_names_de": [
+      "Echtes Johanniskraut",
+      "Tüpfel-Johanniskraut",
+      "Tüpfel-Hartheu"
+    ],
+    "family": "Hypericaceae",
+    "drug_part": [
+      "Kraut (blühende Triebspitzen)"
+    ],
+    "drug_name_latin": "Hyperici herba"
+  },
+  "identification": {
+    "key_features": [
+      "Goldgelbe fünfzählige Blüten, Staubblätter büschelig",
+      "Blätter mit durchscheinenden Öldrüsen ('perforiert' gegen Licht betrachtet)",
+      "Schwarze Drüsenpunkte an Blütenrändern; roter Farbstoff (Hypericin) beim Zerreiben der Blüte",
+      "Zweikantiger Stängel"
+    ],
+    "season": "Blüte Juni bis August (um Johanni, 24. Juni)",
+    "habitat": "Trockene, sonnige Standorte: Wegränder, Böschungen, Magerwiesen",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Blühende Triebspitzen sammeln (höchster Wirkstoffgehalt zur Blüte)",
+      "Öldrüsen (durchscheinende Punkte) und roter Saft der Blüte als Bestätiger"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Andere Hypericum-Arten (z. B. Behaartes/Geflügeltes Johanniskraut)",
+      "scientific_name": "Hypericum spp.",
+      "toxicity_level": "gering giftig / unwirksam",
+      "distinguishing_features": "H. perforatum: zweikantiger Stängel + durchscheinende Öldrüsen; andere Arten wirkstoffärmer, für Arzneigebrauch ungeeignet"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Naphthodianthrone (Hypericin, Pseudohypericin)",
+      "Phloroglucine (Hyperforin)",
+      "Flavonoide (Hyperosid, Rutin, Quercetin)",
+      "Gerbstoffe"
+    ],
+    "lead_substance": "Hyperforin (Interaktionen, teils Wirkung), Hypericin (Photosensibilisierung)",
+    "solubility_note": "Standardisierte Trockenextrakte; Hyperforin-Gehalt schwankt stark je Präparat und ist der Schlüssel für das Interaktionsprofil",
+    "heat_light_sensitivity": "Hypericin lichtempfindlich; Extraktqualität entscheidend"
+  },
+  "pharmacology": {
+    "mechanism": "Antidepressiv: multipler Mechanismus (Wiederaufnahmehemmung Serotonin/Noradrenalin/Dopamin, Modulation), zugeschrieben v. a. Hyperforin + Hypericin. Interaktionsseite: Hyperforin bindet an PXR-Rezeptor → Induktion von CYP3A4 und P-Glykoprotein (ABCB1)",
+    "evidence_caveat": "Wirkstärke präparateabhängig; Interaktionsrisiko korreliert mit Hyperforin-Gehalt",
+    "pharmacokinetics": "Enzym-/Transporterinduktion setzt nach ~3 Tagen ein, Maximum nach 1-2 Wochen, hält nach Absetzen ähnlich lange an (reversibel)"
+  },
+  "indications": [
+    {
+      "canonical": "Leichte bis mittelschwere depressive Episode",
+      "synonyms": [
+        "Depression",
+        "depressive Verstimmung",
+        "Niedergeschlagenheit",
+        "leichte Depression",
+        "Stimmungstief"
+      ],
+      "evidence_tag": "WEU",
+      "comment": "HMPC well-established use für standardisierte Extrakte; Cochrane-Evidenz für leichte-mittelschwere Depression vergleichbar mit Standardantidepressiva bei besserer Verträglichkeit",
+      "realistic_expectation": "Bei leichter-mittelschwerer Depression wirksam belegt. NICHT bei schwerer Depression. Interaktionsrisiko schränkt Einsatz stark ein.",
+      "source": "HMPC well-established use; Cochrane Review (leichte-mittelschwere Depression)"
+    },
+    {
+      "canonical": "Nervöse Unruhe / psychovegetative Beschwerden",
+      "synonyms": [
+        "Unruhe",
+        "innere Anspannung",
+        "nervöse Erschöpfung"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für Teezubereitungen",
+      "realistic_expectation": "Milde traditionelle Anwendung; schwächer belegt als die Depressionsindikation.",
+      "source": "HMPC traditional use (Teezubereitung)"
+    },
+    {
+      "canonical": "Kleinere Wunden / Verbrennungen (topisch, Rotöl)",
+      "synonyms": [
+        "Wundheilung",
+        "Verbrennung",
+        "Muskelschmerzen",
+        "Rotöl",
+        "Johanniskrautöl"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use topisch (Ölmazerat)",
+      "realistic_expectation": "Traditionelle Lokalanwendung; Vorsicht Photosensibilisierung bei Sonnenexposition.",
+      "source": "HMPC traditional use (topisch, Rotöl)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wirksames Phytopharmakon bei leichter-mittelschwerer Depression (WEU) — die stärkste Evidenz im bisherigen Kern-Katalog",
+    "overstated": "Harmloses 'Naturheilmittel ohne Nebenwirkungen' — falsch: es ist der klinisch bedeutsamste Interaktionspartner unter den Heilkräutern",
+    "effect_size": "klinisch relevant bei richtiger Indikation; Nutzen wird durch Interaktionsrisiko relativiert"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "standardisierter Trockenextrakt (Fertigarzneimittel)",
+      "Tee (traditionell, schwächer)",
+      "Rotöl/Ölmazerat (topisch)"
+    ],
+    "form_rationale": "Für die belegte antidepressive Wirkung standardisierte Extrakte nötig; Selbstherstellung nicht standardisierbar",
+    "standard_dose": "je Präparat (typisch 300-900 mg Extrakt/Tag); Wirkeintritt verzögert (2-4 Wochen)",
+    "preservation": "Extraktqualität lichtgeschützt lagern"
+  },
+  "safety": {
+    "tox_ceiling": "Photosensibilisierung durch Hypericin bei hoher Dosis/heller Haut möglich; Sonnenexposition/Solarium meiden",
+    "contraindications": [
+      "schwere Depression (nicht als Monotherapie)",
+      "gleichzeitige Einnahme interagierender Arzneistoffe (s. u.)",
+      "bekannte Photosensibilität"
+    ],
+    "pregnancy_lactation": "unzureichende Daten; arzneiliche Anwendung in Schwangerschaft/Stillzeit meiden",
+    "adverse_effects": "gastrointestinal, Müdigkeit/Unruhe, Photosensibilisierung; insgesamt gut verträglich",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "CYP3A4-Induktion (via Hyperforin/PXR)",
+        "affected": "Ciclosporin, Tacrolimus, HIV-Proteasehemmer, viele Statine, Kalziumantagonisten u. v. m.",
+        "clinical_relevance": "hoch — Wirkverlust der Komedikation, Transplantatabstoßung dokumentiert"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "P-Glykoprotein-Induktion (ABCB1)",
+        "affected": "Digoxin u. a.",
+        "clinical_relevance": "hoch"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Induktion CYP-vermittelt",
+        "affected": "orale Kontrazeptiva (Versagen/Zwischenblutungen), Warfarin/Phenprocoumon (INR-Abfall)",
+        "clinical_relevance": "hoch"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive Serotoninwirkung",
+        "affected": "SSRI, SNRI, Triptane, MAO-Hemmer",
+        "clinical_relevance": "hoch — Serotoninsyndrom-Risiko"
+      },
+      {
+        "type": "differenzierung",
+        "mechanism": "hyperforinarme Extrakte (z. B. Ze 117) zeigen in Studien KEINE relevante CYP-/P-gp-Induktion",
+        "clinical_relevance": "Interaktionsrisiko ist präparateabhängig, nicht pflanzenpauschal"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": true,
+      "cyp3a4_inducer": true,
+      "pgp_inducer": true,
+      "serotonergic": true,
+      "photosensitizing": true,
+      "toxin_ceiling": false
+    },
+    "key_warning": "Der klinisch wichtigste Interaktionspartner unter den Heilkräutern. Immer Medikationsanamnese. Risiko korreliert mit Hyperforin-Gehalt des Präparats."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühende Triebspitzen zur Vollblüte (Juni-August)",
+    "harvest_month_tags": [
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Kraut (Triebspitzen)",
+    "method": "obere blühende Abschnitte schneiden",
+    "processing": "schonend trocknen, lichtgeschützt; für belegte Wirkung Fertigextrakt bevorzugen",
+    "storage": "trocken, dunkel; Wirkstoffe (Hypericin) lichtempfindlich"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "keine kulinarische Verwendung; reine Arzneipflanze"
+  },
+  "garden": {
+    "site_soil": "sonnig, trocken, durchlässig, mager",
+    "hardiness": "winterhart, mehrjährig",
+    "propagation": "Aussaat (Lichtkeimer) oder Teilung; kann sich versamen",
+    "bodensee_suitability": "gut; wächst wild in der Region, im Garten anspruchslos"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "blühendes Johanniskraut",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Blatt gegen Licht: durchscheinende Öldrüsen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "roter Saft beim Zerreiben der Blüte (Hypericin)",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC EU herbal monograph Hypericum perforatum (well-established + traditional use)",
+    "Henderson et al. 2002, Br J Clin Pharmacol (Interaktionen/klinische Outcomes)",
+    "Zhou et al. 2004 (CYP3A4/P-gp-Induktion)",
+    "Ze 117 low-hyperforin studies (keine relevante CYP-/P-gp-Induktion)",
+    "Cochrane Review Johanniskraut bei Depression"
+  ]
+}

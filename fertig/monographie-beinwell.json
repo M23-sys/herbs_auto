@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "id": "symphytum-officinale",
+  "botany": {
+    "scientific_name": "Symphytum officinale L.",
+    "common_names_de": [
+      "Echter Beinwell",
+      "Wallwurz",
+      "Beinwurz",
+      "Schwarzwurz"
+    ],
+    "family": "Boraginaceae (Raublattgewächse)",
+    "drug_part": [
+      "Wurzel (Symphyti radix)",
+      "seltener Kraut (Symphyti herba)"
+    ],
+    "drug_name_latin": "Symphyti radix (Wurzel), Symphyti herba (Kraut)"
+  },
+  "identification": {
+    "key_features": [
+      "Kräftige, rau-borstig behaarte Pflanze",
+      "Am Stängel herablaufende, borstige Blätter",
+      "Glockenförmige, überhängende Blüten (purpur/rosa/cremefarben) in Wickeln",
+      "Dunkle, rübenförmige Pfahlwurzel (innen weißlich, schleimig)"
+    ],
+    "season": "Blüte Mai bis Juli",
+    "habitat": "Feuchte Wiesen, Gräben, Bach- und Flussufer, Auen",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "WICHTIG: keine Eigensammlungen für arzneiliche Zwecke — PA-Gehalt unkontrolliert; nur PA-arme/-freie geprüfte Fertigpräparate verwenden",
+      "Raublatt-Behaarung und herablaufende Blätter als Familienmerkmal"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Fingerhut (im vegetativen Stadium)",
+      "scientific_name": "Digitalis purpurea",
+      "toxicity_level": "giftig",
+      "toxin": "Herzglykoside",
+      "note": "Rosette junger Blätter ähnlich; Fingerhut nicht raublatt-borstig wie Beinwell, andere Blattnervatur; Verwechslung v. a. bei Wildsammlung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Allantoin (bis 1,5%)",
+      "Schleimstoffe (Fructane)",
+      "Gerbstoffe (4-6%)",
+      "Rosmarinsäure/Kaffeesäurederivate",
+      "Cholin",
+      "1,2-ungesättigte Pyrrolizidinalkaloide (PA)"
+    ],
+    "lead_substance": "Allantoin (Wundheilung/Zellproliferation), Rosmarinsäure (antiinflammatorisch); PA = Sicherheitsrelevanz",
+    "solubility_note": "topische halbfeste Zubereitungen (Salbe/Creme/Gel); HMPC: Flüssigextrakt DEV 2:1, 65% Ethanol",
+    "heat_light_sensitivity": null
+  },
+  "pharmacology": {
+    "mechanism": "Entzündungshemmend und schmerzstillend (v. a. Hydroxyzimtsäurederivate), abschwellend; Allantoin fördert Zellproliferation/Wundheilung",
+    "evidence_caveat": "genaue wirkungsverantwortliche Inhaltsstoffe nicht vollständig geklärt",
+    "pharmacokinetics": "topisch auf intakter Haut geringe systemische PA-Aufnahme; PA werden hepatisch bioaktiviert (Lebertoxizität bei systemischer Exposition)"
+  },
+  "indications": [
+    {
+      "canonical": "Prellungen, Zerrungen, Verstauchungen (topisch)",
+      "synonyms": [
+        "Prellung",
+        "Zerrung",
+        "Verstauchung",
+        "stumpfe Verletzung",
+        "Sportverletzung",
+        "Bluterguss"
+      ],
+      "evidence_tag": "TU/RCT",
+      "comment": "HMPC traditional use (Symphyti radix, äußerlich, max. 10 Tage); zusätzlich RCT-Evidenz für PA-arme Präparate mit Wirksamkeit teils vergleichbar Diclofenac",
+      "realistic_expectation": "Gut belegte topische Lokaltherapie bei stumpfen Verletzungen — eine der besser belegten Anwendungen. NUR auf intakter Haut.",
+      "source": "HMPC traditional use, Symphyti radix (äußerl., max. 10 Tage); RCT PA-arme Präparate"
+    },
+    {
+      "canonical": "Arthrose-/Gelenkschmerzen, Rückenschmerzen (topisch)",
+      "synonyms": [
+        "Arthrose",
+        "Gelenkschmerzen",
+        "Rückenschmerzen",
+        "Kniearthrose",
+        "Muskelschmerzen"
+      ],
+      "evidence_tag": "TU/RCT",
+      "comment": "klinische Studien zeigen Verbesserung von Schmerz/Beweglichkeit (z. B. Gonarthrose, akute Rückenschmerzen)",
+      "realistic_expectation": "Plausibler symptomatischer Nutzen topisch; keine Krankheitsmodifikation.",
+      "source": "RCT (Gonarthrose, akute Rückenschmerzen; teils vergleichbar Diclofenac)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wirksame topische Anwendung bei stumpfen Verletzungen und Gelenk-/Rückenschmerzen (RCT-gestützt, PA-arme Präparate)",
+    "overstated": "Innerliche Anwendung ('Knochenheilung von innen', Tee) — KONTRAINDIZIERT wegen hepatotoxischer PA",
+    "effect_size": "topisch moderat-relevant; innerlich verboten"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "geprüfte Fertigsalbe/-creme/-gel (PA-arm/-frei)",
+      "traditionell warmer Wurzelbrei/Umschlag (nur intakte Haut)"
+    ],
+    "form_rationale": "lipophile/halbfeste topische Zubereitung; NIEMALS innerlich (Tee/Tinktur/Kapsel) wegen PA",
+    "standard_dose": "10% halbfeste Zubereitung 2x täglich; Anwendung auf max. ~10 Tage begrenzen (HMPC), Eigensammlung nicht länger als 4-6 Wochen/Jahr",
+    "preservation": null
+  },
+  "safety": {
+    "tox_ceiling": "1,2-ungesättigte Pyrrolizidinalkaloide sind hepatotoxisch und potenziell kanzerogen (Tierversuch). HMPC-Grenzwerte für PA-Gehalt; nur äußerlich auf intakter Haut, begrenzte Dauer",
+    "contraindications": [
+      "innerliche Anwendung (absolut)",
+      "offene Wunden",
+      "Schleimhäute/Augen",
+      "Schwangerschaft",
+      "Stillzeit",
+      "Kinder unter 3 Jahren"
+    ],
+    "pregnancy_lactation": "kontraindiziert (PA, unzureichende Daten)",
+    "adverse_effects": "topisch selten (Hautreaktionen); systemische PA-Toxizität bei Fehlanwendung (innerlich/offene Wunden/Dauergebrauch)",
+    "interactions": [
+      {
+        "type": "keine relevanten topisch",
+        "mechanism": "topische Anwendung",
+        "clinical_relevance": "keine bekannten klinisch relevanten Interaktionen bei bestimmungsgemäßem Gebrauch"
+      },
+      {
+        "type": "additive Hepatotoxizität",
+        "mechanism": "PA plus andere lebertoxische Stoffe bei Fehlanwendung",
+        "clinical_relevance": "theoretisch, nur bei unzulässiger systemischer Exposition"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Pyrrolizidinalkaloide",
+      "topical_only": true,
+      "hepatotoxic": true
+    },
+    "key_warning": "Der 'nur topisch'-Fall: äußerlich (intakte Haut, begrenzte Dauer, PA-arme Präparate) wirksam und akzeptabel — innerlich absolut kontraindiziert (Lebertoxizität/Kanzerogenität der PA). Ankerpunkt fürs PA-Toxin-Register."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel März-Mai oder Herbst",
+    "harvest_month_tags": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "harvest_organ": "Wurzel",
+    "method": "Eigensammlung arzneilich NICHT empfohlen (unkontrollierter PA-Gehalt); für Anschauung/Garten nutzbar",
+    "processing": "nur PA-standardisierte Fertigpräparate für Arzneigebrauch",
+    "storage": "Fertigpräparate laut Packungsangabe"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "KEINE kulinarische Verwendung — früher als Wildgemüse genutzt, heute wegen PA abgeraten"
+  },
+  "garden": {
+    "site_soil": "feucht, nährstoffreich, sonnig bis halbschattig",
+    "hardiness": "voll winterhart, kräftig wüchsig, ausbreitungsfreudig",
+    "propagation": "Wurzelteilung sehr leicht (jedes Wurzelstück treibt aus)",
+    "bodensee_suitability": "gut; robuste Bienenweide, aber ausbreitungsstark — arzneilich nur als Anschauung, nicht zur Selbstverarbeitung"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Beinwell mit glockigen überhängenden Blüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "raublatt-borstige, herablaufende Blätter",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Fingerhut-Rosette (vegetativ) zum Vergleich",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Symphyti radix (traditional use, äußerlich, max. 10 Tage; PA-Grenzwerte)",
+    "Deutsche Apotheker Zeitung (HMPC-PA-Grenzwerte, nur äußerlich)",
+    "RCT-Evidenz PA-arme Präparate (Gonarthrose, akute Rückenschmerzen, vergleichbar Diclofenac)",
+    "Altmeyers Enzyklopädie / DocCheck / Arzneipflanzenlexikon (Kontraindikationen, PA-Toxikologie)"
+  ]
+}

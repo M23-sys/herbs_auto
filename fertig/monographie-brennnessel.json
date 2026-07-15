@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "id": "urtica-dioica",
+  "botany": {
+    "scientific_name": "Urtica dioica L.",
+    "common_names_de": [
+      "Große Brennnessel",
+      "Brennnessel"
+    ],
+    "family": "Urticaceae",
+    "drug_part": [
+      "Blatt/Kraut (Urticae folium/herba)",
+      "Wurzel (Urticae radix)"
+    ],
+    "drug_name_latin": "Urticae folium/herba (Blatt/Kraut), Urticae radix (Wurzel)"
+  },
+  "identification": {
+    "key_features": [
+      "Brennhaare auf Blättern und Stängeln (brechen bei Berührung ab, injizieren Zellsaft → Quaddeln)",
+      "Gegenständige, grob gesägte, herz-/lanzettförmige Blätter",
+      "Vierkantiger Stängel; zweihäusig (getrennte männliche/weibliche Pflanzen)",
+      "Kleine grünliche Blütenrispen in den Blattachseln"
+    ],
+    "season": "Blüte Juni bis Oktober; Blätter über die ganze Vegetationsperiode",
+    "habitat": "Nährstoffreiche (stickstoffreiche) Böden: Wegränder, Gärten, Ufer, Ruderalflächen; sehr häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Brennhaare als eindeutiges Merkmal; Handschuhe empfehlenswert",
+      "Kleine Brennnessel (U. urens) ist arzneilich gleichwertig verwendbar"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Taubnessel",
+      "scientific_name": "Lamium spp.",
+      "toxicity_level": "essbar",
+      "note": "ähnliche Blattform, aber KEINE Brennhaare, Lippenblüten (Lamiaceae); ungefährlich, essbar"
+    }
+  ],
+  "chemistry": {
+    "main_groups_leaf": [
+      "Flavonoide",
+      "Kaffeesäureester (Kaffeoyläpfelsäure, Chlorogensäure)",
+      "Mineralsalze/Kieselsäure",
+      "Carotinoide"
+    ],
+    "main_groups_root": [
+      "Lektine",
+      "Phytosterole (β-Sitosterol)",
+      "Lignane",
+      "Polysaccharide"
+    ],
+    "lead_substance": "Blatt: Flavonoide/Kaffeesäureester (aquaretisch); Wurzel: Phytosterole/Lektine (BPH). Brennhaar-Zellsaft: Histamin, Acetylcholin, Ameisensäure",
+    "solubility_note": "wasserlöslich → Tee/Frischpflanzensaft; Wurzelextrakt als Fertigpräparat",
+    "heat_light_sensitivity": null
+  },
+  "pharmacology": {
+    "mechanism": "Blatt/Kraut: aquaretisch (Steigerung Urinmenge ohne relevanten Elektrolytverlust), mild antiinflammatorisch. Wurzel: Beeinflussung des Prostatastoffwechsels (Aromatase/5-alpha-Reduktase in vitro diskutiert, SHBG-Bindung)",
+    "evidence_caveat": "überwiegend Anwendungsbeobachtungen/offene Studien; wenige kontrollierte RCTs",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Durchspülung ableitende Harnwege / Harnwegsbeschwerden (Blatt)",
+      "synonyms": [
+        "Harnwegsinfekt",
+        "Blasenentzündung",
+        "Durchspülung",
+        "Nierengrieß",
+        "Harnwege",
+        "Wassertreiben"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use (Erhöhung Urinmenge/Durchspülung); ESCOP; Kommission E positiv",
+      "realistic_expectation": "Unterstützende Durchspülungstherapie (ausreichend trinken!). Kein Ersatz für Antibiotika bei bakteriellem Infekt.",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (Durchspülung Harnwege)"
+    },
+    {
+      "canonical": "Rheumatische / Gelenkbeschwerden (Blatt)",
+      "synonyms": [
+        "Rheuma",
+        "Gelenkschmerzen",
+        "Arthrose",
+        "Arthritis",
+        "Gliederschmerzen"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "ESCOP unterstützend bei Arthrose/rheumatischen Beschwerden; Anwendungsbeobachtungen zeigen Besserung, teils NSAR-sparend; kontrollierte Evidenz begrenzt",
+      "realistic_expectation": "Unterstützend/adjuvant (ggf. NSAR-Dosis-reduzierend); keine krankheitsmodifizierende Wirkung.",
+      "source": "ESCOP+ (Arthrose/Rheuma, unterstützend); Anwendungsbeobachtungen"
+    },
+    {
+      "canonical": "Miktionsbeschwerden bei benigner Prostatahyperplasie (Wurzel)",
+      "synonyms": [
+        "Prostata",
+        "BPH",
+        "Prostatavergrößerung",
+        "Miktionsbeschwerden",
+        "Wasserlassen"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für Urticae radix; symptomatisch bei BPH-Stadium I-II",
+      "realistic_expectation": "Symptomatische Linderung bei leichter BPH; ändert nicht die Prostatagröße/Krankheitsverlauf. Urologische Abklärung vorausgesetzt.",
+      "source": "HMPC traditional use, Urticae radix (BPH-Miktionsbeschwerden)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wertvolles nährstoffreiches Wildgemüse; unterstützende Aquarese und milde adjuvante Rheuma-/BPH-Anwendung",
+    "overstated": "'Blutreinigung/Entschlackung', Heilung von Arthrose oder BPH — nicht belegt; Evidenz durchweg traditional use",
+    "effect_size": "mild, unterstützend/symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Blatt-Tee (2 TL ≈ 1,5 g/Tasse, Tagesdosis 8-12 g)",
+      "Frischpflanzensaft",
+      "Wurzelextrakt (Fertigpräparat, BPH)",
+      "Wildgemüse/Küche"
+    ],
+    "form_rationale": "wasserlösliche Wirkstoffe → Tee/Saft; für BPH standardisierter Wurzelextrakt; ausreichende Flüssigkeitszufuhr bei Durchspülungstherapie essenziell",
+    "standard_dose": "Tee 8-12 g Droge/Tag; Wurzelpräparate je Packungsangabe",
+    "preservation": "Blätter getrocknet dicht/lichtgeschützt; frisch für Küche/Saft"
+  },
+  "safety": {
+    "tox_ceiling": "kein Toxin; sehr sichere Pflanze",
+    "contraindications": [
+      "Ödeme infolge eingeschränkter Herz-/Nierenfunktion (KEINE Durchspülungstherapie!)",
+      "Allergie gegen Bestandteile"
+    ],
+    "pregnancy_lactation": "arzneiliche Anwendung mangels Daten zurückhaltend; als Gemüse in Maßen ok",
+    "adverse_effects": "selten Magen-Darm-Beschwerden; Hautkontakt mit Brennhaaren → vorübergehende Quaddeln/Brennen",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "aquaretisch — theoretisch additiv mit Diuretika; Kaliumhaushalt beachten bei sehr hohem Konsum",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "cardiorenal_flush_caution": true
+    },
+    "key_warning": "Wichtigste echte KI: KEINE Durchspülungstherapie bei Ödemen durch Herz-/Niereninsuffizienz. Ansonsten der 'Erwartung-dämpfen'-Fall — gesundes Gemüse mit milder, überwiegend traditioneller Heilwirkung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter Frühjahr bis Herbst (junge Triebe zart); Wurzel Herbst/Frühjahr",
+    "harvest_month_tags": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blatt/Kraut (Wurzel separat)",
+    "method": "Handschuhe; junge Blätter/Triebspitzen für Küche/Tee",
+    "processing": "luftig trocknen; frisch für Saft/Gemüse (Brennhaare durch Erhitzen/Blanchieren/Zerkleinern harmlos)",
+    "storage": "getrocknet dicht/lichtgeschützt"
+  },
+  "kitchen": {
+    "uses": [
+      "Spinatersatz",
+      "Suppe",
+      "Smoothie",
+      "Brennnesselsamen als nährstoffreiches Topping"
+    ],
+    "culinary_vs_medicinal": "als Gemüse sehr nährstoffreich (Eisen, Vitamine); Küche und milde Heilanwendung praktisch fließend"
+  },
+  "garden": {
+    "site_soil": "nährstoff-/stickstoffreich, feucht, sonnig bis halbschattig",
+    "hardiness": "voll winterhart, mehrjährig, stark ausbreitend (Rhizome)",
+    "propagation": "Selbstaussaat/Rhizome; im Garten eher eindämmen; wichtige Raupenfutterpflanze (Schmetterlinge)",
+    "bodensee_suitability": "sehr gut/ohnehin vorhanden; ökologisch wertvoll, ggf. eine Ecke bewusst stehen lassen"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Große Brennnessel Bestand",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Brennhaare auf Blatt/Stängel (Makro)",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Taubnessel (ohne Brennhaare) zum Vergleich",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Urticae folium/herba & Urticae radix (traditional use)",
+    "ESCOP-Monographien (Blatt: Arthrose/Rheuma, Harnwege; Wurzel: BPH-Miktionsbeschwerden)",
+    "Kommission E; Ph. Eur.",
+    "Chrubasik et al. (Wurzel bei BPH); Anwendungsbeobachtungen Rheuma"
+  ]
+}

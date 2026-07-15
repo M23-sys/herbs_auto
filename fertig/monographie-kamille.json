@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "id": "matricaria-chamomilla",
+  "botany": {
+    "scientific_name": "Matricaria chamomilla L. (syn. M. recutita)",
+    "common_names_de": [
+      "Echte Kamille",
+      "Feldkamille"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Blüte (Matricariae flos)",
+      "ätherisches Öl (Matricariae aetheroleum)"
+    ],
+    "drug_name_latin": "Matricariae flos (Blüte), Matricariae aetheroleum (Öl)"
+  },
+  "identification": {
+    "key_features": [
+      "Weiße Zungenblüten (bald zurückgeschlagen/hängend) um gelbe Röhrenblüten",
+      "Hohler, spitz-kegelförmiger Blütenboden OHNE Spreublätter (Schlüsselmerkmal!)",
+      "Fein gefiederte Blätter; aromatischer Kamillengeruch beim Zerreiben",
+      "8–120 Blütenköpfchen pro Pflanze, Köpfchen 18–25 mm breit"
+    ],
+    "season": "Blüte Mai bis September (Ernte Ende April/Anfang Blüte)",
+    "habitat": "Äcker, Wegränder, Ruderalflächen, Brachen; nährstoffreiche Böden",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "SCHLÜSSELMERKMAL: Blütenboden längs aufschneiden — echte Kamille ist HOHL und kegelförmig, Doppelgänger sind markig gefüllt",
+      "aromatischer Kamillengeruch als Bestätiger"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Geruchlose Kamille",
+      "scientific_name": "Tripleurospermum inodorum",
+      "toxicity_level": "essbar/unwirksam",
+      "note": "Blütenboden gefüllt (nicht hohl), fast geruchlos; kein arzneilicher Wert, aber ungiftig"
+    },
+    {
+      "name": "Römische Kamille / Hundskamille",
+      "scientific_name": "Anthemis spp. / Chamaemelum nobile",
+      "toxicity_level": "essbar/reizend",
+      "note": "Blütenboden mit Spreublättern, stärkeres Sensibilisierungspotenzial (Kommission-E-Negativmonographie für Römische Kamille); andere Verwendung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (0,3–1,5%): (-)-α-Bisabolol, Bisabololoxide, Chamazulen (entsteht bei Destillation aus Matricin)",
+      "Flavonoide (Apigenin-7-glucosid, Quercetin, Luteolin)",
+      "Cumarine (Umbelliferon, Herniarin)",
+      "Schleimstoffe"
+    ],
+    "lead_substance": "α-Bisabolol, Chamazulen, Apigenin (antiphlogistisch, spasmolytisch)",
+    "solubility_note": "gemischt: ätherisches Öl lipophil, Flavonoide/Schleimstoffe wasserlöslich → Tee für innerlich/Gurgeln, Extrakte/Öl für topisch",
+    "heat_light_sensitivity": "Öl flüchtig; Aufguss abgedeckt ziehen; Chamazulen entsteht erst bei Destillation"
+  },
+  "pharmacology": {
+    "mechanism": "Antiphlogistisch (Hemmung COX-2 und Lipoxygenasen, Mastzell-Stabilisierung → weniger Histaminfreisetzung), spasmolytisch (Flavonoide), antimikrobiell/wundheilungsfördernd; Angriffspunkt v. a. Bisabolol/Chamazulen/Apigenin",
+    "evidence_caveat": "gute pharmakologische Plausibilität, aber begrenzte klinische Studien → HMPC nur traditional use",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Leichte krampfartige Magen-Darm-Beschwerden / Flatulenz (innerlich)",
+      "synonyms": [
+        "Magenbeschwerden",
+        "Magenkrämpfe",
+        "Blähungen",
+        "Flatulenz",
+        "Verdauungsbeschwerden",
+        "Bauchschmerzen",
+        "Magen-Darm"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP positiv (leichte Krämpfe, Oberbauchblähungen, Aufstoßen)",
+      "realistic_expectation": "Plausibel wirksame, risikoarme symptomatische Anwendung; Evidenz traditionell, nicht WEU.",
+      "source": "HMPC traditional use; ESCOP+ (leichte GI-Krämpfe/Flatulenz)"
+    },
+    {
+      "canonical": "Entzündungen Mund-/Rachenschleimhaut & Haut (topisch)",
+      "synonyms": [
+        "Halsschmerzen",
+        "Mundschleimhautentzündung",
+        "Zahnfleischentzündung",
+        "Gingivitis",
+        "Hautentzündung",
+        "Hautreizung",
+        "Gurgeln",
+        "Wunde"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "ESCOP: äußerlich bei leichten Entzündungen/Reizungen von Haut und Schleimhaut (Mund, Anal-/Genitalbereich, Atemwege als Inhalation)",
+      "realistic_expectation": "Sinnvolle Lokaltherapie (Spülung, Bad, Salbe, Inhalation) bei leichten Entzündungen.",
+      "source": "HMPC/ESCOP+ (Haut-/Schleimhautentzündungen, äußerlich)"
+    },
+    {
+      "canonical": "Erkältungssymptome (Inhalation)",
+      "synonyms": [
+        "Erkältung",
+        "Schnupfen",
+        "Atemwege",
+        "Inhalation"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use (Dampfinhalation)",
+      "realistic_expectation": "Traditionelle unterstützende Anwendung.",
+      "source": "HMPC traditional use (Dampfinhalation)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Vielseitige, risikoarme Lokal- und GI-Anwendung mit guter pharmakologischer Plausibilität",
+    "overstated": "'Allheilmittel'-Ruf — die Evidenz ist trotz Plausibilität traditional use, nicht WEU",
+    "effect_size": "mild-moderat, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Infus (innerlich, Gurgeln)",
+      "Dampfinhalation",
+      "topisch als Extrakt/Salbe/Bad",
+      "Spülung (Mund, Anal-/Genitalbereich)"
+    ],
+    "form_rationale": "wasserlösliche + ätherische Anteile → Tee/Aufguss deckt die meisten Anwendungen; Öl/Extrakt für topische Konzentration",
+    "standard_dose": "Tee: 3 g Blüten/Tasse (≈ 1 EL), mehrmals täglich; Aufguss abgedeckt ziehen",
+    "preservation": "getrocknete Blüten dicht/lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "kein klassisches Toxin",
+    "contraindications": [
+      "Korbblütler-Allergie (Asteraceae) — CAVE Kreuzreaktion",
+      "nicht ins Auge (Bindehautreizung)"
+    ],
+    "pregnancy_lactation": "in üblichen Mengen als unproblematisch angesehen",
+    "adverse_effects": "lokale Reizungen; allergische Reaktionen v. a. bei Korbblütler-Sensibilisierung (echte Kamille geringeres Potenzial als Römische Kamille/Hundskamille)",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Cumaringehalt gering; theoretisch additiv mit Antikoagulanzien bei sehr hohem Konsum",
+        "clinical_relevance": "in üblichen Dosen irrelevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "asteraceae_allergy": true
+    },
+    "key_warning": "Wichtigster Punkt ist die Korbblütler-(Asteraceae-)Kreuzallergie — relevant auch für Schafgarbe und Ringelblume (gemeinsames Register)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "kurz nach Blühbeginn (Ende April/Mai), Köpfchen voll geöffnet, trockener Vormittag",
+    "harvest_month_tags": [
+      5,
+      6,
+      7
+    ],
+    "harvest_organ": "Blüte (Köpfchen)",
+    "method": "Blütenköpfchen abzupfen/kämmen; nur voll entwickelte Köpfchen",
+    "processing": "luftig schattig trocknen, mäßige Temperatur (Öl flüchtig)",
+    "storage": "getrocknet dicht/lichtgeschützt; Wirkstoffverlust über die Zeit"
+  },
+  "kitchen": {
+    "uses": [
+      "Kamillentee (Genuss)"
+    ],
+    "culinary_vs_medicinal": "praktisch identisch (Tee); primär Arznei-/Genusstee"
+  },
+  "garden": {
+    "site_soil": "sonnig, durchlässig, nährstoffreich; anspruchslos",
+    "hardiness": "einjährig, sät sich selbst aus",
+    "propagation": "Aussaat (Lichtkeimer) im Frühjahr; versamt sich zuverlässig",
+    "bodensee_suitability": "sehr gut; einfache einjährige Aussaat, wächst auch wild in der Region"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Kamille Blütenköpfchen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "hohler kegelförmiger Blütenboden (Längsschnitt)",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "gefüllter Blütenboden der Doppelgänger zum Vergleich",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Matricariae flos & aetheroleum (traditional use: leichte GI-Krämpfe/Flatulenz, Erkältung, Haut-/Schleimhautentzündungen)",
+    "ESCOP-Monographie (intern GI, extern Haut-/Schleimhautentzündungen)",
+    "Kommission E (2016/2020), WHO",
+    "Ph. Eur. (min. 4 ml/kg blaues Öl, min. 0,25% Apigenin-7-glucosid)"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "id": "melissa-officinalis",
+  "botany": {
+    "scientific_name": "Melissa officinalis L.",
+    "common_names_de": [
+      "Zitronenmelisse",
+      "Melisse"
+    ],
+    "family": "Lamiaceae",
+    "drug_part": [
+      "Blatt (Melissae folium)"
+    ],
+    "drug_name_latin": "Melissae folium"
+  },
+  "identification": {
+    "key_features": [
+      "Gegenständige, herzförmig-eiförmige, gekerbte, runzelige Blätter",
+      "Vierkantiger Stängel (Lamiaceae)",
+      "Deutlicher ZITRONEN-Geruch beim Zerreiben (Citral/Citronellal) — Schlüsselmerkmal",
+      "Kleine weißliche Lippenblüten in Blattachseln"
+    ],
+    "season": "Blüte Juni bis August",
+    "habitat": "Gartenpflanze; nährstoffreiche, humose Böden, sonnig bis halbschattig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Zitronengeruch als eindeutiger Bestätiger — unterscheidet Melisse von anderen Lamiaceen",
+      "vor der Blüte höchster Aromagehalt"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Katzenminze / andere Lamiaceen",
+      "scientific_name": "Nepeta / Lamiaceae spp.",
+      "toxicity_level": "essbar",
+      "note": "ähnliche Blattform, aber ohne den charakteristischen Zitronenduft; keine toxische Verwechslung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (Citral = Geranial+Neral, Citronellal)",
+      "Lamiaceen-Gerbstoffe (Rosmarinsäure)",
+      "Flavonoide"
+    ],
+    "lead_substance": "Rosmarinsäure (beruhigend, u. a. als GABA-Transaminase-Hemmer diskutiert), ätherisches Öl (Aroma, antiviral topisch)",
+    "solubility_note": "wasserlösliche Rosmarinsäure/Flavonoide → Tee; ätherisches Öl flüchtig; topische Extrakte für Herpes",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig; Aufguss abgedeckt ziehen"
+  },
+  "pharmacology": {
+    "mechanism": "Beruhigend/anxiolytisch und mild spasmolytisch (Rosmarinsäure, ätherisches Öl; GABAerge Modulation diskutiert); topisch antiviral gegen HSV-1/HSV-2 (Hemmung der Virusadsorption durch Polyphenole/Rosmarinsäure)",
+    "evidence_caveat": "innerliche Wirkung überwiegend traditionell/experimentell; topische Herpes-Wirkung durch klinische Daten besser belegt",
+    "pharmacokinetics": "nicht sauber charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Leichte Stresssymptome / Unruhe / Einschlafhilfe (innerlich)",
+      "synonyms": [
+        "Unruhe",
+        "nervöse Unruhe",
+        "Stress",
+        "Anspannung",
+        "Reizbarkeit",
+        "Einschlafstörungen",
+        "Schlafstörungen",
+        "Nervosität"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP (Angespanntheit, Unruhe, Reizbarkeit). Kleine klinische Studien mit Designmängeln → kein WEU",
+      "realistic_expectation": "Milde beruhigende Wirkung, oft in Kombination (Baldrian/Hopfen). Beliebt, aber Evidenz schwach — Erwartung realistisch halten.",
+      "source": "HMPC traditional use; ESCOP+ (Stress/Unruhe/Schlaf)"
+    },
+    {
+      "canonical": "Leichte krampfartige Magen-Darm-Beschwerden / Flatulenz (innerlich)",
+      "synonyms": [
+        "Blähungen",
+        "Flatulenz",
+        "Bauchkrämpfe",
+        "Verdauungsbeschwerden",
+        "Magenbeschwerden"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP",
+      "realistic_expectation": "Milde symptomatische Wirkung des Tees.",
+      "source": "HMPC traditional use; ESCOP+ (leichte GI-Krämpfe/Flatulenz)"
+    },
+    {
+      "canonical": "Lippenherpes (topisch)",
+      "synonyms": [
+        "Herpes",
+        "Lippenherpes",
+        "Fieberbläschen",
+        "Herpes labialis",
+        "HSV"
+      ],
+      "evidence_tag": "ESCOP+/RCT",
+      "comment": "durch klinische Daten belegt (topische Melissenextrakt-Creme gegen HSV-1/HSV-2); die am besten belegte Melisse-Indikation",
+      "realistic_expectation": "Topisch bei Lippenherpes klinisch unterstützt — hier ist die Evidenz stärker als bei der beruhigenden Innenanwendung. Bei häufigen/schweren Rezidiven Aciclovir überlegen.",
+      "source": "ESCOP+/klinische Daten (topisch Lippenherpes HSV-1/2)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Angenehmes Beruhigungs-/Verdauungskraut (mild, traditionell); topisch bei Lippenherpes klinisch unterstützt",
+    "overstated": "starkes Sedativum/Schlafmittel oder Anxiolytikum — die innerliche Evidenz ist trotz Beliebtheit schwach (traditional use)",
+    "effect_size": "innerlich mild; topisch (Herpes) moderat/belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Infus (1,5–4,5 g/Tasse, mehrmals täglich)",
+      "Trocken-/Flüssigextrakt",
+      "topische Creme (Herpes)"
+    ],
+    "form_rationale": "wasserlösliche Wirkstoffe → Tee für innerlich; für Herpes standardisierte topische Extrakt-Creme",
+    "standard_dose": "Tee 1,5–4,5 g Blätter/Tasse; Herpes-Creme mehrmals täglich lokal",
+    "preservation": "getrocknet dicht/lichtgeschützt (Aroma vergänglich); frisch am aromatischsten"
+  },
+  "safety": {
+    "tox_ceiling": "kein Toxin; sehr sichere Pflanze",
+    "contraindications": [
+      "Überempfindlichkeit"
+    ],
+    "pregnancy_lactation": "arzneilich mangels Daten zurückhaltend; Tee in üblichen Mengen meist unkritisch",
+    "adverse_effects": "sehr selten; gute Verträglichkeit",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "additive Sedierung mit anderen Sedativa/Hypnotika möglich (mild)",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Schilddrüsen-/TSH-Beeinflussung in vitro diskutiert (historisch)",
+        "clinical_relevance": "klinisch nicht belegt/relevant in üblichen Dosen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false
+    },
+    "key_warning": "Zweiter 'Erwartung-dämpfen'-Fall: sehr beliebt und sicher, aber die innerliche (beruhigende) Evidenz ist schwach. Stärkste Evidenz liegt topisch bei Lippenherpes."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter vor der Blüte (höchstes Aroma), trockener Vormittag",
+    "harvest_month_tags": [
+      5,
+      6,
+      7
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Blätter/Triebspitzen schneiden",
+    "processing": "rasch schonend trocknen (Aroma sehr flüchtig) — frisch am besten",
+    "storage": "getrocknet dicht/lichtgeschützt; Aroma verliert sich rasch"
+  },
+  "kitchen": {
+    "uses": [
+      "Tee",
+      "Desserts",
+      "Getränke",
+      "Salate",
+      "Fisch"
+    ],
+    "culinary_vs_medicinal": "kulinarisch beliebt (Zitronenaroma); Küche und milde Heilanwendung fließend"
+  },
+  "garden": {
+    "site_soil": "humos, nährstoffreich, feucht, sonnig bis halbschattig",
+    "hardiness": "winterhart, mehrjährig, sät sich aus / breitet sich aus",
+    "propagation": "Aussaat, Teilung oder Stecklinge; sehr wüchsig",
+    "bodensee_suitability": "sehr gut; dankbare, bienenfreundliche Einsteigerpflanze, ggf. eindämmen"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Zitronenmelisse Blattwerk",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "gekerbtes, runzeliges Blatt",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Melissae folium (traditional use: Stress/Schlaf/GI; topisch Herpes durch klinische Daten belegt)",
+    "ESCOP-Monographie (Angespanntheit/Unruhe/Reizbarkeit, GI, Lippenherpes)",
+    "Kommission E (1990); WHO Vol. 2",
+    "HMPC Assessment Report EMA/HMPC/196746/2012"
+  ]
+}

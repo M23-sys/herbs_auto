@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "id": "artemisia-absinthium",
+  "botany": {
+    "scientific_name": "Artemisia absinthium L.",
+    "common_names_de": [
+      "Wermut",
+      "Echter Wermut",
+      "Absinth"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut (blühende Zweigspitzen + Laubblätter)"
+    ],
+    "drug_name_latin": "Absinthii herba"
+  },
+  "identification": {
+    "key_features": [
+      "Silbrig-graugrün, seidig behaart (filzig)",
+      "Mehrfach fiederteilige Blätter",
+      "Kleine, gelbe, kugelige Blütenköpfchen in Rispen",
+      "Intensiv aromatisch-bitterer Geruch beim Zerreiben"
+    ],
+    "season": "Blüte Juli bis September",
+    "habitat": "Trockene, sonnige, steinige Standorte, Wegränder, Ruderalflächen; auch Gartenkultur",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Silbrig-filziges Laub + intensiver Bitteraromageruch als Bestätiger",
+      "Abgrenzung zu Beifuß (A. vulgaris, grüner, weniger bitter) und Einjährigem Beifuß (A. annua)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gewöhnlicher Beifuß",
+      "scientific_name": "Artemisia vulgaris",
+      "toxicity_level": "essbar/gering",
+      "note": "grünere Blattoberseite, weniger silbrig, milder; andere (Gewürz-)Verwendung; keine toxische Verwechslung, aber wirkstofflich anders"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (0,2–1,0%) mit alpha-/beta-THUJON",
+      "Sesquiterpenlacton-Bitterstoffe (Absinthin, Anabsinthin, Artabsinthin)",
+      "Gerbstoffe",
+      "Flavone"
+    ],
+    "lead_substance": "Bitterstoffe (Absinthin — sehr hoher Bitterwert, appetitanregend); Thujon = sicherheitsrelevant",
+    "solubility_note": "wasserlösliche Bitterstoffe → Tee/Bittertonikum; alkoholische Tinktur; Öl thujonhaltig",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig"
+  },
+  "pharmacology": {
+    "mechanism": "Amarum aromaticum: Bitterstoffe stimulieren reflektorisch Speichel-/Magensaft-/Gallesekretion (appetitanregend, verdauungsfördernd); mild spasmolytisch. Sicherheitsseite: Thujon ist ein GABA-A-Antagonist → in höherer Dosis neurotoxisch/krampfauslösend",
+    "evidence_caveat": "traditionelle Bitterstoff-Anwendung plausibel; moderne kontrollierte Studien begrenzt",
+    "pharmacokinetics": "Thujon hepatisch metabolisiert, ZNS-gängig"
+  },
+  "indications": [
+    {
+      "canonical": "Vorübergehende Appetitlosigkeit (Bittermittel)",
+      "synonyms": [
+        "Appetitlosigkeit",
+        "Appetitmangel",
+        "Bittermittel",
+        "Amarum"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP; Kommission E (Bitterstoff-Prinzip)",
+      "realistic_expectation": "Plausible appetitanregende Wirkung als Bittertonikum; kurzzeitig anwenden (Thujon).",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (Appetitlosigkeit, Bittermittel)"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden / Verdauungsförderung",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Blähungen",
+        "Magenbeschwerden",
+        "dyspeptische Beschwerden",
+        "Gallefluss"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; Kommission E auch bei Dyskinesien der Gallenwege",
+      "realistic_expectation": "Symptomatische Verdauungsförderung; nur kurzzeitig/nicht dauerhaft wegen Thujon.",
+      "source": "HMPC traditional use; Kommission E (dyspept. Beschwerden, Gallenwege)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Klassisches Bittertonikum bei Appetitlosigkeit/Verdauungsschwäche — kurzzeitig",
+    "overstated": "Dauergebrauch, hochprozentige Öl-/Absinth-Anwendung — gefährlich wegen Thujon (historische 'Absinthismus'-Vergiftungen)",
+    "effect_size": "moderat als Bitterstoff, streng zeitlich begrenzt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Infus (bitter, kurz vor Mahlzeit)",
+      "Tinktur (Bittertropfen)",
+      "Bitterlikör (kulinarisch, thujonreguliert)"
+    ],
+    "form_rationale": "wasserlösliche Bitterstoffe → Tee/Tinktur genügen; das thujonhaltige Öl NICHT konzentrieren",
+    "standard_dose": "Tee klein dosiert (z. B. 1 TL/Tasse) kurzzeitig; Anwendung NICHT über längere Zeit",
+    "preservation": "getrocknet dicht/lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "Thujon (alpha-/beta-) neurotoxisch/krampfauslösend (GABA-A-Antagonist); nicht über längere Zeit oder hochdosiert; EU regelt Thujon-Grenzwerte in Lebensmitteln/Spirituosen",
+    "contraindications": [
+      "Schwangerschaft",
+      "Stillzeit",
+      "Epilepsie/Krampfneigung",
+      "Magen-/Darmgeschwüre (Bitterstoffreizung)",
+      "Gallenwegsverschluss"
+    ],
+    "pregnancy_lactation": "kontraindiziert (Thujon, traditionell abortiv/emmenagog)",
+    "adverse_effects": "bei bestimmungsgemäßem Kurzgebrauch selten; bei Überdosis/Dauergebrauch Thujon-Toxizität (Krämpfe, ZNS-Symptome)",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additiv mit krampfschwellensenkenden Substanzen (Thujon)",
+        "clinical_relevance": "relevant bei Krampfneigung/Antiepileptika"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Thujon",
+      "lowers_seizure_threshold": true
+    },
+    "key_warning": "ZWEITER THUJON-Träger (neben Salbei) — macht das Thujon-Register pflanzenübergreifend. Streng zeitlich begrenzt, kein Dauergebrauch, kein konzentriertes Öl; Schwangerschaft/Epilepsie kontraindiziert."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "blühende Zweigspitzen + Laubblätter zur Blütezeit (Juli-September)",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend)",
+    "method": "obere blühende Triebe schneiden",
+    "processing": "luftig schattig trocknen",
+    "storage": "getrocknet dicht/lichtgeschützt"
+  },
+  "kitchen": {
+    "uses": [
+      "Bitterlikör/Wermutwein (thujonreguliert)",
+      "sparsam als Bitterwürze"
+    ],
+    "culinary_vs_medicinal": "kulinarisch nur stark verdünnt/reguliert; arzneilich kurzzeitig — in beiden Fällen Thujon-Grenze beachten"
+  },
+  "garden": {
+    "site_soil": "vollsonnig, trocken, durchlässig, mager; trockenheitsverträglich",
+    "hardiness": "winterhart, mehrjährig, verholzend an der Basis",
+    "propagation": "Aussaat, Teilung oder Stecklinge; robust",
+    "bodensee_suitability": "gut; dekorative silbrige Beetpflanze, hält Trockenheit aus — arzneilich nur bewusst/kurzzeitig nutzen"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Wermut silbrig-filziges Laub",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "fiederteilige silbrige Blätter, gelbe Blütenköpfchen",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Absinthii herba (traditional use: Appetitlosigkeit, dyspeptische Beschwerden)",
+    "ESCOP-Monographie; Kommission E (auch Dyskinesien der Gallenwege)",
+    "EMA Assessment Report Artemisia absinthium L., herba (Thujon-Toxikologie)",
+    "Batiha et al. 2020, Szopa et al. 2020 (Inhaltsstoffe/Thujon/Pharmakologie)"
+  ]
+}

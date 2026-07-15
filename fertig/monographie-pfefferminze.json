@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "id": "mentha-piperita",
+  "botany": {
+    "scientific_name": "Mentha × piperita L.",
+    "common_names_de": [
+      "Pfefferminze"
+    ],
+    "family": "Lamiaceae",
+    "drug_part": [
+      "Blatt (Menthae piperitae folium)",
+      "ätherisches Öl (Menthae piperitae aetheroleum)"
+    ],
+    "drug_name_latin": "Menthae piperitae folium (Blatt), Menthae piperitae aetheroleum (Öl)"
+  },
+  "identification": {
+    "key_features": [
+      "Vierkantiger Stängel (typisch Lamiaceae)",
+      "Gegenständige, gesägte, dunkelgrüne Blätter, oft rötlich überlaufen",
+      "Intensiv mentholig-kühlender Geruch beim Zerreiben",
+      "Blüten in end-/achselständigen Scheinähren"
+    ],
+    "season": "Blüte Juli bis September",
+    "habitat": "Kulturpflanze (steriler Hybrid); feuchte, nährstoffreiche Böden im Garten",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Steriler Hybrid (Mentha aquatica x spicata) — vermehrt sich nur vegetativ, praktisch nur im Garten",
+      "Kühlender Menthol-Geruch als Bestätiger; Abgrenzung zu anderen Minzen (Grüne Minze/Spearmint riecht anders, ohne kühle Schärfe)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Grüne Minze / Spearmint",
+      "scientific_name": "Mentha spicata",
+      "toxicity_level": "essbar",
+      "note": "aromatisch anders (carvon-betont, ohne kühle Menthol-Schärfe); keine toxische Verwechslung"
+    },
+    {
+      "name": "Wasserminze / Ackerminze",
+      "scientific_name": "Mentha aquatica / arvensis",
+      "toxicity_level": "essbar",
+      "note": "heimische Wildminzen, wirkstoffärmer/anders; keine toxische Verwechslung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (Menthol, Menthon, Menthylacetat, 1,8-Cineol)",
+      "Flavonoide",
+      "Gerbstoffe (Rosmarinsäure)"
+    ],
+    "lead_substance": "Menthol (Kalziumkanal-Antagonist → Spasmolyse glatter Muskulatur)",
+    "solubility_note": "ätherisches Öl lipophil/flüchtig → magensaftresistente Kapsel für Wirkung am Darm; Gerbstoffe/Flavonoide wasserlöslich → Tee",
+    "heat_light_sensitivity": "Öl flüchtig; Aufguss abgedeckt ziehen lassen"
+  },
+  "pharmacology": {
+    "mechanism": "Menthol wirkt als Antagonist an Kalziumkanälen, reduziert Kalziumeinstrom und hemmt die Kontraktilität der glatten Muskulatur (spasmolytisch); zusätzlich karminativ, choleretisch, lokal kühlend (TRPM8-Aktivierung)",
+    "evidence_caveat": "starke Studienlage für das Öl bei RDS; Blatt/Tee schwächer belegt",
+    "pharmacokinetics": "magensaftresistente Formulierung verzögert Freisetzung bis in den Darm (Wirkort); Menthol hepatisch metabolisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Reizdarmsyndrom / krampfartige Magen-Darm-Beschwerden (Öl)",
+      "synonyms": [
+        "Reizdarm",
+        "RDS",
+        "Reizdarmsyndrom",
+        "Magenkrämpfe",
+        "Bauchschmerzen",
+        "Blähungen",
+        "Darmkrämpfe",
+        "Colon irritabile"
+      ],
+      "evidence_tag": "WEU",
+      "comment": "HMPC well-established use für magensaftresistentes Pfefferminzöl; in Studien anderen Spasmolytika (Butylscopolamin, Mebeverin) überlegen; S3-Leitlinie RDS höchste Empfehlungsstufe",
+      "realistic_expectation": "Gut belegte, wirksame symptomatische Therapie bei RDS — der stärkste WEU-Fall im Kern-Katalog. Als Arzneimittel (Kapsel), nicht als Tee.",
+      "source": "HMPC well-established use (Öl, RDS/Magen-Darm-Krämpfe); S3-Leitlinie RDS"
+    },
+    {
+      "canonical": "Spannungskopfschmerz (topisch, Öl auf Stirn/Schläfen)",
+      "synonyms": [
+        "Spannungskopfschmerz",
+        "Kopfschmerzen",
+        "Kopfweh"
+      ],
+      "evidence_tag": "WEU",
+      "comment": "HMPC well-established use für äußerliche Ölanwendung bei Spannungskopfschmerz",
+      "realistic_expectation": "Belegte Lokalanwendung bei Spannungskopfschmerz.",
+      "source": "HMPC well-established use (Öl topisch, Spannungskopfschmerz)"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden / Flatulenz (Blatt/Tee)",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Flatulenz",
+        "Magenbeschwerden",
+        "Übelkeit"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use für Blatt; ESCOP positiv für Verdauungsbeschwerden",
+      "realistic_expectation": "Milde symptomatische Wirkung des Tees; schwächer belegt als das Öl bei RDS.",
+      "source": "HMPC traditional use (Blatt); ESCOP+ (Verdauungsbeschwerden)"
+    },
+    {
+      "canonical": "Husten/Erkältung, lokale Muskelschmerzen, Juckreiz (topisch, Öl)",
+      "synonyms": [
+        "Erkältung",
+        "Husten",
+        "Muskelschmerzen",
+        "Juckreiz"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use (Öl äußerlich/Inhalation)",
+      "realistic_expectation": "Traditionelle Anwendung; kühlender/schleimhautaktiver Effekt.",
+      "source": "HMPC traditional use (Öl äußerlich/Inhalation)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Pfefferminzöl (magensaftresistent) bei RDS wirksam belegt (WEU); topisch bei Spannungskopfschmerz belegt",
+    "overstated": "Pfefferminz-Tee als gleichwertiger RDS-Behandler — der Tee erreicht nicht die belegte Wirkung des standardisierten Öls am Wirkort Darm",
+    "effect_size": "Öl bei RDS klinisch relevant; Tee mild/symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "RDS: magensaftresistente Öl-Kapsel (Freisetzung im Darm)",
+      "Spannungskopfschmerz: Öl flüssig auf Stirn/Schläfen",
+      "Verdauung: Blatt-Tee (Aufguss abgedeckt)"
+    ],
+    "form_rationale": "SCHLÜSSELPRINZIP: nur die magensaftresistente Öl-Formulierung bringt das lipophile Öl intakt an den Wirkort Darm — Tee kann das nicht leisten. Öl-vs-Tee ist hier klinisch, nicht nur geschmacklich.",
+    "standard_dose": "Öl: 0,6–1,2 ml/Tag auf 2–3 Einzeldosen (Erwachsene/Jugendliche ≥ 12 J.); Tee: 1–2 TL/Tasse mehrmals täglich",
+    "preservation": "Blatt getrocknet dicht/dunkel; Öl als Fertigpräparat"
+  },
+  "safety": {
+    "tox_ceiling": "kein klassisches Toxin; Öl nicht bei Säuglingen/Kleinkindern im Gesicht/Nasenbereich (Laryngospasmus-Gefahr durch Menthol)",
+    "contraindications": [
+      "Gallensteinleiden nur nach Rücksprache",
+      "Verschluss der Gallenwege",
+      "Öl nicht ins Gesicht von Säuglingen/Kleinkindern"
+    ],
+    "pregnancy_lactation": "Tee in üblichen Mengen meist unproblematisch; Öl-Arzneimittel nur nach Rücksprache",
+    "adverse_effects": "gelegentlich Sodbrennen/Reflux (Öl relaxiert unteren Ösophagussphinkter), selten allergische Reaktionen",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch (schwach)",
+        "mechanism": "Menthol/Pfefferminzöl als schwacher CYP3A4-/CYP1A2-Modulator in vitro diskutiert",
+        "clinical_relevance": "in üblichen Dosen gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "toxin_ceiling": false,
+      "reflux_caution": true,
+      "infant_facial_caution": true
+    },
+    "key_warning": "Reflux-Verstärkung durch Sphinkter-Relaxation möglich; Öl nie ins Gesicht kleiner Kinder. Ansonsten sehr sicheres, gut belegtes Phytopharmakon."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter kurz vor/zur Blüte (höchster Ölgehalt), trockener Vormittag",
+    "harvest_month_tags": [
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Triebe schneiden, Blätter abstreifen",
+    "processing": "luftig schattig trocknen, mäßige Temperatur (Öl flüchtig)",
+    "storage": "getrocknet ganz, dicht/lichtgeschützt; erst vor Gebrauch zerkleinern"
+  },
+  "kitchen": {
+    "uses": [
+      "Tee",
+      "Desserts",
+      "Getränke",
+      "Nordafrikanische/orientalische Küche"
+    ],
+    "culinary_vs_medicinal": "kulinarische Mengen unproblematisch; arzneiliche RDS-Wirkung nur über Öl-Kapsel, nicht über Küchengebrauch"
+  },
+  "garden": {
+    "site_soil": "feucht, nährstoffreich, halbschattig bis sonnig",
+    "hardiness": "winterhart, wüchsig, stark ausläuferbildend (am besten im Topf/Kübel eindämmen)",
+    "propagation": "nur vegetativ (Ausläufer/Teilung) — steriler Hybrid, Aussaat sinnlos",
+    "bodensee_suitability": "sehr gut; dankbare Kübelpflanze, ausbreitungsstark — Wurzelsperre empfehlenswert"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Pfefferminze Blattwerk",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "gesägtes Blatt, rötlicher Stängel",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Menthae piperitae aetheroleum (well-established use: RDS/Magen-Darm-Krämpfe, Spannungskopfschmerz; traditional use: Husten, Muskelschmerz, Juckreiz)",
+    "EMA/HMPC Menthae piperitae folium (traditional use)",
+    "ESCOP-Monographie (Verdauungsbeschwerden, RDS)",
+    "Pharmazeutische Zeitung / S3-Leitlinie RDS (Menthol als Kalziumkanal-Antagonist; überlegen ggü. Butylscopolamin/Mebeverin)"
+  ]
+}

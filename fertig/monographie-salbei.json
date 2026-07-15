@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "id": "salvia-officinalis",
+  "botany": {
+    "scientific_name": "Salvia officinalis L.",
+    "common_names_de": [
+      "Echter Salbei",
+      "Gartensalbei",
+      "Küchensalbei"
+    ],
+    "family": "Lamiaceae",
+    "drug_part": [
+      "Blatt",
+      "ätherisches Öl"
+    ],
+    "drug_name_latin": "Salviae officinalis folium (Öl: Salviae aetheroleum)"
+  },
+  "identification": {
+    "key_features": [
+      "Gegenständige, längliche, graugrün-filzige Blätter mit runzelig-netzartiger Oberfläche",
+      "Vierkantiger Stängel (typisch Lamiaceae)",
+      "Intensiv würzig-kampferartiger Geruch beim Zerreiben",
+      "Blau-violette Lippenblüten in Scheinquirlen"
+    ],
+    "season": "Blüte Mai bis Juli",
+    "habitat": "Sonnig, trocken, kalkhaltig, durchlässig; mediterrane Herkunft",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "In freier Wildbahn am Bodensee fast immer kultiviert oder andere Salvia-Art (z. B. Wiesensalbei S. pratensis)",
+      "Intensiver Geruch als zuverlässiger Bestätiger"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wiesensalbei",
+      "scientific_name": "Salvia pratensis",
+      "toxicity_level": "essbar",
+      "distinguishing_features": "heimisch, aromaärmer; keine toxische Verwechslung"
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (mind. 0,1% m/m, oft 1-2,5%)",
+      "Gerbstoffe (Rosmarinsäure, Phenolcarbonsäuren)",
+      "Flavonoide",
+      "Diterpene (Carnosol, Carnosolsäure)",
+      "Triterpene"
+    ],
+    "lead_substance": "α-/β-Thujon, 1,8-Cineol, Campher, Borneol (im Öl)",
+    "solubility_note": "gemischt: ätherisches Öl lipophil/flüchtig (Alkohol/Öl), Gerbstoffe + Rosmarinsäure wasserlöslich (Tee/Infus)",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig → Aufguss abgedeckt ziehen lassen"
+  },
+  "pharmacology": {
+    "mechanism": "Antihidrotisch (Mechanismus nicht vollständig geklärt, zentrale + periphere Thermoregulation, verzögerter Wirkeintritt); adstringierend/antiseptisch lokal (Gerbstoffe fällen Oberflächenproteine); antioxidativ/antiinflammatorisch (Rosmarinsäure); antimikrobiell/antiviral in vitro",
+    "evidence_caveat": "Pharmakologie der Zubereitung nicht sauber charakterisiert",
+    "pharmacokinetics": "für Zubereitung nicht charakterisiert; Thujon hepatisch metabolisiert, ZNS-gängig (Neurotoxizität bei Überdosis)"
+  },
+  "indications": [
+    {
+      "canonical": "Übermäßiges Schwitzen / Hitzewallungen",
+      "synonyms": [
+        "Schwitzen",
+        "Hyperhidrose",
+        "Hitzewallungen",
+        "Nachtschweiß",
+        "Schweiß"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP positiv; kleine methodisch begrenzte Studien",
+      "realistic_expectation": "moderater spürbarer Effekt bei manchen; kein Ersatz bei relevanten Hitzewallungen z. B. unter Tamoxifen",
+      "source": "HMPC traditional use; ESCOP+ (Hyperhidrose/Hitzewallungen)"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Blähungen",
+        "Sodbrennen",
+        "Völlegefühl",
+        "Magenbeschwerden"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP positiv",
+      "realistic_expectation": "symptomatische Linderung plausibel, Evidenz schwach",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (Schwitzen)"
+    },
+    {
+      "canonical": "Entzündungen Mund-/Rachenschleimhaut",
+      "synonyms": [
+        "Halsschmerzen",
+        "Rachenentzündung",
+        "Pharyngitis",
+        "Halsweh",
+        "Zahnfleischentzündung",
+        "Gingivitis",
+        "wunder Hals",
+        "Mundschleimhautentzündung"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "klassische Lokalanwendung (Gurgeln/Spülen); Gerbstoff-Mechanismus plausibel; Kommission E positiv",
+      "realistic_expectation": "sinnvolle risikoarme Lokaltherapie bei leichter Pharyngitis/Gingivitis; symptomatisch, nicht kurativ",
+      "source": "HMPC traditional use; ESCOP+; Kommission E (dyspept. Beschwerden)"
+    },
+    {
+      "canonical": "Herpes labialis (topisch)",
+      "synonyms": [
+        "Herpes",
+        "Lippenherpes",
+        "Fieberbläschen"
+      ],
+      "evidence_tag": "PRÄ/TRAD",
+      "comment": "In-vitro-Antiherpes-Effekte; klinisch dünn",
+      "realistic_expectation": "bestenfalls unterstützend; kein Ersatz für Aciclovir",
+      "source": "In-vitro-Daten (Antiherpes); klinisch dünn"
+    },
+    {
+      "canonical": "Kognition / Gedächtnis",
+      "synonyms": [
+        "Gedächtnis",
+        "Konzentration",
+        "Kognition"
+      ],
+      "evidence_tag": "PRÄ",
+      "comment": "kleine Studien, präklinische Cholinesterase-Hemmung",
+      "realistic_expectation": "nicht als Nootropikum belegt; Erwartung niedrig halten",
+      "source": "präklinisch (Cholinesterase-Hemmung); kleine Studien"
+    },
+    {
+      "canonical": "Blutzucker / Blutfette",
+      "synonyms": [
+        "Blutzucker",
+        "Diabetes",
+        "Blutfette",
+        "Cholesterin"
+      ],
+      "evidence_tag": "PRÄ",
+      "comment": "nur unterstützend/präklinisch diskutiert",
+      "realistic_expectation": "keine therapeutische Erwartung",
+      "source": "präklinisch"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "lokale adstringierend-entzündungshemmende Wirkung Mund/Rachen; antihidrotischer Effekt bei manchen",
+    "overstated": "systemische Wirkung auf Kognition, Blutzucker, Blutfette; antivirale Heilwirkung",
+    "effect_size": "wo Effekte existieren meist moderat und symptomatisch, nicht kurativ"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Gurgeln/Mundspülung: warmer Aufguss (Gerbstoffe + etwas Öl), abgedeckt ziehen",
+      "innerlich bei Schwitzen: Tee oder standardisierter Extrakt",
+      "ätherisch-öl-betont: alkoholischer Auszug/Tinktur (Öl lipophil)"
+    ],
+    "form_rationale": "Gerbstoffe wasserlöslich → Tee/Gurgeln; ätherisches Öl lipophil/flüchtig → Tinktur, Aufguss abgedeckt",
+    "standard_dose": "Trockenextrakt ca. 320 mg auf 3-4 Gaben; Tee: übliche Teelöffel-Droge/Tasse mehrmals täglich",
+    "preparation_details": "Aufguss ~100 °C, abgedeckt 5-10 min ziehen (sonst entweicht das Öl)",
+    "preservation": null
+  },
+  "safety": {
+    "tox_ceiling": "Thujon neurotoxisch: akzeptierte Tagesaufnahme ca. 5,0 mg/Person für max. 2 Wochen; thujonarme Chemotypen bevorzugen",
+    "contraindications": [
+      "Überempfindlichkeit",
+      "Vorsicht bei Epilepsie (Thujon senkt Krampfschwelle)"
+    ],
+    "pregnancy_lactation": "innerliche arzneiliche Anwendung meiden (Thujon; traditionell milchreduzierend); Küchenmengen unproblematisch",
+    "adverse_effects": "bei bestimmungsgemäßem Gebrauch selten; bei Öl-Überdosis Tachykardie, Hitzegefühl, im Extrem Krämpfe",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "theoretisch additiv mit krampfschwellensenkenden Substanzen (Thujon)",
+        "clinical_relevance": "gering bei Blattdroge in üblicher Dosis"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "theoretisch additiv mit Antidiabetika/Antihypertonika",
+        "clinical_relevance": "klinisch gering, als theoretische Möglichkeit vermerkt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "toxin_ceiling": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "toxin_type": "Thujon",
+      "lowers_seizure_threshold": true
+    },
+    "key_warning": "Sicherheitsfrage ist fast vollständig eine Thujon-Dosis-Dauer-Frage (v. a. Öl, Dauergebrauch), nicht Verwechslung oder Toxin der ganzen Pflanze"
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter vor bis zu Blühbeginn, trockener Vormittag nach Abtrocknen des Taus (höchster Ölgehalt)",
+    "harvest_month_tags": [
+      5,
+      6
+    ],
+    "harvest_organ": "Blatt",
+    "method": "an trockenem Vormittag ernten",
+    "processing": "luftig schattig trocknen, max. ca. 35 °C (höher vertreibt ätherisches Öl)",
+    "storage": "getrocknet ganz (nicht zerrieben), dicht + lichtgeschützt; Wirkverlust über ~1 Jahr; erst vor Gebrauch zerkleinern"
+  },
+  "kitchen": {
+    "uses": [
+      "Fleisch",
+      "Saltimbocca",
+      "Butter/Öl",
+      "Kürbis",
+      "frisch oder getrocknet"
+    ],
+    "culinary_vs_medicinal": "Küchenmengen weit unter Thujon-Grenze, unbedenklich; problematisch nur konzentrierte dauerhafte arzneiliche Anwendung (v. a. Öl)"
+  },
+  "garden": {
+    "site_soil": "vollsonnig, durchlässig, eher mager, kalkverträglich; Staunässe meiden",
+    "hardiness": "gut winterhart, verholzt; Frühjahrsrückschnitt (nicht zu tief ins alte Holz)",
+    "propagation": "Aussaat ab Frühjahr, einfacher über Stecklinge/Teilung",
+    "bodensee_suitability": "sehr gut; pflegeleichte Einstiegspflanze, insektenfreundlich"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Salbeipflanze mit Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "runzelig-netzartige Blattoberfläche, vierkantiger Stängel",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "flower",
+      "caption": "blau-violette Lippenblüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC EU herbal monograph Salvia officinalis L., folium (traditional use; Thujon 5,0 mg/Tag max. 2 Wochen; thujonarme Chemotypen)",
+    "ESCOP-Monographie (dyspeptische Beschwerden, Hyperhidrose, Hitzewallungen, lokal Schleimhautentzündungen)",
+    "Kommission E (innerlich dyspeptische Beschwerden, Schwitzen; äußerlich Mund-/Rachenentzündungen)",
+    "Ph. Eur. (Mindestölgehalt Salbeiblatt)"
+  ]
+}
