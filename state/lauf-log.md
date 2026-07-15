@@ -154,3 +154,32 @@
 - **Verwechslungs-Falle Katzenminze:** N. nepetella ist NICHT die (schwach) arzneilich genutzte Echte Katzenminze (N. cataria). Ich habe ausdrücklich davor gewarnt, deren Zuschreibungen zu übertragen — im Katalog steht sonst schnell ein Heilwert, den diese Art nicht hat.
 - **Verwechslungs-Falle Fingerkraut:** Potentilla reptans ist arzneilich viel schwächer/unbelegter als die ähnliche Tormentillwurzel (Potentilla erecta). Kein giftiger Doppelgänger — die Pflanze ist essbar und sehr sicher (`high_safety=true`); das eigentliche „Risiko" ist die schwache Evidenz, nicht Toxizität. `confusions` bewusst mit den ungiftigen Ähnlichen (Gänsefingerkraut, Tormentill, Erdbeere) gefüllt plus explizitem „keine lebensgefährliche Verwechslung bekannt".
 - **Restliche Wunschliste (3 offene Einträge):** dittrichia-viscosa (Klebriger Alant), cynodon-dactylon (Bermudagras), hedera-canariensis (Kanarischer Efeu) — ebenfalls überwiegend mediterran/nicht heimisch und evidenzarm. hedera-canariensis ist v. a. als **Abgrenzung/Warneintrag** zum arzneilichen Efeu (Hedera helix) interessant. Nächster Lauf (max. 2/Lauf) sollte hier weitermachen, sofern die Wunschlisten-Vorrang-Entscheidung bestätigt wird.
+
+## 2026-07-15 — Klebriger Alant, Hundszahngras (beide aus der WUNSCHLISTE)
+
+**Quelle:** `docs/wunschliste.json` (5 offene Wuensche). Die ersten beiden — potentilla-reptans, nepeta-nepetella — lagen bereits in `fertig/` (Vorlauf) und wurden per Dedup uebersprungen. Bearbeitet daher die naechsten beiden offenen Wunsch-Eintraege:
+- **dittrichia-viscosa** (Klebriger Alant) — `fertig/monographie-klebriger-alant.json`
+- **cynodon-dactylon** (Hundszahngras / Bermudagras) — `fertig/monographie-hundszahngras.json`
+
+Kandidatenliste NICHT angefasst (beide sind Wunsch-, keine Kandidaten-Kraeuter). Kein Self-Heal noetig: kein als "offen" markierter Kandidat liegt bereits in `fertig/`.
+
+**Pruefergebnis:** Beide einzeln `✓ ok, mit Hinweisen` (0 Fehler) beim ersten Versuch — **0 Korrekturversuche**. Einziger Hinweis je Datei: enthaelt "unsicher/zu pruefen" (bewusst gesetzt).
+
+**Dedup:** gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` in der Kandidatenliste geprueft — keine Dublette. Altnamen eingetragen: Dittrichia = Inula viscosa/Cupularia viscosa; Cynodon = Panicum dactylon/Capriola dactylon.
+
+**Hauptquellen (Primaerquellen EMA/HMPC nicht einschlaegig — fuer BEIDE Arten existiert keine europaeische Arzneimonographie):**
+- Dittrichia viscosa: J. Ethnopharmacology 2024 (comprehensive review), Molecules 27:2108 (2022), Actas Dermo-Sifiliograficas (Kontaktdermatitis), DermNet NZ (Compositae-Allergie), Wikipedia/InfoFlora/JKI (Abgrenzung D. graveolens).
+- Cynodon dactylon: Reviews 'medicinal grass of India' (2024) & J. Med. Chem. Ther.; Allergologie Cyn d 1 (PMC2646682); Veterinaertoxikologie Blausaeure (NMSU B-808, NSW DPI, MSD Vet Manual); Wikipedia/InfoFlora + Abgrenzung Elymus repens / Digitaria sanguinalis.
+
+### Ueberraschungen / unsichere Stellen fuer den Arzt
+
+- **Beide Arten: KEIN belegter Heilwert.** Weder HMPC noch ESCOP noch Kommission E fuehren eine Monographie. Alle Indikationen sind PRAE/TRAD (praeklinisch/volksmedizinisch) und durchgehend defensiv formuliert. Bitte als Entwuerfe mit sehr niedriger Evidenz behandeln.
+- **Klebriger Alant ist ein Paradox: 'entzuendungshemmend' UND starkes Kontaktallergen.** Die traditionell aeusserliche Anwendung kann durch die Sesquiterpenlactone selbst eine allergische Kontaktdermatitis ausloesen. `asteraceae_allergy=true`. Schutzhandschuhe schon beim Sammeln.
+- **Klebriger Alant im Bodenseeraum: Fundort unplausibel.** D. viscosa ist mediterran; ein Bodensee-Fund ist eher Kultur/Adventiv ODER — wahrscheinlicher — eine Fehlbestimmung des sich stark ausbreitenden, schmalblaettrigen *Dittrichia graveolens*. Der deutsche Name 'Klebriger Alant' wird fuer BEIDE Arten benutzt. `region_occurrence` = nur-kultur-selten-verwildert gesetzt. Bitte gegenpruefen, ob die App den Fund evtl. D. graveolens zuordnen sollte.
+- **Hundszahngras: die klinisch relevanteste Eigenschaft in Europa ist die POLLEN-Allergie** (Cyn d 1 — Heuschnupfen, Asthma), nicht der Heilwert. Bewusst prominent in `key_warning`/`adverse_effects`.
+- **Hundszahngras: cyanogenes Potenzial.** `toxin_ceiling=true` + `toxin_type='cyanogene Glykoside (Blausaeure/HCN)'` gesetzt. Achtung: die Blausaeure-Grenzwerte sind fuer WEIDETIERE (junger/gestresster/welker/frostgeschaedigter Wuchs) belegt; fuer die menschliche Teemenge existiert KEIN definierter Grenzwert (als "unsicher — zu pruefen" vermerkt). Bitte pruefen, ob das Setzen von toxin_ceiling hier in Ihrem Sinn ist oder ob es die Kleinmengen-Nutzung ueberzeichnet.
+- **Hundszahngras: `deadly_confusion=true` fuer einen KONTAMINANTEN, nicht fuer eine Doppelgaenger-Pflanze.** Es gibt kein toedlich giftiges Gras als Doppelgaenger; die lebensgefaehrliche Gefahr ist Mutterkorn-Befall (Claviceps, auch C. cynodontis) auf den Aehren. Bewusst so gesetzt, damit das Register greift — bitte pruefen, ob diese Auslegung des Flags erwuenscht ist.
+
+### WICHTIGER Nebenbefund (ausserhalb dieses Laufs, NICHT korrigiert)
+
+Beim Sammel-Lauf `validate_monographie.py fertig/*.json` fallen **11 bereits vorhandene Monographien mit zusammen 38 FEHLERN** durch die Pruefung — u. a. baerlauch (10), johanniskraut (5), beinwell (4), kamille (4), ringelblume (3), salbei (3), brennnessel (2), holunder (2), schafgarbe (2), wermut (2), pfefferminze (1). Typische Ursachen: ungueltige `toxicity_level`-Werte (z. B. 'essbar/gering', 'lebensgefaehrlich' ohne Umlaut, 'teils lebensgefaehrlich (Schierling)'), `type`-Enums bei interactions ('hinweis', 'pharmakokinetisch (schwach)'), `None` statt Leerstring in optionalen Feldern, fehlendes `note`/`main_groups`. Diese Dateien stammen aus frueheren Laeufen und wurden hier **absichtlich nicht angefasst** (Auftrag: genau 2 Monographien). Empfehlung: eigener Bereinigungslauf. Meine beiden neuen Dateien bestehen die Pruefung einzeln fehlerfrei.

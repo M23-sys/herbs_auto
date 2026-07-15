@@ -1,0 +1,221 @@
+{
+  "schema_version": "1.0",
+  "id": "dittrichia-viscosa",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Dittrichia viscosa (L.) Greuter",
+    "common_names_de": [
+      "Klebriger Alant",
+      "Breitblättriger Klebalant",
+      "Klebrige Dittrichie",
+      "Weidenblättriger Alant"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut/Blätter (frisch oder getrocknet) — keine etablierte Arzneidroge"
+    ],
+    "drug_name_latin": "unsicher — keine offizielle Drogenbezeichnung (früher als 'Herba Inulae viscosae' in der Volksmedizin)",
+    "synonyms": [
+      "Inula viscosa (L.) Aiton",
+      "Cupularia viscosa (L.) Gren. & Godr.",
+      "Erigeron viscosum L."
+    ],
+    "synonym_note": "Früher Inula viscosa; heute akzeptiert Dittrichia viscosa (L.) Greuter. WICHTIG: Der deutsche Name 'Klebriger Alant' wird uneinheitlich benutzt und auch auf die verwandte Art Dittrichia graveolens angewandt — Verwechslungsgefahr, siehe confusions. Nicht mit dem Echten Alant (Inula helenium) gleichsetzen."
+  },
+  "identification": {
+    "key_features": [
+      "Ganze Pflanze klebrig-drüsig behaart, stark aromatisch harzig riechend (Finger kleben nach Berührung) — sicherstes Merkmal",
+      "Halbstrauch/Staude 30–130 cm, unten verholzend, buschig-aufrecht, mehrjährig",
+      "Blätter lanzettlich, 2–6 cm lang und deutlich >2 mm breit (breitblättrig), sitzend, oft leicht gezähnt, klebrig",
+      "Zahlreiche kleine gelbe Körbchen (10–20 mm) mit deutlich über die Hüllblätter hinausragenden Zungenblüten; Blüte spät (Ende Sommer bis Herbst)",
+      "Standort mediterran/ruderal: Böschungen, Wegränder, Brachen, gestörte Böden"
+    ],
+    "season": "Blüte spät: (August) September–November",
+    "habitat": "Mediterran; ruderale, gestörte, oft trockene Standorte — Straßen- und Wegränder, Böschungen, Brachland, Olivenhaine. Wärmeliebend.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "ACHTUNG Fundort-Plausibilität: Dittrichia viscosa ist im Bodenseeraum nicht heimisch (Schwerpunkt Mittelmeerraum, in der Schweiz v. a. Tessin). Ein 'Bodensee'-Fund ist am ehesten (a) kultiviert/adventiv oder (b) eine Fehlbestimmung der viel häufigeren, sich entlang von Autobahnen ausbreitenden SCHMALBLÄTTRIGEN Art Dittrichia graveolens. Bestimmung durch Fachperson absichern.",
+      "Bestätigend gegen D. graveolens: mehrjähriger, unten verholzter Halbstrauch (nicht einjährig), Blätter deutlich >2 mm breit, Zungenblüten klar länger als die Hüllblätter, Blüte etwas früher",
+      "SCHUTZHANDSCHUHE beim Sammeln: die klebrigen Drüsen enthalten stark hautsensibilisierende Sesquiterpenlactone — Kontaktdermatitis möglich (siehe safety)",
+      "Keine anerkannte Arznei-Sammeltradition in Mitteleuropa; Nutzung ausschließlich volksmedizinisch (Mittelmeerraum)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Schmalblättriger Klebalant / Stinkender Alant",
+      "scientific_name": "Dittrichia graveolens",
+      "toxicity_level": "giftig",
+      "toxin": "Sesquiterpenlactone (Kontaktsensibilisatoren/Reizstoffe)",
+      "note": "Namens- und Artverwechslung Nr. 1: wird ebenfalls 'Klebriger Alant' genannt. Einjährig, Blätter schmal-linealisch (1–2 mm), kampferartiger Geruch, Körbchen kleiner. Breitet sich in D/CH stark entlang Straßen aus (auch Bodenseeraum). Ebenfalls hautsensibilisierend/reizend, für Weidetiere problematisch — nicht anwenden."
+    },
+    {
+      "name": "Echter Alant / Wiesen-Alant und andere Inula-Arten",
+      "scientific_name": "Inula helenium, Inula britannica, Inula conyzae",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gelbblütige, historisch mit Dittrichia in einer Gattung geführte Korbblütler. Inula helenium (Echter Alant) hat eine eigene, ganz andere Verwendung (Wurzeldroge, Alantwurzel). Nicht giftig, aber pharmakologisch NICHT gleichzusetzen — die Volksangaben zu D. viscosa dürfen nicht auf Inula übertragen werden und umgekehrt. Unterscheidung: D. viscosa klebrig-drüsig und harzig, Halbstrauch."
+    },
+    {
+      "name": "Greis-/Kreuzkräuter (Jakobs-Greiskraut u. a.)",
+      "scientific_name": "Jacobaea vulgaris (syn. Senecio jacobaea), Senecio spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (leberschädigend)",
+      "note": "Sicherheitskritische Verwechslung: ebenfalls gelbblütige Korbblütler an Weg- und Straßenrändern/Brachen — gleicher Lebensraum. Enthalten leberschädigende Pyrrolizidinalkaloide. Greiskräuter sind NICHT klebrig-drüsig und riechen nicht harzig; das Klebrig-Merkmal von D. viscosa ist entscheidend. Bei innerlicher Nutzung ruderaler gelber Körbchenpflanzen droht sonst eine PA-Aufnahme."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Unter den infrage kommenden Doppelgängern gibt es keinen akut tödlich giftigen. Dennoch aktiv geprüft: die relevanten Risiken sind (1) die Namensverwechslung mit D. graveolens, (2) die Habitat-Verwechslung mit leberschädigenden Greiskräutern und (3) die eigene starke Kontaktallergenität — nicht stillschweigend leer gelassen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Sesquiterpenlactone (u. a. Inuviscolid, Tomentosin) — zugleich bioaktiv UND hautsensibilisierend",
+      "Flavonoide (u. a. Quercetin-, Kaempferol-Derivate)",
+      "Phenolsäuren/Kaffeesäurederivate",
+      "Triterpene, Sterole",
+      "ätherisches Öl (harzig-klebrige Drüsenexsudate)"
+    ],
+    "lead_substance": "Sesquiterpenlactone (Tomentosin, Inuviscolid) — Hauptträger der in vitro beobachteten entzündungsmodulierenden und zytotoxischen Effekte, aber auch der allergenen Kontaktwirkung.",
+    "solubility_note": "Sesquiterpenlactone und lipophile Anteile sind schlecht wasserlöslich → traditionell wird das Kraut in Öl ausgezogen/gekocht (Ölauszug für äußerliche Anwendung), nicht als wässriger Tee. Flavonoide/Phenolsäuren gehen teils in wässrige/alkoholische Auszüge über.",
+    "heat_light_sensitivity": "ätherische/harzige Anteile flüchtig und licht-/hitzeempfindlich; Sesquiterpenlactone relativ stabil (Allergenität bleibt auch getrocknet erhalten)"
+  },
+  "pharmacology": {
+    "mechanism": "Präklinisch (in vitro / Tiermodell) beschrieben: entzündungshemmende, antioxidative, antimikrobielle und zytotoxische/antiproliferative Effekte, überwiegend den Sesquiterpenlactonen und Flavonoiden zugeschrieben (u. a. NF-κB-Modulation). Ein klinisch belegter Wirkmechanismus beim Menschen fehlt.",
+    "evidence_caveat": "KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Dittrichia viscosa (Stand 2026-07). Die gesamte publizierte Wirkevidenz ist präklinisch (Zellkultur, Tier) oder rein volksmedizinisch; kontrollierte klinische Studien am Menschen fehlen. Alle Heilwert-Aussagen sind daher unsicher — zu prüfen.",
+    "pharmacokinetics": "nicht charakterisiert (unsicher — zu prüfen)"
+  },
+  "indications": [
+    {
+      "canonical": "Äußerliche Anwendung bei kleinen Wunden, Juckreiz, Muskel-/Gelenkschmerzen (traditionell)",
+      "synonyms": [
+        "Hautentzündung",
+        "Wundheilung",
+        "Juckreiz",
+        "Muskelschmerzen",
+        "Gliederschmerzen",
+        "Insektenstiche"
+      ],
+      "evidence_tag": "PRÄ/TRAD",
+      "comment": "Mittelmeer-Volksmedizin nutzt Ölauszüge/Umschläge; präklinisch sind entzündungshemmende/antimikrobielle Effekte gezeigt. Keine regulatorische Monographie. Paradox: dieselbe Pflanze ist ein starkes Kontaktallergen — die äußerliche Anwendung kann selbst eine Dermatitis auslösen.",
+      "realistic_expectation": "Kein klinisch belegter Nutzen. Bestenfalls unspezifisch pflegend/adstringierend. Wegen erheblicher Kontaktallergie-Gefahr NICHT unkritisch auf die Haut bringen; kein Ersatz für Wundversorgung.",
+      "source": "Volksmedizin (Mittelmeerraum); präklinische Reviews (z. B. Journal of Ethnopharmacology 2024; Molecules 2022). Keine HMPC/ESCOP/Kommission E."
+    },
+    {
+      "canonical": "Innerliche volksmedizinische Anwendungen (Diabetes, Bluthochdruck, Fieber, harntreibend)",
+      "synonyms": [
+        "Zuckerkrankheit",
+        "hoher Blutdruck",
+        "Fieber",
+        "Entwässerung",
+        "harntreibend"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Reine Überlieferung ohne belastbare Belege. Für einige Effekte gibt es nur präklinische Hinweise. Angesichts fehlender Sicherheitsdaten und der Sensibilisatoren wird von innerlicher Selbstanwendung abgeraten.",
+      "realistic_expectation": "Keine belegte Wirkung. Darf blutdruck-/blutzuckersenkende Medikamente NICHT ersetzen. Innerliche Anwendung nicht empfohlen — Nutzen-Risiko unklar (unsicher — zu prüfen).",
+      "source": "Volksmedizin (Mittelmeerraum); ethnobotanische Reviews. Keine regulatorische Quelle."
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Bioaktive Mittelmeerpflanze mit interessanten präklinischen (entzündungshemmenden, antimikrobiellen, antioxidativen) Eigenschaften — Gegenstand der Forschung, kein belegtes Heilmittel.",
+    "overstated": "Jede konkrete Heilwirkung am Menschen, insbesondere gegen Diabetes, Bluthochdruck oder Krebs. Der 'entzündungshemmende' Ruf verschweigt, dass die Pflanze zugleich eines der stärkeren pflanzlichen Kontaktallergene ist.",
+    "effect_size": "kein klinisch belegter Effekt (PRÄ/TRAD); Risiko der Kontaktsensibilisierung real"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Ölauszug / Umschlag (traditionell, äußerlich)",
+      "keine empfohlene innerliche Zubereitung"
+    ],
+    "form_rationale": "Die lipophilen, schlecht wasserlöslichen Sesquiterpenlactone gehen in Öl über — daher traditionell Ölauszug äußerlich statt Tee. Diese Form transportiert aber auch die Allergene an die Haut.",
+    "standard_dose": "unsicher — zu prüfen: keine etablierte, sichere Dosierung. Wegen Allergie-/Sicherheitslage keine Selbstanwendungsdosis empfohlen.",
+    "preservation": "getrocknetes Kraut behält Allergenität; kühl, trocken, lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "Kein klassisches Dosis-Toxin, aber ausgeprägtes Kontaktallergen (Sesquiterpenlactone) — bereits geringe Hautkontakte können bei Sensibilisierten eine Dermatitis auslösen.",
+    "contraindications": [
+      "bekannte Korbblütler-/Sesquiterpenlacton-Allergie (Kreuzreaktion mit Beifuß, Kamille, Arnika, Chrysanthemen u. a.)",
+      "offene Wunden/geschädigte Haut bei unklarem Sensibilisierungsstatus",
+      "Schwangerschaft/Stillzeit (keine Daten)",
+      "innerliche Anwendung generell (Nutzen-Risiko ungeklärt)"
+    ],
+    "pregnancy_lactation": "Keine Daten zur Sicherheit in Schwangerschaft und Stillzeit (unsicher — zu prüfen). Arzneiliche Anwendung — innerlich wie äußerlich — vorsichtshalber meiden.",
+    "adverse_effects": "Häufig: allergische Kontaktdermatitis (Rötung, Juckreiz, Bläschen) durch Sesquiterpenlactone; auch bei bloßem Pflanzenkontakt im Feld. Airborne-Kontaktdermatitis (Pollen/Drüsenstaub) möglich. Innerlich: keine belastbaren Verträglichkeitsdaten.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "möglicherweise additive blutzucker-/blutdrucksenkende Effekte (nur präklinische Hinweise); klinisch nicht belegt",
+        "affected": "Antidiabetika, Antihypertensiva (theoretisch)",
+        "clinical_relevance": "gering/unbekannt (unsicher — zu prüfen)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein belegtes Heilmittel und ein starkes Korbblütler-Kontaktallergen (Sesquiterpenlactone) — schon Berührung kann Dermatitis auslösen; im Bodenseeraum nicht heimisch und leicht mit dem sich ausbreitenden Dittrichia graveolens oder mit leberschädigenden Greiskräutern zu verwechseln."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "spätsommerliche/herbstliche Blüte (nur im mediterranen Verbreitungsgebiet sinnvoll; im Bodenseeraum nicht empfohlen)",
+    "harvest_month_tags": [
+      9,
+      10,
+      11
+    ],
+    "harvest_organ": "Kraut (blühend), Blatt",
+    "method": "nur mit Schutzhandschuhen; oberirdische Triebe",
+    "processing": "frisch für Ölauszug oder schonend trocknen (Allergenität bleibt erhalten)",
+    "storage": "trocken, lichtgeschützt; getrocknetes Material kennzeichnen (Allergen)"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung. Die Pflanze ist harzig-bitter und hautreizend — ausschließlich (volksmedizinisch-)äußerliche Tradition, kein Lebensmittel."
+  },
+  "garden": {
+    "site_soil": "vollsonnig, trocken, durchlässig, wärmebegünstigt (mediterran)",
+    "hardiness": "nur mäßig winterhart; in Voralpenlagen heikel",
+    "propagation": "Aussaat, Stecklinge",
+    "bodensee_suitability": "Nicht empfohlen: nicht heimisch, wärmebedürftig, starkes Kontaktallergen und mit der bereits einwandernden, invasiven D. graveolens verwandt. Ökologisch/gesundheitlich kein Gewinn für den Garten."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Klebriger Alant, buschiger Halbstrauch mit zahlreichen gelben Körbchen an ruderalem Standort",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "klebrig-drüsige, breit-lanzettliche Blätter; Zungenblüten länger als die Hüllblätter",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Dittrichia viscosa (Stand 2026-07) — Primärquellen nicht einschlägig, da keine europäische Arzneimonographie existiert; Evidenz durchgehend präklinisch/traditionell und ärztlich gegenzuprüfen",
+    "Journal of Ethnopharmacology (2024): 'A comprehensive review on ethnomedicinal uses, phytochemistry, toxicology, and pharmacological activities of Dittrichia viscosa (L.) Greuter'",
+    "Molecules 27(7):2108 (2022): 'Dittrichia viscosa L. Leaves: A Valuable Source of Bioactive Compounds with Multiple Pharmacological Effects'",
+    "Actas Dermo-Sifiliográficas: 'Allergic Contact Dermatitis Due to Dittrichia viscosa' (Sesquiterpenlactone als Sensibilisatoren); DermNet NZ: 'Compositae allergy'",
+    "Wikipedia (de) 'Breitblättriger Klebalant' / 'Klebriger Alant' und InfoFlora/JKI-Portraits zu Dittrichia graveolens (Abgrenzung, Verbreitung, Neophyten-Status)"
+  ]
+}

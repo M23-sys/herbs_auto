@@ -15,6 +15,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung aus der Wunschliste. Mediterrane Zier-/Duftpflanze OHNE belegten Heilwert (keine HMPC/ESCOP/Kommission-E-Monographie), in der Bodenseeregion NICHT wild heimisch (Fund = Kultur oder Fehlbestimmung). Nicht mit der arzneilich genutzten Echten Katzenminze (Nepeta cataria) verwechseln. Alle Indikationsangaben TRAD/unsicher."
+    },
+    {
+      "ts": "2026-07-15T09:23:28Z",
+      "id": "dittrichia-viscosa",
+      "common": "Klebriger Alant",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Wunschliste. KEINE HMPC/ESCOP/Kommission-E-Monographie — Evidenz rein praeklinisch/volksmedizinisch (Mittelmeerraum), daher PRAE/TRAD. WICHTIG: die Pflanze ist selbst ein starkes Korbbluetler-Kontaktallergen (Sesquiterpenlactone) — aeusserliche Volksanwendung kann Dermatitis ausloesen. Im Bodenseeraum nicht heimisch; Fund ist eher Kultur/Adventiv oder Fehlbestimmung des sich ausbreitenden Dittrichia graveolens. Habitat-Verwechslung mit leberschaedigenden Greiskraeutern (Pyrrolizidinalkaloide) beachtet."
+    },
+    {
+      "ts": "2026-07-15T09:23:28Z",
+      "id": "cynodon-dactylon",
+      "common": "Hundszahngras",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Wunschliste. KEINE HMPC/ESCOP/Kommission-E-Monographie; Heilverwendung ayurvedisch ('Durva'), moderne Evidenz praeklinisch — PRAE/TRAD. Zwei sicherheitskritische Befunde: (1) der Pollen ist ein starkes Aeroallergen (Cyn d 1, Heuschnupfen/Asthma) — in Europa die klinisch relevanteste Eigenschaft; (2) cyanogenes Potenzial (Blausaeure) bei gestresstem/welkem Jungwuchs, bei Weidetieren belegt. toxin_ceiling=true (cyanogene Glykoside) gesetzt; deadly_confusion=true wegen moeglichem Mutterkorn-Befall der Aehren."
     }
   ]
 }

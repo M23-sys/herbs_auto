@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "id": "cynodon-dactylon",
+  "stand": "2026-07-15",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Cynodon dactylon (L.) Pers.",
+    "common_names_de": [
+      "Hundszahngras",
+      "Bermudagras",
+      "Finger-Hundszahngras"
+    ],
+    "family": "Poaceae (Süßgräser)",
+    "drug_part": [
+      "Kraut/oberirdische Triebe (frisch, als Saft/Aufguss) — keine etablierte europäische Arzneidroge",
+      "Rhizom (in der ayurvedischen Tradition 'Durva')"
+    ],
+    "drug_name_latin": "unsicher — keine offizielle europäische Drogenbezeichnung; ayurvedisch 'Durva'/'Doob'",
+    "synonyms": [
+      "Panicum dactylon L.",
+      "Digitaria dactylon (L.) Scop.",
+      "Capriola dactylon (L.) Kuntze"
+    ],
+    "synonym_note": "Aktuell akzeptiert Cynodon dactylon (L.) Pers.; historische Namen Panicum dactylon L. und Capriola dactylon. In Europa keine Arzneitradition — die Heilverwendung stammt aus Ayurveda ('Durva')."
+  },
+  "identification": {
+    "key_features": [
+      "Niederliegendes, mattenbildendes Gras mit kräftigen ober- UND unterirdischen Ausläufern (Stolonen + Rhizome), an den Knoten wurzelnd — sicherstes Merkmal",
+      "Blütenstand aus meist 3–6 fingerförmig-strahlig von einem Punkt abgehenden Ährchen-Ästen (handförmig, daher 'dactylon') an aufrechtem Halm 5–30 cm",
+      "Blätter kurz, grau-grün, mit deutlichem Haarkranz (Blatthäutchen als Wimpernsaum) am Blattgrund",
+      "Zäh, trittfest, wärmeliebend; bildet dichte Rasen an trockenen, sonnigen, gestörten Stellen",
+      "Wuchs deutlich ausläuferbildend/kriechend, nicht horstig"
+    ],
+    "season": "Blüte Sommer bis Frühherbst (Juli–September)",
+    "habitat": "Wärmeliebendes Gras trocken-sonniger, gestörter Standorte: Wege, Pflasterfugen, Sand-/Kiesflächen, Ufer, Weinberge, Rasen. Weltweit in warmen Klimaten; in Mitteleuropa wärmebegünstigte Lagen, mit Klimaerwärmung zunehmend.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "Bestätigend: kriechende Ausläufer + fingerförmig-strahliger Blütenstand + Wimpernkranz am Blattgrund. Ohne Blütenstand ist die sichere Bestimmung zwischen Rasengräsern schwierig — im Zweifel Fachbestimmung.",
+      "NUR gesunde, unbeschädigte, nicht welke oder frostgeschädigte Triebe: gestresstes/welkendes Jungmaterial kann cyanogene Glykoside (Blausäure) anreichern (siehe safety).",
+      "Ähren mit dunklen, hornartigen Auswüchsen (Mutterkorn/Claviceps) VERWERFEN — Mutterkornalkaloide sind hochgiftig; Gräserähren können befallen sein.",
+      "Belastete Standorte meiden (Wege/Pflaster = mögliche Hunde-Urin-/Schadstoffbelastung, Herbizide)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kriech-Quecke / Gewöhnliche Quecke",
+      "scientific_name": "Elymus repens (syn. Elytrigia repens, Agropyron repens)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Wichtigste Nutz-Verwechslung: Die Quecke liefert die anerkannte Droge 'Queckenwurzelstock' (Graminis rhizoma, traditionell/Kommission E als Durchspülungsmittel). Beide sind aggressive, rhizombildende 'Couch grasses'. Unterschied: Quecke höher/aufrechter, Blütenstand eine zweizeilige ÄHRE (nicht fingerförmig-strahlig), Blätter oberseits rau, kühleres Klima. Die Quecken-Heilverwendung NICHT unbesehen auf Cynodon übertragen."
+    },
+    {
+      "name": "Blutrote Fingerhirse / Bluthirse",
+      "scientific_name": "Digitaria sanguinalis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls fingerförmig-strahliger Blütenstand (Verwechslungsname 'Fingergras'). Aber einjährig, meist rötlich überlaufen, weichere Behaarung, ohne kräftige unterirdische Rhizome. Ungiftig (Hirse-Verwandtschaft). Unterscheidung über Ausdauer/Rhizome und Wuchsort."
+    },
+    {
+      "name": "sonstige Rasen-/Ausläufergräser",
+      "scientific_name": "Paspalum distichum, Poa spp., Agrostis spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Im vegetativen Zustand sind viele Rasengräser leicht zu verwechseln und für sich nicht giftig. Die sichere Cynodon-Bestimmung gelingt erst über den fingerförmigen Blütenstand + Wimpernkranz. Relevanz: nur so ist die (ohnehin unbelegte) 'richtige' Art überhaupt gesichert."
+    },
+    {
+      "name": "keine lebensgefährliche Pflanzen-Verwechslung bekannt — ABER Mutterkorn-Befall beachten",
+      "scientific_name": "Claviceps spp. (Pilzbefall auf Gräserähren)",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Mutterkornalkaloide (Ergotamin u. a.)",
+      "note": "Kein giftiges Gras als Doppelgänger, ABER: Gräserähren — auch von Cynodon (Claviceps cynodontis) — können mit Mutterkorn befallen sein. Die dunklen, hornartigen Sklerotien enthalten lebensgefährliche Alkaloide (Gefäßkrämpfe, Gangrän, Aborte). Befallene Ähren strikt verwerfen. Aktiv geprüft und bewusst als sicherheitskritischer Kontaminant aufgeführt statt das Feld leer zu lassen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide und C-Glykoside (u. a. Apigenin-, Luteolin-Derivate)",
+      "cyanogene Glykoside (potentielle Blausäurebildner, v. a. in gestresstem Jungwuchs)",
+      "Phytosterole (β-Sitosterol), Triterpene",
+      "Kohlenhydrate/Fruktan (Triticin), Proteine, Mineralstoffe, Vitamin C, Carotinoide",
+      "geringe Mengen ätherisches Öl, Alkaloide (Spuren)"
+    ],
+    "lead_substance": "Keine definierte arzneiliche Leitsubstanz; diskutiert werden Flavonoide/Phenole (antioxidativ) — beim Menschen kein belegter Wirkstoff. Sicherheitsrelevante Leitgruppe: cyanogene Glykoside.",
+    "solubility_note": "Traditionell wird frischer Presssaft oder wässriger Aufguss der Triebe verwendet → wasserlösliche Flavonglykoside/Zucker gehen über. Kein lipophiler Auszug nötig.",
+    "heat_light_sensitivity": "Vitamin C/Carotinoide hitze- und lichtempfindlich; cyanogene Glykoside werden durch Erhitzen/Trocknen teilweise abgebaut (Blausäure entweicht)"
+  },
+  "pharmacology": {
+    "mechanism": "Präklinisch (in vitro / Tiermodell) beschrieben: antioxidative, blutzuckersenkende, entzündungshemmende, wundheilungsfördernde, blutstillende und diuretische Effekte, überwiegend Flavonoiden/Phenolen zugeschrieben. Ein beim Menschen klinisch belegter Wirkmechanismus fehlt.",
+    "evidence_caveat": "KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Cynodon dactylon (Stand 2026-07). Die Heilverwendung ist ayurvedisch-traditionell; die moderne Evidenz ist präklinisch. Kontrollierte Studien am Menschen fehlen weitgehend. Alle Heilwert-Aussagen: unsicher — zu prüfen.",
+    "pharmacokinetics": "nicht charakterisiert (unsicher — zu prüfen)"
+  },
+  "indications": [
+    {
+      "canonical": "Traditionelle (ayurvedische) Anwendung: Blutungen/kleine Wunden, Hautbeschwerden, Harnwegsbeschwerden, 'kühlend'",
+      "synonyms": [
+        "Nasenbluten",
+        "blutstillend",
+        "Wundheilung",
+        "Hautausschlag",
+        "Brennen beim Wasserlassen",
+        "harntreibend",
+        "Durva"
+      ],
+      "evidence_tag": "PRÄ/TRAD",
+      "comment": "Durva ist eine der zentralen Pflanzen des Ayurveda; Presssaft traditionell blutstillend/kühlend genutzt. Präklinisch teils gestützt (Wundheilung, Antioxidation), aber keine europäische Monographie und keine belastbaren Humandaten.",
+      "realistic_expectation": "Kein klinisch belegter Nutzen in der westlichen Medizin. Allenfalls unspezifisch adstringierend/kühlend. Kein Ersatz für ärztliche Wund-, Blutungs- oder Harnwegsbehandlung.",
+      "source": "Ayurvedische Tradition ('Durva'); präklinische Reviews (z. B. J. Med. Chem. Ther. 2024; 'Cynodon dactylon: a medicinal grass of India'). Keine HMPC/ESCOP/Kommission E."
+    },
+    {
+      "canonical": "Volkstümlich beworbene innerliche Anwendungen (Diabetes, Fieber, Verdauung, 'Blutreinigung')",
+      "synonyms": [
+        "Zuckerkrankheit",
+        "Fieber",
+        "Verdauungsbeschwerden",
+        "Entgiftung",
+        "Immunstärkung"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Überwiegend traditionelle/populäre Zuschreibungen mit nur präklinischer Stütze. Wegen des cyanogenen Potenzials sollte gestresstes Jungmaterial nicht in Menge verzehrt werden.",
+      "realistic_expectation": "Keine belegte Wirkung; darf blutzuckersenkende oder andere Medikamente NICHT ersetzen. Innerliche Anwendung nur in kleinen Mengen aus einwandfreiem Material, Nutzen unbelegt (unsicher — zu prüfen).",
+      "source": "Traditionelle/ayurvedische Volksmedizin; präklinische Literatur. Keine regulatorische Quelle."
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Weit verbreitetes Futter-/Rasengras mit ayurvedischer Tradition und interessanten präklinischen (antioxidativen, blutzuckersenkenden, wundheilenden) Signalen — Forschungsgegenstand, kein belegtes Heilmittel.",
+    "overstated": "Konkrete Heilwirkungen beim Menschen (Diabetes, 'Blutreinigung', Immunstärkung). Verschwiegen wird meist, dass Cynodon in Europa vor allem als starkes POLLEN-Allergen (Heuschnupfen/Asthma) und als cyanogenes Weidegras auffällt.",
+    "effect_size": "kein klinisch belegter Effekt (PRÄ/TRAD)"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frischer Presssaft der Triebe (traditionell)",
+      "wässriger Aufguss/Abkochung"
+    ],
+    "form_rationale": "Die traditionell genutzten Inhaltsstoffe (Flavonglykoside, Zucker) sind wasserlöslich → Saft oder Aufguss. Erhitzen mindert zugleich das cyanogene Restrisiko.",
+    "standard_dose": "unsicher — zu prüfen: keine etablierte, validierte Dosierung. Nur einwandfreies (nicht gestresstes/welkes) Material, kleine Mengen.",
+    "preservation": "frisch verwenden; getrocknetes Material kühl/trocken lagern"
+  },
+  "safety": {
+    "tox_ceiling": "Cyanogene Glykoside: gesichert ist die Blausäure-Vergiftung von WEIDETIEREN durch junge, gestresste, welke oder frostgeschädigte Bestände (Wiederkäuer besonders empfindlich). Für die menschliche arzneiliche Nutzung (Saft/Tee kleiner Mengen) existiert KEINE definierte Grenzmenge — unsicher — zu prüfen; deshalb nur einwandfreies Material und keine großen Mengen rohen Jungwuchses.",
+    "contraindications": [
+      "Gräserpollen-Allergie (Kreuzreaktivität; Cynodon-Pollen ist ein Hauptallergen)",
+      "Verzehr großer Mengen rohen, gestressten/welken Jungwuchses (Blausäure-Risiko)",
+      "Schwangerschaft/Stillzeit (keine Sicherheitsdaten)"
+    ],
+    "pregnancy_lactation": "Keine belastbaren Sicherheitsdaten für arzneiliche Mengen (unsicher — zu prüfen). Arzneiliche Anwendung in Schwangerschaft/Stillzeit vorsichtshalber meiden; küchen-/futterübliche Kontakte unkritisch.",
+    "adverse_effects": "Wichtigstes Problem in Europa: Bermuda-/Hundszahngras-POLLEN ist ein starkes Aeroallergen (Hauptallergen Cyn d 1) und löst allergische Rhinitis, Konjunktivitis und Asthma aus. Bei innerlicher Nutzung gestressten Materials theoretisch Blausäure-Risiko. Sonst wenig dokumentiert.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "möglicherweise additive blutzuckersenkende Wirkung (nur präklinisch); klinisch nicht belegt",
+        "affected": "Antidiabetika (theoretisch)",
+        "clinical_relevance": "gering/unbekannt (unsicher — zu prüfen)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": true,
+      "toxin_type": "cyanogene Glykoside (Blausäure/HCN)",
+      "raw_toxicity": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "In Europa medizinisch vor allem als starkes Gräserpollen-Allergen (Heuschnupfen/Asthma, Cyn d 1) relevant; kein belegtes Heilmittel. Gestresster/welker Jungwuchs kann Blausäure bilden (Weidetier-Vergiftungen belegt) — nur einwandfreies Material, keine mutterkorn-befallenen Ähren."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Sommer bis Frühherbst (Juli–September), nur gesunde, nicht welke/gestresste Triebe",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (oberirdische Triebe), teils Rhizom",
+    "method": "frische Triebe schneiden; welkes, gestresstes, frostgeschädigtes oder mutterkorn-befallenes Material aussortieren",
+    "processing": "frisch pressen (Saft) oder als Aufguss/Abkochung; Erhitzen mindert cyanogenes Restrisiko",
+    "storage": "frisch verwenden; getrocknet kühl, trocken, lichtgeschützt"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine nennenswerte Küchenverwendung in Mitteleuropa. Weltweit primär Futter-/Rasengras; die (ayurvedische) Nutzung ist medizinisch-rituell, nicht kulinarisch. Roh und in Menge wegen cyanogenem Potenzial nicht als Nahrung geeignet."
+  },
+  "garden": {
+    "site_soil": "vollsonnig, warm, trocken, durchlässig; trittfest",
+    "hardiness": "wärmeliebend; in Mitteleuropa nur in milden Lagen zuverlässig, breitet sich mit Klimaerwärmung aus",
+    "propagation": "Ausläufer/Rhizome (sehr ausbreitungsfreudig), Samen",
+    "bodensee_suitability": "Als Zier-/Nutzgras nicht empfohlen: stark wuchernd (Rhizome/Ausläufer, schwer zu entfernen), potenzielles Pollen-Allergen und cyanogen. Am ehesten als spontanes Wildgras an warmen, trockenen Stellen anzutreffen."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Hundszahngras, niederliegender Rasen mit aufrechten Blütenhalmen an trocken-sonnigem Standort",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "fingerförmig-strahliger Blütenstand aus mehreren Ährchen-Ästen; kriechende Ausläufer, Wimpernkranz am Blattgrund",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Cynodon dactylon (Stand 2026-07) — Primärquellen nicht einschlägig; Evidenz präklinisch/traditionell (ayurvedisch), ärztlich gegenzuprüfen",
+    "Review: 'Cynodon dactylon (L.) Pers.: a medicinal grass of India' (ResearchGate 2024) sowie 'Emerging Pharmacological Insights ... Cynodon dactylon' (J. Med. Chem. Ther.)",
+    "Allergologie: Cyn d 1 als Hauptallergen des Bermudagras-Pollens (PMC2646682 u. a.) — allergische Rhinitis/Asthma",
+    "Veterinärtoxikologie: Prussic Acid / cyanogene Glykoside — Cynodon unter den blausäurebildenden Weidegräsern (NMSU B-808; NSW DPI; MSD Vet Manual)",
+    "Wikipedia/InfoFlora zu Cynodon dactylon (akzeptierter Name, Verbreitung, Merkmale) und Elymus repens / Digitaria sanguinalis (Abgrenzung)"
+  ]
+}
