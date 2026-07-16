@@ -111,6 +111,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Uvae ursi folium nur als TRADITIONAL USE (leichte, wiederkehrende untere Harnwegsinfekte bei erwachsenen Frauen, nach aerztlichem Ausschluss ernster Ursachen) → TU/ESCOP+, kein WEU; KEIN Antibiotikaersatz bei fieberhaftem/aufsteigendem Infekt. HARTE ANWENDUNGSGRENZE (toxin_ceiling): Wirkstoff Hydrochinon (aus Arbutin) ist potenziell genotoxisch → max. 1 Woche am Stueck und hoechstens ca. 5x/Jahr; feste KONTRAINDIKATION in Schwangerschaft/Stillzeit und bei unter 18-Jaehrigen. Zubereitung als Kaltmazerat (Gerbstoff-/Magenschonung). Zentrale Verwechslung: Preiselbeere (essbar) — Unterscheidung ueber die netznervige Blattunterseite der Baerentraube; kein toedlicher Doppelgaenger. Naturschutz: in Deutschland besonders geschuetzt, Wildsammlung verboten. HINWEIS id-Normalisierung: botanisches Epitheton ist 'uva-ursi', die id wurde wegen der Ein-Bindestrich-Regel des Pruefschemas auf 'arctostaphylos-uvaursi' gesetzt (siehe synonym_note)."
+    },
+    {
+      "ts": "2026-07-16T12:30:00Z",
+      "id": "vitex-agnus-castus",
+      "common": "Mönchspfeffer",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung. HMPC führt WELL-ESTABLISHED USE (WEU) für das prämenstruelle Syndrom (bestimmter Trockenextrakt, 20 mg/Tag, bis 3 Monate), zusätzlich traditional use für leichte prämenstruelle Beschwerden. Hormonell (dopaminerg, prolaktinsenkend) wirksam: kontraindiziert in Schwangerschaft/Stillzeit, bei Prolaktinom/Hypophysentumor und mit Dopamin-Agonisten/-Antagonisten."
+    },
+    {
+      "ts": "2026-07-16T12:30:30Z",
+      "id": "cucurbita-pepo",
+      "common": "Gartenkürbis",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung. HMPC führt nur TRADITIONAL USE (TU) für Miktionsbeschwerden bei BPH Stadium I–II und Reizblase (ESCOP/Kommission E positiv), kein WEU — symptomatisch, verkleinert die Prostata nicht. Kernwarnung: Prostatakarzinom ärztlich ausschließen; Samen niemals aus BITTER schmeckenden Kürbissen (Cucurbitacin-Vergiftung)."
     }
   ]
 }

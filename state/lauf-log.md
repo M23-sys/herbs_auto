@@ -338,3 +338,34 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet weiterhin die ~38
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert die ~38 Altfehler in 11 frueheren handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut) — meist `toxicity_level`-Werte wie "essbar/gering", die das Schema nicht kennt. Auftragsgemaess (genau 2 Monographien, kuratierte Dateien gehoeren dem Arzt) NICHT angefasst. Empfehlung: eigener Bereinigungslauf. Meine beiden neuen Dateien bestehen die Pruefung einzeln fehlerfrei.
+
+---
+
+## Lauf 2026-07-16 (2. Lauf des Tages) — Moenchspfeffer, Gartenkuerbis
+
+**Auswahl / Quelle:** `docs/wunschliste.json` hat 5 Eintraege — aber ALLE 5 liegen bereits in `fertig/` (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis; per id + Synonym-Dedup geprueft). Wunschliste damit **0 offene Eintraege** → beide Plaetze aus `kraeuter-kandidaten.json`. Genommen: die ersten beiden offenen, tier 1, Listenreihenfolge:
+- **Moenchspfeffer** (Vitex agnus-castus) — Kandidat, tier 1
+- **Gartenkuerbis** (Cucurbita pepo) — Kandidat, tier 1
+
+Beide vorab dedupliziert (id + botany.synonyms in `fertig/` + `vorhanden`): nicht vorhanden.
+
+**Pruefergebnis:** Beide bestehen `validate_monographie.py` einzeln **fehlerfrei (0 Fehler)**, nur erwuenschte `! Hinweis`-Zeilen (bewusstes "unsicher/zu pruefen" + beim Moenchspfeffer ein bewusster id-Mismatch-Hinweis, siehe unten). **0 Korrekturversuche.**
+
+**Hauptquellen:**
+- Moenchspfeffer: EMA/HMPC EU herbal monograph Vitex agnus-castus L., fructus (Rev. 1); Kommission E; ESCOP; Fachliteratur zu dopaminergen Diterpenen (Rotundifuran u. a.) / D2-Rezeptor / Prolaktinsenkung; Taxonomie Verbenaceae→Lamiaceae.
+- Gartenkuerbis: EMA/HMPC EU herbal monograph Cucurbita pepo L., semen; Kommission E; ESCOP; Fachliteratur zu Delta-7-Sterolen / Steirischem Oelkuerbis (var. styriaca); Toxikologie Cucurbitacine / "toxisches Kuerbissyndrom".
+- **Primaerquellen-Hinweis:** Die EMA-PDFs sind beim direkten WebFetch mit **HTTP 403** nicht erreichbar gewesen (wie im Prompt vorgesehen). Inhalte daher aus EMA-Zusammenfassungen + Sekundaerquellen. **Evidenzgrad WEU/TU ungeprueft an der Primaerquelle — aerztliche Gegenpruefung noetig**, insbesondere die WEU-Einstufung des Moenchspfeffers.
+
+### Ueberraschungen / unsichere Stellen fuer den Arzt
+
+- **Moenchspfeffer — WEU, nicht nur TU (Kernpunkt).** Anders als die meisten bisher bearbeiteten Kraeuter fuehrt HMPC hier tatsaechlich **well-established use** — aber NUR fuer das PMS und NUR fuer EINEN bestimmten standardisierten Trockenextrakt (ca. 20 mg/Tag, kontinuierlich bis 3 Monate). Ich habe PMS/Mastodynie als **WEU/RCT** und die leichten praemenstruellen Beschwerden/Zyklusstoerungen separat als **TU** getaggt. Bitte pruefen, ob die WEU-Zuordnung app-/quellenkonform ist (Primaerquelle war 403).
+- **Moenchspfeffer — echte Gegenanzeigen trotz "pflanzlich".** Dopaminerg/prolaktinsenkend wirksam: **kontraindiziert in Schwangerschaft/Stillzeit** (flags.pregnancy_contraindicated=true), bei **Prolaktinom/Hypophysentumor** und zusammen mit **Dopamin-Agonisten/-Antagonisten** (Antipsychotika, Metoclopramid, Bromocriptin). In key_warning, contraindications und interactions betont. Kinderwunsch/Gelbkoerperschwaeche bewusst als **overstated** eingeordnet (schwache Evidenz).
+- **Moenchspfeffer — id-Normalisierung (bewusst, bitte kennen).** Artepitheton ist bindestrich-geschrieben ("agnus-castus"). Da `^[a-z]+-[a-z]+$` nur EIN Bindestrichpaar erlaubt (gleiche Situation wie zuvor bei der Baerentraube "uva-ursi"), wurde die **id auf `vitex-agnuscastus`** zusammengezogen und in botany.synonym_note dokumentiert. Der Kandidateneintrag behaelt die id `vitex-agnus-castus`. **Pl@ntNet-Abgleich der App bitte auf hyphenierte Epitheta pruefen.** Dedup lief unabhaengig ueber scientific_name.
+- **Moenchspfeffer — Taxonomie.** Gattung Vitex wurde von den **Verbenaceae in die Lamiaceae** ueberfuehrt (molekulare Phylogenie); aeltere Literatur/Etiketten fuehren sie noch als Verbenaceae. In family + synonym_note vermerkt. Das Binomen selbst ist stabil → botany.synonyms bewusst leer (kein lateinischer Alt-Binomialname in Gebrauch).
+- **Gartenkuerbis — nur TU trotz RCTs (Kernpunkt).** Es gibt einzelne kontrollierte Studien zu Prostata-/Blasensymptomen, aber HMPC vergibt **nur traditional use**, KEINEN WEU. Getaggt **TU/ESCOP+**, mit ausdruecklicher Erwartungsdaempfung: **verkleinert die Prostata NICHT**, stoppt die BPH-Progression nicht, rein symptomatisch. In key_warning: **Prostatakarzinom aerztlich ausschliessen**, bevor selbst behandelt wird.
+- **Gartenkuerbis — die eigentliche Gefahr ist die Verwechslung, nicht die Droge.** `confusions` bewusst mit dem **Cucurbitacin-/"toxischen Kuerbissyndrom"** gefuellt (giftig): durch Rueckkreuzung/Selbstaussaat oder bei Zierkuerbissen/Flaschenkuerbis koennen Fruechte hohe Cucurbitacin-Mengen bilden → heftige Magen-Darm-Vergiftung, in schweren Faellen Kreislauf/Haarausfall; **Kochen zerstoert das Gift nicht**; WARNZEICHEN ist der **bittere Geschmack**. Als "giftig" (nicht "lebensgefaehrlich") eingestuft, da meist selbstlimitierend → deadly_confusion=false. In collection_rules/garden/kitchen mehrfach betont (bittere Fruechte nie zur Samengewinnung).
+- **Gartenkuerbis — Arznei-Sorte.** Arzneilich bevorzugt der schalenlos-samige **Steirische Oelkuerbis** (var. styriaca) mit "nackten" Samen; in botany.synonym_note + identification dokumentiert. high_safety-Flag NICHT gesetzt (wegen der giftigen Cucurbitacin-Verwechslung), obwohl die Droge selbst sehr sicher ist.
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert die bekannten ~38 Altfehler in den frueheren handkuratierten Monographien (u. a. `toxicity_level`-Werte wie "essbar/gering"). Auftragsgemaess (genau 2 Monographien, kuratierte Dateien gehoeren dem Arzt) NICHT angefasst. Beide neuen Dateien bestehen einzeln fehlerfrei.

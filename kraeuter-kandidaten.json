@@ -230,8 +230,8 @@
       "latin": "Vitex agnus-castus",
       "tier": 1,
       "reason": "PMS/Mastodynie; Prolaktin, Interaktionen",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-moenchspfeffer.json"
     },
     {
       "id": "cucurbita-pepo",
@@ -239,8 +239,8 @@
       "latin": "Cucurbita pepo",
       "tier": 1,
       "reason": "BPH-Miktionsbeschwerden — 2. Prostata-Fall",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-gartenkuerbis.json"
     },
     {
       "id": "echinacea-purpurea",

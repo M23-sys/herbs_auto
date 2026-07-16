@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "id": "vitex-agnuscastus",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Vitex agnus-castus L.",
+    "common_names_de": ["Mönchspfeffer", "Keuschlamm", "Keuschbaum", "Liebfrauenbettstroh", "Abrahamsstrauch"],
+    "family": "Lippenblütler (Lamiaceae) — früher Eisenkrautgewächse (Verbenaceae)",
+    "drug_part": ["reife, getrocknete Frucht (Fructus)"],
+    "drug_name_latin": "Agni casti fructus (Viticis fructus)",
+    "synonyms": [],
+    "synonym_note": "Das Binomen Vitex agnus-castus L. ist stabil und aktuell akzeptiert; ein lateinischer Alt-Binomialname ist nicht in Gebrauch (daher botany.synonyms leer). GEÄNDERT hat sich die FAMILIENzuordnung: Vitex wurde aufgrund molekularer Phylogenie aus den Verbenaceae in die Lamiaceae überführt. Ältere Literatur/Etiketten führen die Gattung noch unter Verbenaceae. id-Normalisierung: Das Artepitheton ist bindestrich-geschrieben ('agnus-castus'); da das Prüfschema/der Pl@ntNet-Abgleich nur EIN gattung-art-Bindestrichpaar erlaubt (^[a-z]+-[a-z]+$), wurde die id auf 'vitex-agnuscastus' zusammengezogen. Der Kandidateneintrag trägt weiterhin 'vitex-agnus-castus'. Bitte prüfen, ob der App-Abgleich diese Normalisierung mitmacht."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: gegenständige, handförmig (fingerförmig) geteilte Blätter mit meist 5–7 schmal-lanzettlichen, ganzrandigen Fiederblättchen — beim Zerreiben würzig-aromatischer (pfefferartig-salbeiartiger) Geruch",
+      "Sommergrüner, vielstämmiger Strauch/kleiner Baum, 1–5 m hoch, mit rutenartigen Zweigen",
+      "Blüten klein, hell violett bis blau (selten rosa/weiß), in endständigen, ähren-/rispenartigen Scheinquirlen — Blütezeit Juli bis September",
+      "Früchte kleine, rotbraune bis schwarze, harte Steinfrüchtchen (~3–4 mm), pfefferkornähnlich, scharf-würzig schmeckend (Name 'Mönchspfeffer')",
+      "Wärmeliebender Mittelmeer-/Vorderasien-Strauch; in Mitteleuropa nur in Gärten/Parks kultiviert, kaum verwildernd"
+    ],
+    "season": "Blüte Juli–September; Fruchtreife September–Oktober",
+    "habitat": "Ursprünglich Ufer, Flussauen und feuchte Standorte des Mittelmeerraums und Westasiens. In Mitteleuropa Zier- und Heilpflanze in Gärten; frostempfindlich, nur an wärmebegünstigten Lagen dauerhaft.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Arzneilich zählt allein die reife, getrocknete FRUCHT (Agni casti fructus), nicht Blatt oder Blüte.",
+      "Für die belegte Wirkung sind standardisierte Trockenextrakte aus Apotheken/Fertigarzneien maßgeblich — selbst gesammelte Früchte liefern keinen definierten Wirkstoffgehalt.",
+      "Verwechslung mit Cannabis (Hanf) durch die handförmig geteilten Blätter möglich, aber botanisch harmlos: Vitex-Blättchen sind ganzrandig, gegenständig und aromatisch, Blüten violett in Scheinähren."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Hanf",
+      "scientific_name": "Cannabis sativa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Rein optische Verwechslung wegen der handförmig-fingerförmig geteilten Blätter. Unterscheidung: Vitex ist ein verholzter Strauch mit GEGENSTÄNDIGEN, ganzrandigen, aromatischen Blättchen und violetten Blüten in Scheinähren; Hanf ist krautig mit gesägten Blättchen und wechselständiger/quirliger Anordnung. Keine Vergiftungsgefahr, nur botanische Fehlbestimmung."
+    },
+    {
+      "name": "Schwarzer Pfeffer (als Verwendungs-Verwechslung)",
+      "scientific_name": "Piper nigrum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die pfefferkornähnlichen Früchte wurden historisch als Pfefferersatz ('Mönchspfeffer') verwendet. Kein Sicherheitsrisiko, aber die Frucht ist ein Arzneistoff mit hormoneller (dopaminerger) Wirkung und gehört nicht unbedacht als Gewürz auf den Teller."
+    },
+    {
+      "name": "Keine giftige oder lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Mönchspfeffer ist als kultivierter Zierstrauch durch Wuchsform, gegenständige handförmige Blätter, violette Scheinähren und aromatische Früchte eindeutig kennzeichenbar. Ein giftiger oder tödlicher botanischer Doppelgänger ist im mitteleuropäischen Raum nicht bekannt. Das eigentliche Risiko liegt NICHT in der Verwechslung, sondern in der hormonellen Eigenwirkung der Frucht (siehe safety)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Diterpene mit Clerodadienol-Grundgerüst (u. a. Rotundifuran, Viteagnusin, Vitexilacton) — die eigentlichen dopaminerg wirksamen Substanzen",
+      "Flavonoide, v. a. Casticin (Leitflavonoid, Standardisierungsmarker), außerdem Vitexin, Orientin",
+      "Iridoidglykoside (Agnusid, Aucubin)",
+      "Ätherisches Öl (u. a. Cineol, Sabinen, α-Pinen), fettes Öl"
+    ],
+    "lead_substance": "Casticin dient als Standardisierungsmarker; wirksamkeitsbestimmend sind jedoch v. a. die lipophilen Diterpene (Rotundifuran u. a.), die als Dopamin-D2-Agonisten die Prolaktinfreisetzung hemmen.",
+    "solubility_note": "Die wirksamkeitsbestimmenden Diterpene sind lipophil. Deshalb sind hydroalkoholische Trockenextrakte (z. B. 60 % Ethanol, DEV 6–12:1) und Tinkturen die maßgeblichen Zubereitungen — nicht der wässrige Tee. Selbstgemachte Zubereitungen erreichen keinen definierten Wirkstoffgehalt.",
+    "heat_light_sensitivity": "Standardisierte Trockenextrakte sind bei sachgerechter Lagerung ausreichend stabil; das ätherische Öl der Frucht ist flüchtig/lichtempfindlich. Fertigpräparate laut Herstellerangabe lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Lipophile Diterpene binden an Dopamin-D2-Rezeptoren laktotropher Zellen des Hypophysenvorderlappens und hemmen dosisabhängig die Prolaktin-Sekretion. Der gesenkte (bzw. normalisierte latent erhöhte) Prolaktinspiegel bessert eine gestörte Gelbkörperphase und zyklusabhängige Beschwerden; hierüber werden die Wirkungen bei PMS und zyklischer Mastodynie erklärt.",
+    "evidence_caveat": "Für das prämenstruelle Syndrom (PMS) gibt es kontrollierte Studien und einen HMPC-well-established-use-Status EINES bestimmten Extrakts — die Evidenz ist damit für ein Phytopharmakon vergleichsweise gut. Sie ist aber NICHT auf beliebige Mönchspfeffer-Präparate übertragbar (extrakt- und dosisspezifisch). Für Kinderwunsch/Gelbkörperschwäche und Wechseljahresbeschwerden ist die Datenlage schwach; hier überschätzt der populäre Ruf die Belege deutlich.",
+    "pharmacokinetics": "Detaillierte Humandaten zu Resorption und Elimination der Diterpene sind begrenzt; die klinische Anwendung stützt sich auf standardisierte Extrakte mit dokumentierter Wirksamkeit, nicht auf pharmakokinetische Einzelparameter. unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Prämenstruelles Syndrom (PMS), einschließlich zyklischer Mastodynie",
+      "synonyms": ["PMS", "Beschwerden vor der Periode", "Reizbarkeit vor der Menstruation", "Stimmungsschwankungen vor der Regel", "Brustspannen", "Brustschmerzen vor der Periode", "prämenstruelle Wassereinlagerung"],
+      "evidence_tag": "WEU/RCT",
+      "comment": "EMA/HMPC führt einen bestimmten Trockenextrakt von Agni casti fructus als well-established use zur Behandlung des prämenstruellen Syndroms. Kommission E positiv für prämenstruelle Beschwerden und Mastodynie. Die zyklische Mastodynie ist Teil des PMS-Spektrums und ebenfalls durch Studien gestützt.",
+      "realistic_expectation": "Kann PMS-Symptome — vor allem zyklisches Brustspannen und Reizbarkeit — über etwa 3 Zyklen spürbar bessern. Wirkt langsam (Einnahme über mehrere Zyklen nötig), ist extrakt-/dosisspezifisch und KEIN Ersatz für die Abklärung starker oder atypischer Beschwerden. Nicht anwenden in Schwangerschaft/Stillzeit.",
+      "source": "EMA/HMPC EU herbal monograph Vitex agnus-castus L., fructus (well-established use bei PMS; traditional use bei leichten prämenstruellen Beschwerden); Kommission E"
+    },
+    {
+      "canonical": "Leichte prämenstruelle Beschwerden und Zyklusunregelmäßigkeiten (traditionell)",
+      "synonyms": ["unregelmäßige Periode", "Zyklusstörungen", "ausbleibende Regel", "verkürzter/verlängerter Zyklus", "leichte Regelbeschwerden"],
+      "evidence_tag": "TU",
+      "comment": "HMPC: traditional use zur Linderung leichter Beschwerden in den Tagen vor der Menstruation. Kommission E nennt zusätzlich Zyklusstörungen (im Sinne einer Gelbkörperschwäche / latenten Hyperprolaktinämie).",
+      "realistic_expectation": "Traditionell zur Linderung leichter prämenstrueller Beschwerden. Bei ausbleibender oder deutlich unregelmäßiger Regel gehört die URSACHE ärztlich abgeklärt (u. a. Schwangerschaft, Prolaktinom, Schilddrüse) — Mönchspfeffer ersetzt diese Diagnostik nicht.",
+      "source": "EMA/HMPC (traditional use); Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut dokumentiertes pflanzliches Mittel gegen PMS (v. a. zyklische Mastodynie/Brustspannen) über einen dopaminergen, prolaktinsenkenden Mechanismus. Wirkung tritt langsam über mehrere Zyklen ein und ist an standardisierte Extrakte gebunden.",
+    "overstated": "Als 'Frauenhormon-Wundermittel' überschätzt: Belege für Kinderwunsch/Gelbkörperschwäche, Wechseljahresbeschwerden oder Prolaktinom-Behandlung sind schwach bis fehlend — ein Prolaktinom ist eine ärztliche Diagnose, keine Selbstbehandlungsindikation. Die gute Evidenz gilt nur für PMS und nur für bestimmte Extrakte/Dosen, nicht pauschal für jedes Mönchspfeffer-Präparat. Trotz 'pflanzlich' ist es ein hormonell (dopaminerg) wirksamer Arzneistoff mit echten Gegenanzeigen.",
+    "effect_size": "moderat bei PMS/Mastodynie; symptomatisch, langsam einsetzend, extrakt-/dosisabhängig"
+  },
+  "preparation": {
+    "recommended_forms": ["standardisierter hydroalkoholischer Trockenextrakt (Fertigarzneimittel, Tabletten/Kapseln)", "Tinktur"],
+    "form_rationale": "Weil die wirksamen Diterpene lipophil sind und die Wirksamkeit extrakt-/dosisspezifisch belegt wurde, sind standardisierte Fertigpräparate maßgeblich. Wässriger Tee erreicht weder den nötigen Wirkstoffgehalt noch eine definierte Dosis.",
+    "standard_dose": "Für den HMPC-well-established-use-Extrakt: ca. 20 mg Trockenextrakt einmal täglich (erwachsene Frauen), Anwendung über mindestens mehrere Zyklen; ein bestimmter Extrakt kann kontinuierlich bis zu 3 Monate angewendet werden. Genaue Dosierung nach Fachinformation des jeweiligen Präparats — andere Extrakte haben andere Dosisangaben.",
+    "preservation": "Fertigpräparate laut Herstellerangabe, trocken und lichtgeschützt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit (Einfluss auf Prolaktin/Hormonachse; kann die Milchbildung beeinträchtigen)",
+      "Hypophysenerkrankungen, insbesondere prolaktinproduzierende Tumoren (Prolaktinom)",
+      "gleichzeitige Behandlung mit Dopamin-Agonisten oder Dopamin-Antagonisten (z. B. Antipsychotika, Metoclopramid)",
+      "bekannte Überempfindlichkeit gegen Vitex agnus-castus",
+      "hormonsensible/hormonabhängige Tumoren nur nach ärztlicher Rücksprache (theoretische hormonelle Wirkung)"
+    ],
+    "pregnancy_lactation": "Kontraindiziert in Schwangerschaft und Stillzeit: Über die Prolaktin-/Dopaminwirkung sind Eingriffe in die Hormonachse und eine Beeinträchtigung der Milchbildung möglich; kontrollierte Sicherheitsdaten fehlen. Nicht anwenden.",
+    "adverse_effects": "Meist gut verträglich. Gelegentlich Übelkeit und andere Magen-Darm-Beschwerden, Kopfschmerzen, Schwindel, Müdigkeit, Zyklus-/Menstruationsveränderungen, Akne; selten juckende urtikarielle Hautreaktionen/allergische Reaktionen. Einzelfälle von Überempfindlichkeitsreaktionen beschrieben.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "dopaminerge Eigenwirkung an D2-Rezeptoren: Dopamin-Antagonisten (z. B. Antipsychotika, Metoclopramid) können die Wirkung aufheben, Dopamin-Agonisten (z. B. Bromocriptin) sie verstärken/überlagern",
+        "affected": "Neuroleptika/Antipsychotika, Metoclopramid, Dopamin-Agonisten (Parkinson-/Prolaktinom-Therapie)",
+        "clinical_relevance": "relevant — gemeinsame Anwendung meiden"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "mögliche Beeinflussung von Sexualhormonachse/Prolaktin",
+        "affected": "hormonelle Kontrazeptiva, Östrogen-/Hormonpräparate, Fertilitätstherapien",
+        "clinical_relevance": "gering bis unklar — bei kritischer Hormontherapie ärztlich abwägen; unsicher — zu prüfen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Trotz 'pflanzlich' ein hormonell (dopaminerg, prolaktinsenkend) wirksamer Arzneistoff: NICHT in Schwangerschaft und Stillzeit, nicht bei Hypophysentumoren/Prolaktinom und nicht zusammen mit Dopamin-Agonisten oder -Antagonisten anwenden — die belegte Wirkung gilt nur für bestimmte standardisierte Extrakte bei PMS, nicht als allgemeines 'Frauenhormonmittel'."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Reife Früchte im Spätsommer/Herbst (September–Oktober), wenn sie sich braun-schwarz verfärben und aushärten.",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Frucht (Fructus)",
+    "method": "Reife Fruchtstände abschneiden, nachtrocknen, Früchtchen abstreifen. Selbstsammlung liefert jedoch keinen standardisierten Wirkstoffgehalt — arzneilich Fertigextrakte bevorzugen.",
+    "processing": "Vollständig trocknen; für die wirksame Anwendung ist eine standardisierte (industrielle) hydroalkoholische Extraktion nötig.",
+    "storage": "Trocken, kühl, lichtgeschützt und luftdicht; Fertigpräparate laut Herstellerangabe."
+  },
+  "kitchen": {
+    "uses": ["historisch als Pfefferersatz ('Mönchspfeffer') — heute nicht empfohlen"],
+    "culinary_vs_medicinal": "Die Frucht ist kein harmloses Gewürz: Sie wirkt hormonell (dopaminerg/prolaktinsenkend). Der kulinarische Einsatz als Pfefferersatz ist historisch, sollte wegen der Arzneiwirkung aber unterbleiben — die Anwendung gehört in den arzneilichen, dosierten Rahmen."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, durchlässiger Boden; hitze- und trockenheitstolerant, verträgt keine Staunässe.",
+    "hardiness": "Nur bedingt winterhart (etwa bis −12 bis −15 °C); friert in kalten Wintern zurück, treibt aber oft wieder aus. Winterschutz/geschützter Standort nötig.",
+    "propagation": "Aussaat oder Stecklinge (Sommer); Rückschnitt im Frühjahr fördert Blüte am diesjährigen Holz.",
+    "bodensee_suitability": "Im wärmebegünstigten Bodenseeklima als Zierstrauch an geschützter, sonniger Lage möglich, aber frostgefährdet — in strengen Wintern Rückfrieren einplanen. Fruchtreife für arzneiliche Zwecke unzuverlässig; besser Fertigpräparate."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Sommergrüner Strauch mit violetten Blüten-Scheinähren und handförmig geteilten Blättern", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Gegenständiges, fingerförmig 5–7-teiliges Blatt und pfefferkornähnliche Früchte — sichere Bestimmungsmerkmale", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Vitex agnus-castus L., fructus, Revision 1 (well-established use: prämenstruelles Syndrom, 20 mg Trockenextrakt/Tag, bis 3 Monate; traditional use: leichte prämenstruelle Beschwerden) — Primärquelle (EMA-PDF) beim direkten Abruf 403/nicht erreichbar, Inhalt über EMA-Zusammenfassung und Sekundärquellen; Evidenzgrad ärztlich gegenzuprüfen",
+    "Kommission E — Agni casti fructus (positiv: Regeltempoanomalien/Zyklusstörungen, prämenstruelle Beschwerden, Mastodynie)",
+    "ESCOP — Agni casti fructus",
+    "Fachliteratur zu dopaminergen Diterpenen (Rotundifuran u. a.) und Casticin / D2-Rezeptor-Bindung, Prolaktinsenkung (Websuche)",
+    "Taxonomie: Umstellung Verbenaceae → Lamiaceae (molekulare Phylogenie), akzeptierter Name Vitex agnus-castus L."
+  ]
+}

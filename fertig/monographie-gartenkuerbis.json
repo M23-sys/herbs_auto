@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "id": "cucurbita-pepo",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Cucurbita pepo L.",
+    "common_names_de": ["Gartenkürbis", "Gemeiner Kürbis", "Ölkürbis", "Zucchini/Gartenkürbis (Sammelart)"],
+    "family": "Kürbisgewächse (Cucurbitaceae)",
+    "drug_part": ["reifer, getrockneter Same (Semen)"],
+    "drug_name_latin": "Cucurbitae semen (Cucurbitae peponis semen)",
+    "synonyms": ["Pepo vulgaris Moench", "Cucurbita esculenta Gray"],
+    "synonym_note": "Akzeptierter Name Cucurbita pepo L. Arzneilich wird bevorzugt die schalenlos-samige Zuchtform verwendet: Steirischer Ölkürbis, Cucurbita pepo L. subsp. pepo var. styriaca (auch convar. citrullinina var. styriaca Greb.). Deren 'nackte' (hüllenlose) Samen sind besonders reich an fettem Öl und wirksamkeitsrelevanten Sterolen. Die Sammelart C. pepo umfasst auch Zucchini und viele Zier-/Speisekürbisse."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES arzneiliches Merkmal: flache, ovale Samen (~1,5–2,5 cm), grünlich; bei der Ölkürbis-Zuchtform OHNE feste holzige Schale ('nackte' Samen mit nur dünnem grünem Häutchen)",
+      "Einjährige, kräftige Rankpflanze mit rauen, borstig behaarten, kantigen Stängeln und großen, handförmig gelappten, rau behaarten Blättern",
+      "Große, gelb-orange, trichter-/glockenförmige eingeschlechtige Blüten (getrennt männlich/weiblich, einhäusig); Blütezeit Juni–September",
+      "Große Panzerbeere (Frucht) mit fester Schale, Form/Farbe je nach Sorte sehr variabel (Speisekürbis, Zucchini, Zierkürbis)",
+      "Reine Kultur-/Gartenpflanze; frostempfindlich, verwildert in Mitteleuropa kaum dauerhaft"
+    ],
+    "season": "Blüte Juni–September; Fruchtreife und Samengewinnung September–Oktober",
+    "habitat": "Kulturpflanze; nährstoffreiche, sonnige, warme Gartenböden. Nicht heimisch wild; Herkunft Mittel-/Nordamerika.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Arzneilich zählt der reife SAME, nicht Fruchtfleisch oder Kraut.",
+      "Nur Samen aus BEKANNTEN Speise-/Ölkürbis-Sorten verwenden — niemals aus bitter schmeckenden Früchten (Cucurbitacin-Gefahr, siehe confusions).",
+      "Für definierten Wirkstoffgehalt sind standardisierte Präparate (Weichkapseln, Trockenextrakt) sinnvoller als lose Selbstsammlung."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Bitterer (cucurbitacinhaltiger) Speise- oder Zierkürbis",
+      "scientific_name": "Cucurbita pepo (bitter rückmutierte Sorten) / Zierkürbisse",
+      "toxicity_level": "giftig",
+      "toxin": "Cucurbitacine (v. a. Cucurbitacin E)",
+      "note": "WICHTIGSTER Sicherheitspunkt: Durch Rückkreuzung/Selbstaussaat oder bei Zierkürbissen können Früchte hohe Cucurbitacin-Mengen bilden ('toxisches Kürbissyndrom'). WARNZEICHEN ist der BITTERE Geschmack. Folge: heftiges Erbrechen, Durchfall, Bauchkrämpfe (Stunden bis Tage), in schweren Fällen Kreislaufprobleme und Haarausfall. Kochen zerstört das Gift NICHT. Regel: schmeckt Kürbis/Zucchini bitter → komplett verwerfen; bittere Früchte nie zur Samengewinnung nutzen."
+    },
+    {
+      "name": "Zucchini und andere Speisekürbisse",
+      "scientific_name": "Cucurbita pepo / Cucurbita spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gehören zur selben Art bzw. Gattung und sind essbar, liefern aber nicht die standardisiert wirksamen Ölkürbis-Samen. Verwechslung kulinarisch harmlos, arzneilich nicht gleichwertig — außer die Frucht schmeckt bitter (dann giftig, siehe oben)."
+    },
+    {
+      "name": "Flaschenkürbis / Kalebasse",
+      "scientific_name": "Lagenaria siceraria",
+      "toxicity_level": "giftig",
+      "toxin": "Cucurbitacine (bei bitteren Exemplaren)",
+      "note": "Anderes Kürbisgewächs, dessen bitter schmeckende Früchte ebenfalls schwere Cucurbitacin-Vergiftungen ausgelöst haben. Unterscheidung: Flaschen-/Keulenform, oft für Deko/Gefäße. Auch hier gilt: bitterer Geschmack = nicht verzehren."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Fettes Öl (~35–50 %) mit hohem Anteil ungesättigter Fettsäuren (v. a. Linolsäure)",
+      "Phytosterole, besonders charakteristische Delta-7-Sterole (u. a. Spinasterol) — als wirksamkeitsrelevant diskutiert",
+      "Tocopherole (Vitamin E), Carotinoide",
+      "Cucurbitin (nicht-proteinogene Aminosäure), Eiweiß",
+      "Spurenelemente, u. a. Zink, Selen, Mangan"
+    ],
+    "lead_substance": "Delta-7-Phytosterole (Leitgruppe) und das fette Öl; ein einzelner, eindeutig wirkbestimmender Reinstoff ist nicht belegt.",
+    "solubility_note": "Die diskutierten Wirkstoffe (Sterole, fettes Öl) sind lipophil. Deshalb sind ölhaltige Zubereitungen — ganze/gemahlene Samen, Kürbiskernöl, Weichkapseln, lipophile Extrakte — sinnvoll; ein wässriger Tee ist keine geeignete Darreichung.",
+    "heat_light_sensitivity": "Das ungesättigte fette Öl ist oxidations-, licht- und wärmeempfindlich (Ranzigkeit). Samen/Öl kühl, dunkel und luftdicht lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Nicht abschließend geklärt. Diskutiert werden eine schwache Hemmung der 5-alpha-Reduktase bzw. der Bindung von Dihydrotestosteron (DHT), antiphlogistische und den Blasenmuskel/-tonus beeinflussende Effekte der Phytosterole. Ein Prostatavolumen-verkleinernder Effekt ist nicht belegt.",
+    "evidence_caveat": "Die Wirkung ist überwiegend traditionell/symptomatisch begründet. Es gibt einzelne kontrollierte Studien (u. a. zu Prostata-/Blasensymptomen), deren Ergebnisse aber uneinheitlich/modest sind; HMPC vergibt ausdrücklich NUR traditional use, KEINEN well-established use. Der Mechanismus bleibt hypothetisch.",
+    "pharmacokinetics": "Keine belastbaren Humandaten zu Resorption/Elimination der postulierten Wirkstoffe. unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Miktionsbeschwerden bei benigner Prostatahyperplasie (BPH, Stadium I–II)",
+      "synonyms": ["gutartige Prostatavergrößerung", "vergrößerte Prostata", "schwacher Harnstrahl", "häufiges Wasserlassen", "nächtlicher Harndrang", "Nachträufeln", "Restharngefühl", "Startschwierigkeiten beim Wasserlassen"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Linderung von Beschwerden beim Wasserlassen bei gutartiger Prostatavergrößerung, NACHDEM ernsthafte Erkrankungen ärztlich ausgeschlossen wurden. Kommission E und ESCOP positiv (Miktionsbeschwerden bei Prostataadenom Stadium I–II).",
+      "realistic_expectation": "Kann Reizsymptome (Harndrang, nächtliches Wasserlassen) mild lindern. Verkleinert die Prostata NICHT, stoppt das Fortschreiten der BPH nicht und behandelt kein Prostatakarzinom. Diagnose und Verlaufskontrolle gehören zwingend zum Arzt/Urologen.",
+      "source": "EMA/HMPC EU herbal monograph Cucurbita pepo L., semen (traditional use); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Reizblase / überaktive Blase",
+      "synonyms": ["Reizblase", "überaktive Blase", "häufiger Harndrang", "plötzlicher Harndrang", "Blasenschwäche", "häufiges Wasserlassen ohne Infekt"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use auch bei Reizblase/Symptomen der überaktiven Blase; ESCOP und Kommission E nennen die Reizblase ausdrücklich. Anwendung bei Frauen und Männern.",
+      "realistic_expectation": "Symptomatische, milde Linderung des Harndrangs. Ein Harnwegsinfekt, Blut im Urin oder plötzlich veränderte Blasenfunktion müssen ärztlich abgeklärt werden — Kürbissamen sind kein Ersatz für Diagnostik oder Antibiotika.",
+      "source": "EMA/HMPC (traditional use); ESCOP; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sehr gut verträgliches, traditionell genutztes Mittel, das REIZSYMPTOME beim Wasserlassen (Harndrang, Nykturie) bei früher BPH und bei Reizblase mild lindern kann — symptomatisch.",
+    "overstated": "Kein Mittel gegen die Ursache: Kürbissamen verkleinern die Prostata nicht, stoppen die BPH-Progression nicht und ersetzen weder urologische Diagnostik noch den Ausschluss eines Prostatakarzinoms. Die klinische Evidenz ist modest/uneinheitlich (nur traditional use, kein well-established use) — der Ruf als 'Prostata-Heilmittel' übersteigt die Belege.",
+    "effect_size": "mild; symptomatisch, nicht kausal"
+  },
+  "preparation": {
+    "recommended_forms": ["ganze oder frisch gemahlene reife Samen", "Kürbiskernöl", "standardisierte Weichkapseln / lipophiler Trockenextrakt"],
+    "form_rationale": "Weil die diskutierten Wirkstoffe (Delta-7-Sterole, fettes Öl) lipophil sind, sind samen-/ölbasierte Zubereitungen und standardisierte Extrakte sinnvoll; ein wässriger Tee ist ungeeignet. Standardisierte Präparate liefern einen definierten Gehalt.",
+    "standard_dose": "Kommission E: ca. 10 g ganze/geschrotete Samen täglich; ESCOP: ca. 2,5–7,5 g Samen zweimal täglich; alternativ Fertigpräparate nach Fachinformation. Ausreichend trinken.",
+    "preservation": "Samen/Öl kühl, dunkel, luftdicht lagern; frisch schroten (Ranzigkeit vermeiden). Fertigpräparate laut Herstellerangabe."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "bekannte Überempfindlichkeit gegen Kürbissamen",
+      "Verwendung von Samen aus bitter schmeckenden Früchten (Cucurbitacin-Vergiftung) — strikt vermeiden"
+    ],
+    "pregnancy_lactation": "Als Speisemenge (Kürbiskerne/-öl) unbedenklich. Für die arzneiliche Anwendung fehlen ausreichende Sicherheitsdaten; die Indikationen (BPH/Reizblase) betreffen zudem überwiegend nicht diese Gruppe. Arzneiliche Anwendung in Schwangerschaft/Stillzeit nur nach ärztlicher Rücksprache. unsicher — zu prüfen.",
+    "adverse_effects": "Insgesamt sehr gut verträglich. Selten leichte Magen-Darm-Beschwerden. (Die schweren Symptome des 'toxischen Kürbissyndroms' stammen von cucurbitacinhaltigen BITTEREN Früchten, nicht von normalen Speise-/Arzneisamen.)",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "keine klinisch relevanten Arzneimittelinteraktionen bekannt",
+        "affected": "",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kürbissamen lindern Prostata-/Blasen-REIZsymptome nur symptomatisch — sie verkleinern die Prostata nicht und ersetzen keine urologische Abklärung (Prostatakarzinom ausschließen!); und: Samen NIEMALS aus bitter schmeckenden Kürbissen/Zucchini gewinnen (Cucurbitacin-Vergiftung, durch Kochen nicht zerstörbar)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Reife Früchte im Herbst (September–Oktober); Samen aus vollreifen Früchten bekannter, nicht bitterer Speise-/Ölkürbis-Sorten.",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Samen (Semen)",
+    "method": "Samen aus reifer Frucht lösen, von Fruchtfleisch befreien, an der Luft gründlich trocknen. Vorher am Fruchtfleisch auf Bitterkeit prüfen — bittere Früchte verwerfen.",
+    "processing": "Vollständig trocknen; ganz lagern und erst bei Bedarf schroten. Für definierten Wirkstoffgehalt standardisierte Präparate bevorzugen.",
+    "storage": "Trocken, kühl, dunkel, luftdicht; wegen des fetten Öls begrenzt haltbar (Ranzigkeit vermeiden)."
+  },
+  "kitchen": {
+    "uses": ["Kürbiskerne (geröstet) als Snack/Salat-Topping", "Kürbiskernöl", "Fruchtfleisch als Gemüse/Suppe (Speisesorten)"],
+    "culinary_vs_medicinal": "Kulinarisch dienen Fruchtfleisch und Kerne als Lebensmittel; arzneilich zählt der definierte Sterol-/Ölgehalt der reifen Ölkürbis-Samen. Wichtig für BEIDES: bitter schmeckende Früchte (Cucurbitacine) sind giftig und gehören weder in Küche noch Arznei."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, tiefgründiger, humus- und nährstoffreicher Boden mit guter Wasserversorgung (Starkzehrer).",
+    "hardiness": "Einjährig, frostempfindlich; stirbt beim ersten Frost ab. Vorkultur/Aussaat nach den Eisheiligen.",
+    "propagation": "Aussaat ab Mai; auf Abstand zu anderen Kürbis-/Zierkürbissorten achten — Fremdbestäubung kann in der Folgegeneration (aus selbst gewonnenem Saatgut) bittere, cucurbitacinhaltige Früchte hervorbringen.",
+    "bodensee_suitability": "Im warmen Bodenseeklima gut anbaubar; klassische Gartenkultur. Für arzneiliche Zwecke Samen aus sortenreinem, nicht bitterem Anbau — bei Selbstvermehrung Bitterkeits-Risiko beachten."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Rankende einjährige Pflanze mit großen gelappten Blättern, gelben Blüten und reifer Panzerbeere", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Flache grünliche Samen der Ölkürbis-Zuchtform ('nackte', schalenlose Samen) — arzneilicher Bestandteil", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Cucurbita pepo L., semen (traditional use: Beschwerden beim Wasserlassen bei BPH nach ärztlichem Ausschluss ernster Erkrankungen sowie bei Reizblase) — Primärquelle (EMA-PDF) beim direkten Abruf 403/nicht erreichbar, Inhalt über EMA-Assessment-Zusammenfassung und Sekundärquellen; Evidenzgrad ärztlich gegenzuprüfen",
+    "Kommission E — Cucurbitae peponis semen (positiv: Reizblase; Miktionsbeschwerden bei Prostataadenom Stadium I–II; Tagesdosis ~10 g)",
+    "ESCOP — Cucurbitae semen (Miktionsbeschwerden Prostataadenom I–II, Reizblase; 2,5–7,5 g zweimal täglich)",
+    "Fachliteratur zu Delta-7-Sterolen, Cucurbitin, fettem Öl und Steirischem Ölkürbis (var. styriaca); Übersichten zu klinischen Studien (uneinheitlich)",
+    "Toxikologie: Cucurbitacine / 'toxisches Kürbissyndrom' bei bitteren Cucurbita- und Lagenaria-Früchten (Websuche, medizinische Fallberichte)"
+  ]
+}
