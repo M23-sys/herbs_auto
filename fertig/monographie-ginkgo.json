@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "id": "ginkgo-biloba",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Ginkgo biloba L.",
+    "common_names_de": ["Ginkgo", "Ginkgobaum", "Fächerblattbaum", "Japanischer Tempelbaum", "Mädchenhaarbaum"],
+    "family": "Ginkgogewächse (Ginkgoaceae)",
+    "drug_part": ["Blätter (Ginkgo folium) — arzneilich fast ausschließlich als standardisierter Spezialextrakt"],
+    "drug_name_latin": "Ginkgo folium / Ginkgonis folium",
+    "synonyms": ["Salisburia adiantifolia Sm.", "Salisburia biloba (L.) Hoffmanns.", "Pterophyllus salisburiensis J.Nelson"],
+    "synonym_note": "Ginkgo ist ein 'lebendes Fossil' und die einzige überlebende Art ihrer Gruppe — weder Nadel- noch Laubbaum im engeren Sinn, sondern eigene Abteilung (Ginkgophyta). Historisches Synonym: Salisburia adiantifolia."
+  },
+  "identification": {
+    "key_features": [
+      "Unverwechselbare, fächerförmige, ledrige Blätter mit gabelig-paralleler Aderung (dichotome Nervatur) und meist zweilappigem (bilobatem), oft eingebuchtetem Rand — es gibt keinen anderen heimischen Baum mit dieser Blattform",
+      "Zweihäusig (getrenntgeschlechtlich): nur weibliche Bäume tragen die pflaumenartigen, gelblichen Samen ('Früchte'), deren Fruchtfleisch bei Reife stark ranzig-nach-Buttersäure riecht",
+      "Blätter im Herbst leuchtend goldgelb, fallen oft nahezu gleichzeitig",
+      "Kurztriebe mit büschelig gehäuften Blättern; hoher, anfangs pyramidaler Baum (bis 30–40 m), extrem robust gegen Schädlinge und Stadtklima",
+      "Rinde graubraun, längsrissig"
+    ],
+    "season": "Blattaustrieb Frühjahr; Laub grün bis Sommer/Frühherbst, Ernte grüner Blätter im Sommer; Samenreife und Laubfall im Herbst",
+    "habitat": "Ursprünglich China; bei uns ausschließlich gepflanzt als Park-, Allee- und Straßenbaum sowie in Kultur für die Extraktgewinnung",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Für die belegte Anwendung ist Selbstsammeln praktisch bedeutungslos: Die Wirkung ist an einen aufwendig hergestellten, entgifteten Spezialextrakt gebunden, der aus grünen Blättern gewonnen und auf Wirkstoffe standardisiert sowie von Ginkgolsäuren abgereichert wird.",
+      "Selbst hergestellter Blättertee ist NICHT gleichwertig und enthält allergene Ginkgolsäuren in unkontrollierter Menge.",
+      "Die gelblichen Samen/'Früchte' weiblicher Bäume NICHT sammeln/essen — das Fruchtfleisch reizt die Haut stark, der Samenkern enthält das Nervengift Ginkgotoxin (siehe Verwechslungen und Warnung)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Keine verwechselbare Pflanze — die Fächerblätter sind einzigartig",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ginkgo ist durch seine fächerförmigen, dichotom geaderten Blätter praktisch unverwechselbar; es gibt keinen giftigen Doppelgänger unter heimischen Bäumen. Der Frauenhaarfarn (Adiantum, Namensgeber 'adiantifolia') hat ähnlich gefächerte Fiedern, ist aber ein Farn und wird nicht mit einem Baum verwechselt."
+    },
+    {
+      "name": "Samen/Fruchtfleisch derselben Pflanze (asiatische 'Ginkgonüsse', Ginnan)",
+      "scientific_name": "Ginkgo biloba (Samen)",
+      "toxicity_level": "giftig",
+      "toxin": "Ginkgotoxin (4'-O-Methylpyridoxin) im Samenkern; Ginkgolsäuren (Urushiol-verwandt) im Fruchtfleisch",
+      "note": "WICHTIGE Teil-Verwechslung: Die arzneiliche Droge ist das BLATT (als Spezialextrakt) — NICHT der Samen. Der geröstete Samenkern gilt in Ostasien als Delikatesse, ist aber in Menge toxisch: Ginkgotoxin hemmt die Vitamin-B6-Bildung von GABA und kann — besonders bei Kindern und bei B6-Mangel — Erbrechen und Krampfanfälle auslösen ('Gin-nan-Vergiftung'). Das Fruchtfleisch reifer Samen verursacht durch Ginkgolsäuren allergische Kontaktdermatitis wie Giftefeu. Roh nie verzehren, Kinder besonders gefährdet."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide/Flavonolglykoside (Ginkgoflavonglykoside; im Spezialextrakt auf 22–27 % eingestellt)",
+      "Terpentrilactone: Ginkgolide A, B, C und Bilobalid (im Spezialextrakt 5–7 %)",
+      "Ginkgolsäuren (Alkylphenole) — allergen/toxisch, im Arzneiextrakt auf max. 5 ppm abgereichert",
+      "Proanthocyanidine, organische Säuren"
+    ],
+    "lead_substance": "Definiertes Vielstoffgemisch des Spezialextrakts (z. B. EGb 761-Typ): 22–27 % Flavonglykoside und 5–7 % Terpenlactone (Ginkgolide/Bilobalid); Ginkgolsäuren < 5 ppm.",
+    "solubility_note": "Der arzneilich wirksame Spezialextrakt wird mit Aceton-Wasser aus grünen Blättern gewonnen, aufkonzentriert und von Ginkgolsäuren gereinigt (hoher Droge-Extrakt-Verhältnis-Bereich, ca. 35–67:1). Diese Herstellung ist der eigentliche 'Wirkstoff' — mit einfachem Wasser-Tee nicht reproduzierbar.",
+    "heat_light_sensitivity": "Als standardisiertes Fertigpräparat lagerstabil; entscheidend ist nicht Hitze/Licht, sondern die pharmazeutische Standardisierung und Ginkgolsäure-Abreicherung."
+  },
+  "pharmacology": {
+    "mechanism": "Der Spezialextrakt wirkt als Vielstoffgemisch: Flavonoide antioxidativ/radikalfangend und membranstabilisierend; Ginkgolide (v. a. Ginkgolid B) sind Antagonisten des plättchenaktivierenden Faktors (PAF); insgesamt Verbesserung der Mikrozirkulation und der Fließeigenschaften des Blutes, neuroprotektive und mitochondriale Effekte werden diskutiert.",
+    "evidence_caveat": "Positive Studien und Metaanalysen betreffen ganz überwiegend den standardisierten Spezialextrakt (EGb 761-Typ) bei leichter Demenz — die Effektstärke ist moderat und symptomatisch. Zur PRIMÄRPRÄVENTION von Demenz zeigte die große GEM-Studie (DeKosky 2008) KEINEN Nutzen. Für Nahrungsergänzungsmittel und Tee gilt die Evidenz NICHT.",
+    "pharmacokinetics": "Terpenlactone werden gut resorbiert, überwiegend renal eliminiert; Flavonoide unterliegen ausgeprägtem First-Pass-Metabolismus. Detaillierte Pharmakokinetik des Gesamtextrakts nur teilweise charakterisiert — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Leichte Demenz / altersbedingte kognitive Beeinträchtigung",
+      "synonyms": ["Gedächtnisstörung", "Vergesslichkeit", "nachlassendes Gedächtnis", "geistige Leistungsfähigkeit", "Konzentrationsstörung im Alter", "Demenzsymptome"],
+      "evidence_tag": "WEU",
+      "comment": "HMPC well-established use ausdrücklich NUR für den standardisierten Spezialextrakt (Aceton-Wasser, EGb 761-Typ) zur Besserung der (altersbedingten) kognitiven Beeinträchtigung und der Lebensqualität bei leichter Demenz. Andere Zubereitungen sind nicht so eingestuft.",
+      "realistic_expectation": "Moderate, symptomatische Besserung von Kognition, Alltagsfunktion und Lebensqualität bei leichter/mittlerer Demenz — kein Aufhalten oder Heilen der Grunderkrankung. Bei Gesunden KEINE Steigerung der Gedächtnisleistung; verhindert KEINE Demenz.",
+      "source": "EMA/HMPC EU herbal monograph Ginkgo biloba L., folium (well-established use, EMA/HMPC/321097/2012)"
+    },
+    {
+      "canonical": "Schweregefühl in den Beinen und kalte Hände/Füße bei leichten Durchblutungsstörungen",
+      "synonyms": ["schwere Beine", "kalte Hände", "kalte Füße", "Durchblutungsstörung", "Kribbeln in den Beinen"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für Zubereitungen aus dem Blattpulver — nach ärztlichem Ausschluss ernster Ursachen. Deutlich schwächere Evidenzstufe als die WEU-Demenzindikation.",
+      "realistic_expectation": "Traditionell zur Linderung leichter Beschwerden bei geringen Durchblutungsstörungen; nur nach ärztlichem Ausschluss ernster Gefäßerkrankungen (z. B. pAVK, Thrombose).",
+      "source": "EMA/HMPC EU herbal monograph Ginkgo biloba L., folium (traditional use, Blattpulver)"
+    },
+    {
+      "canonical": "Schwindel und Ohrgeräusche (Tinnitus) vaskulärer/altersbedingter Genese",
+      "synonyms": ["Schwindel", "Drehschwindel", "Ohrensausen", "Ohrgeräusche", "Tinnitus"],
+      "evidence_tag": "ESCOP+/TU",
+      "comment": "ESCOP und ältere Kommission-E-Bewertung führen den Spezialextrakt zusätzlich bei Schwindel und Tinnitus vaskulärer/involutiver Genese; die klinische Evidenz ist schwächer und heterogener als bei der Demenzindikation.",
+      "realistic_expectation": "Bestenfalls geringe Besserung; keine verlässliche Heilung von Tinnitus. Bei akutem Hörsturz/akutem Tinnitus nicht belegt.",
+      "source": "ESCOP-Monographie Ginkgo folium; Kommission E (Ginkgo-biloba-Blätter-Trockenextrakt, positiv)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Der standardisierte Spezialextrakt (EGb 761-Typ) kann Symptome einer leichten Demenz moderat bessern (Kognition, Alltag, Lebensqualität) und wird bei leichten Durchblutungsbeschwerden traditionell verwendet. Gut verträglich in der zugelassenen Form.",
+    "overstated": "Ginkgo ist KEIN Gedächtnis-Booster für Gesunde und verhindert KEINE Demenz (GEM-Studie negativ). Frei verkäufliche Nahrungsergänzungsmittel und Blättertee tragen die Studienevidenz NICHT und können zudem allergene Ginkgolsäuren enthalten. Tinnitus/Schwindel werden allenfalls gering beeinflusst.",
+    "effect_size": "moderat und symptomatisch (nur Spezialextrakt bei leichter Demenz); gering bei Tinnitus/Schwindel"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierter Spezialextrakt als Fertigarzneimittel (Filmtablette, Lösung)", "Blattpulver-Präparate (traditional use)"],
+    "form_rationale": "Nur der pharmazeutisch hergestellte, auf Flavonglykoside und Terpenlactone standardisierte und von Ginkgolsäuren abgereicherte Spezialextrakt trägt die WEU-Evidenz und ist auf Sicherheit geprüft. Selbst hergestellter Tee ist weder wirksamkeitsbelegt noch von Allergenen befreit.",
+    "standard_dose": "Spezialextrakt bei Demenz üblicherweise 120–240 mg/Tag (1–2 Einzelgaben) über mehrere Monate; Wirkung frühestens nach einigen Wochen beurteilbar. Nur Erwachsene. Dosierung strikt nach Präparate-Fachinformation.",
+    "preservation": "Fertigarzneimittel nach Herstellerangabe lagern; Selbstzubereitung wird ausdrücklich nicht empfohlen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Überempfindlichkeit gegen Ginkgo-Zubereitungen",
+      "Bekannte Blutungsneigung; vorsichtige Nutzen-Risiko-Abwägung perioperativ (Extrakt einige Tage vor Operationen absetzen)",
+      "Anwendung nur bei Erwachsenen"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft (mögliche Beeinflussung der Blutgerinnung; nicht ausreichend untersucht) und Stillzeit nicht empfohlen — unsicher — zu prüfen (EMA/HMPC).",
+    "adverse_effects": "Meist gut verträglich; gelegentlich Kopfschmerzen, Magen-Darm-Beschwerden, allergische Hautreaktionen. Einzelne Fallberichte über Blutungen (siehe Interaktionen).",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "PAF-Antagonismus/Hemmung der Thrombozytenfunktion — theoretisch additive Blutungsneigung. Kontrollierte Studien fanden am gesunden Kollektiv keine klinisch relevante Gerinnungsänderung; es existieren jedoch Fallberichte (u. a. Hirnblutungen) unter Kombination mit Gerinnungshemmern. Vorsicht überwiegt.",
+        "affected": "Orale Antikoagulanzien (Vitamin-K-Antagonisten, DOAK), Thrombozytenaggregationshemmer (ASS, Clopidogrel), NSAR",
+        "clinical_relevance": "relevant (vorsichtshalber) — Datenlage widersprüchlich, unsicher — zu prüfen"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "In-vitro-/Fallhinweise auf Beeinflussung von CYP-Enzymen; Wirkverlust bei einzelnen Substraten diskutiert",
+        "affected": "u. a. Efavirenz; theoretisch weitere CYP-Substrate",
+        "clinical_relevance": "gering bis unklar — unsicher — zu prüfen"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Möglicherweise Senkung der Krampfschwelle (v. a. relevant bei Ginkgotoxin aus Samen; für den standardisierten Blattextrakt umstritten)",
+        "affected": "Antiepileptika / Epilepsie-Patienten",
+        "clinical_relevance": "gering — unsicher — zu prüfen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Nur der standardisierte, von Ginkgolsäuren gereinigte Spezialextrakt ist wirksamkeitsbelegt und sicher — Blättertee und NEM sind es nicht. Bei gleichzeitiger Einnahme von Gerinnungshemmern (ASS, Clopidogrel, orale Antikoagulanzien) an ein mögliches Blutungsrisiko denken und vor Operationen absetzen. Rohe Ginkgo-Samen sind giftig (Krampfanfälle), das Fruchtfleisch löst allergische Dermatitis aus."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Grüne Blätter im Sommer bis Frühherbst (für die industrielle Extraktgewinnung); Selbstsammeln arzneilich nicht sinnvoll",
+    "harvest_month_tags": [8, 9],
+    "harvest_organ": "Blatt (Ginkgo folium)",
+    "method": "Industriell: Ernte grüner Blätter aus Plantagen; anschließend Extraktion und Standardisierung.",
+    "processing": "Aceton-Wasser-Extraktion, Aufkonzentrierung, gezielte Abreicherung der allergenen Ginkgolsäuren auf < 5 ppm, Einstellung auf 22–27 % Flavonglykoside und 5–7 % Terpenlactone. Diese Schritte sind im Haushalt nicht nachvollziehbar.",
+    "storage": "Als Fertigarzneimittel nach Herstellerangaben; getrocknete Rohblätter sind für den Eigengebrauch nicht empfehlenswert."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Das Blatt hat keine kulinarische Verwendung. In Ostasien werden die gerösteten Samenkerne (Ginnan) gegessen — jedoch nur in kleinen Mengen und nie roh, da sie das Nervengift Ginkgotoxin enthalten (Krampfgefahr, besonders bei Kindern). Diese Küchenverwendung des Samens ist streng von der arzneilichen Blattdroge zu trennen."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig bis halbschattig, verträgt Stadtklima, Abgase und verdichtete Böden hervorragend.",
+    "hardiness": "Voll winterhart; sehr langlebiger, robuster Baum.",
+    "propagation": "Aussaat oder Veredelung; für Gärten werden meist männliche Klone gepflanzt, um die stark riechenden Samen/'Früchte' der weiblichen Bäume zu vermeiden.",
+    "bodensee_suitability": "Als Zier- und Alleebaum gut geeignet und in Parks/Straßen der Region gepflanzt; wird jedoch groß und ist nur kultiviert, nicht wild."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Ginkgobaum mit goldgelber Herbstfärbung", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Fächerförmiges Blatt mit dichotomer Aderung und zweilappigem Rand — unverwechselbar", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Ginkgo biloba L., folium (EMA/HMPC/321097/2012): well-established use (Spezialextrakt) und traditional use (Blattpulver)",
+    "EMA/HMPC — Assessment report Ginkgo biloba L., folium",
+    "ESCOP-Monographie Ginkgo folium; Kommission E Monographie Ginkgo-biloba-Blätter-Trockenextrakt (positiv)",
+    "DeKosky ST et al. (2008) GEM Study, JAMA — Ginkgo verhindert keine Demenz",
+    "Arzneimittelkommission der deutschen Ärzteschaft (AkdÄ) / Pharmazeutische Zeitung — Blutungen unter Ginkgo, Kombination mit Gerinnungshemmern (recherchiert)",
+    "Ph. Eur. Spezifikation Ginkgo-Trockenextrakt (Flavonglykoside 22–27 %, Terpenlactone 5–7 %, Ginkgolsäuren < 5 ppm); Fachliteratur zu Ginkgotoxin/Ginnan-Vergiftung"
+  ]
+}

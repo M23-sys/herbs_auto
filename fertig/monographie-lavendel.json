@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "id": "lavandula-angustifolia",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Lavandula angustifolia Mill.",
+    "common_names_de": ["Echter Lavendel", "Schmalblättriger Lavendel", "Kleiner Speik"],
+    "family": "Lippenblütler (Lamiaceae)",
+    "drug_part": ["Blüten (Lavandulae flos)", "Ätherisches Öl aus den blühenden Zweigspitzen (Lavandulae aetheroleum)"],
+    "drug_name_latin": "Lavandulae flos / Lavandulae aetheroleum",
+    "synonyms": ["Lavandula officinalis Chaix", "Lavandula vera DC.", "Lavandula spica L. p.p."],
+    "synonym_note": "Der Artname Lavandula officinalis Chaix ist ein häufig noch gebrauchtes Synonym; akzeptiert ist Lavandula angustifolia Mill. Nicht zu verwechseln mit Lavandula latifolia (Speiklavendel) und der Hybride Lavandula × intermedia (Lavandin)."
+  },
+  "identification": {
+    "key_features": [
+      "Schmale, lineal-lanzettliche, graugrün-filzige Blätter mit eingerolltem Rand; im Austrieb weißfilzig (sicherstes Merkmal zur Abgrenzung vom breitblättrigen Speiklavendel/Lavandin)",
+      "Ein unverzweigter (einfacher) Blütenstiel je Blütenähre — Lavandin trägt meist zusätzliche Seitenähren; Speiklavendel oft verzweigte Stände",
+      "Kleine, blauviolette Lippenblüten in endständigen, unterbrochenen Scheinähren; typischer, süß-blumiger Lavendelduft ohne stechende Kampfernote",
+      "Kleiner, kompakter Halbstrauch (20–60 cm) mit vierkantigen, verholzenden Stängeln",
+      "Blütezeit Juni–August; ausgeprägter Bienen- und Schmetterlingsbesuch"
+    ],
+    "season": "Blütezeit Juni bis August",
+    "habitat": "Ursprünglich sonnige, trockene Kalkhänge des westlichen Mittelmeerraums; bei uns Kultur- und Gartenpflanze auf durchlässigen, kalkhaltigen, mageren Böden in voller Sonne",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Blüten kurz vor dem vollständigen Aufblühen an einem trockenen Vormittag ernten — dann ist der Gehalt an ätherischem Öl am höchsten.",
+      "Nur echten Lavendel (Lavandula angustifolia) für arzneiliche Zwecke verwenden; Lavandin und Speiklavendel riechen kampferartig und sind chemotypisch anders (siehe Verwechslungen).",
+      "Rasch und schonend im Schatten trocknen, damit Farbe und Duft erhalten bleiben."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Lavandin",
+      "scientific_name": "Lavandula × intermedia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufigste und wirtschaftlich bedeutendste Verwechslung — nicht giftig, aber arzneilich NICHT gleichwertig. Größer und robuster, breitere Blätter, Blütenstände mit Seitenähren, deutlich kampfer-/cineolhaltiger Duft. Höherer Kampfer- und 1,8-Cineol-Gehalt: reizender, nicht für die HMPC-belegte Anwendung des echten Lavendelöls geeignet. Das meiste billige 'Lavendelöl' im Handel ist Lavandin."
+    },
+    {
+      "name": "Speiklavendel (Großer Speik)",
+      "scientific_name": "Lavandula latifolia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Breitblättrig, verzweigte Blütenstände, kampferreiches Öl (hoher Kampfer-/Cineolgehalt). Nicht giftig, aber das kampferreiche Öl ist reizend und darf NICHT im Gesichtsbereich von Säuglingen/Kleinkindern angewendet werden (Gefahr von Stimmritzenkrampf durch Kampfer/Cineol). Für die belegte Silexan-/HMPC-Anwendung ungeeignet."
+    },
+    {
+      "name": "Keine giftige oder lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Innerhalb der Lippenblütler gibt es keinen lebensgefährlichen Doppelgänger des Lavendels; die relevanten Verwechslungen sind Qualitäts-/Chemotyp-Fragen (Lavandin, Speiklavendel). Blauviolette Zierpflanzen wie Katzenminze (Nepeta) oder Steppensalbei (Salvia nemorosa) sind ungiftig, aber am fehlenden Lavendelduft und am Blattbau leicht zu unterscheiden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl 1–3 % (Leitkomponenten Linalool und Linalylacetat, zusammen meist >60 %; niedriger Kampfergehalt <1 % beim echten Lavendel)",
+      "Gerbstoffe (Rosmarinsäure, Lamiaceen-Gerbstoffe)",
+      "Cumarine (Spuren), Flavonoide",
+      "Triterpene"
+    ],
+    "lead_substance": "Linalylacetat und Linalool (Ester/Monoterpenalkohol) — Leitkomponenten des ätherischen Öls; das standardisierte Fertigarzneimittel-Öl Silexan wird auf diese definiert.",
+    "solubility_note": "Wirksame Bestandteile sind lipophil (ätherisches Öl). Für die innerliche, belegte Anwendung wird das ätherische Öl in magensaftresistenten Weichkapseln gegeben (Silexan); Tee/Aufguss aus Blüten extrahiert nur einen Teil des Öls. Für Bäder und Aromaanwendung wird das Öl direkt oder als Blütenaufguss genutzt.",
+    "heat_light_sensitivity": "Ätherisches Öl ist flüchtig und licht-/luftempfindlich (Esterhydrolyse, Oxidation von Linalool zu allergenen Peroxiden bei Alterung). Dicht, kühl und lichtgeschützt lagern; überlagertes Öl kann Kontaktallergien auslösen."
+  },
+  "pharmacology": {
+    "mechanism": "Für das standardisierte Öl Silexan wird eine Hemmung spannungsabhängiger Calciumkanäle sowie eine Modulation der serotonergen Neurotransmission (5-HT1A) diskutiert; anders als Benzodiazepine ohne relevante Bindung am GABA-A-Benzodiazepin-Rezeptor — daher kein Abhängigkeits- oder Sedierungsprofil vom Benzodiazepin-Typ. Der genaue Mechanismus ist nicht abschließend geklärt.",
+    "evidence_caveat": "Die belastbare klinische Evidenz betrifft fast ausschließlich EIN definiertes Präparat (Silexan, 80 mg oral) — nicht Lavendeltee, lose Blüten oder beliebiges 'Lavendelöl'. Für Aromatherapie/Inhalation und Tee ist die Datenlage schwach und uneinheitlich. Die HMPC-Monographie stuft Lavendelöl insgesamt als traditional use ein; die RCT-Evidenz stützt konkret Silexan.",
+    "pharmacokinetics": "Linalool/Linalylacetat werden nach oraler Gabe resorbiert und rasch metabolisiert; detaillierte Humanpharmakokinetik der Gesamtzubereitung nur unvollständig charakterisiert — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Ängstliche Verstimmung / innere Unruhe (subsyndromale und generalisierte Angst)",
+      "synonyms": ["Angst", "Ängstlichkeit", "innere Unruhe", "Nervosität", "Anspannung", "Grübeln", "nervöse Unruhe"],
+      "evidence_tag": "RCT/TU",
+      "comment": "Konkret belegt für das ethanolisch gewonnene, standardisierte Lavendelöl Silexan (80 mg/Tag, national als Fertigarzneimittel Lasea zugelassen). Randomisierte kontrollierte Studien zeigten Überlegenheit gegenüber Placebo und Nicht-Unterlegenheit gegenüber Lorazepam 0,5 mg (Woelk 2010) bzw. Paroxetin 20 mg (Kasper 2014) bei generalisierter Angststörung. Die HMPC-Monographie selbst führt Lavendelöl nur als traditional use — daher RCT (für Silexan) kombiniert mit TU (HMPC-Kategorie).",
+      "realistic_expectation": "Für das definierte Präparat Silexan realistische, klinisch messbare Linderung leichter bis mittelschwerer Angst/Unruhe, in Studien vergleichbar mit niedrig dosiertem Lorazepam/Paroxetin — jedoch ohne Sedierung, Abhängigkeit oder Absetzphänomene. NICHT übertragbar auf Lavendeltee, Duftkissen oder beliebiges Lavendelöl. Kein Ersatz für die Behandlung schwerer Angst- oder Panikstörungen.",
+      "source": "RCTs zu Silexan (Woelk & Schläfke 2010; Kasper 2014, Int J Neuropsychopharmacol); EMA/HMPC EU herbal monograph Lavandulae aetheroleum (traditional use)"
+    },
+    {
+      "canonical": "Nervlich/stressbedingte Erschöpfung und Einschlafstörungen",
+      "synonyms": ["Stress", "Erschöpfung", "innere Anspannung", "schlecht einschlafen", "Einschlafhilfe", "unruhiger Schlaf", "Überlastung"],
+      "evidence_tag": "TU",
+      "comment": "HMPC: 'Linderung leichter Symptome von mentalem Stress und Erschöpfung sowie als Einschlafhilfe' — traditional use. Kommission E führt Unruhezustände und Einschlafstörungen positiv.",
+      "realistic_expectation": "Mildes, entspannendes Mittel; kann das Einschlafen erleichtern und Stresssymptome dämpfen. Wirkung mild und subjektiv; kein Schlafmittel mit verlässlicher Akutwirkung.",
+      "source": "EMA/HMPC EU herbal monograph Lavandulae aetheroleum/Lavandulae flos (traditional use); Kommission E (positiv)"
+    },
+    {
+      "canonical": "Funktionelle/nervöse Oberbauchbeschwerden (Roemheld-Symptomatik)",
+      "synonyms": ["nervöser Magen", "Reizmagen", "Blähungen", "Völlegefühl", "Magendruck bei Aufregung"],
+      "evidence_tag": "TU/TRAD",
+      "comment": "Kommission E führt zusätzlich funktionelle Oberbauchbeschwerden (nervöser Reizmagen, Roemheld-Syndrom). Traditionell/erfahrungsheilkundlich, geringe klinische Evidenz.",
+      "realistic_expectation": "Kann leichte, nervös bedingte Magen-Darm-Beschwerden mildern. Keine belegte Wirkung bei organischen Erkrankungen.",
+      "source": "Kommission E Monographie Lavendelblüten (positiv)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliches Beruhigungsmittel; für das standardisierte Präparat Silexan gibt es echte RCT-Evidenz bei leichter/mittlerer Angst und Unruhe — anxiolytisch ohne Sedierung und ohne Abhängigkeit. Blüten/Tee und Aromaanwendung sind mild entspannend (traditionell).",
+    "overstated": "Der Ruf von 'Lavendelöl' als universelles Anti-Angst-/Schlafmittel überträgt fälschlich die Silexan-Studiendaten auf Duftlampen, Duftkissen, Tee und beliebige Handelsöle — dort ist die Evidenz schwach bis fehlend. Lavendel heilt keine Angststörung im engeren Sinn und ersetzt bei schwerer Angst/Depression keine leitliniengerechte Therapie.",
+    "effect_size": "Silexan: klinisch relevant (vergleichbar niedrig dosiertem Anxiolytikum); Tee/Aroma: mild"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisiertes Lavendelöl in magensaftresistenter Weichkapsel (Silexan, Fertigarzneimittel)", "Blütentee (Aufguss)", "Ölbad / Badezusatz", "Aromaanwendung (Duft)"],
+    "form_rationale": "Die belegte Anxiolyse ist an das oral eingenommene, standardisierte Öl (Silexan) gebunden — magensaftresistent, damit das Öl im Dünndarm freigesetzt wird und Aufstoßen mit Lavendelgeschmack reduziert ist. Tee und Bad nutzen die milden traditionellen Effekte.",
+    "standard_dose": "Silexan: 1× 80 mg/Tag oral (Erwachsene). Tee: 1–2 TL (ca. 1–2 g) Blüten pro Tasse, mit kochendem Wasser übergießen, 5–10 min zugedeckt ziehen, bis 3×/Tag. Bad: ca. 20–100 g Blüten auf 20 l Wasser (Aufguss zusetzen). Nur für Erwachsene/Jugendliche; für Kinder keine ausreichenden Daten.",
+    "preservation": "Öl dicht, kühl und lichtgeschützt lagern (Oxidation vermeiden — überlagertes Öl kann Allergien auslösen). Getrocknete Blüten dunkel und trocken, Aroma innerhalb eines Jahres verbrauchen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Überempfindlichkeit gegen Lavendel/Lavendelöl oder seine Bestandteile",
+      "Kinder (keine ausreichenden Daten für die innerliche Anwendung; kampferreiche Öle nicht im Gesichtsbereich von Säuglingen/Kleinkindern)"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit mangels ausreichender Daten nicht empfohlen (EMA/HMPC).",
+    "adverse_effects": "Insgesamt sehr gut verträglich. Häufigste Nebenwirkung von Silexan: Aufstoßen mit Lavendelgeschmack, gelegentlich Magen-Darm-Beschwerden. Selten allergische Haut-/Kontaktreaktionen, besonders auf überlagertes, oxidiertes Öl (Linalool-Peroxide). Unverdünntes Öl kann die Haut reizen.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Möglicherweise additive dämpfende/beruhigende Wirkung (theoretisch, klinisch für Silexan nicht als relevant belegt)",
+        "affected": "Zentral sedierende Mittel, Alkohol",
+        "clinical_relevance": "gering — unsicher — zu prüfen"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Diskutierter endokriner (schwach östrogen-/antiandrogener) Effekt aus Einzel-Fallberichten (Gynäkomastie bei präpubertären Jungen nach topischen Lavendel-/Teebaumöl-Produkten); Kausalität und klinische Relevanz umstritten und nicht bestätigt",
+        "affected": "Hormonhaushalt (theoretisch, v. a. hypothetisch bei präpubertären Kindern)",
+        "clinical_relevance": "unsicher — zu prüfen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Echter Lavendel ist sehr sicher — aber die belegte Angst-/Unruhe-Wirkung gilt konkret nur für das standardisierte Fertigarzneimittel-Öl (Silexan/Lasea), NICHT für Duftöl, Tee oder Duftkissen; billiges 'Lavendelöl' ist meist kampferreicher Lavandin. Kampferreiche Öle (Lavandin/Speik) nicht im Gesicht von Säuglingen anwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten kurz vor der Vollblüte, Juni bis August, an trockenen Vormittagen",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Blüte (Lavandulae flos)",
+    "method": "Blühende Zweigspitzen abschneiden, zu kleinen Bündeln binden oder locker ausbreiten.",
+    "processing": "Rasch und luftig im Schatten trocknen (Farbe und Duft bleiben nur bei schonender Trocknung erhalten); ätherisches Öl gewinnt man durch Wasserdampfdestillation der frischen blühenden Zweigspitzen.",
+    "storage": "Getrocknete Blüten dunkel, trocken und dicht verschlossen; ätherisches Öl kühl, lichtgeschützt und luftdicht, um Oxidation (Allergene) zu vermeiden."
+  },
+  "kitchen": {
+    "uses": ["Sparsam als Gewürz (Teil von 'Herbes de Provence')", "Lavendelzucker, Sirup, Backwaren", "Aromatisierung von Desserts und Getränken"],
+    "culinary_vs_medicinal": "In der Küche nur in sehr kleinen Mengen — Lavendel wird schnell seifig-bitter und aufdringlich. Kulinarisch dient er dem Aroma; die arzneiliche Wirkung (Silexan) erfordert dagegen die standardisierte, deutlich höhere Öldosis."
+  },
+  "garden": {
+    "site_soil": "Voll sonnig, durchlässiger, eher magerer, kalkhaltiger Boden; Staunässe unbedingt vermeiden.",
+    "hardiness": "Echter Lavendel (L. angustifolia) ist die winterhärteste Art, in der Bodenseeregion an geschützter, trockener Stelle meist ausreichend frosthart; Lavandin und Speiklavendel sind frostempfindlicher.",
+    "propagation": "Stecklinge im Sommer oder Aussaat; nach der Blüte zurückschneiden (nicht ins alte Holz), damit die Pflanze kompakt bleibt.",
+    "bodensee_suitability": "Als Garten- und Kübelpflanze gut geeignet, wenn Boden durchlässig und Standort sonnig-warm ist; wildkommt Lavendel bei uns nicht vor."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Echter Lavendel mit blauvioletten Scheinähren auf unverzweigten Stielen", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Schmale, graugrüne Blätter und einfacher Blütenstiel — Abgrenzung zu Lavandin/Speiklavendel", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Lavandula angustifolia Mill., aetheroleum (traditional use)",
+    "EMA/HMPC — European Union herbal monograph on Lavandula angustifolia Mill., flos (traditional use)",
+    "EMA/HMPC — Assessment report Lavandula angustifolia Mill., aetheroleum und flos",
+    "Kommission E Monographie Lavendelblüten (positiv)",
+    "Woelk H, Schläfke S (2010) Phytomedicine — Silexan vs. Lorazepam bei GAD; Kasper S et al. (2014) Int J Neuropsychopharmacol — Silexan vs. Paroxetin/Placebo bei GAD",
+    "arzneipflanzenlexikon.info; botanische Quellen zur Abgrenzung Lavandula angustifolia / L. latifolia / L. × intermedia (recherchiert)"
+  ]
+}

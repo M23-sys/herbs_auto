@@ -79,6 +79,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Passiflorae herba als TRADITIONAL USE (leichte nervoese Unruhe/mentaler Stress, Einschlafhilfe); ESCOP + Kommission E positiv → TU/ESCOP+, kein WEU. Milde, sehr sichere Beruhigungsdroge; Sedierung moeglich (Fahrtuechtigkeit), Schwangerschaft/Stillzeit meiden. Zentrale Verwechslung: die in deutschen Gaerten haeufige winterharte BLAUE Passionsblume (P. caerulea, FUENFlappige Blaetter) ist NICHT die arzneiliche Art (P. incarnata: DREIlappig) und enthaelt mehr cyanogene Glykoside → als Verfaelschung/Qualitaetsrisiko, giftig eingetragen. Zwei alte Sicherheitsmythen entschaerft: relevante MAO-hemmende Harman-Alkaloide gelten als ueberholt (nur ppm-Spuren), und das cyanogene Gynocardin liess sich in P. incarnata nicht reproduzierbar isolieren (Holbik 2010) — beide als unsicher/gering vermerkt."
+    },
+    {
+      "ts": "2026-07-16T09:00:00Z",
+      "id": "lavandula-angustifolia",
+      "common": "Lavendel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). Lehrstueck 'RCT ist nicht gleich HMPC-WEU': Fuer das standardisierte Fertigarzneimittel-Oel Silexan (Lasea, 80 mg oral) gibt es echte RCT-Evidenz bei Angst/Unruhe — nicht-unterlegen gegen Lorazepam (Woelk 2010) und Paroxetin (Kasper 2014). Die HMPC-Monographie stuft Lavendeloel dennoch nur als TRADITIONAL USE ein → Angstindikation als RCT/TU getaggt, Stress/Schlaf als TU. WICHTIG: Die Studienevidenz gilt NUR fuer Silexan, NICHT fuer Tee, Duftoel oder Duftkissen; billiges Handels-'Lavendeloel' ist meist kampferreicher Lavandin. Verwechslung ist eine Chemotyp-/Qualitaetsfrage (Lavandin L. x intermedia, Speiklavendel L. latifolia — ungiftig, arzneilich ungleichwertig), kein toedlicher Doppelgaenger. Umstrittener endokriner Signalbefund (Gynaekomastie-Fallberichte) als unsicher vermerkt."
+    },
+    {
+      "ts": "2026-07-16T09:00:30Z",
+      "id": "ginkgo-biloba",
+      "common": "Ginkgo",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). Zwei-Stufen-Evidenz: HMPC fuehrt WELL-ESTABLISHED USE nur fuer den standardisierten, von Ginkgolsaeuren gereinigten Spezialextrakt (EGb-761-Typ, 22-27 % Flavonglykoside, 5-7 % Terpenlactone) bei leichter Demenz/altersbedingter kognitiver Beeintraechtigung; TRADITIONAL USE (Blattpulver) fuer schwere Beine/kalte Haende; Tinnitus/Schwindel nur ESCOP+/TU. Erwartung daempfen: KEIN Gedaechtnis-Booster fuer Gesunde, verhindert KEINE Demenz (GEM-Studie DeKosky 2008 negativ); Tee/NEM tragen die Evidenz NICHT und enthalten allergene Ginkgolsaeuren. Sicherheit: Blutungsrisiko mit Gerinnungshemmern (PAF-Antagonismus) — Datenlage widerspruechlich, vorsichtshalber relevant, vor OP absetzen. Teil-Verwechslung Blattdroge vs. Samen: rohe Ginkgo-Samen enthalten das Nervengift Ginkgotoxin (Krampfanfaelle, v. a. Kinder), Fruchtfleisch loest allergische Dermatitis aus."
     }
   ]
 }

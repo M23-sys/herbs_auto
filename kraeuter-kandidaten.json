@@ -194,8 +194,8 @@
       "latin": "Lavandula angustifolia",
       "tier": 1,
       "reason": "Silexan: RCT bei Angststörung — starke Evidenz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-lavendel.json"
     },
     {
       "id": "ginkgo-biloba",
@@ -203,8 +203,8 @@
       "latin": "Ginkgo biloba",
       "tier": 1,
       "reason": "WEU Demenz/Claudicatio; Blutungsrisiko",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-ginkgo.json"
     },
     {
       "id": "cynara-cardunculus",
