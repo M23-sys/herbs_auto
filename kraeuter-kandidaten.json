@@ -248,8 +248,8 @@
       "latin": "Echinacea purpurea",
       "tier": 1,
       "reason": "Erkältung — klassischer 'Erwartung dämpfen'-Fall",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-purpursonnenhut.json"
     },
     {
       "id": "allium-sativum",
@@ -257,8 +257,8 @@
       "latin": "Allium sativum",
       "tier": 1,
       "reason": "Lipide/Blutdruck; Blutungs-Interaktion; Bärlauch-Verwandter",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-knoblauch.json"
     },
     {
       "id": "tussilago-farfara",

@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "id": "echinacea-purpurea",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Echinacea purpurea (L.) Moench",
+    "common_names_de": ["Purpur-Sonnenhut", "Roter Sonnenhut", "Purpurfarbener Sonnenhut", "Igelkopf"],
+    "family": "Korbblütler (Asteraceae / Compositae)",
+    "drug_part": ["frisches, blühendes Kraut (oberirdische Teile) — Presssaft", "getrocknetes Kraut", "Wurzel (Radix, eigene Monographie)"],
+    "drug_name_latin": "Echinaceae purpureae herba (recens) — Presssaft; daneben Echinaceae purpureae radix",
+    "synonyms": ["Rudbeckia purpurea L.", "Brauneria purpurea (L.) Britton", "Echinacea intermedia Lindl.", "Echinacea purpurea var. arkansana Steyerm."],
+    "synonym_note": "Der Gattungsname wechselte historisch: Linné führte die Art als Rudbeckia purpurea, Moench stellte sie 1794 in die neue Gattung Echinacea. Nicht mit der Gattung Rudbeckia (ebenfalls 'Sonnenhut' genannt, aber ohne arzneiliche Gleichwertigkeit) verwechseln — siehe confusions."
+  },
+  "identification": {
+    "key_features": [
+      "Körbchen mit stark gewölbtem, stachelig-hartem, dunkel purpurbraunem Blütenboden ('Igelkopf' — daher der lateinische Name von griech. echinos = Igel); die borstigen Spreublätter überragen die Röhrenblüten",
+      "Zungenblüten purpurn bis rosa, breit, meist waagerecht abstehend bis nach unten hängend; 8–15 cm große Köpfe auf 60–120 cm hohen, rauhaarigen Stängeln",
+      "Grund- und untere Stängelblätter breit-eiförmig bis lanzettlich, deutlich gestielt, 3–5-nervig, grob gezähnt und rau behaart (Unterschied zu E. angustifolia: dort schmal-lanzettliche, ungestielte, ganzrandige Blätter)",
+      "Kräftige Pfahl-/Faserwurzel; Blütezeit Juli bis September; Staude nordamerikanischer Prärien, bei uns nur in Kultur"
+    ],
+    "season": "Blüte Juli–September",
+    "habitat": "Aus Prärien und lichten Wäldern des östlichen/mittleren Nordamerika; in Mitteleuropa ausschließlich Zier- und Arzneipflanze in Gärten und im Feldanbau, keine Wildvorkommen",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Arzneilich zählt die ART und der PFLANZENTEIL: Der HMPC-'well-established use' gilt nur für den PRESSSAFT aus dem frischen, blühenden Kraut von Echinacea purpurea — nicht für die Wurzel, nicht für E. angustifolia/E. pallida (andere Monographien, andere Inhaltsstoffe).",
+      "Für den standardisierten Presssaft ist Eigenanbau ungeeignet — er entsteht industriell aus frischer Ernte. Zu Hause sind allenfalls Tee/Tinktur aus getrocknetem Kraut möglich (traditional use, geringere Evidenz).",
+      "Bei Bezug von Fertigware auf die Artangabe achten: Wurzeldrogen werden immer wieder mit der nordamerikanischen Prärie-Doldenscheinaster (Parthenium integrifolium) verfälscht.",
+      "Korbblütler-Allergie vorab bedenken — schon der Umgang mit der blühenden Pflanze kann bei Sensibilisierten Reaktionen auslösen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Schmalblättriger Sonnenhut",
+      "scientific_name": "Echinacea angustifolia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig, aber arzneilich NICHT gleichzusetzen: eigene HMPC-Monographie, überwiegend die Wurzel genutzt, anderes Alkamid-/Polysaccharid-Profil. Der 'well-established use' des Purpur-Sonnenhut-Presssafts darf nicht auf diese Art übertragen werden. Unterscheidung: schmale, ungestielte, ganzrandige Blätter, kleinere Köpfe."
+    },
+    {
+      "name": "Blasser Sonnenhut",
+      "scientific_name": "Echinacea pallida",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig; eigene Droge (Wurzel), eigene Monographie und eigenes Inhaltsstoffprofil. Blassrosa, sehr schmale, stark hängende Zungenblüten. Nicht mit E. purpurea gleichsetzen — Evidenz und Zubereitung unterscheiden sich."
+    },
+    {
+      "name": "Gewöhnlicher/Gelber Sonnenhut (Rudbeckie)",
+      "scientific_name": "Rudbeckia spp. (z. B. Rudbeckia fulgida, R. hirta)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Trägt denselben deutschen Namen 'Sonnenhut' und derselben Familie (Asteraceae), ist aber eine andere Gattung OHNE arzneiliche Gleichwertigkeit. Meist gelbe Zungenblüten. Als Zierpflanze harmlos, aber kein Echinacea-Ersatz. Bei Gartenware auf die botanische Artangabe achten."
+    },
+    {
+      "name": "Prärie-Doldenscheinaster (Prairie dock)",
+      "scientific_name": "Parthenium integrifolium",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Kein Feld-Doppelgänger, sondern die klassische WURZEL-VERFÄLSCHUNG von Echinacea-Handelsware (dokumentierte Adulteration, Verfälschungsrate der Handelsdroge in Studien bis ~28 %). Selbst nicht akut giftig, aber wirkstofffremd — mindert die Qualität. Nur analytisch/über zuverlässige Bezugsquellen sicher auszuschließen."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Der Purpur-Sonnenhut ist eine unverwechselbar geformte Gartenstaude ohne tödlichen Doppelgänger. Die realen Verwechslungsrisiken sind Art-/Pflanzenteil-Verwechslungen (andere Echinacea-Arten, Rudbeckia) und die Wurzel-Verfälschung mit Parthenium — Qualitäts-, keine Vergiftungsfragen. Deshalb deadly_confusion=false."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Alkamide (Isobutylamide der Undeca-/Dodecansäuren) — v. a. in Wurzel und Kraut, gelten als immunmodulatorisch mitverantwortlich (Kribbeln/Prickeln auf der Zunge)",
+      "Kaffeesäurederivate: Cichoriensäure (Chicorée-/Zichoriensäure, Leitstoff des Krauts), Echinacosid (v. a. in E. angustifolia/pallida-Wurzeln, in E. purpurea kaum)",
+      "hochmolekulare Polysaccharide und Glykoproteine (Arabinogalactane) — immunmodulatorisch diskutiert",
+      "ätherisches Öl, Polyacetylene, Flavonoide"
+    ],
+    "lead_substance": "Cichoriensäure (Kraut) und Alkamide — als Marker der immunmodulatorischen Aktivität; ein einzelner alleinverantwortlicher Wirkstoff ist nicht gesichert",
+    "solubility_note": "Der arzneilich belegte Presssaft konserviert die frischen, teils instabilen Inhaltsstoffe (Cichoriensäure wird durch pflanzeneigene Enzyme rasch abgebaut). Wässriger Tee extrahiert eher Polysaccharide, Alkamide sind lipophil/alkohollöslich (Tinktur). Deshalb sind die Zubereitungsformen NICHT gegeneinander austauschbar — die Evidenz hängt am konkreten Präparat.",
+    "heat_light_sensitivity": "Cichoriensäure ist oxidations- und enzymempfindlich (Qualitätsverlust bei unsachgemäßer Trocknung/Lagerung). Presssäfte werden stabilisiert; getrocknetes Kraut kühl, trocken, dunkel lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Immunmodulation statt direkter Erregerabtötung: In vitro und tierexperimentell Aktivierung von Makrophagen/Phagozytose, Beeinflussung von Zytokinen (u. a. TNF-α, Interferon-Signalwege) durch Alkamide, Kaffeesäurederivate und Polysaccharide. Ein klar umrissener klinischer Wirkmechanismus beim Menschen ist nicht bewiesen.",
+    "evidence_caveat": "Die Datenlage ist trotz WEU-Status uneinheitlich: Der Cochrane-Review (Karsch-Völk et al. 2014, 24 Studien, >4600 Teilnehmer) fand in den Einzelstudien KEINEN sicheren Vorteil gegenüber Placebo — weder zur Vorbeugung noch zur Behandlung; ein schwacher Trend zu leichter Nutzenwirkung ist möglich, die Studien sind aber wegen unterschiedlicher Arten, Pflanzenteile und Extraktionsverfahren kaum vergleichbar. Der HMPC-'well-established use' stützt sich v. a. auf Studien mit dem PRESSSAFT von E. purpurea. Primärquelle EMA/HMPC nicht direkt einsehbar (403) — Evidenzeinstufung ärztlich gegenprüfen.",
+    "pharmacokinetics": "Alkamide werden nach oraler Gabe resorbiert und sind im Plasma nachweisbar (sublinguale Aufnahme diskutiert). Belastbare humanpharmakokinetische Daten für die immunmodulatorischen Effekte fehlen — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Kurzzeitige Vorbeugung und Behandlung von Erkältungskrankheiten (Infekte der oberen Atemwege / grippaler Infekt)",
+      "synonyms": ["Erkältung", "grippaler Infekt", "Abwehrschwäche", "Immunsystem stärken", "erkältungsanfällig", "Schnupfen vorbeugen", "wiederkehrende Atemwegsinfekte", "Immunkur"],
+      "evidence_tag": "WEU",
+      "comment": "EMA/HMPC führt für den PRESSSAFT aus dem frischen blühenden Kraut von Echinacea purpurea einen 'well-established use' zur Vorbeugung und Behandlung von Erkältungen; Tagesdosis ca. 6–9 ml Presssaft, Anwendung möglichst bei den ersten Anzeichen, nicht länger als 1 Woche (Behandlung) bzw. begrenzte Präventionsdauer. WICHTIG: Der WEU gilt NUR für diese Zubereitung/Art — andere Zubereitungen (Tee, Tinktur, getrocknetes Kraut) und die anderen Arten (E. angustifolia, E. pallida) sind lediglich traditional use. Nur Erwachsene und Jugendliche über 12 Jahren.",
+      "realistic_expectation": "Kann — wenn früh bei den ersten Symptomen begonnen — Dauer und Schwere einer Erkältung möglicherweise geringfügig mildern. KEIN sicheres Vorbeugemittel und kein Ersatz für Basismaßnahmen; der Effekt ist bestenfalls mild und in Studien uneinheitlich. Bei hohem Fieber, Atemnot oder Symptomen über eine Woche ärztlich abklären.",
+      "source": "EMA/HMPC European Union herbal monograph Echinacea purpurea (L.) Moench, herba recens (well-established use, Presssaft); Cochrane Review Karsch-Völk et al. 2014 (uneinheitliche Evidenz)"
+    },
+    {
+      "canonical": "Traditionelle unterstützende Anwendung bei leichten oberflächlichen Wunden (äußerlich) und weiteren Erkältungszubereitungen",
+      "synonyms": ["kleine Wunden", "schlecht heilende Hautstellen", "Wundheilung unterstützen", "Halsschmerzen (Erkältung)"],
+      "evidence_tag": "TU",
+      "comment": "Für getrocknetes Kraut, Tee und Tinkturen sowie die äußerliche Anwendung bei kleinen Hautwunden besteht nur traditional-use-Charakter; Kommission E nennt äußerlich schlecht heilende Wunden. Die Evidenz ist hier deutlich schwächer als für den Presssaft.",
+      "realistic_expectation": "Traditionelle, symptomatisch-unterstützende Anwendung mit schwacher Beleglage. Kein Ersatz für Wunddesinfektion/ärztliche Wundversorgung bei tiefen, infizierten oder großen Wunden.",
+      "source": "EMA/HMPC (traditional use für weitere Zubereitungen); Kommission E (äußerlich, schlecht heilende Wunden)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Zur frühen, kurzzeitigen Selbstbehandlung banaler Erkältungen mit dem standardisierten E.-purpurea-Presssaft ein regulatorisch als WEU eingestuftes, aber im Effekt mildes und in Studien umstrittenes Immunmodulans.",
+    "overstated": "Der populäre Ruf als starkes 'Immunbooster'/Erkältungsschutz überzeichnet: Der Cochrane-Review fand keinen sicheren Nutzen, und die Evidenz gilt NUR für den Purpur-Sonnenhut-Presssaft, nicht für Tees, Tinkturen, Wurzelpräparate oder andere Echinacea-Arten. Nicht zur Dauervorbeugung, nicht bei schweren/bakteriellen Infekten, kein Antibiotikaersatz. Anwendung >8 Wochen kann sogar eine Leukopenie begünstigen.",
+    "effect_size": "mild, symptomatisch, umstritten; nur bei frühem Beginn"
+  },
+  "preparation": {
+    "recommended_forms": ["standardisierter Presssaft aus frischem E.-purpurea-Kraut (belegte Form)", "Lutsch-/Filmtabletten mit Trockenpresssaft", "Tinktur/Tee aus getrocknetem Kraut (traditionell, schwächere Evidenz)"],
+    "form_rationale": "Weil die Wirkstoffe teils enzymempfindlich und je nach Löslichkeit unterschiedlich verteilt sind, ist die konkrete Zubereitung entscheidend: Nur der frisch gewonnene, stabilisierte Presssaft trägt die WEU-Evidenz. Selbst gekochter Tee entspricht dieser Zubereitung nicht.",
+    "standard_dose": "HMPC (WEU, Presssaft): ca. 6–9 ml Presssaft täglich (auf mehrere Gaben verteilt), Beginn bei den ersten Erkältungssymptomen; Anwendung nicht länger als 1 Woche (Behandlung). Nur Erwachsene und Jugendliche über 12 Jahren. Fertigpräparate nach Packungsangabe.",
+    "preservation": "Presssäfte/Tinkturen sind stabilisiert nach Herstellerangabe zu lagern; getrocknetes Kraut kühl, trocken, dunkel und nicht über die Saison hinaus."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Allergie gegen Korbblütler (Asteraceae: Arnika, Kamille, Ringelblume, Beifuß, Ambrosia u. a.) — Kreuzreaktion möglich; Vorsicht bei Atopikern (Asthma, Neurodermitis: erhöhtes Reaktionsrisiko bis hin zu Anaphylaxie in Einzelfällen)",
+      "Progrediente Systemerkrankungen: Tuberkulose, Sarkoidose, Leukosen; Autoimmun-/Kollagenosen (z. B. multiple Sklerose); Immundefekte (HIV/AIDS) und iatrogene Immunsuppression (nach EMA/HMPC/Kommission E als Gegenanzeige geführt — die Immunstimulation gilt als potenziell nachteilig/unvorhersehbar)",
+      "Kinder unter 12 Jahren (arzneiliche Anwendung); Anwendung über 8 Wochen (Leukopenierisiko)"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit mangels ausreichender Daten nicht empfohlen (EMA/HMPC). Einzelne Beobachtungen zur oralen E.-purpurea-Anwendung in der Frühschwangerschaft ergaben keine eindeutigen Fehlbildungssignale, reichen aber für eine Freigabe nicht aus — unsicher — zu prüfen.",
+    "adverse_effects": "Meist gut verträglich. Überempfindlichkeits-/allergische Reaktionen (Hautausschlag, Juckreiz, selten Quincke-Ödem, Bronchospasmus, Anaphylaxie — v. a. bei Atopikern/Korbblütlerallergie); gelegentlich gastrointestinale Beschwerden. Bei Langzeitanwendung (>8 Wochen) mögliche Leukopenie. Sehr selten wurden Überempfindlichkeitsreaktionen bis hin zu schweren Hautreaktionen berichtet.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Immunstimulation kann der gewünschten Immunsuppression entgegenwirken",
+        "affected": "Immunsuppressiva (z. B. Ciclosporin, Tacrolimus, Kortikosteroide, nach Transplantation)",
+        "clinical_relevance": "relevant — gleichzeitige Anwendung meiden; theoretisch, aber plausibel und sicherheitsseitig ernst zu nehmen"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "in-vitro-Effekte auf CYP-Enzyme (v. a. CYP3A4/CYP1A2) beschrieben, klinische Bedeutung unklar",
+        "affected": "über CYP3A4 metabolisierte Arzneistoffe (theoretisch)",
+        "clinical_relevance": "gering — klinisch nicht belegt, unsicher — zu prüfen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "asteraceae_allergy": true,
+      "interaction_heavy": false,
+      "pregnancy_contraindicated": false,
+      "raw_toxicity": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein harmloser 'Immunbooster': bei Korbblütlerallergie/Atopie drohen allergische Reaktionen bis Anaphylaxie, und bei Autoimmunerkrankungen, progredienten Systemerkrankungen (TB, Sarkoidose, MS), HIV/AIDS oder unter Immunsuppression ist die Immunstimulation kontraindiziert. Nur Erwachsene/Jugendliche über 12 Jahren, höchstens 1 Woche pro Anwendung; belegt ist ausschließlich der Presssaft von Echinacea purpurea, nicht Tee/Tinktur oder andere Arten."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühendes Kraut auf dem Höhepunkt der Blüte (Juli–September); die belegte Presssaft-Droge wird industriell aus frischer Ernte gewonnen. Wurzeln im Spätherbst des 3.–4. Standjahres.",
+    "harvest_month_tags": [7, 8, 9],
+    "harvest_organ": "Kraut (blühende oberirdische Teile); daneben Wurzel",
+    "method": "Oberirdische Teile in Vollblüte schneiden; für den standardisierten Presssaft rasche Verarbeitung der frischen Ware.",
+    "processing": "Frischpressung (belegte Form) oder schonende Trocknung des Krauts; enzymatischen Abbau der Cichoriensäure durch zügige Verarbeitung minimieren.",
+    "storage": "Presssäfte/Tinkturen stabilisiert nach Herstellerangabe; getrocknetes Kraut kühl, trocken, dunkel, lichtgeschützt."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine relevante Küchenverwendung — reine Arznei- und Zierpflanze. Blüten sind essbar/dekorativ, ohne kulinarischen Wert."
+  },
+  "garden": {
+    "site_soil": "Sonnig, nährstoffreicher, durchlässiger, nicht zu trockener Gartenboden; verträgt Sommertrockenheit.",
+    "hardiness": "Winterhart (mehrjährige Prärie-Staude), anspruchslos und robust.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung im Frühjahr; blüht meist ab dem 2. Jahr.",
+    "bodensee_suitability": "Als Zier- und Bienenweide-Staude am Bodensee gut geeignet und weit verbreitet; für den arzneilich belegten Presssaft ist Eigenanbau jedoch ungeeignet (industrielle Frischverarbeitung nötig)."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Purpur-Sonnenhut mit purpurnen Zungenblüten und stachelig gewölbtem, braunem Blütenboden", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Igelartig-stacheliger Blütenkopf ('echinos' = Igel) und breite, gestielte, raue Blätter — Abgrenzung zu E. angustifolia", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Echinacea purpurea (L.) Moench, herba recens (well-established use und traditional use)",
+    "EMA/HMPC — Final assessment report on Echinacea purpurea (L.) Moench, herba recens",
+    "EMA/HMPC — European Union herbal monograph on Echinacea purpurea (L.) Moench, radix (zur Abgrenzung)",
+    "Kommission E Monographie Echinaceae purpureae herba (innerlich, Erkältung) und äußerlich (schlecht heilende Wunden)",
+    "Cochrane Review: Karsch-Völk M et al., 'Echinacea for preventing and treating the common cold', Cochrane Database Syst Rev 2014, CD000530",
+    "Bauer R. et al. zur Verfälschung von Echinacea-Wurzeldrogen mit Parthenium integrifolium; BAPP-Bulletin 2025 zur Echinacea-Adulteration",
+    "Fallbericht Echinacea-assoziierte Anaphylaxie (Mullins, Med J Aust 1998, PMID 9507713)"
+  ]
+}

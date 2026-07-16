@@ -127,6 +127,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung. HMPC führt nur TRADITIONAL USE (TU) für Miktionsbeschwerden bei BPH Stadium I–II und Reizblase (ESCOP/Kommission E positiv), kein WEU — symptomatisch, verkleinert die Prostata nicht. Kernwarnung: Prostatakarzinom ärztlich ausschließen; Samen niemals aus BITTER schmeckenden Kürbissen (Cucurbitacin-Vergiftung)."
+    },
+    {
+      "ts": "2026-07-16T14:30:00Z",
+      "id": "echinacea-purpurea",
+      "common": "Purpur-Sonnenhut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). ÜBERRASCHUNG gegenüber dem 'Erwartung dämpfen'-reason: HMPC führt tatsächlich WELL-ESTABLISHED USE — aber NUR für den PRESSSAFT aus dem frischen blühenden Kraut von Echinacea purpurea, zur kurzzeitigen Vorbeugung/Behandlung von Erkältungen (6–9 ml/Tag, max. 1 Woche, ab 12 Jahren). NICHT übertragbar auf Tee, Tinktur, Wurzel oder die Arten E. angustifolia/E. pallida (eigene Monographien) — diese nur TU. Erwartungsdämpfung bleibt richtig: Cochrane 2014 (Karsch-Völk) fand in Einzelstudien keinen sicheren Placebo-Vorteil. Sicherheitskern ist NICHT Toxizität, sondern Allergie/Immunlage: Korbblütlerallergie/Atopie (Anaphylaxie-Fälle) und feste Gegenanzeige bei Autoimmun-/progredienten Systemerkrankungen (TB, Sarkoidose, MS), HIV/AIDS und Immunsuppression; >8 Wochen Leukopenierisiko. Kein tödlicher Doppelgänger (deadly_confusion=false); reale Risiken sind Art-/Pflanzenteil-Verwechslung (Rudbeckia) und Wurzel-Verfälschung mit Parthenium integrifolium."
+    },
+    {
+      "ts": "2026-07-16T14:30:30Z",
+      "id": "allium-sativum",
+      "common": "Knoblauch",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC führt Allii sativi bulbus nur als TRADITIONAL USE (Vorbeugung der Arteriosklerose; Linderung von Erkältungssymptomen), Kommission E + ESCOP positiv für erhöhte Blutfette/Gefäßvorsorge → TU/ESCOP+ bzw. TU, KEIN WEU; Effekt mild, kein Statin-Ersatz. Zwei sicherheitskritische Interaktionen (interaction_heavy=true): (1) hoch dosiert erhöhte Blutungsneigung mit Gerinnungshemmern/ASS, ~7 Tage vor OP pausieren; (2) senkt über CYP3A4/P-gp die Spiegel von HIV-Protease-Hemmern (Saquinavir — BfArM-Stufenplan II). deadly_confusion=true bewusst für den VERWANDTSCHAFTS-Kontext gesetzt: die kultivierte Zwiebel selbst ist unverwechselbar, aber die Wildsammlung der verwandten Lauche (Bärlauch) verwechselt tödlich mit Maiglöckchen/Herbstzeitloser. Taxonomie: heute Amaryllidaceae (früher Liliaceae/Alliaceae)."
     }
   ]
 }

@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "id": "allium-sativum",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Allium sativum L.",
+    "common_names_de": ["Knoblauch", "Knofel", "Knofi", "Weißlauch"],
+    "family": "Amaryllisgewächse (Amaryllidaceae), Unterfamilie Lauchgewächse (Allioideae)",
+    "drug_part": ["frische oder getrocknete Zwiebel ('Zehen') — Bulbus"],
+    "drug_name_latin": "Allii sativi bulbus (Zubereitungen: Pulver Allii sativi bulbi pulvis; ätherisches Öl)",
+    "synonyms": ["Allium controversum Schrad. ex Willd.", "Allium longicuspis Regel", "Allium pekinense Prokh.", "Porrum sativum (L.) Rchb."],
+    "synonym_note": "Das Binomen Allium sativum L. ist stabil; verändert hat sich die Familienzuordnung: früher Liliaceae, dann Alliaceae, heute nach APG die Amaryllidaceae (Unterfamilie Allioideae). Allium longicuspis Regel gilt als wilde Stammform/Synonym. Nicht mit dem verwandten Bärlauch (Allium ursinum) verwechseln — dessen Wildsammlung birgt tödliche Verwechslungsgefahr (siehe confusions)."
+  },
+  "identification": {
+    "key_features": [
+      "Zwiebel aus mehreren, von gemeinsamer Haut umschlossenen Tochterzwiebeln ('Zehen'); charakteristischer, stechend-schwefliger Knoblauchgeruch beim Anschneiden — sicherstes Merkmal (entsteht erst durch Verletzung: Alliin + Alliinase → Allicin)",
+      "Flache, lineal-lanzettliche, ungestielte Laubblätter (anders als die gestielten Einzelblätter des Bärlauchs); Scheinstängel bis 30–90 cm",
+      "Blütenstand als 'Bulbille'-tragende Scheindolde mit kleinen Brutzwiebelchen und meist sterilen, weißlich-rosa Blüten unter einem lang geschnäbelten Hochblatt",
+      "Kulturpflanze — bei uns nur im Garten/Feldanbau, keine echten Wildvorkommen; Zwiebelernte, wenn das Laub vergilbt (Hochsommer)"
+    ],
+    "season": "Blüte (soweit gebildet) Juni–August; arzneilich zählt die Zwiebel, Ernte Juni–August je nach Steckzeit",
+    "habitat": "Uralte Kulturpflanze zentralasiatischen Ursprungs; weltweit im Gemüse-/Kräuteranbau, in Mitteleuropa nur kultiviert",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Arzneidroge ist die KULTIVIERTE Zwiebel — als Handels-/Gartenware praktisch unverwechselbar (Geruch!). Ein echtes Feld-Verwechslungsrisiko besteht für die Zwiebel nicht.",
+      "Die tödliche Verwechslungsgefahr betrifft den VERWANDTEN Bärlauch (Allium ursinum): dessen Blätter werden im Frühjahr wild gesammelt und mit Maiglöckchen, Herbstzeitlose und Aronstab verwechselt. Wer Wild-Lauch sammelt, muss diese Doppelgänger sicher ausschließen (siehe confusions).",
+      "Geruchsprobe hilft nur begrenzt: Sobald die Hände nach Lauch riechen, überträgt sich der Geruch auf jedes weitere Blatt — nie allein auf den Geruch verlassen.",
+      "Zwiebeln bei vergilbendem Laub roden, trocknen ('curen') und trocken/luftig lagern."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Maiglöckchen (Verwechslung des verwandten Bärlauchs)",
+      "scientific_name": "Convallaria majalis",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzwirksame Glykoside (Convallatoxin u. a.)",
+      "note": "Klassischer tödlicher Doppelgänger beim Wildsammeln von Bärlauch (Allium ursinum). Blätter GERUCHLOS (kein Lauchgeruch), meist zu zweit aus gemeinsamer Scheide, glänzende Unterseite. Herzglykoside können zu Herzrhythmusstörungen bis Herzstillstand führen. Nur der frische Lauchgeruch des Bärlauchs bestätigt diesen — nie ungeprüft sammeln."
+    },
+    {
+      "name": "Herbstzeitlose (Verwechslung des verwandten Bärlauchs)",
+      "scientific_name": "Colchicum autumnale",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Colchicin (kein Antidot; Multiorganversagen)",
+      "note": "Ebenfalls ein tödlicher Bärlauch-Doppelgänger. Blätter geruchlos, derber, ohne Blattstiel, mit parallelen Nerven direkt aus dem Boden. Colchicin-Vergiftungen verlaufen oft verzögert und schwer behandelbar. Im Zweifel keinen Wild-Lauch verzehren."
+    },
+    {
+      "name": "Aronstab (Verwechslung des verwandten Bärlauchs)",
+      "scientific_name": "Arum maculatum",
+      "toxicity_level": "giftig",
+      "toxin": "Calciumoxalat-Nadeln, Aroin/Scharfstoffe",
+      "note": "Junge Aronstabblätter werden mit Bärlauch verwechselt; sie riechen nicht nach Lauch, haben pfeilförmige Blätter mit netzartiger (nicht paralleler) Nervatur. Führt zu schmerzhaften Schleimhautschwellungen. Für den kultivierten Knoblauch selbst irrelevant, im Wild-Lauch-Kontext aber wichtig."
+    },
+    {
+      "name": "keine Feld-Verwechslung der kultivierten Zwiebel",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die Arzneidroge (Knoblauchzwiebel) selbst hat KEINEN giftigen Doppelgänger — als Kultur-/Handelsware am Geruch eindeutig. Die oben gelisteten lebensgefährlichen Doppelgänger betreffen ausschließlich das Wildsammeln der verwandten Lauche (v. a. Bärlauch); deadly_confusion=true ist bewusst für diesen verwandtschaftlichen Kontext gesetzt (siehe Lauf-Log)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schwefelverbindungen: geruchloses Alliin (S-Allyl-L-cystein-sulfoxid) als Vorstufe; bei Zellverletzung durch das Enzym Alliinase rasch zu Allicin (Diallylthiosulfinat) umgesetzt",
+      "Folgeprodukte des Allicins: Ajoene, Vinyldithiine, Diallyldi-/-trisulfid (geruchsbildend, teils gefäß-/thrombozytenwirksam)",
+      "γ-Glutamyl-Cysteine, S-Allyl-Cystein (v. a. in gealtertem Knoblauchextrakt)",
+      "Fructane, Saponine, Flavonoide, Spurenelemente (u. a. Selen)"
+    ],
+    "lead_substance": "Allicin bzw. das 'Alliin-Alliinase-System' — Allicin und seine Abbauprodukte gelten als Träger der lipid-/gefäßwirksamen Effekte",
+    "solubility_note": "Allicin entsteht erst durch ZERKLEINERN der rohen Zehe und ist instabil/hitze- und lagerempfindlich. Erhitzen (Kochen) inaktiviert die Alliinase und mindert die Allicin-Bildung — deshalb sind rohe Zubereitungen bzw. magensaftresistent überzogene Pulver-/Trockenpräparate (die die Alliinase erst im Darm freisetzen) die arzneilich sinnvollen Formen. Öl-Mazerate enthalten eher Ajoene/Sulfide.",
+    "heat_light_sensitivity": "Allicin zerfällt bei Wärme, Licht und längerer Lagerung; standardisierte Präparate werden auf das 'Allicin-Freisetzungspotenzial' eingestellt."
+  },
+  "pharmacology": {
+    "mechanism": "Allicin und Folgeprodukte hemmen dosisabhängig die Cholesterinsynthese (u. a. HMG-CoA-nahe Schritte), wirken schwach thrombozytenaggregationshemmend und leicht fibrinolytisch/gefäßrelaxierend (NO-vermittelt), zudem antioxidativ und in vitro antimikrobiell/antimykotisch.",
+    "evidence_caveat": "Die klinische Relevanz der lipid- und blutdrucksenkenden Effekte ist bescheiden und in Metaanalysen uneinheitlich; die Effektstärke ist gering und ersetzt keine leitliniengerechte Therapie. HMPC vergibt daher NUR traditional use (nicht well-established use). Primärquelle EMA/HMPC nicht direkt einsehbar (403) — Evidenzeinstufung ärztlich gegenprüfen.",
+    "pharmacokinetics": "Allicin wird kaum unverändert systemisch verfügbar (rascher Zerfall/Metabolismus zu Sulfiden, u. a. Allylmethylsulfid → 'Knoblauchfahne' über die Lunge). Beeinflusst CYP-Enzyme/P-Glykoprotein — Grundlage der HIV-Protease-Hemmer-Interaktion (siehe Sicherheit)."
+  },
+  "indications": [
+    {
+      "canonical": "Traditionelle Anwendung zur Vorbeugung arteriosklerotischer (altersbedingter) Gefäßveränderungen und unterstützend bei leicht erhöhten Blutfettwerten",
+      "synonyms": ["Arterienverkalkung vorbeugen", "Gefäßverkalkung", "hohe Blutfette", "hohes Cholesterin", "Arteriosklerose", "Durchblutung", "Herz-Kreislauf-Vorsorge"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Vorbeugung der Arteriosklerose. Kommission E: unterstützend zu diätetischen Maßnahmen bei erhöhten Blutfettwerten und zur Vorbeugung altersbedingter Gefäßveränderungen. ESCOP nennt Prophylaxe der Atherosklerose und diätetisch unzureichend beeinflussbare Hyperlipidämie. Erwachsene/ältere Menschen.",
+      "realistic_expectation": "Kann diätetische und Lebensstil-Maßnahmen allenfalls mild unterstützen. KEIN Ersatz für Statine oder eine ärztlich indizierte Lipid-/Blutdrucktherapie; die Cholesterinsenkung ist gering und ihr Nutzen für harte Endpunkte nicht belegt. Bei diagnostizierter Fettstoffwechselstörung oder KHK ärztliche Behandlung nötig.",
+      "source": "EMA/HMPC herbal monograph Allium sativum L., bulbus (traditional use); Kommission E (positiv); ESCOP Allii sativi bulbus"
+    },
+    {
+      "canonical": "Traditionelle Anwendung zur Linderung von Erkältungssymptomen",
+      "synonyms": ["Erkältung", "grippaler Infekt", "Katarrh der oberen Atemwege", "Husten/Schnupfen (unterstützend)"],
+      "evidence_tag": "TU",
+      "comment": "EMA/HMPC: traditional use zur Linderung von Erkältungssymptomen. Reine Erfahrungsheilkunde ohne belastbare klinische Wirksamkeitsbelege.",
+      "realistic_expectation": "Traditionell verwendet, Wirknachweis fehlt weitgehend. Kein Antibiotikum und kein Ersatz bei fieberhaften/bakteriellen Infekten.",
+      "source": "EMA/HMPC herbal monograph Allium sativum L., bulbus (traditional use)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Ein sehr sicheres Küchen- und Traditionsmittel, das begleitend zu Ernährung und Lebensstil einen milden, günstigen Einfluss auf Blutfette/Gefäße haben kann.",
+    "overstated": "Der Ruf als 'natürliches Antibiotikum', Blutdruck-/Cholesterin-'Killer' oder Krebsschutz ist nicht belegt. Die Effekte sind klein, klinisch uneinheitlich und ersetzen keine ärztliche Therapie. Auch die vielfach beworbene starke 'Blutverdünnung' ist in üblichen Mengen gering — relevant wird sie erst bei hohen Dosen zusammen mit Gerinnungshemmern.",
+    "effect_size": "mild, symptomatisch/präventiv unterstützend"
+  },
+  "preparation": {
+    "recommended_forms": ["frische rohe Zehe (zerdrückt, roh verzehrt)", "getrocknetes Knoblauchpulver in magensaftresistenten Dragees/Kapseln (Alliinase-Schutz)", "gealterter Knoblauchextrakt", "ätherisches Öl/Öl-Mazerat (andere Wirkstoffverteilung)"],
+    "form_rationale": "Weil Allicin erst beim Zerkleinern entsteht und hitzeempfindlich ist, sind rohe oder magensaftresistent überzogene Trockenpräparate sinnvoll; gekochter Knoblauch verliert einen Großteil des Allicin-Potenzials. Standardisiert wird auf die Allicin-Freisetzung.",
+    "standard_dose": "Kommission E/HMPC-Richtwert: etwa 4 g frische Knoblauchzwiebel pro Tag (entspricht ca. 1 Zehe) bzw. ~8 mg ätherisches Öl; Pulverpräparate häufig 600–1380 mg/Tag, auf ein definiertes Allicin-Potenzial eingestellt. Anwendung längerfristig möglich, Dosierung nach Präparat.",
+    "preservation": "Ganze Zwiebeln kühl, trocken, luftig (nicht im Kühlschrank/feucht) lagern; Präparate nach Herstellerangabe, da Allicin-Potenzial mit der Zeit sinkt."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "bekannte Knoblauch-/Lauch-Allergie",
+      "Vorsicht/absetzen ~7 Tage vor Operationen und bei bestehender Blutungsneigung oder unter Gerinnungshemmung (verstärkte Blutungsneigung möglich)",
+      "gleichzeitige HIV-Therapie mit Protease-Hemmern (z. B. Saquinavir) nur nach ärztlicher Rücksprache (Wirkverlust möglich, siehe Interaktionen)"
+    ],
+    "pregnancy_lactation": "Küchenübliche Gewürzmengen gelten als unbedenklich. Für konzentrierte arzneiliche Dosen fehlen ausreichende Daten → nicht empfohlen (EMA/HMPC). Knoblauch-Aromastoffe gehen in die Muttermilch über und können deren Geschmack verändern (mögliche Trinkunlust); ansonsten in Nahrungsmengen vertretbar.",
+    "adverse_effects": "Häufig Geruch von Atem und Haut ('Knoblauchfahne'); gastrointestinale Beschwerden (Aufstoßen, Sodbrennen, Blähungen, bei rohem Verzehr Schleimhautreizung). Selten allergische Haut-/Atemwegsreaktionen, Kontaktdermatitis (rohe Zehen). Bei hohen Dosen erhöhte Blutungsneigung.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Induktion/Beeinflussung von CYP3A4 und P-Glykoprotein senkt die Plasmaspiegel bestimmter Substrate",
+        "affected": "HIV-Protease-Hemmer, v. a. Saquinavir (dokumentierter Wirkspiegelabfall; BfArM-Stufenplan Stufe II); potenziell weitere CYP3A4-/P-gp-Substrate",
+        "clinical_relevance": "relevant — hoch dosierte Knoblauchpräparate bei antiretroviraler Therapie meiden; nach Absetzen Therapiekontrolle bis ~14 Tage"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive Thrombozytenaggregationshemmung/Fibrinolyse",
+        "affected": "orale Antikoagulanzien (Cumarine/DOAK), Thrombozytenaggregationshemmer (ASS, Clopidogrel), NSAR",
+        "clinical_relevance": "relevant bei hohen Dosen — erhöhte Blutungsneigung; ~7 Tage vor Operationen pausieren"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "pregnancy_contraindicated": false,
+      "raw_toxicity": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Zwiebel selbst ist sehr sicher, aber zwei Punkte sind ernst: (1) hoch dosierte Knoblauchpräparate erhöhen die Blutungsneigung (mit Gerinnungshemmern, ~7 Tage vor OP pausieren) und schwächen HIV-Protease-Hemmer wie Saquinavir; (2) beim Wildsammeln der verwandten Lauche (Bärlauch) drohen tödliche Verwechslungen mit Maiglöckchen und Herbstzeitloser — nie ohne sicheren Lauchgeruch verzehren. Arzneiliche Wirkung ist mild und ersetzt keine Statin-/Blutdrucktherapie."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Zwiebeln roden, wenn das Laub im Hochsommer (je nach Herbst-/Frühjahrssteckung Juni–August) zu zwei Dritteln vergilbt ist.",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Zwiebel (Bulbus)",
+    "method": "Zwiebeln vorsichtig mit Grabgabel heben, nicht beschädigen; anhaftende Erde abschütteln.",
+    "processing": "An luftigem, schattigem Ort 2–4 Wochen nachtrocknen ('curen'), bis die Außenhaut papierartig ist; Laub/Wurzeln erst danach kürzen.",
+    "storage": "Trocken, luftig, kühl (nicht im Kühlschrank), im Zopf oder Netz; das Allicin-Potenzial nimmt mit der Lagerdauer ab."
+  },
+  "kitchen": {
+    "uses": ["universelles Küchengewürz (roh, gebraten, geschmort)", "Pesto, Aioli, Dips", "Einlegen/Fermentieren (schwarzer Knoblauch)", "Würze für Fleisch-, Gemüse- und Fischgerichte"],
+    "culinary_vs_medicinal": "Als Gewürz in Speisemengen unbedenklich und der Alltagsfall. Arzneilich zählt eine definierte Tagesmenge (~4 g/Tag bzw. standardisierte Präparate); erst hohe, konzentrierte Dosen erreichen die sicherheitsrelevanten Interaktionen."
+  },
+  "garden": {
+    "site_soil": "Sonnig, tiefgründiger, humoser, durchlässiger Boden ohne Staunässe; keine frische organische Düngung.",
+    "hardiness": "Winterhart; Herbststeckung (überwintert) oder Frühjahrssteckung der einzelnen Zehen.",
+    "propagation": "Vegetativ über Steckzehen (nicht über Samen); keine engen Fruchtfolgen mit anderen Lauchgewächsen (Weißfäule).",
+    "bodensee_suitability": "Am Bodensee als Gartenkultur gut möglich; Herbststeckung liefert kräftigere Zwiebeln. Keine Wildvorkommen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Knoblauchpflanze mit lineal-lanzettlichem Laub und lang geschnäbeltem Hochblatt der Brutzwiebel-Scheindolde", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Aufgebrochene Zwiebel mit einzelnen, von gemeinsamer Haut umschlossenen Zehen; stechender Lauchgeruch als Bestimmungsmerkmal", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Allium sativum L., bulbus (traditional use)",
+    "EMA/HMPC — Assessment report on Allium sativum L., bulbus",
+    "Kommission E Monographie Allii sativi bulbus (positiv: erhöhte Blutfettwerte, Vorbeugung altersbedingter Gefäßveränderungen)",
+    "ESCOP Monograph Allii sativi bulbus (Garlic)",
+    "BfArM — Stufenplan Stufe II: Allium sativum (Knoblauchzubereitungen) und Anti-HIV-Therapie (Interaktion mit Protease-Hemmern/Saquinavir)",
+    "Übersichtsarbeit: Traditional uses, phytochemistry, pharmacology and toxicology of garlic (Allium sativum), PMC9650110",
+    "Arzneipflanzen-Lexikon / PharmaWiki / AWL.ch — Knoblauch (Dosierung, Interaktionen, Blutungsrisiko)"
+  ]
+}
