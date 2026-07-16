@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "id": "cynara-cardunculus",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Cynara cardunculus L.",
+    "synonyms": ["Cynara scolymus L.", "Cynara cardunculus var. scolymus (L.) Benth.", "Cynara cardunculus subsp. scolymus (L.) Hegi"],
+    "common_names_de": ["Artischocke", "Gemüse-Artischocke", "Echte Artischocke"],
+    "family": "Korbblütler (Asteraceae / Compositae)",
+    "drug_part": ["Laubblatt (Folium) — arzneilich; nicht der essbare Blütenboden"],
+    "drug_name_latin": "Cynarae folium (Artischockenblätter)",
+    "synonym_note": "Die Kultur-Artischocke wird heute als Varietät der Wildart Cynara cardunculus geführt (Cynara cardunculus var. scolymus). Der ältere Name Cynara scolymus L. ist ein Synonym. Die id 'cynara-cardunculus' folgt dem aktuell akzeptierten Artnamen; die EMA/HMPC-Monographie ist auf 'Cynara cardunculus L. (syn. Cynara scolymus L.), folium' ausgestellt."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: sehr große (bis 80 cm lange), tief fiederschnittige, graugrün-filzige Grundblätter mit kräftiger weißfilziger Unterseite — arzneilich zählen genau diese Laubblätter, nicht die Blütenknospe",
+      "Große, kugelig-eiförmige Blütenköpfe (10–15 cm) mit dicken, fleischigen Hüllblättern; als Gemüse wird der unreife Blütenboden samt Hüllblattbasis gegessen",
+      "Röhrenblüten leuchtend blauviolett, distelartig, erscheinen bei voll aufgeblühtem Kopf",
+      "Kräftige, aufrechte, mehrjährige Staude, 1,5–2 m hoch, distelartiger Habitus, aber Blätter meist nur schwach oder gar nicht bedornt (im Gegensatz zur Kardone)",
+      "Blütezeit Juli bis September; wärmeliebende Kulturpflanze mediterranen Ursprungs",
+      "Standort bei uns: Gemüse- und Ziergärten, Felder in wärmebegünstigten Lagen — nicht wild"
+    ],
+    "season": "Blüte Juli bis September; arzneiliche Blatternte vor bzw. zu Blühbeginn",
+    "habitat": "Wärmeliebend, mediterraner Ursprung. In Mitteleuropa nur als Kultur-/Gartenpflanze; verwildert bei uns praktisch nicht dauerhaft.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Arzneilich gilt das LAUBBLATT (Folium), geerntet vor oder zu Beginn der Blüte, wenn der Gehalt an Bitterstoffen (Cynaropikrin) und Caffeoylchinasäuren am höchsten ist — NICHT der essbare Blütenboden.",
+      "Graugrün-filzige, tief fiederschnittige Blätter mit weißfilziger Unterseite bestätigen die Art; Verwechslung im Garten praktisch nur mit der nah verwandten Kardone (essbar).",
+      "Da reine Kulturpflanze, ist Feldverwechslung mit Wildarten kaum ein Thema; für standardisierte Wirkung Fertigextrakt der Apotheke bevorzugen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kardone (Cardy)",
+      "scientific_name": "Cynara cardunculus var. altilis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Andere Varietät derselben Art; kräftiger bedornt, gegessen werden die Blattstiele/Rippen statt des Blütenbodens. Ungiftig. Chemisch ähnlich (auch Cynarin-haltig), arzneilich aber nicht als Cynarae folium standardisiert."
+    },
+    {
+      "name": "Mariendistel",
+      "scientific_name": "Silybum marianum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls große, purpurn/violett blühende Korbblütler-Distel. Unterscheidung: Mariendistel zeigt eine auffällige milchig-weiße Marmorierung auf den Blättern, die der Artischocke fehlt (deren Blätter sind einheitlich graugrün-filzig). Ungiftig, aber völlig andere Droge (Silymarin aus der Frucht)."
+    },
+    {
+      "name": "Sonstige Zier- und Wilddisteln (Eselsdistel, Kratz-/Ringdisteln)",
+      "scientific_name": "Onopordum acanthium / Cirsium spp. / Carduus spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Distelartiger Habitus kann Laien an die Artischocke erinnern. Alle ungiftig; keine liefert die arzneiliche Blattdroge. Kein Sicherheitsrisiko, nur pharmakologisch irrelevant."
+    },
+    {
+      "name": "Keine giftige oder lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Als reine Kulturpflanze mit unverwechselbar großen, weißfilzigen Blättern und blauvioletten Köpfen hat die Artischocke keinen giftigen Doppelgänger. Alle in Betracht kommenden Ähnlichkeiten sind andere ungiftige Korbblütler-Disteln. Die Pflanze selbst ist ungiftig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Caffeoylchinasäuren (Kaffeesäure-Derivate), darunter Chlorogensäure und Cynarin (1,5-Di-O-caffeoylchinasäure) — Leit-Wirkstoffgruppe der Blätter",
+      "Bitterstoffe/Sesquiterpenlactone, v. a. Cynaropikrin (prägt den bitteren Geschmack, choleretisch/appetitanregend)",
+      "Flavonoide (Luteolin-Glykoside wie Cynarosid, Scolymosid)",
+      "Weitere: Phytosterole, Inulin (v. a. Wurzel/Boden), organische Säuren"
+    ],
+    "lead_substance": "Caffeoylchinasäuren (Leitsubstanz Cynarin/Chlorogensäure) plus Bitterstoff Cynaropikrin — zusammen für die choleretische und verdauungsfördernde Wirkung verantwortlich; Extrakte werden meist auf Caffeoylchinasäuren (als Chlorogensäure) standardisiert.",
+    "solubility_note": "Die wirksamen Caffeoylchinasäuren und Flavonoide sind gut wasserlöslich — ein Tee/Aufguss aus den Blättern ist grundsätzlich möglich, schmeckt aber sehr bitter. Für reproduzierbare Wirkung und definierte Dosis werden standardisierte Trockenextrakte (Kapseln/Dragees, Frischpflanzenpresssaft) bevorzugt.",
+    "heat_light_sensitivity": "Caffeoylchinasäuren sind licht- und oxidationsempfindlich und können bei langer Lagerung/Erhitzung teilweise abgebaut werden; Cynarin kann sich zudem umlagern. Getrocknete Blätter licht- und luftgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Belegt sind eine choleretische Wirkung (gesteigerte Gallensekretion) sowie verdauungsfördernde/karminative Effekte über die Bitterstoffe; experimentell zudem antioxidative und in Zell-/Tiermodellen lipidsenkende sowie hepatoprotektive Effekte (u. a. Hemmung der Cholesterinbiosynthese durch Luteolin/Cynarin, gesteigerte biliäre Cholesterinausscheidung).",
+    "evidence_caveat": "Ehrlich: Die HMPC stuft Artischockenblatt ausschließlich als 'traditional use' ein — trotz vorhandener klinischer Studien reicht die Evidenz NICHT für einen well-established use. Der populäre Ruf als Cholesterin- und 'Leber-Galle'-Mittel übersteigt die belastbare Datenlage deutlich. Die Cochrane-Übersicht (Wider et al., zuletzt 2013/2016) fand für die Cholesterinsenkung nur wenige, methodisch schwache Studien mit bestenfalls modestem Effekt.",
+    "pharmacokinetics": "Caffeoylchinasäuren werden im Darm teils hydrolysiert/metabolisiert (u. a. zu Kaffeesäure), unterliegen erheblichem First-pass- und Mikrobiom-Metabolismus; systemische Bioverfügbarkeit der intakten Verbindungen gering. Pharmakokinetische Detaildaten sind begrenzt — teils unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Funktionelle dyspeptische Beschwerden (Völlegefühl, Blähungen, Übelkeit; leber-gallebezogene Verdauungsstörungen)",
+      "synonyms": ["Verdauungsbeschwerden", "Völlegefühl", "Blähungen", "Druck im Oberbauch", "Reizmagen", "Fettunverträglichkeit", "Verdauungsschwäche", "Galle-Beschwerden"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Linderung von Verdauungsbeschwerden (Dyspepsie) sowie von Völlegefühl und Blähungen. Kommission E: positiv bei dyspeptischen Beschwerden (insbesondere funktionelle Störungen des ableitenden Gallensystems). ESCOP-Monographie vorhanden. KEIN well-established use.",
+      "realistic_expectation": "Kann leichte, funktionelle Verdauungsbeschwerden — besonders mit Völlegefühl/Fettunverträglichkeit — symptomatisch lindern (choleretisch, bitterstoffbedingt). Keine belegte kausale Heilwirkung; anhaltende oder starke Oberbauchbeschwerden gehören ärztlich abgeklärt.",
+      "source": "EMA/HMPC EU herbal monograph Cynara cardunculus L. (syn. C. scolymus L.), folium (traditional use); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Leichte Hypercholesterinämie (unterstützend)",
+      "synonyms": ["hoher Cholesterinwert", "erhöhte Blutfette", "Cholesterin senken", "Fettstoffwechsel"],
+      "evidence_tag": "RCT",
+      "comment": "NICHT als HMPC-Indikation anerkannt. Es gibt randomisiert-kontrollierte Studien und eine Cochrane-Übersicht (Wider et al.) zur Cholesterinsenkung durch standardisierten Artischockenblatt-Extrakt; die Studienlage ist jedoch dünn, heterogen und methodisch schwach, der Effekt bestenfalls moderat.",
+      "realistic_expectation": "Bestenfalls eine milde, statistisch messbare Senkung von Gesamt-/LDL-Cholesterin — KEIN Ersatz für Statine, Ernährungsumstellung oder die Behandlung eines kardiovaskulären Risikos. Wer eine relevante Lipidsenkung erwartet, überschätzt die Pflanze.",
+      "source": "Cochrane Review (Wider B et al., 2013/2016) 'Artichoke leaf extract for treating hypercholesterolaemia'; einzelne RCT (z. B. Bundy 2008)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliches Bittermittel/Choleretikum, das leichte funktionelle Verdauungsbeschwerden (Völlegefühl, Blähungen, Fettunverträglichkeit) symptomatisch lindern kann. Antioxidative und lipidsenkende Effekte sind präklinisch gut belegt.",
+    "overstated": "Der Ruf als kausales 'Leber-/Galle-Heilmittel' und als wirksamer Cholesterinsenker übersteigt die Evidenz klar: HMPC vergibt nur traditional use, KEINEN well-established use. Die Cholesterin-Studienlage ist schwach und der Effekt allenfalls moderat — kein Statin-Ersatz. Bei Gallensteinen/Gallenwegsverschluss ist die choleretische Wirkung sogar potenziell riskant.",
+    "effect_size": "mild bis moderat; symptomatisch, nicht kurativ"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisierter Trockenextrakt (Kapseln/Dragees), auf Caffeoylchinasäuren/Chlorogensäure standardisiert", "Frischpflanzenpresssaft", "Tee (Aufguss der Blätter) — sehr bitter, weniger reproduzierbar"],
+    "form_rationale": "Die wirksamen Caffeoylchinasäuren sind wasserlöslich, daher ist ein Tee prinzipiell wirksam, aber schwer dosierbar und ausgesprochen bitter. Für definierte Dosis und reproduzierbare Wirkung sind standardisierte Trockenextrakte am sinnvollsten.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis 6 g Droge bzw. entsprechende Zubereitungen; standardisierte Extrakte üblicherweise ca. 300–640 mg mehrmals täglich (nach Präparat/Fachinformation). Vor den Mahlzeiten einnehmen (Bitterstoffwirkung).",
+    "preservation": "Fertigpräparate nach Herstellerangabe. Getrocknete Blätter trocken, kühl, licht- und luftgeschützt lagern (Caffeoylchinasäuren sind oxidationsempfindlich)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Verschluss der Gallenwege (Gallengangsverschluss) — absolute Kontraindikation wegen choleretischer Wirkung",
+      "Gallensteinleiden — nur nach ärztlicher Rücksprache (Gefahr der Gallenkolik)",
+      "Bekannte Überempfindlichkeit gegen Artischocke oder andere Korbblütler (Asteraceae)"
+    ],
+    "pregnancy_lactation": "Unzureichende Datenlage. Anwendung in Schwangerschaft und Stillzeit sowie bei Kindern unter 12 Jahren wird mangels Sicherheitsdaten nicht empfohlen. Defensiv: unsicher — zu prüfen.",
+    "adverse_effects": "Insgesamt gut verträglich. Gelegentlich leichte gastrointestinale Beschwerden (Blähungen, Durchfall, Magen-Darm-Krämpfe). Selten allergische Reaktionen (auch Kontaktdermatitis bei Artischockenpflückern/Gemüsehändlern beschrieben), besonders bei Korbblütler-Allergie.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Choleretische Wirkung könnte theoretisch die Gallensekretion beeinflussen; keine klinisch relevanten Arzneimittelinteraktionen belegt",
+        "affected": "keine gesicherten; bei gleichzeitiger Einnahme von Gallenwegs-/Leberwirksamen Mitteln im Einzelfall beachten",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Bei Verschluss der Gallenwege darf Artischocke nicht eingenommen werden, bei Gallensteinen nur nach ärztlicher Rücksprache — die gallentreibende Wirkung kann sonst eine Kolik auslösen; als Cholesterinsenker ist die Pflanze deutlich überschätzt (nur traditional use, kein well-established use)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Laubblätter vor bzw. zu Beginn der Blüte (Sommer), wenn Bitterstoff- und Caffeoylchinasäuregehalt am höchsten sind.",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Blatt (Folium)",
+    "method": "Große Grundblätter schneiden, zügig und schonend trocknen (Wirkstoffe oxidationsempfindlich). Der essbare Blütenboden wird separat als Gemüse geerntet.",
+    "processing": "Rasch trocknen, vor Licht und Luft schützen; für arzneiliche Anwendung meist standardisierte industrielle Extraktion.",
+    "storage": "Trocken, kühl, licht- und luftgeschützt; Caffeoylchinasäuren bauen bei langer/warmer Lagerung ab."
+  },
+  "kitchen": {
+    "uses": ["Unreife Blütenböden samt Hüllblattbasis gekocht als Gemüse", "junge Blattstiele der Kardone-Varietät als Gemüse", "Artischockenherzen eingelegt"],
+    "culinary_vs_medicinal": "Küche und Arznei nutzen verschiedene Organe: gegessen wird der Blütenboden (mild), arzneilich zählt das bittere Laubblatt (Cynarae folium). Der choleretische Bitterstoffeffekt steckt im Blatt, nicht im Gemüseteil."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, tiefgründiger, nährstoffreicher, durchlässiger Boden; wärmebedürftig.",
+    "hardiness": "Mehrjährig, aber nur bedingt winterhart — in Mitteleuropa Winterschutz nötig, oft ein-/zweijährig kultiviert.",
+    "propagation": "Aussaat im Frühjahr (Vorkultur) oder Teilung/Seitentriebe; braucht Platz und Wärme.",
+    "bodensee_suitability": "Im wärmebegünstigten Bodenseeraum als Gemüse-/Zierpflanze kultivierbar, benötigt aber sonnigen Standort und Winterschutz; wild kommt sie hier nicht vor."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Kräftige Staude mit großen graugrünen Blättern und blauvioletten, distelartigen Blütenköpfen", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Tief fiederschnittiges, weißfilziges Laubblatt — das arzneilich verwendete Organ (Cynarae folium)", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph on Cynara cardunculus L. (syn. Cynara scolymus L.), folium (traditional use; Cynarae folium)",
+    "Kommission E — Cynarae folium / Artischockenblätter (positiv: dyspeptische Beschwerden)",
+    "ESCOP — Cynarae folium",
+    "Cochrane Review: Wider B, Pittler MH, Thompson-Coon J, Ernst E. 'Artichoke leaf extract for treating hypercholesterolaemia' (2013/2016)",
+    "Sekundärquellen zu Botanik/Taxonomie und Kontraindikationen (Websuche; EMA-Primär-PDF beim direkten Abruf 403/nicht erreichbar — Evidenzgrad ärztlich gegenzuprüfen)"
+  ]
+}

@@ -212,8 +212,8 @@
       "latin": "Cynara cardunculus",
       "tier": 1,
       "reason": "Dyspepsie, Lipidsenkung; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-artischocke.json"
     },
     {
       "id": "arctostaphylos-uva-ursi",
@@ -221,8 +221,8 @@
       "latin": "Arctostaphylos uva-ursi",
       "tier": 1,
       "reason": "Harnwegsinfekt; strikte Anwendungsdauer (Hydrochinon)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-baerentraube.json"
     },
     {
       "id": "vitex-agnus-castus",

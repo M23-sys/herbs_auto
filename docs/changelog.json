@@ -95,6 +95,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 1). Zwei-Stufen-Evidenz: HMPC fuehrt WELL-ESTABLISHED USE nur fuer den standardisierten, von Ginkgolsaeuren gereinigten Spezialextrakt (EGb-761-Typ, 22-27 % Flavonglykoside, 5-7 % Terpenlactone) bei leichter Demenz/altersbedingter kognitiver Beeintraechtigung; TRADITIONAL USE (Blattpulver) fuer schwere Beine/kalte Haende; Tinnitus/Schwindel nur ESCOP+/TU. Erwartung daempfen: KEIN Gedaechtnis-Booster fuer Gesunde, verhindert KEINE Demenz (GEM-Studie DeKosky 2008 negativ); Tee/NEM tragen die Evidenz NICHT und enthalten allergene Ginkgolsaeuren. Sicherheit: Blutungsrisiko mit Gerinnungshemmern (PAF-Antagonismus) — Datenlage widerspruechlich, vorsichtshalber relevant, vor OP absetzen. Teil-Verwechslung Blattdroge vs. Samen: rohe Ginkgo-Samen enthalten das Nervengift Ginkgotoxin (Krampfanfaelle, v. a. Kinder), Fruchtfleisch loest allergische Dermatitis aus."
+    },
+    {
+      "ts": "2026-07-16T10:30:00Z",
+      "id": "cynara-cardunculus",
+      "common": "Artischocke",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Cynarae folium nur als TRADITIONAL USE (dyspeptische Beschwerden, Voellegefuehl, Blaehungen) — KEIN well-established use, obwohl RCTs/Cochrane (Wider et al.) existieren → Dyspepsie TU/ESCOP+, Cholesterinsenkung getrennt als RCT mit klarer Erwartungsdaempfung (modester Effekt, kein Statin-Ersatz). WICHTIG als Sicherheitspunkt: bei Verschluss der Gallenwege KONTRAINDIZIERT und bei Gallensteinen nur nach aerztlicher Ruecksprache (choleretische Wirkung → Kolikgefahr); Korbbluetler-Allergie beachten. Arzneilich zaehlt das bittere LAUBBLATT, nicht der essbare Bluetenboden. Taxonomie: akzeptierter Name Cynara cardunculus L., Cynara scolymus L. ist Synonym. Kein giftiger Doppelgaenger (reine Kulturpflanze)."
+    },
+    {
+      "ts": "2026-07-16T10:30:30Z",
+      "id": "arctostaphylos-uvaursi",
+      "common": "Echte Baerentraube",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC fuehrt Uvae ursi folium nur als TRADITIONAL USE (leichte, wiederkehrende untere Harnwegsinfekte bei erwachsenen Frauen, nach aerztlichem Ausschluss ernster Ursachen) → TU/ESCOP+, kein WEU; KEIN Antibiotikaersatz bei fieberhaftem/aufsteigendem Infekt. HARTE ANWENDUNGSGRENZE (toxin_ceiling): Wirkstoff Hydrochinon (aus Arbutin) ist potenziell genotoxisch → max. 1 Woche am Stueck und hoechstens ca. 5x/Jahr; feste KONTRAINDIKATION in Schwangerschaft/Stillzeit und bei unter 18-Jaehrigen. Zubereitung als Kaltmazerat (Gerbstoff-/Magenschonung). Zentrale Verwechslung: Preiselbeere (essbar) — Unterscheidung ueber die netznervige Blattunterseite der Baerentraube; kein toedlicher Doppelgaenger. Naturschutz: in Deutschland besonders geschuetzt, Wildsammlung verboten. HINWEIS id-Normalisierung: botanisches Epitheton ist 'uva-ursi', die id wurde wegen der Ein-Bindestrich-Regel des Pruefschemas auf 'arctostaphylos-uvaursi' gesetzt (siehe synonym_note)."
     }
   ]
 }

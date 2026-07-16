@@ -305,3 +305,36 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert die 
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet weiterhin die ~38 Altfehler in den frueheren handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut). Auftragsgemaess (genau 2 Monographien) NICHT angefasst. Empfehlung unveraendert: eigener Bereinigungslauf. Meine beiden neuen Dateien bestehen die Pruefung einzeln und gemeinsam fehlerfrei.
+
+---
+
+## Lauf 2026-07-16 (zweiter Lauf des Tages) — Artischocke + Baerentraube
+
+**Auswahl / Quelle:** Wunschliste (`docs/wunschliste.json`, 5 Eintraege) hatte **0 offene** — alle fuenf (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis) liegen bereits in `fertig/` (IDs + scientific_name geprueft). Daher beide Kraeuter aus der **Kandidatenliste**, erste offene Tier-1-Eintraege in Listenreihenfolge:
+- **Artischocke** — Cynara cardunculus (`cynara-cardunculus`), Tier 1, KANDIDAT
+- **Echte Baerentraube** — Arctostaphylos uva-ursi (`arctostaphylos-uvaursi`), Tier 1, KANDIDAT
+
+**Dedup:** Beide gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprueft — nicht vorhanden. Synonyme selbst eingetragen: Artischocke = Cynara scolymus L. / Cynara cardunculus var. scolymus (L.) Benth.; Baerentraube = Arbutus uva-ursi L. u.a. Keine Selbstheilung noetig.
+
+**Recherche-Kanal:** WebSearch funktionierte gut (HMPC-Public-Summaries, Kommission E, ESCOP, Cochrane, botanische Unterscheidung). **WebFetch war erneut durchgaengig 403** (EMA, altmeyers.org, arzneipflanzenlexikon.info, drugs.com, sogar Wikipedia). **EMA/HMPC- und ESCOP-Primaerdokumente konnten NICHT direkt eingesehen werden.** Evidenzgrade auf das gesetzt, was mehrere konsistente Sekundaerquellen + HMPC-Summaries belegen; nicht geraten. **Primaerquelle nicht erreichbar — Evidenzgrad ungeprueft, aerztliche Gegenpruefung noetig.**
+
+**Pruefergebnis:** Beide bestehen `validate_monographie.py` einzeln fehlerfrei (0 Fehler), nur die erwuenschten "unsicher/zu pruefen"-Hinweise (+ bei der Baerentraube ein bewusster id-Mismatch-Hinweis, siehe unten). **0 Korrekturversuche.**
+
+**Hauptquellen:**
+- Artischocke: EMA/HMPC EU herbal monograph Cynara cardunculus L. (syn. C. scolymus L.), folium (traditional use); Kommission E (dyspeptische Beschwerden); ESCOP; Cochrane Review Wider B et al. 2013/2016 (Hypercholesterinaemie); Taxonomie via Arzneipflanzen-Lexikon/GRIN (akzeptiert Cynara cardunculus L.).
+- Baerentraube: EMA/HMPC EU herbal monograph Arctostaphylos uva-ursi (L.) Spreng., folium (traditional use, Rev.); Kommission E; ESCOP; Ph. Eur. (min. 7 % wasserfreies Arbutin); Sekundaerquellen zur Preiselbeeren-Abgrenzung (Netznervatur) und zum Naturschutzstatus; Garcia de Arriba et al. 2013 (Hydrochinon-Risikobewertung).
+
+### Ueberraschungen / unsichere Stellen fuer den Arzt
+
+- **Artischocke — RCT trotzdem kein WEU (Kernpunkt).** Fuer die Cholesterinsenkung gibt es RCTs und eine Cochrane-Uebersicht, aber HMPC vergibt NUR traditional use (Dyspepsie), KEINEN well-established use. Ich habe Dyspepsie **TU/ESCOP+** und die Cholesterin-Indikation SEPARAT als **RCT** getaggt, mit ausdruecklicher Erwartungsdaempfung (modester Effekt, kein Statin-Ersatz, keine HMPC-Indikation). Bitte pruefen, ob das getrennte Tagging der App-Logik entspricht — bewusst gesetzt.
+- **Artischocke — echter Sicherheitspunkt, nicht nur Erwartung.** Bei **Verschluss der Gallenwege ist die Pflanze kontraindiziert**, bei **Gallensteinen nur nach aerztlicher Ruecksprache**: die choleretische (gallentreibende) Wirkung kann eine Kolik ausloesen. In key_warning und contraindications betont. Korbbluetler-Allergie-Flag gesetzt (asteraceae_allergy=true).
+- **Artischocke — Organ-Falle.** Arzneilich zaehlt das bittere LAUBBLATT (Cynarae folium), NICHT der als Gemuese gegessene Bluetenboden. In identification/kitchen klar getrennt. Kein giftiger Doppelgaenger (reine Kulturpflanze) → confusions bewusst mit ungiftigen Disteln + Begruendungseintrag gefuellt.
+- **Baerentraube — toxin_ceiling ist der Kern.** Wirkstoff Hydrochinon (aus Arbutin) ist potenziell genotoxisch. Harte Grenze: **max. 1 Woche am Stueck, hoechstens ca. 5x/Jahr**; feste KONTRAINDIKATION in **Schwangerschaft/Stillzeit** und bei **unter 18-Jaehrigen** (nicht nur Vorsichtsnote — HMPC fuehrt es als feste Kontraindikation). flags: toxin_ceiling=true, toxin_type="Hydrochinon (aus Arbutin freigesetzt)", pregnancy_contraindicated=true. KEIN Antibiotikaersatz bei fieberhaftem/aufsteigendem Infekt.
+- **Baerentraube — pH-Abhaengigkeit umstritten.** Klassische Lehre: Wirkung an alkalischen Harn gebunden (bakterielle Freisetzung des Hydrochinons); neuere Daten stellen die strikte pH-Abhaengigkeit teils in Frage. Als **"unsicher — zu pruefen"** vermerkt; die alte Empfehlung, den Harn zu alkalisieren / harnansaeuernde Mittel (hohe Vitamin-C-Dosen) zu meiden, defensiv als theoretische Interaktion eingetragen.
+- **Baerentraube — Verwechslung mit Preiselbeere (essbar).** Wichtigster Doppelgaenger, waechst oft daneben. Sicheres Unterscheidungsmerkmal: **netznervige Blattunterseite** der Baerentraube vs. braune Druesenpunkte + umgerollter Rand der Preiselbeere. Kein toedlicher Doppelgaenger; das eigentliche Risiko ist der Wirkstoff, nicht die Verwechslung. Zusaetzlich Alpen-Baerentraube und Moos-/Rauschbeere (alle essbar) gelistet.
+- **Baerentraube — Naturschutz.** In Deutschland **besonders geschuetzt → Wildsammlung verboten**; in collection_rules/harvest betont, Bezug aus Anbau/Apotheke. Fuer den Bodenseeraum ehrlich: wild nur selten in den Voralpen (kalkmeidend), im meist kalkhaltigen Gartenboden schlecht kultivierbar.
+- **Baerentraube — id-Normalisierung (bewusst, bitte kennen).** Botanisches Epitheton ist der Bindestrich-Begriff **"uva-ursi"**. Das Pruefschema/der App-Abgleich erlaubt aber nur EIN gattung-art-Bindestrichpaar (`^[a-z]+-[a-z]+$`). Um `validate_monographie.py` fehlerfrei zu halten, wurde die id auf **`arctostaphylos-uvaursi`** (ein Bindestrich) gesetzt und in botany.synonym_note dokumentiert. Der Kandidateneintrag traegt weiterhin die id `arctostaphylos-uva-ursi` (unveraendert). **Der Arzt/die App sollte pruefen, ob der Pl@ntNet-Abgleich diese Normalisierung mitmacht** — ggf. muss die App fuer hyphenierte Epitheta eine Sonderregel haben. Dedup ist unabhaengig davon ueber scientific_name/Synonyme gesichert.
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert die ~38 Altfehler in 11 frueheren handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut) — meist `toxicity_level`-Werte wie "essbar/gering", die das Schema nicht kennt. Auftragsgemaess (genau 2 Monographien, kuratierte Dateien gehoeren dem Arzt) NICHT angefasst. Empfehlung: eigener Bereinigungslauf. Meine beiden neuen Dateien bestehen die Pruefung einzeln fehlerfrei.

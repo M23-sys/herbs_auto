@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "id": "arctostaphylos-uvaursi",
+  "stand": "2026-07-16",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Arctostaphylos uva-ursi (L.) Spreng.",
+    "synonyms": ["Arbutus uva-ursi L.", "Uva-ursi procumbens Moench", "Arctostaphylos officinalis Wimm. & Grab."],
+    "common_names_de": ["Echte Bärentraube", "Immergrüne Bärentraube", "Wilder Buchsbaum", "Mehlbeere (regional, missverständlich)"],
+    "family": "Heidekrautgewächse (Ericaceae)",
+    "drug_part": ["Laubblatt (Folium)"],
+    "drug_name_latin": "Uvae ursi folium (Bärentraubenblätter)",
+    "synonym_note": "Akzeptierter Name Arctostaphylos uva-ursi (L.) Spreng.; das Artepithet ist der zusammengesetzte Begriff 'uva-ursi' (lat. 'Bärentraube'). Die id wurde auf 'arctostaphylos-uvaursi' normalisiert, weil das Prüfschema/App-Abgleich nur ein einzelnes gattung-art-Bindestrich-Paar zulässt — botanisch korrekt bleibt 'uva-ursi'."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: ledrige, immergrüne, ganzrandige Blätter mit auf der UNTERSEITE deutlich erhabener Netznervatur (netznervig) — dieses Netzadermuster fehlt der ähnlichen Preiselbeere",
+      "Niederliegender, teppichbildender Spalier-/Zwergstrauch; Zweige kriechend, wurzelnd — bildet ausgedehnte, dichte Matten",
+      "Blätter oberseits glänzend dunkelgrün, Rand flach (NICHT nach unten umgerollt), Unterseite ohne braune Drüsenpunkte",
+      "Blüten glockig, weiß bis rosa, fünfzählig, in kleinen hängenden Trauben (April–Juni)",
+      "Früchte mehlig-fade, leuchtend rote Steinbeeren (nicht saftig wie Preiselbeere); Fruchtknoten oberständig",
+      "Standort: kalkarme, magere, sonnige Böden der Alpen/Voralpen, Heiden, lichte Kiefernwälder — in Deutschland besonders geschützt"
+    ],
+    "season": "Blüte April bis Juni; Blätter ganzjährig, arzneilich bevorzugt im Spätsommer/Herbst geerntet",
+    "habitat": "Kalkmeidend, auf mageren, sauren, sonnigen bis halbschattigen Böden; Zwergstrauchheiden, Felsfluren, lichte Nadelwälder der Berg- und Voralpenlagen. Kältetolerant.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-selten"}
+    ],
+    "collection_rules": [
+      "Bestätiger: die netznervige Blattunterseite. Bärentraube = deutliches erhabenes Adernetz; Preiselbeere = KEIN Adernetz, dafür braune Drüsenpunkte und nach unten umgerollter Blattrand.",
+      "ACHTUNG NATURSCHUTZ: In Deutschland ist die Bärentraube besonders geschützt — Wildsammlung ist grundsätzlich verboten. Arzneidroge aus Apotheke/kontrolliertem Anbau verwenden.",
+      "Blätter mit hohem Arbutingehalt (Ph. Eur.: mind. 7 % wasserfreies Arbutin) bevorzugt im Spätsommer/Herbst; sauber trocknen, da Gerbstoffe/Arbutin sonst leiden."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Preiselbeere",
+      "scientific_name": "Vaccinium vitis-idaea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufigster und wichtigster Doppelgänger, wächst oft direkt daneben und hat ähnliche immergrüne Blätter und rote Beeren. Unterscheidung: Preiselbeere hat KEINE Netznervatur, dafür braune Drüsenpunkte auf der Blattunterseite und einen nach unten umgerollten Blattrand; Blüten vierzählig, Fruchtknoten unterständig (Kelchrest als Sternchen an der Beere), Beeren saftig-säuerlich (essbar). Ungiftig, aber arzneilich ohne den nötigen Arbutingehalt."
+    },
+    {
+      "name": "Alpen-Bärentraube",
+      "scientific_name": "Arctostaphylos alpinus (Arctous alpina)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nah verwandt, aber sommergrün (wirft im Winter die Blätter ab), Blätter dünner und gezähnt, Beeren schwarz. Ungiftig; deutlich geringerer Arbutingehalt, arzneilich nicht gleichwertig."
+    },
+    {
+      "name": "Moos-/Rauschbeere (Cranberry-Verwandte)",
+      "scientific_name": "Vaccinium oxycoccos / Vaccinium uliginosum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls niederliegende Ericaceen mit kleinen ledrigen Blättern und roten/blauen Beeren an sauren Standorten. Ungiftig; keine liefert die Uvae-ursi-Droge. Unterscheidung über Blattform und fehlende Netznervatur."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Alle relevanten Doppelgänger sind andere ungiftige Zwergsträucher (Preiselbeere, Moosbeere, Alpen-Bärentraube). Ein giftiger oder tödlicher Doppelgänger ist nicht bekannt. Das eigentliche Risiko liegt NICHT in der Verwechslung, sondern im Wirkstoff Hydrochinon der Pflanze selbst (siehe safety)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Hydrochinon-Glykoside: Arbutin (Ph. Eur.: mind. 7 %) und Methylarbutin — Leit-Wirkstoffe",
+      "Gerbstoffe (Gallotannine, ~10–20 %) — für den adstringierenden Geschmack und Magenreiz",
+      "Flavonoide (u. a. Quercetin-, Myricetin-Glykoside), Iridoide, Triterpene (Ursolsäure)",
+      "Freies Hydrochinon in geringen Mengen"
+    ],
+    "lead_substance": "Arbutin — wird resorbiert, hepatisch/enteral konjugiert und im Harn (klassisch bei alkalischem pH) bakteriell zu antiseptisch wirksamem Hydrochinon gespalten. Hydrochinon ist zugleich Wirkprinzip UND Grund der strengen Anwendungsbegrenzung.",
+    "solubility_note": "Arbutin und Gerbstoffe sind wasserlöslich. Empfohlen wird jedoch ein KALTMAZERAT (Blätter mehrere Stunden in kaltem Wasser ziehen lassen), um den Gerbstoffauszug — und damit Magenreizung — gering zu halten; der wirksame Arbutingehalt bleibt erhalten. Heißer Aufguss löst mehr Gerbstoffe und wird schlechter vertragen.",
+    "heat_light_sensitivity": "Arbutin ist in der getrockneten Droge relativ stabil; starke/lange Hitze und feuchte Lagerung fördern Abbau und Gerbstoffreaktionen. Trocken und lichtgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Aus Arbutin freigesetztes Hydrochinon (und dessen Konjugate) wirkt im ableitenden Harntrakt lokal antibakteriell/antiseptisch. Klassische Lehre: Wirkung an alkalischen Harn gebunden (bakterielle Deglykosylierung); neuere Daten stellen die strikte pH-Abhängigkeit teilweise in Frage. Gerbstoffe wirken zusätzlich lokal adstringierend.",
+    "evidence_caveat": "Ehrlich: HMPC führt Uvae ursi folium nur als 'traditional use' — die klinische Wirksamkeit bei Harnwegsinfekten ist nicht durch belastbare kontrollierte Studien gesichert (well-established use wurde NICHT vergeben). Es ist ein traditionelles Symptommittel, kein Antibiotikaersatz. Die pH-Abhängigkeit der Wirkung ist umstritten — unsicher, zu prüfen.",
+    "pharmacokinetics": "Arbutin wird enteral/hepatisch zu Hydrochinon-Glucuronid/-Sulfat konjugiert, renal ausgeschieden und im Harn teils zu freiem Hydrochinon gespalten. Genau dieser Hydrochinon-Anfall begründet die Genotoxizitäts-/Sicherheitsbedenken und die kurze Anwendungsdauer."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter, wiederkehrender unterer Harnwegsinfekte (Reizblase/Zystitis-Symptome) bei erwachsenen Frauen",
+      "synonyms": ["Blasenentzündung", "Harnwegsinfekt", "Brennen beim Wasserlassen", "häufiger Harndrang", "Reizblase", "Zystitis", "Harnwegsbeschwerden"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Linderung von Symptomen leichter, wiederkehrender unterer Harnwegsinfekte wie Brennen beim Wasserlassen und/oder häufiger Harndrang bei Frauen — NUR nachdem der Arzt ernste Erkrankungen ausgeschlossen hat. Kommission E und ESCOP positiv (entzündliche Erkrankungen der ableitenden Harnwege). KEIN well-established use.",
+      "realistic_expectation": "Kann leichte Reizblasen-/Zystitissymptome vorübergehend lindern. KEIN Ersatz für Antibiotika bei echtem, fieberhaftem oder aufsteigendem Infekt. Streng zeitlich begrenzt anwendbar (siehe key_warning). Bei Fieber, Flankenschmerz, Blut im Urin oder Symptomen über 4 Tage: sofort ärztlich abklären.",
+      "source": "EMA/HMPC EU herbal monograph Arctostaphylos uva-ursi (L.) Spreng., folium (traditional use); Kommission E; ESCOP"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Traditionelles pflanzliches Symptommittel, das leichte, unkomplizierte untere Harnwegsbeschwerden bei erwachsenen Frauen kurzfristig lindern kann (lokal antiseptischer Hydrochinon-Effekt).",
+    "overstated": "Wird als 'pflanzliches Antibiotikum' gegen jede Blasenentzündung überschätzt: nur traditional use, kein well-established use, und ausdrücklich NICHT für fieberhafte/aufsteigende Infekte. Nicht als Dauer- oder Prophylaxemittel geeignet — das Hydrochinon begrenzt die Anwendung strikt.",
+    "effect_size": "mild; symptomatisch, kurzzeitig"
+  },
+  "preparation": {
+    "recommended_forms": ["Kaltmazerat (Kaltauszug) der Blätter", "standardisierte Fertigpräparate (Dragees/Kapseln, auf Arbutin/Hydrochinon-Derivate standardisiert)", "Teeaufguss (weniger empfohlen wegen Gerbstoffauszug)"],
+    "form_rationale": "Der Kaltauszug (Blätter mehrere Stunden in kaltem Wasser, dann kurz erwärmt) liefert das wasserlösliche Arbutin, hält aber den magenreizenden Gerbstoffauszug niedrig — daher besser verträglich als der heiße Aufguss.",
+    "standard_dose": "HMPC/Kommission E: Tagesdosis entsprechend etwa 400–840 mg Hydrochinon-Derivaten (berechnet als wasserfreies Arbutin), meist 3–4 Einzelgaben; Droge ca. 3 g pro Einzelgabe. NICHT länger als 1 Woche und höchstens ca. 5-mal pro Jahr anwenden.",
+    "preservation": "Getrocknete Blätter trocken, kühl und lichtgeschützt lagern; Fertigpräparate nach Herstellerangabe."
+  },
+  "safety": {
+    "tox_ceiling": "Hydrochinon (aus Arbutin freigesetzt): potenziell genotoxisch/reizend. Anwendung max. 1 Woche am Stück und höchstens etwa 5-mal pro Jahr; bei Symptomen über 4 Tage oder Verschlechterung ärztliche Abklärung. Nicht bei Kindern/Jugendlichen unter 18 Jahren, nicht in Schwangerschaft/Stillzeit.",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit (feste Kontraindikation)",
+      "Kinder und Jugendliche unter 18 Jahren",
+      "Nieren-/Nierenfunktionsstörungen (mangels Daten meiden)",
+      "Bekannte Überempfindlichkeit gegen Bärentraubenblätter"
+    ],
+    "pregnancy_lactation": "Kontraindiziert. In Schwangerschaft und Stillzeit nicht anwenden — Hydrochinon-Exposition; keine ausreichenden Sicherheitsdaten. Diese Kontraindikation ist im HMPC-Monograph fest, nicht nur eine Vorsichtsnote.",
+    "adverse_effects": "Übelkeit, Erbrechen und Magenreizung (v. a. gerbstoffbedingt, bei empfindlichem Magen/heißem Aufguss). Grünlich-braune Verfärbung des Urins möglich (harmlos, Oxidationsprodukte). Bei Überdosierung/Langzeitanwendung theoretisch Lebertoxizität und Hydrochinon-bedingte Risiken.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Klassische Lehre: harnansäuernde Mittel/Nahrung mindern die Freisetzung/Wirkung von Hydrochinon (pH-Abhängigkeit umstritten); Gerbstoffe können die Resorption gleichzeitig eingenommener alkaloid-/eisenhaltiger Präparate mindern",
+        "affected": "harnansäuernde Substanzen (z. B. hohe Vitamin-C-Dosen); zeitgleich eingenommene Alkaloide/Eisenpräparate",
+        "clinical_relevance": "gering bis relevant im Einzelfall"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Hydrochinon (aus Arbutin freigesetzt)",
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Bärentraubenblätter höchstens 1 Woche am Stück und maximal ca. 5-mal pro Jahr anwenden (Hydrochinon), niemals in Schwangerschaft/Stillzeit oder bei Kindern/Jugendlichen unter 18 — und nur bei leichtem, unkompliziertem Infekt: bei Fieber, Flankenschmerz oder Blut im Urin gehört sofort ein Arzt eingeschaltet."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter ganzjährig verfügbar; für hohen Arbutingehalt bevorzugt Spätsommer bis Herbst. Wildsammlung in Deutschland verboten (geschützt) — Bezug aus Anbau/Apotheke.",
+    "harvest_month_tags": [8, 9, 10],
+    "harvest_organ": "Blatt (Folium)",
+    "method": "Nur Laubblätter; schonend und zügig trocknen. Wegen Naturschutz keine Wildentnahme.",
+    "processing": "Getrocknete Blätter; für die Anwendung als Kaltmazerat oder standardisierter Extrakt.",
+    "storage": "Trocken, kühl, lichtgeschützt und luftdicht; Feuchtigkeit fördert Arbutin-/Gerbstoffabbau."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine küchenrelevante Verwendung: die Früchte sind mehlig-fade und werden nicht als Obst genutzt, die Blätter sind ausschließlich Arzneidroge mit strenger Anwendungsbegrenzung. Nicht mit der essbaren Preiselbeere verwechseln."
+  },
+  "garden": {
+    "site_soil": "Kalkarmer, saurer, magerer, durchlässiger Boden, sonnig; als immergrüner Bodendecker in Heide-/Steingärten.",
+    "hardiness": "Sehr winterhart (alpine/boreale Art).",
+    "propagation": "Über Absenker/Stecklinge oder Teilung der wurzelnden Triebe; Aussaat langwierig.",
+    "bodensee_suitability": "In den Voralpen wild (selten, geschützt); im Garten nur auf saurem, magerem Boden gut — die meist kalkhaltigen, nährstoffreichen Bodenseeböden sind eher ungeeignet. Ehrlich: kein einfacher Gartenkandidat für diese Region."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Niederliegender immergrüner Spalierstrauch mit roten Beeren, teppichbildend", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blattunterseite mit erhabener Netznervatur — sicheres Unterscheidungsmerkmal gegenüber der Preiselbeere", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph on Arctostaphylos uva-ursi (L.) Spreng., folium (traditional use; Uvae ursi folium; Rev.)",
+    "Kommission E — Uvae ursi folium / Bärentraubenblätter (positiv: entzündliche Erkrankungen der ableitenden Harnwege)",
+    "ESCOP — Uvae ursi folium",
+    "Ph. Eur. — Bärentraubenblätter, Mindestgehalt 7 % wasserfreies Arbutin",
+    "Sekundärquellen zu Verwechslung Preiselbeere, Naturschutzstatus und Hydrochinon-Risiko (Websuche; EMA-Primär-PDF beim direkten Abruf 403/nicht erreichbar — Evidenzgrad ärztlich gegenzuprüfen)"
+  ]
+}
