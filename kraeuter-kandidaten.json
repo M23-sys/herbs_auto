@@ -302,8 +302,8 @@
       "latin": "Acorus calamus",
       "tier": 2,
       "reason": "beta-Asaron, kanzerogen — Toxin-Grenze",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-kalmus.json"
     },
     {
       "id": "tanacetum-vulgare",
@@ -311,8 +311,8 @@
       "latin": "Tanacetum vulgare",
       "tier": 2,
       "reason": "Thujon — 3. Thujon-Träger, macht Register robust",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-rainfarn.json"
     },
     {
       "id": "artemisia-vulgaris",

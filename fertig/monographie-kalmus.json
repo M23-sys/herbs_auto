@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "id": "acorus-calamus",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Acorus calamus L.",
+    "common_names_de": [
+      "Kalmus",
+      "Echter Kalmus",
+      "Magenwurz",
+      "Ackerwurz",
+      "Deutscher Ingwer"
+    ],
+    "family": "Acoraceae (Kalmusgewächse)",
+    "drug_part": [
+      "Wurzelstock/Rhizom (geschält oder ungeschält)"
+    ],
+    "drug_name_latin": "Calami rhizoma",
+    "synonyms": [
+      "Calamus aromaticus Garsault",
+      "Acorus aromaticus Gilib.",
+      "Acorus odoratus Lam."
+    ],
+    "synonym_note": "Früher zu den Araceae (Aronstabgewächse) gestellt, heute eigene Familie Acoraceae. Drogenname historisch 'Calamus aromaticus'."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter beim Zerreiben stark aromatisch-würzig (kampfer-/ingwerartig) — SICHERSTES Merkmal, unterscheidet sofort von Schwertlilie und Rohrkolben",
+      "Blattrand charakteristisch stellenweise gewellt/gekräuselt (bei Schwertlilie glatt/platt)",
+      "Blätter schwertförmig, frisch gelbgrün, mit exzentrisch (seitlich versetzt) verlaufender, kielartig erhabener Mittelrippe",
+      "Fleischiges, daumenstarkes, außen bräunliches, innen weißliches Rhizom mit intensivem aromatischem Geruch",
+      "Seitenständiger, schräg abstehender, walzenförmiger Blütenkolben (Spadix) ohne auffälliges Hüllblatt; blüht in Europa steril"
+    ],
+    "season": "Blüte Juni bis Juli (in Europa steril, keine Samen)",
+    "habitat": "Verlandungszonen, Röhricht, flache Ufer stehender/langsam fließender Gewässer, Gräben, Teichränder; Neophyt (seit dem 16. Jh. aus Asien eingeführt)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Bestätiger: kräftiger aromatischer Geruch von Blatt UND Rhizom beim Anritzen",
+      "Vor der Ernte streng gegen Iris pseudacorus (Gelbe Schwertlilie) abgrenzen — deren Blätter riechen NICHT aromatisch, Rand glatt, Mittelrippe zentral",
+      "Rohrkolben (Typha) und Igelkolben (Sparganium) am fehlenden Aroma und der runderen Blattbasis abgrenzen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gelbe Schwertlilie (Wasser-Schwertlilie)",
+      "scientific_name": "Iris pseudacorus",
+      "toxicity_level": "giftig",
+      "toxin": "Iridin/Iris-Glykoside (Reizstoffe)",
+      "note": "Wächst am selben Standort und heißt 'pseudacorus' = 'falscher Kalmus'. Blätter der Iris sind blaugrün, flach, glattrandig, reitend/fächerförmig angeordnet, Mittelrippe zentral, und riechen NICHT aromatisch. Kalmus: gelbgrün, Rand stellenweise gewellt, exzentrische Rippe, stark aromatisch. Iris ist giftig (Magen-Darm-Reizung, Erbrechen)."
+    },
+    {
+      "name": "Breitblättriger Rohrkolben",
+      "scientific_name": "Typha latifolia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Junge Blätter/Triebe ähnlich schwertförmig, aber geruchlos (kein Aroma), Rand glatt, Blattquerschnitt anders; Rhizom des Rohrkolbens ist essbar und geruchsneutral. Verwechslung meist harmlos, aber Kalmus nur über das Aroma sicher ansprechen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (ca. 1,5–5 % im Rhizom) mit Asaronen, Kalamen, Acoron, Isoacoron",
+      "α- und β-ASARON (Phenylpropane) — sicherheitsbestimmend",
+      "Bitterstoff Acorin",
+      "Gerbstoffe, Schleim, Stärke"
+    ],
+    "lead_substance": "Bitterstoffe + ätherisches Öl (amarum aromaticum, verdauungsanregend); β-Asaron = toxikologisch/karzinogen bestimmend",
+    "solubility_note": "wasserlösliche Bitterstoffe → Tee/Kaltauszug; alkoholische Tinktur zieht auch ätherisches Öl (samt Asaron) mit — konzentrierte alkoholische Auszüge und das Öl sind daher besonders kritisch",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig; Rhizom nach Trocknung lichtgeschützt lagern"
+  },
+  "pharmacology": {
+    "mechanism": "Amarum aromaticum: Bitterstoffe stimulieren reflektorisch Speichel- und Magensaftsekretion (appetitanregend, verdauungsfördernd), ätherisches Öl mild spasmolytisch/karminativ. Sicherheitsseite: β-Asaron ist im Tierversuch genotoxisch und hepatokanzerogen; wird hepatisch metabolisiert (u. a. zu Epoxid).",
+    "evidence_caveat": "Keine belastbare klinische Wirksamkeitsevidenz; die Anwendung stützt sich auf Tradition. Das Nutzen-Risiko-Verhältnis ist wegen β-Asaron ungünstig — deshalb heute weitgehend obsolet.",
+    "pharmacokinetics": "β-Asaron ZNS-gängig; hepatischer Metabolismus; kanzerogenes Potenzial ohne ableitbaren ADI (Schwellenwert nicht bestimmbar, da genotoxisch)"
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden / Appetitlosigkeit (Bittermittel)",
+      "synonyms": [
+        "Appetitlosigkeit",
+        "Appetitmangel",
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Magenbeschwerden",
+        "Blähungen",
+        "Bittermittel",
+        "Amarum"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Bitterstoff-Anwendung; Kommission E führte Calami rhizoma historisch (dyspeptische Beschwerden, Appetitlosigkeit) — dieser Status ist wegen β-Asaron heute überholt und ärztlich gegenzuprüfen (Primärquelle EMA/Kommission E nicht direkt erreichbar). KEINE HMPC- und KEINE ESCOP-Monographie.",
+      "realistic_expectation": "Bestenfalls milde, symptomatische Verdauungs-/Appetitanregung wie andere Bittermittel — dafür gibt es jedoch sicherere Alternativen (z. B. Enzian, Wermut kurzzeitig). Wegen des karzinogenen β-Asarons NICHT als Dauer- oder Selbstmedikation empfehlen.",
+      "source": "Traditionelle Anwendung; Kommission E (historisch, zu prüfen); KEIN HMPC/ESCOP"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Altes aromatisches Bittermittel bei Appetit-/Verdauungsschwäche — allenfalls mild und symptomatisch",
+    "overstated": "'Sanftes Magenmittel' oder gar 'Wundermittel' und die verbreitete Annahme, europäischer Kalmus sei asaronfrei: Der in Europa wilde/verwilderte Kalmus ist die TRIPLOIDE Sippe und enthält sehr wohl β-Asaron (ca. 5–19 % im ätherischen Öl). Asaronfrei ist nur der nordamerikanische diploide Typ.",
+    "effect_size": "mild, symptomatisch — Nutzen durch karzinogenes Risiko überlagert"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Kaltauszug aus dem Rhizom (kurzzeitig, wenn überhaupt)",
+      "Tinktur (bitter) — kritisch, da asaronhaltig"
+    ],
+    "form_rationale": "Wasserlösliche Bitterstoffe genügen für die Bitterwirkung; alkoholische Auszüge und vor allem das ätherische Öl reichern das karzinogene β-Asaron an und sind zu meiden. Ätherisches Kalmusöl NICHT innerlich anwenden.",
+    "standard_dose": "Traditionell ca. 1–3 g Droge/Tag als Tee — angesichts des Asaron-Gehalts jedoch nur kurzzeitig und zurückhaltend; keine Dauermedikation. β-Asaron-Exposition begrenzen (EMA: Richtwert ~115 µg/Tag).",
+    "preservation": "getrocknetes Rhizom dicht, trocken, lichtgeschützt"
+  },
+  "safety": {
+    "tox_ceiling": "β-Asaron: im Tierversuch genotoxisch und hepatokanzerogen; kein sicherer Schwellenwert/ADI ableitbar. Arznei-/Lebensmittelbücher fordern Begrenzung (Grenzwert-Prüfung ~0,5 % β-Asaron in der Droge); EMA setzte eine vorläufige Expositionsgrenze von ~115 µg β-Asaron/Tag (≈2 µg/kg KG/Tag). Tetraploide (indische) Kalmusdroge/-öl ist besonders asaronreich (70–96 %) und in der EU als Aroma verboten.",
+    "contraindications": [
+      "Schwangerschaft",
+      "Stillzeit",
+      "Kinder",
+      "keine Langzeit-/Dauereinnahme",
+      "kein ätherisches Kalmusöl innerlich"
+    ],
+    "pregnancy_lactation": "kontraindiziert (β-Asaron genotoxisch/karzinogen; keine sichere Dosis definierbar)",
+    "adverse_effects": "In üblichen Teemengen kurzfristig meist gut verträglich; Hauptproblem ist die kumulative karzinogene/genotoxische Belastung durch β-Asaron. Hohe Dosen/Öl: Übelkeit, Erbrechen.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "additive Schleimhautreizung bzw. Bitterstoff-vermittelte Sekretionssteigerung",
+        "affected": "Magensäure-relevante Medikation; keine klinisch gut belegten Interaktionen",
+        "clinical_relevance": "gering (Datenlage dünn)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "β-Asaron",
+      "pregnancy_contraindicated": true,
+      "hepatotoxic": false,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "Der in Europa wilde/verwilderte Kalmus ist die triploide, β-ASARON-HALTIGE Sippe (nicht der asaronfreie amerikanische Typ). β-Asaron ist genotoxisch und karzinogen — Kalmus daher nur kurzzeitig/zurückhaltend, kein Öl innerlich, in Schwangerschaft/Stillzeit und bei Kindern kontraindiziert."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Rhizom im Spätherbst (September–November) oder zeitigen Frühjahr",
+    "harvest_month_tags": [
+      9,
+      10,
+      11
+    ],
+    "harvest_organ": "Rhizom (Wurzelstock)",
+    "method": "Rhizom ausgraben, waschen, von Wurzeln/Blattresten befreien, ggf. längs spalten",
+    "processing": "bei mäßiger Wärme (nicht über ~35 °C) trocknen, um ätherisches Öl zu erhalten",
+    "storage": "getrocknet dicht, trocken, lichtgeschützt; Aroma prüfen"
+  },
+  "kitchen": {
+    "uses": [
+      "historisch als Bitterlikör-/Magenbitter-Zutat und kandiert"
+    ],
+    "culinary_vs_medicinal": "Wegen β-Asaron ist die kulinarische Verwendung in der EU stark eingeschränkt/faktisch obsolet; β-Asaron als Aromastoff verboten. Kein Grund für Neuverwendung in der Küche."
+  },
+  "garden": {
+    "site_soil": "nasser bis sumpfiger, nährstoffreicher Boden, Flachwasser/Teichrand, sonnig bis halbschattig",
+    "hardiness": "winterhart, ausdauernd, breitet sich über Rhizome aus",
+    "propagation": "Rhizomteilung (Aussaat entfällt — europäische Sippe steril)",
+    "bodensee_suitability": "als Teich-/Uferpflanze gut geeignet und dekorativ; arzneilich jedoch wegen β-Asaron nicht zu empfehlen"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Kalmus im Uferröhricht mit schwertförmigen, gelbgrünen Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Blattrand stellenweise gewellt, exzentrische Mittelrippe; seitenständiger Kolben",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Public Statement on the use of herbal medicinal products containing asarone (β-Asaron genotoxisch/karzinogen; vorläufige Expositionsgrenze ~115 µg/Tag) — Primärdokument nicht direkt abrufbar, über Sekundärquellen belegt",
+    "Uebel et al. 2021, J Appl Toxicol: α-, β-, γ-Asaron — toxikologische Bewertung; Cytotypen und β-Asaron-Gehalt (diploid asaronfrei, europäisch triploid 5–19 %, tetraploid 70–96 %)",
+    "Kommission E (historische Monographie Calami rhizoma — Status heute überholt, ärztlich zu prüfen)",
+    "keine HMPC-EU-Monographie, keine ESCOP-Monographie zu Acorus calamus"
+  ]
+}

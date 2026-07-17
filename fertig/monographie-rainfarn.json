@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "id": "tanacetum-vulgare",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Tanacetum vulgare L.",
+    "common_names_de": [
+      "Rainfarn",
+      "Gewöhnlicher Rainfarn",
+      "Wurmkraut",
+      "Gelbe Knöpfe"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut (Tanaceti herba)",
+      "Blütenköpfchen (Tanaceti flos)"
+    ],
+    "drug_name_latin": "Tanaceti herba/flos",
+    "synonyms": [
+      "Chrysanthemum vulgare (L.) Bernh.",
+      "Tanacetum boreale Fisch. ex DC.",
+      "Chrysanthemum tanacetum Vis."
+    ],
+    "synonym_note": "Historisch auch als Chrysanthemum vulgare geführt. NICHT verwechseln mit Tanacetum parthenium (Mutterkraut) — das ist die Migräne-Art, eine ANDERE Pflanze."
+  },
+  "identification": {
+    "key_features": [
+      "Flache, knopfförmige, rein gelbe Blütenköpfchen OHNE Zungenblüten (Strahlenblüten), in dichter, flacher Doldenrispe — SICHERSTES Merkmal",
+      "Blätter fiederschnittig/doppelt gefiedert, farnartig, mit gesägten Fiederchen; wechselständig",
+      "Ganze Pflanze beim Zerreiben stark aromatisch (kampfer-/würzig), etwas unangenehm",
+      "Aufrechter, oben verzweigter, oft rötlicher Stängel, 0,5–1,5 m hoch",
+      "Ausdauernd, mit kriechendem Rhizom, oft in dichten Beständen"
+    ],
+    "season": "Blüte Juli bis September",
+    "habitat": "Wegränder, Böschungen, Bahndämme, Ufer, Schuttplätze, Ruderalflächen; nährstoffreiche, eher trockene bis frische Standorte",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Bestätiger: rein gelbe Knopfblüten OHNE weiße/gelbe Randstrahlen + stark aromatischer Geruch",
+      "Vor Ernte gegen Jakobskreuzkraut abgrenzen (dieses hat margeritenartige gelbe Zungenblüten und enthält Pyrrolizidinalkaloide)",
+      "Junge, noch nicht blühende Blattrosetten farnartig — dann leicht mit Schafgarbe zu verwechseln; nur blühend sicher ansprechen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Jakobskreuzkraut (Jakobs-Greiskraut)",
+      "scientific_name": "Jacobaea vulgaris (Senecio jacobaea)",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (hepatotoxisch, chronisch/karzinogen)",
+      "note": "Wächst am selben Standort und blüht gelb zur gleichen Zeit. Unterscheidung: Jakobskreuzkraut hat margeritenartige Blütenköpfe MIT gelben Zungen-/Strahlenblüten; Rainfarn hat nur flache gelbe KNÖPFE ohne Strahlen. Beide sind giftig — Verzehr in jedem Fall vermeiden."
+    },
+    {
+      "name": "Gewöhnliche Schafgarbe",
+      "scientific_name": "Achillea millefolium",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nur im nicht blühenden Zustand über die farnartigen Blätter verwechselbar. Schafgarbe ist feiner/weicher gefiedert, kleiner, blüht weiß-rosa in flachen Dolden; Rainfarn ist gröber, höher, blüht knopfig gelb. Schafgarbe ist die harmlose, Rainfarn die toxische Pflanze."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (bis ~0,6 %+) — je nach Chemotyp stark schwankend, häufig THUJON-reich (bis ~70 %), andere Chemotypen mit Kampfer, β-Thujon, Umbellulon u. a.",
+      "Sesquiterpenlactone (u. a. Tanacetin) — Bitterstoffe und Kontaktallergene",
+      "Flavonoide",
+      "Gerbstoffe"
+    ],
+    "lead_substance": "Thujon (α-/β-) im ätherischen Öl — neurotoxisch/krampfauslösend (GABA-A-Antagonist); zugleich Grund der Insektizid-/Wurmwirkung",
+    "solubility_note": "Thujon steckt im ätherischen Öl → alkoholische Auszüge und vor allem das Öl sind besonders toxisch; wässriger Tee zieht weniger, ist aber ebenfalls nicht sicher",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig; Thujon-Gehalt chemotyp- und standortabhängig sehr variabel"
+  },
+  "pharmacology": {
+    "mechanism": "Anthelminthische und insektizide Wirkung über das thujonreiche ätherische Öl; Bitterstoffe/Sesquiterpenlactone wirken verdauungsanregend. Thujon ist ein GABA-A-Antagonist → dosisabhängig neurotoxisch, krampfauslösend.",
+    "evidence_caveat": "Keine belastbare klinische Evidenz; keine HMPC- und keine ESCOP-Monographie. Kommission E hat Rainfarnkraut/-blüten NEGATIV bewertet (ungünstiges Nutzen-Risiko-Verhältnis). Wegen des thujonhaltigen Öls gilt die Droge heute als obsolet.",
+    "pharmacokinetics": "Thujon ZNS-gängig, hepatisch metabolisiert; sehr variabler Wirkstoffgehalt erschwert eine sichere Dosierung zusätzlich"
+  },
+  "indications": [
+    {
+      "canonical": "Wurmbefall (traditionelles Anthelmintikum) — obsolet",
+      "synonyms": [
+        "Würmer",
+        "Wurmbefall",
+        "Madenwürmer",
+        "Spulwürmer",
+        "Wurmkur",
+        "Entwurmung"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinische/historische Anwendung als Wurmmittel. Kommission E: NEGATIVMONOGRAPHIE (nicht empfohlen). Keine HMPC-/ESCOP-Monographie. Wegen enger Giftschwelle (Thujon) heute abzulehnen.",
+      "realistic_expectation": "Keine empfehlenswerte Selbstanwendung. Die wirksame Dosis liegt gefährlich nahe an der toxischen; für Entwurmung existieren sichere, zugelassene Arzneimittel. Innerliche Anwendung, insbesondere des Öls, ist zu unterlassen.",
+      "source": "Traditionelle Anwendung; Kommission E (Negativmonographie)"
+    },
+    {
+      "canonical": "Insektenabwehr (äußerlich/Umgebung) — traditionell",
+      "synonyms": [
+        "Insektenschutz",
+        "Mückenabwehr",
+        "Flohkraut",
+        "Motten"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionell als Repellent/Insektizid (Sträuße, Auslegen); keine anerkannte arzneiliche Indikation.",
+      "realistic_expectation": "Als Umgebungs-/Repellent-Anwendung volkstümlich; keine belegte medizinische Wirkung. NICHT einnehmen.",
+      "source": "Traditionelle Anwendung (Repellent)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Historisches Wurm- und Insektenmittel — heute obsolet und wegen Thujon nicht zur inneren Selbstanwendung geeignet",
+    "overstated": "'Sanfte pflanzliche Wurmkur' oder Verwechslung mit dem migräneprophylaktischen Mutterkraut (Tanacetum parthenium): Rainfarn (T. vulgare) ist eine ANDERE, toxische Pflanze ohne Migräne-Indikation.",
+    "effect_size": "nicht empfehlenswert; toxisches Risiko überwiegt jeden möglichen Nutzen"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine innerliche Selbstanwendung empfohlen",
+      "allenfalls äußerlich/Umgebung als Repellent (Sträuße, Auslegen)"
+    ],
+    "form_rationale": "Das thujonhaltige ätherische Öl macht innerliche Zubereitungen (Tee, Tinktur, Öl) toxisch und in der Dosierung unkalkulierbar (variabler Chemotyp). Daher keine Empfehlung zur Einnahme.",
+    "standard_dose": "Keine sichere therapeutische Dosis angebbar. Bereits >1–3 g Droge können Vergiftungserscheinungen auslösen; Rainfarnöl darf NICHT innerlich verwendet werden.",
+    "preservation": "getrocknet dicht/lichtgeschützt (nur für äußerliche/Umgebungszwecke)"
+  },
+  "safety": {
+    "tox_ceiling": "Thujon (α-/β-): neurotoxisch, krampfauslösend (GABA-A-Antagonist). Bereits >1–3 g Droge können Vergiftungen verursachen (Erbrechen, Bauchschmerzen, Mydriasis, Krämpfe, Herzrhythmusstörungen, Nieren-/Leberschädigung, bis Atemlähmung). Rainfarnöl nicht innerlich. Thujon-Gehalt chemotypabhängig extrem variabel — sichere Dosierung nicht möglich.",
+    "contraindications": [
+      "Schwangerschaft (abortiv)",
+      "Stillzeit",
+      "Kinder",
+      "Epilepsie/Krampfneigung",
+      "Korbblütler-Allergie",
+      "innerliche Anwendung generell"
+    ],
+    "pregnancy_lactation": "streng kontraindiziert — traditionell als Abortivum missbraucht, oft mit schweren, teils tödlichen Vergiftungen der Schwangeren (Thujon + Sesquiterpenlactone)",
+    "adverse_effects": "Vergiftung mit Erbrechen, Magen-Darm-Reizung, Gesichtsröte, Pupillenerweiterung, Krämpfen, Herzrhythmusstörungen, Nieren-/Leberschäden; Kreislauf-/Atemstillstand bei schwerer Vergiftung. Äußerlich: Kontaktallergie/Dermatitis (Sesquiterpenlactone).",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive Senkung der Krampfschwelle durch Thujon",
+        "affected": "Antiepileptika / bei Krampfneigung; andere krampfschwellensenkende Substanzen",
+        "clinical_relevance": "relevant bei Krampfneigung"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Thujon",
+      "pregnancy_contraindicated": true,
+      "lowers_seizure_threshold": true,
+      "asteraceae_allergy": true,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "DRITTER Thujon-Träger im Katalog (neben Salbei und Wermut), aber deutlich toxischer: Rainfarn ist wegen des thujonreichen Öls giftig, die wirksame Dosis liegt nahe der toxischen. Keine innerliche Selbstanwendung, kein Öl, in Schwangerschaft strikt verboten. NICHT mit Mutterkraut (T. parthenium) verwechseln."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "blühendes Kraut/Blütenköpfchen zur Blütezeit (Juli–September)",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend) / Blüte",
+    "method": "obere blühende Triebe/Blütenköpfe schneiden (Handschuhe wegen Kontaktallergie)",
+    "processing": "luftig, schattig trocknen",
+    "storage": "getrocknet dicht/lichtgeschützt; nur für äußerliche/Umgebungszwecke"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung — thujonhaltig und giftig. Früher vereinzelt als Würze/'Osterfladen', heute wegen Thujon abzulehnen."
+  },
+  "garden": {
+    "site_soil": "anspruchslos, sonnig, nährstoffreich, frisch bis trocken; wuchernd über Rhizome",
+    "hardiness": "winterhart, ausdauernd, sehr robust",
+    "propagation": "Teilung, Aussaat; breitet sich stark aus",
+    "bodensee_suitability": "wächst problemlos und ist als Insekten-/Schmetterlingsweide ökologisch wertvoll; arzneilich jedoch nicht zu nutzen (giftig)"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Rainfarn mit flacher Doldenrispe aus gelben Knopfblüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "gelbe Knopfblüten ohne Zungenblüten; farnartig gefiederte Blätter",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E: Negativmonographie Tanaceti herba/flos (ungünstiges Nutzen-Risiko-Verhältnis)",
+    "keine HMPC-EU-Monographie, keine ESCOP-Monographie zu Tanacetum vulgare",
+    "Toxikologie Thujon (GABA-A-Antagonist, krampfauslösend); Vergiftungsschwelle >1–3 g; Rainfarnöl nicht innerlich — Sekundärliteratur/Giftpflanzendatenbanken",
+    "Chemotyp-Variabilität des ätherischen Öls (Thujon bis ~70 %, teils Kampfer/Umbellulon) — phytochemische Reviews"
+  ]
+}

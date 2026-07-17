@@ -175,6 +175,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 2). WICHTIG fuer den Arzt: die frueher positive Kommission-E-Indikation (krampfartige Gallen-/Verdauungsbeschwerden, innerlich) ist ueberholt — BfArM widerrief 2008 die Zulassung fuer Praeparate >2,5 mg Gesamtalkaloide/Tag, und die EMA/HMPC bewertet in einem Public Statement das Nutzen-Risiko als NEGATIV: idiosynkratische, dosisunabhaengige Leberschaeden (cholestatische Hepatitis bis Leberversagen). Daher beide Indikationen TRAD, innerliche Anwendung ausdruecklich nicht empfohlen. Aeusserlich traditionell gegen Warzen (frischer, aetzender oranger Milchsaft). Erkennungsmerkmal ist der orange-gelbe Milchsaft; 4 Kronblaetter. hepatotoxic + toxin_ceiling (Isochinolinalkaloide/Chelidonin) + pregnancy_contraindicated gesetzt; kein toedlicher Doppelgaenger (die Pflanze selbst ist das Risiko)."
+    },
+    {
+      "ts": "2026-07-17T12:30:00Z",
+      "id": "acorus-calamus",
+      "common": "Kalmus",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 2). Wichtigste Korrektur eines verbreiteten Irrtums: Der in Europa wilde/verwilderte Kalmus ist die TRIPLOIDE Sippe und enthaelt sehr wohl beta-Asaron (ca. 5-19 % im aetherischen Oel) - asaronfrei ist nur der nordamerikanische diploide Typ, die indische tetraploide Droge/Oel ist mit 70-96 % besonders asaronreich (in der EU als Aroma verboten). beta-Asaron ist im Tierversuch genotoxisch und hepatokanzerogen, kein ADI ableitbar; EMA-Public-Statement setzt eine vorlaeufige Expositionsgrenze ~115 ug/Tag, Arzneibuch fordert Grenzwertpruefung ~0,5 %. Keine HMPC- und keine ESCOP-Monographie; Kommission-E-Status (frueher Amarum bei dyspeptischen Beschwerden) heute ueberholt und aerztlich zu pruefen -> Indikation TRAD. toxin_ceiling (beta-Asaron) + pregnancy_contraindicated gesetzt. Verwechslung mit Iris pseudacorus (giftig, 'falscher Kalmus') - Unterscheider: Kalmus riecht aromatisch, Blattrand gewellt, Mittelrippe exzentrisch."
+    },
+    {
+      "ts": "2026-07-17T12:30:30Z",
+      "id": "tanacetum-vulgare",
+      "common": "Rainfarn",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 2). Dritter Thujon-Traeger im Katalog (nach Salbei und Wermut), aber deutlich toxischer: das aetherische Oel ist thujonreich (chemotypabhaengig bis ~70 %), die wirksame Dosis liegt nahe der toxischen - bereits >1-3 g Droge koennen Vergiftungen ausloesen (Kraempfe, Herzrhythmusstoerungen bis Atemlaehmung), Rainfarnoel nicht innerlich. Kommission E: NEGATIVMONOGRAPHIE; keine HMPC-/ESCOP-Monographie -> Indikationen (Wurmmittel, Insektenabwehr) TRAD und obsolet. In der Schwangerschaft strikt kontraindiziert (historisch als Abortivum missbraucht, teils toedlich). Wichtige Abgrenzung: NICHT mit Tanacetum parthenium (Mutterkraut, Migraeneprophylaxe) verwechseln - andere, toxische Art. Verwechslung im Feld mit Jakobskreuzkraut (giftig, PA; hat Zungenblueten, Rainfarn nur gelbe Knoepfe). toxin_ceiling (Thujon) + pregnancy_contraindicated + lowers_seizure_threshold + asteraceae_allergy gesetzt."
     }
   ]
 }

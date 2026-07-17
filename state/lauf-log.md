@@ -458,3 +458,33 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die 
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten Altfehler in den früheren handkuratierten Monographien (u. a. `toxicity_level`-Werte wie „essbar/gering", die das Schema nicht kennt). Auftragsgemäß (genau 2 Monographien; kuratierte Dateien gehören dem Arzt) NICHT angefasst. Empfehlung unverändert: eigener Bereinigungslauf. Beide neuen Dateien bestehen die Prüfung einzeln fehlerfrei.
+
+---
+
+## Lauf 2026-07-17 (Fortsetzung) — Kalmus, Rainfarn
+
+**Auswahl / Quelle:** `docs/wunschliste.json` (5 Einträge) hat weiterhin **0 offene** — alle fünf (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis) liegen per id- **und** Synonym-Dedup bereits in `fertig/` (kriechendes-fingerkraut, kleine-katzenminze, klebriger-alant, hundszahngras, kanarischer-efeu). Daher beide Plätze aus `kraeuter-kandidaten.json`: die nächsten beiden **offenen** Einträge nach tier aufsteigend, Listenreihenfolge — beide Tier 2:
+- **acorus-calamus (Kalmus)** — Kandidat, Tier 2 → `fertig/monographie-kalmus.json`, Status `entwurf_fertig`
+- **tanacetum-vulgare (Rainfarn)** — Kandidat, Tier 2 → `fertig/monographie-rainfarn.json`, Status `entwurf_fertig`
+
+**Dedup:** Beide gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprüft — nicht vorhanden. Synonyme selbst eingetragen (Kalmus: Calamus aromaticus, Acorus aromaticus, Acorus odoratus + synonym_note zum Familienwechsel Araceae→Acoraceae; Rainfarn: Chrysanthemum vulgare u.a. + synonym_note zur Abgrenzung von T. parthenium). Keine Selbstheilung nötig, keine Dubletten-Warnung.
+
+**Recherche-Kanal:** WebSearch funktionierte gut. **WebFetch scheiterte durchgängig mit HTTP 403** (EMA-PDF, AWL.ch, de.wikipedia.org) — Inhalte daher über WebSearch-Zusammenfassungen belegt. Zu **beiden** Arten existiert **keine** EMA/HMPC- und **keine** ESCOP-Monographie; das EMA-Asaron-Dokument ist nur ein *Public Statement* (kein Primär-PDF abrufbar). **Evidenzgrade wie immer ärztlich gegenprüfen** — beide Indikationen daher bewusst `TRAD`, nicht `TU`.
+
+**Prüfergebnis:** Beide bestehen `validate_monographie.py` einzeln — Rainfarn `✓ alles sauber`, Kalmus `ok, mit Hinweisen` (nur der erwünschte „unsicher/zu prüfen"-Hinweis im Kommission-E-Vermerk). **0 Korrekturversuche**, keine Dubletten.
+
+**Hauptquellen:**
+- Kalmus: EMA/HMPC Public Statement on herbal medicinal products containing asarone (β-Asaron genotoxisch/karzinogen, Expositionsgrenze ~115 µg/Tag); Uebel et al. 2021 (J Appl Toxicol) zu Cytotypen/β-Asaron-Gehalt; Kommission E (historisch, überholt); phytochemische Reviews (ätherisches Öl 1,5–5 %, Ploidie).
+- Rainfarn: Kommission E Negativmonographie (Tanaceti herba/flos); Giftpflanzen-/Toxikologiequellen (Thujon-GABA-A-Antagonismus, Vergiftungsschwelle >1–3 g, Rainfarnöl nicht innerlich, Abortivum-Todesfälle); phytochemische Reviews zur Chemotyp-Variabilität des Öls.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Kalmus — der „europäischer Kalmus ist asaronfrei"-Mythos ist falsch.** Asaronfrei ist nur der **nordamerikanische diploide** Typ. Der in Europa wilde/verwilderte Kalmus ist die **triploide** Sippe mit **5–19 % β-Asaron** im ätherischen Öl (indisch/tetraploid 70–96 %). β-Asaron ist genotoxisch + hepatokanzerogen, **kein ADI ableitbar**; EMA-Expositionsgrenze ~115 µg/Tag, Arzneibuch-Grenzwert ~0,5 %. Habe die Indikation auf `TRAD` gesetzt, `toxin_ceiling`/`pregnancy_contraindicated` gesetzt und im `overstated`/`key_warning` ausdrücklich vor der Asaronfrei-Annahme gewarnt. **Bitte den Kommission-E-Status gegenprüfen** — Sekundärquellen widersprechen sich (historisch positiv als Amarum vs. „keine anerkannte Monographie"); Primärquelle war nicht abrufbar, daher als „unsicher — zu prüfen" markiert.
+- **Kalmus — europäische Sippe ist steril (triploid).** Blüht, setzt aber keine Samen an, Ausbreitung nur vegetativ über Rhizom. Für Bestimmung/Garten relevant (Vermehrung nur durch Teilung).
+- **Kalmus — Verwechslung Iris pseudacorus.** Die Gelbe Schwertlilie heißt wörtlich „falscher Kalmus", wächst am selben Standort, ist **giftig** (nicht lebensgefährlich → `deadly_confusion=false`). Sicherer Unterscheider: **Kalmus riecht stark aromatisch**, Blattrand stellenweise **gewellt**, Mittelrippe **exzentrisch**; Iris geruchlos, flach, glattrandig.
+- **Rainfarn — NICHT Mutterkraut.** Häufige und gefährliche Namens-/Gattungsverwechslung: *Tanacetum vulgare* (Rainfarn, toxisch, Thujon) ≠ *Tanacetum parthenium* (Mutterkraut, Migräneprophylaxe). Explizit in `synonym_note`, `overstated` und `key_warning` getrennt. Mutterkraut steht separat als eigener offener Kandidat (`tanacetum-parthenium`, Tier 2).
+- **Rainfarn — dritter Thujon-Träger, aber der giftigste.** Öl chemotypabhängig bis ~70 % Thujon; wirksame ≈ toxische Dosis. Kommission-E-**Negativmonographie**, keine innerliche Selbstanwendung empfohlen; Indikationen bleiben (Nicht-Warneintrag, Tier 2) aber scharf als `TRAD`/obsolet eingegrenzt. `lowers_seizure_threshold` + `asteraceae_allergy` (Sesquiterpenlacton-Kontaktallergie) gesetzt.
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten Altfehler in den früheren handkuratierten Monographien (u. a. `toxicity_level`-Werte wie „essbar/gering", die das Schema nicht kennt — z. B. in `monographie-wermut.json`). Auftragsgemäß (genau 2 Monographien; kuratierte Dateien gehören dem Arzt) NICHT angefasst. Beide neuen Dateien bestehen die Prüfung einzeln fehlerfrei.
