@@ -590,8 +590,8 @@
       "latin": "Malva sylvestris",
       "tier": 4,
       "reason": "Schleimdroge, Reizhusten",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-wilde-malve.json"
     },
     {
       "id": "solidago-virgaurea",

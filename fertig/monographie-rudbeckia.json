@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "id": "rudbeckia-fulgida",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Rudbeckia fulgida Aiton",
+    "common_names_de": [
+      "Gewöhnlicher Sonnenhut",
+      "Garten-Sonnenhut",
+      "Orangefarbener Sonnenhut",
+      "Leuchtender Sonnenhut"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "keine anerkannte Arzneidroge — Zierpflanze"
+    ],
+    "drug_name_latin": "",
+    "synonyms": [
+      "Rudbeckia speciosa Wender.",
+      "Rudbeckia newmanii hort."
+    ],
+    "synonym_note": "Rudbeckia fulgida Aiton ist der aktuell akzeptierte Name (POWO/WFO/GBIF). ACHTUNG Namensfalle: Der englische Trivialname 'Black-eyed Susan' aus der Wunschliste bezeichnet eigentlich Rudbeckia hirta, nicht R. fulgida — der Pl@ntNet-/Bestimmungs-Treffer sollte gegengeprüft werden. 'Sonnenhut' meint im Deutschen sowohl Rudbeckia (gelb) als auch Echinacea (purpur) — NICHT gleichsetzen (siehe confusions)."
+  },
+  "identification": {
+    "key_features": [
+      "Gelbe bis gelb-orange Zungenblüten (Strahlen) um einen halbkugeligen, dunkelbraun-schwarzen Röhrenblüten-Kegel ('schwarzes Auge') — Korbblütler-Blütenkopf",
+      "Röhrenblüten-Kegel bleibt relativ flach/halbkugelig (nicht so hoch-igelig wie bei Echinacea, dessen Kegel spitz und stachelig ist)",
+      "Blätter lanzettlich bis eilanzettlich, rau behaart, grob gezähnt, wechselständig; untere Blätter gestielt",
+      "Ausdauernde Gartenstaude, 40–70 cm hoch, horstig, blüht spät (Juli–Oktober)",
+      "Strahlen bleiben rein gelb (KEINE herabhängenden purpurfarbenen Strahlen wie bei Echinacea purpurea)"
+    ],
+    "season": "Blütezeit Juli bis Oktober",
+    "habitat": "In Mitteleuropa Zier- und Gartenstaude in Beeten, Rabatten, Parks; nur selten verwildernd. Heimisch im östlichen Nordamerika (Prärien, lichte Wälder).",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "KEINE arzneiliche Wildsammlung — es handelt sich um eine Zierpflanze ohne anerkannte Heilanwendung",
+      "Ein 'Fund' im Bodenseeraum ist mit hoher Wahrscheinlichkeit eine Gartenpflanze bzw. Gartenflüchtling",
+      "Falls überhaupt bestimmt werden soll: gelbe Strahlen + flacher schwarzbrauner Röhrenkegel + raue, grob gezähnte Blätter; Abgrenzung zu Echinacea (Strahlen purpur/hängend, Kegel spitz-stachelig) beachten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Purpur-Sonnenhut / Roter Sonnenhut",
+      "scientific_name": "Echinacea purpurea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "WICHTIGSTE Verwechslung — nicht giftig, aber inhaltlich entscheidend: Echinacea hat (begrenzte) Erkältungs-/Immun-Evidenz, Rudbeckia NICHT. Beide heißen 'Sonnenhut'. Unterscheidung: Echinacea meist purpurrote, herabhängende Strahlen und ein hoher, spitz-stacheliger Blütenkegel; Rudbeckia fulgida rein gelbe, waagrecht abstehende Strahlen und flacher Kegel. Reputation von Echinacea NICHT auf Rudbeckia übertragen."
+    },
+    {
+      "name": "Raues Sonnenhut / 'Black-eyed Susan'",
+      "scientific_name": "Rudbeckia hirta",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Trägt eigentlich den englischen Namen 'Black-eyed Susan'. Sehr ähnlich (gelbe Strahlen, dunkles Auge), meist ein- bis kurzlebig und stärker rau-borstig behaart. Ungiftig; die Verwechslung ist botanisch, nicht gefährlich, aber für die korrekte id relevant."
+    },
+    {
+      "name": "Sonnenauge / Garten-Sonnenauge",
+      "scientific_name": "Heliopsis helianthoides",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ähnliche gelbe Korbblüten, aber Kegel/Scheibe gelblich (nicht schwarzbraun) und Zungenblüten fruchtbar. Ungiftige Zierstaude. Unterscheidung über die Farbe der Scheibenblüten."
+    },
+    {
+      "name": "keine relevante Verwechslung bekannt (giftig)",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv geprüft: Unter den ähnlichen gelben Korbblütlern (Rudbeckia, Echinacea, Heliopsis, Ratibida, Sonnenblumen-Verwandte) gibt es keinen lebensgefährlichen Doppelgänger. Rudbeckia fulgida selbst gilt als nicht bzw. gering giftig. Deshalb deadly_confusion=false. Relevant ist keine Vergiftungs-, sondern eine Reputations-Verwechslung (mit Echinacea)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide und Phenolcarbonsäuren (typisch für die Gattung)",
+      "Sesquiterpenlactone (Korbblütler-typisch — potenzielle Kontaktallergene)",
+      "genaue Drogenzusammensetzung für R. fulgida schlecht charakterisiert — 'unsicher — zu prüfen'"
+    ],
+    "lead_substance": "Keine definierte arzneiliche Leitsubstanz bekannt. Anders als bei Echinacea (Alkamide, Cichoriensäure) ist für Rudbeckia fulgida keine wirksamkeitsbestimmende Substanz etabliert — 'unsicher — zu prüfen'.",
+    "solubility_note": "Nicht relevant, da keine etablierte Zubereitung/Anwendung. Sesquiterpenlactone sind eher lipophil; für eine Anwendung liegt keine sinnvolle Ableitung vor.",
+    "heat_light_sensitivity": ""
+  },
+  "pharmacology": {
+    "mechanism": "Kein belegter pharmakologischer Wirkmechanismus für den Menschen. Für die Gattung Rudbeckia gibt es vereinzelte präklinische Hinweise (z. B. antimikrobielle/antioxidative In-vitro-Effekte von Extrakten), die keine klinische Aussage erlauben.",
+    "evidence_caveat": "Es existiert KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Rudbeckia fulgida. Die überlieferten Anwendungen stammen aus der nordamerikanischen (u. a. Cherokee) Ethnomedizin und sind wissenschaftlich nicht belegt. Von einer arzneilichen Wirksamkeit ist nicht auszugehen. Evidenzgrad daher durchgehend TRAD.",
+    "pharmacokinetics": ""
+  },
+  "indications": [
+    {
+      "canonical": "Äußerliche Anwendung bei Hautreizungen und kleinen Wunden (ethnomedizinisch, unbelegt)",
+      "synonyms": [
+        "Hautreizung",
+        "kleine Wunden",
+        "Schwellungen",
+        "Waschung",
+        "Umschlag"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein überliefert aus der nordamerikanischen Ethnomedizin (Waschungen/Umschläge). KEINE europäische Monographie, kein Wirknachweis. Aufnahme nur zur Vollständigkeit und zur ehrlichen Einordnung des Erwartungswerts.",
+      "realistic_expectation": "Kein belegter Nutzen. Es ist NICHT von einer Heilwirkung auszugehen. Diese Angabe dokumentiert lediglich die volkskundliche Überlieferung; für eine tatsächliche Anwendung fehlt jede belastbare Grundlage. Bei Wunden/Hautproblemen etablierte Mittel verwenden.",
+      "source": "Nordamerikanische Ethnomedizin (Cherokee); keine regulatorische Monographie (HMPC/ESCOP/Kommission E: nicht vorhanden)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wertvolle, insektenfreundliche Zier- und Bienenweide-Staude. Ein belegter medizinischer Nutzen besteht nicht.",
+    "overstated": "Rudbeckia fulgida ist KEIN Ersatz für und kein Verwandter mit gleicher Wirkung wie der Purpur-Sonnenhut (Echinacea): Sie hat keine Erkältungs-, Immun- oder Wundheil-Evidenz. Der gemeinsame Name 'Sonnenhut' verführt zu genau dieser falschen Gleichsetzung. Die überlieferten inneren Anwendungen (Tee gegen Nieren-/Frauenleiden u. Ä.) sind unbelegt und wegen unklarer Sicherheit NICHT zu empfehlen.",
+    "effect_size": "kein belegter Effekt (arzneilich); Nutzen ökologisch/gärtnerisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine arzneiliche Zubereitung empfohlen"
+    ],
+    "form_rationale": "Da weder Wirksamkeit noch eine standardisierte Droge belegt sind, kann keine sinnvolle Zubereitungsform abgeleitet werden. Die Pflanze ist als Zierstaude, nicht als Heilpflanze einzuordnen.",
+    "standard_dose": "nicht anwendbar — keine etablierte arzneiliche Dosierung",
+    "preservation": ""
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Korbblütler-(Asteraceen-)Allergie",
+      "Keine innerliche Selbstanwendung mangels Wirksamkeits- und Sicherheitsdaten"
+    ],
+    "pregnancy_lactation": "Keine Daten. Da keine arzneiliche Anwendung empfohlen wird, stellt sich die Frage praktisch nicht; von einer Anwendung in Schwangerschaft/Stillzeit ist mangels Daten abzuraten. 'unsicher — zu prüfen'.",
+    "adverse_effects": "Als Korbblütler mögliche Kontaktallergie/Hautreizung (Sesquiterpenlactone), v. a. bei empfindlichen Personen. Systemische Toxizität bei der Zierpflanze nicht bekannt; sie gilt als nicht bzw. gering giftig.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "keine bekannten Arzneimittelinteraktionen (keine arzneiliche Anwendung, keine Daten)",
+        "affected": "",
+        "clinical_relevance": "keine bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Zierpflanze ohne belegten Heilwert — NICHT mit dem Purpur-Sonnenhut (Echinacea) gleichsetzen; überlieferte innere Anwendungen sind unbelegt und wegen unklarer Sicherheit nicht zu empfehlen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine arzneiliche Ernte; Blütezeit als Zierpflanze Juli–Oktober",
+    "harvest_month_tags": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_organ": "Kraut (nur gärtnerisch/zierpflanzlich, keine Droge)",
+    "method": "nicht anwendbar (Zierpflanze)",
+    "processing": "",
+    "storage": ""
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung; keine anerkannte medizinische Verwendung. Reine Zierpflanze."
+  },
+  "garden": {
+    "site_soil": "Sonnig, frischer, nährstoffreicher, durchlässiger Gartenboden",
+    "hardiness": "Sehr winterhart, ausdauernde Staude; anspruchslos und langlebig",
+    "propagation": "Teilung im Frühjahr/Herbst, Aussaat; die Sorte 'Goldsturm' (Rudbeckia fulgida var. sullivantii) ist weit verbreitet",
+    "bodensee_suitability": "Sehr gut als Zier- und Insektenstaude geeignet und im Bodenseeraum verbreitet kultiviert — nur eben nicht als Heilpflanze."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Gelbe Strahlen um flachen schwarzbraunen Röhrenkegel — Abgrenzung zum spitz-stacheligen Kegel der Echinacea",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "POWO / Plants of the World Online (Kew): Rudbeckia fulgida Aiton — akzeptierter Name",
+    "World Flora Online; GBIF; USDA PLANTS: Rudbeckia fulgida Aiton",
+    "Wikipedia (en): Rudbeckia fulgida (Verbreitung, Trivialnamen, Ethnobotanik Cherokee)",
+    "plantids.com; hortica.de (Giftigkeit/essbar); Recherche EMA/HMPC, ESCOP, Kommission E — KEINE Monographie vorhanden (Stand 2026-07)",
+    "vetpharm.uzh.ch Giftdatenbank (Eintrag Rudbeckia fulgida — Abruf HTTP 403, nur Trefferverweis)"
+  ]
+}

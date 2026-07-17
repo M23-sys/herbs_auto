@@ -191,6 +191,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 2). Dritter Thujon-Traeger im Katalog (nach Salbei und Wermut), aber deutlich toxischer: das aetherische Oel ist thujonreich (chemotypabhaengig bis ~70 %), die wirksame Dosis liegt nahe der toxischen - bereits >1-3 g Droge koennen Vergiftungen ausloesen (Kraempfe, Herzrhythmusstoerungen bis Atemlaehmung), Rainfarnoel nicht innerlich. Kommission E: NEGATIVMONOGRAPHIE; keine HMPC-/ESCOP-Monographie -> Indikationen (Wurmmittel, Insektenabwehr) TRAD und obsolet. In der Schwangerschaft strikt kontraindiziert (historisch als Abortivum missbraucht, teils toedlich). Wichtige Abgrenzung: NICHT mit Tanacetum parthenium (Mutterkraut, Migraeneprophylaxe) verwechseln - andere, toxische Art. Verwechslung im Feld mit Jakobskreuzkraut (giftig, PA; hat Zungenblueten, Rainfarn nur gelbe Knoepfe). toxin_ceiling (Thujon) + pregnancy_contraindicated + lowers_seizure_threshold + asteraceae_allergy gesetzt."
+    },
+    {
+      "ts": "2026-07-17T18:30:00Z",
+      "id": "malva-sylvestris",
+      "common": "Wilde Malve",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste + Kandidat Tier 4). Schleimdroge wie Eibisch: HMPC 'traditional use' (Malvae folium / Malvae sylvestris flos) und positive Kommission E fuer Reizung der Mund-/Rachenschleimhaut mit trockenem Reizhusten sowie leichte Magen-Darm-Beschwerden -> beide Indikationen TU (KEIN well-established use, keine RCT). Kernpunkt fuer die Zubereitung: die wirksamen Schleimstoffe (5-12 %) sind hitzeempfindlich -> KALTAUSZUG, nicht kochen; Tinktur faellt den Schleim aus. Sehr sicher (high_safety=true): kein Toxin, kein giftiger Doppelgaenger (alle aehnlichen Malvengewaechse essbar) - deadly_confusion=false, aber confusions bewusst gefuellt (Rosen-Malve, Weg-Malve, Stockrose als Drogen-Verfaelschung). Einzige Interaktion: Schleim kann Resorption anderer Arzneimittel verzoegern (30-60 min Abstand), klinisch gering."
+    },
+    {
+      "ts": "2026-07-17T18:30:30Z",
+      "id": "rudbeckia-fulgida",
+      "common": "Gewoehnlicher Sonnenhut (Rudbeckia)",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). WICHTIG: KEIN belegter Heilwert - keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie; nur nordamerikanische (Cherokee) Ethnomedizin -> Evidenz durchgehend TRAD, von Wirksamkeit ist nicht auszugehen. Zwei Namensfallen fuer den Arzt: (1) der Wunschlisten-Trivialname 'Black-eyed Susan' gehoert eigentlich zu Rudbeckia hirta, nicht R. fulgida - Pl@ntNet-Treffer gegenpruefen; (2) 'Sonnenhut' verfuehrt zur Gleichsetzung mit Echinacea (Purpursonnenhut), die - anders als Rudbeckia - begrenzte Erkaeltungs-/Immun-Evidenz hat. Unterscheidung: Rudbeckia rein gelbe, abstehende Strahlen + flacher schwarzbrauner Kegel; Echinacea purpurne haengende Strahlen + spitz-stacheliger Kegel. Zierpflanze (nur-kultur-selten-verwildert), gering giftig, aber Korbbluetler-Kontaktallergie (asteraceae_allergy=true). Ueberlieferte innere Anwendungen unbelegt und nicht empfohlen."
     }
   ]
 }

@@ -488,3 +488,31 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die 
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten Altfehler in den früheren handkuratierten Monographien (u. a. `toxicity_level`-Werte wie „essbar/gering", die das Schema nicht kennt — z. B. in `monographie-wermut.json`). Auftragsgemäß (genau 2 Monographien; kuratierte Dateien gehören dem Arzt) NICHT angefasst. Beide neuen Dateien bestehen die Prüfung einzeln fehlerfrei.
+
+## 2026-07-17 — Wilde Malve (WUNSCHLISTE + Kandidat), Rudbeckia/Sonnenhut (WUNSCHLISTE)
+
+**Auswahl (genau 2):** Wunschliste hat Vorrang. `docs/wunschliste.json` (Stand 2026-07-17) enthaelt 6 Eintraege; die ersten beiden offenen in Listenreihenfolge nach Dedup:
+- **rudbeckia-fulgida** (Gewoehnlicher Sonnenhut / Wunsch-Trivialname "Black eyed Susan") — Quelle: Wunschliste (Platz 1) — `fertig/monographie-rudbeckia.json`
+- **malva-sylvestris** (Wilde Malve / "Common mallow") — Quelle: Wunschliste (Platz 2), steht ZUGLEICH als Kandidat Tier 4 — `fertig/monographie-wilde-malve.json`
+
+Die uebrigen Wunsch-Eintraege (achillea-nobilis, nepeta-cataria, malva-arborea, erigeron-strigosus) bleiben offen (max. 2/Lauf).
+
+**Dedup:** gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprueft — keine Dublette. Wichtige Nicht-Treffer bewusst ausgeschlossen: `kleine-katzenminze` = nepeta-nepetella (NICHT nepeta-cataria); `klebriger-alant` = dittrichia-viscosa (fuehrt zwar Synonym "Erigeron viscosum", ist aber NICHT erigeron-strigosus); vorhandenes `achillea-millefolium` (Schafgarbe) ist NICHT achillea-nobilis. Altnamen eingetragen: Malva = M. ambigua/erecta/mauritiana/glabra; Rudbeckia = R. speciosa/newmanii.
+
+**Kandidatenliste:** malva-sylvestris (Tier 4) von "offen" auf "entwurf_fertig" gesetzt + datei ergaenzt. rudbeckia-fulgida steht nicht in der Kandidatenliste (nur Wunsch) → dort nichts geaendert. Kein Self-Heal noetig (kein als "offen" markierter Kandidat lag bereits in `fertig/`). Wunschliste NICHT angefasst (App hakt selbst ab).
+
+**Pruefergebnis:** beide einzeln UND gemeinsam `✓ ok, mit Hinweisen`, **0 Fehler beim ersten Versuch — 0 Korrekturversuche**. Einziger Hinweis je Datei: enthaelt bewusst "unsicher/zu pruefen".
+
+**Hauptquellen:**
+- Wilde Malve: EMA/HMPC EU herbal monograph Malva sylvestris L. und/oder Malva neglecta Wallr., folium; und Malva sylvestris L., flos (traditional use) + Assessment report; Kommission E (positiv). Chemie/Zubereitung/Verwechslung ueber phytodoc.de, awl.ch, pflanzenfreunde.com, PTA-Forum, kostbarenatur.net.
+- Rudbeckia fulgida: POWO/Kew, World Flora Online, GBIF, USDA (akzeptierter Name); Wikipedia (en) fuer Trivialnamen/Cherokee-Ethnobotanik; plantids.com, hortica.de (essbar/giftig). Gezielte Recherche EMA/HMPC + ESCOP + Kommission E: KEINE Monographie vorhanden.
+- **Quellen-Abruf:** WebFetch der EMA-Primaer-PDF (Malva-Monograph) und der vetpharm-Giftdatenbank (Rudbeckia) lieferte wie in allen Vorlaeufen **HTTP 403**. Inhalte daher ueber WebSearch-Zusammenfassungen mehrerer uebereinstimmender Sekundaerquellen verifiziert. Fuer Malva ist die HMPC-Einstufung (traditional use, nicht WEU) mehrfach bestaetigt und belastbar; **die exakte TU-Wortlaut/Posologie sollte bei der Sichtung gegen das Original geprueft werden.**
+
+### Ueberraschungen / unsichere Stellen fuer den Arzt
+
+- **Rudbeckia fulgida hat KEINEN belegten Heilwert** — anders als der Katalog-Nachbar Echinacea (Purpursonnenhut). Keine europaeische Monographie; nur nordamerikanische Ethnomedizin. Alle Indikationen TRAD, defensiv formuliert. Das ist kein Rechercheversaeumnis, sondern der reale Befund. Ich habe genau EINE (aeussere) TRAD-Indikation aufgenommen und die ueberlieferten INNEREN Anwendungen (Tee gegen Nieren-/Frauenleiden) bewusst NICHT als Indikation gelistet, sondern in `overstated` als unbelegt und wegen unklarer Sicherheit nicht empfohlen markiert. Bitte bestaetigen, ob diese Zurueckhaltung so gewuenscht ist.
+- **Rudbeckia — zwei Namensfallen.** (1) Der Wunschlisten-Trivialname **"Black eyed Susan" gehoert eigentlich zu Rudbeckia hirta**, nicht zu R. fulgida — bitte den Pl@ntNet-Treffer gegenpruefen, der zu diesem Wunsch-Eintrag fuehrte. (2) **"Sonnenhut" = sowohl Rudbeckia (gelb) als auch Echinacea (purpur)**; die begrenzte Erkaeltungs-/Immun-Evidenz gehoert AUSSCHLIESSLICH zu Echinacea. Prominente Abgrenzung in `confusions`, `key_warning`, `overstated`, `synonym_note`. `asteraceae_allergy=true`, `high_safety=false` (Sicherheitsdaten fehlen weitgehend).
+- **Wilde Malve — Evidenz nicht schoenen:** trotz festem Ruf als Hustentee nur `TU` (HMPC traditional use + Kommission E), keine RCT. Zwilling zum bereits vorhandenen Eibisch (gleiche Schleim-Wirkklasse, gleiche Kaltauszug-Regel).
+- **Wilde Malve — Zubereitung ist der kritische Punkt, nicht Toxizitaet:** Schleimstoffe hitzeempfindlich → Kaltauszug, nicht kochen; alkoholische Tinktur ungeeignet. `high_safety=true` gesetzt (kein Toxin, kein giftiger Doppelgaenger), obwohl eine geringe Resorptionsinteraktion (Schleimfilm, 30-60 min Abstand) besteht — konsistent mit der Eibisch-Monographie. Bitte gegenpruefen, ob das Register das so abbilden soll.
+- **Wilde Malve — keine giftige Verwechslung:** aktiv geprueft, alle aehnlichen Malvengewaechse (Rosen-Malve, Weg-Malve, Stockrose) sind essbar. `confusions` bewusst gefuellt inkl. explizitem "keine relevante Verwechslung bekannt (giftig)"-Eintrag statt leerem Array. Stockrose (Alcea rosea) ist als Drogen-Verfaelschung der Malvenblueten pharmazeutisch relevant, aber ungefaehrlich.
+- **Datei-/Namenskonvention Rudbeckia:** bewusst `monographie-rudbeckia.json` statt `...-sonnenhut.json`, weil "Sonnenhut" im Katalog mit Echinacea (purpursonnenhut) kollidiert. id = `rudbeckia-fulgida` (akzeptierter Name Aiton).

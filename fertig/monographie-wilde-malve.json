@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "id": "malva-sylvestris",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Malva sylvestris L.",
+    "common_names_de": [
+      "Wilde Malve",
+      "Rosspappel",
+      "Käsepappel",
+      "Große Käsepappel",
+      "Waldmalve"
+    ],
+    "family": "Malvaceae (Malvengewächse)",
+    "drug_part": [
+      "Blatt (Malvae folium)",
+      "Blüte (Malvae sylvestris flos)"
+    ],
+    "drug_name_latin": "Malvae folium; Malvae sylvestris flos",
+    "synonyms": [
+      "Malva ambigua Guss.",
+      "Malva erecta C.Presl",
+      "Malva mauritiana L.",
+      "Malva glabra Desr."
+    ],
+    "synonym_note": "Taxonomisch stabil; die aufgeführten lateinischen Namen sind Synonyme/Varietäten derselben Art (Malva mauritiana wird teils als Zierform geführt). Nicht zu verwechseln mit Malva alcea (Rosen-Malve) oder Malva neglecta (Weg-Malve) — eigene Arten."
+  },
+  "identification": {
+    "key_features": [
+      "Blüten hell purpur-violett mit 3–5 kräftigen dunkleren Längsstreifen (Aderung) auf jedem Kronblatt — das sicherste Merkmal",
+      "Kronblätter tief ausgerandet (herzförmig eingekerbt), 2–3 cm, deutlich länger als der Kelch",
+      "Blätter rundlich-herzförmig mit 5–7 flachen, gekerbt-gesägten Lappen, lang gestielt, wechselständig",
+      "Außenkelch (Epicalyx) aus 3 schmalen, freien Blättchen unter dem eigentlichen Kelch",
+      "Aufrechter bis aufsteigender, meist behaarter Stängel, 30–120 cm; Teilfrüchte als flache 'Käselaibchen' (daher Käsepappel)"
+    ],
+    "season": "Blütezeit Juni bis September (teils bis Oktober)",
+    "habitat": "Ruderalstandorte: Weg- und Straßenränder, Zäune, Schuttplätze, Mauern, Dorfränder, nährstoffreiche sonnige Böden; wärmeliebend",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Blätter und Blüten an trockenen, unbelasteten Standorten sammeln (Ruderalpflanze wächst oft an Wegen/Hundehöhe — meiden)",
+      "Bestätiger: gestreifte hell-violette Blüten + 3-teiliger Außenkelch + rundlich-gelappte, langgestielte Blätter",
+      "Abgrenzung zur Rosen-Malve (Malva alcea): deren obere Blätter sind fast handförmig tief zerschlitzt, Außenkelchblättchen breit-eiförmig — bei M. sylvestris schmal",
+      "Verwechslung nur mit anderen (ebenfalls essbaren/ungiftigen) Malvengewächsen — kein giftiger Doppelgänger, siehe confusions"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Rosen-Malve / Sigmarswurz",
+      "scientific_name": "Malva alcea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährlich, ähnlich verwendbar. Unterscheidung: obere Stängelblätter tief handförmig zerschlitzt, Außenkelchblättchen breit-eiförmig (bei Wilder Malve schmal-linealisch); Blüten meist reiner rosa ohne die kräftige dunkle Streifung."
+    },
+    {
+      "name": "Weg-Malve / Kleine Käsepappel",
+      "scientific_name": "Malva neglecta",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Niederliegend, Blüten kleiner (ca. 1 cm), blassrosa-weißlich mit nur schwacher Aderung. Ebenfalls essbar und schleimhaltig; die HMPC-Monographie fasst das Blatt (folium) beider Arten zusammen. Keine Gefahr bei Verwechslung."
+    },
+    {
+      "name": "Stockrose / Schwarze Malve",
+      "scientific_name": "Alcea rosea (Malva-Verwandte)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Deutlich größer (bis 2–3 m), große Blüten, oft schwarzrot ('Malvae arboreae flos'). Wird als Drogen-Verfälschung der Malvenblüten gehandelt — pharmazeutisch relevant, aber ungiftig. Feldunterscheidung über Wuchshöhe und Blütengröße."
+    },
+    {
+      "name": "keine relevante Verwechslung bekannt (giftig)",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv geprüft: Innerhalb der Malvengewächse und der ähnlichen Storchschnabel-/Rundblatt-Wildkräuter gibt es keinen lebensgefährlichen oder stark giftigen Doppelgänger. Die charakteristisch gestreiften violetten Blüten mit 3-teiligem Außenkelch sind eindeutig. Deshalb deadly_confusion=false."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (Polysaccharide) ca. 5–12 % in Blatt und Blüte",
+      "Anthocyane (v. a. Malvin = Malvidin-3,5-diglucosid) in den Blüten, bis ca. 7 %",
+      "Flavonoide",
+      "Gerbstoffe (in geringer Menge)"
+    ],
+    "lead_substance": "Schleimpolysaccharide — bilden einen reizmildernden Schutzfilm auf gereizten Schleimhäuten (demulzente Wirkung); die Anthocyane geben Blütentees die blau-violette Farbe, tragen aber kaum zur Wirkung bei",
+    "solubility_note": "Schleimstoffe sind wasserlöslich, aber hitze- und teils alkoholempfindlich. Wie bei Eibisch daher KALTAUSZUG (Mazerat, 1–2 h in kaltem Wasser) bevorzugt; heiß aufgegossener Tee zieht weniger Schleim, kochen zerstört ihn. Tinktur (alkoholisch) ist für die Schleimwirkung ungeeignet.",
+    "heat_light_sensitivity": "Schleim hitzeempfindlich → nicht kochen. Anthocyane sind pH- und lichtempfindlich (Farbumschlag), pharmazeutisch aber nachrangig."
+  },
+  "pharmacology": {
+    "mechanism": "Rein physikalisch-demulzent: Die Schleimpolysaccharide legen sich als Film über die entzündete/gereizte Schleimhaut von Mund, Rachen und oberem Magen-Darm-Trakt, dämpfen den Hustenreiz und schützen vor weiterer Reizung. Keine systemische, keine antivirale oder 'heilende' Wirkung auf die Ursache.",
+    "evidence_caveat": "Nur traditionelle Anwendung (HMPC 'traditional use'). Kontrollierte klinische Studien fehlen weitgehend; die Wirkung ist plausibel und mechanistisch nachvollziehbar (reizmildernd), aber nicht durch belastbare RCT belegt. Kein 'well-established use'.",
+    "pharmacokinetics": "Schleimstoffe werden nicht resorbiert, sondern wirken lokal an der Schleimhaut und werden im Darm teils abgebaut/fermentiert."
+  },
+  "indications": [
+    {
+      "canonical": "Reizung der Mund- und Rachenschleimhaut mit trockenem Reizhusten",
+      "synonyms": [
+        "trockener Reizhusten",
+        "Halskratzen",
+        "wunder Hals",
+        "Heiserkeit",
+        "gereizter Rachen",
+        "Halsschmerzen",
+        "Kratzen im Hals"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC EU-Monographie 'traditional use' für Malvae folium und Malvae sylvestris flos; Kommission E positiv (Reizung der Mund-/Rachenschleimhaut und damit verbundener trockener Husten).",
+      "realistic_expectation": "Lindert symptomatisch das Kratzen und den trockenen Reizhusten durch einen beruhigenden Schleimfilm — als Tee, Kaltauszug oder Gurgellösung. Beseitigt keine Infektion und verkürzt keinen Krankheitsverlauf. Wirkung mild und kurz anhaltend, ggf. mehrfach täglich anwenden.",
+      "source": "HMPC traditional use (Malvae folium / Malvae sylvestris flos); Kommission E (positiv)"
+    },
+    {
+      "canonical": "Leichte Magen-Darm-Beschwerden (Reizung der Magen-Darm-Schleimhaut)",
+      "synonyms": [
+        "gereizter Magen",
+        "empfindlicher Magen",
+        "leichte Magenschleimhautreizung",
+        "leichte Bauchbeschwerden"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC 'traditional use' für leichte Magen-Darm-Beschwerden; volksmedizinisch auch bei leichter Gastritis. Reizmildernder Schleimeffekt.",
+      "realistic_expectation": "Kann leichte Reizzustände der Magen-Darm-Schleimhaut symptomatisch beruhigen. Kein Ersatz für Diagnostik/Therapie bei anhaltenden Magenbeschwerden, Reflux oder Ulkusverdacht.",
+      "source": "HMPC traditional use; Volksmedizin"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, gut verträgliches Reizlinderungsmittel (Demulzens) bei trockenem Reizhusten, Halskratzen und leichter Schleimhautreizung im Mund-/Rachenraum und Magen-Darm-Trakt. Angenehm als Tee/Kaltauszug, auch für Kinder und ältere Menschen geeignet.",
+    "overstated": "Keine Wirkung gegen die Ursache von Erkältungen/Infekten, kein Immun-, Entgiftungs- oder 'Blutreinigungs'-Effekt. Löst keinen festsitzenden, produktiven Husten (dafür sind Schleimlöser gedacht — Malve wirkt umgekehrt reizmildernd bei TROCKENEM Husten). Die schöne blaue Blütenfarbe ist kein Wirkmaß.",
+    "effect_size": "mild; rein symptomatisch, lokal reizmildernd"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Kaltauszug (Mazerat) aus Blättern und/oder Blüten",
+      "Tee (kurz und nicht kochend übergießen)",
+      "Gurgel-/Spüllösung für den Rachen"
+    ],
+    "form_rationale": "Da die wirksamen Schleimstoffe hitzeempfindlich sind, konserviert der Kaltauszug sie am besten (1–2 g Droge auf 150 ml kaltes Wasser, 1–2 h ziehen lassen, gelegentlich umrühren, dann abseihen und leicht erwärmen). Für den Rachen als Gurgellösung ideal. Alkoholische Tinktur ist ungeeignet, weil sie den Schleim ausfällt.",
+    "standard_dose": "Erwachsene: mehrmals täglich 1 Tasse Kaltauszug/Tee (Tagesmenge Droge ca. 5 g); zum Gurgeln mehrmals täglich. Kinder entsprechend geringer. Keine feste Höchstdauer (unbedenkliche Droge), bei anhaltenden Beschwerden >1 Woche ärztlich abklären.",
+    "preservation": "Getrocknete Droge trocken, licht- und luftgeschützt lagern (Blütenfarbe verblasst mit der Zeit — kein Qualitätsmangel des Schleims). Kaltauszug frisch zubereiten, nicht aufbewahren (mikrobiell anfällig)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Malvengewächse (selten)"
+    ],
+    "pregnancy_lactation": "Als Lebensmittel/Tee in üblichen Mengen unbedenklich. Für die arzneiliche Anwendung liegen keine spezifischen Studiendaten vor; die HMPC-Monographien empfehlen mangels Daten formal Zurückhaltung. Praktisch gilt Malve als sehr risikoarm — bei bestimmungsgemäßer Teemenge keine Bedenken. 'unsicher — zu prüfen' bezüglich hoher arzneilicher Dosen.",
+    "adverse_effects": "Sehr selten allergische Reaktionen. Der Schleimfilm kann theoretisch die Aufnahme gleichzeitig eingenommener Arzneimittel verzögern (siehe interactions).",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Schleimfilm auf der Darmschleimhaut kann die Resorption zeitgleich eingenommener Arzneistoffe verzögern/vermindern",
+        "affected": "oral eingenommene Arzneimittel allgemein (theoretisch, klinisch geringfügig)",
+        "clinical_relevance": "gering — vorsorglich zeitlicher Abstand von 30–60 min zu anderen Medikamenten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Sehr sichere, reizmildernde Schleimdroge — als Kaltauszug zubereiten (Hitze zerstört die Schleimstoffe); sie behandelt aber nur das Symptom (trockener Reizhusten/Halskratzen), nicht die Ursache eines Infekts."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter und Blüten während der Blütezeit Juni–September, an trockenen Tagen",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blüte und Blatt",
+    "method": "Blüten einzeln pflücken, Blätter abzupfen; schonend, da schleimhaltig",
+    "processing": "Rasch und luftig bei ≤40 °C trocknen (hohe Temperaturen und langes Liegen mindern Qualität und Blütenfarbe)",
+    "storage": "Trocken, dunkel, luftdicht; innerhalb eines Jahres verbrauchen"
+  },
+  "kitchen": {
+    "uses": [
+      "Junge Blätter roh in Salat oder als mildes Kochgemüse (schleimig-bindend, ähnlich wie Malven-/Okra-Charakter)",
+      "Blüten essbar, als essbare Dekoration",
+      "Unreife 'Käselaibchen'-Früchtchen als Knabberei (daher 'Käsepappel')"
+    ],
+    "culinary_vs_medicinal": "Küchenmenge (Salat/Gemüse) und Teemenge sind gleichermaßen unbedenklich; die Grenze ist fließend. Der medizinische Nutzen liegt in der reizmildernden Schleimwirkung, die beim Kaltauszug am stärksten ist."
+  },
+  "garden": {
+    "site_soil": "Sonnig, nährstoffreicher, durchlässiger Boden; anspruchslos und wärmeliebend",
+    "hardiness": "Winterhart; oft zwei- bis mehrjährig, versamt sich reichlich selbst",
+    "propagation": "Aussaat im Frühjahr; Selbstaussaat",
+    "bodensee_suitability": "Gut geeignet — im Bodenseeraum wildwachsend häufig und im Garten problemlos; neigt zum Versamen."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Hell-violette Blüte mit dunkler Streifung und dreiteiligem Außenkelch",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Malva sylvestris L. and/or Malva neglecta Wallr., folium; und Malva sylvestris L., flos (traditional use)",
+    "EMA/HMPC Assessment report Malva sylvestris folium / flos",
+    "Kommission E: Malvae folium / Malvae flos (positiv — Reizung der Mund-/Rachenschleimhaut und damit verbundener trockener Husten)",
+    "Sekundärquellen zu Chemie/Zubereitung: phytodoc.de, awl.ch, pflanzenfreunde.com, PTA-Forum, kostbarenatur.net"
+  ]
+}
