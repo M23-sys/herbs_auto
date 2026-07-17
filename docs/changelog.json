@@ -143,6 +143,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 1). HMPC führt Allii sativi bulbus nur als TRADITIONAL USE (Vorbeugung der Arteriosklerose; Linderung von Erkältungssymptomen), Kommission E + ESCOP positiv für erhöhte Blutfette/Gefäßvorsorge → TU/ESCOP+ bzw. TU, KEIN WEU; Effekt mild, kein Statin-Ersatz. Zwei sicherheitskritische Interaktionen (interaction_heavy=true): (1) hoch dosiert erhöhte Blutungsneigung mit Gerinnungshemmern/ASS, ~7 Tage vor OP pausieren; (2) senkt über CYP3A4/P-gp die Spiegel von HIV-Protease-Hemmern (Saquinavir — BfArM-Stufenplan II). deadly_confusion=true bewusst für den VERWANDTSCHAFTS-Kontext gesetzt: die kultivierte Zwiebel selbst ist unverwechselbar, aber die Wildsammlung der verwandten Lauche (Bärlauch) verwechselt tödlich mit Maiglöckchen/Herbstzeitloser. Taxonomie: heute Amaryllidaceae (früher Liliaceae/Alliaceae)."
+    },
+    {
+      "ts": "2026-07-17T09:00:00Z",
+      "id": "tussilago-farfara",
+      "common": "Huflattich",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 2, 1. PA-Fall). Kein HMPC/ESCOP — Kommission E positiv für Farfarae folium (Katarrhe der Atemwege mit Husten/Heiserkeit), wegen der PA-Problematik jedoch aus dem DAB gestrichen → Evidenz nur TRAD, nicht TU. Enthält lebertoxische, potenziell krebserregende Pyrrolizidinalkaloide (toxin_ceiling+hepatotoxic+pregnancy_contraindicated): Arzneimittel max. 1 µg PA/Tag, innerlich höchstens 4–6 Wochen/Jahr, PA-arme Zuchtsorte 'Wien'; Wildsammlung innerlich meiden. Sichere Schleimdrogen (Eibisch, Malve, Spitzwegerich) sind vorzuziehen. Verwechslung mit Pestwurz-Arten (ebenfalls PA), kein tödlicher Doppelgänger → deadly_confusion=false."
+    },
+    {
+      "ts": "2026-07-17T09:00:30Z",
+      "id": "petasites-hybridus",
+      "common": "Gewöhnliche Pestwurz",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 2). Kein HMPC/ESCOP. Bemerkenswert: RCT-Evidenz zur Migräneprophylaxe (Petadolex 75 mg 2×/Tag, −48 % Attacken, Lipton 2004) und zur allergischen Rhinitis (Ze 339) → evidence_tag RCT — aber NUR für standardisierte, PA-FREIE Spezialextrakte, nie Tee/Wildpflanze. Sicherheitskern: native Pflanze/Tee lebertoxisch+kanzerogen (PA); selbst PA-freie Extrakte lösten Leberschäden aus → Petadolex in D seit 07/2009 ohne Zulassung, AAN/AHS-Leitlinienempfehlung 2015/16 ZURÜCKGEZOGEN. Kommission E: positiv nur für das Rhizom (Harnwegskrämpfe), negativ für Blatt/Gesamtpflanze. toxin_ceiling+hepatotoxic+pregnancy_contraindicated. Taxonomie: Basionym Tussilago petasites/hybrida — erklärt die Verwechslungsnähe zum Huflattich."
     }
   ]
 }

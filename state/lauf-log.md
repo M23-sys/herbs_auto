@@ -402,3 +402,31 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unveraendert die 
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten ~38 Altfehler in den früheren handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut) — meist `toxicity_level`-Werte wie "essbar/gering", die das Schema nicht kennt. Auftragsgemäß (genau 2 Monographien, kuratierte Dateien gehören dem Arzt) NICHT angefasst. Empfehlung unverändert: eigener Bereinigungslauf. Beide neuen Dateien bestehen die Prüfung einzeln und gemeinsam fehlerfrei.
+
+## Lauf 2026-07-17 — Huflattich, Gewöhnliche Pestwurz
+
+**Auswahl / Quelle:** `docs/wunschliste.json` (5 Einträge) hat **0 offene** — alle fünf (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis) liegen bereits in `fertig/` (per id **und** Synonym-Dedup bestätigt: kriechendes-fingerkraut, kleine-katzenminze, klebriger-alant, hundszahngras, kanarischer-efeu). Daher beide Plätze aus `kraeuter-kandidaten.json`: die ersten beiden **offenen** Einträge nach tier aufsteigend — beide Tier 2, in Listenreihenfolge:
+- **tussilago-farfara (Huflattich)** — Kandidat, Tier 2 → `fertig/monographie-huflattich.json`, Status `entwurf_fertig`
+- **petasites-hybridus (Gewöhnliche Pestwurz)** — Kandidat, Tier 2 → `fertig/monographie-pestwurz.json`, Status `entwurf_fertig`
+
+**Dedup:** Beide gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprüft — nicht vorhanden. Synonyme selbst eingetragen (Huflattich: Farfara radiata Gilib. u. a.; Pestwurz: Tussilago hybrida/petasites L., Petasites officinalis/vulgaris/ovatus). Keine Selbstheilung nötig. Keine Dubletten-Warnung des Skripts.
+
+**Recherche-Kanal:** WebSearch funktionierte gut (Kommission E, HMPC-Public-Statement PA, StatPearls/NCBI, Neurology/AAN, Altmeyers, Arzneipflanzen-Lexikon). **WebFetch auf AWL.ch (Sekundärquelle) HTTP 403** — Inhalte stattdessen über WebSearch-Zusammenfassungen belegt. EMA/HMPC führt zu KEINER der beiden Arten eine Monographie (kein Primär-PDF nötig/vorhanden). **Primärregulatorik hier = Kommission E + BfArM-Stufenplan; ärztliche Gegenprüfung der Evidenzgrade wie immer nötig.**
+
+**Prüfergebnis:** Beide bestehen `validate_monographie.py` einzeln und gemeinsam fehlerfrei — je `✓ alles sauber`, **0 Korrekturversuche**. Keine Dubletten.
+
+**Hauptquellen:**
+- Huflattich: Kommission E (Farfarae folium, positiv, mit PA-Warnung); HMPC Public Statement 2021 (ungesättigte PA); BfArM-Stufenplan (Grenzwert 1 µg PA/Tag, 4–6 Wochen/Jahr); Arzneipflanzen-Lexikon/AWL (PA-arme Zuchtsorte 'Wien').
+- Pestwurz: Kommission E (Petasitidis rhizoma positiv / Blatt+Gesamtpflanze negativ); Lipton et al. Neurology 2004 (Petadolex-RCT Migräne); Schapowal BMJ 2002 (Ze 339, allergische Rhinitis); AAN/AHS-Leitlinie (Empfehlung 2015/16 zurückgezogen); BfArM (Petadolex-Marktrücknahme 07/2009); StatPearls Butterbur.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Beide Kräuter sind PA-Träger und teilen den Sicherheitskern** (toxin_ceiling=true, toxin_type=Pyrrolizidinalkaloide, hepatotoxic=true, pregnancy_contraindicated=true, asteraceae_allergy=true). Grenzwert einheitlich 1 µg PA/Tag; native Wildpflanze/Tee bei beiden innerlich zu meiden. Das macht sie zum sauberen Auftakt des PA-Registers.
+- **Huflattich — Evidenz bewusst TRAD, NICHT TU.** Kommission E führt Farfarae folium POSITIV (Husten/Katarrhe), aber es gibt WEDER HMPC- NOCH ESCOP-Monographie, und die Droge wurde wegen PA aus dem DAB gestrichen. Da 'TU' im Katalog HMPC-traditional-use meint, wäre TU faktisch falsch → TRAD gesetzt, Kommission E prominent im comment/source. **Bitte prüfen, ob der Katalog eine reine 'Kommission-E-positiv'-Konstellation lieber anders taggen will** — ein eigener Tag fehlt in der Skala.
+- **Pestwurz — echte RCT-Evidenz, aber invertierte Leitlinienlage.** Migräneprophylaxe (Petadolex, −48 %) und allergische Rhinitis (Ze 339) sind RCT-belegt → evidence_tag RCT. ABER: gilt AUSSCHLIESSLICH für PA-freie Spezialextrakte; Petadolex ist in D seit Juli 2009 ohne Zulassung, und die AAN/AHS-Empfehlung wurde 2015/16 wegen Lebertoxizität ZURÜCKGEZOGEN — auch PA-freie Extrakte haben Leberschäden ausgelöst (Mechanismus ungeklärt). Ich habe RCT getaggt, im comment/overstated aber scharf auf 'nur Spezialextrakt, ungünstiges Nutzen-Risiko, Leberwertkontrolle' eingegrenzt. **Falls der Katalog für zurückgezogene Empfehlungen lieber abwertet (RCT→TRAD o. ä.), bitte hier ansetzen.**
+- **Pestwurz — Kommission E ist geteilt:** positiv NUR für das Rhizom (krampfartige Harnwegsschmerzen), negativ für Blatt und Gesamtpflanze. Als eigene TRAD-Indikation abgebildet.
+- **Taxonomie-Falle dokumentiert:** Pestwurz-Basionym ist *Tussilago petasites/hybrida* — sie war früher dieselbe Gattung wie der Huflattich. Das erklärt die reale, wechselseitige Blatt-Verwechslung (in beiden Dateien als confusions gegenseitig eingetragen). Kein tödlicher Doppelgänger bei beiden → deadly_confusion=false (jeweils mit explizitem 'keine lebensgefährliche Verwechslung'-Eintrag + Begründung).
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten ~38 Altfehler in den früheren handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut) — meist `toxicity_level`-Werte wie "essbar/gering", die das Schema nicht kennt. Auftragsgemäß (genau 2 Monographien; kuratierte Dateien gehören dem Arzt) NICHT angefasst. Empfehlung unverändert: eigener Bereinigungslauf. Beide neuen Dateien bestehen die Prüfung einzeln und gemeinsam fehlerfrei.

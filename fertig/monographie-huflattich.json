@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "id": "tussilago-farfara",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Tussilago farfara",
+    "common_names_de": ["Huflattich", "Brustlattich", "Hustenkraut", "Eselslattich"],
+    "family": "Korbblütler (Asteraceae)",
+    "drug_part": ["Blatt (Folium)", "Blüte (Flos)"],
+    "drug_name_latin": "Farfarae folium (Huflattichblätter)",
+    "synonyms": ["Farfara radiata Gilib.", "Tussilago rupestris Wallr.", "Tussilago generalis E.H.L.Krause"],
+    "synonym_note": "Monotypische Gattung Tussilago. Nahe verwandt und im nicht blühenden Zustand verwechselbar mit der Gattung Petasites (Pestwurz), die früher ebenfalls zu Tussilago gestellt wurde."
+  },
+  "identification": {
+    "key_features": [
+      "Blüht VOR dem Laubaustrieb: gelbe, körbchenförmige Einzelblüten (Feb–April) auf schuppig-rötlichem, blattlosem Stängel — das sicherste Merkmal",
+      "Blätter erscheinen erst NACH der Blüte: hufeisen-/herzförmig, 10–20 cm, kantig-gezähnt",
+      "Blattunterseite dicht weißfilzig (graufilzig), Oberseite kahl und grün",
+      "Blattstiel rötlich überlaufen; wächst gesellig auf Lehm-, Roh- und Schotterböden",
+      "Nach der Blüte weißer Pappus (Fruchtstand ähnlich Löwenzahn)"
+    ],
+    "season": "Blütezeit Februar–April (Vorfrühlingsblüher)",
+    "habitat": "Pionierpflanze auf offenen, lehmig-feuchten Böden: Wegränder, Bahndämme, Böschungen, Kiesgruben, Bachufer",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Blüht vor dem Laub — reine Blattbestände nur nach der Blüte sicher zuzuordnen; im Zweifel Fundort im Frühjahr merken und blühend bestätigen",
+      "Junge Blätter sind von jungen Pestwurzblättern (Petasites) schwer zu trennen — Huflattich bleibt klein (10–20 cm), Pestwurz wird sehr groß",
+      "Wildsammlung ist unkontrolliert PA-belastet: für die innerliche Anwendung ungeeignet, nur PA-arme Arzneiware verwenden"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gewöhnliche Pestwurz",
+      "scientific_name": "Petasites hybridus",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide",
+      "note": "Junge, noch nicht voll entfaltete Pestwurzblätter ähneln Huflattich. Huflattichblätter bleiben klein (10–20 cm), Pestwurz wird sehr groß (bis 60 cm, größte Blätter der heimischen Flora). Beide PA-haltig — eine Verwechslung erhöht die Toxinlast, ist aber nicht akut tödlich."
+    },
+    {
+      "name": "Weiße Pestwurz",
+      "scientific_name": "Petasites albus",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide",
+      "note": "Im nicht blühenden Zustand sehr ähnliche Blätter. Bei der Pestwurz tritt die Aderung der Blattunterseite deutlich hervor, beim Huflattich ist die Unterseite gleichmäßig weißfilzig. Ebenfalls PA-haltig."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ein akut tödlicher Doppelgänger existiert nicht (Korbblütler ohne Herzglykosid-/Alkaloid-Sofortgift). Die realistischen Verwechslungen (Pestwurz-Arten) sind selbst nur PA-haltig, nicht akut lebensgefährlich. Das eigentliche Risiko liegt in der Pflanze selbst: Huflattich enthält lebertoxische PA und darf nur PA-arm/kontrolliert angewendet werden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimpolysaccharide (~7–8 %)",
+      "Gerbstoffe",
+      "Flavonoide (Rutin, Hyperosid)",
+      "Bitterstoffe (Tussilagin)",
+      "Zink",
+      "Pyrrolizidinalkaloide (Senkirkin, Senecionin) — Gehalt herkunfts-/sortenabhängig"
+    ],
+    "lead_substance": "Schleimstoffe (reizmildernd, demulzierend); toxikologisch bestimmend sind die Pyrrolizidinalkaloide",
+    "solubility_note": "Schleimstoffe sind wasserlöslich und hitzeempfindlich → Kaltauszug oder kurz überbrühter Tee, nicht lange kochen. ABER: die PA gehen ebenfalls in den wässrigen Auszug über — genau das macht Tee aus wild gesammeltem Huflattich riskant. Sicherer Nutzen nur mit PA-armer Arzneiware.",
+    "heat_light_sensitivity": "Schleim quillt in kaltem/lauwarmem Wasser; langes Kochen baut ihn ab."
+  },
+  "pharmacology": {
+    "mechanism": "Demulzierend: die Polysaccharid-Schleime legen einen schützenden Film über die gereizte Rachen-/Bronchialschleimhaut und dämpfen so den Hustenreiz. Gerbstoffe wirken leicht adstringierend. Ein spezifischer, klinisch belegter pharmakologischer Effekt darüber hinaus fehlt.",
+    "evidence_caveat": "Keine kontrollierten klinischen Studien zur Wirksamkeit. Die positive Einordnung stützt sich allein auf die Kommission-E-Monographie und die Tradition — HMPC und ESCOP führen die Droge NICHT. Der symptomatische Nutzen steht dem kumulativen Leberrisiko gegenüber.",
+    "pharmacokinetics": "Ungesättigte 1,2-Pyrrolizidinalkaloide werden in der Leber zu reaktiven Pyrrol-Metaboliten aktiviert → Schädigung des Lebervenen-Endothels (venookklusive Erkrankung), kumulativ und genotoxisch."
+  },
+  "indications": [
+    {
+      "canonical": "Reizhusten und Katarrhe der oberen Atemwege",
+      "synonyms": ["Husten", "trockener Reizhusten", "Halskratzen", "wunder Hals", "Heiserkeit", "verschleimter Husten", "Bronchialkatarrh"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E positiv für Farfarae folium (akute Katarrhe der Luftwege mit Husten und Heiserkeit). HMPC und ESCOP führen die Droge NICHT und sie wurde wegen der PA-Problematik aus dem DAB gestrichen — daher trotz Kommission-E-Votum nur TRAD.",
+      "realistic_expectation": "Die Schleimstoffe legen sich reizmildernd auf die gereizte Schleimhaut und dämpfen symptomatisch den Hustenreiz. Keine ursächliche, keine antibiotische Wirkung. Wegen der Leberrisiken heute weitgehend durch sichere Schleimdrogen (Eibisch, Malve, Spitzwegerich) ersetzt.",
+      "source": "Kommission E (Farfarae folium, positiv); traditionelle Anwendung"
+    },
+    {
+      "canonical": "Leichte Entzündungen der Mund- und Rachenschleimhaut",
+      "synonyms": ["entzündeter Mund", "Rachenreizung", "wunde Mundschleimhaut", "Halsentzündung"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E positiv (akute, leichte Entzündungen der Mund- und Rachenschleimhaut). Kein HMPC/ESCOP.",
+      "realistic_expectation": "Reizlinderung durch Schleim- und Gerbstoffe bei leichten Schleimhautreizungen — mild und symptomatisch. Auch hier sichere Alternativen bevorzugen.",
+      "source": "Kommission E (Farfarae folium, positiv)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Reizmilderung bei trockenem Husten und wundem Hals durch Schleimstoffe — symptomatisch und mild.",
+    "overstated": "Kein Heilmittel gegen Bronchitis oder Asthma, keine antibiotische Wirkung. Der überlieferte Ruf als 'bestes Hustenkraut' ist durch das Lebertoxizitäts- und Krebsrisiko der Pyrrolizidinalkaloide überholt — sichere Schleimdrogen (Eibisch, Malve, Spitzwegerich) leisten dasselbe ohne dieses Risiko.",
+    "effect_size": "mild; rein symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["PA-armes/PA-freies Fertigarzneimittel (Sorte 'Wien')", "traditionell: Teeaufguss aus Blättern (heute nicht mehr empfohlen)"],
+    "form_rationale": "Der reizmildernde Nutzen kommt von wasserlöslichen Schleimstoffen — sprechen für einen wässrigen Auszug. Da aber auch die lebertoxischen PA wasserlöslich sind, ist Selbstansatz aus Wildpflanze nicht vertretbar; nur standardisierte, PA-arme Ware verwenden.",
+    "standard_dose": "Traditionell 4,5–6 g Droge/Tag; innerliche Anwendung höchstens 4–6 Wochen pro Jahr. Arzneimittel dürfen 1 µg PA/Tag nicht überschreiten.",
+    "preservation": "Getrocknete Droge trocken, dunkel und luftdicht lagern; Schleimgehalt nimmt bei langer Lagerung ab."
+  },
+  "safety": {
+    "tox_ceiling": "Pyrrolizidinalkaloide (Senkirkin, Senecionin): Arzneimittel max. 1 µg PA/Tag (BfArM/HMPC-Public-Statement); innerliche Anwendung höchstens 4–6 Wochen pro Jahr, Tagesdosis 4,5–6 g Droge. Wildsammlung unkontrolliert belastet → innerlich meiden. Für Arzneimittel wird die extrem PA-arme Zuchtsorte 'Wien' verwendet.",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit",
+      "Kinder und Jugendliche unter 18 Jahren",
+      "bestehende Lebererkrankung oder -schädigung",
+      "Korbblütlerallergie (Asteraceae)"
+    ],
+    "pregnancy_lactation": "Kontraindiziert. Ungesättigte PA sind plazentagängig und potenziell fötotoxisch; ein Fallbericht beschreibt einen Säugling mit tödlicher venookklusiver Lebererkrankung nach Kräutertee-Konsum der Mutter in der Schwangerschaft (Kausalität umstritten, aber ernst zu nehmen).",
+    "adverse_effects": "Bei bestimmungsgemäßer, PA-armer Kurzanwendung selten. Hauptrisiko ist die kumulative Lebertoxizität ungesättigter PA (venookklusive Lebererkrankung; hepatozelluläres Karzinom im Tierversuch).",
+    "interactions": [
+      {"type": "theoretisch", "mechanism": "additive Lebertoxizität und additive PA-Belastung", "affected": "andere hepatotoxische Arzneimittel; weitere PA-haltige Drogen (Beinwell, Pestwurz, Borretsch)", "clinical_relevance": "gering bis relevant"}
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Pyrrolizidinalkaloide",
+      "hepatotoxic": true,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Enthält lebertoxische, potenziell krebserregende Pyrrolizidinalkaloide — nur PA-arme Fertigarzneimittel, max. 1 µg PA/Tag und 4–6 Wochen pro Jahr; nicht in Schwangerschaft/Stillzeit, nicht bei Kindern; wild gesammelt innerlich meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten Februar–April (vor dem Laubaustrieb), junge Blätter Mai–Juni",
+    "harvest_month_tags": [2, 3, 4, 5, 6],
+    "harvest_organ": "Blatt (Folium), historisch auch Blüte",
+    "method": "Junge, gesunde Blätter ohne Rostpilzbefall; Standorte fern von Straßen/Äckern. Für innerliche Anwendung wegen PA nur kontrollierte Arzneiware.",
+    "processing": "Rasch und schonend trocknen (Schimmelgefahr durch dicke, filzige Blätter), danach zerkleinern.",
+    "storage": "Trocken, dunkel, luftdicht; vor Feuchtigkeit schützen."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Früher wurden Blätter als Wildgemüse und Blüten in Salaten verwendet — heute wegen der Pyrrolizidinalkaloide nicht mehr zu empfehlen. Die Grenze zwischen 'Küche' und Arznei ist beim Huflattich zugunsten des Verzichts verschoben."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos auf lehmig-feuchten, offenen Böden; volle Sonne bis Halbschatten.",
+    "hardiness": "Vollkommen winterhart, einheimisch.",
+    "propagation": "Über lange, kräftige Wurzelausläufer — breitet sich stark und schwer kontrollierbar aus.",
+    "bodensee_suitability": "Wächst im Bodenseeraum wild häufig an Wegrändern, Bahndämmen und Lehmböschungen. Als Gartenpflanze wegen der aggressiven Ausläuferbildung problematisch — eher unerwünschter Wildwuchs als Zierpflanze."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Gelbe Blütenkörbchen auf schuppigem Stängel vor dem Laubaustrieb", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Hufeisenförmiges Blatt mit weißfilziger Unterseite", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kommission E: Monographie Farfarae folium (Huflattichblätter) — positiv, mit PA-Warnhinweis",
+    "HMPC/EMA: keine Monographie zu Tussilago farfara; HMPC Public Statement 2021 zu ungesättigten Pyrrolizidinalkaloiden",
+    "BfArM: Stufenplanbescheid Pyrrolizidinalkaloide (Grenzwert 1 µg PA/Tag, Anwendungsbeschränkung)",
+    "Arzneipflanzen-Lexikon; AWL.ch — Tussilago farfara (PA-arme Zuchtsorte 'Wien')"
+  ]
+}

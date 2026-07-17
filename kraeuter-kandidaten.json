@@ -266,8 +266,8 @@
       "latin": "Tussilago farfara",
       "tier": 2,
       "reason": "Pyrrolizidinalkaloide — 1. PA-Fall",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-huflattich.json"
     },
     {
       "id": "petasites-hybridus",
@@ -275,8 +275,8 @@
       "latin": "Petasites hybridus",
       "tier": 2,
       "reason": "PA + Migräne-Evidenz + Hepatotoxizität",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-pestwurz.json"
     },
     {
       "id": "borago-officinalis",

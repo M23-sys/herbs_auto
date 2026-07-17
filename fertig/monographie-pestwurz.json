@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "id": "petasites-hybridus",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Petasites hybridus",
+    "common_names_de": ["Gewöhnliche Pestwurz", "Pestwurz", "Bachkraut", "Hutpflanze"],
+    "family": "Korbblütler (Asteraceae)",
+    "drug_part": ["Wurzelstock (Rhizoma)", "Blatt (Folium)"],
+    "drug_name_latin": "Petasitidis rhizoma (Pestwurzwurzelstock); Petasitidis folium",
+    "synonyms": ["Tussilago hybrida L.", "Tussilago petasites L.", "Petasites officinalis Moench", "Petasites vulgaris Desf.", "Petasites ovatus Hill"],
+    "synonym_note": "Ursprünglich als Tussilago petasites bzw. Tussilago hybrida beschrieben — daher die enge botanische und optische Verwechslungsnähe zum Huflattich (Tussilago farfara)."
+  },
+  "identification": {
+    "key_features": [
+      "Nach der Blüte extrem große, rundlich-herzförmige Blätter (bis 60 cm, die größten der einheimischen Flora) — das auffälligste Merkmal",
+      "Blattunterseite grau-filzig, Blattstiel hohl und kräftig",
+      "Blüht vor/mit dem Laubaustrieb (März–Mai): dichte, walzenförmige, rötlich-fleischfarbene Blütenkerzen auf schuppigem Schaft",
+      "Wächst gesellig, oft flächige Bestände an Bach- und Flussufern, feuchten Auen",
+      "Ganze Pflanze mit unangenehmem, herbem Geruch"
+    ],
+    "season": "Blütezeit März–Mai, Blattentfaltung Frühsommer",
+    "habitat": "Feuchte, nährstoffreiche Standorte: Bach- und Flussufer, Auwälder, Gräben, quellige Wiesen",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Wegen der eigenen PA-Belastung nicht für Selbstansatz sammeln — nur standardisierte, PA-abgereicherte Fertigpräparate verwenden",
+      "Junge Blätter gegen Huflattich abgrenzen: Pestwurz wird sehr groß, Huflattich bleibt klein",
+      "Gegen Große Klette abgrenzen (rinnige Blattstiele bei der Klette)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Huflattich",
+      "scientific_name": "Tussilago farfara",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide",
+      "note": "Umgekehrte Verwechslung: junge Pestwurzblätter ähneln Huflattich. Pestwurz wird sehr groß (Blätter bis 60 cm), Huflattich bleibt klein (10–20 cm). Beide PA-haltig."
+    },
+    {
+      "name": "Große Klette",
+      "scientific_name": "Arctium lappa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Große, herzförmige Blätter ähneln der Pestwurz. Klette hat rinnige (oben gefurchte) Blattstiele und später hakige Klettköpfe; sie ist ungiftig und wird als Wildgemüse/Wurzel genutzt. Verwechslung führt zu ungewollter PA-Aufnahme aus der Pestwurz."
+    },
+    {
+      "name": "Weiße Pestwurz",
+      "scientific_name": "Petasites albus",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide",
+      "note": "Nahe verwandte Art mit weißlich-gelben statt rötlichen Blüten; ebenfalls PA-haltig. Für Arzneizwecke nicht gleichwertig."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Kein akut tödlicher Doppelgänger. Das entscheidende Risiko ist nicht die Verwechslung, sondern dass die Pflanze SELBST PA-haltig und lebertoxisch ist — Wildpflanze und Tee grundsätzlich meiden, nur PA-freie Fertigextrakte."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Sesquiterpene vom Eremophilan-Typ: Petasin, Isopetasin, Neopetasin",
+      "ätherisches Öl",
+      "Schleim- und Gerbstoffe",
+      "Pyrrolizidinalkaloide (Senecionin, Integerrimin, Senkirkin)"
+    ],
+    "lead_substance": "Petasin/Isopetasin (spasmolytisch, 5-Lipoxygenase-Hemmung); toxikologisch bestimmend sind die Pyrrolizidinalkaloide",
+    "solubility_note": "Die wirksamen Petasine sind lipophil und werden nur durch spezielle Verfahren (CO2-/lipophile Extraktion) angereichert — ein Tee bringt sie kaum, transportiert aber die wasserlöslichen PA. Deshalb ausschließlich standardisierte, PA-abgereicherte Fertigextrakte, kein Selbstansatz.",
+    "heat_light_sensitivity": "Petasine sind licht- und oxidationsempfindlich; Qualität standardisierter Extrakte ist herstellerkontrolliert."
+  },
+  "pharmacology": {
+    "mechanism": "Petasine hemmen die 5-Lipoxygenase (→ weniger Leukotriene) und wirken als Calcium-Antagonisten → spasmolytisch an glatter Muskulatur (Gefäße, Bronchien, ableitende Harnwege) sowie antiinflammatorisch und antiallergisch.",
+    "evidence_caveat": "RCT-Evidenz existiert NUR für definierte, PA-freie Spezialextrakte (Petadolex zur Migräneprophylaxe, Ze 339 zur allergischen Rhinitis) — nicht übertragbar auf Tee oder Wildpflanze. Die Leitlinienlage hat sich wegen Hepatotoxizität umgekehrt (AAN/AHS-Empfehlung 2015/16 zurückgezogen). Kein HMPC/ESCOP.",
+    "pharmacokinetics": "Ungesättigte PA werden hepatisch zu reaktiven Pyrrolen bioaktiviert → venookklusive Lebererkrankung, genotoxisch/kanzerogen. Der Mechanismus der auch unter PA-freien Extrakten beobachteten Leberschäden ist ungeklärt (idiosynkratisch/immunologisch diskutiert)."
+  },
+  "indications": [
+    {
+      "canonical": "Migräneprophylaxe",
+      "synonyms": ["Migräne vorbeugen", "Migräneattacken verhindern", "wiederkehrende Migräne", "Kopfschmerzprophylaxe"],
+      "evidence_tag": "RCT",
+      "comment": "RCT-Evidenz für den PA-freien CO2-Spezialextrakt (Petadolex): 75 mg 2×/Tag senkte über 4 Monate die Attackenfrequenz um ~48 % (Lipton et al., Neurology 2004). ABER: keine HMPC-/ESCOP-Monographie; die AAN/AHS-Leitlinienempfehlung wurde 2015/16 wegen Lebertoxizitätssignalen ZURÜCKGEZOGEN; Petadolex in Deutschland seit Juli 2009 ohne Zulassung.",
+      "realistic_expectation": "Nur der standardisierte, PA-freie Spezialextrakt hat Studienevidenz — kein Tee, keine Wildpflanze. Das Nutzen-Risiko-Verhältnis ist wegen dokumentierter Leberschäden ungünstig; wenn überhaupt, nur unter ärztlicher Kontrolle mit garantiert PA-freiem Präparat und Leberwertkontrolle.",
+      "source": "RCT Lipton et al. Neurology 2004; Grossmann & Schmidramsl 2000/2001"
+    },
+    {
+      "canonical": "Allergische Rhinitis (Heuschnupfen)",
+      "synonyms": ["Heuschnupfen", "allergischer Schnupfen", "Pollenallergie", "Niesreiz", "juckende Nase bei Allergie"],
+      "evidence_tag": "RCT",
+      "comment": "RCTs mit PA-freiem Blattextrakt (Ze 339) zeigten Nichtunterlegenheit gegenüber Cetirizin/Fexofenadin bei saisonaler allergischer Rhinitis (Schapowal, BMJ 2002 u. a.). Kein HMPC/ESCOP; gleiche Leber-/PA-Vorbehalte.",
+      "realistic_expectation": "Möglicher Effekt in der Größenordnung eines nicht sedierenden Antihistaminikums — aber ohne dessen etabliertes Sicherheitsprofil. Nur standardisierte, PA-freie Extrakte; als Selbstmedikation nicht zu empfehlen.",
+      "source": "RCTs Schapowal et al. (BMJ 2002 u. a.); Extrakt Ze 339"
+    },
+    {
+      "canonical": "Krampfartige Schmerzen der ableitenden Harnwege",
+      "synonyms": ["Harnwegskrämpfe", "Krämpfe bei Nierensteinen", "Steinschmerzen", "krampfartige Blasenschmerzen"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E: POSITIV nur für Petasitidis rhizoma (Wurzelstock) bei krampfartigen Schmerzen im Bereich der ableitenden Harnwege, v. a. bei Steinleiden. Petasitidis folium (Blatt) und die Gesamtpflanze: NEGATIVE Kommission-E-Monographie.",
+      "realistic_expectation": "Ein spasmolytischer Effekt der Petasine ist pharmakologisch plausibel, klinisch aber kaum belegt; diese Anwendung ist heute praktisch obsolet und wird von der PA-Problematik überlagert.",
+      "source": "Kommission E (Petasitidis rhizoma, positiv)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Die Sesquiterpene (Petasine) wirken spasmolytisch, entzündungshemmend und antiallergisch; standardisierte, PA-freie Spezialextrakte haben RCT-Evidenz bei Migräneprophylaxe und allergischer Rhinitis.",
+    "overstated": "Kein harmloses 'Naturmittel': native Pflanze und Tee sind lebertoxisch und krebserregend (PA). Selbst PA-freie Fertigextrakte haben Leberschäden ausgelöst (Petadolex 2009 vom deutschen Markt genommen, AAN-Empfehlung zurückgezogen). Kein Ersatz für etablierte Migräneprophylaxe oder Antihistaminika.",
+    "effect_size": "moderat (nur Spezialextrakt, prophylaktisch); Nutzen durch das Lebertoxizitätsrisiko relativiert"
+  },
+  "preparation": {
+    "recommended_forms": ["standardisierter, PA-freier Fertigextrakt (Rhizom-CO2-Extrakt/Blattextrakt)"],
+    "form_rationale": "Wirksame Petasine sind lipophil und nur in Spezialextrakten angereichert; die lebertoxischen PA müssen technisch abgereichert werden. Tee/Tinktur aus der Wildpflanze bringen kaum Wirkstoff, aber die PA — daher ausschließlich industriell PA-freie Ware, kein Selbstansatz.",
+    "standard_dose": "Migräneprophylaxe: standardisierter Extrakt 50–75 mg 2×/Tag (Studiendosis) — nur ärztlich begleitet. Arzneiware muss < 1 µg PA/Tag liegen.",
+    "preservation": "Nur Fertigpräparate nach Herstellerangabe; kein sinnvoller Hausvorrat."
+  },
+  "safety": {
+    "tox_ceiling": "Pyrrolizidinalkaloide (Senecionin, Integerrimin, Senkirkin): Arzneimittel max. 1 µg PA/Tag (BfArM); nur PA-abgereicherte Spezialextrakte (unter Nachweisgrenze) sind vertretbar. Native Pflanze/Tee sind unkalkulierbar belastet. Zusätzliches Lebertoxizitätssignal auch PA-freier Extrakte → Petadolex in Deutschland seit 07/2009 ohne Zulassung.",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit",
+      "Kinder und Jugendliche",
+      "Lebererkrankung oder -schädigung",
+      "Korbblütlerallergie (Asteraceae)",
+      "gleichzeitige hepatotoxische Medikation"
+    ],
+    "pregnancy_lactation": "Kontraindiziert. Plazentagängige, potenziell fötotoxische Pyrrolizidinalkaloide.",
+    "adverse_effects": "Aufstoßen mit Pestwurz-Geschmack, Kopfschmerz, Magen-Darm-Beschwerden; entscheidend: Berichte über Leberschäden (Transaminasenanstieg bis Hepatitis) auch unter standardisierten, PA-freien Extrakten — Leberwerte kontrollieren, bei Anstieg absetzen.",
+    "interactions": [
+      {"type": "theoretisch", "mechanism": "additive Lebertoxizität und PA-Belastung", "affected": "hepatotoxische Arzneimittel; weitere PA-haltige Drogen (Huflattich, Beinwell, Borretsch)", "clinical_relevance": "relevant"},
+      {"type": "pharmakodynamisch", "mechanism": "spasmolytisch/vasoaktiv über Ca-Antagonismus", "affected": "theoretisch blutdrucksenkende Mittel", "clinical_relevance": "gering"}
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Pyrrolizidinalkaloide",
+      "hepatotoxic": true,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Native Pflanze und Tee sind lebertoxisch und krebserregend (Pyrrolizidinalkaloide); nur standardisierte, PA-freie Fertigextrakte — und selbst diese haben Leberschäden ausgelöst (Petadolex 2009 vom Markt, AAN-Empfehlung zurückgezogen). Anwendung nur unter ärztlicher Kontrolle mit Leberwertüberwachung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüte März–Mai; traditionell Rhizom im Herbst, Blätter im Sommer — für Selbstsammlung jedoch nicht empfohlen",
+    "harvest_month_tags": [3, 4, 5],
+    "harvest_organ": "Wurzelstock (Rhizom), Blatt",
+    "method": "Keine Empfehlung zur Selbstsammlung für innerliche Anwendung (PA-Belastung). Arzneiware stammt aus kontrolliertem Anbau/Extraktion.",
+    "processing": "Ausschließlich industrielle PA-Abreicherung (CO2-Extraktion); Hausverarbeitung nicht vertretbar.",
+    "storage": "Nur Fertigpräparate nach Herstellerangabe lagern."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine Küchenverwendung — PA-haltig. Der große Blattschirm diente historisch zum Einwickeln von Butter (daher englisch 'butterbur'), nicht zum Verzehr."
+  },
+  "garden": {
+    "site_soil": "Feuchte bis nasse, nährstoffreiche Böden an Gewässerrändern; Sonne bis Halbschatten.",
+    "hardiness": "Vollkommen winterhart, einheimisch.",
+    "propagation": "Über tiefreichende, kräftige Rhizome — bildet meterhohe, schwer zu entfernende Bestände.",
+    "bodensee_suitability": "Im Bodenseeraum wild häufig an Bach- und Flussufern. Im Garten stark wuchernd und kaum einzudämmen — nur für große, feuchte Uferflächen, sonst ungeeignet."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Rötliche Blütenkerzen im Frühjahr vor dem Laub", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Sehr großes, rundlich-herzförmiges Blatt mit hohlem Stiel", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kommission E: Monographie Petasitidis rhizoma (positiv, ableitende Harnwege) vs. Petasitidis folium/Gesamtpflanze (negativ)",
+    "HMPC/EMA: keine Monographie zu Petasites hybridus; HMPC Public Statement 2021 zu ungesättigten Pyrrolizidinalkaloiden",
+    "Lipton RB et al., Neurology 2004 (Petasites-Extrakt zur Migräneprophylaxe, RCT); Grossmann & Schmidramsl 2000/2001",
+    "Schapowal A et al., BMJ 2002 (Ze 339, allergische Rhinitis, RCT)",
+    "AAN/AHS Leitlinien-Update Holland et al. 2012 — Empfehlung 2015/16 wegen Hepatotoxizität zurückgezogen (retired)",
+    "BfArM: Marktrücknahme Petadolex 2009; Grenzwert 1 µg PA/Tag"
+  ]
+}
