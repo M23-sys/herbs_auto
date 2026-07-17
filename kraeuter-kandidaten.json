@@ -284,8 +284,8 @@
       "latin": "Borago officinalis",
       "tier": 2,
       "reason": "PA im Kraut — Küchenkraut mit Toxin",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-borretsch.json"
     },
     {
       "id": "chelidonium-majus",
@@ -293,8 +293,8 @@
       "latin": "Chelidonium majus",
       "tier": 2,
       "reason": "Hepatotoxizität — Marktrücknahmen",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-schoellkraut.json"
     },
     {
       "id": "acorus-calamus",

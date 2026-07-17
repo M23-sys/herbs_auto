@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "id": "chelidonium-majus",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Chelidonium majus L.",
+    "common_names_de": [
+      "Schöllkraut",
+      "Warzenkraut",
+      "Goldwurz",
+      "Schwalbenkraut"
+    ],
+    "family": "Papaveraceae (Mohngewächse)",
+    "drug_part": [
+      "Kraut (Chelidonii herba)",
+      "frischer Milchsaft (äußerlich, Warzen)"
+    ],
+    "drug_name_latin": "Chelidonii herba",
+    "synonyms": [],
+    "synonym_note": "Chelidonium majus ist der akzeptierte Name; keine gebräuchlichen lateinischen Altnamen."
+  },
+  "identification": {
+    "key_features": [
+      "Beim Abbrechen von Stängel/Blatt tritt orange-gelber Milchsaft aus — eindeutigstes Erkennungsmerkmal (färbt Haut/Kleidung braun)",
+      "Blüten mit nur 4 leuchtend gelben Kronblättern und zahlreichen Staubblättern",
+      "Buchtig-fiederteilige, weiche Blätter, oberseits hellgrün, unterseits blaugrün-bereift (eichblattähnliche Lappen)",
+      "30–70 cm hohe Staude mit brüchigem, abstehend behaartem Stängel; schmale, schotenförmige Kapselfrüchte"
+    ],
+    "season": "Blüte Mai bis September/Oktober",
+    "habitat": "Stickstoffreiche Ruderalstellen: Mauern, Zäune, Hecken, Wegränder, Gärten, Siedlungsnähe",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Orange-gelber Milchsaft beim Abbrechen = sicherer Bestätiger; fehlt er, ist es nicht Schöllkraut",
+      "Handschuhe tragen — der Milchsaft ist ätzend/reizend und färbt stark",
+      "Für innerliche Anwendung nur geprüfte, alkaloid-standardisierte Fertigpräparate (Hepatotoxizität) — Eigenzubereitung nicht empfohlen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Scharbockskraut (Namensverwechslung)",
+      "scientific_name": "Ficaria verna",
+      "toxicity_level": "giftig",
+      "toxin": "Protoanemonin (roh, reizend)",
+      "note": "Wird wegen des ähnlichen Namens verwechselt, ist aber botanisch anders: glänzende, herzförmige Blätter, KEIN oranger Milchsaft, Blüten mit vielen glänzend-gelben Blütenblättern. Schöllkraut hat orangen Milchsaft und nur 4 Kronblätter."
+    },
+    {
+      "name": "Echtes Johanniskraut (Blütenverwechslung)",
+      "scientific_name": "Hypericum perforatum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gelbe Blüten optisch ähnlich, aber Johanniskraut hat 5 Kronblätter, rot färbenden Saft und durchscheinend punktierte Blätter; Schöllkraut 4 Kronblätter + orangen Milchsaft."
+    },
+    {
+      "name": "Junge Rosetten anderer Fiederblatt-Kräuter (z. B. Gefleckter Schierling, Erdrauch)",
+      "scientific_name": "Conium maculatum / Fumaria officinalis",
+      "toxicity_level": "giftig",
+      "toxin": "Coniin (Schierling, lebensgefährlich); Fumaria-Alkaloide",
+      "note": "Vegetativ fiederteilige Blätter können ähneln. Entscheidend: Schöllkraut führt orangen Milchsaft und Papaveraceen-Blüte; Schierling riecht mäuseartig, hat rot gefleckte kahle Stängel — im Zweifel meiden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Isochinolinalkaloide: Chelidonin, Chelerythrin, Sanguinarin, Coptisin, Berberin, Protopin",
+      "Chelidonsäure, Kaffeesäurederivate, Flavonoide",
+      "orange-gelber Alkaloid-Milchsaft in allen Pflanzenteilen"
+    ],
+    "lead_substance": "Chelidonin (spasmolytisch, papaverinartig) und die Benzophenanthridin-Alkaloide (Chelerythrin/Sanguinarin) — Letztere zugleich zelltoxisch; Gesamtalkaloide sind das Leit- und Sicherheitsmerkmal",
+    "solubility_note": "Alkaloide gehen in Tee/Tinktur über; für äußerliche Warzenbehandlung wird der frische unverdünnte Milchsaft genutzt.",
+    "heat_light_sensitivity": "Alkaloide licht-/oxidationsempfindlich; Milchsaft nur frisch wirksam"
+  },
+  "pharmacology": {
+    "mechanism": "Chelidonin wirkt spasmolytisch (papaverinartig) auf glatte Muskulatur, choleretisch; Benzophenanthridin-Alkaloide antimikrobiell/zytotoxisch. Äußerlich wirkt der Milchsaft ätzend-keratolytisch auf Warzen.",
+    "evidence_caveat": "Klinische Wirksamkeitsbelege für die innerliche Anwendung sind schwach; die HMPC bewertet das Nutzen-Risiko-Verhältnis wegen Lebertoxizität als NEGATIV. Warzen-Wirkung ist rein traditionell/anekdotisch.",
+    "pharmacokinetics": "Alkaloide werden hepatisch metabolisiert; idiosynkratische (metabolisch-immunologische) Leberschädigung unabhängig von der Dosis möglich."
+  },
+  "indications": [
+    {
+      "canonical": "Warzen (äußerlich, frischer Milchsaft)",
+      "synonyms": [
+        "Warze",
+        "Warzen entfernen",
+        "Dornwarze",
+        "Hautwarze",
+        "Viruswarze"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Volksanwendung: frischer oranger Milchsaft punktuell auf die Warze. Keine kontrollierte klinische Evidenz; ätzend, kann Umgebungshaut reizen.",
+      "realistic_expectation": "Volksmedizinischer Versuch ohne belegte Überlegenheit gegenüber Abwarten oder etablierten Warzenmitteln; Warzen bilden sich oft spontan zurück.",
+      "source": "Traditionelle Anwendung; keine HMPC-/ESCOP-Belege"
+    },
+    {
+      "canonical": "Krampfartige Beschwerden im Bereich Galle und oberer Verdauungstrakt (innerlich) — historisch",
+      "synonyms": [
+        "Gallenbeschwerden",
+        "krampfartige Bauchschmerzen",
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Gallenkolik"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E führte diese Indikation früher positiv (spasmolytisch). ABER: BfArM widerrief 2008 die Zulassung für Präparate mit >2,5 mg Gesamtalkaloiden/Tag; HMPC veröffentlichte ein Public Statement mit NEGATIVEM Nutzen-Risiko-Verhältnis wegen idiosynkratischer Leberschäden (bis Leberversagen).",
+      "realistic_expectation": "Wegen des realen, teils lebensbedrohlichen Leberrisikos NICHT empfohlen. Wenn überhaupt, nur unter ärztlicher Kontrolle und ≤2,5 mg Gesamtalkaloide/Tag; sicherere Spasmolytika bevorzugen.",
+      "source": "Kommission E (positiv, historisch); BfArM Stufenplan 2008; EMA/HMPC Public Statement (Nutzen-Risiko negativ)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Spasmolytische/choleretische Wirkung der Isochinolinalkaloide ist pharmakologisch plausibel; äußerlich wird der ätzende Milchsaft traditionell gegen Warzen genutzt.",
+    "overstated": "Innerliche 'Gallen-/Leberkur': das Nutzen-Risiko ist laut HMPC NEGATIV, BfArM hat höher dosierte Zulassungen widerrufen (Leberschäden bis Leberversagen). 'Krebstherapie' (Ukrain/Chelidonium-Injektionen) ist nicht belegt und gefährlich.",
+    "effect_size": "äußerlich (Warzen) mild-traditionell; innerlich fraglicher Nutzen bei realem, teils lebensbedrohlichem Leberrisiko"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frischer Milchsaft äußerlich, punktuell auf Warzen",
+      "innerlich: allenfalls alkaloid-standardisiertes Fertigpräparat (nicht empfohlen)"
+    ],
+    "form_rationale": "Der Warzeneffekt beruht auf dem frischen, ätzenden Milchsaft. Innerliche Zubereitungen sind wegen unkalkulierbarer Hepatotoxizität abzulehnen; Eigen-Tee/-Tinktur ist nicht dosierbar.",
+    "standard_dose": "Äußerlich: frischer Milchsaft 1–2× täglich gezielt auf die Warze, Umgebungshaut schützen. Innerlich: nicht empfohlen; falls ärztlich indiziert, Gesamtalkaloide ≤2,5 mg/Tag (BfArM-Grenze) und Leberwerte kontrollieren.",
+    "preservation": "Milchsaft nur frisch; keine Lagerung des Rohsaftes"
+  },
+  "safety": {
+    "tox_ceiling": "Isochinolinalkaloide (Leitwert Chelidonin) können idiosynkratische, dosisunabhängige Leberschäden auslösen (cholestatische Hepatitis bis Leberversagen). BfArM-Grenze: max. 2,5 mg Gesamtalkaloide/Tag; darüber Zulassung widerrufen. Maximale Anwendungsdauer innerlich eng begrenzen, Leberwerte überwachen.",
+    "contraindications": [
+      "bestehende Lebererkrankung / erhöhte Leberwerte",
+      "Schwangerschaft und Stillzeit",
+      "Kinder",
+      "gleichzeitige Einnahme anderer lebertoxischer Arzneistoffe",
+      "Gallengangsverschluss (bei choleretischer Anwendung)"
+    ],
+    "pregnancy_lactation": "Kontraindiziert — Alkaloide, unzureichende Daten, Lebertoxizität.",
+    "adverse_effects": "Innerlich: idiosynkratische Hepatitis/Cholestase (teils nach Wochen, reversibel bei Absetzen, Einzelfälle mit Leberversagen). Äußerlich: Hautreizung, Kontaktdermatitis, Verätzung der Umgebungshaut.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "additive/idiosynkratische Lebertoxizität",
+        "affected": "andere lebertoxische Arzneistoffe (weitere HILI-Auslöser, Paracetamol in Überdosis, Statine u. a.)",
+        "clinical_relevance": "hoch"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Alkaloide, mögliche Beeinflussung arzneistoffabbauender Enzyme",
+        "affected": "unsicher — zu prüfen",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Isochinolinalkaloide (Chelidonin)",
+      "hepatotoxic": true,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "topical_only": false
+    },
+    "key_warning": "Innerliche Anwendung kann idiosynkratische, bis lebensbedrohliche Leberschäden auslösen (BfArM: max. 2,5 mg Gesamtalkaloide/Tag; HMPC Nutzen-Risiko NEGATIV). Der orange Milchsaft ist ätzend — äußerlich nur punktuell auf die Warze."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Kraut zur Blütezeit Mai–September",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut",
+    "method": "oberirdisches Kraut zur Blüte; für Warzen frischen Milchsaft direkt aus dem gebrochenen Stängel — Handschuhe",
+    "processing": "innerliche Selbstzubereitung nicht empfohlen (Alkaloidgehalt nicht dosierbar, Hepatotoxizität)",
+    "storage": "frisches Kraut kühl; Milchsaft nicht lagerfähig"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "KEINE kulinarische Verwendung — alle Pflanzenteile sind giftig (Alkaloide, ätzender Milchsaft)."
+  },
+  "garden": {
+    "site_soil": "halbschattig, nährstoffreich, kalkhaltig; siedelt von selbst an Mauern/Zäunen",
+    "hardiness": "ausdauernd, winterhart, versamt sich stark (Ameisenausbreitung)",
+    "propagation": "Selbstaussaat; kaum gezielte Kultur nötig",
+    "bodensee_suitability": "wächst problemlos wild in Siedlungsnähe; gärtnerisch eher unerwünscht, da giftig und ausbreitungsfreudig"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Schöllkraut mit gelben 4-blättrigen Blüten und fiederteiligen Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Orange-gelber Milchsaft am gebrochenen Stängel — das entscheidende Merkmal",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: Public Statement zu Chelidonii herba — kein EU-Herbal-Monograph, Nutzen-Risiko negativ (Hepatotoxizität)",
+    "BfArM Stufenplanbescheid 2008: Widerruf für Präparate >2,5 mg Gesamtalkaloide/Tag, Warnhinweise für 2,5 µg–2,5 mg/Tag",
+    "Kommission E: positive Monographie (historisch) für krampfartige Beschwerden im Gallen-/Verdauungsbereich",
+    "Übersichtsarbeiten zur Hepatotoxizität (Herb-Induced Liver Injury, Chelidonium majus): cholestatische Hepatitis, Einzelfälle Leberversagen",
+    "Arzneipflanzenlexikon / Giftdatenbanken (CliniTox): Alkaloide, Warzenanwendung, ätzender Milchsaft"
+  ]
+}

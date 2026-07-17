@@ -430,3 +430,31 @@ Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die 
 ### Nebenbefund (weiterhin offen, NICHT bearbeitet)
 
 Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten ~38 Altfehler in den früheren handkuratierten Monographien (baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut) — meist `toxicity_level`-Werte wie "essbar/gering", die das Schema nicht kennt. Auftragsgemäß (genau 2 Monographien; kuratierte Dateien gehören dem Arzt) NICHT angefasst. Empfehlung unverändert: eigener Bereinigungslauf. Beide neuen Dateien bestehen die Prüfung einzeln und gemeinsam fehlerfrei.
+
+## Lauf 2026-07-17 — Borretsch, Schöllkraut
+
+**Auswahl / Quelle:** `docs/wunschliste.json` (5 Einträge) hat weiterhin **0 offene** — alle fünf (potentilla-reptans, nepeta-nepetella, dittrichia-viscosa, cynodon-dactylon, hedera-canariensis) liegen per id- **und** Synonym-Dedup bereits in `fertig/`. Daher beide Plätze aus `kraeuter-kandidaten.json`: die ersten beiden **offenen** Einträge nach tier aufsteigend, in Listenreihenfolge — beide Tier 2:
+- **borago-officinalis (Borretsch)** — Kandidat, Tier 2 → `fertig/monographie-borretsch.json`, Status `entwurf_fertig`
+- **chelidonium-majus (Schöllkraut)** — Kandidat, Tier 2 → `fertig/monographie-schoellkraut.json`, Status `entwurf_fertig`
+
+**Dedup:** Beide gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprüft (grep + Listenabgleich) — nicht vorhanden. Synonyme selbst eingetragen (Borretsch: Borago hortensis; Schöllkraut: keine gebräuchlichen Altnamen → leeres Array). Keine Selbstheilung nötig, keine Dubletten-Warnung.
+
+**Recherche-Kanal:** WebSearch funktionierte gut (Kommission E, EMA/HMPC Public Statement, Cochrane, BfArM-Stufenplan, PubMed/NCBI-Hepatotoxizitäts-Reviews, BfR). **WebFetch scheiterte durchgängig mit HTTP 403** (AWL.ch, arzneipflanzenlexikon.info, de.wikipedia.org) — Inhalte daher über WebSearch-Zusammenfassungen belegt. Zu KEINER der beiden Arten existiert eine EMA/HMPC-*Monographie* (Schöllkraut nur Public Statement) — kein Primär-PDF verfügbar; **Evidenzgrade wie immer ärztlich gegenprüfen.**
+
+**Prüfergebnis:** Beide bestehen `validate_monographie.py` — Borretsch `✓ alles sauber`, Schöllkraut `ok, mit Hinweisen` (nur der erwünschte „unsicher/zu prüfen"-Hinweis bei einer theoretischen Interaktion). **0 Korrekturversuche**, keine Dubletten.
+
+**Hauptquellen:**
+- Borretsch: Kommission E Negativmonographie Boraginis herba/flos (1991, PA + kein Wirknachweis); keine HMPC-/ESCOP-Monographie; Cochrane 2011 (GLA bei rheumatoider Arthritis, moderat); Cochrane/Übersichten (Borretschöl bei Neurodermitis überwiegend ohne Nutzen); BfR (PA-Verzehrempfehlung, Digitalis-Verwechslung).
+- Schöllkraut: EMA/HMPC Public Statement (Nutzen-Risiko negativ, kein Monograph); BfArM-Stufenplan 2008 (Widerruf >2,5 mg Gesamtalkaloide/Tag); Kommission E (historisch positiv, Gallen-/Verdauungsbeschwerden); Hepatotoxizitäts-Reviews (HILI, cholestatische Hepatitis bis Leberversagen); CliniTox/Arzneipflanzen-Lexikon.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Borretsch — die Heilpflanzen-Erwartung dreht sich um.** Das populäre „Borretschtee/‑blüten"-Bild ist regulatorisch NEGATIV (Kommission E 1991, PA-Leberrisiko). Der einzige evidenzbasierte Nutzen liegt im **PA-freien Samenöl** (GLA): RCT/Cochrane-Nutzen bei rheumatoider Arthritis (moderat, hohe Dosis, ab ~6 Monaten), bei Neurodermitis dagegen überwiegend **kein** Nutzen. Beide Samenöl-Indikationen mit `RCT` getaggt, aber im `realistic_expectation`/`overstated` scharf eingegrenzt. **Bitte prüfen, ob die getrennte Behandlung von PA-haltigem Kraut vs. PA-freiem Samenöl in der App klar genug ankommt** — die Sicherheitsaussage kippt komplett je nach Pflanzenteil.
+- **Borretsch — Nebenbefund GLA senkt Krampfschwelle.** Ich habe `lowers_seizure_threshold=true` gesetzt und Epilepsie/epileptogene Kombination als Kontraindikation aufgenommen. Das ist eine oft übersehene, real dokumentierte Vorsicht bei GLA-Ölen (auch Nachtkerzenöl) — bitte gegenprüfen.
+- **Borretsch — deadly_confusion=true (Roter Fingerhut).** Junge Rosette klassisch mit *Digitalis purpurea* verwechselbar (Todesfälle dokumentiert); Unterscheider = **Gurkengeruch** + borstige (statt weichfilziger) Behaarung. Zusätzlich zwei weitere PA-Träger als Verwechsler (Ochsenzunge, Beinwell) — kein sicherer Ersatz.
+- **Schöllkraut — Lehrbuch vs. aktueller Stand klaffen auseinander.** Ältere Quellen führen die Kommission-E-Indikation (krampfartige Gallen-/Verdauungsbeschwerden, innerlich) noch positiv. **Überholt:** BfArM widerrief 2008 höher dosierte Zulassungen, HMPC bewertet Nutzen-Risiko **negativ** — Grund ist **idiosynkratische, dosisunabhängige** Hepatotoxizität (cholestatische Hepatitis bis Leberversagen). Beide Indikationen bewusst `TRAD`, innerliche Anwendung ausdrücklich nicht empfohlen; Grenzwert 2,5 mg Gesamtalkaloide/Tag im Text.
+- **Schöllkraut — deadly_confusion=false, aber die Pflanze SELBST ist das Risiko.** Kein tödlicher Doppelgänger; Verwechsler sind Scharbockskraut (Namensverwechslung), Johanniskraut (Blüte) und vegetativ fiederblättrige Kräuter inkl. Schierling. **Entscheidendes, eindeutiges Erkennungsmerkmal: der orange-gelbe Milchsaft** beim Abbrechen (+ nur 4 Kronblätter). `toxin_ceiling`/`hepatotoxic`/`pregnancy_contraindicated` gesetzt; eine Interaktion bewusst als „unsicher — zu prüfen" markiert.
+
+### Nebenbefund (weiterhin offen, NICHT bearbeitet)
+
+Der Sammel-Lauf `validate_monographie.py fertig/*.json` meldet unverändert die bekannten Altfehler in den früheren handkuratierten Monographien (u. a. `toxicity_level`-Werte wie „essbar/gering", die das Schema nicht kennt). Auftragsgemäß (genau 2 Monographien; kuratierte Dateien gehören dem Arzt) NICHT angefasst. Empfehlung unverändert: eigener Bereinigungslauf. Beide neuen Dateien bestehen die Prüfung einzeln fehlerfrei.

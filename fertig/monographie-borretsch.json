@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "id": "borago-officinalis",
+  "stand": "2026-07-17",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Borago officinalis L.",
+    "common_names_de": [
+      "Borretsch",
+      "Boretsch",
+      "Gurkenkraut",
+      "Kukumerkraut"
+    ],
+    "family": "Boraginaceae (Raublattgewächse)",
+    "drug_part": [
+      "Kraut/Blüte (Boraginis herba/flos) — traditionell/kulinarisch",
+      "Samenöl (Boraginis oleum) — Gamma-Linolensäure"
+    ],
+    "drug_name_latin": "Boraginis herba, Boraginis flos, Boraginis oleum (Samenöl)",
+    "synonyms": [
+      "Borago hortensis"
+    ],
+    "synonym_note": "Taxonomisch stabil; 'Borago hortensis' ist ein historischer Gartenname derselben Art."
+  },
+  "identification": {
+    "key_features": [
+      "Leuchtend himmelblaue, sternförmige Blüten mit 5 spitzen Kronzipfeln und schwarz-violettem Staubblattkegel (überhängend)",
+      "Ganze Pflanze rau, borstig-steifhaarig (Raublattgewächs)",
+      "Zerriebene Blätter riechen deutlich nach Gurke — sicherstes Bestätigermerkmal",
+      "Kräftige, hohle, borstige Stängel, 30–70 cm; runzelig-eiförmige, wechselständige Blätter"
+    ],
+    "season": "Blüte Juni bis September (bei Aussaat bis Frost)",
+    "habitat": "Gärten, Kräuterbeete, ruderal an Wegen und Schuttplätzen; ursprünglich Mittelmeerraum, bei uns kultiviert und verwildernd",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Gurkengeruch der zerriebenen Blätter als Bestätiger — fehlt er, Finger weg (Verwechslungsgefahr mit Fingerhut-Rosette)",
+      "Blüten und junge Blätter nur in kleinen Mengen und nicht regelmäßig ernten (Pyrrolizidinalkaloide)",
+      "Für arzneiliche Zwecke nur PA-freies, geprüftes Samenöl verwenden — keine Eigenverarbeitung des Krauts"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Roter Fingerhut (junge Blattrosette, vegetativ)",
+      "scientific_name": "Digitalis purpurea",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzglykoside (Digitoxin, Digoxin)",
+      "note": "Junge Rosetten verwechselbar. Fingerhut ist weich-filzig behaart (nicht borstig-stechend), riecht NICHT nach Gurke und hat eine netzige Blattunterseite. Im Zweifel: kein Gurkengeruch = nicht ernten. Todesfälle durch Verwechslung dokumentiert."
+    },
+    {
+      "name": "Gewöhnliche Ochsenzunge",
+      "scientific_name": "Anchusa officinalis",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide",
+      "note": "Ebenfalls raublättriges Boraginaceae mit blauen Blüten; schmalere Blätter, Blüten in eingerollten Wickeln. Enthält selbst lebertoxische PA — kein sicherer Borretsch-Ersatz."
+    },
+    {
+      "name": "Echter Beinwell (Rosette)",
+      "scientific_name": "Symphytum officinale",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide",
+      "note": "Raublättrig wie Borretsch, aber Blätter am Stängel herablaufend, Blüten glockig-hängend (purpur/creme), kein Gurkengeruch. Ebenfalls PA-haltig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (im Kraut/Blüte)",
+      "Kieselsäure, Kalium-/Nitratsalze",
+      "Gerbstoffe, Rosmarinsäure",
+      "1,2-ungesättigte Pyrrolizidinalkaloide im Kraut (Amabilin, Intermedin, Lycopsamin, Supinin, Thesinin; ~2–10 mg/kg Trockenmasse)",
+      "Samenöl: Gamma-Linolensäure (GLA, ~18–26 %), Linolsäure — Samenöl ist PA-frei"
+    ],
+    "lead_substance": "Gamma-Linolensäure (GLA) im Samenöl = entzündungsmodulierend; Pyrrolizidinalkaloide im Kraut = Sicherheitsrelevanz (lebertoxisch)",
+    "solubility_note": "GLA nur im fetten Samenöl (Kapsel/Öl), nicht im wässrigen Tee. Schleimstoffe/Gerbstoffe des Krauts gehen in Wasser über — arzneilich aber wegen PA nicht empfohlen.",
+    "heat_light_sensitivity": "Samenöl oxidations- und lichtempfindlich (mehrfach ungesättigte Fettsäuren) — kühl/dunkel lagern"
+  },
+  "pharmacology": {
+    "mechanism": "GLA wird zu Dihomo-Gamma-Linolensäure verstoffwechselt, aus der antiinflammatorisch wirkende Eicosanoide (statt proinflammatorischer Arachidonsäure-Metabolite) entstehen. Kraut-Schleimstoffe reizmildernd (traditionell).",
+    "evidence_caveat": "Für Kraut/Blüte keine belastbare klinische Evidenz; Kommission E bewertet sie negativ. Samenöl-Studien uneinheitlich, Effekte bestenfalls moderat und dosis-/zeitabhängig.",
+    "pharmacokinetics": "PA werden hepatisch bioaktiviert (reaktive Pyrrol-Metabolite → Leberschädigung); GLA wird als Nahrungsfettsäure resorbiert und in Membranphospholipide eingebaut."
+  },
+  "indications": [
+    {
+      "canonical": "Rheumatoide Arthritis (adjuvant, Samenöl/GLA)",
+      "synonyms": [
+        "Rheuma",
+        "Gelenkentzündung",
+        "Gelenkschmerzen",
+        "Morgensteifigkeit",
+        "entzündliches Rheuma"
+      ],
+      "evidence_tag": "RCT",
+      "comment": "Cochrane-Review 2011: GLA-haltige Öle (u. a. Borretschsamenöl) zeigen moderate Besserung von Schmerz, Morgensteifigkeit und Gelenkdruckschmerz, v. a. bei höheren Dosen (>1,4 g GLA/Tag) und Anwendung über ~6 Monate. Kein Ersatz für Basistherapie.",
+      "realistic_expectation": "Allenfalls mild-moderater, symptomatischer Zusatznutzen — verändert den Krankheitsverlauf nicht und ersetzt keine DMARD-Therapie.",
+      "source": "Cochrane Review 2011 (GLA bei rheumatoider Arthritis)"
+    },
+    {
+      "canonical": "Atopische Dermatitis / Neurodermitis (Samenöl/GLA)",
+      "synonyms": [
+        "Neurodermitis",
+        "atopisches Ekzem",
+        "trockene juckende Haut",
+        "Hautekzem"
+      ],
+      "evidence_tag": "RCT",
+      "comment": "Zahlreiche RCTs mit widersprüchlichem Ergebnis; systematische Auswertungen (u. a. Cochrane) finden für orales Borretsch-/GLA-Öl keinen verlässlichen Nutzen bei Neurodermitis.",
+      "realistic_expectation": "Überwiegend enttäuschend — ein relevanter Effekt ist nicht zu erwarten; bestenfalls bei leichten Formen marginal. Erwartung dämpfen.",
+      "source": "RCTs uneinheitlich; Cochrane/Übersichtsarbeiten überwiegend ohne Wirknachweis"
+    },
+    {
+      "canonical": "Traditionelle innerliche Kraut-/Blütenanwendung (Husten, Schwitzkur, 'Blutreinigung', Stimmung)",
+      "synonyms": [
+        "Husten",
+        "Erkältung",
+        "Schwitzkur",
+        "Blutreinigung",
+        "Stimmungsaufhellung",
+        "Melancholie"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinisch überliefert; Kommission E veröffentlichte 1991 eine NEGATIVMONOGRAPHIE für Borretschkraut und -blüten (wegen lebertoxischer PA und fehlendem Wirknachweis). Keine HMPC-, keine ESCOP-Monographie.",
+      "realistic_expectation": "Kein belegter Nutzen bei realem Leberrisiko durch PA. Von regelmäßiger innerlicher Anwendung des Krauts/der Blüten ist abzuraten.",
+      "source": "Kommission E (Negativmonographie Boraginis herba/flos, 1991)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "PA-freies Samenöl (GLA) mit moderater RCT-Evidenz bei rheumatoider Arthritis (Schmerz/Morgensteifigkeit, höhere Dosis, ab ~6 Monaten). Blüten/junge Blätter als gelegentliches Küchenkraut (Gurkennote).",
+    "overstated": "Kraut/Blüten als Heiltee (Husten, 'Blutreinigung', Schwitzkur) — Kommission E NEGATIV, PA-bedingtes Leberrisiko. Samenöl bei Neurodermitis: Studien überwiegend ohne relevanten Nutzen.",
+    "effect_size": "Samenöl bei RA mild-moderat symptomatisch; Kraut ohne belegten Nutzen"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Samenöl-Kapseln (standardisierter GLA-Gehalt, PA-frei geprüft)",
+      "Blüten/junge Blätter frisch als Küchenkraut (kleine Mengen)"
+    ],
+    "form_rationale": "GLA ist nur im fetten Samenöl enthalten (Kapsel/Öl), nicht im Tee. Das Kraut wird arzneilich wegen der PA gemieden; als Speisewürze in Maßen akzeptabel.",
+    "standard_dose": "Samenöl: bei RA ~1,4–2,8 g GLA/Tag über mindestens 2, wirksam eher ab ~6 Monaten. Küche: Blüten/junge Blätter nur gelegentlich, kleine Mengen (BfR rät von regelmäßigem Verzehr wegen PA ab).",
+    "preservation": "Samenöl kühl, dunkel, luftdicht; rasch verbrauchen (Oxidation)"
+  },
+  "safety": {
+    "tox_ceiling": "1,2-ungesättigte Pyrrolizidinalkaloide im Kraut/in den Blüten sind lebertoxisch und potenziell kanzerogen/genotoxisch. BfR: kein regelmäßiger Verzehr; gelegentlicher kulinarischer Gebrauch (z. B. Grüne Soße) gilt als vertretbar. Nur PA-freies Samenöl innerlich verwenden.",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit (PA)",
+      "Lebererkrankungen",
+      "regelmäßige/hochdosierte innerliche Anwendung des Krauts",
+      "Epilepsie bzw. Kombination mit krampfschwellensenkenden Arzneien (GLA-Öl)",
+      "Kinder (innerliche Krautanwendung)"
+    ],
+    "pregnancy_lactation": "Kontraindiziert — Pyrrolizidinalkaloide sind plazenta-/muttermilchgängig und leberschädigend; auch Samenöl mangels Daten meiden.",
+    "adverse_effects": "Kulinarisch selten. Samenöl: gelegentlich Magen-Darm-Beschwerden, weicher Stuhl. PA-bedingte Leberschäden bei chronischer/hochdosierter Krautaufnahme (veno-okklusive Erkrankung).",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "GLA-Öl kann die Krampfschwelle senken",
+        "affected": "Antiepileptika bzw. epileptogene Substanzen (z. B. Phenothiazine)",
+        "clinical_relevance": "relevant"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive Hemmung der Thrombozytenaggregation (GLA)",
+        "affected": "Antikoagulanzien/Thrombozytenaggregationshemmer",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "additive Lebertoxizität der PA aus dem Kraut",
+        "affected": "andere lebertoxische Arzneistoffe",
+        "clinical_relevance": "relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": true,
+      "toxin_type": "Pyrrolizidinalkaloide",
+      "hepatotoxic": true,
+      "pregnancy_contraindicated": true,
+      "lowers_seizure_threshold": true,
+      "interaction_heavy": false
+    },
+    "key_warning": "Kraut/Blüten enthalten lebertoxische Pyrrolizidinalkaloide — kein Dauergebrauch, nicht in Schwangerschaft/Stillzeit. Junge Rosette lebensgefährlich mit Rotem Fingerhut verwechselbar; Gurkengeruch ist das Erkennungsmerkmal. Innerlich nur PA-freies Samenöl."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten/Blätter Juni–September; Samen für Öl bei Reife (Spätsommer)",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blüte, Blatt (Küche); Samen (Öl)",
+    "method": "Blüten/junge Blätter frisch pflücken; für Öl reife Samen — Ölgewinnung nur industriell/PA-geprüft",
+    "processing": "frisch verwenden; Kraut nicht für arzneilichen Dauergebrauch trocknen",
+    "storage": "Samenöl kühl/dunkel; frisches Kraut welkt rasch"
+  },
+  "kitchen": {
+    "uses": [
+      "Blüten als essbare Deko (Salat, Getränke)",
+      "junge Blätter fein gehackt (Gurkennote) in Frischkäse, Grüner Soße, Salaten"
+    ],
+    "culinary_vs_medicinal": "Küche: gelegentliche kleine Mengen vertretbar (PA-Belastung gering, aber nicht null → nicht täglich). Medizinisch: nur PA-freies Samenöl; Kraut als 'Heilmittel' abzulehnen."
+  },
+  "garden": {
+    "site_soil": "sonnig, nährstoffreich, durchlässig; anspruchslos, selbstaussäend",
+    "hardiness": "einjährig, frostempfindlich; sät sich reichlich selbst aus",
+    "propagation": "Direktsaat ab April; keimt zuverlässig",
+    "bodensee_suitability": "sehr gut — dankbare, insektenreiche Bienen-/Hummelweide; breitet sich durch Selbstaussaat aus"
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Borretsch mit blauen Sternblüten und borstigem Wuchs",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Sternblüte mit schwarz-violettem Staubblattkegel; borstige Behaarung",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Fingerhut-Rosette (vegetativ) zum Vergleich — weichhaarig, kein Gurkengeruch",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E: Negativmonographie Boraginis herba/flos (1991) — PA, kein Wirknachweis",
+    "Keine EMA/HMPC-Monographie, keine ESCOP-Monographie zu Borago officinalis (Stand 2026)",
+    "Cochrane Review 2011: Gamma-Linolensäure (u. a. Borretschsamenöl) bei rheumatoider Arthritis",
+    "Übersichtsarbeiten/Cochrane: orale GLA-/Borretschöl-Anwendung bei atopischer Dermatitis überwiegend ohne Nutzennachweis",
+    "BfR / Giftinformationszentren: Pyrrolizidinalkaloide, Verzehrempfehlung, Verwechslung mit Digitalis purpurea"
+  ]
+}

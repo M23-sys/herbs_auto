@@ -159,6 +159,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, Tier 2). Kein HMPC/ESCOP. Bemerkenswert: RCT-Evidenz zur Migräneprophylaxe (Petadolex 75 mg 2×/Tag, −48 % Attacken, Lipton 2004) und zur allergischen Rhinitis (Ze 339) → evidence_tag RCT — aber NUR für standardisierte, PA-FREIE Spezialextrakte, nie Tee/Wildpflanze. Sicherheitskern: native Pflanze/Tee lebertoxisch+kanzerogen (PA); selbst PA-freie Extrakte lösten Leberschäden aus → Petadolex in D seit 07/2009 ohne Zulassung, AAN/AHS-Leitlinienempfehlung 2015/16 ZURÜCKGEZOGEN. Kommission E: positiv nur für das Rhizom (Harnwegskrämpfe), negativ für Blatt/Gesamtpflanze. toxin_ceiling+hepatotoxic+pregnancy_contraindicated. Taxonomie: Basionym Tussilago petasites/hybrida — erklärt die Verwechslungsnähe zum Huflattich."
+    },
+    {
+      "ts": "2026-07-17T09:00:00Z",
+      "id": "borago-officinalis",
+      "common": "Borretsch",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 2). Kraut/Blueten: Kommission E fuehrt eine NEGATIVMONOGRAPHIE (1991) wegen lebertoxischer Pyrrolizidinalkaloide und fehlendem Wirknachweis; keine HMPC-, keine ESCOP-Monographie -> innerliche Krautanwendung TRAD und abzulehnen. Der belegte Nutzen liegt allein im PA-FREIEN Samenoel (Gamma-Linolensaeure): Cochrane 2011 zeigt bei rheumatoider Arthritis moderaten symptomatischen Nutzen (>1,4 g GLA/Tag, ab ~6 Monaten); bei Neurodermitis dagegen ueberwiegend KEIN Nutzen. Zwei Sicherheitspunkte: (1) junge Blattrosette lebensgefaehrlich mit Rotem Fingerhut verwechselbar -> deadly_confusion=true, Gurkengeruch als Erkennungsmerkmal; (2) GLA-Oel kann die Krampfschwelle senken -> Vorsicht bei Epilepsie. toxin_ceiling (PA) und pregnancy_contraindicated gesetzt."
+    },
+    {
+      "ts": "2026-07-17T09:00:30Z",
+      "id": "chelidonium-majus",
+      "common": "Schoellkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, Tier 2). WICHTIG fuer den Arzt: die frueher positive Kommission-E-Indikation (krampfartige Gallen-/Verdauungsbeschwerden, innerlich) ist ueberholt — BfArM widerrief 2008 die Zulassung fuer Praeparate >2,5 mg Gesamtalkaloide/Tag, und die EMA/HMPC bewertet in einem Public Statement das Nutzen-Risiko als NEGATIV: idiosynkratische, dosisunabhaengige Leberschaeden (cholestatische Hepatitis bis Leberversagen). Daher beide Indikationen TRAD, innerliche Anwendung ausdruecklich nicht empfohlen. Aeusserlich traditionell gegen Warzen (frischer, aetzender oranger Milchsaft). Erkennungsmerkmal ist der orange-gelbe Milchsaft; 4 Kronblaetter. hepatotoxic + toxin_ceiling (Isochinolinalkaloide/Chelidonin) + pregnancy_contraindicated gesetzt; kein toedlicher Doppelgaenger (die Pflanze selbst ist das Risiko)."
     }
   ]
 }
