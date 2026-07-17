@@ -1,40 +1,47 @@
 {
   "hinweis": "Wird von der Herbarium-App geschrieben. Die Routine liest sie und arbeitet sie VOR der Kandidatenliste ab.",
-  "stand": "2026-07-15",
-  "anzahl": 5,
+  "stand": "2026-07-17",
+  "anzahl": 6,
   "kandidaten": [
     {
-      "id": "potentilla-reptans",
-      "common": "Creeping Cinquefoil",
-      "latin": "Potentilla reptans",
+      "id": "rudbeckia-fulgida",
+      "common": "Black eyed Susan",
+      "latin": "Rudbeckia fulgida",
       "region": "Bodensee",
       "quelle": "Merkposten"
     },
     {
-      "id": "nepeta-nepetella",
-      "common": "Lesser Cat mint",
-      "latin": "Nepeta nepetella",
+      "id": "malva-sylvestris",
+      "common": "Common mallow",
+      "latin": "Malva sylvestris",
       "region": "Bodensee",
       "quelle": "Merkposten"
     },
     {
-      "id": "dittrichia-viscosa",
-      "common": "Woody Fleabane",
-      "latin": "Dittrichia viscosa",
+      "id": "achillea-nobilis",
+      "common": "Noble yarrow",
+      "latin": "Achillea nobilis",
       "region": "Bodensee",
       "quelle": "Merkposten"
     },
     {
-      "id": "cynodon-dactylon",
-      "common": "Bermudagrass",
-      "latin": "Cynodon dactylon",
+      "id": "nepeta-cataria",
+      "common": "Catnip",
+      "latin": "Nepeta cataria",
       "region": "Bodensee",
       "quelle": "Merkposten"
     },
     {
-      "id": "hedera-canariensis",
-      "common": "Madeira ivy",
-      "latin": "Hedera canariensis",
+      "id": "malva-arborea",
+      "common": "Tree mallow",
+      "latin": "Malva arborea",
+      "region": "Bodensee",
+      "quelle": "Merkposten"
+    },
+    {
+      "id": "erigeron-strigosus",
+      "common": "Common eastern fleabane",
+      "latin": "Erigeron strigosus",
       "region": "Bodensee",
       "quelle": "Merkposten"
     }
