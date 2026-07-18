@@ -255,6 +255,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung aus der Kandidatenliste (tier 2). Kommission E NEGATIV, keine HMPC/ESCOP — Indikationen TRAD. Leitthema Cumarin: dosislimitiert (Kopfschmerz, hoch dosiert benommen/leberbelastend; kulinarisch max. ~3 g/L Bowle, vor der Blüte ernten). Zwei ärztlich relevante Punkte: (1) die traditionelle Kopfschmerz-Indikation ist paradox, da Cumarin selbst Kopfschmerz auslöst; (2) natürliches Cumarin ist NICHT das gerinnungshemmende Cumarin-Arzneimittel (Warfarin/Phenprocoumon) — verbreiteter Irrtum. Deadly-confusion-Flag gesetzt: am Waldboden potenzielle Verwechslung mit dem lebensgefährlichen Maiglöckchen (Quirl vs. 2 breite Blätter). Altname Asperula odorata für Dedup vermerkt."
+    },
+    {
+      "ts": "2026-07-18T18:16:35Z",
+      "id": "actaea-racemosa",
+      "common": "Traubensilberkerze",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). HMPC fuehrt Cimicifugae rhizoma als WELL-ESTABLISHED USE bei Wechseljahresbeschwerden (Hitzewallungen/Schwitzen) — aber ausdruecklich nur fuer standardisierte Extrakte, NICHT fuer Wurzeltee; ESCOP und Kommission E ebenfalls positiv. Kein pflanzliches Oestrogen und kein HRT-Ersatz. Sicherheitskritisch: seltene idiosynkratische Leberschaeden (EMA-Warnhinweis, bei Zeichen absetzen). Verbreiteter Tamoxifen-Interaktions-Mythos korrigiert: in Studien KEINE relevante CYP3A4/2D6-Hemmung."
+    },
+    {
+      "ts": "2026-07-18T18:16:35Z",
+      "id": "angelica-archangelica",
+      "common": "Echte Engelwurz",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). WICHTIG: KEINE HMPC-Monographie fuer Angelica archangelica (bislang nicht bewertet) — Evidenz daher als ESCOP+ (Kommission E positiv + ESCOP) getaggt, NICHT WEU/TU. Aromatisches Bittermittel bei dyspeptischen Beschwerden/Appetitlosigkeit. Sicherheitskritisch: Doldenbluetler mit LEBENSGEFAEHRLICHEN Doppelgaengern (Wasserschierling Cicuta virosa, Gefleckter Schierling Conium maculatum) -> deadly_confusion=true; Saft phototoxisch (Furocumarine)."
     }
   ]
 }

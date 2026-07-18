@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "id": "actaea-racemosa",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Actaea racemosa",
+    "common_names_de": ["Traubensilberkerze", "Amerikanisches Wanzenkraut", "Schwarze Schlangenwurzel", "Black Cohosh"],
+    "family": "Hahnenfußgewächse (Ranunculaceae)",
+    "drug_part": ["Wurzelstock (Rhizoma)", "Wurzel (Radix)"],
+    "drug_name_latin": "Cimicifugae racemosae rhizoma (Traubensilberkerzenwurzelstock)",
+    "synonyms": ["Cimicifuga racemosa (L.) Nutt.", "Macrotys actaeoides Raf.", "Actaea monogyna Walter", "Botrophis serpentaria Raf."],
+    "synonym_note": "Lange als Cimicifuga racemosa geführt; heute akzeptierter Name Actaea racemosa. HMPC-Monographie und Handelsware laufen weiter unter der Drogenbezeichnung Cimicifugae racemosae rhizoma — App-Abgleich über beide Namen wichtig."
+  },
+  "identification": {
+    "key_features": [
+      "Hohe (bis 2 m), schlanke, kerzenförmige weiße Blütentrauben aus vielen kleinen, staubblattreichen Blüten ohne Kronblätter — das auffälligste Merkmal",
+      "Blätter groß, mehrfach dreiteilig gefiedert, Fiederblättchen gesägt",
+      "Unangenehmer, wanzenartig-strenger Blütengeruch (daher 'Wanzenkraut')",
+      "Dickes, knotiges, schwärzliches Rhizom mit zahlreichen Wurzeln, innen hell",
+      "Nordamerikanische Waldstaude; in Europa fast nur als Zierpflanze im Garten, nicht heimisch wild"
+    ],
+    "season": "Blütezeit Juni–September",
+    "habitat": "Ursprünglich lichte Laubwälder und Waldränder im östlichen Nordamerika; in Mitteleuropa Zierstaude in Gärten (halbschattig, frisch)",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "nur-kultur"}
+    ],
+    "collection_rules": [
+      "Für die arzneiliche Anwendung KEINE Selbstsammlung — verwendet werden ausschließlich standardisierte Fertigextrakte (isopropanolisch/ethanolisch) aus kontrolliertem Anbau",
+      "Gattung Actaea sicher von Zier-Silberkerzen (Actaea simplex, A. cordifolia u. a.) trennen — diese sind wirkstofflich NICHT gleichwertig",
+      "Nicht mit dem heimischen, giftigen Christophskraut (Actaea spicata) verwechseln, das denselben Gattungs- und teils Trivialnamen trägt"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Christophskraut",
+      "scientific_name": "Actaea spicata",
+      "toxicity_level": "giftig",
+      "toxin": "scharf-giftige Ranunculaceen-Inhaltsstoffe (Protoanemonin-Typ), Triterpenglykoside; besonders die schwarzen Beeren",
+      "note": "Heimische europäische Art derselben Gattung mit verwirrend ähnlichem Namen. Bildet glänzend schwarze Beeren (giftig, brennend scharf) — die arzneiliche Traubensilberkerze (A. racemosa) ist dagegen die nordamerikanische Art mit weißen Blütenkerzen. Keine Selbstsammlung, keine Verwendung der Beeren."
+    },
+    {
+      "name": "Rotfrüchtiges Christophskraut",
+      "scientific_name": "Actaea rubra",
+      "toxicity_level": "giftig",
+      "toxin": "Ranunculaceen-Glykoside; leuchtend rote Beeren stark giftig",
+      "note": "Nordamerikanische Schwesternart mit roten Beeren, als Zierpflanze verbreitet. Nicht arzneilich verwenden; Beeren für Kinder gefährlich. Unterscheidung von A. racemosa über den kerzenförmigen Blütenstand der letzteren."
+    },
+    {
+      "name": "Zier-Silberkerzen (Herbst-Silberkerze u. a.)",
+      "scientific_name": "Actaea simplex",
+      "toxicity_level": "giftig",
+      "toxin": "Triterpenglykoside; nicht als Lebensmittel geeignet",
+      "note": "Beliebte Gartenstauden mit ähnlichen weißen Blütenkerzen. Sie sehen der Arzneipflanze ähnlich, sind aber pharmazeutisch NICHT gleichwertig — die klinische Evidenz gilt nur für standardisierte Extrakte aus A. racemosa. Kein akut tödlicher Doppelgänger, aber Substitutionsfehler."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Cycloartan-Triterpenglykoside (Actein, 23-epi-26-Deoxyactein/27-Deoxyactein, Cimicifugosid) — analytische Leitsubstanzen",
+      "Phenolische Säuren (Fukinolsäure, Cimicifugasäure, Isoferulasäure, Ferulasäure)",
+      "geringe Mengen Formononetin/Isoflavonoide (in modernen Chargenanalysen häufig NICHT nachweisbar)",
+      "harzartige Bestandteile"
+    ],
+    "lead_substance": "Triterpenglykoside (Actein, Deoxyactein) als analytische Marker; die eigentlich wirksamkeitsbestimmende Substanz ist nicht eindeutig geklärt",
+    "solubility_note": "Wirksamkeit ist an definierte Extrakte gebunden: die HMPC-Evidenz gilt für standardisierte isopropanolische bzw. ethanolische Trockenextrakte, NICHT für selbst zubereiteten Tee oder Tinktur aus der Wurzel. Das harte, holzige Rhizom eignet sich nicht für Haushaltszubereitungen.",
+    "heat_light_sensitivity": "Standardisierung und Haltbarkeit sind herstellerkontrolliert; keine sinnvolle Eigenverarbeitung."
+  },
+  "pharmacology": {
+    "mechanism": "Kein klassischer Östrogen-Effekt: aktuelle Daten sprechen gegen eine direkte Bindung an Östrogenrezeptoren. Diskutiert werden zentrale, nicht-hormonelle Wirkungen (dopaminerg, serotonerg über 5-HT7, GABAerg) mit Dämpfung vasomotorischer Symptome. Der genaue Mechanismus bleibt offen.",
+    "evidence_caveat": "Die well-established-use-Bewertung stützt sich auf RCTs mit SPEZIFISCHEN standardisierten Extrakten (u. a. isopropanolischer Extrakt, ethanolische Extrakte wie Ze 450). Studienlage heterogen, Effekt gegenüber Placebo teils klein; nicht auf beliebige 'Cimicifuga'-Präparate oder Tees übertragbar.",
+    "pharmacokinetics": "unsicher — zu prüfen: Pharmakokinetik der Triterpenglykoside beim Menschen nur unvollständig charakterisiert."
+  },
+  "indications": [
+    {
+      "canonical": "Neurovegetative und psychische Wechseljahresbeschwerden (Hitzewallungen, Schweißausbrüche)",
+      "synonyms": ["Wechseljahresbeschwerden", "Hitzewallungen", "Schweißausbrüche", "Klimakterium", "Menopause", "nächtliches Schwitzen", "Wechseljahre", "innere Unruhe in den Wechseljahren", "Reizbarkeit Wechseljahre"],
+      "evidence_tag": "WEU",
+      "comment": "HMPC-Monographie (Cimicifugae rhizoma): well-established use zur Linderung von Wechseljahresbeschwerden wie Hitzewallungen und starkem Schwitzen — ausdrücklich nur für definierte standardisierte Extrakte. ESCOP und Kommission E führen klimakterische Beschwerden ebenfalls positiv. Nicht anwenden ohne ärztliche Abklärung, wenn eine hormonabhängige Erkrankung besteht.",
+      "realistic_expectation": "Kann bei leichten bis mittelschweren Wallungen/Schwitzen helfen; Effekt tritt meist erst nach mehreren Wochen ein und ist moderat. KEIN Ersatz für eine Hormonersatztherapie und keine Wirkung auf Osteoporose. Nur standardisierte Fertigpräparate, kein Wurzeltee.",
+      "source": "HMPC EU herbal monograph Cimicifugae rhizoma (well-established use); ESCOP; Kommission E"
+    },
+    {
+      "canonical": "Prämenstruelle und dysmenorrhoische Beschwerden",
+      "synonyms": ["PMS", "prämenstruelles Syndrom", "Regelbeschwerden", "Menstruationsbeschwerden", "Regelschmerzen", "Zyklusbeschwerden"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E nennt neben klimakterischen auch prämenstruelle und dysmenorrhoische neurovegetative Beschwerden. Für diese Indikation ist die Evidenz deutlich schwächer als für die Wechseljahre.",
+      "realistic_expectation": "Traditionell/erfahrungsheilkundlich; belastbare Studienevidenz fehlt. Bei starken oder neu aufgetretenen Regelbeschwerden ärztliche Abklärung statt Selbstbehandlung.",
+      "source": "Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Standardisierte Traubensilberkerzen-Extrakte können neurovegetative Wechseljahresbeschwerden (Hitzewallungen, Schwitzen) moderat lindern — als nicht-hormonelle Option mit HMPC-well-established-use-Status.",
+    "overstated": "Kein 'pflanzliches Östrogen' und kein vollwertiger Ersatz für eine Hormonersatztherapie: der Effekt ist begrenzt, tritt verzögert ein und wirkt nicht auf Knochendichte oder urogenitale Atrophie. Wurzeltee oder beliebige 'Cimicifuga'-Produkte teilen die Studienevidenz NICHT — sie gilt nur für definierte Extrakte.",
+    "effect_size": "moderat, symptomatisch; verzögerter Wirkeintritt (Wochen)"
+  },
+  "preparation": {
+    "recommended_forms": ["standardisierter isopropanolischer oder ethanolischer Trockenextrakt (Fertigarzneimittel: Tabletten/Tropfen)"],
+    "form_rationale": "Die Wirksamkeit ist extraktgebunden — die HMPC-/ESCOP-Evidenz beruht auf definierten, standardisierten Auszügen. Das holzige Rhizom eignet sich nicht für Tee; Selbstansatz liefert weder reproduzierbare Dosis noch belegte Wirkung.",
+    "standard_dose": "Nach Fertigpräparat: entsprechend 40 mg Droge/Tag bzw. herstellerspezifische Extraktdosis (z. B. 6,5 mg nativer Extrakt/Tag bei bestimmten Präparaten). Anwendung zeitlich begrenzt; bei fehlender Besserung nach einigen Wochen ärztlich überprüfen.",
+    "preservation": "Nur Fertigpräparate nach Herstellerangabe."
+  },
+  "safety": {
+    "tox_ceiling": "Kein klassisches Toxin mit fixem Grenzwert. Sicherheitsrelevant ist ein seltenes, idiosynkratisches Leberschädigungsrisiko (siehe flags.hepatotoxic): EMA-Warnhinweis, bei Zeichen einer Leberschädigung (Müdigkeit, Oberbauchschmerz, dunkler Urin, Ikterus) sofort absetzen und Arzt aufsuchen.",
+    "contraindications": [
+      "bekannte oder zurückliegende Lebererkrankung",
+      "östrogenabhängige Tumoren nur nach ärztlicher Rücksprache (v. a. Mamma-Ca)",
+      "Schwangerschaft und Stillzeit",
+      "Überempfindlichkeit gegen die Pflanze"
+    ],
+    "pregnancy_lactation": "Kontraindiziert. Traditionell wehenanregender Ruf, unzureichende Daten; in Schwangerschaft und Stillzeit nicht anwenden.",
+    "adverse_effects": "Meist gut verträglich. Gelegentlich Magen-Darm-Beschwerden, Hautreaktionen, Gesichts-/Ödemschwellung, Gewichtszunahme. Sehr selten, aber ernst: Leberschädigung (Transaminasenanstieg bis Hepatitis) — bei entsprechenden Symptomen absetzen.",
+    "interactions": [
+      {"type": "pharmakodynamisch", "mechanism": "möglicher additiver/gegenläufiger Effekt auf hormonabhängige Zielgewebe; Kommission E rät von gleichzeitiger Östrogengabe ab", "affected": "Östrogene / Hormonersatztherapie", "clinical_relevance": "gering"},
+      {"type": "theoretisch", "mechanism": "in klinischen Studien KEINE relevante Hemmung/Induktion von CYP3A4 oder CYP2D6 nachgewiesen — eine früher befürchtete Tamoxifen-Interaktion ließ sich nicht bestätigen", "affected": "Tamoxifen und andere CYP2D6/3A4-Substrate", "clinical_relevance": "gering"},
+      {"type": "theoretisch", "mechanism": "additive Lebertoxizität denkbar", "affected": "hepatotoxische Arzneimittel/Substanzen (z. B. Alkohol, bestimmte Antibiotika)", "clinical_relevance": "gering"}
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "hepatotoxic": true,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "Sehr seltene, aber ernste idiosynkratische Leberschäden sind möglich — bei Müdigkeit, Oberbauchbeschwerden, Gelbfärbung oder dunklem Urin sofort absetzen und ärztlich abklären. Nicht in der Schwangerschaft; kein Ersatz für eine Hormonersatztherapie."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Rhizom traditionell im Herbst nach der Fruchtreife (Nordamerika) — für die arzneiliche Nutzung in Europa NICHT relevant, da nur standardisierte Fertigware verwendet wird",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Wurzelstock (Rhizom) mit Wurzeln",
+    "method": "Keine Empfehlung zur Selbstsammlung/-verarbeitung — arzneiliche Qualität nur über standardisierte Extrakte.",
+    "processing": "Industrielle Extraktion und Standardisierung; keine Haushaltsverarbeitung.",
+    "storage": "Fertigpräparate nach Herstellerangabe, trocken und lichtgeschützt."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine Küchenverwendung. Ausschließlich als standardisiertes Arzneimittel — die Pflanze ist kein Lebens- oder Gewürzmittel."
+  },
+  "garden": {
+    "site_soil": "Frischer bis feuchter, humoser, nährstoffreicher Boden im Halbschatten (Gehölzrand); mag keine Trockenheit.",
+    "hardiness": "Winterhart, mehrjährige Staude.",
+    "propagation": "Teilung des Rhizoms im Frühjahr/Herbst oder Aussaat (Kaltkeimer).",
+    "bodensee_suitability": "Als Zierstaude im halbschattigen Garten gut geeignet und winterhart. Arzneiliche Selbstnutzung aus dem Garten ist jedoch NICHT sinnvoll — Wirkung ist extraktgebunden."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Hohe weiße Blütenkerze über gefiedertem Laub", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Knotiges schwärzliches Rhizom mit Wurzeln", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "HMPC/EMA: EU herbal monograph Cimicifugae racemosae rhizoma (Revision 1) — well-established use bei Wechseljahresbeschwerden; Assessment Report mit Hepatotoxizitäts-Bewertung",
+    "ESCOP-Monographie Cimicifugae rhizoma (klimakterische Beschwerden)",
+    "Kommission E: Cimicifugae racemosae rhizoma (positiv: prämenstruelle, dysmenorrhoische und klimakterische neurovegetative Beschwerden)",
+    "EMA/HMPC Sicherheitsbewertung/Warnhinweise zu seltenen Leberschäden bei Cimicifuga-Präparaten",
+    "Onkopedia-Leitlinie Traubensilberkerze (Stand Okt. 2021) zu Tamoxifen/CYP-Interaktion und Anwendung in der Onkologie",
+    "Arzneipflanzenlexikon; Altmeyers Enzyklopädie (Phytotherapie): Cimicifugae racemosae rhizoma"
+  ]
+}

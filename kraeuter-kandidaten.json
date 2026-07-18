@@ -338,8 +338,8 @@
       "latin": "Actaea racemosa",
       "tier": 2,
       "reason": "Menopause; Lebertoxizität-Signal",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-traubensilberkerze.json"
     },
     {
       "id": "angelica-archangelica",
@@ -347,8 +347,8 @@
       "latin": "Angelica archangelica",
       "tier": 2,
       "reason": "Doldenblütler; Furocumarine/Photosensibilisierung",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-engelwurz.json"
     },
     {
       "id": "aegopodium-podagraria",

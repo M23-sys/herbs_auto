@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "id": "angelica-archangelica",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Angelica archangelica",
+    "common_names_de": ["Echte Engelwurz", "Arznei-Engelwurz", "Erzengelwurz", "Brustwurz", "Angelika"],
+    "family": "Doldenblütler (Apiaceae / Umbelliferae)",
+    "drug_part": ["Wurzel (Radix)", "Wurzelstock (Rhizoma)"],
+    "drug_name_latin": "Angelicae radix (Engelwurzwurzel)",
+    "synonyms": ["Angelica officinalis Hoffm.", "Archangelica officinalis (Moench) Hoffm.", "Archangelica archangelica (L.) H.Karst.", "Angelica sativa Mill."],
+    "synonym_note": "Nicht verwechseln mit Angelica sinensis (chinesische Dong-Quai, andere Art) und Angelica sylvestris (Wald-Engelwurz)."
+  },
+  "identification": {
+    "key_features": [
+      "Große, kräftige, 2–3 m hohe zwei-/mehrjährige Staude mit dickem, hohlem, oft rötlich überlaufenem Stängel",
+      "Blätter groß, 2–3-fach gefiedert; die Blattscheiden am Stängel stark bauchig aufgeblasen — wichtiges Trennmerkmal",
+      "Blütenstand große, halbkugelige (nicht flache) Doppeldolde, grünlich-weiß bis gelblich, Juni–August",
+      "Ganze Pflanze mit kräftig aromatischem, süßlich-würzigem Geruch (an Magenbitter erinnernd) — sichereres Merkmal als das Aussehen",
+      "Wurzel dick, rübenförmig, außen graubraun, mit weißlichem Milchsaft, stark aromatisch"
+    ],
+    "season": "Blütezeit Juni–August (blüht meist im 2.–4. Jahr, danach absterbend)",
+    "habitat": "Feuchte, nährstoffreiche Standorte: Ufer, Gräben, feuchte Wiesen, Auen; ursprünglich Nord-/Osteuropa, in Gärten kultiviert und stellenweise verwildert",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "kultur-und-verwildert"}
+    ],
+    "collection_rules": [
+      "GEFAHR: nur bei absolut sicherer Bestimmung sammeln — die Doldenblütler-Doppelgänger reichen bis zu lebensgefährlich giftigen Arten (Wasserschierling, Gefleckter Schierling)",
+      "Bestätiger: kräftig aromatischer, süßlich-würziger Geruch der ganzen Pflanze; aufgeblasene Blattscheiden; halbkugelige (nicht tellerflache) Dolde",
+      "Gefleckter Schierling riecht widerlich (mäuseartig) und hat rot gefleckten, kahlen Stängel — bei jedem Zweifel NICHT sammeln",
+      "Wurzelernte im Herbst des 1. Jahres oder Frühjahr des 2. Jahres; Hautkontakt mit dem Saft plus Sonne meiden (Furocumarine → phototoxisch)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin",
+      "note": "Einer der giftigsten Doldenblütler Europas, wächst wie die Engelwurz an nassen Ufern/Gräben. Schon geringe Mengen der kammerigen, gelblich milchenden Wurzel wirken tödlich (schwere Krämpfe). Engelwurz duftet süßlich-aromatisch; Cicuta hat einen quergekammerten, hohlraumreichen Wurzelstock. Bei Zweifel niemals sammeln."
+    },
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin (Piperidin-Alkaloid)",
+      "note": "Tödlich giftig (Atemlähmung). Stängel kahl mit roten/braunen Flecken, Geruch widerlich-mäuseartig (nicht aromatisch). Engelwurz riecht kräftig süßlich-würzig und hat aufgeblasene Blattscheiden. Verwechslung v. a. im nicht blühenden Zustand gefährlich."
+    },
+    {
+      "name": "Riesen-Bärenklau",
+      "scientific_name": "Heracleum mantegazzianum",
+      "toxicity_level": "giftig",
+      "toxin": "Furocumarine (phototoxisch)",
+      "note": "Ähnlich groß und dolden­tragend. Der Saft verursacht mit Sonnenlicht schwere Hautverbrennungen (Blasen). Riesen-Bärenklau wird noch größer (bis 3–4 m), Stängel grob rot gefleckt und rau borstig, Dolden sehr breit tellerförmig. Beide phototoxisch — Hautkontakt meiden."
+    },
+    {
+      "name": "Hundspetersilie",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (aethusin-artig)",
+      "note": "Kleiner als Engelwurz, unangenehmer Geruch (nicht aromatisch), unter den Döldchen hängende schmale Hüllblättchen ('Bärtchen'). Verwechslung eher mit Petersilie, aber als giftiger Apiaceen-Doppelgänger im Umfeld zu kennen."
+    },
+    {
+      "name": "Wald-Engelwurz",
+      "scientific_name": "Angelica sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Heimische Schwesternart, ungiftig, aber schwächer aromatisch und arzneilich geringer wertig. Stängel oft violett überlaufen, Blattscheiden weniger stark aufgeblasen. Verwechslung ist ungefährlich, liefert aber mindere Drogenqualität."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (bis ~1 %): α-/β-Phellandren, α-Pinen, Limonen, Makrocyclische Lactone (Geruchsträger)",
+      "Furanocumarine: Bergapten, Xanthotoxin (Methoxsalen), Imperatorin, Angelicin — phototoxisch bestimmend",
+      "Prenyl-/Hydroxycumarine (Osthol, Umbelliferon)",
+      "Bitterstoffe, Angelicasäure, Phenolcarbonsäuren, Zucker/Stärke"
+    ],
+    "lead_substance": "ätherisches Öl + Bitterstoffe (Amarum aromaticum → verdauungsfördernd/karminativ); Furanocumarine bestimmen das toxikologische/phototoxische Profil",
+    "solubility_note": "Aromatisch-bittere Wirkstoffe gehen in Tee (Aufguss/kalter Ansatz) und alkoholische Tinktur über. Ätherisches Öl ist flüchtig — Tee bedeckt ziehen lassen. Furanocumarine sind fettlöslich und reichern sich in konzentrierten alkoholischen Auszügen/Ölen an.",
+    "heat_light_sensitivity": "Ätherisches Öl licht-/wärmeempfindlich (flüchtig); Furanocumarine lichtaktiv (Phototoxizität erst mit UV-Licht)."
+  },
+  "pharmacology": {
+    "mechanism": "Bitterstoffe und ätherisches Öl regen Speichel-, Magensaft- und Gallenfluss an (reflektorisch über Bittergeschmack) und wirken karminativ/spasmolytisch an der glatten Magen-Darm-Muskulatur → Linderung dyspeptischer Beschwerden und Anregung des Appetits.",
+    "evidence_caveat": "Keine HMPC-Monographie und keine kontrollierten klinischen Studien von Belang; die Einordnung stützt sich auf die positive Kommission-E- und ESCOP-Monographie (Erfahrungsheilkunde/traditionelle Anwendung). Wirksamkeitsbelege im modernen Sinn fehlen.",
+    "pharmacokinetics": "unsicher — zu prüfen: Humanpharmakokinetik der Furanocumarine/Cumarine aus Angelicae radix nur unvollständig charakterisiert."
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden und Appetitlosigkeit",
+      "synonyms": ["Verdauungsbeschwerden", "Blähungen", "Völlegefühl", "Appetitlosigkeit", "Magenkrämpfe", "träge Verdauung", "Magendrücken", "leichte Magen-Darm-Krämpfe", "Blähbauch"],
+      "evidence_tag": "ESCOP+",
+      "comment": "Kein HMPC-Status — Angelica archangelica wurde vom HMPC bislang NICHT als EU-Monographie bewertet (daher kein WEU/TU). Kommission E POSITIV (Appetitlosigkeit, dyspeptische Beschwerden wie leichte Magen-Darm-Krämpfe, Völlegefühl, Blähungen); ESCOP-Monographie 'Angelicae radix' vorhanden.",
+      "realistic_expectation": "Als aromatisches Bittermittel plausibel wirksam gegen leichte Verdauungsträgheit, Völlegefühl und Appetitmangel. Symptomatisch und mild; kein Mittel gegen strukturelle Magen-Darm-Erkrankungen. Wirkung setzt am Bittergeschmack an — nicht 'wegschlucken'.",
+      "source": "Kommission E (positiv); ESCOP Angelicae radix"
+    },
+    {
+      "canonical": "Katarrhe der oberen Atemwege (traditionell)",
+      "synonyms": ["Bronchitis", "Husten", "verschleimte Atemwege", "Erkältungshusten", "Bronchialkatarrh"],
+      "evidence_tag": "TRAD",
+      "comment": "ESCOP nennt ergänzend Bronchitis; volksmedizinisch als schleimlösend/auswurffördernd genutzt. Deutlich schwächere Grundlage als die Verdauungsindikation.",
+      "realistic_expectation": "Traditionell; keine belastbare Studienevidenz. Bei anhaltendem oder fieberhaftem Husten ärztliche Abklärung statt Selbstbehandlung.",
+      "source": "ESCOP (ergänzend); traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches Bittermittel: regt Appetit und Verdauungssäfte an und wirkt karminativ bei leichten dyspeptischen Beschwerden (Kommission E / ESCOP positiv).",
+    "overstated": "Kein HMPC-belegtes 'Heilmittel' und keine gesicherte Wirkung bei Bronchitis oder als 'Frauenkraut'. Der süßliche Likörruf (Angelika in Kräuterbittern) suggeriert Harmlosigkeit — tatsächlich ist die Pflanze phototoxisch und hat lebensgefährliche Doldenblütler-Doppelgänger.",
+    "effect_size": "mild, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Tee (Aufguss/kalter Ansatz der Wurzel)", "Tinktur", "Bestandteil von Magenbitter/Kräuterlikör"],
+    "form_rationale": "Bitterstoffe und ätherisches Öl lösen sich in Wasser und Alkohol; als Bittermittel VOR den Mahlzeiten einnehmen, damit der Bittergeschmack die Verdauungssekretion anregt. Bedeckt ziehen lassen, um das flüchtige Öl zu halten.",
+    "standard_dose": "Tagesdosis ca. 4,5 g Droge (Kommission E); Tee: ~1–1,5 g fein geschnittene Wurzel je Tasse, 2–3×/Tag vor dem Essen. Tinktur nach Herstellerangabe. Nicht überdosieren (Furanocumarine).",
+    "preservation": "Trockene Wurzel dunkel und luftdicht lagern (aromatisch); ätherisches Öl geht bei langer/heller Lagerung verloren."
+  },
+  "safety": {
+    "tox_ceiling": "Kein fixer arzneilicher Grenzwert etabliert. Sicherheitsleitend sind die Furanocumarine: phototoxisch — während der Anwendung intensive Sonne/Solarium meiden. Frischen Pflanzensaft nicht auf die Haut bringen (Wiesendermatitis).",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit",
+      "bekannte Furanocumarin-/Doldenblütler-Empfindlichkeit",
+      "gleichzeitige intensive UV-/Sonnenexposition oder Phototherapie"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit nicht anwenden (traditionell emmenagoger/uteruswirksamer Ruf, unzureichende Sicherheitsdaten) — unsicher, zu prüfen; defensiv gemieden.",
+    "adverse_effects": "Phototoxische Hautreaktionen (Rötung, Blasen) bei Saftkontakt/Sonne; selten allergische Reaktionen. Bei Überdosierung Magen-Darm-Reizung.",
+    "interactions": [
+      {"type": "pharmakodynamisch", "mechanism": "additive Photosensibilisierung", "affected": "andere photosensibilisierende Arzneistoffe (z. B. bestimmte Antibiotika, Diuretika, Retinoide, Johanniskraut)", "clinical_relevance": "relevant"},
+      {"type": "theoretisch", "mechanism": "Furanocumarine können CYP3A4 hemmen (grapefruitartig) → möglicher Anstieg von CYP3A4-Substraten; Datenlage für Angelica-Zubereitungen schwach", "affected": "CYP3A4-abhängige Arzneimittel", "clinical_relevance": "gering"},
+      {"type": "theoretisch", "mechanism": "Cumaringehalt könnte theoretisch gerinnungshemmende Wirkung verstärken — die natürlichen Cumarine sind aber NICHT das Cumarin-Antikoagulans (Phenprocoumon/Warfarin); klinisch nicht belegt", "affected": "orale Antikoagulanzien", "clinical_relevance": "gering"}
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "photosensitizing": true,
+      "apiaceae_confusion_young": true,
+      "high_safety": false
+    },
+    "key_warning": "Doldenblütler mit LEBENSGEFÄHRLICHEN Doppelgängern (Wasserschierling, Gefleckter Schierling) — nur bei völlig sicherer Bestimmung sammeln, im Zweifel nie. Der Pflanzensaft ist phototoxisch: mit Sonne schwere Hautverbrennungen. Nicht in der Schwangerschaft."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst des 1. Jahres oder zeitigen Frühjahr des 2. Jahres, vor der Blüte (danach verholzt/entkräftet sich die Wurzel)",
+    "harvest_month_tags": [9, 10, 3, 4],
+    "harvest_organ": "Wurzel (Radix) und Wurzelstock (Rhizom)",
+    "method": "Wurzel graben, waschen, längs teilen; Hautschutz wegen phototoxischem Saft (Handschuhe, nicht in praller Sonne arbeiten).",
+    "processing": "Rasch und schonend trocknen (Aroma-/Ölerhalt); grob schneiden.",
+    "storage": "Getrocknet dunkel, kühl und luftdicht — schützt das flüchtige ätherische Öl."
+  },
+  "kitchen": {
+    "uses": ["kandierte Stängel (Konditorei)", "Aromakomponente in Kräuterlikören und Magenbittern", "Wurzel/Samen als Würz- und Bitterkomponente"],
+    "culinary_vs_medicinal": "Kulinarisch v. a. die kandierten Stängel und die Aromatisierung von Bitterlikören (kleine Mengen). Medizinisch die Wurzel als Bittermittel. In beiden Fällen gilt: nur einwandfrei bestimmtes Material — die Doppelgänger sind giftig bis tödlich."
+  },
+  "garden": {
+    "site_soil": "Tiefgründiger, feuchter, nährstoffreicher Boden, halbschattig bis sonnig; verträgt keine Trockenheit.",
+    "hardiness": "Winterhart; zwei-/mehrjährig, stirbt nach der Blüte/Fruchtreife ab (hapaxanth).",
+    "propagation": "Aussaat mit frischem Samen (Lichtkeimer, rasch keimfähig); Selbstaussaat möglich.",
+    "bodensee_suitability": "An feuchten, nährstoffreichen Gartenstellen gut geeignet und winterhart. Wegen der Größe (bis 2–3 m) Platz einplanen; Saft-Hautkontakt bei Sonne meiden."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Hohe Staude mit großen halbkugeligen Doppeldolden", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Stark aufgeblasene Blattscheide am hohlen Stängel", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kommission E: Monographie Angelicae radix (positiv: Appetitlosigkeit, dyspeptische Beschwerden)",
+    "ESCOP-Monographie 'Angelicae radix' (dyspeptische Beschwerden, Blähungen, Appetitlosigkeit, Bronchitis)",
+    "HMPC/EMA: KEINE EU-Monographie zu Angelica archangelica radix (bislang nicht bewertet) — im Gegensatz zu Angelica sinensis",
+    "Europäisches Arzneibuch: Qualität Angelicae radix",
+    "Wikipedia (Arznei-Engelwurz), Arzneipflanzenlexikon, Altmeyers Enzyklopädie: Chemie (Furanocumarine, ätherisches Öl), Phototoxizität",
+    "Bestimmungs-/Sammelquellen (gartenjournal.net, Wildkräuter-Portale) zu Verwechslung mit Wasser-/Geflecktem Schierling, Riesen-Bärenklau, Hundspetersilie"
+  ]
+}
