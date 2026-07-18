@@ -320,8 +320,8 @@
       "latin": "Artemisia vulgaris",
       "tier": 2,
       "reason": "Wermut-Verwandter; Allergen",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-beifuss.json"
     },
     {
       "id": "galium-odoratum",
@@ -329,8 +329,8 @@
       "latin": "Galium odoratum",
       "tier": 2,
       "reason": "Cumarin — Dosisgrenze, Küchenklassiker",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-waldmeister.json"
     },
     {
       "id": "actaea-racemosa",

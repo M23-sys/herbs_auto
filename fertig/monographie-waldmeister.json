@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "id": "galium-odoratum",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Galium odoratum (L.) Scop.",
+    "common_names_de": [
+      "Waldmeister",
+      "Echter Waldmeister",
+      "Maikraut",
+      "Maienkraut",
+      "Waldmännlein"
+    ],
+    "family": "Rubiaceae (Rötegewächse)",
+    "drug_part": [
+      "Kraut (Galii odorati herba / Asperulae herba)"
+    ],
+    "drug_name_latin": "Galii odorati herba (syn. Asperulae herba)",
+    "synonyms": [
+      "Asperula odorata L.",
+      "Asperula matrisylva Crantz",
+      "Galium matrisylva (Crantz) Kuntze"
+    ],
+    "synonym_note": "Früher als Asperula odorata geführt — daher der klassische Drogenname Asperulae herba. Bei Dedup/Altnamen unbedingt beachten."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter zu 6–9 sternförmig im Quirl um den Stängel — sicherstes Merkmal (Maiglöckchen hat nur 2 breite Blätter, KEINE Quirle)",
+      "Stängel vierkantig, unverzweigt, niedrig (10–30 cm)",
+      "Blätter lanzettlich mit kleiner Stachelspitze, am Rand rau (feine Häkchen)",
+      "Kleine weiße, vierzipflige Sternblüten in lockeren Trugdolden (April–Mai)",
+      "Charakteristischer Cumarin-/Heugeruch beim Welken und Trocknen (frisch fast geruchlos) — Bestätigermerkmal"
+    ],
+    "season": "Blüte April bis Mai",
+    "habitat": "Schattige, humose Laub- und Buchenwälder auf basenreichem Boden; klassische Zeigerpflanze des Buchenwaldes",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Vor der Blüte ernten (April/Mai) — nach der Blüte steigt der Cumaringehalt und die Pflanze ist weniger geeignet",
+      "Quirlständige Blätter + Heugeruch beim Anwelken als Bestätiger; geruchlose, höhere und stark verzweigte Labkräuter sind andere (wirkschwache) Galium-Arten",
+      "Am schattigen Waldboden nicht mit dem giftigen Maiglöckchen verwechseln: dessen 2 breite, parallelnervige Blätter stehen NICHT im Quirl und riechen beim Welken nicht nach Heu"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Maiglöckchen",
+      "scientific_name": "Convallaria majalis",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzglykoside (u. a. Convallatoxin)",
+      "note": "Wächst am selben schattigen Frühjahrs-Waldboden. Deutlich unterscheidbar: Maiglöckchen hat nur 2 breite, parallelnervige Grundblätter (KEINE Quirle) und keinen Cumarin-/Heugeruch beim Welken; Waldmeister hat 6–9 schmale Blätter im Sternquirl. Im Zweifel: kein Quirl, kein Heugeruch = Finger weg."
+    },
+    {
+      "name": "Wiesen-Labkraut",
+      "scientific_name": "Galium mollugo",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig, aber wirkschwach. Höher, stark verzweigt, viele feine weiße Blüten, luftiger Wuchs; kaum bzw. kein Cumaringeruch beim Welken. Kein echter Waldmeister-Ersatz."
+    },
+    {
+      "name": "Kletten-Labkraut (Klebkraut)",
+      "scientific_name": "Galium aparine",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Stängel und Blätter mit klettenden Häkchen, die an Kleidung/Haut haften — dieses Kletten schließt die Verwechslung nach bewusstem Anfassen praktisch aus. Kaum Cumarinaroma."
+    },
+    {
+      "name": "Echtes Labkraut",
+      "scientific_name": "Galium verum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Im Sommer leuchtend gelbe Blütenwolken (Waldmeister blüht weiß), schmale Blätter, sonnige Standorte. Als Lab-Ersatz für Käse genutzt, nicht als Waldmeister."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Cumarin (glykosidisch gebunden, ca. 0,6–1,3 % der Trockenmasse; wird beim Welken/Trocknen enzymatisch freigesetzt = typischer Duft)",
+      "Iridoide (Asperulosid, Monotropein) — Bitterstoffe",
+      "Gerbstoffe, Flavonoide",
+      "Spuren von Anthrachinonderivaten"
+    ],
+    "lead_substance": "Cumarin — zugleich Aromastoff und Sicherheitsrelevanz (Kopfschmerz, in hoher Dosis benommen-narkotisch, potenziell leberbelastend)",
+    "solubility_note": "Cumarin geht in Wasser und Alkohol über und wird erst beim Anwelken/Trocknen aus dem Glykosid frei — daher wird angewelktes Kraut für Bowle, Sirup und Tee genutzt. Frisch riecht die Pflanze kaum.",
+    "heat_light_sensitivity": "Cumarinaroma entsteht beim Trocknen; getrocknetes Kraut verliert das Aroma allmählich. Nicht überdosieren, um Cumarinwirkungen zu vermeiden."
+  },
+  "pharmacology": {
+    "mechanism": "Cumarin wirkt zentral leicht dämpfend/sedierend (traditionell); Iridoide sind bitter. In höherer Dosis wirkt Cumarin kopfschmerzauslösend, benommen-narkotisch und potenziell hepatotoxisch.",
+    "evidence_caveat": "Keine belastbare klinische Evidenz. Kommission E hat eine NEGATIVMONOGRAPHIE veröffentlicht (Datenlage unzureichend); keine HMPC-, keine positive ESCOP-Monographie. Anwendungen sind traditionell/anekdotisch.",
+    "pharmacokinetics": "Cumarin wird hepatisch metabolisiert (u. a. über CYP2A6) mit ausgeprägter interindividueller Variabilität; die dosisabhängige Leberbelastung ist meist reversibel."
+  },
+  "indications": [
+    {
+      "canonical": "Innere Unruhe und Einschlafstörungen (traditionell)",
+      "synonyms": [
+        "Unruhe",
+        "Nervosität",
+        "Anspannung",
+        "Einschlafprobleme",
+        "schlecht schlafen",
+        "innere Unruhe"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinisch als mildes Beruhigungs-/Einschlafmittel überliefert. Kommission E NEGATIV; keine HMPC-, keine ESCOP-Monographie.",
+      "realistic_expectation": "Allenfalls milder, unspezifischer Effekt. Kein belegtes Sedativum — für gesicherte Wirkung eher Baldrian/Passionsblume. Cumarin begrenzt zudem die anwendbare Menge.",
+      "source": "Traditionelle Anwendung; Kommission E (Negativmonographie Galii odorati/Asperulae herba)"
+    },
+    {
+      "canonical": "Kopfschmerz und 'venenstärkende/blutreinigende' Anwendung (traditionell)",
+      "synonyms": [
+        "Kopfschmerz",
+        "Kopfweh",
+        "Venenbeschwerden",
+        "Blutreinigung",
+        "Frühjahrskur"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinisch. Paradox: Cumarin kann selbst Kopfschmerz auslösen — die traditionelle Kopfschmerz-Indikation ist besonders kritisch zu sehen.",
+      "realistic_expectation": "Kein Wirknachweis. Wegen des kopfschmerzauslösenden Cumarins nicht zur Selbstbehandlung von Kopfschmerz geeignet.",
+      "source": "Traditionelle/volksmedizinische Anwendung; Kommission E (negativ)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromapflanze für Maibowle, Sirup, Limonade und Desserts in begrenzter Menge. Als Beruhigungsmittel bestenfalls mild und rein traditionell.",
+    "overstated": "Als wirksames Schlaf-, Beruhigungs- oder Venenmittel — kein Wirknachweis, Kommission E NEGATIV. 'Natürlich = harmlos' trügt: Cumarin ist dosislimitiert und kopfschmerzauslösend.",
+    "effect_size": "mild, unspezifisch; therapeutisch nicht belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Angewelktes Kraut zum Aromatisieren von Bowle/Sirup (kulinarisch, begrenzt)",
+      "Tee/Aufguss (traditionell, sparsam und nicht dauerhaft)"
+    ],
+    "form_rationale": "Cumarin wird erst beim Anwelken aus dem Glykosid frei und ist wasser-/alkohollöslich → Bowle, Sirup, Tee. Wegen der Cumarinwirkung nur begrenzte Mengen und kein Dauergebrauch.",
+    "standard_dose": "Kulinarisch orientierend max. ca. 3 g getrocknetes Kraut je Liter Bowle; als Einzelgabe werden ca. 1 g Droge genannt. Kein Dauertee. Bei empfindlichen Personen können schon kleine Mengen Kopfschmerz auslösen.",
+    "preservation": "Getrocknet, luftdicht, dunkel; Aroma flüchtig"
+  },
+  "safety": {
+    "tox_ceiling": "Cumarin ist dosislimitiert: kann Kopfschmerz, Schwindel und Benommenheit verursachen, in hoher Dosis benommen-narkotisch wirken und die Leber belasten. BfR-Orientierung: Cumarin-TDI ca. 0,1 mg/kg Körpergewicht/Tag. Kulinarisch max. ca. 3 g Kraut/Liter Bowle, kein Dauergebrauch; vor der Blüte ernten (danach höherer Gehalt).",
+    "contraindications": [
+      "Lebererkrankungen",
+      "Kopfschmerz-/Migräneneigung",
+      "Schwangerschaft und Stillzeit (Cumarin, keine Unbedenklichkeitsdaten) — vorsichtshalber meiden",
+      "Kleinkinder (nur sehr begrenzt/kulinarisch)"
+    ],
+    "pregnancy_lactation": "Vorsichtshalber meiden — Cumarin, keine belastbaren Unbedenklichkeitsdaten für Schwangerschaft und Stillzeit.",
+    "adverse_effects": "Kopfschmerz, Schwindel und Benommenheit (v. a. bei Überdosierung); in hoher Dosis zentrale Dämpfung/Erbrechen und potenzielle Leberbelastung. In kleinen kulinarischen Mengen (Bowle) meist gut verträglich.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Häufiges Missverständnis: das natürliche Cumarin des Waldmeisters ist NICHT das gerinnungshemmende Arzneistoff-Cumarin (Warfarin/Phenprocoumon). Natürliches Cumarin hat in üblichen Mengen keine klinisch relevante blutverdünnende Wirkung.",
+        "affected": "(vermeintlich) Antikoagulanzien vom Cumarin-Typ",
+        "clinical_relevance": "gering (verbreiteter Irrtum)"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive Leberbelastung bei Überdosierung",
+        "affected": "andere hepatotoxische Arzneistoffe",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive zentrale Dämpfung (theoretisch)",
+        "affected": "Sedativa/ZNS-dämpfende Substanzen",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": true,
+      "toxin_type": "Cumarin",
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "Cumarin ist dosislimitiert: kleine kulinarische Mengen (Bowle/Sirup) sind vertretbar, höhere/dauerhafte Dosen machen Kopfschmerz, benommen und können die Leber belasten — kein belegtes Heilmittel (Kommission E negativ). Vor der Blüte ernten. Am Waldboden nicht mit dem lebensgefährlichen Maiglöckchen (2 breite Blätter statt Quirl) verwechseln. Natürliches Cumarin ≠ blutverdünnendes Cumarin-Medikament."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Vor der Blüte, April–Mai (kurz vor Blühbeginn am aromatischsten)",
+    "harvest_month_tags": [
+      4,
+      5
+    ],
+    "harvest_organ": "Kraut (Blatt/Trieb)",
+    "method": "Oberirdisches Kraut vor bzw. zu Blühbeginn schneiden",
+    "processing": "Leicht anwelken/trocknen zur Cumarin-Freisetzung; nicht überdosieren",
+    "storage": "Getrocknet, luftdicht, dunkel"
+  },
+  "kitchen": {
+    "uses": [
+      "Maibowle, Waldmeister-Sirup und -Limonade",
+      "Aroma für Desserts, Götterspeise/Wackelpudding, Eis"
+    ],
+    "culinary_vs_medicinal": "Küche: als Aroma in begrenzter Menge etabliert (angewelktes Kraut, orientierend max. ~3 g/Liter Bowle, kein Dauergebrauch). Medizinisch: kein belegter Nutzen; Cumarin dosislimitiert."
+  },
+  "garden": {
+    "site_soil": "Schattig, humos, kalkhaltig, gleichmäßig feucht (Buchenwald-typisch)",
+    "hardiness": "Winterhart, ausdauernd, teppichbildender Bodendecker",
+    "propagation": "Teilung/Ausläufer, auch Samen",
+    "bodensee_suitability": "Sehr gut — idealer schattiger Bodendecker unter Gehölzen; in den Buchenwäldern der Region heimisch."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Waldmeister als niedriger Bodendecker mit weißen Sternblüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Blattquirl mit 6–9 schmalen Blättern um den vierkantigen Stängel",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Maiglöckchen zum Vergleich — 2 breite, parallelnervige Blätter, kein Quirl",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E: Negativmonographie Waldmeisterkraut (Galii odorati / Asperulae herba) — Wirksamkeit nicht ausreichend belegt",
+    "Keine EMA/HMPC-Monographie und keine positive ESCOP-Monographie zu Galium odoratum (Stand 2026)",
+    "BfR: Cumarin (TDI ~0,1 mg/kg KG), Kopfschmerz/Leberbelastung bei hoher Dosis; Orientierung für Bowle/Aromen",
+    "Botanik/Wildpflanzenkunde: Quirlblätter, Cumarin-Freisetzung beim Welken, Abgrenzung zu Galium mollugo/aparine/verum und zum giftigen Maiglöckchen",
+    "Hinweis: WebFetch der Primärquellen lieferte in diesem Lauf HTTP 403 — Angaben über konkordante Sekundärquellen verifiziert; Evidenzgrad TRAD ist mangels Positiv-Monographie belastbar, ärztliche Gegenprüfung dennoch empfohlen"
+  ]
+}

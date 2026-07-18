@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "id": "artemisia-vulgaris",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Artemisia vulgaris L.",
+    "common_names_de": [
+      "Gewöhnlicher Beifuß",
+      "Beifuß",
+      "Gemeiner Beifuß",
+      "Wilder Wermut",
+      "Gänsekraut"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut/blühende Triebspitzen (Artemisiae vulgaris herba)",
+      "Wurzel (Artemisiae vulgaris radix) — nur volksmedizinisch"
+    ],
+    "drug_name_latin": "Artemisiae vulgaris herba, Artemisiae vulgaris radix",
+    "synonyms": [
+      "Artemisia officinalis Gaterau",
+      "Artemisia samamisica Besser"
+    ],
+    "synonym_note": "Taxonomisch stabil. Nicht verwechseln mit dem Beifuß-Ambrosie/Traubenkraut (Ambrosia artemisiifolia) — eigene Gattung, trotz ähnlichem Namen und Aussehen."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter oberseits dunkelgrün und fast kahl, UNTERSEITS weißfilzig-grau behaart — sicherstes Merkmal (Wermut ist beidseitig silbrig)",
+      "Blätter fiederteilig mit lanzettlichen, zugespitzten Zipfeln",
+      "Stängel aufrecht, kantig, oft rötlich-braun überlaufen, 60–200 cm hoch",
+      "Blütenköpfchen klein, unscheinbar, gelblich- bis rötlichbraun, in langen rispigen Ständen (Juli–September)",
+      "Beim Zerreiben würzig-aromatischer Geruch, kaum bitter (Wermut riecht/schmeckt stark bitter)"
+    ],
+    "season": "Blüte Juli bis September",
+    "habitat": "Wegränder, Bahndämme, Schuttplätze, Ufer, Ruderalflächen, Zäune; stickstoffliebend, sehr häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Weiße Filzbehaarung der Blattunterseite als Bestätiger — fehlt sie und ist die Pflanze beidseitig silbrig-seidig, ist es eher Wermut (Artemisia absinthium)",
+      "Grüne Blattunterseite + sehr fein zerteilte Blätter deuten auf Beifuß-Ambrosie (Ambrosia artemisiifolia) — potentes Allergen, kein Küchenkraut",
+      "Für die Küche nur obere, junge blühende Triebspitzen; nicht an stark belasteten Straßenrändern sammeln"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wermut",
+      "scientific_name": "Artemisia absinthium",
+      "toxicity_level": "giftig",
+      "toxin": "Thujon (im ätherischen Öl, deutlich höher als bei Beifuß)",
+      "note": "Nächster Verwandter. Wermut ist BEIDSEITIG silbrig-seidig behaart und schmeckt intensiv bitter; Beifuß ist oberseits grün und nur unterseits weißfilzig. Wermut nur als geprüfte, dosisbegrenzte Droge, nicht als Küchenkraut in Beifuß-Menge."
+    },
+    {
+      "name": "Rainfarn",
+      "scientific_name": "Tanacetum vulgare",
+      "toxicity_level": "giftig",
+      "toxin": "Thujon",
+      "note": "Ähnlicher ruderaler Standort und gefiederte Blätter, aber leuchtend gelbe, knopfförmige Blütenköpfchen (keine Strahlenblüten) und stärkerer, kampferartiger Geruch. Thujonreich — nicht als Beifuß-Ersatz verwenden."
+    },
+    {
+      "name": "Beifuß-Ambrosie / Beifußblättriges Traubenkraut",
+      "scientific_name": "Ambrosia artemisiifolia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Bei Verzehr nicht giftig, aber eines der stärksten Pollen-Allergene überhaupt — kein Sammelgut. Unterscheidung: Blätter BEIDSEITS grün (nicht weißfilzig unterseits), feiner zerteilt, Stängel behaart-grün. Bei Fund melden (invasiver Neophyt)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (ca. 0,1–0,3 %): u. a. Thujon, Kampfer, 1,8-Cineol, Linalool, α-Pinen",
+      "Sesquiterpenlactone (Bitterstoffe, z. B. Vulgarin) — Amara-Prinzip",
+      "Flavonoide, Cumarine, Gerbstoffe, Triterpene",
+      "Inulin und Polyacetylene (v. a. in der Wurzel)"
+    ],
+    "lead_substance": "Sesquiterpenlactone (Bitterstoffe) → traditionell appetit- und verdauungsanregend; Thujon → Sicherheitsrelevanz (neurotoxisch, uteruswirksam)",
+    "solubility_note": "Bitterstoffe sind wasser- und alkohollöslich (Tee, Tinktur); das ätherische Öl ist flüchtig und geht nur begrenzt in den Aufguss über — daher als Gewürz zu heißen Speisen wirksamer.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig und licht-/wärmeempfindlich; getrocknetes Kraut kühl, dunkel und luftdicht lagern"
+  },
+  "pharmacology": {
+    "mechanism": "Bitterstoffe regen reflektorisch Speichel-, Magensaft- und Gallefluss an (Amarum → Appetit, Verdauung). Ätherisches Öl schwach karminativ/spasmolytisch. Traditionell zudem als Moxa (Moxibustion) äußerlich in der TCM. Thujon wirkt zentral GABA-A-antagonistisch (krampffördernd in hoher Dosis).",
+    "evidence_caveat": "Keine belastbare klinische Evidenz. Die Kommission E hat eine NEGATIVMONOGRAPHIE veröffentlicht (Wirksamkeit nicht belegt); es gibt keine HMPC- und keine positive ESCOP-Monographie. Die Anwendungen sind rein traditionell/plausibel.",
+    "pharmacokinetics": "Thujon wird hepatisch metabolisiert; kaum belastbare humanpharmakokinetische Daten für die Gesamtdroge."
+  },
+  "indications": [
+    {
+      "canonical": "Appetitlosigkeit und dyspeptische Beschwerden (Bittermittel)",
+      "synonyms": [
+        "Appetitlosigkeit",
+        "keine Lust zu essen",
+        "Völlegefühl",
+        "Blähungen",
+        "Verdauungsschwäche",
+        "Magendrücken",
+        "fettes Essen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinisch und als Küchengewürz zu fetten Braten überliefert (Bitterstoffwirkung). Kommission E NEGATIV; keine HMPC-, keine ESCOP-Monographie.",
+      "realistic_expectation": "Allenfalls milde, unspezifische Bitterstoffwirkung wie bei anderen Amara. Kein belegter therapeutischer Nutzen — als Gewürz sinnvoller denn als 'Heiltee'.",
+      "source": "Kommission E (Negativmonographie Artemisiae vulgaris herba/radix); traditionelle Anwendung"
+    },
+    {
+      "canonical": "Menstruations- und 'Frauenbeschwerden' (traditionelles Emmenagogum)",
+      "synonyms": [
+        "ausbleibende Regel",
+        "Menstruationsbeschwerden",
+        "Regelschmerzen",
+        "Frauenkraut",
+        "Wechseljahre"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein traditionell als menstruations- und wehenfördernd verwendet. Sicherheitsrelevant: genau dieser Ruf macht die Anwendung in der Schwangerschaft gefährlich (Abortrisiko).",
+      "realistic_expectation": "Kein Wirknachweis. Wegen der überlieferten abortiven/wehenfördernden Wirkung ist die gezielte Selbstanwendung abzulehnen, nicht zu empfehlen.",
+      "source": "Traditionelle/volksmedizinische Anwendung; Kommission E (negativ)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Bewährtes Küchengewürz zu fetten Speisen (Gans, Ente, Schwein) mit milder, verdauungsfördernder Bitternote. Als Bittermittel unspezifisch wie andere Amara.",
+    "overstated": "Als wirksames 'Frauenkraut', Wurm-, Entgiftungs- oder Schlafmittel — kein Wirknachweis, Kommission E NEGATIV. Zudem häufiges Allergen und in der Schwangerschaft riskant. 'Natürlich = harmlos' trügt hier.",
+    "effect_size": "mild, unspezifisch, symptomatisch; therapeutisch nicht belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Getrocknetes Kraut als Gewürz zu fetten Braten (kleine Mengen)",
+      "Tee/Aufguss (traditionell, sparsam)",
+      "Tinktur (traditionell)"
+    ],
+    "form_rationale": "Bitterstoffe sind wasser- und alkohollöslich (Tee/Tinktur); als Speisegewürz entfaltet sich die verdauungsfördernde Bitternote direkt. Wegen Thujon und Allergiepotenzial keine Dauertherapie.",
+    "standard_dose": "Als Gewürz sparsam (kleine Prisen). Tee traditionell etwa 1 TL Kraut/Tasse, nicht als Dauertee und nicht in der Schwangerschaft. Konkrete arzneiliche Grenzwerte für Beifuß speziell: unsicher — zu prüfen.",
+    "preservation": "Getrocknet, luftdicht, dunkel; Aroma flüchtig"
+  },
+  "safety": {
+    "tox_ceiling": "Thujon im ätherischen Öl ist neurotoxisch (GABA-A-antagonistisch, krampffördernd in hoher Dosis). Als Küchengewürz in kleinen Mengen unproblematisch. Ein arzneilich definierter Thujon-Grenzwert speziell für Beifuß-Zubereitungen ist unsicher — zu prüfen; kein Dauergebrauch als konzentrierter Tee/Tinktur.",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit (traditionell abortiv/wehenfördernd, Thujon)",
+      "Bekannte Korbblütler-/Beifußpollen-Allergie",
+      "Sellerie-Karotten-Beifuß-Gewürz-Kreuzallergie",
+      "Krampfleiden/Epilepsie (Thujon senkt die Krampfschwelle) — hochdosiert"
+    ],
+    "pregnancy_lactation": "Kontraindiziert — Beifuß gilt traditionell als menstruations- und wehenfördernd; Thujon ist uteruswirksam und potenziell fruchtschädigend. In Schwangerschaft und Stillzeit strikt meiden.",
+    "adverse_effects": "Hauptproblem ist die Allergie: Beifußpollen (Hauptallergen Art v 1) sind eine führende Ursache des Spätsommer-Heuschnupfens; häufige Kreuzallergien (Sellerie-Karotten-Beifuß-Gewürz-Syndrom mit Doldenblütlern und anderen Korbblütlern), Kontaktdermatitis. Bei hoher/dauerhafter innerlicher Aufnahme thujonbedingte Beschwerden möglich.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Thujon senkt die Krampfschwelle (GABA-A-Antagonismus)",
+        "affected": "Antiepileptika bzw. krampfschwellensenkende Substanzen",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Kreuzallergie/allergische Sensibilisierung mit anderen Korbblütlern und Doldenblütler-Gewürzen",
+        "affected": "Allergiker (Sellerie, Karotte, Anis, Fenchel, Kümmel, Kamille, Wermut u. a.)",
+        "clinical_relevance": "relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "asteraceae_allergy": true,
+      "lowers_seizure_threshold": true,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein belegtes Heilkraut (Kommission E negativ) — Wert liegt in der Küche. In Schwangerschaft/Stillzeit kontraindiziert (traditionell abortiv, Thujon) und ein häufiges Allergen (Spätsommer-Pollen, Sellerie-Beifuß-Gewürz-Kreuzallergie). Nicht mit dem beidseits silbrigen Wermut verwechseln."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühende obere Triebspitzen Juli–September (kurz vor bis zu Blühbeginn); Wurzel im Herbst",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (Blatt/Triebspitze), Wurzel",
+    "method": "Obere, junge blühende Triebe schneiden; abseits belasteter Straßenränder",
+    "processing": "Locker gebündelt luftig trocknen; grobe Stängel entfernen",
+    "storage": "Trocken, dunkel, luftdicht"
+  },
+  "kitchen": {
+    "uses": [
+      "Klassisches Gewürz zu fetten Braten (Gans, Ente, Schweinebraten), Fisch",
+      "Traditionelles Verdauungsgewürz zu schweren Speisen"
+    ],
+    "culinary_vs_medicinal": "Küche: bewährtes Gewürz in kleinen Mengen (Bitternote, verdauungsfördernd), reifes Kraut kurz vor der Blüte. Medizinisch: kein belegter Nutzen; in der Schwangerschaft und bei Korbblütler-Allergie meiden."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig, stickstoffreich, ruderal; verträgt Trockenheit",
+    "hardiness": "Winterhart, ausdauernd, stark wüchsig bis wuchernd",
+    "propagation": "Samen (starke Selbstaussaat) und Wurzelstock-Teilung",
+    "bodensee_suitability": "Wächst überall wild in der Region. Als Gartenpflanze wegen starker Ausbreitung und Pollenallergie-Potenzial nur bedingt empfehlenswert."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Beifuß mit kantigem, rötlichem Stängel und rispigem Blütenstand",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Blattunterseite weißfilzig, Oberseite grün — Schlüsselmerkmal gegen Wermut",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "confusion",
+      "caption": "Wermut zum Vergleich — beidseitig silbrig-seidig behaart",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E: Negativmonographie Beifußkraut/-wurzel (Artemisiae vulgaris herba/radix) — Wirksamkeit nicht belegt",
+    "Keine EMA/HMPC-Monographie und keine positive ESCOP-Monographie zu Artemisia vulgaris (Stand 2026)",
+    "Allergologie/Umweltmedizin (u. a. Allum): Beifußpollen (Art v 1), Sellerie-Karotten-Beifuß-Gewürz-Syndrom",
+    "Phytochemie/Übersichtsarbeiten: ätherisches Öl mit Thujon, Sesquiterpenlactone (Bitterstoffe)",
+    "Hinweis: WebFetch der Primärquellen (EMA/Kommission-E) lieferte in diesem Lauf HTTP 403 — Angaben über konkordante Sekundärquellen verifiziert; Evidenzgrad TRAD ist mangels Positiv-Monographie belastbar, ärztliche Gegenprüfung dennoch empfohlen"
+  ]
+}

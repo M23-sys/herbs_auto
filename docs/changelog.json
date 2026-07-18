@@ -239,6 +239,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Wunschliste). Borstiges Berufkraut (Erigeron strigosus, Korbbluetler; taxonomisch teils als Unterart von E. annuus gefuehrt) - nordamerikanischer Neophyt, in Mitteleuropa selten. KEIN belegtes Heilkraut: keine HMPC-/ESCOP-/Kommission-E-Monographie, nur historische nordamerikanische Volks-/Eklektikmedizin (adstringierend/diuretisch) -> Evidenz TRAD, von Selbstanwendung wird abgeraten. SICHERHEITSKRITISCH: im Rosetten-/Jungstadium Verwechslung mit gelbbluehenden Greiskraeutern (Senecio/Jacobaea, lebertoxische Pyrrolizidinalkaloide) moeglich - Warnung in confusions; asteraceae_allergy=true. deadly_confusion=false (Senecio chronisch, nicht akut-toedlich)."
+    },
+    {
+      "ts": "2026-07-18T12:19:05Z",
+      "id": "artemisia-vulgaris",
+      "common": "Gewöhnlicher Beifuß",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Kandidatenliste (tier 2). Kommission E NEGATIV, keine HMPC/ESCOP — alle Indikationen bewusst TRAD. Kernbotschaften: (1) starkes Allergen (Beifußpollen Art v 1, Spätsommer-Heuschnupfen; Sellerie-Karotten-Beifuß-Gewürz-Kreuzallergie); (2) in Schwangerschaft/Stillzeit kontraindiziert (traditionell abortiv, Thujon); (3) Verwechslung mit dem beidseits silbrigen Wermut und der grün-blättrigen Beifuß-Ambrosie. Wert liegt in der Küche (Gewürz zu fetten Braten), nicht in der Heilwirkung."
+    },
+    {
+      "ts": "2026-07-18T12:19:05Z",
+      "id": "galium-odoratum",
+      "common": "Waldmeister",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Kandidatenliste (tier 2). Kommission E NEGATIV, keine HMPC/ESCOP — Indikationen TRAD. Leitthema Cumarin: dosislimitiert (Kopfschmerz, hoch dosiert benommen/leberbelastend; kulinarisch max. ~3 g/L Bowle, vor der Blüte ernten). Zwei ärztlich relevante Punkte: (1) die traditionelle Kopfschmerz-Indikation ist paradox, da Cumarin selbst Kopfschmerz auslöst; (2) natürliches Cumarin ist NICHT das gerinnungshemmende Cumarin-Arzneimittel (Warfarin/Phenprocoumon) — verbreiteter Irrtum. Deadly-confusion-Flag gesetzt: am Waldboden potenzielle Verwechslung mit dem lebensgefährlichen Maiglöckchen (Quirl vs. 2 breite Blätter). Altname Asperula odorata für Dedup vermerkt."
     }
   ]
 }
