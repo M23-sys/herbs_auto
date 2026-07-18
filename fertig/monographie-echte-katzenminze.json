@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "id": "nepeta-cataria",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Nepeta cataria L.",
+    "common_names_de": [
+      "Echte Katzenminze",
+      "Katzenminze",
+      "Katzenmelisse",
+      "Katzenkraut"
+    ],
+    "family": "Lamiaceae (Lippenblütler)",
+    "drug_part": [
+      "Kraut, blühend (Nepetae herba / Herba Catariae)"
+    ],
+    "drug_name_latin": "Nepetae cataria herba (Katzenminzenkraut) — keine offizinelle Arzneibuch-Droge",
+    "synonyms": [
+      "Cataria vulgaris Moench",
+      "Glechoma cataria (L.) Kuntze",
+      "Nepeta vulgaris Lam.",
+      "Calamintha albiflora Vaniot"
+    ],
+    "synonym_note": "Aktuell akzeptierter Name Nepeta cataria L. Taxonomie stabil; die aufgeführten lateinischen Altnamen sind historisch. WICHTIG zur Abgrenzung: NICHT die mediterrane Zwerg-/Kleine Katzenminze (Nepeta nepetella, eigener Katalogeintrag) und NICHT die blaue Zier-Hybride Nepeta ×faassenii — nur N. cataria trägt die (schwache, rein traditionelle) Heilkraut-Zuschreibung."
+  },
+  "identification": {
+    "key_features": [
+      "Vierkantiger Stängel und kreuzgegenständige Blätter (typisch Lippenblütler); beim Zerreiben minzig-kampfrig-'katzenanlockender' Geruch",
+      "Blätter herz- bis eiförmig, deutlich grob gesägt, unterseits graufilzig-weißlich behaart — dadurch grau-grün wirkend",
+      "Blüten klein, weiß bis blass-rosa mit purpurnen Punkten, in dichten quirligen Scheinähren am Trieb-/Zweigende",
+      "Kräftig-aufrechter, buschiger Wuchs 40–100 cm; Standort ruderal, sonnig-trocken (Wegränder, Schutt, Zäune)",
+      "Katzen reagieren auf zerriebenes Kraut mit typischem Wälz-/Schnüffelverhalten (Nepetalacton)"
+    ],
+    "season": "Blüte Juni–September",
+    "habitat": "Ruderalstandorte, Wegränder, Schuttplätze, Zäune, Mauern; sonnig, trocken bis frisch, stickstoffhold. Ursprünglich vorderasiatisch-europäisch, in Mitteleuropa eingebürgert (Archäophyt) und kultiviert-verwildert.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Bestätigend: vierkantiger Stängel + kreuzgegenständige, grob gesägte, graufilzige Blätter + weiße Lippenblüten in Quirlen + minzig-'katzen'-Geruch",
+      "Gegen andere Katzenminzen abgrenzen: N. cataria hat weiße (nicht blaue) Blüten und graufilzige Blätter; blaublühende Gartenformen sind meist die Zier-Hybride N. ×faassenii oder N. racemosa (rein ornamental).",
+      "Zum Trocknen blühendes Kraut in der Vollblüte schneiden; keine giftigen Doppelgänger unter den Lippenblütlern, dennoch Art sicher bestimmen (Wirkzuschreibungen sind artspezifisch dünn)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kleine/Zwerg-Katzenminze",
+      "scientific_name": "Nepeta nepetella",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Mediterrane Art (eigener Katalogeintrag), schmalere Blätter, weiß-lila, niedriger/buschiger. Ungiftig, aber praktisch ohne Heiltradition — Zuschreibungen von N. cataria nicht darauf übertragen und umgekehrt."
+    },
+    {
+      "name": "Blaue Garten-Katzenminze (Zier-Hybride)",
+      "scientific_name": "Nepeta ×faassenii / Nepeta racemosa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufigste 'Katzenminze' im Garten: kompakt, blau-violette Blüten, kaum Geruch. Rein ornamental, keine Arzneidroge. Echte Katzenminze ist höher, weißblütig, graufilzig und stärker riechend."
+    },
+    {
+      "name": "Gundermann",
+      "scientific_name": "Glechoma hederacea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Lippenblütler mit lila Blüten und aromatischem Geruch, aber kriechend mit nierenförmigen Blättern (N. cataria aufrecht-buschig, Blätter herz-/eiförmig gesägt). Für den Menschen ungiftig."
+    },
+    {
+      "name": "Zitronenmelisse",
+      "scientific_name": "Melissa officinalis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls Lippenblütler mit gesägten Blättern, riecht aber zitronig (nicht minzig-'katzig'), Blätter grün (nicht graufilzig). Ungefährliche, häufige Verwechslung im Kräutergarten."
+    },
+    {
+      "name": "Katzengamander",
+      "scientific_name": "Teucrium marum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Lockt Katzen ähnlich an ('Amberkraut'), ist aber ein Gamander (kleiner, holzig, rosa Blüten). Innerlich wegen möglicher Teucrium-Lebertoxizität (Teucrin-artige Diterpene bei anderen Gamandern) zurückhaltend zu bewerten; als Verwechslung selten und ungefährlich, wenn nicht innerlich verwendet."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv geprüft: Unter den infrage kommenden Lippenblütlern (Nepeta, Glechoma, Melissa, Mentha, Teucrium) gibt es keinen tödlich giftigen Doppelgänger. Sichere Artbestimmung bleibt dennoch nötig, weil die (ohnehin schwachen) Heilwert-Zuschreibungen zwischen den Arten differieren."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (0,2–0,7 %) mit Iridoid-Monoterpenen",
+      "Nepetalactone (verschiedene Isomere) — Leitstoffe",
+      "weitere Iridoidglykoside",
+      "Gerbstoffe, Flavonoide, Bitterstoffe"
+    ],
+    "lead_substance": "Nepetalactone (Iridoide im ätherischen Öl) — verantwortlich für Geruch und Katzen-anlockende Wirkung; als menschlich-arzneiliche Leitsubstanz nicht validiert. Milde krampflösende/karminative und leicht beruhigende Effekte werden diskutiert.",
+    "solubility_note": "Ätherisches Öl flüchtig und wenig wasserlöslich → Aufguss abgedeckt ziehen lassen, damit Aroma/Iridoide nicht entweichen. Als Volksmittel Tee üblich; keine standardisierte arzneiliche Zubereitung.",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig, licht- und hitzeempfindlich; Tee abgedeckt ziehen, Droge licht-/luftdicht lagern"
+  },
+  "pharmacology": {
+    "mechanism": "Nicht gesichert. Diskutiert werden für das nepetalactonhaltige ätherische Öl mild spasmolytische, karminative, diaphoretische und leicht sedierende Effekte; Nepetalacton wirkt zudem als Insektenrepellens (präklinisch). Belastbare Wirkmechanismen beim Menschen fehlen.",
+    "evidence_caveat": "Keine HMPC-, ESCOP- oder Kommission-E-Monographie für Nepeta cataria (Stand 2026-07). Die Anwendung ist rein traditionell/volksmedizinisch; klinische Studien fehlen praktisch vollständig. Alle Wirkangaben defensiv als 'unsicher — zu prüfen' zu lesen.",
+    "pharmacokinetics": "nicht charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Leichte Erkältungsbeschwerden / fieberhafte Infekte (traditionell, schweißtreibend)",
+      "synonyms": [
+        "Erkältung",
+        "Fieber",
+        "Schwitzkur",
+        "grippaler Infekt",
+        "Frösteln"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinischer Erkältungstee (Diaphoretikum). Keine regulatorische Monographie — 'unsicher — zu prüfen'.",
+      "realistic_expectation": "Allenfalls ein wärmender, mild schweißtreibender Tee als Hausmittel; kein Ersatz für ärztliche Abklärung bei anhaltendem Fieber. Keine belegte antivirale Wirkung.",
+      "source": "Volksmedizin (u. a. Hagers Handbuch, historische Kräuterliteratur); keine HMPC/ESCOP/Kommission E"
+    },
+    {
+      "canonical": "Innere Unruhe und leichte Einschlafstörungen (traditionell, mild sedierend)",
+      "synonyms": [
+        "Unruhe",
+        "Nervosität",
+        "Anspannung",
+        "Einschlafhilfe",
+        "schlecht einschlafen",
+        "Reizbarkeit"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionell als mildes Beruhigungsmittel/Abendtee. Nicht klinisch belegt.",
+      "realistic_expectation": "Bestenfalls unspezifisch beruhigende Wirkung eines warmen Kräutertees. Deutlich schwächer und schlechter belegt als etablierte Sedativa (Baldrian, Melisse, Passionsblume).",
+      "source": "Volksmedizin; keine regulatorische Quelle"
+    },
+    {
+      "canonical": "Leichte Verdauungsbeschwerden / Blähungen (traditionell, karminativ)",
+      "synonyms": [
+        "Blähungen",
+        "Bauchweh",
+        "Völlegefühl",
+        "Magenkrämpfe",
+        "Verdauungsbeschwerden",
+        "Bauchkrämpfe"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionell als Karminativum/Spasmolytikum bei krampfartigen Magen-Darm-Beschwerden. Keine belastbare Evidenz.",
+      "realistic_expectation": "Mögliche milde, symptomatische Entblähung wie bei anderen aromatischen Teekräutern; kein Nachweis über den unspezifischen Wärme-/Aromaeffekt hinaus.",
+      "source": "Volksmedizin; keine regulatorische Quelle"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches, gut riechendes Lippenblütler-Teekraut mit langer volksmedizinischer Tradition als mildes Erkältungs-, Beruhigungs- und Verdauungshausmittel; zugleich Katzen- und Bienenpflanze. Wirkungen sind höchstens mild und unspezifisch.",
+    "overstated": "Jede konkrete, belegte Heilwirkung. Es gibt keine anerkannte Monographie; Katzenminze ist KEIN geprüftes Sedativum oder Erkältungsmittel im Sinne von HMPC/ESCOP. Der 'Rausch'-Effekt gilt Katzen, nicht Menschen — beim Menschen wirkt sie allenfalls mild beruhigend.",
+    "effect_size": "mild, symptomatisch; nur traditionell (TRAD)"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Aufguss/Tee aus getrocknetem blühendem Kraut (abgedeckt)",
+      "frisches Kraut als Aroma-/Duftkraut"
+    ],
+    "form_rationale": "Wirk-/Aromaträger ist das flüchtige, nepetalactonhaltige ätherische Öl → warmer, abgedeckter Aufguss; alkoholische Auszüge oder Kochen sind für ein reines Volksmittel nicht etabliert.",
+    "standard_dose": "Traditionell: 1,5–2 g geschnittenes Kraut (ca. 1–2 TL) mit 200 ml heißem Wasser übergießen, abgedeckt 5–10 min ziehen, abseihen; 2–3× täglich, abends zur Beruhigung. Keine offizielle Dosisempfehlung — 'unsicher — zu prüfen'.",
+    "preservation": "blühendes Kraut schonend lufttrocknen (Aroma flüchtig), licht- und luftdicht aufbewahren"
+  },
+  "safety": {
+    "tox_ceiling": "Kein Toxin mit definiertem Grenzwert. Nicht für Säuglinge/Kleinkinder (berichtete Sedations-/Vergiftungserscheinungen). In der Schwangerschaft wegen traditionell emmenagoger/wehenfördernder Zuschreibung meiden.",
+    "contraindications": [
+      "Schwangerschaft (wehenfördernd/emmenagog beschrieben)",
+      "Säuglinge und Kleinkinder (Sedations-/Vergiftungserscheinungen berichtet)",
+      "bekannte Überempfindlichkeit gegen Lippenblütler"
+    ],
+    "pregnancy_lactation": "In der Schwangerschaft nicht anwenden — für Katzenminze sind wehen- und menstruationsfördernde (emmenagoge) Wirkungen überliefert. Stillzeit: keine Daten, arzneiliche Anwendung meiden. Küchen-/Duftgebrauch in Kleinmengen vermutlich unkritisch — 'unsicher — zu prüfen'.",
+    "adverse_effects": "In üblichen Teemengen selten; in hohen Dosen möglich: Übelkeit, Erbrechen, Kopfschmerzen, verstärkte Sedierung. Allergische Reaktionen möglich.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive Sedierung durch mild beruhigende Wirkung",
+        "affected": "zentral dämpfende Mittel (Sedativa, Hypnotika, Alkohol)",
+        "clinical_relevance": "gering (theoretisch)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "high_safety": false
+    },
+    "key_warning": "Rein traditionelles, klinisch unbelegtes Teekraut (keine HMPC/ESCOP/Kommission-E-Monographie): in der Schwangerschaft wegen wehenfördernder Zuschreibung meiden und nicht bei Säuglingen/Kleinkindern anwenden. Der bekannte Rauscheffekt betrifft Katzen, nicht Menschen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "blühendes Kraut in der Vollblüte, Juni–September",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend)",
+    "method": "obere blühende Triebe bei trockenem Wetter schneiden",
+    "processing": "locker bündeln und schattig-luftig trocknen oder frisch verwenden (Aroma flüchtig)",
+    "storage": "trocken, licht- und luftdicht; Aroma- und Wirkverlust bei Wärme/Licht"
+  },
+  "kitchen": {
+    "uses": [
+      "junge Blätter/Triebe sparsam als aromatisches Küchenkraut (minzig-herb)",
+      "Kräutertee (Hausmittel, ohne belegten Heilwert)",
+      "als Katzen- und Bienenpflanze im Garten"
+    ],
+    "culinary_vs_medicinal": "Verwendung ist im Kern kulinarisch/ornamental und volksmedizinisch; ein arzneilich belegter Nutzen besteht nicht. Für Katzen ist getrocknetes Kraut ein beliebtes Spielzeug-Füllkraut."
+  },
+  "garden": {
+    "site_soil": "vollsonnig, trocken bis frisch, durchlässig, eher nährstoffreich; anspruchslos und ausbreitungsfreudig",
+    "hardiness": "winterhart (ausdauernd), unkompliziert",
+    "propagation": "Aussaat (Selbstaussaat häufig), Teilung, Stecklinge",
+    "bodensee_suitability": "gut geeignet und robust; neigt zur Selbstaussaat. Als Katzen-/Insektenpflanze beliebt; kann verwildern."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Echte Katzenminze, buschig-aufrecht mit weißen Blütenquirlen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "graufilzige, herz-eiförmige, grob gesägte Blätter am vierkantigen Stängel",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Nepeta cataria (Stand 2026-07) — mehrfach bestätigt",
+    "AWL.ch Heilpflanzen 'Nepeta cataria / Katzenminze' (traditionelle Anwendung, Sicherheit) — WebFetch HTTP 403, Inhalt über WebSearch-Zusammenfassung",
+    "Hagers Handbuch der pharmazeutischen Praxis 'Nepeta cataria' (Nepetalacton-Gehalt 0,2–0,7 %, Dosierung, Schwangerschafts-/Säuglingswarnung)",
+    "hausmittelcheck.de, pflanzenfreunde.com, naturadb.de — traditionelle Indikationen und Zubereitung",
+    "POWO/Kew, GBIF, Wikipedia (en 'Catnip') — akzeptierter Name Nepeta cataria L. und lateinische Synonyme (Cataria vulgaris, Glechoma cataria u. a.)"
+  ]
+}

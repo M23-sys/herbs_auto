@@ -207,6 +207,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Wunschliste). WICHTIG: KEIN belegter Heilwert - keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie; nur nordamerikanische (Cherokee) Ethnomedizin -> Evidenz durchgehend TRAD, von Wirksamkeit ist nicht auszugehen. Zwei Namensfallen fuer den Arzt: (1) der Wunschlisten-Trivialname 'Black-eyed Susan' gehoert eigentlich zu Rudbeckia hirta, nicht R. fulgida - Pl@ntNet-Treffer gegenpruefen; (2) 'Sonnenhut' verfuehrt zur Gleichsetzung mit Echinacea (Purpursonnenhut), die - anders als Rudbeckia - begrenzte Erkaeltungs-/Immun-Evidenz hat. Unterscheidung: Rudbeckia rein gelbe, abstehende Strahlen + flacher schwarzbrauner Kegel; Echinacea purpurne haengende Strahlen + spitz-stacheliger Kegel. Zierpflanze (nur-kultur-selten-verwildert), gering giftig, aber Korbbluetler-Kontaktallergie (asteraceae_allergy=true). Ueberlieferte innere Anwendungen unbelegt und nicht empfohlen."
+    },
+    {
+      "ts": "2026-07-18T09:00:00Z",
+      "id": "nepeta-cataria",
+      "common": "Echte Katzenminze",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). Echte Katzenminze (Nepeta cataria, Lippenbluetler) - NICHT die bereits im Katalog stehende mediterrane Kleine Katzenminze (Nepeta nepetella). Rein traditionelles Teekraut: KEINE HMPC-/ESCOP-/Kommission-E-Monographie (mehrfach bestaetigt), daher alle drei Indikationen (Erkaeltung/schweisstreibend, Unruhe/Einschlafen, Blaehungen/karminativ) nur TRAD. Leitstoffe Nepetalactone (aetherisches Oel 0,2-0,7 %). Zwei Sicherheitspunkte: in der Schwangerschaft meiden (wehen-/menstruationsfoerdernd ueberliefert -> pregnancy_contraindicated=true) und NICHT bei Saeuglingen/Kleinkindern (berichtete Sedations-/Vergiftungserscheinungen). Kein giftiger Doppelgaenger (sichere Lamiaceae), confusions dennoch aktiv gefuellt. Hinweis: der bekannte Rauscheffekt betrifft Katzen, nicht Menschen."
+    },
+    {
+      "ts": "2026-07-18T09:00:30Z",
+      "id": "achillea-nobilis",
+      "common": "Edle Schafgarbe",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). Edle Schafgarbe (Achillea nobilis, Korbbluetler) - eigene Art, NICHT die arzneilich gepruefte Gewoehnliche Schafgarbe (A. millefolium, HMPC); deren Evidenz ist NICHT uebertragbar. Keine HMPC-/ESCOP-/Kommission-E-Monographie fuer A. nobilis -> Indikationen (Bittermittel/Dyspepsie, aeussere Wundpflege) nur TRAD. SICHERHEITSKRITISCH: die sehr fein zerschlitzten jungen Blaetter aehneln jungen Doldenbluetlern -> deadly_confusion=true (Gefleckter Schierling/Conium, lebensgefaehrlich; Hundspetersilie/Aethusa, giftig) - junge Rosetten nicht verzehren ohne sichere Bestimmung. Zusaetzlich photosensitizing=true (Frischsaft phototoxisch), asteraceae_allergy=true (Sesquiterpenlactone) und pregnancy_contraindicated=true (thujonhaltiges Oel, emmenagoge Gattungstradition). In Deutschland selten/Vorwarnliste -> Wildbestaende schonen."
     }
   ]
 }

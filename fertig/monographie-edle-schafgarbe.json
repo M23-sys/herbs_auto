@@ -1,0 +1,221 @@
+{
+  "schema_version": "1.0",
+  "id": "achillea-nobilis",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Achillea nobilis L.",
+    "common_names_de": [
+      "Edle Schafgarbe",
+      "Edel-Schafgarbe",
+      "Edelgarbe",
+      "Edel-Garbe"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut, blühend — keine etablierte Arzneidroge"
+    ],
+    "drug_name_latin": "unsicher — keine offizinelle Drogenbezeichnung (arzneilich verwendet wird Millefolii herba von Achillea millefolium)",
+    "synonyms": [],
+    "synonym_note": "Aktuell akzeptierter Name Achillea nobilis L.; Taxonomie stabil (keine relevante Umbenennung). Infraspezifisch existiert die Sippe Achillea nobilis subsp. neilreichii (in SO-Europa). WICHTIG: NICHT die arzneilich genutzte Gewöhnliche Schafgarbe (Achillea millefolium, HMPC-Monographie) — eigene Art. Deren Evidenz darf NICHT auf A. nobilis übertragen werden."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter noch feiner und dichter fiederteilig ('zerschlissen') als bei der Gewöhnlichen Schafgarbe, grau- bis graugrün, filzig-wollig behaart, stark aromatisch",
+      "Blütenkörbchen sehr klein und dicht in flachen, gedrängten Doldenrispen; nur 4–6 kurze weiße bis cremeweiße Zungenblüten je Körbchen (Zunge kürzer als die Hüllblätter)",
+      "Ganze Pflanze wollig-filzig behaart, aromatischer Geruch; 20–60 cm hoch, keine Ausläufer",
+      "Standort ausgesprochen trocken-warm: Trocken-/Halbtrockenrasen, felsige Hänge, Kalk-/Lössböden",
+      "Blütezeit Juli–September"
+    ],
+    "season": "Blüte Juli–September",
+    "habitat": "Trocken- und Halbtrockenrasen, felsige Hänge, Böschungen; wärmeliebend auf kalkhaltigen, lockeren, mageren Lehm-/Lössböden. In Deutschland nur im Süden/Südwesten (Oberrhein, mittlerer Neckar, Rhein-Main, Fränkische Alb), zerstreut und selten; Rote Liste: Vorwarnliste.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "GEFÄHRDUNG: In Deutschland zerstreut/selten und auf der Vorwarnliste — Wildbestände schonen, nicht sammeln; ggf. Gartenpflanze nutzen. Am Bodensee kein häufiges Wildvorkommen; Funde eher in wärmsten Trockenlagen oder Kultur/Verwilderung.",
+      "GEFÄHRLICHE VERWECHSLUNG: Die fein zerschlitzten, jungen Grundblätter ähneln jungen Doldenblütlern (Apiaceae). Junge, nicht blühende Rosetten NICHT sammeln/verzehren, solange die Art nicht sicher bestimmt ist — Verwechslung mit Geflecktem Schierling (lebensgefährlich) und Hundspetersilie (giftig) möglich.",
+      "Sicheres Bestätigermerkmal Schafgarbe vs. Doldenblütler: Schafgarbenblätter sind wollig-filzig behaart und stark würzig-aromatisch; Blütenstand ist ein Korbblüten-Doldenrispe (KEINE echte Dolde). Schierling riecht unangenehm 'mäuseartig' und hat kahle, oft rotgefleckte Stängel.",
+      "Abgrenzung zur Gewöhnlichen Schafgarbe: A. nobilis noch feiner zerteilte, grauere/filzigere Blätter, kleinere/gedrängtere Körbchen mit nur 4–6 sehr kurzen Zungenblüten."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und verwandte Piperidin-Alkaloide",
+      "note": "Doldenblütler mit fein gefiederten Blättern — junge, nicht blühende Schafgarben-Rosetten können damit verwechselt werden. Schierling: kahler, blaubereifter, meist rot-/purpurgefleckter Stängel, unangenehm 'mäuse-/urinartiger' Geruch, echte Doppeldolde. Schafgarbe: wollig-filzig behaart, würzig-aromatisch, Korb-Doldenrispe. Verzehr bei Unsicherheit lebensgefährlich (Atemlähmung)."
+    },
+    {
+      "name": "Hundspetersilie / Gartenschierling",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (Aethusin, Cynapin), coniinähnliche Wirkung",
+      "note": "Kleiner Doldenblütler mit fein gefiederten, kahlen, glänzend-dunkelgrünen Blättern; unangenehmer Geruch beim Zerreiben. Schafgarbe dagegen filzig behaart und angenehm würzig. Verwechslung besonders bei jungen Blättern in Wildsalaten gefährlich."
+    },
+    {
+      "name": "Gewöhnliche Schafgarbe",
+      "scientific_name": "Achillea millefolium",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandt, arzneilich genutzt (HMPC). Unterschied: A. millefolium grüner, Blätter etwas gröber zerteilt, Körbchen etwas größer/lockerer, oft auch rosa. Ungefährlich, aber die belegte Heilwirkung gehört zu A. millefolium, NICHT zu A. nobilis."
+    },
+    {
+      "name": "Rainfarn",
+      "scientific_name": "Tanacetum vulgare",
+      "toxicity_level": "giftig",
+      "toxin": "Thujon (ätherisches Öl)",
+      "note": "Ebenfalls Korbblütler mit fiederteiligen, aromatischen Blättern, aber gelben, knopfartigen Körbchen (ohne Zungenblüten) und höherem Wuchs. Innerlich thujonbedingt problematisch. Vegetativ (vor der Blüte) verwechselbar."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (Zusammensetzung chemotyp-/populationsabhängig)",
+      "Monoterpene, u. a. Thujon, Kampfer, 1,8-Cineol (analog zur Gattung)",
+      "Sesquiterpenlactone (Bitter- und Allergenstoffe)",
+      "Proazulene variabel — A. nobilis oft azulenarm/-frei",
+      "Flavonoide, Phenolcarbonsäuren, Gerbstoffe",
+      "phototoxisch wirkende Bestandteile im Frischsaft"
+    ],
+    "lead_substance": "Ätherisches Öl mit Monoterpenen (u. a. Thujon/Kampfer) und Sesquiterpenlactone. Eine für A. nobilis validierte arzneiliche Leitsubstanz fehlt; anders als bei A. millefolium ist der Chamazulen-/Proazulengehalt oft gering.",
+    "solubility_note": "Bitter-/Gerbstoffe wasserlöslich (Tee/Bittermittel); ätherisches Öl flüchtig und wenig wasserlöslich → für Aromawirkung abgedeckt aufgießen. Kein etablierter arzneilicher Zubereitungsstandard für diese Art.",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig, licht-/hitzeempfindlich. WICHTIG: der frisch ausgepresste Pflanzensaft kann unter Sonnenlicht Hautentzündungen auslösen (phototoxisch)."
+  },
+  "pharmacology": {
+    "mechanism": "Nicht art-spezifisch belegt. Für die Gattung Achillea (v. a. A. millefolium) werden bittere/cholagoge, mild spasmolytische, entzündungshemmende und adstringierende Effekte beschrieben (Bitterstoffe, ätherisches Öl, Gerbstoffe, Proazulene). Für A. nobilis liegen kaum pharmakologische Daten vor.",
+    "evidence_caveat": "Keine HMPC-, ESCOP- oder Kommission-E-Monographie für Achillea nobilis (Stand 2026-07). Es existiert eine HMPC-Monographie NUR für A. millefolium — deren Evidenz gilt nicht automatisch für A. nobilis. Alle Heilwert-Angaben hier sind rein traditionell und 'unsicher — zu prüfen'.",
+    "pharmacokinetics": "nicht charakterisiert"
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden / Appetitlosigkeit (traditionell, Bittermittel — gattungsbezogen)",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Blähungen",
+        "Appetitlosigkeit",
+        "Magendrücken",
+        "Gallebeschwerden"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Nur volksmedizinisch, überwiegend in Analogie zur Gewöhnlichen Schafgarbe. Für A. nobilis nicht eigenständig belegt — 'unsicher — zu prüfen'.",
+      "realistic_expectation": "Allenfalls milder, unspezifischer Bitter-/Aromaeffekt bei leichten Verdauungsbeschwerden. Kein Ersatz für die arzneilich geprüfte A. millefolium; kein belegter Vorteil gegenüber etablierten Bittermitteln.",
+      "source": "Volksmedizin (gattungsbezogen); keine artspezifische regulatorische Quelle"
+    },
+    {
+      "canonical": "Kleine Hautwunden / Entzündungen, äußerlich (traditionell)",
+      "synonyms": [
+        "Wunde",
+        "Wundheilung",
+        "Hautentzündung",
+        "schlecht heilende Hautstellen",
+        "Umschlag"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle äußerliche Anwendung wie bei Schafgarbe allgemein. Nicht art-spezifisch belegt.",
+      "realistic_expectation": "Bestenfalls mild adstringierend/reizmildernd. ACHTUNG: Frischsaft kann phototoxisch reagieren — behandelte Haut nicht der Sonne aussetzen.",
+      "source": "Volksmedizin; keine regulatorische Quelle"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches, wärmeliebendes Korbblütler-Trockenrasenkraut mit bitter-würzigem Charakter; als Bienen-/Trockengarten- und (traditionell) mildes Bitter-/Wundkraut. Ein eigenständiger, belegter Heilwert existiert nicht.",
+    "overstated": "Die Gleichsetzung mit der arzneilich geprüften Gewöhnlichen Schafgarbe (A. millefolium). A. nobilis hat KEINE HMPC-Monographie und oft weniger Proazulene; jede daraus abgeleitete Heilwirkung ist überzogen. 'Edel' meint die Erscheinung, nicht einen höheren Heilwert.",
+    "effect_size": "mild, symptomatisch; nur traditionell (TRAD)"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Aufguss/Tee aus getrocknetem blühendem Kraut (Bittermittel, abgedeckt)",
+      "äußerlich: Umschlag/Waschung (traditionell)"
+    ],
+    "form_rationale": "Bitter- und Gerbstoffe gehen in den wässrigen Auszug über (innerlich/äußerlich); flüchtiges ätherisches Öl → abgedeckt ziehen. Wegen fehlender Standardisierung dieser Art keine arzneiliche Dosisempfehlung.",
+    "standard_dose": "unsicher — zu prüfen: keine etablierte arzneiliche Dosierung für A. nobilis. Bei äußerlicher Frischsaft-/Umschlaganwendung wegen Phototoxizität Sonnenlicht meiden.",
+    "preservation": "blühendes Kraut schonend lufttrocknen; trocken, licht-/luftdicht lagern"
+  },
+  "safety": {
+    "tox_ceiling": "Kein definierter Grenzwert für A. nobilis. Zu beachten: thujonhaltiges ätherisches Öl (Innerliche Daueranwendung/hohe Dosen meiden) und Phototoxizität des Frischsafts. Werte 'unsicher — zu prüfen'.",
+    "contraindications": [
+      "bekannte Korbblütler-(Asteraceen-)Allergie (Sesquiterpenlacton-Kreuzallergie)",
+      "Schwangerschaft/Stillzeit (Thujon; emmenagoge Gattungstradition)",
+      "Hautanwendung mit anschließender Sonnenexposition (Phototoxizität)"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit arzneiliche Anwendung meiden — thujonhaltiges ätherisches Öl und die für Schafgarben allgemein überlieferte emmenagoge Wirkung; art-spezifische Daten fehlen ('unsicher — zu prüfen').",
+    "adverse_effects": "Kontaktdermatitis/Allergie (Korbblütler, Sesquiterpenlactone); phototoxische Hautreaktionen durch Frischsaft unter Sonnenlicht; bei innerlicher hoher/Dauer-Dosis thujonbedingte Risiken denkbar.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "keine art-spezifischen Interaktionsdaten; allgemein für Bitter-/Gerbstoffdrogen geringe Resorptionsbeeinflussung denkbar",
+        "affected": "unsicher — zu prüfen",
+        "clinical_relevance": "gering/unbekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "photosensitizing": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein belegter Heilwert und NICHT mit der arzneilich geprüften Gewöhnlichen Schafgarbe gleichsetzen. Junge, fein zerschlitzte Blätter NICHT verzehren, solange die Art nicht sicher bestimmt ist — Verwechslung mit dem lebensgefährlichen Gefleckten Schierling möglich. Frischsaft ist phototoxisch; Korbblütler-Allergie beachten; in der Schwangerschaft meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "blühendes Kraut Juli–September (Wildbestände wegen Gefährdung schonen)",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend)",
+    "method": "obere blühende Triebe schneiden; nur bei sicherer Bestimmung und nicht aus gefährdeten Wildbeständen",
+    "processing": "schattig-luftig trocknen (Aroma flüchtig)",
+    "storage": "trocken, licht- und luftdicht"
+  },
+  "kitchen": {
+    "uses": [
+      "allenfalls sparsam als aromatisches Bitter-/Würzkraut (traditionell)",
+      "Bienen- und Insektenweide, Trockengartenpflanze"
+    ],
+    "culinary_vs_medicinal": "Kulinarische Nutzung ist marginal und nur bei zweifelsfreier Bestimmung vertretbar — wegen der Doldenblütler-Verwechslung junger Blätter erhöhtes Risiko. Ein arzneilicher Nutzen ist nicht belegt."
+  },
+  "garden": {
+    "site_soil": "vollsonnig, sehr trocken, durchlässig, kalkhaltig-mager (Steppen-/Steingarten)",
+    "hardiness": "winterhart, hitze- und trockenheitsverträglich",
+    "propagation": "Aussaat, Teilung",
+    "bodensee_suitability": "als trockenheitsverträgliche Bienen-/Steingartenpflanze an warmen, mageren Standorten gut geeignet; wildbürtig in der Region selten und schützenswert — im Garten daher der ökologisch sinnvollere Weg."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Edle Schafgarbe mit dichten, flachen Doldenrispen kleiner weißer Körbchen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "sehr fein zerschlitzte, grau-filzige Blätter — Verwechslungsgefahr mit jungen Doldenblütlern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie für Achillea nobilis (Stand 2026-07). HMPC-Monographie existiert nur für Achillea millefolium (Millefolii herba/flos) — nicht übertragbar.",
+    "Wikipedia (de) 'Edle Schafgarbe' und pflanzen-deutschland.de, naturadb.de, smagy.de — Merkmale (4–6 Zungenblüten, feinere Blätter, wollige Behaarung), ätherisches Öl, Phototoxizität des Frischsafts, Verwechslung mit giftigen Doldenblütlern; WebFetch der Primärseite HTTP 403, Inhalt über WebSearch-Zusammenfassung",
+    "FloraWeb / floraweb.de 'Achillea nobilis L.', Rote-Liste-/Verbreitungsangaben (Süd-/Südwestdeutschland, Vorwarnliste, Trocken-/Halbtrockenrasen)",
+    "Gattungsdaten Achillea millefolium (Olionatura, heilpraxisnet.de) zu ätherischem Öl (Thujon, Kampfer, Proazulene) und Schwangerschafts-/Allergiehinweisen — nur als Analogie/Abgrenzung",
+    "POWO/Kew, GBIF — akzeptierter Name Achillea nobilis L."
+  ]
+}
