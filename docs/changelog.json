@@ -223,6 +223,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Wunschliste). Edle Schafgarbe (Achillea nobilis, Korbbluetler) - eigene Art, NICHT die arzneilich gepruefte Gewoehnliche Schafgarbe (A. millefolium, HMPC); deren Evidenz ist NICHT uebertragbar. Keine HMPC-/ESCOP-/Kommission-E-Monographie fuer A. nobilis -> Indikationen (Bittermittel/Dyspepsie, aeussere Wundpflege) nur TRAD. SICHERHEITSKRITISCH: die sehr fein zerschlitzten jungen Blaetter aehneln jungen Doldenbluetlern -> deadly_confusion=true (Gefleckter Schierling/Conium, lebensgefaehrlich; Hundspetersilie/Aethusa, giftig) - junge Rosetten nicht verzehren ohne sichere Bestimmung. Zusaetzlich photosensitizing=true (Frischsaft phototoxisch), asteraceae_allergy=true (Sesquiterpenlactone) und pregnancy_contraindicated=true (thujonhaltiges Oel, emmenagoge Gattungstradition). In Deutschland selten/Vorwarnliste -> Wildbestaende schonen."
+    },
+    {
+      "ts": "2026-07-18T12:00:00Z",
+      "id": "malva-arborea",
+      "common": "Baummalve",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). Baummalve (Malva arborea, akzeptierter Name; Altname Lavatera arborea) - verholzende, salzliebende Kuesten-Strauchmalve. WICHTIG: NICHT die offizinelle Malve! Die HMPC-/Kommission-E-Belege gelten fuer Malva sylvestris/neglecta, NICHT fuer diese Art -> Indikationen (reizmildernder Schleim bei trockenem Reizhusten/Halskratzen) nur TRAD, in Analogie. Ungiftig, high_safety=true; kein lebensgefaehrlicher Doppelgaenger. Hinweis: Malva parviflora (Kleinbluetige Malve) reichert Nitrat an (Weidetier-Toxizitaet) - 'Malve = harmlos' gilt nicht pauschal fuer die ganze Gattung. Am Bodensee nur bedingt winterhart (frostempfindlich bis ca. -10/-12 C)."
+    },
+    {
+      "ts": "2026-07-18T12:00:30Z",
+      "id": "erigeron-strigosus",
+      "common": "Borstiges Berufkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). Borstiges Berufkraut (Erigeron strigosus, Korbbluetler; taxonomisch teils als Unterart von E. annuus gefuehrt) - nordamerikanischer Neophyt, in Mitteleuropa selten. KEIN belegtes Heilkraut: keine HMPC-/ESCOP-/Kommission-E-Monographie, nur historische nordamerikanische Volks-/Eklektikmedizin (adstringierend/diuretisch) -> Evidenz TRAD, von Selbstanwendung wird abgeraten. SICHERHEITSKRITISCH: im Rosetten-/Jungstadium Verwechslung mit gelbbluehenden Greiskraeutern (Senecio/Jacobaea, lebertoxische Pyrrolizidinalkaloide) moeglich - Warnung in confusions; asteraceae_allergy=true. deadly_confusion=false (Senecio chronisch, nicht akut-toedlich)."
     }
   ]
 }

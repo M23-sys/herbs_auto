@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "id": "erigeron-strigosus",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Erigeron strigosus Muhl. ex Willd.",
+    "common_names_de": [
+      "Borstiges Berufkraut",
+      "Striegelhaariges Berufkraut",
+      "Striegelhaariger Feinstrahl"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut (blühend, Herba)"
+    ],
+    "drug_name_latin": "Erigerontis herba (nicht offizinell)",
+    "synonyms": [
+      "Erigeron annuus subsp. strigosus (Muhl. ex Willd.) Wagenitz",
+      "Erigeron annuus var. strigosus (Muhl. ex Willd.) Torr. & A.Gray",
+      "Erigeron ramosus (Walter) Britton, Sterns & Poggenb.",
+      "Stenactis strigosa (Muhl. ex Willd.) DC."
+    ],
+    "synonym_note": "Taxonomisch strittig: wird teils als eigene Art (Erigeron strigosus Muhl. ex Willd.), teils als Unterart von Erigeron annuus geführt. Die App gleicht über den akzeptierten Namen ab — Pl@ntNet führt die Art als 'Borstiges Berufkraut'. Nordamerikanischer Neophyt, in Mitteleuropa selten und schwer von Erigeron annuus zu trennen."
+  },
+  "identification": {
+    "key_features": [
+      "Zahlreiche (bis 200) kleine Köpfchen (<1 cm) in lockerer, verzweigter Rispe; JEDES Köpfchen mit 50–100+ sehr schmalen, fädigen weißen (selten rosa/bläulichen) Zungenblüten um eine gelbe Scheibe — die hohe Zahl fädiger Strahlen trennt Berufkräuter von echten Astern (wenige, breite Strahlen)",
+      "Stängelbehaarung ANLIEGEND-borstig (strigos) — namensgebend; Erigeron annuus dagegen abstehend behaart",
+      "Grundständige/untere Blätter gestielt, verkehrt-eiförmig, oft schwach gezähnt; Stängelblätter nach oben schmal, meist ganzrandig, den Stängel NICHT umfassend",
+      "Ein- bis zweijährig, aufrecht, meist 30–80 cm hoch, spärlich verzweigt",
+      "Trockene, sonnige, eher magere Standorte (im Gegensatz zu Erigeron annuus, der frischere, nährstoffreichere Ruderalstellen bevorzugt)"
+    ],
+    "season": "Blütezeit Juni bis Oktober",
+    "habitat": "Trockene bis frische Ruderalflächen, Weg- und Bahnränder, Magerrasen, Brachen; sonnig, wärmeliebend. Nordamerikanischer Neophyt; in Mitteleuropa (D/CH) nur zerstreut und unsicher kartiert",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Bestätiger: viele kleine Köpfchen mit sehr zahlreichen fädigen weißen Strahlen + anliegend-borstige Behaarung + nicht stängelumfassende obere Blätter",
+      "Abgrenzung zu Erigeron annuus (Einjähriges Berufkraut): dort breitere, deutlich gezähnte Blätter, abstehende Behaarung, meist kräftiger; die beiden Arten sind nur schwer sicher zu trennen",
+      "WICHTIG bei Rosetten/jungen Pflanzen: Korbblütler-Rosetten nicht mit giftigen Greiskräutern (Senecio/Jacobaea) verwechseln — siehe confusions. Im Zweifel nur eindeutig blühende Pflanzen ernten.",
+      "Bei nur volksmedizinischer, unbelegter Verwendung: Ernte kritisch abwägen; kein regulatorisch anerkannter Nutzen (siehe indications/evidence)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Einjähriges Berufkraut / Feinstrahl",
+      "scientific_name": "Erigeron annuus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig; häufigste und schwierigste Verwechslung — beide Arten sehr ähnlich, teils als Unterarten geführt. Erigeron annuus: breitere, gezähnte Blätter, ABSTEHENDE Behaarung, meist höher/kräftiger, frischere Standorte. Feldunterscheidung oft nur mit Lupe (Behaarungsrichtung) sicher."
+    },
+    {
+      "name": "Kanadisches Berufkraut",
+      "scientific_name": "Erigeron canadensis (Conyza canadensis)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Unterschied: winzige, unscheinbare Köpfchen fast ohne sichtbare Strahlen, sehr schmale ungeteilte Blätter, oft rutenförmig hoch. Keine Gefahr, aber andere Verwendung."
+    },
+    {
+      "name": "Jakobs-Greiskraut / Jakobskreuzkraut (und andere Greiskräuter)",
+      "scientific_name": "Senecio jacobaea / Jacobaea vulgaris (sowie weitere Senecio-Arten)",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (leber­toxisch, potenziell kanzerogen; chronisch-kumulativ)",
+      "note": "Wichtigste GIFTIGE Verwechslung, v. a. im Rosetten-/Jungstadium und bei flüchtiger Ansprache als 'Wiesen-Korbblütler'. Greiskräuter haben GELBE (nicht weiße) Strahlenblüten und meist fieder-/buchtig geteilte Blätter — im blühenden Zustand gut trennbar. Pyrrolizidinalkaloide sind lebertoxisch und reichern sich an; niemals mitverarbeiten. deadly_confusion=false (chronische, nicht akut-tödliche Toxizität), aber ernst zu nehmen."
+    },
+    {
+      "name": "Gänseblümchen / Astern (echte Astern, Margeriten)",
+      "scientific_name": "Bellis perennis, Aster/Symphyotrichum spp., Leucanthemum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Unterschied: deutlich WENIGER und BREITERE Zungenblüten pro Köpfchen; Berufkräuter haben sehr viele fädige Strahlen. Keine Gefahr, nur botanische Abgrenzung."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide",
+      "Gerbstoffe (Tannine) — adstringierend",
+      "ätherisches Öl (in geringer Menge, gattungstypisch)",
+      "unsicher — zu prüfen: quantitative Inhaltsstoffdaten speziell für Erigeron strigosus sind kaum publiziert"
+    ],
+    "lead_substance": "Gerbstoffe (adstringierend) und Flavonoide werden für die traditionell beschriebene zusammenziehende/blutstillende und harntreibende Wirkung verantwortlich gemacht — belastbare Wirkstoff-Wirkungs-Zuordnung für DIESE Art fehlt jedoch.",
+    "solubility_note": "Gerbstoffe und Flavonoide sind wasser- und teils alkohollöslich → traditionell als wässriger Aufguss oder Tinktur. Da kein belegter Nutzen besteht, ist die Zubereitungsfrage eher theoretisch.",
+    "heat_light_sensitivity": "unsicher — zu prüfen"
+  },
+  "pharmacology": {
+    "mechanism": "Traditionell zusammenziehend (adstringierend durch Gerbstoffe) und schwach harntreibend; in der historischen nordamerikanischen Eklektik-Medizin bei Durchfall, Blutungen und Harnwegsbeschwerden verwendet. Ein belegter Wirkmechanismus für Erigeron strigosus liegt nicht vor.",
+    "evidence_caveat": "KEINE HMPC-, ESCOP- oder Kommission-E-Monographie für diese Art. Die Anwendungen stammen aus der nordamerikanischen Volks-/Eklektikmedizin des 19. Jh. und sind klinisch nicht belegt. Evidenzgrad TRAD. Von einer Selbstanwendung ist mangels Datenlage abzuraten; Angaben dienen der Einordnung, nicht der Empfehlung.",
+    "pharmacokinetics": "unsicher — zu prüfen"
+  },
+  "indications": [
+    {
+      "canonical": "Historisch-traditionelle Anwendung bei Durchfall/leichten Blutungen und als Harntreiber (NICHT belegt)",
+      "synonyms": [
+        "Durchfall",
+        "leichte Blutungen",
+        "wassertreibend",
+        "harntreibend",
+        "Volksheilmittel Berufkraut"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinisch/eklektisch (nordamerikanische Tradition: adstringierend, styptisch, diuretisch). KEINE regulatorische Monographie, keine klinische Evidenz. Aufführung zur Einordnung und Abgrenzung, ausdrücklich KEINE Anwendungsempfehlung.",
+      "realistic_expectation": "Kein belegter therapeutischer Nutzen. Was in alten Quellen steht (zusammenziehend, harntreibend), ist nicht kontrolliert untersucht. Für die genannten Beschwerden gibt es besser belegte Heilpflanzen und ärztliche Optionen. 'unsicher — zu prüfen'.",
+      "source": "Nordamerikanische Eklektik-/Volksmedizin (19. Jh.); keine HMPC/ESCOP/Kommission-E-Monographie"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Botanisch ein unauffälliger Korbblütler-Neophyt. Ein mild adstringierender Effekt der Gerbstoffe ist theoretisch möglich, aber für diese Art nicht belegt.",
+    "overstated": "Jede Darstellung als wirksames Heilmittel gegen Durchfall, Blutungen oder Harnwegsleiden ist überzogen — es gibt keine belastbaren Daten und keine regulatorische Anerkennung. Der historische Name 'Berufskraut/Fleabane' (angeblich flohvertreibend) ist Folklore, kein Wirknachweis.",
+    "effect_size": "unbelegt; allenfalls schwach adstringierend; keine gesicherte therapeutische Wirkung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine empfohlene arzneiliche Zubereitung (mangels Evidenz)"
+    ],
+    "form_rationale": "Da kein belegter Nutzen und keine standardisierte Droge existiert, wird bewusst KEINE Zubereitungs-/Dosierempfehlung gegeben. Historisch wurden wässrige Aufgüsse/Tinkturen des blühenden Krauts genutzt.",
+    "standard_dose": "Keine belegte Dosierung — 'unsicher — zu prüfen'. Von Selbstanwendung ist abzuraten.",
+    "preservation": "unsicher — zu prüfen"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Korbblütler-Allergie (Kreuzallergie gegen Asteraceae)",
+      "Schwangerschaft/Stillzeit (keine Daten — meiden)",
+      "Selbstanwendung ohne ärztliche Rücksprache generell nicht empfohlen (fehlende Evidenz)"
+    ],
+    "pregnancy_lactation": "Keine Daten zur Sicherheit in Schwangerschaft und Stillzeit. Mangels Datenlage meiden. 'unsicher — zu prüfen'.",
+    "adverse_effects": "Wenig dokumentiert. Als Korbblütler mögliche allergische Haut-/Schleimhautreaktionen (Kreuzallergie). Ätherisches Öl der Gattung kann reizend wirken.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Gerbstoffe können die Resorption gleichzeitig eingenommener Arzneistoffe (z. B. Eisenpräparate, Alkaloide) vermindern",
+        "affected": "oral eingenommene Eisenpräparate, alkaloidhaltige Arzneimittel (theoretisch)",
+        "clinical_relevance": "gering — bei bestimmungsgemäß fehlender Anwendung praktisch ohne Bedeutung"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein belegtes Heilkraut: keine HMPC/ESCOP/Kommission-E-Monographie, nur historische Volksmedizin — von Selbstanwendung ist abzuraten. Beim Sammeln GELBBLÜHENDE Greiskräuter (Senecio/Jacobaea, lebertoxische Pyrrolizidinalkaloide) sicher ausschließen und Korbblütler-Allergie beachten."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühendes Kraut Juni–Oktober (nur bei bewusster, kritisch abgewogener Verwendung)",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut (blühend)",
+    "method": "Oberirdisches blühendes Kraut schneiden; nur eindeutig bestimmte, weißstrahlige Pflanzen — gelbblühende Greiskräuter zwingend ausschließen",
+    "processing": "Luftig im Schatten trocknen",
+    "storage": "Trocken, dunkel, luftdicht"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung üblich. Traditionell wurde getrocknetes Kraut als Insekten-/Flohabwehr in Beutel gelegt oder verräuchert — kein Speise- und kein belegter Heilzweck."
+  },
+  "garden": {
+    "site_soil": "Sonnig, trocken bis frisch, mager bis mäßig nährstoffreich; anspruchslos",
+    "hardiness": "Als ein-/zweijähriger Neophyt frosthart genug für Mitteleuropa; versamt sich",
+    "propagation": "Selbstaussaat über die zahlreichen, flugfähigen Achänen (Pappus) — kann sich rasch ausbreiten",
+    "bodensee_suitability": "Als Zier-/Nutzpflanze nicht empfehlenswert — ausbreitungsfreudiger Neophyt ohne belegten Nutzen; im Garten eher unerwünscht."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Locker verzweigte Pflanze mit vielen kleinen Köpfchen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Köpfchen mit sehr zahlreichen fädigen weißen Strahlenblüten um gelbe Scheibe; anliegend-borstiger Stängel",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Pl@ntNet identify: Erigeron strigosus Muhl. ex Willd., 'Borstiges Berufkraut' (Weltflora) — akzeptierter Name/App-Abgleich",
+    "Flora of North America / Go Botany / Minnesota Wildflowers / Wikipedia: Morphologie, Abgrenzung zu Erigeron annuus, Verbreitung",
+    "Eclectic School of Herbal Medicine (Fleabane Monograph) / Grokipedia: historische nordamerikanische Volks-/Eklektik-Verwendung (adstringierend, diuretisch, styptisch)",
+    "allum.de / AK Kreuzkraut e.V.: Toxizität der Greiskräuter (Senecio/Jacobaea, Pyrrolizidinalkaloide) — Grundlage der Verwechslungswarnung",
+    "PRIMÄRQUELLEN-HINWEIS: EMA/HMPC, ESCOP und Kommission E führen KEINE Monographie zu Erigeron strigosus; Wikipedia/POWO/Pl@ntNet per WebFetch teils nicht erreichbar (HTTP 403), Angaben aus Sekundär-/Suchquellen. Evidenzgrad TRAD — ärztliche Gegenprüfung nötig."
+  ]
+}

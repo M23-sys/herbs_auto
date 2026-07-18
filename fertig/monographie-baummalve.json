@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "id": "malva-arborea",
+  "stand": "2026-07-18",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Malva arborea (L.) Webb & Berthel.",
+    "common_names_de": [
+      "Baummalve",
+      "Baumförmige Strauchpappel",
+      "Strauch-Pappel",
+      "Baum-Malve"
+    ],
+    "family": "Malvaceae (Malvengewächse)",
+    "drug_part": [
+      "Blatt (Malvae arboreae folium)",
+      "Blüte (Malvae arboreae flos)"
+    ],
+    "drug_name_latin": "Malvae arboreae folium/flos (nicht offizinell)",
+    "synonyms": [
+      "Lavatera arborea L.",
+      "Malva eriocalyx Steud.",
+      "Lavatera arborea var. arborea"
+    ],
+    "synonym_note": "Taxonomisch verschoben: Linné beschrieb die Art 1753 als Lavatera arborea; 1836 durch Webb & Berthelot in die Gattung Malva überführt. Der HEUTE akzeptierte Name ist Malva arborea (POWO/Kew), der Altname Lavatera arborea ist in Gartenliteratur und Handel noch weit verbreitet. Nicht die offizinelle Malve — die HMPC-Droge stammt von Malva sylvestris/Malva neglecta, NICHT von dieser Art."
+  },
+  "identification": {
+    "key_features": [
+      "Hoher, an der Basis verholzender, strauch- bis fast baumartiger Wuchs 0,5–2 m (selten bis 3 m) — deutlich größer und holziger als die krautige Wilde Malve; sicherstes Trennmerkmal gegenüber Malva sylvestris",
+      "Außenkelch (Epicalyx) aus 3 BREITEN, am Grund verwachsenen/becherförmig verbundenen Hüllblättchen ('Lavatera-Typ') — bei der Wilden Malve sind die 3 Außenkelchblättchen schmal und frei",
+      "Blätter groß, rundlich (8–18 cm), handförmig 5–9-lappig, gekerbt-gesägt, samtig-filzig behaart, wechselständig, lang gestielt",
+      "Blüten 3–4 cm, dunkelrosa bis purpurn/malvenfarben mit dunkleren Adern, die in einen dunklen Schlund/Blütengrund zusammenlaufen; in achselständigen Büscheln zu 2–7",
+      "Wärme- und salzliebend, ursprünglich Küstenpflanze West-/Südeuropas; im Garten meist als Zier-Strauchmalve"
+    ],
+    "season": "Blütezeit spätes Frühjahr bis Sommer (Mai–August, je nach Standort auch länger)",
+    "habitat": "Küsten und Felsküsten West- und Südeuropas / Mittelmeerraum, salztolerant; in Mitteleuropa nur als Zierpflanze in Gärten (frostempfindlich), selten verwildert",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Bestätiger: verholzende Basis + samtige, große 5–9-lappige Blätter + breiter, am Grund verwachsener 3-teiliger Außenkelch (Lavatera-Typ)",
+      "Abgrenzung zur krautigen Wilden Malve (Malva sylvestris): dort dünner krautiger Stängel, kleinere Blätter, freie schmale Außenkelchblättchen",
+      "Abgrenzung zur Stockrose (Alcea rosea): deren Außenkelch hat 6–9 Zipfel und die Pflanze wird stabstängelig sehr hoch mit endständiger Blütenähre",
+      "Kein giftiger Doppelgänger unter den Malvengewächsen — alle ähnlichen Malven/Lavateren/Stockrosen sind ungiftig (siehe confusions). Ruderal- und salznahe Standorte auf Schadstoffe prüfen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wilde Malve / Käsepappel",
+      "scientific_name": "Malva sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährlich, ähnlich schleimhaltig und ähnlich verwendbar. Unterschied: krautig (nicht verholzend), niedriger, kleinere Blätter, Außenkelch aus 3 SCHMALEN FREIEN Blättchen. Nur Malva sylvestris/neglecta sind HMPC-Drogen — bei Verwechslung kein Sicherheitsrisiko, aber die belegte Datenlage betrifft nur die Wilde Malve."
+    },
+    {
+      "name": "Stockrose / Bauern-Malve",
+      "scientific_name": "Alcea rosea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig, ebenfalls schleimhaltig (Schwarze Malvenblüte = Drogen-Verfälschung). Unterschied: sehr hohe, unverzweigte Blütenstände, Außenkelch mit 6–9 Zipfeln, Blätter meist weniger tief gelappt. Keine Gefahr."
+    },
+    {
+      "name": "Kleinblütige Malve",
+      "scientific_name": "Malva parviflora",
+      "toxicity_level": "giftig",
+      "toxin": "Nitrat-Anreicherung (Nitrat/Nitrit) — Weidetier-Toxizität; für den Menschen bei üblichem Verzehr nicht akut giftig",
+      "note": "Deutlich kleinere, blass-weißliche Blüten (<1 cm). In der Tierhaltung als Nitratsammler bekannt ('Malva-Staggers' bei Weidevieh). Für den Menschen kein akutes Risiko, aber: nicht die gleiche Verwendung, und ein Beleg dafür, dass 'Malve = harmlos' NICHT für jede Art der Gattung pauschal gilt. Feldunterschied über Blütengröße/-farbe und niederliegenden Wuchs."
+    },
+    {
+      "name": "keine relevante Verwechslung bekannt (lebensgefährlich)",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv geprüft: Unter den großblättrigen, malvenblütigen Zier- und Wildpflanzen (Malva, Alcea, Lavatera, Hibiscus) gibt es keinen lebensgefährlichen Doppelgänger der Baummalve. Die Kombination verholzende Basis + breiter verwachsener Außenkelch + samtige Lappenblätter ist eindeutig. Deshalb deadly_confusion=false."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (Polysaccharide) in Blatt und Blüte — wie bei anderen Malven demulzent wirksam",
+      "Anthocyane (Malvin-artige Farbstoffe) in den Blüten",
+      "Flavonoide",
+      "geringe Gerbstoffanteile"
+    ],
+    "lead_substance": "Schleimpolysaccharide — bilden einen reizmildernden Schutzfilm auf gereizten Schleimhäuten (demulzente Wirkung, in Analogie zur Wilden Malve); quantitative Gehaltsdaten speziell für Malva arborea sind spärlich — 'unsicher — zu prüfen'.",
+    "solubility_note": "Schleimstoffe sind wasserlöslich und hitzeempfindlich. Wie bei Wilder Malve und Eibisch daher KALTAUSZUG (Mazerat) bevorzugt; kochen zerstört den Schleim. Alkoholische Tinktur fällt den Schleim aus und ist für die reizmildernde Wirkung ungeeignet.",
+    "heat_light_sensitivity": "Schleim hitzeempfindlich → nicht kochen. Blüten-Anthocyane pH- und lichtempfindlich (Farbumschlag), pharmazeutisch nachrangig."
+  },
+  "pharmacology": {
+    "mechanism": "Rein physikalisch-demulzent: Schleimpolysaccharide legen sich als Film über gereizte Schleimhäute (Mund, Rachen, oberer Magen-Darm-Trakt) und dämpfen den Reiz. Keine systemische, antivirale oder ursächlich heilende Wirkung. Der Mechanismus wird aus dem Schleimgehalt und der Analogie zu Malva sylvestris abgeleitet — nicht aus eigenen Studien an Malva arborea.",
+    "evidence_caveat": "Für Malva arborea SELBST existiert KEINE HMPC-Monographie, keine ESCOP- und keine Kommission-E-Monographie. Die reizmildernde Anwendung ist rein traditionell/volksmedizinisch und mechanistisch plausibel, aber für diese Art nicht durch regulatorische Belege oder klinische Studien abgesichert. Der Evidenzgrad TRAD trägt diese Unsicherheit bewusst.",
+    "pharmacokinetics": "Schleimstoffe werden nicht resorbiert, sondern wirken lokal an der Schleimhaut und werden im Darm teils fermentiert."
+  },
+  "indications": [
+    {
+      "canonical": "Reizung der Mund- und Rachenschleimhaut mit trockenem Reizhusten (traditionell)",
+      "synonyms": [
+        "trockener Reizhusten",
+        "Halskratzen",
+        "wunder Hals",
+        "Heiserkeit",
+        "gereizter Rachen",
+        "Kratzen im Hals"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische, reizmildernde Verwendung der schleimhaltigen Blätter/Blüten — in Analogie zur Wilden Malve. WICHTIG: Für Malva arborea gibt es KEINE HMPC-/ESCOP-/Kommission-E-Monographie; nur Malva sylvestris/neglecta sind als 'traditional use' geführt. Deshalb TRAD, nicht TU.",
+      "realistic_expectation": "Kann als Kaltauszug/Tee das Kratzen und den trockenen Reizhusten symptomatisch lindern (Schleimfilm). Beseitigt keine Infektion, verkürzt keinen Krankheitsverlauf, mild und kurz wirkend. Wer die belegte Droge will, sollte die Wilde Malve (Malva sylvestris) verwenden.",
+      "source": "Volksmedizin/traditionelle Anwendung; Analogieschluss zu HMPC-Monographie Malva sylvestris (folium/flos)"
+    },
+    {
+      "canonical": "Leichte äußerliche/enorale Reizzustände (traditionell, Umschlag/Spülung)",
+      "synonyms": [
+        "wunde Haut",
+        "gereizte Mundschleimhaut",
+        "leichte Hautreizung",
+        "Spülung bei wundem Mund"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionell als reizmildernder Umschlag oder Mund-/Rachenspülung; Datenlage für diese Art nicht belastbar.",
+      "realistic_expectation": "Allenfalls milde, lokale Reizlinderung. Kein Ersatz für ärztliche Behandlung entzündlicher oder nässender Hautbefunde. 'unsicher — zu prüfen' hinsichtlich Wirkstärke.",
+      "source": "Volksmedizin/traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, gut verträgliches Reizlinderungsmittel (Demulzens) durch Schleimstoffe — vergleichbar der Wilden Malve, aber ohne deren regulatorische Absicherung. Angenehm als Kaltauszug bei trockenem Reizhusten und Halskratzen.",
+    "overstated": "Keine Heilwirkung gegen Infekte, kein Immun-, Entgiftungs- oder 'Blutreinigungs'-Effekt. Die Baummalve ist NICHT die Arzneidroge — populäre 'Malven'-Werbung bezieht sich auf Malva sylvestris. Für Malva arborea fehlen belastbare Daten; die schöne Blütenfarbe ist kein Wirkmaß.",
+    "effect_size": "mild; rein symptomatisch, lokal reizmildernd; Evidenz nur traditionell"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Kaltauszug (Mazerat) aus Blättern und/oder Blüten",
+      "Tee (kurz, nicht kochend übergießen)",
+      "Gurgel-/Spüllösung für den Rachen"
+    ],
+    "form_rationale": "Da die wirksamen Schleimstoffe hitzeempfindlich sind, konserviert der Kaltauszug sie am besten (ca. 1–2 g Droge auf 150 ml kaltes Wasser, 1–2 h ziehen, umrühren, abseihen, leicht erwärmen). Alkoholische Tinktur ist ungeeignet, weil sie den Schleim ausfällt.",
+    "standard_dose": "Keine offizielle Dosierung für diese Art. Praktisch analog Wilde Malve: mehrmals täglich 1 Tasse Kaltauszug; Tagesmenge Droge grob ca. 5 g. 'unsicher — zu prüfen'. Bei Beschwerden über 1 Woche ärztlich abklären.",
+    "preservation": "Getrocknete Droge trocken, licht- und luftgeschützt lagern; Kaltauszug frisch zubereiten und nicht aufbewahren (mikrobiell anfällig)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Malvengewächse (selten)"
+    ],
+    "pregnancy_lactation": "Als Lebensmittel/Tee in üblichen Mengen unbedenklich; für die arzneiliche Anwendung dieser Art liegen keine spezifischen Studiendaten vor. Mangels Daten formal Zurückhaltung, praktisch risikoarm. 'unsicher — zu prüfen' für hohe arzneiliche Dosen.",
+    "adverse_effects": "Sehr selten allergische Reaktionen. Der Schleimfilm kann theoretisch die Aufnahme gleichzeitig eingenommener Arzneimittel verzögern (siehe interactions).",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Schleimfilm auf der Darmschleimhaut kann die Resorption zeitgleich eingenommener Arzneistoffe verzögern/vermindern",
+        "affected": "oral eingenommene Arzneimittel allgemein (theoretisch, klinisch geringfügig)",
+        "clinical_relevance": "gering — vorsorglich zeitlicher Abstand von 30–60 min zu anderen Medikamenten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Ungiftige, milde Schleimpflanze — aber NICHT die offizinelle Malve: für Malva arborea gibt es keine HMPC/ESCOP-Belege, die Anwendung ist rein traditionell (wer die belegte Droge will, nimmt Malva sylvestris). Schleim als Kaltauszug zubereiten, Hitze zerstört ihn."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter und Blüten während der Blütezeit (Mai–August), an trockenen Tagen",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Blüte und Blatt",
+    "method": "Blüten einzeln pflücken, junge Blätter abzupfen; schonend, da schleimhaltig",
+    "processing": "Rasch und luftig bei ≤40 °C trocknen (Hitze und langes Liegen mindern Schleimqualität und Blütenfarbe)",
+    "storage": "Trocken, dunkel, luftdicht; innerhalb eines Jahres verbrauchen"
+  },
+  "kitchen": {
+    "uses": [
+      "Junge Blätter als mildes, schleimig-bindendes Kochgemüse oder roh in Salat (wie andere Malven)",
+      "Blüten essbar, als essbare Dekoration"
+    ],
+    "culinary_vs_medicinal": "Küchen- und Teemenge sind gleichermaßen unbedenklich; die Grenze ist fließend. Der (traditionelle) medizinische Nutzen liegt in der reizmildernden Schleimwirkung des Kaltauszugs."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, leicht, durchlässig, mäßig nährstoffreich; salztolerant; windgeschützt in frostgefährdeten Lagen",
+    "hardiness": "Frostempfindlich — wird von starkem Frost getötet, verträgt etwa bis −10 bis −12 °C; in kalten Regionen eher zweijährig/kurzlebig zu kultivieren",
+    "propagation": "Aussaat im Frühjahr; versamt sich an milden Standorten selbst",
+    "bodensee_suitability": "Nur bedingt geeignet — im Bodenseeraum nicht sicher winterhart, in strengen Wintern erfriert sie. Als kurzlebige Zierpflanze mit Winterschutz möglich, keine zuverlässige Freiland-Dauerkultur."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Strauchig-verholzender Wuchs bis 2 m",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Breiter, am Grund verwachsener 3-teiliger Außenkelch (Lavatera-Typ) unter der purpurnen, dunkel geaderten Blüte",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Plants of the World Online (POWO/Kew): Malva arborea (L.) Webb & Berthel. — akzeptierter Name, Synonym Lavatera arborea L.",
+    "RHS / North Carolina Extension Gardener Plant Toolbox / first-nature.com: Morphologie, Wuchshöhe, Blüten, Frosthärte",
+    "HMPC European Union herbal monograph on Malva sylvestris L. and/or Malva neglecta Wallr., folium; Malva sylvestris L., flos (Analogie — betrifft NICHT Malva arborea)",
+    "Sekundärquellen zu Malven allgemein (Schleimchemie, Zubereitung); Hinweis Malva parviflora Nitrat-Anreicherung: gartenjournal.net u. a.",
+    "PRIMÄRQUELLEN-HINWEIS: EMA/HMPC-Seiten und Kew-POWO waren per WebFetch nicht direkt erreichbar (HTTP 403); Angaben aus Sekundär-/Suchquellen. Für Malva arborea existiert KEINE eigene HMPC/ESCOP/Kommission-E-Monographie — ärztliche Gegenprüfung des Evidenzgrads (TRAD) empfohlen."
+  ]
+}
