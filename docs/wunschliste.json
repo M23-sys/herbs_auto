@@ -1,47 +1,12 @@
 {
   "hinweis": "Wird von der Herbarium-App geschrieben. Die Routine liest sie und arbeitet sie VOR der Kandidatenliste ab.",
-  "stand": "2026-07-17",
-  "anzahl": 6,
+  "stand": "2026-07-18",
+  "anzahl": 1,
   "kandidaten": [
     {
-      "id": "rudbeckia-fulgida",
-      "common": "Black eyed Susan",
-      "latin": "Rudbeckia fulgida",
-      "region": "Bodensee",
-      "quelle": "Merkposten"
-    },
-    {
-      "id": "malva-sylvestris",
-      "common": "Common mallow",
-      "latin": "Malva sylvestris",
-      "region": "Bodensee",
-      "quelle": "Merkposten"
-    },
-    {
-      "id": "achillea-nobilis",
-      "common": "Noble yarrow",
-      "latin": "Achillea nobilis",
-      "region": "Bodensee",
-      "quelle": "Merkposten"
-    },
-    {
-      "id": "nepeta-cataria",
-      "common": "Catnip",
-      "latin": "Nepeta cataria",
-      "region": "Bodensee",
-      "quelle": "Merkposten"
-    },
-    {
-      "id": "malva-arborea",
-      "common": "Tree mallow",
-      "latin": "Malva arborea",
-      "region": "Bodensee",
-      "quelle": "Merkposten"
-    },
-    {
-      "id": "erigeron-strigosus",
-      "common": "Common eastern fleabane",
-      "latin": "Erigeron strigosus",
+      "id": "cornus-sanguinea",
+      "common": "Common dogwood",
+      "latin": "Cornus sanguinea",
       "region": "Bodensee",
       "quelle": "Merkposten"
     }
