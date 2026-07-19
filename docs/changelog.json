@@ -319,6 +319,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat tier 2). HMPC-Monographie (herba, 2020) fuehrt Mutterkraut als TRADITIONAL USE zur MIGRAENE-PROPHYLAXE (kein Akutmittel), nachdem ein Arzt ernste Ursachen ausgeschlossen hat; ESCOP-gestuetzt, Cochrane 2015 aber INKONSISTENT (nur MIG-99-Extrakt klar wirksam) → getaggt TU/ESCOP+ mit ausdruecklichem Evidenzvorbehalt. Sicherheitskern: in der Schwangerschaft wegen wehenausloesend/abortiver Wirkung STRENG kontraindiziert (pregnancy_contraindicated=true; daher der Name 'Mutterkraut'); frische Blaetter → Mundgeschwuere; 'Post-Feverfew-Syndrom' beim abrupten Absetzen; Thrombozytenhemmung (Blutungsrisiko mit Antikoagulanzien). Verwechslung mit giftigem Rainfarn (gleiche Gattung, Thujon) und harmloser Kamille — Unterscheidung ueber flachen, innen hohlen Bluetenboden und bitteren Geruch; deadly_confusion=false."
+    },
+    {
+      "ts": "2026-07-19T18:30:00Z",
+      "id": "colchicum-autumnale",
+      "common": "Herbstzeitlose",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Hochgiftig durch Colchicin (Mitosegift, Tubulinbindung); Letaldosis Erwachsener ~20 mg, wenige Blaetter bzw. 50-60 g Blattsalat potenziell toedlich, Einzelfaelle schon nach EINEM Blatt, kein Antidot. Tueckisch: Symptomlatenz 2-6 h, dann GI-Sturm, danach symptomarmes Intervall vor Multiorganversagen. Toxin HITZESTABIL — Kochen/Trocknen entgiftet nicht. Kern ist die Erkennung: haeufigste toedliche Baerlauch-Fruehjahrsverwechslung (Herbstzeitlose ungestielt aus Rosette, beidseits glaenzend, geruchlos vs. Baerlauch gestielt/matt/Knoblauch). Zusaetzlich Blueten-Verwechslung mit Safran-Krokus (6 vs. 3 Staubblaetter). pregnancy_contraindicated=true. EMA/HMPC- und ESCOP-Primaerquellen im Lauf nicht erreichbar (WebFetch 403) — tox. Angaben aus Sekundaerquellen, aerztlich gegenzupruefen."
+    },
+    {
+      "ts": "2026-07-19T18:31:00Z",
+      "id": "convallaria-majalis",
+      "common": "Maiglöckchen",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Alle Pflanzenteile (auch Beeren und Vasenwasser) giftig durch herzwirksame Cardenolide (v. a. Convallatoxin, Na+/K+-ATPase-Hemmung, Digitalis-aehnlich). WICHTIGE EINORDNUNG: wegen GERINGER oraler Bioverfuegbarkeit verlaufen Verzehr-Vergiftungen beim Menschen meist gastrointestinal-mild, schwere kardiale Verlaeufe (Bradykardie/AV-Block bis Herzstillstand) selten, aber moeglich — daher in den Konfusionen 'giftig', nicht 'lebensgefaehrlich'. deadly_confusion=true gesetzt, weil die Fruehjahrsblaetter im selben Verwechslungskomplex wie die LEBENSGEFAEHRLICHE Herbstzeitlose stehen (beide Baerlauch-Doppelgaenger). Merkmal: zwei Blaetter an gemeinsamem Staengel, Unterseite glaenzend, geruchlos. Pharmakodynamische Additivitaet mit Herzglykosiden/Diuretika bei Aufnahme. Primaerquellen (HMPC/ESCOP) nicht erreichbar — aerztlich gegenzupruefen."
     }
   ]
 }

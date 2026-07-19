@@ -401,8 +401,8 @@
       "latin": "Colchicum autumnale",
       "tier": 3,
       "reason": "WARNEINTRAG — Colchicin, Bärlauch-Doppelgänger",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-herbstzeitlose.json"
     },
     {
       "id": "convallaria-majalis",
@@ -410,8 +410,8 @@
       "latin": "Convallaria majalis",
       "tier": 3,
       "reason": "WARNEINTRAG — Herzglykoside, Bärlauch-Doppelgänger",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-maigloeckchen.json"
     },
     {
       "id": "conium-maculatum",

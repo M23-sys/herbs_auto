@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "id": "colchicum-autumnale",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Colchicum autumnale L.",
+    "common_names_de": [
+      "Herbstzeitlose",
+      "Wiesen-Safran",
+      "Nackte Jungfer",
+      "Giftkrokus"
+    ],
+    "family": "Colchicaceae (Zeitlosengewächse)",
+    "drug_part": [
+      "ganze Pflanze (alle Teile giftig, v. a. Samen und Knolle)"
+    ],
+    "drug_name_latin": "Colchici semen / Colchici tuber (historische Giftdroge, keine Selbstanwendung)",
+    "synonyms": [
+      "Colchicum commune Neck.",
+      "Bulbocodium autumnale (L.) Lapeyr.",
+      "Colchicum vernale Hoffm."
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Blätter ungestielt, entspringen büschelig direkt aus dem Boden aus einer Rosette und sind am Grund von einer Scheide umschlossen (kein eigener Blattstiel wie beim Bärlauch)",
+      "Blätter beidseitig glänzend, derb, beim Zerreiben geruchlos (kein Knoblauchgeruch)",
+      "Blätter breit-lanzettlich, bis ~40 cm lang, parallelnervig, mehrere dicht zusammenstehend",
+      "Im Frühjahr nur Laub (mit Fruchtkapsel in der Blattmitte); Blüte erst im Herbst (August–Oktober), krokusähnlich rosa-violett und dann ganz ohne Laubblätter",
+      "Wuchsort feuchte Wiesen, Auwiesen, lichte Wälder — nicht der typische Bärlauch-Auwald-Bestand"
+    ],
+    "season": "Blätter Frühjahr (März–Mai); Blüte August–Oktober (blattlos)",
+    "habitat": "Feuchte, nährstoffreiche Wiesen, Auwiesen und lichte Laubwälder; in Voralpen/Bodenseeraum häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nicht zum Verzehr sammeln — hochgiftig, keine sichere Zubereitung",
+      "Beim Bärlauchsammeln jedes einzelne Blatt prüfen: Herbstzeitlose ist ungestielt aus einer Rosette, beidseits glänzend und geruchlos",
+      "Der Geruchstest ist nur am ersten unberührten Blatt gültig (Finger kontaminieren danach mit Knoblauchgeruch)",
+      "Im geringsten Zweifel stehen lassen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Bärlauch",
+      "scientific_name": "Allium ursinum",
+      "toxicity_level": "essbar",
+      "note": "Bärlauch: jedes Blatt einzeln GESTIELT, Unterseite matt, intensiver Knoblauchgeruch. Herbstzeitlose: ungestielt aus Rosette, beidseits glänzend, geruchlos. Häufigste tödliche Frühjahrs-Verwechslung."
+    },
+    {
+      "name": "Safran-Krokus",
+      "scientific_name": "Crocus sativus",
+      "toxicity_level": "essbar",
+      "note": "Die im Herbst blattlos erscheinende Blüte der Herbstzeitlose ähnelt dem Safrankrokus. Unterscheidung: Herbstzeitlose hat 6 Staubblätter und einen weit aus der Knolle reichenden Griffel; Safran-Krokus nur 3 Staubblätter. Verwechslung der Narben kann tödlich sein."
+    },
+    {
+      "name": "Maiglöckchen",
+      "scientific_name": "Convallaria majalis",
+      "toxicity_level": "giftig",
+      "toxin": "herzwirksame Cardenolide (Convallatoxin)",
+      "note": "Ebenfalls giftiger Bärlauch-Doppelgänger; Maiglöckchen hat meist zwei Blätter an gemeinsamem Stängel. Beide sind keine Nahrungspflanzen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Tropolon-Alkaloide (Colchicin, Demecolcin u. a.)"
+    ],
+    "lead_substance": "Colchicin — Mitosegift (bindet an Tubulin, blockiert Mikrotubuli-/Spindelbildung und damit die Zellteilung)",
+    "solubility_note": "Colchicin ist wasser- und alkohollöslich und hitzestabil — Kochen, Trocknen oder Tee-Aufguss entgiften NICHT. Es gibt keine sichere Zubereitung.",
+    "heat_light_sensitivity": "hitzestabil — Erhitzen zerstört das Toxin nicht"
+  },
+  "pharmacology": {
+    "mechanism": "Colchicin hemmt über Tubulinbindung den Spindelapparat und trifft rasch teilende Gewebe (Darmepithel, Knochenmark). Reines Colchicin ist als exakt dosiertes Arzneimittel (z. B. Gicht) etabliert — die Pflanze selbst ist dafür ungeeignet und lebensgefährlich.",
+    "evidence_caveat": "Keine Selbstanwendung der Pflanze — jede orale Aufnahme ist eine Vergiftung. Angaben zur Letaldosis streuen stark, weil der Colchicingehalt zwischen Pflanzenteilen und Jahreszeit erheblich schwankt.",
+    "pharmacokinetics": "Colchicin unterliegt einem enterohepatischen Kreislauf mit langer Wirkdauer und Gewebeanreicherung; die stundenlange Symptomlatenz täuscht anfangs Harmlosigkeit vor."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "'Nur ein bisschen probiert ist harmlos' ist falsch: bereits ein einzelnes Blatt bzw. wenige Gramm können tödlich sein, und die Symptome beginnen erst nach Stunden.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Colchicin ist hitzestabil und wasser-/alkohollöslich; weder Kochen noch Trocknen noch Tinktur machen die Pflanze sicher. Jede Aufnahme ist eine Vergiftung.",
+    "standard_dose": "keine — nicht anwenden",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Colchicin: Letaldosis eines Erwachsenen ca. 20 mg (Größenordnung ~0,8 mg/kg); wenige Blätter bzw. ein 'Blattsalat' aus 50–60 g potenziell tödlich, Einzelberichte schon nach einem Blatt. Blattgehalt ca. 0,07–2 %, Samen ~0,3–0,5 %. Kein spezifisches Antidot; nur intensivmedizinische Supportivtherapie.",
+    "contraindications": [
+      "Nicht zum Verzehr — für alle Personen giftig",
+      "Keine Selbstmedikation mit der Pflanze"
+    ],
+    "pregnancy_lactation": "Strikt meiden. Colchicin ist mitosehemmend, plazentagängig und potenziell teratogen/abortiv.",
+    "adverse_effects": "Vergiftungsverlauf: Latenz 2–6 h, dann Brennen/Kratzen in Mund und Rachen, Schluckbeschwerden, heftiges Erbrechen, (blutige) Durchfälle und Bauchkrämpfe; nach einem oft symptomärmeren Intervall (1–3 Tage) drohen Kreislaufschock, Knochenmarkdepression, Nieren-/Leberversagen und aufsteigende Lähmung. Hohe Letalität.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine therapeutische Anwendung der Pflanze; jede Aufnahme ist eine Vergiftung, nicht eine dosierte Arzneigabe.",
+        "affected": "—",
+        "clinical_relevance": "—"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Hochgiftig (Colchicin) — schon ein einzelnes Blatt kann tödlich sein, Symptome beginnen erst nach Stunden, es gibt kein Gegengift. Häufigste tödliche Bärlauch-Verwechslung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Selbstarznei. Gefährlichste Verwechslung betrifft die Frühjahrsblätter mit Bärlauch."
+  },
+  "garden": {
+    "site_soil": "feuchte Wiesen, humos, Halbschatten bis sonnig",
+    "hardiness": "winterhart, Knollen-Geophyt",
+    "propagation": "Selbstaussaat und Knollen — breitet sich in Feuchtwiesen aus",
+    "bodensee_suitability": "Wild in Feuchtwiesen der Region verbreitet. Als Zierpflanze wegen Giftigkeit und Verwechslungsgefahr kritisch — niemals in der Nähe von Bärlauch-Beständen ansiedeln."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Ungestielte Frühjahrsblätter aus Rosette mit Scheide am Grund",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Blattlose herbstliche Blüte (krokusähnlich, rosa-violett)",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "BfR / Giftinformationszentren (Bärlauch-Verwechslungsvergiftungen, Häufung Frühjahr; Geruchstest-Empfehlung)",
+    "CliniTox / Vetpharm Universität Zürich (Colchicum autumnale, Colchicin-Toxikologie)",
+    "PTA-Forum / Astrea-Bulletin (Colchicin: Wirkmechanismus, Letaldosis, Symptomverlauf)",
+    "Kew Plants of the World Online / GBIF (akzeptierte Taxonomie, Familie Colchicaceae, Synonyme)",
+    "Hinweis: EMA/HMPC- und ESCOP-Primärquellen im Lauf nicht erreichbar (WebFetch 403) — toxikologische Angaben aus Sekundärquellen, ärztliche Gegenprüfung nötig"
+  ]
+}

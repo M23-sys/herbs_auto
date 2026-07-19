@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "id": "convallaria-majalis",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Convallaria majalis L.",
+    "common_names_de": [
+      "Maiglöckchen",
+      "Maiblume",
+      "Maieriesli",
+      "Zauke"
+    ],
+    "family": "Asparagaceae (Spargelgewächse; früher Convallariaceae/Liliaceae)",
+    "drug_part": [
+      "ganze Pflanze (alle Teile giftig — Blätter, Blüten, Beeren, auch das Vasenwasser)"
+    ],
+    "drug_name_latin": "Convallariae herba (historische Herzdroge, heute obsolet, keine Selbstanwendung)",
+    "synonym_note": "früher zu Liliaceae bzw. Convallariaceae gestellt, heute Asparagaceae",
+    "synonyms": [
+      "Convallaria bracteata Dulac",
+      "Convallaria fragrans Salisb.",
+      "Convallaria latifolia Mill.",
+      "Convallaria linnaei Gaertn."
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Meist zwei (selten drei) große Blätter, die an einem GEMEINSAMEN Stängel sitzen und ihn am Grund scheidig umfassen (kein einzeln gestieltes Blatt wie beim Bärlauch)",
+      "Blattunterseite glänzend, beim Zerreiben geruchlos (kein Knoblauchgeruch)",
+      "Blätter breit-elliptisch, parallelnervig, dunkelgrün und derb",
+      "Blüte im Mai: einseitswendige Traube weißer, stark duftender Glöckchen; später rote, giftige Beeren",
+      "Wuchsort lichte Laub-/Mischwälder und Gebüsch; tritt oft etwas später aus als Bärlauch"
+    ],
+    "season": "Blätter April–Mai; Blüte Mai; rote Beeren Juli–September",
+    "habitat": "Lichte Laub- und Mischwälder, Waldränder, Gebüsche; oft auf kalkhaltigem Boden; im Bodenseeraum/Voralpen verbreitet",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nicht zum Verzehr sammeln — alle Pflanzenteile sind giftig",
+      "Beim Bärlauchsammeln jedes Blatt prüfen: Maiglöckchen hat zwei Blätter an einem gemeinsamen Stängel, glänzende Unterseite und keinen Knoblauchgeruch",
+      "Geruchstest nur am ersten, unberührten Blatt gültig",
+      "Rote Beeren nicht sammeln (Kinder-/Haustiergefahr)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Bärlauch",
+      "scientific_name": "Allium ursinum",
+      "toxicity_level": "essbar",
+      "note": "Bärlauch: jedes Blatt einzeln GESTIELT, Unterseite matt, deutlicher Knoblauchgeruch. Maiglöckchen: zwei Blätter an gemeinsamem umfassten Stängel, Unterseite glänzend, geruchlos. Klassische Frühjahrs-Verwechslung."
+    },
+    {
+      "name": "Herbstzeitlose",
+      "scientific_name": "Colchicum autumnale",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Colchicin",
+      "note": "Weiterer giftiger Bärlauch-Doppelgänger; Herbstzeitlose ist ungestielt aus einer Rosette und beidseits glänzend. Kein Nahrungsmittel — nur zur Abgrenzung genannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "herzwirksame Cardenolide (Convallatoxin, Convallosid, Convallatoxol u. a., insgesamt >30 Glykoside)",
+      "Steroidsaponine",
+      "Flavonoide"
+    ],
+    "lead_substance": "Convallatoxin — hemmt die Na+/K+-ATPase am Herzmuskel (Digitalis-ähnlich, positiv inotrop)",
+    "solubility_note": "Cardenolide sind wasserlöslich und hitzestabil — Kochen, Trocknen oder Aufguss entgiften nicht; auch das Blüten-/Vasenwasser ist giftig. Die orale Bioverfügbarkeit ist gering, was den Verlauf oft mildert, die Gefahr aber nicht aufhebt.",
+    "heat_light_sensitivity": "Glykoside hitzestabil"
+  },
+  "pharmacology": {
+    "mechanism": "Cardenolide hemmen die Na+/K+-ATPase, erhöhen intrazelluläres Calcium und wirken positiv inotrop sowie negativ dromotrop (Digitalis-ähnliche Herzwirkung). Historisch als Herzmittel verwendet, heute wegen schlechter Steuerbarkeit und enger therapeutischer Breite obsolet.",
+    "evidence_caveat": "Keine Selbstanwendung — aus der Pflanze lässt sich keine sichere Dosis gewinnen. Als Warneintrag geführt; die frühere Herzdroge ist verlassen.",
+    "pharmacokinetics": "Die Cardenolide werden oral schlecht resorbiert; schwere Vergiftungen durch Blattverzehr beim Menschen sind daher selten, aber möglich."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "'Herzstärkendes Hausmittel' — die enge therapeutische Breite macht jede Selbstdosierung gefährlich; alle Pflanzenteile (auch Beeren, Blüten und das Vasenwasser) sind giftig.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Herzwirksame Glykoside sind hitzestabil und aus der Pflanze nicht sicher dosierbar; es gibt keine sichere Selbstzubereitung.",
+    "standard_dose": "keine — nicht anwenden",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Alle Pflanzenteile giftig (herzwirksame Cardenolide). Wegen geringer oraler Bioverfügbarkeit verlaufen die meisten Aufnahmen beim Menschen gastrointestinal-mild; potenziell lebensbedrohliche Herzrhythmusstörungen sind jedoch möglich. Keine sichere Verzehrmenge.",
+    "contraindications": [
+      "Nicht zum Verzehr — für alle Personen giftig",
+      "Keine Selbstmedikation mit der Pflanze"
+    ],
+    "pregnancy_lactation": "Strikt meiden.",
+    "adverse_effects": "Übelkeit, Erbrechen, Durchfall und Bauchschmerzen; kardial Bradykardie, AV-Überleitungsstörungen bis zu Herzrhythmusstörungen, in schweren Fällen Herzstillstand. Verlauf beim Menschen meist gastrointestinal und mild, schwere kardiale Verläufe selten.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Cardenolide wirken additiv zu herzwirksamen Glykosiden und verstärken Wirkung/Toxizität; eine Hypokaliämie (z. B. durch Diuretika) erhöht die Empfindlichkeit des Herzens.",
+        "affected": "Herzglykoside (Digoxin/Digitoxin), kaliumsenkende Diuretika",
+        "clinical_relevance": "relevant bei Aufnahme"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Alle Pflanzenteile giftig (herzwirksame Glykoside). Bärlauch-Doppelgänger — Verwechslungsvergiftungen sind selten, aber Herzrhythmusstörungen möglich. Nicht verzehren."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel; klassischer giftiger Bärlauch-Doppelgänger im Frühjahr."
+  },
+  "garden": {
+    "site_soil": "humoser, frischer Boden, Halbschatten bis Schatten",
+    "hardiness": "winterhart, Rhizom-Geophyt",
+    "propagation": "über Rhizomausläufer, breitet sich flächig aus",
+    "bodensee_suitability": "Regional wild in Wäldern; beliebte, duftende Zierstaude. Wegen Giftigkeit nie neben oder als Bärlauch verwenden; rote Beeren sind für Kinder und Haustiere gefährlich."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Zwei Blätter an gemeinsamem Stängel, glänzende Unterseite",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Blühende Pflanze mit einseitswendiger Traube weißer Glöckchen",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "BfR / Giftinformationszentren (Bärlauch-Verwechslung, Häufigkeit)",
+    "CliniTox / Vetpharm Universität Zürich (Convallaria majalis, Cardenolid-Toxikologie)",
+    "PharmaWiki / AWL Arzneipflanzenlexikon (Convallatoxin, Wirkmechanismus, historische Herzdroge)",
+    "Toxikologie.de (Convallatoxin, Vergiftungssymptome)",
+    "Kew Plants of the World Online / GBIF (akzeptierte Taxonomie, Familie Asparagaceae, Synonyme)",
+    "Hinweis: EMA/HMPC- und ESCOP-Primärquellen im Lauf nicht erreichbar (WebFetch 403) — toxikologische Angaben aus Sekundärquellen, ärztliche Gegenprüfung nötig"
+  ]
+}
