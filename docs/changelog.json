@@ -271,6 +271,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat tier 2). WICHTIG: KEINE HMPC-Monographie fuer Angelica archangelica (bislang nicht bewertet) — Evidenz daher als ESCOP+ (Kommission E positiv + ESCOP) getaggt, NICHT WEU/TU. Aromatisches Bittermittel bei dyspeptischen Beschwerden/Appetitlosigkeit. Sicherheitskritisch: Doldenbluetler mit LEBENSGEFAEHRLICHEN Doppelgaengern (Wasserschierling Cicuta virosa, Gefleckter Schierling Conium maculatum) -> deadly_confusion=true; Saft phototoxisch (Furocumarine)."
+    },
+    {
+      "ts": "2026-07-19T09:00:00Z",
+      "id": "cornus-sanguinea",
+      "common": "Blutroter Hartriegel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste, Fundort Bodensee). WICHTIG: keine Heilpflanze im engeren Sinn — KEINE HMPC/ESCOP/Kommission-E-Monographie, keine klinische Evidenz; einzige Indikation nur TRAD (adstringierende Rinde/Blaetter, historisch). Sicherheitskern: rohe schwarze Fruechte schwach giftig/brechreizausloesend (raw_toxicity, requires_heating) -> erst gekocht kuechentauglich. Verwechslung mit essbarer Kornelkirsche (rot) sowie giftigem Liguster/Faulbaum (schwarze Beeren)."
+    },
+    {
+      "ts": "2026-07-19T09:05:00Z",
+      "id": "aegopodium-podagraria",
+      "common": "Giersch",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). Populaerer Ruf als 'Gicht-/Podagrakraut' ist NICHT evidenzgestuetzt: KEINE HMPC/ESCOP, Kommission E fuehrt nicht einmal eine (negative) Monographie -> Indikationen nur TRAD. Nutzwert liegt im Wildgemuese (sehr hoher Vitamin-C-Gehalt). Sicherheitskritisch: Doldenbluetler mit LEBENSGEFAEHRLICHEN Doppelgaengern (Gefleckter/Wasser-Schierling) -> deadly_confusion=true, apiaceae_confusion_young=true; Bestimmung ueber 3-3-3-Regel (dreikantiger Blattstiel) und Moehrengeruch."
     }
   ]
 }

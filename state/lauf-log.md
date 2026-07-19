@@ -626,3 +626,25 @@ Damit ist die Wunschliste nach diesem Lauf vollstaendig abgearbeitet (Abhaken ma
 - **Echte Engelwurz — KEIN HMPC-Status, bewusst NICHT als TU getaggt.** Häufiges Missverständnis: viele Quellen sprechen von "traditioneller Anwendung". TU ist aber ein HMPC-Registrierungsgrad — und Angelica archangelica hat KEINE HMPC-Monographie (im Gegensatz zu Angelica sinensis). Ich habe die Verdauungsindikation daher `ESCOP+` getaggt (Kommission E positiv + ESCOP-Monographie), Bronchitis nur `TRAD`. Bitte prüfen, ob der Katalog diese Abgrenzung (ESCOP+ statt TU) so tragen soll.
 - **Echte Engelwurz — lebensgefährliche Doldenblütler-Doppelgänger.** `deadly_confusion=true` (Wasserschierling Cicuta virosa/Cicutoxin, Gefleckter Schierling Conium maculatum/Coniin), zusätzlich Riesen-Bärenklau und Hundspetersilie. Der süßliche Likörruf (Angelika im Magenbitter) verharmlost die Pflanze — der sicherste Bestimmungsanker ist der kräftig süßlich-aromatische Geruch der ganzen Pflanze. `key_warning` entsprechend scharf.
 - **Echte Engelwurz — Phototoxizität + Schwangerschaft.** `photosensitizing=true` (Furanocumarine: Bergapten/Xanthotoxin/Imperatorin — Wiesendermatitis bei Saftkontakt und Sonne). Schwangerschaft: `pregnancy_contraindicated=true` gesetzt, aber Datenlage dünn (traditionell emmenagoger Ruf) — in `pregnancy_lactation` ausdrücklich als "unsicher — zu prüfen" markiert. Furanocumarin-CYP3A4- und Antikoagulanzien-Interaktion nur `theoretisch/gering` (klinisch nicht belegt); der übliche "Cumarin = Blutverdünner"-Irrtum wie beim Waldmeister klargestellt.
+
+## 2026-07-19 — Blutroter Hartriegel, Giersch
+
+**Bearbeitet:**
+- cornus-sanguinea (Blutroter Hartriegel) — **Quelle: Wunschliste** (`docs/wunschliste.json`, Fundort Bodensee, einziger offener Wunsch).
+- aegopodium-podagraria (Giersch) — **Quelle: Kandidatenliste**, erster offener Eintrag tier 2. Status → `entwurf_fertig`.
+
+**Dedup:** Beide neu — kein Treffer gegen `id`/`botany.synonyms` in `fertig/` noch gegen `vorhanden`.
+
+**Prüfergebnis:** Beide `✓ ok, mit Hinweisen` (0 Fehler, 0 Korrekturversuche). Einziger Hinweis jeweils: enthält bewusst gesetztes „unsicher — zu prüfen".
+
+**Hauptquellen:** WebSearch-Recherche (WebFetch lieferte bei den meisten Fachseiten HTTP 403). Botanische Bestimmungsquellen (baumkunde.de, InfoFlora, pflanzen-deutschland.de), NABU/Wildkräuterseiten, Giftpflanzenhinweise.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+1. **Beide Pflanzen haben KEINE regulatorische Monographie** — weder HMPC/EMA noch ESCOP; Giersch nicht einmal eine (negative) Kommission-E-Monographie (Art galt als zu unbedeutend). Alle Indikationen daher bewusst nur **TRAD**. Das ist kein Recherchemangel, sondern der Befund selbst. Primärquellen konnten nicht erreicht werden (403) — Evidenzgrad TRAD ist aber durch das Fehlen jeder Monographie eindeutig; keine WEU/TU-Hochstufung gerechtfertigt.
+
+2. **Blutroter Hartriegel ist faktisch keine Heilpflanze.** Der Wunschlisten-Eintrag ist eher ein Hecken-/Wildfruchtstrauch. Sicherheitskern statt Heilanspruch: **rohe schwarze Früchte sind schwach giftig/brechreizauslösend** (v. a. bei Kindern), erst gekocht küchentauglich (Flags `raw_toxicity`, `requires_heating`). Verwechslung mit essbarer Kornelkirsche (ROTE Früchte) sowie mit giftigem Liguster/Faulbaum (schwarze Beeren) beschrieben. `deadly_confusion=false` (kein lebensgefährlicher Doppelgänger).
+
+3. **Giersch — populärer „Gicht-Heiler"-Ruf überzeichnet die Datenlage** deutlich (in `expectation_summary.overstated` benannt). Realer Nutzen: nährstoffreiches Wildgemüse. **Eigentliche Gefahr = Doldenblütler-Verwechslung** beim Ernten der jungen Blätter vor der Blüte: Gefleckter/Wasser-Schierling (lebensgefährlich) → `deadly_confusion=true`, `apiaceae_confusion_young=true`. Bestimmung strikt über 3-3-3-Regel (dreikantiger Blattstiel) + Möhrengeruch.
+
+4. **Neues Flag-Paar** `raw_toxicity`/`requires_heating` beim Hartriegel genutzt (beide in `KNOWN_FLAGS` des Prüfskripts) — der Arzt möge prüfen, ob die App diese Register wie erwartet anzeigt.

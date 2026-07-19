@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "id": "cornus-sanguinea",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Cornus sanguinea L.",
+    "common_names_de": ["Blutroter Hartriegel", "Roter Hartriegel", "Roter Hornstrauch", "Hartriegel"],
+    "family": "Hartriegelgewächse (Cornaceae)",
+    "drug_part": ["Rinde", "Blätter (traditionell)", "Frucht (nur gekocht küchentauglich)"],
+    "drug_name_latin": "Corni sanguineae cortex/folium",
+    "synonyms": ["Swida sanguinea", "Thelycrania sanguinea"]
+  },
+  "identification": {
+    "key_features": [
+      "Sommergrüner Strauch (2–5 m) mit im Winter und an der Sonnenseite blutrot überlaufenen Zweigen (namensgebend).",
+      "Gegenständige, ovale, 4–10 cm lange Blätter mit auffallend bogig zur Blattspitze verlaufenden Nerven; beim vorsichtigen Zerreißen des Blattes ziehen sich die Leitbündel zu feinen, elastischen 'Spinnwebfäden' aus — sehr charakteristisch für Hartriegel.",
+      "Weiße, flache Trugdolden (Schirmrispen) im Mai/Juni — im Gegensatz zur Kornelkirsche NACH dem Laubaustrieb und mit weißen (nicht gelben) Blüten.",
+      "Erbsengroße, kugelige, zur Reife SCHWARZE Steinfrüchte ab August/September (nicht rot wie bei der essbaren Kornelkirsche).",
+      "Herbstfärbung der Blätter oft leuchtend rot."
+    ],
+    "season": "Blüte Mai bis Juni; schwarze Fruchtreife August bis Oktober",
+    "habitat": "Hecken, Waldränder, Gebüsche, Auen; auf kalkreichen, nährstoffreichen Böden; sonnig bis halbschattig",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Als Heilpflanze praktisch nicht gebräuchlich; wenn überhaupt, werden traditionell Rinde/Blätter genutzt. Bestimmung über gegenständige Blätter mit bogigen Nerven und 'Spinnwebfäden' beim Zerreißen sowie rote Zweige absichern.",
+      "Rohe Früchte NICHT roh essen (schwach giftig/brechreizauslösend); nur gut durchgegart zu Marmelade/Saft verarbeiten.",
+      "Schwarze Früchte nicht mit essbaren oder mit anderen schwarzbeerigen (teils giftigen) Straucharten verwechseln — siehe Verwechslungen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kornelkirsche",
+      "scientific_name": "Cornus mas",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandt, aber die ESSBARE Art: gelbe Blüten VOR dem Laubaustrieb (Februar/März), größere ROTE Früchte, Haarbüschel in den Nervenwinkeln der Blattunterseite. Wichtig, weil der Blutrote Hartriegel mit seinen SCHWARZEN, roh schwach giftigen Früchten gerade NICHT wie die Kornelkirsche gegessen werden darf."
+    },
+    {
+      "name": "Gewöhnlicher Liguster",
+      "scientific_name": "Ligustrum vulgare",
+      "toxicity_level": "giftig",
+      "toxin": "Ligustrosid/Oleuropein und Iridoidglykoside",
+      "note": "Ebenfalls Heckenstrauch mit weißen Blüten und schwarzen, erbsengroßen Beeren zu ähnlicher Zeit — leicht zu verwechseln. Liguster-Beeren sind deutlich giftig (Übelkeit, Erbrechen, Durchfall, v. a. bei Kindern). Unterschied: Liguster-Blätter schmal-lanzettlich und meist wintergrün, Blüten in aufrechten Rispen; Hartriegel-Blätter breit-oval mit bogigen Nerven und 'Fäden'."
+    },
+    {
+      "name": "Faulbaum / Kreuzdorn",
+      "scientific_name": "Frangula alnus (Rhamnus cathartica)",
+      "toxicity_level": "giftig",
+      "toxin": "Anthranoide (Glucofrangulin/Frangulin)",
+      "note": "Sträucher mit schwarzen Beeren; frisch stark abführend/brechreizauslösend. Faulbaum hat wechselständige Blätter mit ebenfalls bogigen Nerven — Verwechslungsrisiko bei den schwarzen Früchten. Blattstellung (wechselständig vs. gegenständig beim Hartriegel) hilft unterscheiden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe (adstringierend) in Rinde und Blättern",
+      "Blätter/Blüten: Flavonglykoside, Gallussäure, Ellagsäure; Blattdestillate salicylsäurereich",
+      "Wurzeln/Zweige: Iridoidglykosid Verbenalin",
+      "Früchte: fettes Öl im Samen, Vitamin C, organische Säuren (sehr sauer/bitter)"
+    ],
+    "lead_substance": "Keine arzneilich definierte Leitsubstanz; die Art ist nicht als Arzneidroge etabliert. Verbenalin und Gerbstoffe werden am ehesten genannt.",
+    "solubility_note": "Gerbstoffe wasserlöslich (adstringierende Abkochung); Samenöl lipophil. Datenlage dünn — unsicher — zu prüfen.",
+    "heat_light_sensitivity": "Rohe Früchte sind schwach giftig/brechreizauslösend und werden erst durch Kochen küchentauglich; Vitamin C hitzeempfindlich."
+  },
+  "pharmacology": {
+    "mechanism": "Kein etablierter arzneilicher Wirkmechanismus. Gerbstoffe wirken lokal adstringierend/zusammenziehend; darüber hinaus nur präklinische Einzelbefunde ohne klinische Relevanz — unsicher — zu prüfen.",
+    "evidence_caveat": "Es existiert KEINE HMPC/EMA-, KEINE ESCOP- und KEINE Kommission-E-Monographie. Cornus sanguinea gilt medizinisch als nicht gebräuchliche Heilpflanze; klinische Studien fehlen vollständig.",
+    "pharmacokinetics": "Nicht untersucht — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Traditionell äußerlich/adstringierend (Rinde, Blätter)",
+      "synonyms": ["zusammenziehend", "adstringierend", "Gerbstoffumschlag", "wunde Haut", "Hausmittel"],
+      "evidence_tag": "TRAD",
+      "comment": "Nur historisch-volksmedizinische Nennungen der gerbstoffhaltigen Rinde/Blätter (adstringierend, früher als Fieber-/Bittermittel wie andere Cornus-Arten). Kein moderner Wirksamkeitsbeleg, keine regulatorische Monographie. Faktisch keine gebräuchliche Heilpflanze.",
+      "realistic_expectation": "Keine gesicherte Heilwirkung. Allenfalls schwacher adstringierender Effekt der Gerbstoffe. Als Arzneipflanze nicht zu empfehlen — der Wert der Pflanze liegt in Ökologie, Hecke und (gekochten) Früchten, nicht in der Heilkunde.",
+      "source": "Historisch-volksheilkundliche Literatur; ausdrücklich KEIN HMPC/ESCOP/Kommission E (recherchiert)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wertvoller heimischer Wild- und Heckenstrauch (Vogelnährgehölz, zähes Holz). Aus den gekochten schwarzen Früchten lassen sich vitamin-C-reiche Marmelade/Säfte herstellen.",
+    "overstated": "Als 'Heilpflanze' ist der Blutrote Hartriegel praktisch bedeutungslos: keine HMPC/ESCOP/Kommission-E-Monographie, keine klinische Evidenz, keine etablierte Anwendung. Ein medizinischer Nutzen sollte nicht erwartet werden. Wichtiger als jeder Heilanspruch ist der Sicherheitshinweis, dass rohe Früchte schwach giftig sind.",
+    "effect_size": "kein belegter arzneilicher Effekt"
+  },
+  "preparation": {
+    "recommended_forms": ["Gekochte Fruchtzubereitung (Marmelade/Saft) — küchentechnisch, nicht arzneilich", "traditionell adstringierende Abkochung aus Rinde (obsolet)"],
+    "form_rationale": "Eine arzneiliche Zubereitung ist mangels Evidenz nicht zu empfehlen. Rohe Früchte sind schwach giftig und müssen vor Küchenverwendung gekocht werden.",
+    "standard_dose": "Keine arzneiliche Dosierung definiert (nicht als Heildroge gebräuchlich).",
+    "preservation": "Fruchtzubereitungen wie üblich (eingekocht/eingefroren); Rohfrüchte nicht roh verzehren."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Verzehr roher Früchte (schwach giftig, brechreizauslösend — besonders bei Kindern)"
+    ],
+    "pregnancy_lactation": "Keine Anwendungsdaten. Als Arzneipflanze ohnehin nicht gebräuchlich; von jeder therapeutischen Anwendung in Schwangerschaft/Stillzeit ist mangels Daten abzuraten — unsicher — zu prüfen.",
+    "adverse_effects": "Rohe Früchte sowie Rinde/Blätter/Wurzeln gelten als schwach giftig; roher Fruchtverzehr kann Magen-Darm-Reizung mit Übelkeit/Erbrechen auslösen, vor allem bei Kindern. Gekochte Früchte gelten als unbedenklich.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Wechselwirkungen bekannt (keine Studiendaten)",
+        "affected": "—",
+        "clinical_relevance": "keine bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": true,
+      "requires_heating": true,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Rohe schwarze Früchte NICHT essen — sie sind schwach giftig und wirken brechreizauslösend (besonders bei Kindern); erst durch Kochen werden sie küchentauglich. Nicht mit der essbaren Kornelkirsche (rote Früchte) und nicht mit giftigen schwarzbeerigen Sträuchern (Liguster, Faulbaum) verwechseln."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Schwarze Früchte ab August/September; Rinde traditionell im Frühjahr",
+    "harvest_month_tags": [8, 9, 10],
+    "harvest_organ": "Frucht (schwarze Steinfrucht); traditionell Rinde",
+    "method": "Reife schwarze Früchte ernten; ausschließlich gekocht weiterverarbeiten. Rinde nur bei traditioneller (heute unüblicher) Nutzung.",
+    "processing": "Früchte einkochen (roh schwach giftig). Rinde/Blätter trocknen (obsolet).",
+    "storage": "Fruchtzubereitungen kühl/eingekocht; getrocknete Pflanzenteile trocken und lichtgeschützt."
+  },
+  "kitchen": {
+    "uses": ["Marmelade/Gelee aus gekochten Früchten", "Fruchtsaft", "früher Speiseöl aus den Samen"],
+    "culinary_vs_medicinal": "Der praktische Nutzen liegt in der Küche (gekochte, vitamin-C-reiche Früchte) und im Garten/Ökologie — NICHT in der Heilkunde. Rohe Früchte sind schwach giftig; Kochen ist Pflicht."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; kalkhaltige, nährstoffreiche Böden, sonnig bis halbschattig.",
+    "hardiness": "Voll winterhart, sehr robust.",
+    "propagation": "Aussaat (Kaltkeimer), Steckhölzer, Absenker; wurzelt und breitet sich willig aus.",
+    "bodensee_suitability": "Sehr gut geeignet — heimisch und häufig in der Bodenseeregion; wertvolles Vogelschutz- und Heckengehölz mit leuchtender Herbstfärbung."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blutroter Hartriegel mit weißen Trugdolden und rötlichen Zweigen", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Gegenständiges Blatt mit bogigen Nerven; beim Zerreißen elastische 'Spinnwebfäden'; schwarze Früchte", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kein EMA/HMPC-Monograph vorhanden (recherchiert 2026-07)",
+    "Keine ESCOP-Monographie vorhanden (recherchiert)",
+    "Keine Kommission-E-Monographie vorhanden (recherchiert)",
+    "Botanische Bestimmungs- und Gehölzquellen (baumkunde.de, InfoFlora, pflanzen-deutschland.de) zu Merkmalen, Blüte-/Fruchtzeit und Verwechslungen",
+    "Giftpflanzen-/Wildpflanzenquellen zur Roh-Toxizität der Früchte und zu Inhaltsstoffen (Verbenalin, Gerbstoffe) — recherchiert"
+  ]
+}

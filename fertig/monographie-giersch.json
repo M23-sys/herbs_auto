@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "id": "aegopodium-podagraria",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Aegopodium podagraria L.",
+    "common_names_de": ["Giersch", "Geißfuß", "Zipperleinskraut", "Podagrakraut", "Dreiblatt", "Erdholler"],
+    "family": "Doldenblütler (Apiaceae)",
+    "drug_part": ["Kraut/junge Blätter (Herba)", "seltener Wurzel"],
+    "drug_name_latin": "Aegopodii herba",
+    "synonyms": ["Apium podagraria", "Podagraria erratica", "Aegopodium latifolium"]
+  },
+  "identification": {
+    "key_features": [
+      "3-3-3-Regel: dreikantiger (im Querschnitt dreieckiger) Blattstiel, am Stielende drei Blattgruppen mit jeweils dreiteiligem Blatt (meist doppelt dreizählig).",
+      "Bodennahe Blattstiele markant dreikantig mit spürbarer Rinne, mit Gewebe gefüllt (NICHT hohl); erst der spätere, weiße Dolden tragende Blütenstängel ist rund, gerillt und innen hohl.",
+      "Blätter matt (nicht glänzend), Blattrand fein gesägt; beim Zerreiben typischer, mild-möhren-/petersilienartiger Geruch — kein Mäuseurin-, kein Knoblauchgeruch.",
+      "Weiße, flache Doppeldolden ohne Hülle und Hüllchen (keine herabhängenden Hüllchenblätter) von Juni bis Juli.",
+      "Bildet über lange, weiße Ausläufer (Rhizome) dichte Bestände — als hartnäckiges Gartenunkraut bekannt."
+    ],
+    "season": "Blätter ab dem zeitigen Frühjahr (März/April); Blüte Juni bis Juli",
+    "habitat": "Frische, nährstoffreiche, halbschattige bis schattige Standorte: Auwälder, Gebüsche, Ufer, Gärten, Parks, Wegränder; kalkliebend",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-sehr-haeufig"}
+    ],
+    "collection_rules": [
+      "Vor der Blüte junge Blätter sammeln — genau dann ist die Verwechslung mit tödlich giftigen Doldenblütlern (Schierling) am gefährlichsten, weil Blüte und Doldenbau noch fehlen. Bestimmung IMMER über den dreikantigen Blattstiel (3-3-3-Regel) und den Möhrengeruch absichern.",
+      "Nur eindeutig als Giersch erkannte Pflanzen ernten; bei rundem, (rot-)geflecktem Stängel, glänzenden Blättern, unangenehmem Geruch (Mäuseurin, Knoblauch) oder feinen farnartigen Blättern stehen lassen.",
+      "Nicht an belasteten Standorten (Hundewege, Straßenränder, gedüngte Flächen) sammeln."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und weitere Piperidinalkaloide",
+      "note": "Runder, meist rot-braun gefleckter, kahler Stängel (KEINE dreikantige Rinne), fein doppelt-/dreifach gefiederte, farnartige Blätter, unangenehmer Mäuseurin-Geruch beim Zerreiben. Giersch hat dagegen dreikantige Blattstiele, gröbere dreizählige Blätter und Möhrengeruch. Verzehr wirkt lähmend und kann tödlich enden."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin",
+      "note": "Wächst an nassen Standorten (Gräben, Ufer, Sümpfe). Kammerig-quergefächerter, hohler Wurzelstock, der angeschnitten gelblichen Saft absondert. Schon geringe Mengen sind tödlich (Krämpfe). Giersch wächst eher in frisch-schattigen Gärten/Auen und hat kein gekammertes Rhizom, sondern lange dünne Ausläufer."
+    },
+    {
+      "name": "Hundspetersilie",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (Aethusin, Cynapin)",
+      "note": "Stark glänzende (Giersch matt), unangenehm riechende Blätter, rundlicher Stängel; charakteristisch sind die langen, einseitig nach unten hängenden Hüllchenblätter an den Döldchen — diese fehlen dem Giersch. Verzehr verursacht Magen-Darm- und ZNS-Störungen."
+    },
+    {
+      "name": "Riesen-Bärenklau",
+      "scientific_name": "Heracleum mantegazzianum",
+      "toxicity_level": "giftig",
+      "toxin": "Furocumarine (phototoxisch)",
+      "note": "Junge Blätter können im Frühjahr entfernt an große Giersch-Blätter erinnern, wachsen aber viel größer und gröber. Der Pflanzensaft löst mit Sonnenlicht schwere Verbrennungen (phototoxische Dermatitis) aus. Nicht mit bloßer Haut anfassen."
+    },
+    {
+      "name": "Echter/Wiesen-Kerbel und andere ungiftige Doldenblütler",
+      "scientific_name": "Anthriscus sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährliche Verwechslung, aber Bestimmung trotzdem sichern: Wiesen-Kerbel hat fein gefiederte, farnartige Blätter und rundliche Stängel — nicht die dreikantigen Blattstiele des Giersch."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Vitamin C (sehr hoher Gehalt, ein Vielfaches von Zitrone) und Provitamin A (Carotin)",
+      "Mineralstoffe: Kalium, Magnesium, Calcium, Mangan, Eisen, Kieselsäure",
+      "Flavonoide, Polyine, Cumarine, ätherisches Öl (geringe Menge)",
+      "Kaffeesäurederivate"
+    ],
+    "lead_substance": "Keine standardisierte Leitsubstanz definiert; die Pflanze ist arzneilich nicht monographiert. Ernährungsphysiologisch stehen Vitamin C und Mineralstoffe im Vordergrund.",
+    "solubility_note": "Wasserlösliche Anteile (Vitamin C, Mineralstoffe, Flavonoide) gehen in Tee/Aufguss über; Vitamin C ist hitzeempfindlich — für den Nährwert Frischverzehr bevorzugen.",
+    "heat_light_sensitivity": "Vitamin C zerfällt bei Hitze und Lagerung; frisches Kraut möglichst rasch verwenden."
+  },
+  "pharmacology": {
+    "mechanism": "Traditionell werden entzündungshemmende, harntreibende und 'entsäuernde' Wirkungen bei Gicht/Rheuma angenommen; ein belegter Wirkmechanismus fehlt. Präklinische Hinweise auf antioxidative/antiinflammatorische Effekte sind schwach und nicht klinisch bestätigt — unsicher — zu prüfen.",
+    "evidence_caveat": "Es existiert KEINE HMPC/EMA-Monographie, KEINE ESCOP-Monographie und nicht einmal eine (negative) Kommission-E-Monographie. Kontrollierte klinische Studien am Menschen fehlen. Die Anwendung ist rein traditionell/volksmedizinisch.",
+    "pharmacokinetics": "Nicht untersucht — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Begleitend bei Gicht und rheumatischen Beschwerden",
+      "synonyms": ["Gicht", "Podagra", "Zipperlein", "Rheuma", "Gelenkschmerzen", "Gelenkbeschwerden"],
+      "evidence_tag": "TRAD",
+      "comment": "Namensgebende traditionelle Anwendung (podagra = Gichtanfall). Früher wie heute in der Volksheilkunde als Tee sowie äußerlich als Umschlag/Bad genutzt. Kein regulatorischer Wirksamkeitsbeleg (kein HMPC/ESCOP/Kommission E).",
+      "realistic_expectation": "Bestenfalls milde, unterstützende/lindernde Wirkung im Sinne eines Hausmittels. KEIN Ersatz für harnsäuresenkende Therapie (z. B. Allopurinol) oder Entzündungshemmer. Ein Wirknachweis fehlt.",
+      "source": "Volksheilkundliche Literatur; kein HMPC/ESCOP; Kommission E führt keine Monographie (recherchiert)"
+    },
+    {
+      "canonical": "Frühjahrs-Wildgemüse und Vitamin-C-Quelle",
+      "synonyms": ["Wildgemüse", "Wildkräuter essen", "Frühjahrskur", "Vitaminmangel", "Salatkraut"],
+      "evidence_tag": "TRAD",
+      "comment": "Junge Blätter roh im Salat oder gegart wie Spinat; sehr hoher Vitamin-C- und Mineralstoffgehalt. Kulinarisch-ernährungsphysiologisch gut belegt, therapeutisch nicht.",
+      "realistic_expectation": "Schmackhaftes, nährstoffreiches Wildgemüse. Ein 'Heileffekt' über die normale Ernährung hinaus ist nicht belegt.",
+      "source": "Wildkräuter-/Ernährungsliteratur (recherchiert)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Nährstoffreiches, gut verträgliches Wildgemüse; als mildes Hausmittel bei Gicht/Rheuma traditionell verbreitet, aber ohne Wirksamkeitsbeleg.",
+    "overstated": "Der populäre Ruf als 'Gicht-Heilpflanze' überzeichnet die Datenlage deutlich: Es gibt keinerlei klinische Evidenz und keine regulatorische Monographie. Giersch ersetzt keine ärztliche Gichttherapie. Die eigentliche Gefahr ist nicht die Pflanze selbst, sondern die Verwechslung mit tödlich giftigen Doldenblütlern beim Sammeln.",
+    "effect_size": "unbelegt; allenfalls mild-unterstützend"
+  },
+  "preparation": {
+    "recommended_forms": ["Frische junge Blätter (Salat/Gemüse)", "Aufguss/Tee aus Kraut", "äußerlich Umschlag/Bad"],
+    "form_rationale": "Für den Nährwert ist Frischverzehr am sinnvollen (Vitamin C hitzeempfindlich). Für die traditionelle Gicht-/Rheumaanwendung werden Tee und äußerliche Umschläge genutzt; alle Formen ohne Wirksamkeitsbeleg.",
+    "standard_dose": "Keine etablierte Dosierung (nicht arzneilich monographiert). Küchenüblich als Gemüse; Tee volkstümlich 1–2 TL getrocknetes Kraut pro Tasse. Bei Selbstsammlung Bestimmung strikt absichern.",
+    "preservation": "Frisch rasch verbrauchen; getrocknetes Kraut trocken und lichtgeschützt lagern (Vitamin-C-Verlust)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Allergie gegen Doldenblütler (Apiaceae)",
+      "Unsichere Bestimmung bei Wildsammlung (Verwechslungsgefahr)"
+    ],
+    "pregnancy_lactation": "Als Nahrungs-/Wildgemüse in üblichen Mengen unbedenklich. Gezielte therapeutische Anwendung (konzentrierter Tee/Umschläge) in Schwangerschaft und Stillzeit vorsichtshalber meiden — keine Sicherheitsdaten.",
+    "adverse_effects": "In Nahrungsmengen sehr gut verträglich. Selten allergische Reaktionen bei Apiaceae-Allergie. Höhere 'therapeutische' Mengen sind nicht auf Sicherheit geprüft — unsicher — zu prüfen.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Wechselwirkungen bekannt (keine Studiendaten)",
+        "affected": "—",
+        "clinical_relevance": "keine bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "apiaceae_confusion_young": true,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Pflanze selbst ist ungiftig und essbar — die Lebensgefahr liegt im Sammeln: Vor der Blüte ähneln junge Giersch-Blätter tödlich giftigen Doldenblütlern (Gefleckter/Wasser-Schierling, Hundspetersilie). Nur sammeln, wenn dreikantiger Blattstiel (3-3-3) UND Möhrengeruch eindeutig stimmen; im Zweifel stehen lassen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Junge Blätter im Frühjahr (März–Mai), zart bis vor der Blüte; nach der Blüte werden die Blätter derber",
+    "harvest_month_tags": [3, 4, 5],
+    "harvest_organ": "Blatt/Kraut (Herba)",
+    "method": "Junge, hellgrüne Blätter mit dreikantigem Stiel pflücken; Bestimmung über 3-3-3-Regel und Geruch absichern.",
+    "processing": "Frisch verwenden oder schonend trocknen; für Vitamin-C-Erhalt Frischverzehr.",
+    "storage": "Frisch nur wenige Tage kühl; getrocknet trocken und lichtgeschützt."
+  },
+  "kitchen": {
+    "uses": ["Wildsalat", "Spinat-/Gemüseersatz", "Suppe", "Pesto", "Kräuterquark", "Smoothie"],
+    "culinary_vs_medicinal": "Küchengebrauch (Wildgemüse) ist der eigentliche, gut belegte Nutzen; die 'medizinische' Gichtanwendung ist rein traditionell und unbelegt. Geschmack mild-möhren-/petersilienartig."
+  },
+  "garden": {
+    "site_soil": "Frische bis feuchte, nährstoffreiche, humose Böden; halbschattig bis schattig.",
+    "hardiness": "Voll winterhart, ausdauernd.",
+    "propagation": "Über Rhizom-Ausläufer und Samen — extrem ausbreitungsfreudig; im Garten schwer zu bändigen (Wurzelsperre nötig).",
+    "bodensee_suitability": "Bestens angepasst — in der Bodenseeregion sehr häufig und wüchsig. Als Wildgemüse nutzbar, als Zierpflanze wegen Wucherns problematisch; eher ernten als anpflanzen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Giersch mit weißen, flachen Doppeldolden ohne Hüllblätter", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Dreikantiger Blattstiel und doppelt dreizähliges Blatt (3-3-3-Regel)", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kein EMA/HMPC-Monograph vorhanden (recherchiert 2026-07)",
+    "Keine ESCOP-Monographie vorhanden (recherchiert)",
+    "Kommission E: keine Monographie (Art als zu unbedeutend nicht bearbeitet) — recherchiert",
+    "Wildkräuter- und Volksheilkunde-Literatur (NABU, kräuterkundliche Fachseiten) zu Merkmalen, Küchen- und Traditionsanwendung",
+    "Doldenblütler-Verwechslungshinweise (Schierling, Hundspetersilie, Riesen-Bärenklau) — botanische Bestimmungsquellen, recherchiert"
+  ]
+}

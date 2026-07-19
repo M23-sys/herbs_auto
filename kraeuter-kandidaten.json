@@ -356,8 +356,8 @@
       "latin": "Aegopodium podagraria",
       "tier": 2,
       "reason": "Doldenblütler-Verwechslung; Wildgemüse",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-giersch.json"
     },
     {
       "id": "anthriscus-cerefolium",
