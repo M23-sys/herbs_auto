@@ -383,8 +383,8 @@
       "latin": "Arnica montana",
       "tier": 2,
       "reason": "nur topisch, innerlich toxisch; geschützt; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-arnika.json"
     },
     {
       "id": "tanacetum-parthenium",
@@ -392,8 +392,8 @@
       "latin": "Tanacetum parthenium",
       "tier": 2,
       "reason": "Migräneprophylaxe; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-mutterkraut.json"
     },
     {
       "id": "colchicum-autumnale",

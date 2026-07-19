@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "id": "tanacetum-parthenium",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Tanacetum parthenium (L.) Sch.Bip.",
+    "common_names_de": [
+      "Mutterkraut",
+      "Falsche Kamille",
+      "Fieberkraut",
+      "Zierkamille",
+      "Römische Kamille (irreführend)"
+    ],
+    "family": "Korbblütler (Asteraceae)",
+    "drug_part": [
+      "Kraut (Tanaceti parthenii herba)",
+      "Blatt"
+    ],
+    "drug_name_latin": "Tanaceti parthenii herba",
+    "synonyms": [
+      "Chrysanthemum parthenium (L.) Bernh.",
+      "Matricaria parthenium L.",
+      "Pyrethrum parthenium (L.) Sm.",
+      "Leucanthemum parthenium (L.) Gren. & Godr."
+    ],
+    "synonym_note": "Früher Chrysanthemum parthenium bzw. Pyrethrum parthenium; akzeptierter Name heute Tanacetum parthenium (L.) Sch.Bip. Achtung: „Mutterkraut“ ist volkstümlich mehrdeutig und wird auch für andere Arten benutzt — botanischen Namen prüfen."
+  },
+  "identification": {
+    "key_features": [
+      "Kamillenähnliche Körbchen (weiße Zungenblüten, gelbe Scheibe), aber Blütenboden FLACH und innen hohl — nicht hochgewölbt-kegelförmig wie bei der Echten Kamille (Längsschnitt-Test durchs Körbchen)",
+      "Kräftiger, durchdringend bitter-kampferartiger Geruch (rainfarnähnlich), NICHT der milde Apfelduft der Kamille",
+      "Blätter gelbgrün, gefiedert bis fiederteilig mit gerundeten Abschnitten (nicht fein-fädig wie Kamille)",
+      "Buschiger, 30–80 cm hoher, mehrjähriger Wuchs mit mehreren Körbchen in lockerer Doldenrispe",
+      "Zungenblüten kurz und breit; Gesamteindruck margeriten- bis kamillenartig"
+    ],
+    "season": "Blütezeit Juni bis September",
+    "habitat": "Kultiviert als Zier- und Heilpflanze; verwildert an Wegrändern, Mauern, Ruderalstellen und in Gärten. Ursprünglich Südost-Europa/Balkan/Kaukasus.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Botanischen Namen gegenprüfen — „Mutterkraut“ meint volkstümlich auch Kamille, Rainfarn u. a.",
+      "Bestätiger: durchdringend bitterer Geruch + flacher, innen hohler Blütenboden + gefiederte gelbgrüne Blätter",
+      "Abgrenzung zum giftigen Rainfarn (Tanacetum vulgare, gleiche Gattung): dieser hat reine gelbe Knopfblüten OHNE weiße Zungenblüten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Rainfarn",
+      "scientific_name": "Tanacetum vulgare",
+      "toxicity_level": "giftig",
+      "toxin": "Thujon (ätherisches Öl; nerventoxisch, in Menge abortiv)",
+      "note": "Gleiche Gattung, ähnlicher Geruch. Unterschied: Rainfarn trägt nur gelbe, knopfartige Körbchen OHNE weiße Zungenblüten und stark gefiederte, dunkelgrüne Blätter. Mutterkraut hat kamillenartige weiße Randblüten."
+    },
+    {
+      "name": "Echte Kamille",
+      "scientific_name": "Matricaria chamomilla",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig, aber pharmakologisch anders. Unterschied: Kamille hat einen HOCHGEWÖLBTEN, kegelförmigen, hohlen Blütenboden, fein-fädige Blätter und milden Apfelduft; ist einjährig. Mutterkraut hat flachen Boden, breitere gefiederte Blätter, bitteren Geruch."
+    },
+    {
+      "name": "Geruchlose Kamille / Falsche Kamille",
+      "scientific_name": "Tripleurospermum inodorum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Unterschied: nahezu geruchlos, Blütenboden voll/markig (nicht hohl), sehr fein-fiedrige Blätter."
+    },
+    {
+      "name": "Römische Kamille",
+      "scientific_name": "Chamaemelum nobile",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig; die Namensverwandtschaft führt zu Verwechslung. Unterschied: niederliegend-rasig, stark aromatisch-apfelig, fein zerteilte Blätter."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Sesquiterpenlactone (v. a. Parthenolid; typ. 0,2–0,6 % im getrockneten Blatt, handelsüblich stark schwankend)",
+      "Ätherisches Öl (u. a. Campher, Chrysanthenylacetat)",
+      "Flavonoide (u. a. Tanetin)"
+    ],
+    "lead_substance": "Parthenolid (Sesquiterpenlacton) — trägt die diskutierte migräneprophylaktische und entzündungshemmende Wirkung",
+    "solubility_note": "Parthenolid ist lipophil sowie lager- und hitzeempfindlich; der Gehalt in Rohware schwankt erheblich. Standardisierte Trockenextrakt-Kapseln/-Tabletten liefern eine verlässlichere Dosis als Tee oder frische Blätter — ein Aufguss ist kaum sinnvoll.",
+    "heat_light_sensitivity": "Parthenolid zerfällt bei Wärme und während der Lagerung; der Wirkstoffgehalt sinkt mit der Zeit."
+  },
+  "pharmacology": {
+    "mechanism": "Parthenolid hemmt u. a. die Serotoninfreisetzung aus Thrombozyten, den Transkriptionsfaktor NF-κB sowie die Prostaglandin-/Leukotriensynthese und die Thrombozytenaggregation — daraus werden migräneprophylaktische und antiphlogistische Effekte abgeleitet.",
+    "evidence_caveat": "Die klinische Evidenz ist uneinheitlich: Der Cochrane-Review (Wider 2015, 6 Studien, 561 Teilnehmende) fand widersprüchliche Ergebnisse; nur eine größere Studie mit dem stabilen CO2-Extrakt MIG-99 zeigte eine klare Reduktion der Anfallshäufigkeit. Ursache u. a. sehr unterschiedliche Präparate/Parthenolidgehalte. Neuere Metaanalysen (2025) fallen günstiger aus, doch die HMPC führt die Droge weiterhin nur als traditional use. Keine Wirkung im akuten Migräneanfall.",
+    "pharmacokinetics": "unsicher — zu prüfen"
+  },
+  "indications": [
+    {
+      "canonical": "Migräneprophylaxe",
+      "synonyms": [
+        "Migräne vorbeugen",
+        "Migräneanfälle reduzieren",
+        "weniger Migräneattacken",
+        "Kopfschmerzen vorbeugen",
+        "Migränehäufigkeit senken"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC EU herbal monograph Tanacetum parthenium (L.) Sch.Bip., herba (traditional use, EMA/HMPC/48715/2017, 2020): zur Vorbeugung von Migränekopfschmerzen, nachdem ein Arzt ernste Ursachen ausgeschlossen hat. Reine Prophylaxe.",
+      "realistic_expectation": "Als KUR über Wochen eingenommen, kann die Anfallshäufigkeit möglicherweise leicht sinken (in einer Studie ~0,6 Attacken/Monat gegenüber Placebo). Wirkt NICHT im akuten Anfall und nicht schmerzstillend. Wirkung setzt erst nach mehrwöchiger Einnahme ein; Evidenz uneinheitlich und stark präparatabhängig.",
+      "source": "HMPC traditional use (2020); ESCOP (Tanaceti parthenii herba); Cochrane Review Wider 2015"
+    },
+    {
+      "canonical": "Traditionelle Anwendungen: Fieber, rheumatische Beschwerden, Menstruations-/Frauenbeschwerden",
+      "synonyms": [
+        "Fieber",
+        "Rheuma",
+        "Gelenkschmerzen",
+        "Menstruationsbeschwerden",
+        "Regelschmerzen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinisch — nicht Teil der HMPC-Indikation. Der Name „feverfew“/„Mutterkraut“ verweist auf die historische Fieber- und Frauenheilkunde.",
+      "realistic_expectation": "Historisch überliefert, aber NICHT belegt. Wegen der wehenauslösenden/abortiven Wirkung ist die Anwendung bei Menstruations-/Schwangerschaftsthemen gefährlich und in der Schwangerschaft streng kontraindiziert.",
+      "source": "volksmedizinische Überlieferung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Als vorbeugende Kur (nicht als Akutmittel) kann Mutterkraut die Migränehäufigkeit möglicherweise geringfügig senken; Parthenolid hat ein entzündungshemmendes Potenzial.",
+    "overstated": "Kein Akut-Schmerz- oder Migränemittel und kein sicherer Wirkersatz für etablierte Prophylaxe — die Evidenz ist uneinheitlich (Cochrane inkonklusiv) und hängt stark vom Präparat ab. Der historische Ruf als Fieber- und Frauenmittel ist nicht belegt. Frische Blätter zu kauen ist keine harmlose Hausmittel-Praxis (Mundgeschwüre).",
+    "effect_size": "mild; prophylaktisch, nicht akut; Evidenz unsicher"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Standardisierte Trockenextrakt-Kapseln/-Tabletten (auf Parthenolid eingestellt)",
+      "Getrocknetes Blattpulver in fester Dosierung"
+    ],
+    "form_rationale": "Weil Parthenolid lipophil, lager-/hitzelabil und in der Rohware sehr schwankend ist, liefern standardisierte Fertigpräparate eine verlässlichere Wirkstoffdosis als Tee oder frische Blätter. Ein Aufguss ist kaum sinnvoll; frische Blätter reizen die Mundschleimhaut.",
+    "standard_dose": "HMPC-Orientierung rund 100 mg getrocknetes Blattpulver pro Tag bzw. auf 0,2–0,6 % Parthenolid standardisierte Extrakte; als mehrmonatige Kur. Ein- und ausschleichend dosieren (Absetzsyndrom).",
+    "preservation": "Kühl, dunkel und luftdicht lagern; der Parthenolidgehalt nimmt bei Lagerung ab."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Korbblütlerallergie (Kreuzallergie)",
+      "Schwangerschaft (wehenauslösend/abortiv) und Stillzeit",
+      "Kinder und Jugendliche unter 18 Jahren (keine ausreichenden Daten)",
+      "Vor Operationen absetzen (Thrombozytenhemmung); Vorsicht bei Antikoagulation/ASS"
+    ],
+    "pregnancy_lactation": "In der Schwangerschaft STRENG kontraindiziert — die Droge wirkt uterusstimulierend/abortiv (daher der Name „Mutterkraut“). In der Stillzeit mangels Daten meiden.",
+    "adverse_effects": "Mund-/Zungenschleimhaut-Geschwüre und -reizungen vor allem beim Kauen FRISCHER Blätter; gastrointestinale Beschwerden; allergische Kontaktdermatitis (Korbblütler). Beim abrupten Absetzen nach längerer Einnahme „Post-Feverfew-Syndrom“: Rebound-Kopfschmerz, Nervosität, Schlafstörungen, Muskel-/Gelenksteife.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Hemmung der Thrombozytenaggregation durch Parthenolid",
+        "affected": "Antikoagulanzien (z. B. Cumarine, DOAK), ASS/NSAR, andere Thrombozytenaggregationshemmer",
+        "clinical_relevance": "gering bis relevant (verstärkte Blutungsneigung); unsicher — zu prüfen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Reines VORBEUGE-Mittel gegen Migräne (kein Akutmittel); in der Schwangerschaft wegen wehenauslösender Wirkung streng kontraindiziert, frische Blätter nicht kauen (Mundgeschwüre) und nach längerer Einnahme nicht abrupt absetzen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Oberirdisches, blühendes Kraut bzw. Blätter zur Blütezeit Juni–September",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Blühende Triebe/Blätter schneiden",
+    "processing": "Luftig und schattig trocknen; Parthenolid ist hitzeempfindlich, daher nicht heiß trocknen",
+    "storage": "Dunkel, kühl und luftdicht; Gehalt sinkt mit der Lagerdauer"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Küchenkraut — der bittere Geschmack und die Schleimhautreizung machen es kulinarisch ungeeignet; ausschließlich arzneiliche Verwendung."
+  },
+  "garden": {
+    "site_soil": "Sonnig, durchlässig, anspruchslos; verträgt magere Böden",
+    "hardiness": "Winterhart, kurzlebig-mehrjährig, versamt sich stark",
+    "propagation": "Aussaat und Selbstaussaat, auch Teilung",
+    "bodensee_suitability": "Gut geeignet — anspruchslose, robuste Gartenpflanze, die im Bodenseeraum problemlos gedeiht und sich gern selbst aussät."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Längsschnitt durchs Körbchen: flacher, innen hohler Blütenboden — Unterschied zum kegelförmigen Boden der Echten Kamille",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC — EU herbal monograph on Tanacetum parthenium (L.) Sch.Bip., herba (traditional use, EMA/HMPC/48715/2017, 2020); Assessment report",
+    "ESCOP Monograph Tanaceti parthenii herba",
+    "Cochrane Review — Wider B et al., Feverfew for preventing migraine (CD002286.pub3, 2015)",
+    "Systematische Review/Metaanalyse Tanacetum parthenium (2025); phytotherapeutische Sekundärquellen zu Parthenolid, Post-Feverfew-Syndrom und Kontaktallergie"
+  ]
+}

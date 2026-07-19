@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "id": "arnica-montana",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Arnica montana L.",
+    "common_names_de": [
+      "Arnika",
+      "Echte Arnika",
+      "Bergwohlverleih",
+      "Wohlverleih",
+      "Fallkraut"
+    ],
+    "family": "Korbblütler (Asteraceae)",
+    "drug_part": [
+      "Blüte (Arnicae flos)"
+    ],
+    "drug_name_latin": "Arnicae flos",
+    "synonyms": [
+      "Doronicum arnica Desf.",
+      "Arnica helvetica Loudon",
+      "Cineraria cernua"
+    ],
+    "synonym_note": "Akzeptierter Name Arnica montana L.; die Wurzel (Arnicae radix) ist eine eigene, hier nicht behandelte Droge."
+  },
+  "identification": {
+    "key_features": [
+      "GEGENSTÄNDIGE Stängelblätter — bei Korbblütlern eine Seltenheit und das sicherste Erkennungsmerkmal (giftige Doppelgänger haben wechselständige Blätter)",
+      "Grundständige Rosette aus 4–8 breit-eiförmigen, ganzrandigen, weich behaarten Blättern mit deutlichen Längsnerven",
+      "Einzelne bis wenige große, dottergelbe Körbchen (5–8 cm) auf beblättertem, meist unverzweigtem Stängel (20–60 cm)",
+      "Zungenblüten am Rand oft unregelmäßig gezähnt und leicht verdreht; aromatischer Geruch",
+      "Wächst nur auf sauren, kalkfreien Magerböden (Bergwiesen, Heiden, Borstgrasrasen)"
+    ],
+    "season": "Blütezeit Juni bis August",
+    "habitat": "Bodensaure Magerrasen, Bergwiesen, Heiden und Moorränder der montanen bis subalpinen Stufe; kalkmeidend",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "In Deutschland nach BArtSchV BESONDERS GESCHÜTZT und stark im Rückgang — Wildsammlung ist unzulässig; Droge nur aus Anbau/Handel beziehen",
+      "Bestätiger: gegenständige Stängelblätter + aromatischer Geruch + saurer Magerstandort",
+      "Abgrenzung zum giftigen Greiskraut (Senecio): dessen Blätter sind wechselständig, die Körbchen kleiner und in Doldenrispen, kein aromatischer Arnikageruch",
+      "Abgrenzung zur Gemswurz (Doronicum): herzförmige, wechselständige Blätter, blüht früher"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Jakobs-Greiskraut / verwandte Greiskräuter",
+      "scientific_name": "Senecio jacobaea (Jacobaea vulgaris) u. a. Senecio spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (leberschädigend, potenziell kanzerogen)",
+      "note": "Sicherheitsrelevanteste Verwechslung: ebenfalls gelbe Korbblütler des Berg-/Wiesenumfelds. Unterschied: Greiskraut hat WECHSELSTÄNDIGE, fiederteilige Blätter, zahlreiche kleine Körbchen in Doldenrispen und keinen aromatischen Geruch. Arnika hat gegenständige, ungeteilte Blätter und einzelne große Körbchen."
+    },
+    {
+      "name": "Gemswurz / Gämswurz („Scheinarnika“)",
+      "scientific_name": "Doronicum spp. (z. B. Doronicum grandiflorum)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftige, aber arzneilich wertlose Zier-/Alpenpflanze, die häufig mit Arnika verwechselt wird. Unterschied: herzförmige, gestielte, wechselständige Blätter; blüht meist früher. Keine gegenständigen Blätter."
+    },
+    {
+      "name": "Ochsenauge / Weidenblättriges Rindsauge",
+      "scientific_name": "Buphthalmum salicifolium",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftiger gelber Korbblütler kalkreicher Magerrasen. Unterschied: schmale, weidenartige, wechselständige Blätter, kleinere Körbchen — und wächst auf Kalk, wo Arnika gerade fehlt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Sesquiterpenlactone vom Pseudoguaianolid-Typ (v. a. Helenalin und Dihydrohelenalin, als Ester); Gehalt in HMPC-Qualität mind. 0,4 % (als Dihydrohelenalintiglat)",
+      "Flavonoide",
+      "Ätherisches Öl (u. a. Thymol-Derivate)",
+      "Cumarine, Phenolcarbonsäuren"
+    ],
+    "lead_substance": "Helenalin (Sesquiterpenlacton) — trägt die entzündungshemmende Wirkung, ist zugleich für die innerliche Giftigkeit verantwortlich",
+    "solubility_note": "Wirkstoffe überwiegend lipophil bzw. alkohollöslich → Salben, Öle und (verdünnte) Tinkturen sind die sinnvollen Zubereitungen; ein wässriger Tee spielt keine Rolle, da Arnika ausschließlich äußerlich angewendet wird.",
+    "heat_light_sensitivity": "Sesquiterpenlactone sind licht- und oxidationsempfindlich; Droge dunkel und trocken lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Helenalin hemmt den Transkriptionsfaktor NF-κB und damit die Bildung von Entzündungsmediatoren; daraus resultieren die äußerlich beobachteten antiphlogistischen, analgetischen und leicht antiseptischen Effekte bei stumpfen Verletzungen.",
+    "evidence_caveat": "Die klinische Evidenz für die äußerliche Anwendung ist begrenzt und heterogen; die HMPC führt Arnika daher als traditional use (mit langer Anwendungserfahrung), nicht als well-established use. Innerliche Wirksamkeitsbelege fehlen und die innerliche Anwendung ist wegen der Toxizität ohnehin obsolet.",
+    "pharmacokinetics": "unsicher — zu prüfen (perkutane Resorption der Sesquiterpenlactone nicht gut quantifiziert)"
+  },
+  "indications": [
+    {
+      "canonical": "Stumpfe Verletzungen: Prellungen, Blutergüsse, Verstauchungen (äußerlich)",
+      "synonyms": [
+        "blaue Flecken",
+        "Bluterguss",
+        "Prellung",
+        "Verstauchung",
+        "Zerrung",
+        "Sportverletzung",
+        "geschwollenes Gelenk nach Stoß"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC Community herbal monograph Arnica montana L., flos (traditional use, nur zur Anwendung auf der Haut).",
+      "realistic_expectation": "Kann bei GESCHLOSSENEN Verletzungen äußerlich Schwellung und Schmerz lindern. Ersetzt keine Ruhigstellung/Kühlung bei schweren Verletzungen. NICHT auf offene Wunden, NICHT einnehmen.",
+      "source": "HMPC traditional use; ESCOP (Arnicae flos); Kommission E"
+    },
+    {
+      "canonical": "Lokale Muskel- und Gelenkschmerzen, rheumatische Beschwerden (äußerlich)",
+      "synonyms": [
+        "Muskelschmerzen",
+        "Muskelkater",
+        "Verspannung",
+        "Gelenkschmerzen",
+        "Rheuma",
+        "Gliederschmerzen"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use / Kommission E — äußerliche symptomatische Anwendung.",
+      "realistic_expectation": "Traditionell schmerzlindernd bei muskulären Beschwerden; symptomatisch, mild bis moderat. Kein krankheitsmodifizierender Effekt bei Arthrose/Rheuma.",
+      "source": "HMPC traditional use; Kommission E"
+    },
+    {
+      "canonical": "Entzündungen nach Insektenstichen; oberflächliche Hautentzündungen und kleine Furunkel (äußerlich)",
+      "synonyms": [
+        "Insektenstich",
+        "Mückenstich",
+        "entzündeter Stich",
+        "kleine Furunkel",
+        "oberflächliche Hautentzündung"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use, nur auf intakter Haut.",
+      "realistic_expectation": "Traditionelle äußerliche Linderung lokaler Entzündungszeichen. Nicht auf offene/nässende Stellen oder Schleimhäute.",
+      "source": "HMPC traditional use"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Äußerlich abschwellendes, schmerzlinderndes und entzündungshemmendes Mittel bei stumpfen Verletzungen und Muskelbeschwerden — traditionell verankert, durch ESCOP gestützt.",
+    "overstated": "Arnika ist KEIN inneres Heilmittel: die Einnahme von Tinktur/Tee kann Herzrhythmusstörungen bis zum Herzstillstand auslösen. Homöopathische Arnika-Globuli sind hochverdünnt und pharmakologisch etwas grundsätzlich anderes — von ihnen darf man keine stoffliche Arnikawirkung ableiten. Auch als Wundheilmittel für offene Wunden ist Arnika ungeeignet und schädlich.",
+    "effect_size": "mild bis moderat; rein symptomatisch und ausschließlich äußerlich"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Fertige Arnika-Salbe/-Creme/-Gel (standardisiert)",
+      "Verdünnte Tinktur für Umschläge",
+      "Arnikaöl (Ölauszug) für Einreibungen"
+    ],
+    "form_rationale": "Die lipophilen/alkohollöslichen Sesquiterpenlactone gehen in Salben, Öle und alkoholische Auszüge über. Die Tinktur ist für die direkte Hautanwendung zu konzentriert und muss verdünnt werden; ein wässriger Tee ist sinnlos, da nur äußerlich angewendet wird.",
+    "standard_dose": "Tinktur für Umschläge etwa 1:3 bis 1:10 mit Wasser verdünnen; Salben mit rund 10–25 % Tinktur bzw. 15 % Arnikaöl. Nur auf intakte Haut, nicht großflächig über längere Zeit (Gefahr von Reizung/Bläschen).",
+    "preservation": "Getrocknete Blüten licht- und luftgeschützt aufbewahren; Zubereitungen kühl lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Korbblütlerallergie (Kreuzallergie)",
+      "Offene Wunden, verletzte oder entzündete Haut, Ekzeme, Schleimhäute",
+      "Jegliche innerliche Anwendung (Einnahme)",
+      "Anwendung bei Kleinkindern und längere großflächige Anwendung"
+    ],
+    "pregnancy_lactation": "Innerlich absolut kontraindiziert. Für die äußerliche Anwendung in Schwangerschaft und Stillzeit fehlen ausreichende Daten — vorsichtshalber meiden bzw. nur nach ärztlicher Rücksprache.",
+    "adverse_effects": "Häufig allergische Kontaktdermatitis (Sesquiterpenlactone/Helenalin); bei längerer oder konzentrierter Anwendung Hautreizung, Bläschen- und Ödembildung. Innerliche Einnahme ist toxisch: Übelkeit, Erbrechen, Schwindel, Herzrhythmusstörungen, in schweren Fällen Atem-/Herzstillstand.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Bei bestimmungsgemäßer äußerlicher Anwendung sind keine systemischen Arzneimittelinteraktionen zu erwarten.",
+        "affected": "—",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": true,
+      "high_safety": false
+    },
+    "key_warning": "Nur äußerlich und verdünnt auf INTAKTE Haut anwenden — niemals einnehmen (Helenalin: Herzrhythmusstörungen bis Herzstillstand) und nicht auf offene Wunden oder Schleimhäute auftragen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Voll erblühte Körbchen im Juni–August — nur aus Anbau, da wild geschützt",
+    "harvest_month_tags": [
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Blüte",
+    "method": "Körbchen bei trockenem Wetter ohne Stiel pflücken (nur aus Kultur/Handel)",
+    "processing": "Rasch, luftig und schattig trocknen; nicht über 45 °C",
+    "storage": "Dunkel, trocken und luftdicht; Sesquiterpenlactone sind licht-/oxidationsempfindlich"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine Küchenverwendung. Arnika ist innerlich giftig und gehört nicht in Speisen oder Tees."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, saurer bis stark saurer, kalkfreier, magerer und eher feuchter Boden",
+    "hardiness": "Winterhart, aber kulturschwierig und kalkfliehend",
+    "propagation": "Aussaat (Kaltkeimer, keimt langsam) oder Teilung; braucht konkurrenzarme Magerstandorte",
+    "bodensee_suitability": "Schwierig. Die kalkmeidende Art gedeiht im überwiegend kalkreichen Bodenseeraum kaum; sinnvoll nur auf gezielt sauren Moor-/Heidebeeten. Wildbestände sind geschützt."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Gegenständige Stängelblätter — das sicherste Unterscheidungsmerkmal gegenüber giftigen gelben Korbblütlern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC — Community herbal monograph on Arnica montana L., flos (traditional use, 2014); Assessment report Arnicae flos",
+    "ESCOP Monograph Arnicae flos",
+    "Kommission E — Arnikablüten (positiv, äußerlich)",
+    "Toxikologische Sekundärquellen zu Helenalin/Sesquiterpenlacton-Kontaktallergie und innerlicher Giftigkeit"
+  ]
+}

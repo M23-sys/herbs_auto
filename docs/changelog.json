@@ -303,6 +303,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat tier 2). KEINE HMPC/ESCOP/positive Kommission-E-Einzelmonographie. WICHTIG: Sauerampferkraut ist eine von fuenf Komponenten der Fixkombination Sinupret — die klinische/RCT-Evidenz bei Rhinosinusitis gehoert der Kombination, NICHT der Einzeldroge (Sauerampfertee reproduziert das nicht); Indikation daher TRAD mit ausdruecklichem Hinweis. Sicherheitsbestimmend ist die Oxalsaeure (toxin_ceiling=true, dokumentierte toedliche Vergiftung ~6-8 g aus ~500 g Suppe; KI bei Nierensteinen/Niereninsuffizienz/Gicht). Verwechslung mit Aronstab (giftig, brennend-scharf statt sauer) → Geschmacksprobe als Sammelanker; kein akut toedlicher Doppelgaenger → deadly_confusion=false."
+    },
+    {
+      "ts": "2026-07-19T12:30:00Z",
+      "id": "arnica-montana",
+      "common": "Arnika",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). HMPC fuehrt Arnicae flos nur als TRADITIONAL USE und ausschliesslich zur AEUSSERLICHEN Anwendung (Prellungen/Verstauchungen, Muskel-/Gelenkschmerzen, Insektenstich-Entzuendungen, kleine Furunkel); ESCOP/Kommission E stuetzen die topische Nutzung. Sicherheitskern: innerliche Einnahme ist wegen Helenalin toxisch (Herzrhythmusstoerungen bis Herzstillstand) → topical_only=true; nicht auf offene Wunden/Schleimhaeute. Homoeopathische Globuli sind hochverduennt und pharmakologisch NICHT gleichzusetzen. Verwechslung: sicherheitsrelevant das PA-haltige Greiskraut (Senecio, giftig) — Unterscheidung ueber GEGENSTAENDIGE Blaetter (bei Korbbluetlern selten) und Arnikageruch; kein lebensgefaehrlicher Doppelgaenger → deadly_confusion=false. Wild besonders geschuetzt (BArtSchV), nur Anbau."
+    },
+    {
+      "ts": "2026-07-19T12:30:00Z",
+      "id": "tanacetum-parthenium",
+      "common": "Mutterkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). HMPC-Monographie (herba, 2020) fuehrt Mutterkraut als TRADITIONAL USE zur MIGRAENE-PROPHYLAXE (kein Akutmittel), nachdem ein Arzt ernste Ursachen ausgeschlossen hat; ESCOP-gestuetzt, Cochrane 2015 aber INKONSISTENT (nur MIG-99-Extrakt klar wirksam) → getaggt TU/ESCOP+ mit ausdruecklichem Evidenzvorbehalt. Sicherheitskern: in der Schwangerschaft wegen wehenausloesend/abortiver Wirkung STRENG kontraindiziert (pregnancy_contraindicated=true; daher der Name 'Mutterkraut'); frische Blaetter → Mundgeschwuere; 'Post-Feverfew-Syndrom' beim abrupten Absetzen; Thrombozytenhemmung (Blutungsrisiko mit Antikoagulanzien). Verwechslung mit giftigem Rainfarn (gleiche Gattung, Thujon) und harmloser Kamille — Unterscheidung ueber flachen, innen hohlen Bluetenboden und bitteren Geruch; deadly_confusion=false."
     }
   ]
 }
