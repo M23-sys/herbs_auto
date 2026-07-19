@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "id": "rumex-acetosa",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Rumex acetosa L.",
+    "common_names_de": [
+      "Wiesen-Sauerampfer",
+      "Großer Sauerampfer",
+      "Sauerampfer",
+      "Sauerlump"
+    ],
+    "family": "Knöterichgewächse (Polygonaceae)",
+    "drug_part": [
+      "Kraut/Blätter (Herba)"
+    ],
+    "drug_name_latin": "Rumicis acetosae herba (Acetosae herba)",
+    "synonyms": [
+      "Acetosa pratensis",
+      "Lapathum acetosa",
+      "Lapathum pratense"
+    ],
+    "synonym_note": "Auch als Acetosa pratensis Mill. bzw. Lapathum acetosa geführt; akzeptiert ist Rumex acetosa L."
+  },
+  "identification": {
+    "key_features": [
+      "Geschmacksprobe (SICHERSTES Merkmal): Blatt schmeckt deutlich sauer/zitronig — der giftige Aronstab schmeckt NIE sauer, sondern brennend-scharf → sofort ausspucken",
+      "Blätter pfeil-/spießförmig mit nach hinten-unten gerichteten SPITZEN Öhrchen (Aronstab: abgerundete Pfeilenden)",
+      "Fiedernervatur mit kräftigem Mittelnerv (Aronstab: netzadrig, speckig glänzend, fleischiger)",
+      "typische Tüten (Ochreae) an den Stängelknoten — Merkmal der Knöterichgewächse",
+      "Blütenstand rispig, rötlich überlaufen; Pflanze 30-100 cm, zweihäusig; Blüte Mai-August"
+    ],
+    "season": "junge Blätter ab März/April; Blüte Mai-August",
+    "habitat": "Fettwiesen, Weiden, Wegränder, nährstoffreiche frische Böden; sehr häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Junge Blätter vor der Blüte ernten (milder, oxalatärmer)",
+      "GESCHMACKSPROBE als Sicherheitsanker: nur eindeutig sauer schmeckende Blätter verwenden",
+      "Besonders im zeitigen Frühjahr Verwechslung mit Aronstab-Jungblättern möglich — im Zweifel verwerfen",
+      "In Maßen ernten und verzehren (Oxalsäuregehalt)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Aronstab",
+      "scientific_name": "Arum maculatum",
+      "toxicity_level": "giftig",
+      "toxin": "Calciumoxalat-Nadeln (Raphiden) und scharf wirkende Inhaltsstoffe (Aroin/Saponine)",
+      "note": "Jungblätter ähneln Sauerampfer, sind aber netzadrig, speckig glänzend, mit abgerundeten Pfeilenden und dicker/fleischiger; Geschmack brennend-scharf statt sauer. Führt zu Brennen/Schwellung an Mund und Rachen; schwere Vergiftungen selten, aber stark giftig — besonders für Kinder gefährlich."
+    },
+    {
+      "name": "Stumpfblättriger/Krauser Ampfer",
+      "scientific_name": "Rumex obtusifolius / Rumex crispus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandt, größere Blätter ohne den typischen sauren Geschmack, eher bitter und noch oxalatreicher; kein tödliches Risiko, aber kulinarisch/gehaltlich anders. Zur sicheren Unterscheidung Geschmacks- und Blattform-Probe."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Oxalsäure/Kaliumoxalat (Größenordnung 300-500 mg/100 g Frischblatt)",
+      "Flavonoide (u.a. Hyperosid, Quercetin- und Kämpferolglykoside)",
+      "Anthrachinone (Spuren; in der Wurzel mehr)",
+      "Vitamin C, Gerbstoffe, Eisen"
+    ],
+    "lead_substance": "Oxalsäure/Oxalate — sowohl geschmacksgebend (sauer) als auch sicherheitsbestimmend (Nierensteine, in hoher Dosis toxisch); Flavonoide für die schwach antioxidativ/antiphlogistische Zuschreibung",
+    "solubility_note": "Oxalate und Vitamin C sind wasserlöslich; Blanchieren und Abgießen des Kochwassers senkt den Oxalatgehalt. Als Frischgemüse/Frischsaft üblich, nicht als arzneilicher Tee etabliert.",
+    "heat_light_sensitivity": "Vitamin C hitze- und lagerungsempfindlich; Oxalsäure ist hitzestabil und wird nur durch Auslaugen (Kochwasser abgießen) teilweise entfernt"
+  },
+  "pharmacology": {
+    "mechanism": "Als eine von fünf Komponenten der Fixkombination Sinupret (mit Enzian, Schlüsselblume, Holunder, Eisenkraut): sekretolytisch/antiphlogistisch bei Rhinosinusitis — die Wirkung ist dem Kombinationspräparat, nicht der Einzeldroge zuzuordnen. Flavonoide präklinisch antioxidativ/antiinflammatorisch.",
+    "evidence_caveat": "Für die Einzeldroge Rumex acetosa existiert KEINE HMPC-, keine ESCOP- und keine positive Kommission-E-Monographie. Klinische Evidenz betrifft ausschließlich die Fixkombination (Sinupret), nicht den Sauerampfer allein. Alle Monoanwendungen sind volksmedizinisch (TRAD).",
+    "pharmacokinetics": "unsicher — zu prüfen"
+  },
+  "indications": [
+    {
+      "canonical": "Akute/chronische Rhinosinusitis — NUR als Bestandteil der Fixkombination (Sinupret)",
+      "synonyms": [
+        "Nasennebenhöhlenentzündung",
+        "Sinusitis",
+        "Schnupfen",
+        "verstopfte Nase",
+        "Nebenhöhlen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Sauerampferkraut ist eine von fünf Komponenten von Sinupret; für diese Fixkombination liegt klinische/RCT-Evidenz bei Rhinosinusitis vor — NICHT jedoch für die Einzeldroge Rumex acetosa, die keine eigene HMPC-/ESCOP-/Kommission-E-Monographie besitzt. Ein häuslicher Sauerampfertee reproduziert diese Wirkung nicht.",
+      "realistic_expectation": "Selbst zubereiteter Sauerampfer (Tee/Gemüse) hat KEINEN belegten Nutzen bei Sinusitis. Die Studienwirkung gehört dem industriellen Kombinationspräparat, nicht dem Kraut allein.",
+      "source": "Klinische Studien zur Fixkombination Sinupret (BNO 101/1016); für die Einzeldroge keine Monographie"
+    },
+    {
+      "canonical": "Traditionell: Frühjahrskur/'Blutreinigung', Appetit, historisch Skorbutprophylaxe",
+      "synonyms": [
+        "Blutreinigung",
+        "Frühjahrskur",
+        "Vitamin C",
+        "Skorbut",
+        "Frühjahrsmüdigkeit",
+        "Appetit"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizin; historisch als Vitamin-C-reiches Antiskorbutikum geschätzt. Keine belegte arzneiliche Wirkung.",
+      "realistic_expectation": "Als frisches, Vitamin-C-reiches Wildgemüse sinnvoll; ein 'blutreinigender' Arzneieffekt ist nicht belegt.",
+      "source": "Volksmedizin; Madaus (Lehrbuch der biologischen Heilmittel)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Schmackhaftes, Vitamin-C-reiches Wildgemüse ('Zitrone der Wildkräuter'); als eine von fünf Komponenten in Sinupret Teil eines klinisch geprüften Sinusitis-Präparats.",
+    "overstated": "Als Einzel-Heilpflanze überschätzt: Die Sinusitis-Evidenz gehört der Fixkombination, nicht dem Sauerampfertee. 'Blutreinigung' ist ohne Beleg. Der Oxalsäuregehalt macht das Kraut zudem NICHT beliebig gesund — bei Nierensteinen/Niereninsuffizienz ist es problematisch.",
+    "effect_size": "als Einzeldroge kein belegter arzneilicher Effekt; kulinarisch/nutritiv mild"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frische Blätter (Küche/Salat/Suppe)",
+      "Frischsaft (traditionell)"
+    ],
+    "form_rationale": "Säure (Aroma) und Vitamin C sind an frische Blätter gebunden; Kochen und Abgießen reduziert die Oxalatlast. Ein etablierter arzneilicher Tee existiert nicht.",
+    "standard_dose": "Als Gemüse in Maßen; keine arzneiliche Standarddosis. Wegen der Oxalsäure nicht in großen Mengen und nicht täglich als Hauptgemüse.",
+    "preservation": "frisch; einfrieren (blanchiert); nicht in Eisen-/Aluminiumgeschirr zubereiten (Oxalat reagiert, metallischer Geschmack)"
+  },
+  "safety": {
+    "tox_ceiling": "Oxalsäure ca. 300-500 mg/100 g Frischblatt. Tödliche Oxalsäure-Dosis ca. 5-15 g; dokumentiert ist eine tödliche Vergiftung durch ca. 6-8 g Oxalsäure aus etwa 500 g Sauerampfer als Suppe. Küchenmengen unbedenklich; große Mengen und rohen Massenverzehr meiden.",
+    "contraindications": [
+      "Nierensteine (v.a. Calciumoxalatsteine)",
+      "Niereninsuffizienz",
+      "Gicht / rheumatische Erkrankungen",
+      "Hyperoxalurie",
+      "Kleinkinder nur kleine Mengen"
+    ],
+    "pregnancy_lactation": "Küchenmengen gelten als unbedenklich; große Mengen wegen der Oxalsäure meiden. Bei bekannter Nierenbelastung unsicher — zu prüfen.",
+    "adverse_effects": "In großen Mengen oxalatbedingt: Magen-Darm-Reizung, Nierenreizung/-steine, bei Extremdosen Hypokalzämie und Nierenschädigung; metallischer Geschmack, Zahnrauheit.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Oxalat bindet Calcium und Eisen und kann deren Aufnahme mindern; additive Oxalatlast bei oxalatreicher Kost und bei Steinbildnern",
+        "affected": "Calcium-/Eisenpräparate; klinisch relevant v.a. bei Nephrolithiasis",
+        "clinical_relevance": "gering bis relevant (dosisabhängig)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Oxalsäure",
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "raw_toxicity": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Oxalsäurereich: in großen Mengen (v.a. als Suppe oder roh) nieren- und magenreizend, in Extremdosis toxisch (tödliche Vergiftungen dokumentiert); bei Nierensteinen, Niereninsuffizienz oder Gicht meiden. Beim Sammeln Geschmacksprobe — Aronstab schmeckt scharf, nicht sauer."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "junge Blätter März-Mai (vor der Blüte am mildesten und oxalatärmsten)",
+    "harvest_month_tags": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "harvest_organ": "Blatt",
+    "method": "junge Rosettenblätter pflücken; Geschmacksprobe zur Abgrenzung vom Aronstab",
+    "processing": "frisch verwenden; zum Senken des Oxalatgehalts blanchieren und das Wasser abgießen",
+    "storage": "frisch kühl wenige Tage; blanchiert einfrieren"
+  },
+  "kitchen": {
+    "uses": [
+      "Sauerampfersuppe",
+      "Frankfurter Grüne Soße",
+      "Salat",
+      "Sauce zu Fisch",
+      "Spinatersatz (sparsam)"
+    ],
+    "culinary_vs_medicinal": "Primär Küchenkraut/Wildgemüse. Grenze: in Maßen wohlschmeckend und vitaminreich; eine 'Heilwirkung' als Einzeldroge ist nicht belegt, und der Oxalsäuregehalt begrenzt die Menge."
+  },
+  "garden": {
+    "site_soil": "nährstoffreich, frisch, sonnig bis halbschattig",
+    "hardiness": "winterhart, ausdauernd",
+    "propagation": "Aussaat oder Teilung; sät sich selbst aus und kann wuchern",
+    "bodensee_suitability": "Im Bodenseeraum sehr gut; wächst wild sehr häufig und ist im Garten problemlos."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine Monographie zur Einzeldroge Rumex acetosa",
+    "ESCOP: keine Monographie; keine positive Kommission-E-Einzelmonographie gefunden (unsicher — zu prüfen)",
+    "Bestandteil der Fixkombination Sinupret (Bionorica) — klinische Evidenz betrifft die Kombination, nicht den Sauerampfer allein",
+    "Madaus, Lehrbuch der biologischen Heilmittel (Rumex acetosa/crispus)",
+    "Oxalsäure/Toxikologie und Bestimmung/Aronstab-Abgrenzung: pflanzen-vielfalt.net, gartenjournal.net, waldsamkeit.de; Taxonomie/Synonyme: POWO (Kew), GBIF"
+  ]
+}

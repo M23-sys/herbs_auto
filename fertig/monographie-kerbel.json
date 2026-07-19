@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "id": "anthriscus-cerefolium",
+  "stand": "2026-07-19",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Anthriscus cerefolium (L.) Hoffm.",
+    "common_names_de": [
+      "Echter Kerbel",
+      "Gartenkerbel",
+      "Suppenkerbel",
+      "Küchenkerbel"
+    ],
+    "family": "Doldenblütler (Apiaceae)",
+    "drug_part": [
+      "Kraut (Herba)",
+      "frische Blätter"
+    ],
+    "drug_name_latin": "Cerefolii herba (Anthrisci cerefolii herba)",
+    "synonyms": [
+      "Chaerophyllum sativum",
+      "Scandix cerefolium",
+      "Cerefolium sativum",
+      "Anthriscus longirostris"
+    ],
+    "synonym_note": "Historisch u.a. als Chaerophyllum sativum, Scandix cerefolium und Cerefolium sativum geführt; akzeptiert ist Anthriscus cerefolium (L.) Hoffm."
+  },
+  "identification": {
+    "key_features": [
+      "Geruchsprobe (SICHERSTES Merkmal): zerriebenes Kraut riecht angenehm süßlich-würzig nach Anis/Petersilie — NICHT nach Mäuseurin (Gefleckter Schierling) und nicht unangenehm/knoblauchartig (Hundspetersilie)",
+      "Stängel grün, fein behaart, OHNE rotbraune Flecken (Gefleckter Schierling: kahler, blaugrün bereifter Stängel mit roten Flecken v.a. unten)",
+      "Blätter zart, hellgrün, 2-3fach fein gefiedert, weich",
+      "kleine weiße Blüten in lockeren Doppeldolden, Blüte Mai-Juli; niedrige Pflanze 30-70 cm",
+      "einjähriges Kulturkraut; verwildert nur selten"
+    ],
+    "season": "Blüte Mai-Juli; als Küchenkraut ganzjährig frisch (vor der Blüte am aromatischsten)",
+    "habitat": "Kulturpflanze in Gärten; ursprünglich Südosteuropa/Kaukasus; selten an Wegrändern und Gebüschen verwildert",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Nur aus sicherer Kultur ernten — Wildsammlung von 'Kerbel' ist für Laien wegen der lebensgefährlichen Doldenblütler-Doppelgänger tabu",
+      "Vor der Blüte ernten (aromatischer)",
+      "Immer Geruchsprobe: Anis/Petersilie = Kerbel; Mäuseurin oder unangenehmer Geruch = giftiger Doppelgänger → verwerfen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und weitere Piperidinalkaloide",
+      "note": "Stängel kahl, blaugrün bereift, mit rotbraunen Flecken v.a. im unteren Drittel; Geruch nach Mäuseurin. Kerbel: behaarter grüner Stängel, Anisgeruch. Bereits 0,5-1 g Coniin sind für Erwachsene tödlich (Atemlähmung)."
+    },
+    {
+      "name": "Hundspetersilie (Gartenschierling)",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Aethusin und verwandte Polyine (coniinähnliche Wirkung)",
+      "note": "3-4 auffällig lange, herabhängende Hüllchenblättchen unter den Einzeldöldchen (Kerbel: keine Hüllchen dieser Art); Blätter dunkler und glänzend, unangenehmer Geruch beim Zerreiben. Vergiftungen, besonders bei Kindern, können tödlich verlaufen."
+    },
+    {
+      "name": "Wiesen-Kerbel",
+      "scientific_name": "Anthriscus sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Größer und gröber, Stängel gefurcht und behaart, deutlich weniger aromatisch; grundsätzlich essbar, aber fad. Achtung: wird selbst von Laien mit Schierling verwechselt — Geruchs-/Merkmalsprobe bleibt Pflicht."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "ätherisches Öl (u.a. Methylchavicol/Estragol, Anethol)",
+      "Flavonoide (u.a. Apiin)",
+      "Cumarine (Spuren)",
+      "Vitamin C, Carotinoide, Mineralstoffe (Eisen)"
+    ],
+    "lead_substance": "ätherisches Öl mit Methylchavicol (Estragol) — aromaprägend; Estragol ist toxikologisch als potenziell gentoxisch/kanzerogen bewertet (ob küchenübliche Mengen relevant sind: unsicher — zu prüfen)",
+    "solubility_note": "Aroma an flüchtiges ätherisches Öl gebunden → nur frisch verwenden, nicht mitkochen; Trocknen und Hitze zerstören Aroma und Gehalt weitgehend. Für Küche/Frischsaft, nicht als arzneilicher Tee sinnvoll.",
+    "heat_light_sensitivity": "ätherisches Öl hitze- und lagerungsempfindlich; getrockneter Kerbel ist nahezu geschmack- und wirkungslos"
+  },
+  "pharmacology": {
+    "mechanism": "Kein belegter arzneilicher Wirkmechanismus. Traditionell zugeschriebene harntreibende, 'blutreinigende' und magenberuhigende Effekte sind pharmakologisch nicht belegt.",
+    "evidence_caveat": "Keine klinischen Studien, keine EMA/HMPC- und keine ESCOP-Monographie. Ein positiver oder negativer Kommission-E-Status ließ sich nicht sicher belegen (unsicher — zu prüfen). Sämtliche Heilanwendungen sind rein volksmedizinisch (TRAD).",
+    "pharmacokinetics": "unsicher — zu prüfen; keine belastbaren Daten"
+  },
+  "indications": [
+    {
+      "canonical": "Traditionelle 'Frühjahrskur' / 'Blutreinigung'",
+      "synonyms": [
+        "Blutreinigung",
+        "Entschlackung",
+        "Frühjahrskur",
+        "Frühjahrsmüdigkeit"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinisch; keine regulatorische Monographie (weder HMPC noch ESCOP; Kommission-E-Status unsicher — zu prüfen).",
+      "realistic_expectation": "Als nährstoff- und vitaminreiches Frühlingskraut in der Küche sinnvoll; ein arzneilicher 'Entschlackungs-' oder Blutreinigungseffekt ist nicht belegt und nicht zu erwarten.",
+      "source": "Volksmedizin (Dioskurides; überlieferte Kräuterheilkunde)"
+    },
+    {
+      "canonical": "Traditionell bei Verdauungsbeschwerden / als mildes Diuretikum",
+      "synonyms": [
+        "Verdauung",
+        "Blähungen",
+        "Magenbeschwerden",
+        "harntreibend",
+        "Wassertreiben",
+        "Husten"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Anwendung (Dioskurides: magenberuhigend, harntreibend; auch gegen Husten). Keine belegte Wirksamkeit.",
+      "realistic_expectation": "Bestenfalls milder Würz-/Appetiteffekt; kein Ersatz für ein geprüftes Karminativum, Diuretikum oder Hustenmittel.",
+      "source": "Volksmedizin; regulatorischer Beleg fehlt (unsicher — zu prüfen)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Feines aromatisches Küchenkraut (Feinschmecker- und Suppenkraut) und Vitamin-C-Lieferant im Frühjahr.",
+    "overstated": "Als Heilpflanze deutlich überschätzt: 'Blutreinigung'/'Entschlackung' sind ohne jede Evidenz, es existiert KEINE HMPC-/ESCOP-Monographie. Der eigentliche Wert dieses Eintrags ist die Verwechslungswarnung, nicht ein Heilanspruch.",
+    "effect_size": "kein belegter arzneilicher Effekt; kulinarisch/mild"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frisches Kraut (Küche)",
+      "Frischsaft (traditionell)"
+    ],
+    "form_rationale": "Wirk- und Aromastoffe im flüchtigen ätherischen Öl → nur frisch sinnvoll; Trocknen und Kochen zerstören sie. Kein Tee/keine Droge mit belegtem Nutzen.",
+    "standard_dose": "Als Küchenkraut; keine arzneiliche Standarddosis definiert. Große medizinische Mengen wegen des Estragolgehalts meiden (unsicher — zu prüfen).",
+    "preservation": "frisch verwenden; Einfrieren erhält das Aroma besser als Trocknen"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Keine spezifischen bei küchenüblicher Menge",
+      "Große medizinische Dosen wegen Estragolgehalt meiden (unsicher — zu prüfen)"
+    ],
+    "pregnancy_lactation": "Küchenübliche Mengen gelten als unbedenklich. Große medizinische Mengen in der Schwangerschaft meiden (traditionell emmenagoger Ruf; Estragol) — Datenlage dünn, unsicher — zu prüfen.",
+    "adverse_effects": "Bei küchenüblichem Gebrauch kaum bekannt. Saftkontakt und Sonne theoretisch phototoxisch (Furanocumarine bei Doldenblütlern) — für Kerbel gering, unsicher — zu prüfen.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Bei küchenüblichem Gebrauch keine bekannten klinisch relevanten Arzneimittelinteraktionen",
+        "affected": "-",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "apiaceae_confusion_young": true,
+      "photosensitizing": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Wildsammlung als 'Kerbel' ist lebensgefährlich: Verwechslung mit Geflecktem Schierling und Hundspetersilie kann tödlich enden — nur aus sicherer Kultur verwenden und immer die Geruchsprobe machen (Anis, nicht Mäuseurin)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "frische Blätter Mai-Juli, vor bzw. zu Blühbeginn; im Gewächshaus/auf der Fensterbank nahezu ganzjährig",
+    "harvest_month_tags": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Blätter/Triebe frisch abschneiden, ausschließlich aus sicherer Kultur",
+    "processing": "frisch verwenden; nicht mitkochen (Aromaverlust)",
+    "storage": "kühl, nur wenige Tage haltbar; Einfrieren besser als Trocknen"
+  },
+  "kitchen": {
+    "uses": [
+      "Kerbelsuppe",
+      "Frankfurter Grüne Soße",
+      "Kräuterbutter",
+      "Salate",
+      "Eierspeisen"
+    ],
+    "culinary_vs_medicinal": "Kerbel ist primär ein Küchenkraut. Die Grenze ist klar: kulinarisch wertvoll, medizinisch ohne belegte Wirkung."
+  },
+  "garden": {
+    "site_soil": "halbschattig, frisch-humoser Boden; verträgt keine pralle Trockenheit/Hitze (schosst dann)",
+    "hardiness": "einjährig; kühles Wetter bevorzugt, Aussaat Frühjahr und Spätsommer",
+    "propagation": "Direktsaat (Dunkelkeimer), mehrmalige Aussaat für laufende Ernte",
+    "bodensee_suitability": "Im Bodenseeraum gut als Gartenkultur; Wildvorkommen unbedeutend. Wildsammlung wegen der Schierlingsgefahr ausdrücklich nicht empfohlen."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine Monographie zu Anthriscus cerefolium",
+    "ESCOP: keine Monographie; Kommission E: kein positiver Beleg gefunden (unsicher — zu prüfen)",
+    "Botanik/Taxonomie: POWO (Kew), GBIF, Wikispecies (Anthriscus cerefolium, Synonyme)",
+    "Verwechslung/Gift: de.wikipedia.org (Echter Kerbel; Gefleckter Schierling), NABU, kraeuterportraits.blogspot.com, pflanzen-vielfalt.net, abenteuer-am-wegesrand.at",
+    "Gernot Katzer's Spice Pages (Anthriscus cerefolium)"
+  ]
+}

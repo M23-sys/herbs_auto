@@ -287,6 +287,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat tier 2). Populaerer Ruf als 'Gicht-/Podagrakraut' ist NICHT evidenzgestuetzt: KEINE HMPC/ESCOP, Kommission E fuehrt nicht einmal eine (negative) Monographie -> Indikationen nur TRAD. Nutzwert liegt im Wildgemuese (sehr hoher Vitamin-C-Gehalt). Sicherheitskritisch: Doldenbluetler mit LEBENSGEFAEHRLICHEN Doppelgaengern (Gefleckter/Wasser-Schierling) -> deadly_confusion=true, apiaceae_confusion_young=true; Bestimmung ueber 3-3-3-Regel (dreikantiger Blattstiel) und Moehrengeruch."
+    },
+    {
+      "ts": "2026-07-19T12:00:00Z",
+      "id": "anthriscus-cerefolium",
+      "common": "Echter Kerbel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). KEINE HMPC/ESCOP-Monographie; Kommission-E-Status nicht sicher belegbar (als 'unsicher — zu pruefen' markiert) — alle Indikationen daher TRAD. Kernpunkt ist die Sicherheitswarnung, nicht der Heilanspruch: als Kuechenkraut wertvoll, arzneilich unbelegt. LEBENSGEFAEHRLICHE Doldenbluetler-Doppelgaenger (Gefleckter Schierling/Coniin, Hundspetersilie) → deadly_confusion=true, apiaceae_confusion_young=true; sicherstes Merkmal ist die Geruchsprobe (Anis vs. Maeuseurin). Estragol im aetherischen Oel als toxikologischer Vorbehalt vermerkt."
+    },
+    {
+      "ts": "2026-07-19T12:00:00Z",
+      "id": "rumex-acetosa",
+      "common": "Wiesen-Sauerampfer",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat tier 2). KEINE HMPC/ESCOP/positive Kommission-E-Einzelmonographie. WICHTIG: Sauerampferkraut ist eine von fuenf Komponenten der Fixkombination Sinupret — die klinische/RCT-Evidenz bei Rhinosinusitis gehoert der Kombination, NICHT der Einzeldroge (Sauerampfertee reproduziert das nicht); Indikation daher TRAD mit ausdruecklichem Hinweis. Sicherheitsbestimmend ist die Oxalsaeure (toxin_ceiling=true, dokumentierte toedliche Vergiftung ~6-8 g aus ~500 g Suppe; KI bei Nierensteinen/Niereninsuffizienz/Gicht). Verwechslung mit Aronstab (giftig, brennend-scharf statt sauer) → Geschmacksprobe als Sammelanker; kein akut toedlicher Doppelgaenger → deadly_confusion=false."
     }
   ]
 }

@@ -648,3 +648,31 @@ Damit ist die Wunschliste nach diesem Lauf vollstaendig abgearbeitet (Abhaken ma
 3. **Giersch — populärer „Gicht-Heiler"-Ruf überzeichnet die Datenlage** deutlich (in `expectation_summary.overstated` benannt). Realer Nutzen: nährstoffreiches Wildgemüse. **Eigentliche Gefahr = Doldenblütler-Verwechslung** beim Ernten der jungen Blätter vor der Blüte: Gefleckter/Wasser-Schierling (lebensgefährlich) → `deadly_confusion=true`, `apiaceae_confusion_young=true`. Bestimmung strikt über 3-3-3-Regel (dreikantiger Blattstiel) + Möhrengeruch.
 
 4. **Neues Flag-Paar** `raw_toxicity`/`requires_heating` beim Hartriegel genutzt (beide in `KNOWN_FLAGS` des Prüfskripts) — der Arzt möge prüfen, ob die App diese Register wie erwartet anzeigt.
+
+## 2026-07-19 (Lauf 6) — Echter Kerbel (KANDIDAT), Wiesen-Sauerampfer (KANDIDAT)
+
+**Auswahl (genau 2):** Wunschliste hat Vorrang, ist aber **abgearbeitet** — der einzige Eintrag in `docs/wunschliste.json` (cornus-sanguinea / Blutroter Hartriegel) liegt bereits als `fertig/monographie-blutroter-hartriegel.json` (id=cornus-sanguinea, im Vorlauf 2026-07-19 erstellt) → 0 offene Wünsche → beide Kräuter aus der Kandidatenliste. Niedrigste offene tier = 2, in Listenreihenfolge die nächsten offenen nach Giersch/Engelwurz/Traubensilberkerze:
+- **anthriscus-cerefolium** (Echter Kerbel) — Quelle: Kandidatenliste tier 2 (erster offener Eintrag) — `fertig/monographie-kerbel.json`
+- **rumex-acetosa** (Wiesen-Sauerampfer) — Quelle: Kandidatenliste tier 2 (zweiter offener Eintrag) — `fertig/monographie-sauerampfer.json`
+
+**Dedup:** Beide neu — kein Treffer gegen `id`/`botany.synonyms` in `fertig/` noch gegen `vorhanden`. Altnamen selbst eingetragen: Anthriscus cerefolium → Chaerophyllum sativum / Scandix cerefolium / Cerefolium sativum / Anthriscus longirostris; Rumex acetosa → Acetosa pratensis / Lapathum acetosa / Lapathum pratense. Skript-Dublettencheck sauber. Kein Self-Heal nötig.
+
+**Status/Changelog:** beide Kandidaten in `kraeuter-kandidaten.json` auf `entwurf_fertig` + `datei` gesetzt (NICHT `geprueft`). Je ein Changelog-Eintrag (`art: neu`) angehängt. Wunschliste nicht angefasst.
+
+**Prüfergebnis:** beide `✓ ok, mit Hinweisen` (**0 Fehler, 0 Korrekturversuche**). Einziger Hinweis jeweils: enthält bewusst gesetztes „unsicher — zu prüfen".
+
+**Hauptquellen:** WebSearch (WebFetch der Primär-/Sekundärquellen wie spektrum.de und altmeyers.org lieferte erneut **HTTP 403** — Inhalte über konkordante WebSearch-Sekundärquellen verifiziert). Taxonomie/Synonyme via POWO/GBIF/Wikispecies; Verwechslungen via NABU, pflanzen-vielfalt.net, kraeuterportraits, gartenjournal, abenteuer-am-wegesrand; Oxalsäure-Daten aus mehreren konkordanten Ernährungs-/Giftquellen; Sinupret-Zusammensetzung via Bionorica/Wikipedia.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+1. **Beide Arten haben KEINE eigene HMPC-/ESCOP-Monographie** — der Befund selbst, kein Recherchemangel. Primärquellen (EMA/altmeyers/spektrum) waren wegen 403 nicht direkt abrufbar; der Evidenzgrad TRAD ist aber durch das durchgängige Fehlen jeder Monographie eindeutig — **keine WEU/TU-Hochstufung gerechtfertigt. Bitte den regulatorischen Status trotzdem gegenprüfen.**
+
+2. **Kerbel — Sicherheitseintrag, kein Heileintrag.** Faktisch ein Küchenkraut ohne belegten Arzneiwert; der eigentliche Zweck ist die **Verwechslungswarnung**. `deadly_confusion=true` + `apiaceae_confusion_young=true`: Gefleckter Schierling (Coniin) UND Hundspetersilie sind als `lebensgefährlich` geführt. Sicherstes Feldmerkmal = Geruchsprobe (Anis vs. Mäuseurin). Wildsammlung für Laien im `key_warning` ausdrücklich untersagt.
+
+3. **Kerbel — Estragol-Vorbehalt.** Das ätherische Öl enthält Methylchavicol (Estragol), das wie bei Fenchel/Anis als potenziell gentoxisch/kanzerogen gilt. Ob küchenübliche Mengen relevant sind, habe ich als „unsicher — zu prüfen" markiert (keine Grenzwert-Monographie für Kerbel gefunden). `toxin_ceiling` NICHT gesetzt (kein dosisdefiniertes Toxin mit Grenzwert für die Droge).
+
+4. **Sauerampfer — Sinupret-Falle bewusst entschärft.** Häufiges Missverständnis: Sauerampfer „hilft bei Sinusitis". Die klinische/RCT-Evidenz gehört der **Fixkombination Sinupret** (5 Drogen), NICHT der Einzeldroge; ein häuslicher Sauerampfertee reproduziert das nicht. Indikation daher `TRAD` mit explizitem Hinweis in `comment`/`realistic_expectation`/`expectation_summary.overstated`. Bitte prüfen, ob der Katalog diese Kombinations-Einschränkung so tragen soll (analog zum Schlüsselblume-Fall).
+
+5. **Sauerampfer — Oxalsäure als eigentliches Sicherheitsthema.** `toxin_ceiling=true`, `toxin_type="Oxalsäure"`, `tox_ceiling` gefüllt: dokumentierte tödliche Vergiftung durch ~6-8 g Oxalsäure aus ~500 g Sauerampfersuppe; KI bei Nierensteinen/Niereninsuffizienz/Gicht/Hyperoxalurie. Küchenmengen bleiben unbedenklich.
+
+6. **Sauerampfer — Aronstab-Verwechslung als `giftig`, nicht `lebensgefährlich`.** Arum maculatum ist stark giftig (Calciumoxalat-Raphiden), akute Todesfälle jedoch sehr selten (sofortiges Mundbrennen begrenzt die Aufnahme) → bewusst `giftig` und `deadly_confusion=false`. Sammelanker = Geschmacksprobe (Aronstab brennend-scharf, nie sauer). Bitte prüfen, ob „giftig" statt „lebensgefährlich" für die App-Warnstufe passend ist.

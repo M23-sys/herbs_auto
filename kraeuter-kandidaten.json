@@ -365,8 +365,8 @@
       "latin": "Anthriscus cerefolium",
       "tier": 2,
       "reason": "VERWECHSLUNG mit Schierling — tödlich",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-kerbel.json"
     },
     {
       "id": "rumex-acetosa",
@@ -374,8 +374,8 @@
       "latin": "Rumex acetosa",
       "tier": 2,
       "reason": "Oxalsäure; Verwechslung mit Aronstab",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-sauerampfer.json"
     },
     {
       "id": "arnica-montana",
