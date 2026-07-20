@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "id": "conium-maculatum",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Conium maculatum L.",
+    "common_names_de": [
+      "Gefleckter Schierling",
+      "Fleckenschierling",
+      "Erdschierling",
+      "Wütscherling",
+      "Tollkerbel"
+    ],
+    "family": "Apiaceae (Doldenblütler)",
+    "drug_part": [
+      "ganze Pflanze giftig (Kraut, unreife Früchte, Wurzel) — keine Selbstanwendung"
+    ],
+    "drug_name_latin": "Conii herba/fructus (historisch Sedativum/Analgetikum, heute obsolet, keine Selbstanwendung)",
+    "synonym_note": "Akzeptierter Name Conium maculatum L. (Apiaceae). Nicht mit dem ebenfalls giftigen Wasserschierling (Cicuta virosa) verwechseln — anderes Toxin (Cicutoxin).",
+    "synonyms": [
+      "Cicuta major Lam.",
+      "Coriandrum maculatum (L.) Roth",
+      "Conium maculatum var. maculatum"
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Stängel kahl (unbehaart), blaugrün bereift und im unteren Teil mit rotbraunen bis purpurnen Flecken ('Blutflecken') — namensgebend und wichtigstes Erkennungsmerkmal",
+      "Beim Zerreiben von Kraut oder Wurzel unangenehmer Geruch nach Mäuseurin/Mäusen (auch 'Katzenharn') — kein aromatischer Küchenkräuter-Duft",
+      "Blätter mehrfach (3–4-fach) fein gefiedert, dunkelgrün glänzend, an Petersilie erinnernd, aber deutlich größer und feiner zerteilt",
+      "Bis 2 m hohe, kräftige zweijährige Pflanze; im ersten Jahr nur Blattrosette",
+      "Weiße Doldenblüten (Juni–August), viele kleine Döldchen; Früchte rundlich mit gewellten Rippen",
+      "Wuchsort: nährstoffreiche Ruderalflächen, Weg- und Ackerränder, Schuttplätze, Ufer"
+    ],
+    "season": "Blattrosette ab Frühjahr; Blüte Juni–August; Früchte ab August",
+    "habitat": "Nährstoffreiche Ruderalstandorte, Wegränder, Zäune, Ufer, Schuttplätze; im Bodenseeraum/Voralpen verbreitet, gern auf gestörten, stickstoffreichen Böden",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nicht zum Verzehr sammeln — alle Pflanzenteile sind hochgiftig (bereits kleine Mengen potenziell tödlich)",
+      "Grundregel Doldenblütler: kein weißblütiger Doldenblütler in den Sammelkorb ohne zweifelsfreie Bestimmung",
+      "Bestätiger gegen essbare Doldenblütler: rotgefleckter, kahler, bereifter Stängel + Mäusegeruch beim Zerreiben sprechen für Schierling",
+      "Junge Rosetten sind besonders schwer von Petersilie, Kerbel oder Wilder Möhre zu unterscheiden — im Zweifel stehen lassen",
+      "Nach Hautkontakt Hände waschen; Kinder und Weidetiere fernhalten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Petersilie",
+      "scientific_name": "Petroselinum crispum",
+      "toxicity_level": "essbar",
+      "note": "Klassische, potenziell tödliche Verwechslung. Petersilie riecht beim Zerreiben typisch aromatisch, Stängel ohne rote Flecken und ohne Mäusegeruch. Schierling: kahler, rotgefleckter, bereifter Stängel, Mäuseuringeruch, deutlich größer."
+    },
+    {
+      "name": "Echter Kerbel",
+      "scientific_name": "Anthriscus cerefolium",
+      "toxicity_level": "essbar",
+      "note": "Kerbel riecht anisartig-aromatisch, Stängel behaart/gefurcht, ungefleckt. Schierling ist kahl, blaubereift, rotgefleckt und riecht nach Mäusen. Verwechslung wiederholt mit Todesfolge dokumentiert."
+    },
+    {
+      "name": "Wilde Möhre",
+      "scientific_name": "Daucus carota",
+      "toxicity_level": "essbar",
+      "note": "Wilde Möhre: Stängel und Blätter borstig behaart, Möhrengeruch, oft schwarzes Mittelblütchen und Hüllblätter unter der Dolde. Schierling: kahl, rotgefleckt, Mäusegeruch. Behaarung ist ein Schlüsselunterschied."
+    },
+    {
+      "name": "Giersch",
+      "scientific_name": "Aegopodium podagraria",
+      "toxicity_level": "essbar",
+      "note": "Giersch hat nur doppelt-dreizählige Blätter (9 Blättchen), dreikantigen, rinnigen Stängel und würzigen Geruch. Schierling ist vielfach fein gefiedert, rundstängelig, rotgefleckt, Mäusegeruch — deutlich größer."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin",
+      "note": "Weiterer tödlicher Doldenblütler, KEIN Nahrungsmittel — nur zur Abgrenzung genannt. Wasserschierling wächst an/in Gewässern, hat kammerige, knollige Wurzelstöcke und wirkt über Cicutoxin krampfauslösend (nicht lähmend wie Coniin). Beide niemals verzehren."
+    },
+    {
+      "name": "Hundspetersilie",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (aethusaartige Toxine), coniinähnliche Alkaloide",
+      "note": "Ebenfalls giftiger Doldenblütler, KEIN Nahrungsmittel. Riecht beim Zerreiben unangenehm (nicht petersilienartig), hat unter den Döldchen lange, herabhängende Hüllblättchen ('Bärtchen'). Nur zur Abgrenzung genannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Piperidin-Alkaloide (Coniin, γ-Coniceïn, N-Methylconiin, Conhydrin, Pseudoconhydrin)",
+      "höchste Coniin-Gehalte in unreifen Früchten und Wurzel"
+    ],
+    "lead_substance": "Coniin — flüchtiges Piperidin-Alkaloid, wirkt an nikotinischen Acetylcholinrezeptoren und löst eine aufsteigende schlaffe Lähmung aus",
+    "solubility_note": "Coniin ist flüchtig und teils hitzelabil, sein Vorläufer γ-Coniceïn kann sich beim Trocknen umwandeln — das Toxin lässt sich dadurch aber NICHT zuverlässig entfernen; getrocknetes wie frisches Material bleibt gefährlich. Keine sichere Zubereitung.",
+    "heat_light_sensitivity": "Coniin flüchtig, Gehalt schwankt stark mit Pflanzenteil, Reife und Standort — genau das macht jede Selbstdosierung unkalkulierbar."
+  },
+  "pharmacology": {
+    "mechanism": "Coniin wirkt als Agonist an nikotinischen Acetylcholinrezeptoren: initiale Stimulation, dann anhaltender Depolarisationsblock an der neuromuskulären Endplatte. Folge ist eine von den Beinen aufsteigende schlaffe Lähmung bei erhaltenem Bewusstsein; der Tod tritt durch Atemlähmung (Lähmung der Atemmuskulatur) ein. Historisch der Giftbecher des Sokrates (399 v. Chr.).",
+    "evidence_caveat": "Keine therapeutische Anwendung. Frühere Nutzung als Sedativum/Analgetikum ist wegen unkalkulierbarer, lebensgefährlicher Toxizität vollständig verlassen. Als Warneintrag geführt.",
+    "pharmacokinetics": "Coniin wird oral rasch resorbiert; Symptombeginn oft innerhalb von 30–60 Minuten. Elimination teils renal; charakteristisch ist der Mäuseuringeruch, der auch am Patienten wahrnehmbar sein kann."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "Jede Vorstellung von 'homöopathisch harmlos' oder 'wildem Küchenkraut' ist lebensgefährlich falsch: der Gefleckte Schierling ist eine der giftigsten Pflanzen Mitteleuropas, Verwechslungen mit Petersilie oder Kerbel sind mehrfach tödlich verlaufen.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Der Coniin-Gehalt schwankt unkalkulierbar nach Pflanzenteil, Reife und Standort; es gibt keine sichere Dosis und keine sichere Zubereitung.",
+    "standard_dose": "keine — nicht anwenden. Bereits geschätzt 0,5–1 g Coniin bzw. wenige Gramm Pflanzenmaterial können für Erwachsene tödlich sein (Dosisangaben in der Literatur schwanken — 'unsicher, ärztlich zu prüfen').",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Keine tolerierbare Menge. Alle Pflanzenteile enthalten Coniin und verwandte Alkaloide; unreife Früchte und Wurzel am stärksten. Schon der Verzehr kleiner Mengen (Verwechslung mit Küchenkräutern) kann zu tödlicher Atemlähmung führen.",
+    "contraindications": [
+      "Nicht zum Verzehr — für alle Personen hochgiftig",
+      "Keinerlei Selbstmedikation mit der Pflanze"
+    ],
+    "pregnancy_lactation": "Strikt meiden. Coniin ist zudem teratogen (bei Weidetieren als Ursache von Skelettmissbildungen der Feten belegt).",
+    "adverse_effects": "Brennen im Mund, Speichelfluss, Übelkeit, Erbrechen; dann Muskelschwäche und von den Beinen aufsteigende Lähmung, Zittern, Pupillenerweiterung; schließlich Atemlähmung und Tod bei erhaltenem Bewusstsein. Notfall: sofort Giftnotruf/Notarzt.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Wirkt an nikotinischen Acetylcholinrezeptoren und an der Atemmuskulatur; Muskelrelaxanzien und atemdepressive Substanzen könnten die Lähmung verstärken. Klinisch steht die reine Giftwirkung im Vordergrund.",
+        "affected": "Muskelrelaxanzien, zentral dämpfende/atemdepressive Arzneistoffe",
+        "clinical_relevance": "relevant im Vergiftungsfall"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "apiaceae_confusion_young": true,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Eine der giftigsten Pflanzen Mitteleuropas. Verwechslung mit Petersilie, Kerbel oder Wilder Möhre kann zu tödlicher Atemlähmung führen — kahler, rotgefleckter Stängel und Mäusegeruch sind die Warnzeichen. Niemals verzehren."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Heilpflanze. Wichtigster giftiger Doppelgänger essbarer Doldenblütler (Petersilie, Kerbel, Wilde Möhre, Giersch)."
+  },
+  "garden": {
+    "site_soil": "nährstoff-/stickstoffreiche, gestörte Böden; Ruderalflächen",
+    "hardiness": "winterhart, zweijährig; keine Kultur empfohlen",
+    "propagation": "Selbstaussaat über zahlreiche Früchte; nicht anpflanzen",
+    "bodensee_suitability": "Regional wild verbreitet, aber als hochgiftige Pflanze NICHT für Garten oder Sammlung geeignet. Bei Auftreten mit Handschuhen entfernen, nicht kompostieren, Kinder/Tiere fernhalten."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Kahler, blaubereifter Stängel mit rotbraunen Flecken im unteren Teil",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Bis 2 m hohe Pflanze mit weißen Doppeldolden und fein gefiederten Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "AWL.ch Heilpflanzenlexikon (Conium maculatum, Coniin-Gehalt, Verwechslung mit essbaren Doldenblütlern, Erkennungsmerkmale)",
+    "Wikipedia / botanische Standardliteratur (Gefleckter Schierling — Toxine Coniin/γ-Coniceïn, Mäusegeruch, rotgefleckter Stängel, Systematik Apiaceae)",
+    "Boskabadi et al., Clinical Case Reports 2021 (Conium maculatum poisoning — Symptome, Verlauf, aufsteigende Lähmung)",
+    "ScienceDirect Topics / Coniine (nikotinischer ACh-Rezeptor, Depolarisationsblock, Atemlähmung)",
+    "Kew Plants of the World Online / GBIF (akzeptierte Taxonomie Conium maculatum L., Synonyme)",
+    "Hinweis: EMA/HMPC- und ESCOP-Primärquellen im Lauf per WebFetch nicht erreichbar (403) — toxikologische Kennzahlen (tödliche Dosis) aus Sekundärquellen, ärztliche Gegenprüfung nötig"
+  ]
+}

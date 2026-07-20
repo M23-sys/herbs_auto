@@ -335,6 +335,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Alle Pflanzenteile (auch Beeren und Vasenwasser) giftig durch herzwirksame Cardenolide (v. a. Convallatoxin, Na+/K+-ATPase-Hemmung, Digitalis-aehnlich). WICHTIGE EINORDNUNG: wegen GERINGER oraler Bioverfuegbarkeit verlaufen Verzehr-Vergiftungen beim Menschen meist gastrointestinal-mild, schwere kardiale Verlaeufe (Bradykardie/AV-Block bis Herzstillstand) selten, aber moeglich — daher in den Konfusionen 'giftig', nicht 'lebensgefaehrlich'. deadly_confusion=true gesetzt, weil die Fruehjahrsblaetter im selben Verwechslungskomplex wie die LEBENSGEFAEHRLICHE Herbstzeitlose stehen (beide Baerlauch-Doppelgaenger). Merkmal: zwei Blaetter an gemeinsamem Staengel, Unterseite glaenzend, geruchlos. Pharmakodynamische Additivitaet mit Herzglykosiden/Diuretika bei Aufnahme. Primaerquellen (HMPC/ESCOP) nicht erreichbar — aerztlich gegenzupruefen."
+    },
+    {
+      "ts": "2026-07-20T09:00:00Z",
+      "id": "conium-maculatum",
+      "common": "Gefleckter Schierling",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Eine der giftigsten Pflanzen Mitteleuropas; Piperidin-Alkaloide (Coniin, γ-Coniceïn) wirken am nikotinischen ACh-Rezeptor und loesen eine von den Beinen AUFSTEIGENDE schlaffe Laehmung bis zur Atemlaehmung aus (Giftbecher des Sokrates). Sicherheitskern: potenziell toedliche Verwechslung mit essbaren Doldenbluetlern (Petersilie, Kerbel, Wilde Moehre, Giersch) — Erkennung ueber kahlen, ROTGEFLECKTEN, blaubereiften Staengel und MAEUSEURINGERUCH beim Zerreiben. Als lebensgefaehrlicher Abgrenzungsfall zusaetzlich Wasserschierling (Cicuta virosa, Cicutoxin, krampfend statt laehmend) gefuehrt -> deadly_confusion=true; apiaceae_confusion_young=true; pregnancy_contraindicated=true (Coniin teratogen). Toedliche Dosis in der Literatur schwankend (~0,5-1 g Coniin / wenige g Pflanze) — als 'unsicher, aerztlich zu pruefen' markiert. HMPC/ESCOP-Primaerquellen im Lauf nicht erreichbar."
+    },
+    {
+      "ts": "2026-07-20T09:05:00Z",
+      "id": "digitalis-purpurea",
+      "common": "Roter Fingerhut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Alle Pflanzenteile hochgiftig durch herzwirksame Cardenolide (Purpureaglykoside A/B -> Digitoxin, Gitoxin; Na+/K+-ATPase-Hemmung), schon 2-3 Blaetter koennen toedlich sein. Sicherheitskern: die lebensgefaehrliche Verwechslung der BLATTROSETTE mit BEINWELL (Symphytum officinale) im Rosettenstadium — Fingerhutblatt weich filzig-wollig, unterseits grau-netznervig, laeuft NICHT am Staengel herab; Beinwell rau-borstig und deutlich herablaufend. Glykoside hitze-/wasserstabil -> Teeaufguss entgiftet NICHT, sondern extrahiert das Gift (typischer Vergiftungsweg). Lange HWZ/Kumulation -> verzoegerte Rhythmusstoerungen; interaction_heavy=true (additiv zu Digitalispraeparaten, Hypokaliaemie durch Diuretika verstaerkt Toxizitaet); pregnancy_contraindicated=true. Taxonomie aktualisiert: Plantaginaceae (frueher Scrophulariaceae). deadly_confusion=false, da kein Konfusionspartner selbst 'lebensgefaehrlich' ist (Konvention wie Herbstzeitlose). HMPC/ESCOP-Primaerquellen nicht erreichbar — aerztlich gegenzupruefen."
     }
   ]
 }

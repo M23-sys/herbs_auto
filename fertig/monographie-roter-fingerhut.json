@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "id": "digitalis-purpurea",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Digitalis purpurea L.",
+    "common_names_de": [
+      "Roter Fingerhut",
+      "Gewöhnlicher Fingerhut",
+      "Fingerhut",
+      "Waldglöckchen"
+    ],
+    "family": "Plantaginaceae (Wegerichgewächse; früher Scrophulariaceae/Braunwurzgewächse)",
+    "drug_part": [
+      "Blatt (Digitalis purpureae folium) — Arzneidroge NUR unter ärztlicher/apothekerlicher Kontrolle; keine Selbstanwendung"
+    ],
+    "drug_name_latin": "Digitalis purpureae folium (Rohstoff für verschreibungspflichtige Herzglykoside; keine Selbstanwendung)",
+    "synonym_note": "Heute Plantaginaceae; in älterer Literatur zu den Scrophulariaceae gestellt. Digoxin stammt überwiegend aus dem Wolligen Fingerhut (Digitalis lanata), Digitoxin v. a. aus D. purpurea.",
+    "synonyms": [
+      "Digitalis tomentosa Hoffmanns. & Link",
+      "Digitalis gloxinioides Carrière",
+      "Digitalis purpurea var. purpurea"
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Im ersten Jahr grundständige Blattrosette; Blätter eiförmig-lanzettlich, runzlig, oberseits behaart, unterseits grau-filzig, netznervig, am Rand gekerbt",
+      "Blätter laufen NICHT als Flügel am Stängel herab (Unterschied zum Beinwell) und riechen beim Zerreiben nicht nach Gurke/aromatisch",
+      "Im zweiten Jahr hohe (bis 2 m), meist unverzweigte Blütentraube",
+      "Blüten große, einseitswendige, hängende Fingerhut-Glocken, purpurrot (selten weiß), innen dunkel gefleckt mit weißem Rand — unverwechselbar zur Blütezeit",
+      "Wuchsort: lichte Wälder, Schläge, Waldränder, Böschungen auf saurem, kalkarmem Boden",
+      "Alle Pflanzenteile giftig, besonders die Blätter"
+    ],
+    "season": "Blattrosette im 1. Jahr ganzjährig sichtbar; Blüte Juni–August im 2. Jahr",
+    "habitat": "Lichte Laub-/Nadelwälder, Kahlschläge, Waldränder, Wegböschungen auf saurem, kalkarmem, humosem Boden; im Bodenseeraum/Voralpen (Schwarzwald-/Allgäunähe) verbreitet",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nicht zum Verzehr oder als Tee sammeln — alle Pflanzenteile hochgiftig, schon 2–3 Blätter können tödlich sein",
+      "Die gefährlichste Verwechslung betrifft die BLATTROSETTE (ohne Blüte) mit Beinwell: Fingerhutblatt weich filzig-wollig, unterseits grau, NICHT am Stängel herablaufend; Beinwell rau-borstig und deutlich am Stängel herablaufend",
+      "Im Zweifel bis zur Blüte warten — blühender Fingerhut ist unverwechselbar",
+      "Kein Bestandteil selbst gesammelter Kräutertees; Kinder und Weidetiere fernhalten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Beinwell (Gewöhnlicher Beinwell)",
+      "scientific_name": "Symphytum officinale",
+      "toxicity_level": "essbar",
+      "note": "Sicherheitskritischste Verwechslung — als Tee/Wildgemüse gesammelter Beinwell, dabei versehentlich Fingerhut: mehrfach lebensgefährliche Vergiftungen dokumentiert. Unterschied: Beinwell rau-borstig behaart (Raublattgewächs), Blätter laufen als Flügel am Stängel herab; Fingerhut weich-filzig, Blätter laufen nicht herab, unterseits grau-netznervig. (Beinwell selbst nur äußerlich anwenden — Pyrrolizidinalkaloide.)"
+    },
+    {
+      "name": "Borretsch",
+      "scientific_name": "Borago officinalis",
+      "toxicity_level": "essbar",
+      "note": "Junge Borretschrosette ähnelt der Fingerhutrosette. Borretsch borstig behaart, riecht/schmeckt gurkenartig; Fingerhut geruchlos-filzig. Im Zweifel nicht verwenden. (Borretsch selbst enthält Pyrrolizidinalkaloide — nur begrenzt genießen.)"
+    },
+    {
+      "name": "Kleinblütige Königskerze",
+      "scientific_name": "Verbascum thapsus",
+      "toxicity_level": "essbar",
+      "note": "Ebenfalls wollig-filzige Blattrosette. Königskerze deutlich dichter grau-weiß-wollig-samtig, Blätter oft am Stängel herablaufend; Fingerhutblatt oberseits grüner, runzlig, netznervig. Verwechslung v. a. vor der Blüte möglich."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "herzwirksame Cardenolide (Herzglykoside): Purpureaglykoside A und B",
+      "daraus Digitoxin, Gitoxin, Gitaloxin (Aglyka Digitoxigenin, Gitoxigenin, Gitaloxigenin)",
+      "Saponine, Flavonoide"
+    ],
+    "lead_substance": "Digitoxin — hemmt die Na+/K+-ATPase am Herzmuskel, wirkt positiv inotrop; enge therapeutische Breite",
+    "solubility_note": "Die Cardenolide sind wasserlöslich und hitzestabil — Trocknen, Kochen oder Aufguss (Tee!) entgiften NICHT. Gerade der Teeaufguss aus verwechselten Blättern ist der typische Vergiftungsweg. Keine sichere Selbstzubereitung.",
+    "heat_light_sensitivity": "Glykoside hitzestabil; Wirkstoffgehalt der Blätter schwankt stark — Grund, warum aus der Pflanze keine sichere Dosis gewonnen werden kann."
+  },
+  "pharmacology": {
+    "mechanism": "Cardenolide hemmen die myokardiale Na+/K+-ATPase; intrazellulär steigen Natrium und (über den Na+/Ca2+-Austauscher) Calcium — positiv inotrop, negativ chronotrop/dromotrop. Wegen enger therapeutischer Breite führt Überdosierung rasch zu bedrohlichen Herzrhythmusstörungen. Reine Arzneistoffe (Digitoxin/Digoxin) werden nur unter Spiegelkontrolle eingesetzt.",
+    "evidence_caveat": "Keine Selbstanwendung. Die Pflanze ist Rohstoff verschreibungspflichtiger Herzglykoside, nicht mehr als Droge zur Eigenanwendung. Als Warneintrag geführt; die therapeutische Nutzung erfolgt ausschließlich als standardisierter, spiegelkontrollierter Arzneistoff.",
+    "pharmacokinetics": "Digitoxin wird gut resorbiert, ist stark eiweißgebunden und hat eine lange Halbwertszeit (mehrere Tage) mit enterohepatischem Kreislauf — daher Kumulations- und späte Vergiftungsgefahr."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "'Herzstärkendes Naturheilmittel' oder selbst angesetzter 'Herztee' sind lebensgefährlich: die therapeutische Breite ist so eng, dass jede Selbstdosierung aus der Pflanze unkalkulierbar ist. Schon 2–3 Blätter können tödlich sein.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Selbstzubereitung (weder Tee noch Tinktur)"
+    ],
+    "form_rationale": "Herzglykoside sind hitzestabil und wasserlöslich; ein Aufguss extrahiert das Toxin, statt es zu entfernen. Der Wirkstoffgehalt schwankt stark — keine sichere Dosis aus der Pflanze gewinnbar.",
+    "standard_dose": "keine — nicht anwenden. Bereits der Verzehr von 2–3 Blättern kann für einen Erwachsenen tödlich sein.",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Keine tolerierbare Menge zur Selbstanwendung. Alle Pflanzenteile enthalten herzwirksame Glykoside, besonders die Blätter; wegen langer Halbwertszeit und Kumulation drohen verzögerte, schwere Rhythmusstörungen. Schon 2–3 Blätter potenziell tödlich.",
+    "contraindications": [
+      "Nicht zum Verzehr oder als Tee — für alle Personen hochgiftig",
+      "Keinerlei Selbstmedikation mit der Pflanze"
+    ],
+    "pregnancy_lactation": "Strikt meiden — keine Selbstanwendung in Schwangerschaft und Stillzeit.",
+    "adverse_effects": "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen; Kopfschmerz, Sehstörungen mit Farbsehstörung/Gelbsehen (Xanthopsie), Verwirrtheit; kardial Bradykardie, AV-Blockierungen, ventrikuläre Extrasystolen/Arrhythmien bis Kammerflimmern und Herzstillstand. Notfall: sofort Giftnotruf/Notarzt.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Herzglykoside der Pflanze wirken additiv zu verordneten Digitalispräparaten; eine Hypokaliämie (z. B. durch Schleifen-/Thiazid-Diuretika) verstärkt die kardiale Toxizität erheblich.",
+        "affected": "Herzglykoside (Digoxin/Digitoxin), kaliumsenkende Diuretika, weitere die Herzerregung beeinflussende Mittel",
+        "clinical_relevance": "hoch im Vergiftungsfall"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Alle Pflanzenteile hochgiftig (Herzglykoside), schon 2–3 Blätter können tödlich sein. Blattrosette wird lebensgefährlich mit Beinwell verwechselt — Fingerhutblatt ist weich-filzig und läuft NICHT am Stängel herab. Niemals als Tee oder Wildgemüse verwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze, keine Selbstanwendung",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Droge zur Eigenanwendung; ausschließlich Rohstoff verschreibungspflichtiger, spiegelkontrollierter Herzglykoside. Häufigster gefährlicher Doppelgänger von Beinwell im Rosettenstadium."
+  },
+  "garden": {
+    "site_soil": "saurer, kalkarmer, humoser Boden; Halbschatten bis Schatten, Waldrand",
+    "hardiness": "winterhart, zweijährig; beliebte, aber giftige Zierpflanze",
+    "propagation": "Selbstaussaat über zahlreiche feine Samen; versamt sich stark",
+    "bodensee_suitability": "Regional wild und als Zierstaude verbreitet. Als Zierpflanze möglich, aber giftig — Kinder und Haustiere fernhalten; niemals neben Küchenkräutern oder Beinwell sammeln. Beim Jäten Handschuhe."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Blattrosette: weich-filzige, runzlige, unterseits grau-netznervige Blätter, nicht am Stängel herablaufend",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Hohe einseitswendige Traube purpurroter, innen gefleckter Fingerhut-Glocken",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Arzneipflanzen-Lexikon / PharmaWiki (Digitalis purpurea — Cardenolide Purpureaglykoside A/B, Digitoxin/Gitoxin, Wirkmechanismus, Toxizität)",
+    "Phytotherapie-Fallbericht: lebensgefährliche Verwechslung Fingerhut-/Beinwellblätter (Rosettenstadium, Unterscheidungsmerkmale)",
+    "Giftinformationszentren (GIZ) / BfR (Digitalis-Vergiftung, Symptome, tödliche Blattzahl)",
+    "Wikipedia (englisch) / botanische Standardliteratur (Systematik Plantaginaceae, früher Scrophulariaceae; Na+/K+-ATPase-Hemmung)",
+    "Kew Plants of the World Online / GBIF (akzeptierte Taxonomie Digitalis purpurea L., Synonyme)",
+    "Hinweis: EMA/HMPC- und ESCOP-Primärquellen im Lauf per WebFetch nicht erreichbar (403) — Angaben aus Sekundärquellen, ärztliche Gegenprüfung nötig"
+  ]
+}

@@ -419,8 +419,8 @@
       "latin": "Conium maculatum",
       "tier": 3,
       "reason": "WARNEINTRAG — Coniin, Doldenblütler-Doppelgänger",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-gefleckter-schierling.json"
     },
     {
       "id": "digitalis-purpurea",
@@ -428,8 +428,8 @@
       "latin": "Digitalis purpurea",
       "tier": 3,
       "reason": "WARNEINTRAG — Digitoxin; Beinwell-Verwechslung!",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-roter-fingerhut.json"
     },
     {
       "id": "aconitum-napellus",
