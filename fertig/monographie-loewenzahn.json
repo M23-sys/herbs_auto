@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "id": "taraxacum-officinale",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Taraxacum officinale F.H.Wigg.",
+    "synonyms": ["Leontodon taraxacum L.", "Taraxacum vulgare (Lam.) Schrank", "Taraxacum campylodes G.E.Haglund", "Taraxacum officinale Weber ex Wigg."],
+    "common_names_de": ["Wiesen-Löwenzahn", "Gewöhnlicher Löwenzahn", "Kuhblume", "Butterblume", "Pusteblume"],
+    "family": "Korbblütler (Asteraceae / Compositae)",
+    "drug_part": ["Wurzel (Radix)", "Blatt/Kraut (Folium/Herba)", "Kraut mit Wurzel (Herba cum radice / Radix cum herba)"],
+    "drug_name_latin": "Taraxaci radix; Taraxaci folium; Taraxaci herba cum radice (Radix cum herba)",
+    "synonym_note": "Der Wiesen-Löwenzahn ist ein taxonomisch schwieriger Sammelname (Taraxacum officinale agg., Sektion Ruderalia) mit zahllosen apomiktischen Kleinarten. Der aktuell akzeptierte Name ist Taraxacum officinale F.H.Wigg.; die älteren EMA/HMPC-Monographien lauten auf 'Taraxacum officinale Weber ex Wigg.'. Der alte Gattungsname Leontodon taraxacum L. ist ein Synonym. Die id 'taraxacum-officinale' folgt dem akzeptierten Artnamen."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: beim Abbrechen von Blatt, Stängel oder Wurzel tritt reichlich weißer, klebriger Milchsaft aus — er unterscheidet den echten Löwenzahn von grasartigen Verwechslern",
+      "Jeder Blütenstängel ist HOHL, blattlos, unverzweigt und trägt genau EIN gelbes Blütenköpfchen — nie mehrere Köpfe pro Stängel und nie beblätterte Stängel",
+      "Blätter alle grundständig in einer bodennahen Rosette, schrotsägeförmig (runcinat) gezähnt, kahl (unbehaart) — daher der Name 'Zahn des Löwen'",
+      "Blütenköpfchen rein aus gelben Zungenblüten (kein andersfarbiges Röhrenblüten-Zentrum); danach die kugelige weiße 'Pusteblume' aus Fallschirmfrüchten mit deutlichem Stielchen zwischen Frucht und Schirm",
+      "Blütezeit Hauptflor April–Mai, oft Nachblüte bis Herbst; Wuchshöhe 10–30 cm",
+      "Standort: Wiesen, Weiden, Wegränder, Rasen, Schuttplätze — einer der häufigsten Frühjahrsblüher Mitteleuropas"
+    ],
+    "season": "Hauptblüte April–Mai, Nachblüte bis in den Herbst; Blatternte im Frühjahr vor der Blüte, Wurzelernte bevorzugt im Herbst",
+    "habitat": "Wiesen, Weiden, Rasen, Wegränder, Äcker, Ruderalflächen; anspruchslos, stickstoffliebend, von der Ebene bis ins Gebirge. Kulturfolger, weltweit verbreitet.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-sehr-haeufig"}
+    ],
+    "collection_rules": [
+      "Milchsaftprobe ist der Sammelanker: nur Pflanzen mit weißem Milchsaft, grundständiger kahler Blattrosette und einzelnem Blütenkopf auf hohlem, blattlosem Stängel sammeln.",
+      "Blätter/Kraut jung im Frühjahr vor der Blüte (dann milder, weniger bitter); Wurzel bzw. Kraut-mit-Wurzel bevorzugt im Herbst (September/Oktober), wenn der Inulingehalt der Wurzel am höchsten ist.",
+      "Nicht an Straßenrändern, gedüngten Wiesen oder Hundeauslaufflächen sammeln (Schadstoff-/Kotbelastung); Löwenzahn reichert außerdem Nitrat und Schwermetalle an.",
+      "Verwechslungen (Ferkelkraut, Herbst-Löwenzahn, Wiesen-Pippau) sind alle ungiftig — das eigentliche Risiko ist Standortbelastung, nicht Giftigkeit."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Ferkelkraut / Gewöhnliches Ferkelkraut",
+      "scientific_name": "Hypochaeris radicata",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufigster 'falscher Löwenzahn'. Unterschied: Blätter dicht behaart (Löwenzahn kahl), Blütenstängel meist verzweigt mit mehreren Köpfchen und kleinen Schuppenblättchen (Löwenzahn: 1 Kopf, hohl, blattlos). Essbar, aber härter/bitterer. Für Pferde in großen Mengen problematisch, für den Menschen unbedenklich."
+    },
+    {
+      "name": "Herbst-Löwenzahn / Gewöhnlicher Herbstlöwenzahn",
+      "scientific_name": "Scorzoneroides autumnalis (syn. Leontodon autumnalis)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Sehr ähnliche gelbe Köpfe, blüht v. a. im Spätsommer/Herbst. Unterschied: Stängel oft verzweigt/beschuppt, Fallschirmfrüchte OHNE das lange Stielchen (Karpophor) zwischen Frucht und Haarschirm, das der echte Löwenzahn hat. Ungiftig."
+    },
+    {
+      "name": "Wiesen-Pippau / Wiesen-Bocksbart u. a. gelbe Korbblütler",
+      "scientific_name": "Crepis biennis / Tragopogon pratensis / Leontodon spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Weitere gelbblühende Wiesen-Korbblütler mit Milchsaft. Unterscheidung über beblätterte/verzweigte Stängel, behaarte Blätter oder mehrere Köpfe. Alle ungiftig; keine liefert die arzneiliche Droge in gleicher Qualität, ein Verzehr ist aber ungefährlich."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Alle in Betracht kommenden Doppelgänger (die 'falschen Löwenzähne' der Korbblütler) sind essbar bzw. ungiftig. Sobald die Pflanze gelb blüht, ist eine Verwechslung praktisch ausgeschlossen. Das reale Risiko liegt in der Standortbelastung (Nitrat, Schwermetalle, Hundekot), nicht in einer giftigen Pflanze."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Bitterstoffe: Sesquiterpenlactone (Eudesmanolide, Germacranolide; u. a. Taraxacin/Taraxacosid, Taraxacolid-Glucosid) — prägen den bitteren Geschmack und die verdauungs-/gallefördernde Wirkung",
+      "Triterpene und Phytosterole (Taraxasterol, Taraxerol, ψ-Taraxasterol, β-Sitosterol)",
+      "Inulin (Speicherkohlenhydrat der Wurzel, jahreszeitlich stark schwankend — im Herbst bis ~40 %, im Frühjahr deutlich weniger)",
+      "Flavonoide (Luteolin- und Apigenin-Glykoside), Phenolcarbonsäuren (Chicorée-/Chlorogensäure)",
+      "Hoher Kaliumgehalt (Größenordnung ~2–4,5 % der Trockenmasse) — mitverantwortlich für den milden harntreibenden Effekt; Schleimstoffe; Milchsaft mit Kautschuk"
+    ],
+    "lead_substance": "Bitterstoff-Komplex aus Sesquiterpenlactonen (Leitgruppe 'Taraxacin') plus hoher Kaliumgehalt: die Bitterstoffe erklären die verdauungs-/choleretische Wirkung, das Kalium den milden diuretischen ('Durchspülungs-')Effekt. Die Wurzel liefert zusätzlich Inulin.",
+    "solubility_note": "Bitterstoffe, Flavonoide, Phenolsäuren und Kalium sind gut wasserlöslich → Tee/Aufguss bzw. Dekokt der Wurzel und wässrig-alkoholische Auszüge (Tinktur, Presssaft) sind sinnvolle Zubereitungen. Der Frischpflanzenpresssaft ist eine traditionell bevorzugte Form.",
+    "heat_light_sensitivity": "Bitterstoffe und Phenolsäuren sind mäßig hitze- und oxidationsempfindlich; Wurzel und Kraut zügig und schonend trocknen, licht- und luftgeschützt lagern. Inulin ist thermisch recht stabil."
+  },
+  "pharmacology": {
+    "mechanism": "Die Bitterstoffe (Sesquiterpenlactone) regen reflektorisch Speichel-, Magensaft- und Gallensekretion an (amara-/choleretischer Effekt) und fördern so Appetit und Verdauung. Der harntreibende Effekt ist mild und wird v. a. dem hohen Kaliumgehalt sowie osmotisch wirksamen Bestandteilen zugeschrieben (klassischer Tierversuch von Rácz-Kotilla u. a.). Präklinisch zusätzlich antioxidative, entzündungshemmende und leicht lipid-/blutzuckermodulierende Effekte beschrieben.",
+    "evidence_caveat": "Ehrlich: Die klinische Evidenz beim Menschen ist dünn. HMPC führt Löwenzahn ausschließlich als 'traditional use' (langjährige Erfahrung, kein Wirksamkeitsnachweis durch kontrollierte Studien); belastbare RCTs fehlen weitgehend. Kommission E und ESCOP bewerten die Anwendung positiv, stützen sich aber überwiegend auf Erfahrungsheilkunde und präklinische Daten. Der populäre Ruf als 'Leber-/Entgiftungs-' und Blutreinigungsmittel übersteigt die Evidenz deutlich.",
+    "pharmacokinetics": "Keine belastbaren Humandaten zur Pharmakokinetik der Leitsubstanzen; Angaben wären spekulativ. Unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden, Appetitlosigkeit und Störungen des Galleflusses (leber-gallebezogene Verdauungsstörungen)",
+      "synonyms": ["Verdauungsbeschwerden", "Völlegefühl", "Blähungen", "Appetitlosigkeit", "keinen Appetit", "Verdauungsschwäche", "Fettunverträglichkeit", "träge Verdauung", "Galle anregen", "Druck im Oberbauch"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Linderung leichter Verdauungsbeschwerden und bei vorübergehender Appetitlosigkeit. Kommission E (positiv): Störungen des Galleflusses, Appetitlosigkeit, dyspeptische Beschwerden. ESCOP-Monographien (Taraxaci radix/folium) vorhanden. KEIN well-established use.",
+      "realistic_expectation": "Kann als Bittermittel Appetit und Verdauung anregen und leichte, funktionelle Oberbauchbeschwerden (Völlegefühl, Blähungen) symptomatisch lindern. KEINE 'Leberreinigung' oder 'Entgiftung', kein Effekt auf Leberkrankheiten. Anhaltende oder starke Beschwerden gehören ärztlich abgeklärt.",
+      "source": "EMA/HMPC EU herbal monograph Taraxacum officinale, radix cum herba (traditional use); Kommission E; ESCOP Taraxaci radix (2024), Taraxaci folium"
+    },
+    {
+      "canonical": "Anregung der Harnausscheidung zur Durchspülung der ableitenden Harnwege (adjuvant)",
+      "synonyms": ["Durchspülung", "Wassertreiben", "harntreibend", "Blasentee", "Nierenspülung", "viel Wasserlassen", "Frühjahrskur"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "EMA/HMPC: traditional use zur Erhöhung der Harnmenge (Durchspülungstherapie) als Adjuvans bei leichten Harnwegsbeschwerden. Kommission E: Anregung der Diurese. ESCOP: Taraxaci folium unterstützend bei Behandlungen, die eine erhöhte Harnmenge erfordern. Voraussetzung ist reichliches Trinken.",
+      "realistic_expectation": "Milder, unspezifischer 'Durchspülungs'-Effekt bei ausreichender Flüssigkeitszufuhr — KEIN Ersatz für eine Antibiotikatherapie bei bakteriellem Harnwegsinfekt und kein entwässerndes Mittel bei Ödemen. Bei Fieber, Blut im Urin oder Flankenschmerz sofort ärztlich abklären.",
+      "source": "EMA/HMPC EU herbal monograph Taraxacum officinale, radix cum herba (traditional use); Kommission E; ESCOP Taraxaci folium"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliches Bittermittel/Amarum-Cholagogum, das Appetit und Verdauung anregen und leichte funktionelle Verdauungsbeschwerden lindern kann; zusätzlich mild harntreibend zur Durchspülung bei reichlichem Trinken. Als Wildgemüse/Salat ernährungsphysiologisch wertvoll (Vitamine, Kalium, Bitterstoffe).",
+    "overstated": "Der Ruf als 'Leber-Entgifter', 'Blutreiniger' und Mittel gegen ernste Leber-/Nierenkrankheiten ist NICHT durch Evidenz gedeckt — HMPC vergibt nur traditional use. Löwenzahn heilt keine Lebererkrankung, löst keine Gallensteine auf und ersetzt bei Harnwegsinfekt keine ärztliche Therapie. Bei Gallensteinen/Gallenwegsverschluss ist die gallentreibende Wirkung sogar riskant.",
+    "effect_size": "mild; symptomatisch, nicht kurativ"
+  },
+  "preparation": {
+    "recommended_forms": ["Teeaufguss (Kraut/Blatt) bzw. Dekokt (Wurzel)", "Frischpflanzenpresssaft", "Tinktur", "junge Blätter als Frühjahrssalat/Wildgemüse"],
+    "form_rationale": "Die wirksamen Bitterstoffe, Flavonoide, Phenolsäuren und das Kalium sind wasserlöslich, daher sind Aufguss/Dekokt und wässrig-alkoholische Auszüge sinnvoll. Für die Bitterstoffwirkung ist wichtig, dass der Tee tatsächlich bitter schmeckt (nicht zu stark verdünnt) und vor den Mahlzeiten getrunken wird.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis ca. 3–4 g Droge mehrmals täglich bzw. entsprechende Zubereitungen (z. B. Aufguss 1 TL Droge/Tasse, 3× tgl.; Presssaft 1 EL 2× tgl.). Für die Durchspülungsanwendung auf reichliche Flüssigkeitszufuhr achten. Bei Verdauungsbeschwerden vor den Mahlzeiten.",
+    "preservation": "Getrocknete Droge trocken, kühl, licht- und luftgeschützt lagern; Presssaft kühl und begrenzt haltbar (Herstellerangabe). Fertigpräparate nach Fachinformation."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Verschluss der Gallenwege (Gallengangsverschluss), Gallenblasenempyem, Darmverschluss (Ileus) — absolute Kontraindikationen (Kommission E)",
+      "Gallensteinleiden — nur nach ärztlicher Rücksprache (choleretische Wirkung kann eine Kolik auslösen)",
+      "Aktives Magen-/Zwölffingerdarmgeschwür sowie Hyperazidität — Bitterstoffe steigern die Magensaftsekretion (Vorsicht)",
+      "Bekannte Überempfindlichkeit gegen Löwenzahn oder andere Korbblütler (Asteraceae)"
+    ],
+    "pregnancy_lactation": "Für die arzneiliche (konzentrierte) Anwendung liegen keine ausreichenden Sicherheitsdaten vor; sie wird in Schwangerschaft und Stillzeit sowie bei Kindern unter 12 Jahren mangels Daten nicht empfohlen. Der Verzehr üblicher Speisemengen (Salat) gilt als unbedenklich. Defensiv: arzneilich unsicher — zu prüfen.",
+    "adverse_effects": "Insgesamt gut verträglich. Möglich sind Magenbeschwerden/Sodbrennen durch die Bitterstoffe (Säurereiz), selten allergische Reaktionen. Der Milchsaft kann bei Hautkontakt eine (phototoxisch diskutierte) Kontaktdermatitis auslösen. Superhohe Verzehrmengen sind wegen des Kaliumgehalts theoretisch relevant.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Milde diuretische Wirkung könnte theoretisch die Ausscheidung/Serumspiegel anderer Arzneistoffe (z. B. Lithium) beeinflussen und additiv zu Diuretika wirken; keine klinisch belegten Interaktionen",
+        "affected": "Diuretika, Lithium; theoretisch Antidiabetika (leichte Blutzuckersenkung beschrieben)",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Bitterstoffe/Magensäuresteigerung und der hohe Kaliumgehalt; in-vitro Hinweise auf CYP-Beeinflussung ohne klinische Bestätigung",
+        "affected": "kaliumsparende Diuretika/ACE-Hemmer (theoretisch Kalium); säureempfindliche Medikamente",
+        "clinical_relevance": "gering — unsicher — zu prüfen"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "cardiorenal_flush_caution": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Bei Verschluss der Gallenwege, Gallenblasenempyem oder Darmverschluss darf Löwenzahn nicht eingenommen werden, bei Gallensteinen nur nach ärztlicher Rücksprache — die gallentreibende Wirkung kann sonst eine Kolik auslösen; die Durchspülungsanwendung nicht bei Wasseransammlungen (Ödemen) infolge Herz- oder Nierenschwäche und nur mit reichlich Trinken."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Junge Blätter/Kraut im Frühjahr (März–Mai) vor der Blüte; Wurzel bzw. Kraut mit Wurzel bevorzugt im Herbst (September/Oktober) bei höchstem Inulingehalt.",
+    "harvest_month_tags": [3, 4, 5, 9, 10],
+    "harvest_organ": "Kraut mit Wurzel (Herba cum radice); Blatt bzw. Wurzel je nach Droge",
+    "method": "Blätter/Kraut schneiden; Wurzeln ausgraben, waschen, längs teilen. Milchsaftaustritt bestätigt die Art. Nicht an belasteten Standorten sammeln.",
+    "processing": "Wurzel zügig bei mäßiger Wärme trocknen, Kraut luftig und schattig; danach vor Licht/Luft geschützt aufbewahren. Für Presssaft frisch verarbeiten.",
+    "storage": "Trocken, kühl, licht- und luftgeschützt in verschlossenen Gefäßen; getrocknete Droge etwa ein Jahr."
+  },
+  "kitchen": {
+    "uses": ["Junge Blätter als Frühlingssalat oder Wildgemüse (bitter)", "Blütenknospen eingelegt ('Kapern-Ersatz')", "Blüten für Löwenzahnsirup/-gelee ('Löwenzahnhonig')", "geröstete Wurzel als Kaffee-Ersatz (Inulin)"],
+    "culinary_vs_medicinal": "Küche und Arznei nutzen dieselbe Pflanze: In der Küche werden die Bitterstoffe durch Wässern/junge Ernte gemildert, arzneilich sind sie gerade erwünscht (der Tee soll bitter schmecken). Speisemengen gelten als unbedenklich, die gallebezogenen Kontraindikationen betreffen die konzentrierte arzneiliche Anwendung."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig bis halbschattig, jeder nicht zu trockene, eher nährstoffreiche Boden.",
+    "hardiness": "Vollkommen winterhart, ausdauernd mit tiefer Pfahlwurzel; gilt eher als schwer zu bekämpfendes 'Unkraut' denn als Kulturpflanze.",
+    "propagation": "Selbstaussaat durch Flugfrüchte, außerdem apomiktische Samenbildung; Wurzelstücke treiben wieder aus.",
+    "bodensee_suitability": "Im gesamten Bodenseeraum von Natur aus sehr häufig und problemlos — Anbau überflüssig, Wildsammlung (an unbelasteten Standorten) reicht völlig."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühender Löwenzahn: grundständige Blattrosette und einzelne gelbe Köpfchen auf hohlen, blattlosen Stängeln", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Austretender weißer Milchsaft am abgebrochenen Stängel — sicheres Bestimmungsmerkmal", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU/Community herbal monograph on Taraxacum officinale Weber ex Wigg., radix cum herba (traditional use); zugehöriger Assessment report",
+    "EMA/HMPC — Final EU herbal monograph on Taraxacum officinale F.H. Wigg., radix (EMA/HMPC/475726/2020, 2022)",
+    "Kommission E — Taraxaci radix cum herba / Taraxaci folium (Positivmonographien: dyspeptische Beschwerden, Appetitlosigkeit, Störungen des Galleflusses, Diurese)",
+    "ESCOP — Taraxaci radix (2024), Taraxaci folium",
+    "Sekundärquellen zu Botanik/Verwechslung und Inhaltsstoffen (Websuche: Arzneipflanzen-Lexikon, awl.ch, Gartenjournal; EMA-Primär-PDF beim direkten WebFetch-Abruf 403/nicht erreichbar — Evidenzgrad und Posologie ärztlich gegenzuprüfen)"
+  ]
+}

@@ -383,6 +383,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). NAMENSFALLE: 'Rosmarinheide/Lavendelheide' ist NICHT Küchen-Rosmarin (Salvia rosmarinus), sondern ein giftiges Heidekrautgewächs (Ericaceae). Ganze Pflanze enthält Grayanotoxine (= Andromedotoxin/Acetylandromedol/Rhodotoxin), die spannungsabhängige Na-Kanäle offenhalten -> Dauerdepolarisation, vagal bedingte Bradykardie und Hypotonie (Mechanismus wie 'mad honey'); Grayanotoxine sind wasserlöslich und hitzestabil, gehen also in einen 'harmlosen Tee' über. Sicherheitskern: Moorstandort + geruchloses, blaugrün-weiß bereiftes Blatt trennt sie von aromatischem Rosmarin; Abgrenzung zum ebenfalls giftigen Sumpfporst (rostbraun filzige Blattunterseite) und zur essbaren Moosbeere am selben Standort. pregnancy_contraindicated=true; zusätzlich naturschutzrechtlich geschützte, rückläufige Moorart. Art-spezifische toxische/letale Mengen unsicher ('unsicher — zu prüfen'); Primärquellen per WebFetch 403, ärztlich gegenzuprüfen."
+    },
+    {
+      "ts": "2026-07-20T18:30:00Z",
+      "id": "taraxacum-officinale",
+      "common": "Löwenzahn",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Anders als die meisten tier-4-Wildkräuter gut belegt: HMPC führt Taraxacum officinale radix cum herba als TRADITIONAL USE (leichte Verdauungsbeschwerden/Appetitlosigkeit UND Durchspülung der Harnwege), Kommission E + ESCOP positiv → beide Indikationen TU/ESCOP+, kein WEU. Sicherheitskern ist die choleretische Wirkung: KONTRAINDIZIERT bei Verschluss der Gallenwege/Gallenblasenempyem/Ileus, bei Gallensteinen nur nach Rücksprache; Durchspülung NICHT bei Herz-/Nieren-Ödemen (cardiorenal_flush_caution=true) und nur mit reichlich Trinken. Erwartungsdämpfung: KEINE 'Leber-Entgiftung'/'Blutreinigung' — populärer Ruf übersteigt Evidenz. Kein giftiger Doppelgänger (alle 'falschen Löwenzähne' essbar), deadly_confusion=false; asteraceae_allergy=true. Milchsaftprobe als Sammelanker."
+    },
+    {
+      "ts": "2026-07-20T18:30:30Z",
+      "id": "bellis-perennis",
+      "common": "Gänseblümchen",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). WICHTIG für die Erwartungssteuerung: trotz 'Heilpflanze des Jahres 2017' existiert KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie und keine klinische Studie — alle drei Indikationen (Husten/Expektorans, milde Dyspepsie, äußerlich Prellungen/Wunden als 'Arnika des Nordens') sind rein TRAD/volksmedizinisch-homöopathisch. Leitstoffe Triterpensaponine (expektorierend, in größeren Mengen aber schleimhautreizend). Sehr sicheres, essbares Wildkraut OHNE giftigen Doppelgänger → high_safety=true, deadly_confusion=false; asteraceae_allergy=true. Warnung dennoch defensiv: größere Rohmengen des Krauts wegen Saponinen meiden; arzneiliche Anwendung in Schwangerschaft/bei Säuglingen mangels Daten als 'unsicher — zu prüfen'."
     }
   ]
 }

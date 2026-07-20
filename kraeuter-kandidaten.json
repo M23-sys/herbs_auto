@@ -473,8 +473,8 @@
       "latin": "Taraxacum officinale",
       "tier": 4,
       "reason": "Bitterstoff, Galle, Durchspülung; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-loewenzahn.json"
     },
     {
       "id": "bellis-perennis",
@@ -482,8 +482,8 @@
       "latin": "Bellis perennis",
       "tier": 4,
       "reason": "Wildkraut, mild; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-gaensebluemchen.json"
     },
     {
       "id": "stellaria-media",

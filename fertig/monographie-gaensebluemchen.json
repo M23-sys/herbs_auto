@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "id": "bellis-perennis",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Bellis perennis L.",
+    "synonyms": ["Bellis hortensis Mill.", "Bellis perennis var. hortensis", "Bellis alpina Hegetschw."],
+    "common_names_de": ["Gänseblümchen", "Tausendschön", "Maßliebchen", "Marienblümchen", "Angerblümchen"],
+    "family": "Korbblütler (Asteraceae / Compositae)",
+    "drug_part": ["Blühendes Kraut (Herba)", "Blüte (Flos)"],
+    "drug_name_latin": "Bellidis perennis herba / Bellidis flos",
+    "synonym_note": "Bellis perennis L. ist der aktuell akzeptierte Name (stabil). Nicht zu verwechseln mit der größeren, südeuropäischen Wald-/Strauch-Maßliebchen-Verwandtschaft (Bellis sylvestris) oder mit den unverwandten großköpfigen 'Margeriten' (Leucanthemum)."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: einzelnes Blütenköpfchen (1,5–3 cm) auf blattlosem, unbeblättertem, meist behaartem Stiel — außen weiße (oft rosa/rot überlaufene) Zungenblüten, in der Mitte eine gelbe Röhrenblüten-Scheibe",
+      "Blätter alle in einer flachen, bodennahen Grundrosette; spatelförmig, in den Stiel verschmälert, Rand schwach gekerbt, ohne Milchsaft",
+      "Sehr niedriger Wuchs (5–15 cm), kein beblätterter aufrechter Stängel; typische Trittrasen-/Wiesenpflanze",
+      "Blütezeit fast ganzjährig, Hauptflor März–Juni; Köpfchen schließen sich abends und bei Regen ('Schlafbewegung')",
+      "Kein Milchsaft (Unterschied zu Löwenzahn & Co.), kein aromatischer Kamillengeruch",
+      "Standort: Rasen, Wiesen, Weiden, Parks, Wegränder — einer der häufigsten Rasenblüher Mitteleuropas"
+    ],
+    "season": "Blüte fast das ganze Jahr, Hauptblüte März bis Juni; Ernte von Blüten und blühendem Kraut im Frühjahr/Frühsommer",
+    "habitat": "Kurzrasige Wiesen, Weiden, Rasen, Parks, Trittrasen, Wegränder; sonnig bis halbschattig, verträgt Beweidung/Mahd. In ganz Mitteleuropa gemein.",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-sehr-haeufig"}
+    ],
+    "collection_rules": [
+      "Frische, offene Köpfchen und junge Blätter aus der Rosette sammeln; kein Milchsaft und der gelbe Röhrenblüten-'Knopf' mit weißem Strahlenkranz bestätigen die Art.",
+      "Nicht auf gedüngten/gespritzten Rasenflächen, an Straßenrändern oder Hundeauslaufflächen sammeln (Schadstoff-/Kotbelastung).",
+      "In der Küche/Heilkunde maßvoll ernten: das blühende Kraut in größeren Mengen ist wegen der Saponine reizend — für den Verzehr gilt die Faustregel weniger, nicht mehr.",
+      "Verwechslung ist ungefährlich: die ähnlichen kleinen Korbblütler (Wald-Maßliebchen, Berufkraut) sind ebenfalls ungiftig."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wald-Maßliebchen / Südliches Gänseblümchen",
+      "scientific_name": "Bellis sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandte, größere Art des Mittelmeerraums/Südeuropas mit längeren Blättern; blüht v. a. im Herbst/Winter. Ungiftig, ähnliche Verwendung. Keine Gefahr."
+    },
+    {
+      "name": "Einjähriges Berufkraut / Feinstrahl",
+      "scientific_name": "Erigeron annuus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls weiße Strahlen + gelbe Mitte, aber deutlich größer, mit beblättertem, verzweigtem, aufrechtem Stängel und vielen kleinen Köpfchen (Gänseblümchen: 1 Kopf, blattloser Stiel, Grundrosette). Ungiftiger Neophyt; Verwechslung ohne Gesundheitsrisiko."
+    },
+    {
+      "name": "Margerite / Wiesen-Margerite",
+      "scientific_name": "Leucanthemum vulgare",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Dasselbe Farbschema (weiß-gelb), aber viel größere Köpfe an hohen, beblätterten Stängeln. Ungiftig, ebenfalls essbar. Keine Verwechslungsgefahr im Sinne einer Gefährdung."
+    },
+    {
+      "name": "Keine giftige oder lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Das Gänseblümchen hat keinen giftigen Doppelgänger. Die einzige Weiß-Gelb-Blüte am blattlosen Stiel über einer bodennahen Rosette ist unverwechselbar; alle in Frage kommenden Ähnlichen (kleine Korbblütler) sind ungiftig. Das reale Risiko ist Standortbelastung, nicht Giftigkeit."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (Bellissaponine; Derivate der Polygalasäure und des Bayogenins) — Leit-Wirkstoffgruppe, expektorierend/reizend",
+      "Flavonoide (u. a. Apigenin-Glykoside wie Cosmosiin/Apigenin-7-glucosid)",
+      "Gerbstoffe und Bitterstoffe",
+      "Schleimstoffe (Mucilaginosa), Polyine, organische Säuren, Vitamin C",
+      "Spuren ätherisches Öl, Anthoxanthin-Farbstoffe"
+    ],
+    "lead_substance": "Triterpensaponine (Bellissaponine): sekretolytisch/expektorierend (Reizung der Bronchialschleimhaut → Verflüssigung des Schleims) und mitverantwortlich für die traditionelle äußerliche Wundanwendung; in größeren Mengen zugleich der Grund für die Schleimhautreizung.",
+    "solubility_note": "Saponine, Flavonoide, Gerbstoffe, Schleim- und Bitterstoffe sind gut wasserlöslich → Teeaufguss und Frischpflanzenpresssaft sind die üblichen Zubereitungen. Für die äußerliche Anwendung werden Aufguss/Frischpflanze als Umschlag verwendet.",
+    "heat_light_sensitivity": "Blüten und Kraut schonend an der Luft trocknen; Flavonoide und Vitamin C sind licht-/oxidationsempfindlich. Getrocknete Droge licht- und luftgeschützt lagern; verliert bei langer Lagerung an Wirkstoff."
+  },
+  "pharmacology": {
+    "mechanism": "Die Saponine wirken schleimlösend/auswurffördernd (bronchiale Sekretolyse) und leicht adstringierend/entzündungsmodulierend; Gerbstoffe adstringieren, Bitterstoffe regen die Verdauung an. Für die traditionelle äußerliche Wund-/Prellungsanwendung ('Arnika des Nordens') werden entzündungshemmende und wundheilungsfördernde Effekte angenommen. Die Belege sind überwiegend präklinisch (Zell-/Tierversuche, Saponin-Fraktionen).",
+    "evidence_caveat": "Ehrlich und wichtig: Für Bellis perennis existiert KEINE EMA/HMPC-, KEINE ESCOP- und KEINE Kommission-E-Monographie. Es gibt keine belastbaren klinischen Studien (RCTs) am Menschen; die publizierten Daten sind präklinisch. Der gesamte Heilanspruch beruht auf Volksmedizin und Homöopathie. Evidenzgrad daher durchgehend TRAD.",
+    "pharmacokinetics": "Keine Humandaten. Unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der oberen Atemwege mit Husten (traditionelles Expektorans)",
+      "synonyms": ["Husten", "Erkältungshusten", "verschleimte Bronchien", "Bronchialkatarrh", "festsitzender Husten", "Auswurf fördern"],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Anwendung der saponinhaltigen Droge als mildes Hustenmittel/Expektorans. KEINE HMPC/ESCOP/Kommission-E-Monographie; kein Wirksamkeitsnachweis. Nur traditionelle Erfahrung.",
+      "realistic_expectation": "Bestenfalls milde, unspezifische Linderung eines leichten Erkältungshustens; kein belegter Effekt, keine Alternative zu geprüften Hustenmitteln. Bei anhaltendem/produktivem Husten oder Atemnot ärztlich abklären.",
+      "source": "Volksmedizin/Erfahrungsheilkunde (keine regulatorische Monographie); Sekundärliteratur (Heilpflanze des Jahres 2017)"
+    },
+    {
+      "canonical": "Leichte dyspeptische Beschwerden und Appetitlosigkeit (traditionell, 'Blutreinigung'/Frühjahrskur)",
+      "synonyms": ["Appetitlosigkeit", "Verdauungsbeschwerden", "Völlegefühl", "Frühjahrsmüdigkeit", "Blutreinigung", "Stoffwechselkur"],
+      "evidence_tag": "TRAD",
+      "comment": "Bitterstoff-/gerbstoffbedingte volksmedizinische Anwendung; junge Blätter als Frühjahrssalat. Kein Wirksamkeitsnachweis, keine regulatorische Monographie.",
+      "realistic_expectation": "Als bitteres Wildkraut kann es Appetit/Verdauung mild anregen und liefert Vitamine — der Begriff 'Blutreinigung' ist ein volkstümliches Bild ohne wissenschaftlichen Gehalt. Keine kurative Wirkung.",
+      "source": "Volksmedizin/Erfahrungsheilkunde (keine regulatorische Monographie)"
+    },
+    {
+      "canonical": "Äußerlich: Prellungen, Verstauchungen, kleine Wunden und Hautunreinheiten (traditionell, 'Arnika des Nordens')",
+      "synonyms": ["blaue Flecken", "Bluterguss", "Prellung", "Verstauchung", "Quetschung", "Hautunreinheiten", "kleine Wunden", "Wundheilung"],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle äußerliche Anwendung als Umschlag/Auflage; in der Homöopathie klassisches Wund-/Verletzungsmittel ('Arnika des Nordens'). Keine klinische Evidenz, keine regulatorische Monographie.",
+      "realistic_expectation": "Volkstümliche äußerliche Pflege bei Prellungen/kleinen Blessuren; ein belegter Nutzen fehlt. Tiefe, stark blutende oder infizierte Wunden gehören ärztlich versorgt.",
+      "source": "Volksmedizin/Homöopathie (keine regulatorische Monographie)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sehr sicheres, weit verbreitetes Wild- und Küchenkraut mit mild expektorierenden (Saponine), adstringierenden (Gerbstoffe) und verdauungsanregenden (Bitterstoffe) Eigenschaften; ernährungsphysiologisch wertvoll (Vitamin C). Die Blüten sind eine beliebte essbare Dekoration.",
+    "overstated": "Der Status als 'Heilpflanze' übersteigt die Evidenz deutlich: Es gibt KEINE regulatorische Monographie (HMPC/ESCOP/Kommission E) und keine klinischen Studien. Sämtliche Heilwirkungen sind traditionell/homöopathisch, nicht belegt. Bellis perennis ist kein Ersatz für geprüfte Husten-, Verdauungs- oder Wundmittel.",
+    "effect_size": "sehr mild; symptomatisch/nutritiv, nicht kurativ"
+  },
+  "preparation": {
+    "recommended_forms": ["Teeaufguss (Blüten/blühendes Kraut)", "Frischpflanzenpresssaft", "junge Blätter/Blüten als Salat und essbare Deko", "äußerlich: Aufguss-Umschlag/frisch zerquetscht"],
+    "form_rationale": "Die wasserlöslichen Saponine, Flavonoide, Gerb- und Schleimstoffe gehen gut in einen Aufguss über; für die traditionelle äußerliche Anwendung eignen sich Umschläge mit Aufguss oder die frische Pflanze. Alkoholische Auszüge sind für die Homöopathie üblich.",
+    "standard_dose": "Keine offiziell standardisierte Dosierung (keine Monographie). Volkstümlich Aufguss aus ~1–2 TL getrockneter Droge je Tasse, 2–3× täglich. Für den rohen Verzehr kursiert die (nicht wissenschaftlich begründete) Faustregel: Erwachsene nicht mehr als ~10 Blätter und 4 Blüten pro Tag, Kinder die Hälfte.",
+    "preservation": "Getrocknete Blüten/Kraut trocken, kühl, licht- und luftgeschützt lagern; Wirkstoffgehalt nimmt bei Lagerung ab. Presssaft frisch verwenden."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Korbblütler (Asteraceae) — Kreuzallergie möglich",
+      "Verzehr größerer Mengen des blühenden Krauts (Saponin-bedingte Schleimhautreizung/Magen-Darm-Reizung) meiden",
+      "Säuglinge/Kleinkinder: arzneiliche Anwendung nicht empfohlen (keine Daten)"
+    ],
+    "pregnancy_lactation": "Keine belastbaren Daten. In der Volksmedizin wird die arzneiliche (konzentrierte) Anwendung in der Schwangerschaft teils gemieden (überlieferte emmenagoge/menstruationsfördernde Zuschreibung); der Verzehr üblicher Speisemengen gilt als unbedenklich. Defensiv: arzneilich unsicher — zu prüfen.",
+    "adverse_effects": "In üblichen Mengen sehr gut verträglich. Größere Mengen des Krauts können durch Saponine Magen-Darm-/Schleimhautreizungen (Übelkeit, Erbrechen) auslösen. Selten allergische Reaktionen (Korbblütler). Insgesamt gilt Bellis perennis als ungiftig/essbar.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Arzneimittelinteraktionen bekannt oder belegt",
+        "affected": "keine bekannt",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Sehr sicheres, essbares Wildkraut ohne giftigen Doppelgänger — aber KEINE belegte Heilpflanze (keine HMPC/ESCOP/Kommission-E-Monographie); größere Mengen des Krauts wegen der Saponine meiden, bei Korbblütler-Allergie vorsichtig sein."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten und junges blühendes Kraut im Frühjahr/Frühsommer (Hauptflor März–Juni), an trockenen Vormittagen bei geöffneten Köpfchen.",
+    "harvest_month_tags": [3, 4, 5, 6],
+    "harvest_organ": "Blüte und Kraut (blühendes Kraut / Herba cum flore)",
+    "method": "Ganze Köpfchen und junge Rosettenblätter pflücken; nicht von belasteten Rasenflächen.",
+    "processing": "Rasch und luftig im Schatten trocknen (Blüten neigen zum Nachreifen/Schließen); für Presssaft frisch verarbeiten.",
+    "storage": "Trocken, kühl, licht- und luftgeschützt; getrocknete Droge möglichst innerhalb eines Jahres verwenden."
+  },
+  "kitchen": {
+    "uses": ["Blüten als essbare Deko auf Salat, Suppe, Butterbrot", "junge Blätter im Frühlingssalat oder als Wildgemüse", "Knospen eingelegt als 'Kapern-Ersatz'", "Blüten in Kräuterquark/Aufstrichen"],
+    "culinary_vs_medicinal": "Die Grenze ist fließend: In der Küche werden kleine Mengen als Salat/Deko genutzt (unbedenklich), die 'heilkundliche' Anwendung ist konzentrierter, aber ebenfalls ohne belegten Nutzen. Wegen der Saponine gilt auch kulinarisch: maßvoll, nicht in großen Mengen roh."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig bis halbschattig, jeder normale, nicht zu trockene Gartenboden; verträgt Tritt und Mahd.",
+    "hardiness": "Vollkommen winterhart, ausdauernd; blüht fast ganzjährig. Gefüllte Zuchtformen ('Tausendschön') als Zierpflanze.",
+    "propagation": "Selbstaussaat und Ausläufer/Teilung der Rosetten; breitet sich im Rasen von selbst aus.",
+    "bodensee_suitability": "Im Bodenseeraum überall von Natur aus sehr häufig; Anbau unnötig, Wildvorkommen im Rasen reicht. Als Zierform problemlos kultivierbar."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Gänseblümchen im Rasen: weiße Strahlenblüten mit gelber Mitte auf blattlosen Stielen über einer Blattrosette", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Grundständige spatelförmige Blattrosette ohne Milchsaft — Abgrenzung zu Löwenzahn & Co.", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie vorhanden (mehrfach bestätigt) — Evidenz daher durchgehend TRAD",
+    "Heilpflanze des Jahres 2017 (NHV Theophrastus): Übersichtsartikel zu Bellis perennis (u. a. Schweiz. Zeitschrift für Ganzheitsmedizin / Karger 2017)",
+    "Sekundärquellen zu Inhaltsstoffen (Triterpensaponine, Flavonoide) und Volksanwendung: awl.ch, WALA Heilpflanzenlexikon, Phytokodex, Giftinformationszentrale Bonn (Einstufung essbar/gering giftig in großen Mengen)",
+    "Botanik/Verwechslung: Wildpflanzen-Portale, Gartenjournal (kein giftiger Doppelgänger); WebFetch-Primärabruf einzelner Fachseiten 403 — Inhalte über Websuche verifiziert, ärztlich gegenzuprüfen"
+  ]
+}
