@@ -437,8 +437,8 @@
       "latin": "Aconitum napellus",
       "tier": 3,
       "reason": "WARNEINTRAG — giftigste Pflanze Europas",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-blauer-eisenhut.json"
     },
     {
       "id": "atropa-belladonna",
@@ -446,8 +446,8 @@
       "latin": "Atropa belladonna",
       "tier": 3,
       "reason": "WARNEINTRAG — Atropin",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-tollkirsche.json"
     },
     {
       "id": "heracleum-mantegazzianum",

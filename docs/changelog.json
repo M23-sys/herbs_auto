@@ -351,6 +351,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Alle Pflanzenteile hochgiftig durch herzwirksame Cardenolide (Purpureaglykoside A/B -> Digitoxin, Gitoxin; Na+/K+-ATPase-Hemmung), schon 2-3 Blaetter koennen toedlich sein. Sicherheitskern: die lebensgefaehrliche Verwechslung der BLATTROSETTE mit BEINWELL (Symphytum officinale) im Rosettenstadium — Fingerhutblatt weich filzig-wollig, unterseits grau-netznervig, laeuft NICHT am Staengel herab; Beinwell rau-borstig und deutlich herablaufend. Glykoside hitze-/wasserstabil -> Teeaufguss entgiftet NICHT, sondern extrahiert das Gift (typischer Vergiftungsweg). Lange HWZ/Kumulation -> verzoegerte Rhythmusstoerungen; interaction_heavy=true (additiv zu Digitalispraeparaten, Hypokaliaemie durch Diuretika verstaerkt Toxizitaet); pregnancy_contraindicated=true. Taxonomie aktualisiert: Plantaginaceae (frueher Scrophulariaceae). deadly_confusion=false, da kein Konfusionspartner selbst 'lebensgefaehrlich' ist (Konvention wie Herbstzeitlose). HMPC/ESCOP-Primaerquellen nicht erreichbar — aerztlich gegenzupruefen."
+    },
+    {
+      "ts": "2026-07-20T11:30:00Z",
+      "id": "aconitum-napellus",
+      "common": "Blauer Eisenhut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Eine der giftigsten Pflanzen Europas: Norditerpen-Alkaloid Aconitin (bis ~3% in der Wurzelknolle) hält spannungsabhängige Na+-Kanäle dauerhaft offen (Bindungsstelle 2) -> Parästhesien, schwere ventrikuläre Rhythmusstörungen, aufsteigende Lähmung, Tod durch Herzrhythmusstörung/Atemlähmung. Sicherheitskern: Verwechslung der dunklen Wurzelknolle mit essbaren Wurzeln (Meerrettich, Sellerie, Pastinake) — mehrfach tödlich; zusätzlich Hautresorption beim Gärtnern (Handschuhe!). Bestimmung: helmförmige blauviolette Blüte ('Sturmhut'), handförmig geteilte Blätter, bis 1,5 m. deadly_confusion=false (kein Konfusionspartner selbst 'lebensgefährlich', Konvention wie Herbstzeitlose); pregnancy_contraindicated=true. Häufige Zierstaude -> Kinder-/Haustierrisiko. Tödliche Dosis (ca. 2-6 mg Aconitin) und HMPC/ESCOP nicht primär belegbar (WebFetch 403) — ärztlich gegenzuprüfen."
+    },
+    {
+      "ts": "2026-07-20T11:31:00Z",
+      "id": "atropa-belladonna",
+      "common": "Tollkirsche",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Tropan-Alkaloide (Hyoscyamin/Atropin, Scopolamin) blockieren muskarinische ACh-Rezeptoren -> anticholinerges Syndrom ('rot, heiß, trocken, blind, verrückt'), bei Kindern sind bereits 3-4 der SÜSS schmeckenden schwarzen Beeren potenziell tödlich (Erwachsene ~10-12). Sicherheitskern (umgekehrte Verwechslungsrichtung): Einzelbeere mit sternförmigem, ansitzendem Kelch an krautiger Staude -> Abgrenzung zu Süßkirsche (Stein, langer Stiel, kein Kelch) und Heidelbeere (klein, Zwergstrauch); zusätzlich dokumentierte Blattverwechslung mit Spinat und Wurzelverwechslung mit Meerrettich. Antidot Physostigmin (nur ärztlich). deadly_confusion=false (Konvention); pregnancy_contraindicated=true. Toxin-Kennzahlen aus Sekundärquellen, HMPC/ESCOP nicht primär erreichbar (WebFetch 403) — ärztlich gegenzuprüfen."
     }
   ]
 }

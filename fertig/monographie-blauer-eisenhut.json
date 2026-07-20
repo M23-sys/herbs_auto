@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "id": "aconitum-napellus",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Aconitum napellus L.",
+    "common_names_de": [
+      "Blauer Eisenhut",
+      "Echter Sturmhut",
+      "Mönchskappe",
+      "Eisenhütlein",
+      "Fischerkappe"
+    ],
+    "family": "Ranunculaceae (Hahnenfußgewächse)",
+    "drug_part": [
+      "ganze Pflanze giftig (Wurzelknolle, Kraut, Samen) — keine Selbstanwendung; höchster Aconitin-Gehalt in der Wurzelknolle"
+    ],
+    "drug_name_latin": "Aconiti tuber/herba (historisch als Analgetikum/Antineuralgikum, heute in der Selbstmedizin obsolet; nur stark verdünnte Fertigarzneien/Homöopathie)",
+    "synonym_note": "Akzeptierter Name Aconitum napellus L. (Ranunculaceae). Taxonomisch komplexer Aggregat-Formenkreis mit zahlreichen Unterarten (subsp. napellus, lusitanicum, lobelii u.a.) — die genaue infraspezifische Zuordnung im Feld ist oft 'unsicher — zu prüfen'. NICHT mit dem ebenfalls giftigen Gelben Eisenhut (Aconitum lycoctonum/vulparia) oder dem Zier-Hybrid Aconitum × cammarum verwechseln.",
+    "synonyms": [
+      "Napellus vulgaris Fourr.",
+      "Aconitum napellus subsp. napellus"
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Blüten helmförmig ('Sturmhut'/'Mönchskappe'): das oberste der 5 blauvioletten Blütenblätter bildet einen hohen Helm, der zwei langgestielte Honigblätter verbirgt — unverwechselbares Bestimmungsmerkmal in Blüte",
+      "Blüten in dichter, aufrechter, endständiger Traube; kräftig blau bis blauviolett (selten weißlich)",
+      "Blätter handförmig 5–7-teilig, tief und schmal gefingert, dunkelgrün, glänzend, wechselständig",
+      "Kräftige Staude bis ca. 1,5 m Höhe",
+      "Wurzel: schwarzbraune, fleischige, rüben-/knollenartige Speicherwurzel (namensgebend 'napellus' = kleine Rübe) — enthält bis zu ~3 % Aconitin, der giftigste Teil",
+      "Blütezeit Juni/Juli–September"
+    ],
+    "season": "Blüte Juni/Juli–September; Wurzelknolle ganzjährig im Boden",
+    "habitat": "Feuchte, nährstoffreiche Hochstaudenfluren, Bach- und Wegränder, feuchte Bergwiesen, lichte Auwälder der Berg- und Voralpenstufe; zusätzlich häufig als Zierstaude in Gärten kultiviert und verwildernd",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Nicht sammeln, nicht verzehren — alle Pflanzenteile sind hochgiftig, die Wurzelknolle am stärksten",
+      "Auch beim Gärtnern (Umpflanzen, Teilen der Stauden) Handschuhe tragen: Aconitin wird über die Haut und über kleine Wunden resorbiert",
+      "Wurzelknollen niemals mit essbaren Wurzeln (Meerrettich, Sellerie/Knollensellerie, Pastinake, Schwarzwurzel) im selben Korb/Beet verwechseln — mehrere tödliche Verwechslungen dokumentiert",
+      "Kinder fernhalten: die hübschen blauen Blüten und die Knollen laden zum Anfassen ein"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Meerrettich",
+      "scientific_name": "Armoracia rusticana",
+      "toxicity_level": "essbar",
+      "note": "Klassische, potenziell tödliche Wurzelverwechslung. Meerrettichwurzel ist hellbeige, riecht beim Anschneiden stechend-scharf (Senföle) und schmeckt scharf. Eisenhutknolle ist dunkel/schwarzbraun, geruchlos-mild und darf NICHT probiert werden — schon Anschneiden und Hautkontakt bergen Risiko. Im Zweifel Wurzel liegen lassen."
+    },
+    {
+      "name": "Knollensellerie / Sellerie",
+      "scientific_name": "Apium graveolens",
+      "toxicity_level": "essbar",
+      "note": "Selleriewurzel/-knolle riecht typisch würzig nach Sellerie. Eisenhutknolle ist geruchsarm und rübenförmig — dokumentierte Verwechslungen mit tödlichem Ausgang. Verlass dich nie auf Aussehen allein; Sellerie-Aroma ist der Bestätiger."
+    },
+    {
+      "name": "Pastinake / Petersilienwurzel",
+      "scientific_name": "Pastinaca sativa",
+      "toxicity_level": "essbar",
+      "note": "Helle, würzig riechende Wurzel eines Doldenblütlers. Eisenhut ist ein Hahnenfußgewächs mit dunkler, milder Knolle. Verwechslungsgefahr v.a. beim Wildsammeln/Ausgraben ungekennzeichneter Wurzeln — niemals unbestimmte Wurzeln essen."
+    },
+    {
+      "name": "Gelber Eisenhut (nur Abgrenzung)",
+      "scientific_name": "Aconitum lycoctonum (syn. A. vulparia)",
+      "toxicity_level": "giftig",
+      "toxin": "Aconitin und verwandte Norditerpen-Alkaloide (u.a. Lycaconitin)",
+      "note": "KEIN Nahrungsmittel — nur zur botanischen Abgrenzung. Gelbblühend, ebenfalls hochgiftig. Beide Eisenhut-Arten sind Giftpflanzen und dürfen nicht angewendet werden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Norditerpen-Alkaloide (Leitalkaloid Aconitin; daneben Mesaconitin, Hypaconitin, Napellin u.a.)",
+      "höchster Alkaloidgehalt in der Wurzelknolle (bis ~3 %), schwankt stark mit Herkunft, Jahreszeit und Unterart"
+    ],
+    "lead_substance": "Aconitin — eines der stärksten pflanzlichen Nervengifte; öffnet spannungsabhängige Natriumkanäle dauerhaft und wirkt zugleich neuro- und kardiotoxisch",
+    "solubility_note": "Aconitin ist alkohol- und fettlöslich und geht auch in wässrige Auszüge über; es gibt KEINE sichere häusliche Zubereitung. Trocknen oder Kochen entgiftet nicht zuverlässig. Jede Selbstdosierung ist wegen des schwankenden Gehalts unkalkulierbar.",
+    "heat_light_sensitivity": "Aconitin ist relativ hitzestabil; teilweise Hydrolyse zu weniger giftigen Aconinen bei langem Erhitzen, aber nicht verlässlich — getrocknetes wie frisches Material bleibt gefährlich."
+  },
+  "pharmacology": {
+    "mechanism": "Aconitin bindet mit hoher Affinität an Bindungsstelle 2 der α-Untereinheit spannungsabhängiger Natriumkanäle (NaV), hält sie im offenen Zustand und blockiert die Inaktivierung. Folge ist ein anhaltender Natrium-Einstrom mit Dauerdepolarisation von Nerv-, Herz- und Muskelzellen, die schließlich unerregbar werden. Klinisch resultieren Parästhesien/Taubheit, schwere ventrikuläre Herzrhythmusstörungen und aufsteigende Lähmung.",
+    "evidence_caveat": "Keine belegte Selbstanwendung. Frühere Nutzung als Analgetikum/Antineuralgikum ist wegen extrem enger therapeutischer Breite verlassen. Als Warneintrag geführt — keine Evidenzbewertung (HMPC/ESCOP) für eine Anwendung, weil keine empfohlen wird.",
+    "pharmacokinetics": "Rasche Resorption oral und über die Haut/Schleimhäute; Symptombeginn oft schon nach Minuten bis ca. 1 Stunde. Kein zugelassenes spezifisches Antidot — Behandlung symptomatisch/intensivmedizinisch (Antiarrhythmika, ggf. Procain/Amiodaron werden diskutiert); Angaben 'unsicher — ärztlich/toxikologisch zu prüfen'."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "Der Ruf als 'starkes Schmerz-/Neuralgiemittel' aus der historischen und homöopathischen Literatur verleitet zur Selbstanwendung — das ist lebensgefährlich. Der Blaue Eisenhut gilt als eine der giftigsten Pflanzen Europas; die therapeutische Breite ist so eng, dass eine sichere Selbstdosierung nicht existiert.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Der Aconitin-Gehalt schwankt unkalkulierbar nach Pflanzenteil, Unterart, Standort und Jahreszeit; es gibt keine sichere Dosis und keine sichere Zubereitung. Aconitin geht in Wasser, Alkohol und Fett über.",
+    "standard_dose": "keine — nicht anwenden. In der Literatur werden bereits ca. 2–6 mg Aconitin bzw. wenige Gramm Wurzel als potenziell tödlich für Erwachsene genannt; Dosisangaben schwanken erheblich ('unsicher — ärztlich/toxikologisch zu prüfen').",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Keine tolerierbare Menge. Alle Pflanzenteile enthalten Aconitin, die Wurzelknolle am stärksten (bis ~3 %). Schon der Verzehr kleiner Mengen oder ausgedehnter Hautkontakt kann zu tödlichen Herzrhythmusstörungen und Atemlähmung führen.",
+    "contraindications": [
+      "Nicht zum Verzehr und nicht zur Selbstmedikation — für alle Personen hochgiftig",
+      "Kein Hautkontakt mit Wurzel/Pflanzensaft ohne Handschuhe"
+    ],
+    "pregnancy_lactation": "Strikt meiden — hochgiftig, keinerlei Anwendung in Schwangerschaft und Stillzeit.",
+    "adverse_effects": "Frühzeichen: Kribbeln/Taubheit an Lippen, Zunge und Fingern, Speichelfluss, Übelkeit, Erbrechen, Kältegefühl. Dann Herzrhythmusstörungen (ventrikuläre Tachykardien/Kammerflimmern), Blutdruckabfall, Muskelschwäche mit aufsteigender Lähmung; Tod durch Herzrhythmusstörung oder Atemlähmung, meist bei erhaltenem Bewusstsein. Notfall: sofort Giftnotruf/Notarzt, EKG-Überwachung.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Aconitin wirkt stark proarrhythmisch über Dauereröffnung kardialer Natriumkanäle; Kombination mit anderen kardiotoxischen/QT- bzw. rhythmusbeeinflussenden Stoffen kann die Toxizität verstärken. Klinisch steht die reine Giftwirkung im Vordergrund.",
+        "affected": "Antiarrhythmika, Herzglykoside, andere kardiotoxische Substanzen",
+        "clinical_relevance": "relevant im Vergiftungsfall"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "apiaceae_confusion_young": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Eine der giftigsten Pflanzen Europas: schon geringe Mengen — auch über die Haut resorbiert — können tödliche Herzrhythmusstörungen und Atemlähmung auslösen. Wurzelknolle niemals mit Meerrettich oder Sellerie verwechseln. Niemals anwenden, beim Gärtnern Handschuhe."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Heilpflanze für die Selbstanwendung. Sicherheitskritisch v.a. als Wurzel-Doppelgänger essbarer Wurzeln (Meerrettich, Sellerie, Pastinake)."
+  },
+  "garden": {
+    "site_soil": "frische bis feuchte, nährstoffreiche, humose Böden; halbschattig; als Zierstaude beliebt",
+    "hardiness": "winterhart, ausdauernd",
+    "propagation": "Teilung/Aussaat — nur mit Handschuhen; nicht dort pflanzen, wo Kleinkinder unbeaufsichtigt spielen",
+    "bodensee_suitability": "Gedeiht im Bodenseeraum als Zierstaude gut und verwildert. Aus Sicherheitsgründen in Haushalten mit Kindern/Haustieren jedoch nicht zu empfehlen; bei Pflege konsequent Handschuhe, Wurzeln nie in die Nähe von Küchen-/Erntewurzeln bringen."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Helmförmige blauviolette Blüte ('Sturmhut') in aufrechter Traube",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Bis 1,5 m hohe Staude mit handförmig geteilten Blättern; dunkle Wurzelknolle",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Plants of the World Online (Kew) / GBIF — akzeptierte Taxonomie Aconitum napellus L., Synonym Napellus vulgaris Fourr.",
+    "giftpflanzen.com / heilpraxisnet.de (Blauer Eisenhut) — Aconitin-Gehalt bis ~3 % in der Wurzel, helmförmige Blüte, handförmige Blätter, Verwechslung mit Meerrettich/Sellerie, Hautresorption",
+    "natuerlich.thieme.de / PharmaWiki — Botanik, Toxikologie, historische Anwendung",
+    "ScienceDirect Topics 'Aconitine' / Aconitum sp. alkaloids (Na+-Kanal Bindungsstelle 2, persistente Aktivierung, Neuro-/Kardiotoxizität) und PMC-Übersichten zur Aconitin-Toxikologie (Forensik, tödliche Dosis)",
+    "Hinweis: EMA/HMPC- und ESCOP-Primärquellen im Lauf per WebFetch nicht erreichbar (403). Toxikologische Kennzahlen (tödliche Dosis 2–6 mg Aconitin, 1–10 mg/kg) aus Sekundärquellen — als 'unsicher — ärztlich zu prüfen' markiert. Als Warneintrag ist keine Anwendungs-Evidenz zu vergeben."
+  ]
+}

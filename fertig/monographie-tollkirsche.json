@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "id": "atropa-belladonna",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Atropa belladonna L.",
+    "common_names_de": [
+      "Schwarze Tollkirsche",
+      "Tollkirsche",
+      "Teufelskirsche",
+      "Wolfskirsche",
+      "Belladonna"
+    ],
+    "family": "Solanaceae (Nachtschattengewächse)",
+    "drug_part": [
+      "ganze Pflanze giftig (Beeren, Blätter, Wurzel); Beeren sind die häufigste Gefahrenquelle für Kinder — keine Selbstanwendung"
+    ],
+    "drug_name_latin": "Belladonnae folium/radix (Ausgangsstoff für die verschreibungspflichtigen Reinalkaloide Atropin/Hyoscyamin/Scopolamin — ausschließlich ärztlich/apothekenpflichtig, keine Selbstmedikation mit der Pflanze)",
+    "synonym_note": "Akzeptierter Name Atropa belladonna L. (Solanaceae), auch geschrieben Atropa bella-donna. NICHT verwechseln mit dem ebenfalls giftigen Schwarzen Nachtschatten (Solanum nigrum) oder der giftigen Einbeere (Paris quadrifolia) — andere Gattungen, andere Toxine.",
+    "synonyms": [
+      "Atropa bella-donna L.",
+      "Belladonna baccifera Lam.",
+      "Atropa lutescens Jacq."
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Reife Beere kirschgroß, kugelig, glänzend schwarzviolett, EINZELN stehend auf einem breiten, sternförmig 5-zipfeligen, ansitzenden Kelch — wichtigstes Warnmerkmal (nicht in Trauben/Dolden)",
+      "Beeren süßlich schmeckend (Kinder verzehren sie deshalb arglos) — Geschmack ist KEINE Sicherheitsprüfung",
+      "Blüten einzeln in den Blattachseln, glockig, außen bräunlich-violett, innen gelbgrün, bis ~3 cm; Blütezeit Juni–August",
+      "Blätter wechselständig, oft paarweise ungleich groß (ein großes, ein kleines), eiförmig-elliptisch, ganzrandig, bis ~15 cm, Oberseite etwas runzlig, matt braungrün",
+      "Kräftige, buschige Staude 0,5–1,5 (–2) m; ganze Pflanze mit unangenehmem Geruch",
+      "Standort: Lichtungen, Kahlschläge, Waldwege und Waldränder auf kalkhaltigen, nährstoffreichen Böden"
+    ],
+    "season": "Blüte Juni–August; reife schwarze Beeren August–Oktober",
+    "habitat": "Kalkreiche, nährstoffreiche Böden an Waldlichtungen, Schlagfluren, Waldwegrändern und Gebüschsäumen der Hügel- und Bergstufe; im Bodensee-/Voralpenraum verbreitet, gern an sonnigen Waldschlägen",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "Beeren niemals essen oder sammeln — schon wenige sind für Kinder tödlich; süßer Geschmack täuscht Harmlosigkeit vor",
+      "Kinder aktiv fernhalten und über die glänzend schwarzen 'Kirschen' aufklären — häufigste Vergiftungsquelle",
+      "Blätter nicht mit essbarem Blattgemüse (z.B. Spinat) verwechseln — dokumentierte Sammelvergiftungen",
+      "Wurzel nicht mit Meerrettich/Pastinake/Schwarzwurzel verwechseln (Erwachsenenvergiftungen bekannt)",
+      "Nach Kontakt Hände waschen; kein Saft in Augen/Mund (Pupillenerweiterung schon durch geringe Mengen)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Süß-/Vogelkirsche",
+      "scientific_name": "Prunus avium",
+      "toxicity_level": "essbar",
+      "note": "Wichtigste kindliche Verwechslung. Echte Kirsche hat einen harten Stein, hängt einzeln oder zu wenigen an langen dünnen Stielen OHNE ansitzenden Kelch. Tollkirschbeere ist steinlos (viele Samen im weichen Fruchtfleisch), sitzt auf kurzem, dickem Stiel mit breitem, sternförmigem Kelch — und wächst an einer krautigen Staude, nicht am Baum."
+    },
+    {
+      "name": "Heidelbeere / Blaubeere",
+      "scientific_name": "Vaccinium myrtillus",
+      "toxicity_level": "essbar",
+      "note": "Heidelbeeren sind deutlich kleiner (erbsengroß), blau bereift, wachsen an niedrigen Zwergsträuchern und tragen an der Spitze einen kleinen Kronenrand. Tollkirschbeeren sind kirschgroß, schwarz-glänzend, mit sternförmigem Kelch an hoher krautiger Staude. Bei Beerensammeln mit Kindern strikt trennen."
+    },
+    {
+      "name": "Spinat (und anderes Blattgemüse)",
+      "scientific_name": "Spinacia oleracea",
+      "toxicity_level": "essbar",
+      "note": "Dokumentierte Vergiftungen, weil junge Tollkirschblätter als Wildgemüse/Spinat verkocht wurden. Tollkirschblätter sind ganzrandig, braungrün, unangenehm riechend und gehören zu einer hohen Solanaceen-Staude — kein Wildblattgemüse aus unbekannter Herkunft essen."
+    },
+    {
+      "name": "Meerrettich / Pastinake (Wurzel)",
+      "scientific_name": "Armoracia rusticana",
+      "toxicity_level": "essbar",
+      "note": "Erwachsene wurden vergiftet, weil Tollkirschwurzeln für Meerrettich, Pastinake oder Schwarzwurzel gehalten wurden. Meerrettich riecht scharf-stechend (Senföle); Tollkirschwurzel nicht. Unbekannte Wurzeln nie ausgraben und essen."
+    },
+    {
+      "name": "Schwarzer Nachtschatten (nur Abgrenzung)",
+      "scientific_name": "Solanum nigrum",
+      "toxicity_level": "giftig",
+      "toxin": "Solanin (Steroidalkaloide)",
+      "note": "KEIN Nahrungsmittel — nur zur Abgrenzung. Trägt kleine schwarze Beeren in DOLDEN/Trauben (mehrere zusammen), nicht einzeln mit Sternkelch, und ist eine andere Giftpflanze (Solanin statt Tropanalkaloide). Beide nicht verzehren."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Tropan-Alkaloide (Leitalkaloide (S)-Hyoscyamin, beim Trocknen teils zu racemischem Atropin; daneben Scopolamin/Hyoscin)",
+      "Gesamtalkaloidgehalt schwankt nach Pflanzenteil, Herkunft und Reife (Wurzel und Blätter besonders reich)"
+    ],
+    "lead_substance": "Atropin/Hyoscyamin — kompetitive Antagonisten muskarinischer Acetylcholinrezeptoren (Parasympatholytika); Scopolamin ist stärker zentral wirksam",
+    "solubility_note": "Tropanalkaloide sind wasser- und alkohollöslich und gehen in jeden Auszug über; es gibt KEINE sichere häusliche Zubereitung. Bereits geringe Mengen Beeren/Blätter sind gefährlich.",
+    "heat_light_sensitivity": "Beim Trocknen wandelt sich (S)-Hyoscyamin teilweise in racemisches Atropin um; Kochen/Trocknen entgiftet NICHT — die Alkaloide bleiben wirksam."
+  },
+  "pharmacology": {
+    "mechanism": "Die Tropanalkaloide Atropin, Hyoscyamin und Scopolamin blockieren kompetitiv muskarinische Acetylcholinrezeptoren (Parasympatholyse). Klinisch resultiert das anticholinerge Syndrom: Mydriasis, Akkommodationslähmung, Tachykardie, Hemmung von Speichel-/Schweiß-/Bronchialsekretion und Darmmotilität, Harnverhalt, Hyperthermie; Scopolamin überwindet die Blut-Hirn-Schranke und verursacht Delir, Halluzinationen, Erregung. Merkregel: 'rot, heiß, trocken, blind, verrückt'.",
+    "evidence_caveat": "Keine belegte Selbstanwendung der Pflanze. Reinalkaloide (Atropin, Scopolamin, Butylscopolamin) sind etablierte, aber verschreibungspflichtige Arzneistoffe mit enger therapeutischer Breite — das rechtfertigt keine Anwendung der Pflanze. Als Warneintrag geführt, keine Anwendungs-Evidenz (HMPC/ESCOP) vergeben.",
+    "pharmacokinetics": "Rasche Resorption oral und über Schleimhäute; Symptombeginn meist innerhalb von 30–60 Minuten, anticholinerge Wirkung kann viele Stunden anhalten. Spezifisches Antidot bei schwerer zentraler Symptomatik: Physostigmin (reversibler Cholinesterasehemmer, ZNS-gängig) — nur unter intensivmedizinischer/ärztlicher Kontrolle."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "Der historische Ruf als 'Schönheitsmittel' (belladonna = schöne Frau; Pupillenerweiterung) und als Rausch-/Schamanenpflanze verleitet zu gefährlichen Selbstversuchen. Die therapeutische Breite ist extrem eng, der Übergang von Rausch zu tödlicher Vergiftung fließend — jede Selbstanwendung ist lebensgefährlich.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Der Alkaloidgehalt schwankt unkalkulierbar nach Pflanzenteil, Herkunft und Reife; wasserlösliche Tropanalkaloide gehen in jeden Auszug über. Es gibt keine sichere Dosis und keine sichere Zubereitung.",
+    "standard_dose": "keine — nicht anwenden. Für Kinder gelten bereits 3–4 Beeren (ca. 1–10 mg Atropin) als potenziell tödlich, für Erwachsene etwa 10–12 Beeren (~100 mg Atropin); Angaben schwanken ('unsicher — ärztlich/toxikologisch zu prüfen').",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Keine tolerierbare Menge. Alle Pflanzenteile enthalten Tropanalkaloide. Bei Kindern können schon 3–4 süß schmeckende Beeren tödlich sein; Blätter und Wurzel ebenso gefährlich.",
+    "contraindications": [
+      "Nicht zum Verzehr und nicht zur Selbstmedikation — für alle Personen hochgiftig",
+      "Besondere Gefahr für Kinder (Beeren) und bei Wildgemüse-/Wildwurzel-Sammeln"
+    ],
+    "pregnancy_lactation": "Strikt meiden — hochgiftig; keinerlei Anwendung der Pflanze in Schwangerschaft und Stillzeit.",
+    "adverse_effects": "Anticholinerges Syndrom: trockener Mund, Schluckbeschwerden, weite reaktionslose Pupillen, Sehstörungen, heiße, trockene, gerötete Haut, hohes Fieber, schneller/unregelmäßiger Puls, Harnverhalt, Unruhe, Halluzinationen, Delir, Krämpfe; in schweren Fällen Koma und Atemlähmung. Notfall: sofort Giftnotruf/Notarzt.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Additive anticholinerge Wirkung mit anderen Substanzen mit anticholinergem Profil kann das Vergiftungsbild verstärken. Klinisch steht die reine Giftwirkung im Vordergrund.",
+        "affected": "andere Anticholinergika, trizyklische Antidepressiva, Antihistaminika, Neuroleptika",
+        "clinical_relevance": "relevant im Vergiftungsfall"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "apiaceae_confusion_young": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Hochgiftige Giftpflanze: schon 3–4 der süß schmeckenden schwarzen Beeren können ein Kind töten. Einzelbeere mit sternförmigem Kelch an krautiger Staude — keine Kirsche, keine Heidelbeere. Niemals verzehren, Kinder fernhalten."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Heilpflanze für die Selbstanwendung. Sicherheitskritisch v.a. als Beeren-Doppelgänger essbarer Beeren (Kirsche, Heidelbeere) sowie als Blatt-/Wurzel-Doppelgänger von Gemüse."
+  },
+  "garden": {
+    "site_soil": "kalkreiche, nährstoffreiche, humose Böden; halbschattig; gelegentlich in Kräuter-/Apothekergärten kultiviert",
+    "hardiness": "winterhart, ausdauernd",
+    "propagation": "Aussaat/Selbstaussaat; nicht in Haushalten mit Kindern/Haustieren pflanzen",
+    "bodensee_suitability": "Regional wild (eher zerstreut/selten) an Waldschlägen vorhanden. Als hochgiftige Pflanze mit für Kinder attraktiven Beeren NICHT für den Hausgarten zu empfehlen; bei Vorkommen Kinder aufklären und Beeren nicht in Reichweite lassen."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Einzelne schwarzglänzende Beere auf breitem, sternförmigem Kelch",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Buschige Staude mit glockigen braunvioletten Blüten und ganzrandigen Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Plants of the World Online (Kew) / GBIF — akzeptierte Taxonomie Atropa belladonna L.; Synonyme Belladonna baccifera Lam., Atropa lutescens Jacq.",
+    "de.wikipedia.org (Schwarze Tollkirsche), naturadb.de, plantura.garden, arzneipflanzenlexikon.info — Botanik (Beere mit Sternkelch, glockige Blüten, Blätter), Standort, Blütezeit, Verwechslung mit Kirsche/Heidelbeere",
+    "hanf-magazin.com / diePTA / DocCheck Flexikon — tödliche Beerenzahl (Kinder 3–4, Erwachsene 10–12), Atropin/Hyoscyamin/Scopolamin, anticholinerges Syndrom",
+    "PubMed/PMC Fallberichte (Atropa belladonna intoxication; Severe Neurotoxicity 2024) und ScienceDirect Topics — Mechanismus (muskarinischer Antagonismus), Antidot Physostigmin; Blatt-/Wurzel-Verwechslung (Spinat, Meerrettich) dokumentiert",
+    "Hinweis: EMA/HMPC- und ESCOP-Primärquellen im Lauf per WebFetch nicht erreichbar (403). Toxikologische Kennzahlen aus Sekundärquellen — als 'unsicher — ärztlich zu prüfen' markiert. Als Warneintrag ist keine Anwendungs-Evidenz zu vergeben."
+  ]
+}
