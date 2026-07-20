@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "id": "heracleum-mantegazzianum",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Heracleum mantegazzianum Sommier & Levier",
+    "common_names_de": [
+      "Riesen-Bärenklau",
+      "Herkulesstaude",
+      "Kaukasischer Bärenklau"
+    ],
+    "family": "Apiaceae (Doldenblütler)",
+    "drug_part": [
+      "keine Droge — Warn- und Erkennungseintrag; alle Pflanzenteile führen phototoxischen Pflanzensaft"
+    ],
+    "drug_name_latin": "—",
+    "synonym_note": "Akzeptierter Name Heracleum mantegazzianum Sommier & Levier (Apiaceae). Invasiver Neophyt aus dem Kaukasus. Nicht mit dem heimischen Wiesen-Bärenklau (Heracleum sphondylium) verwechseln — der ist deutlich kleiner und jung essbar.",
+    "synonyms": [
+      "Heracleum giganteum hort. non Fisch.",
+      "Heracleum grossheimii Manden.",
+      "Heracleum circassicum Manden."
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Riesenwuchs 2–4 (bis 5) m hoch — überragt jeden heimischen Doldenblütler deutlich; das ist das sicherste Fernmerkmal",
+      "Stängel bis 10 cm dick, hohl, auffällig purpurrot bis weinrot gefleckt/gesprenkelt und borstig behaart (Borsten besonders dicht an den Knoten)",
+      "Riesige, tief fiederteilige Blätter, einzelne bis 1–3 m lang, mit spitzen, grob gezähnten Zipfeln ('Bärentatze')",
+      "Weiße Doppeldolde bis 50 cm Durchmesser mit sehr vielen (bis mehreren Tausend) Einzelblüten — Blütezeit Juni/Juli–September",
+      "Ganze Pflanze führt wässrigen, phototoxischen Saft; Geruch beim Verletzen aromatisch-scharf",
+      "Standort: Ufer, Bach- und Wegränder, Brachen, Böschungen, Ruderalflächen — bildet oft dichte Bestände"
+    ],
+    "season": "Austrieb ab Frühjahr; Blüte Juni/Juli–September; Fruchtstand ab August, Pflanze stirbt nach der Fruchtreife ab (meist mehrjährig-hapaxanth)",
+    "habitat": "Feuchte, nährstoffreiche Standorte: Fluss- und Bachufer, Gräben, Wegränder, Brachen, Waldränder, Ruderalflächen. Als invasiver Neophyt im Bodenseeraum und in den Voralpen etabliert, oft in Ufernähe und an gestörten Standorten mit dichten Herden.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "NICHT anfassen — der Pflanzensaft macht die Haut UV-empfindlich; schwere Verbrennungen (Blasen) sind die Folge",
+      "Kein Sammelgut: weder Blatt, Stängel, Blüte noch Same werden verwendet — reiner Warneintrag",
+      "Zur Bekämpfung/Entfernung nur mit vollständiger Schutzkleidung (langärmlig, Handschuhe, Schutzbrille, Gesichtsschutz) und nicht bei Sonne — anschließend Haut nicht der Sonne aussetzen",
+      "Verwechslung mit essbaren Verwandten: Riesenwuchs + rotgefleckter, borstiger Stängel + Doldendurchmesser bis 50 cm sprechen eindeutig für den Riesen-Bärenklau",
+      "Kinder fernhalten — die hohlen Stängel werden gern als 'Blasrohr/Fernrohr' benutzt, das führt zu Verbrennungen im Gesicht"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wiesen-Bärenklau",
+      "scientific_name": "Heracleum sphondylium",
+      "toxicity_level": "essbar",
+      "toxin": "enthält ebenfalls Furocumarine, aber in deutlich geringerer Konzentration",
+      "note": "Heimischer Verwandter, jung als Wildgemüse genutzt. Deutlich kleiner (0,5–1,5 m), Stängel gleichmäßig behaart und OHNE die purpurroten Flecken, Dolde nur bis ~20 cm. Auch sein Saft kann bei empfindlichen Personen und praller Sonne mild phototoxisch reagieren — bei größeren Mengen Hautkontakt Vorsicht. Riesenwuchs, rotgefleckter Stängel und Riesendolde trennen den Riesen-Bärenklau eindeutig ab."
+    },
+    {
+      "name": "Arznei-Engelwurz / Echte Engelwurz",
+      "scientific_name": "Angelica archangelica",
+      "toxicity_level": "essbar",
+      "toxin": "Furocumarine (kann bei Hautkontakt + Sonne ebenfalls Photodermatitis auslösen)",
+      "note": "Kräftiger Doldenblütler, als Gewürz-/Likörpflanze genutzt. Unterscheidung: Engelwurz ist KAHL (unbehaart), hat kugelige, grünlich-weiße Dolden und einen hohlen, oft rötlich überlaufenen, aber nicht purpurn gefleckt-borstigen Stängel. Riesen-Bärenklau ist borstig behaart, weiß blühend, mit flacher Riesendolde und rotgefleckt."
+    },
+    {
+      "name": "Giersch",
+      "scientific_name": "Aegopodium podagraria",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Beliebtes Wildgemüse, aber viel kleiner (bis ~1 m), Blätter nur doppelt-dreizählig (9 Blättchen), dreikantiger, rinniger Stängel. Keine Verwechslung im ausgewachsenen Zustand — nur junge Blätter theoretisch ähnlich. Riesen-Bärenklau ist um ein Vielfaches größer und rotgefleckt-borstig."
+    },
+    {
+      "name": "Wald-Engelwurz",
+      "scientific_name": "Angelica sylvestris",
+      "toxicity_level": "essbar",
+      "toxin": "geringe Mengen Furocumarine",
+      "note": "Heimischer Doldenblütler feuchter Wälder und Wiesen, 1–2 m, Stängel meist rötlich überlaufen und kahl bis fein flaumig, Dolde halbkugelig. Kleiner als Riesen-Bärenklau, kein borstig-rotgefleckter Riesenstängel, Dolde deutlich kleiner."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "lineare Furocumarine (Psoralene): Bergapten (5-MOP), Xanthotoxin/Methoxsalen (8-MOP), Psoralen, Imperatorin, Isopimpinellin",
+      "höchste Gehalte in Blattsaft, Stängelsaft und unreifen Früchten; auch Blütenstand und Wurzel führen den Saft"
+    ],
+    "lead_substance": "Furocumarine (v. a. Bergapten und Xanthotoxin/8-MOP) — interkalieren nach UV-A-Anregung in die DNA und lösen eine phototoxische Reaktion aus (dieselbe Substanzklasse wie in der medizinischen PUVA-Therapie, hier aber unkontrolliert)",
+    "solubility_note": "Furocumarine sind lipophil und im wässrigen Pflanzensaft gelöst/suspendiert; sie haften auf der Haut und werden durch Schwitzen und Feuchtigkeit begünstigt. Keine Zubereitung — der Saft ist die Gefahr, nicht eine Droge.",
+    "heat_light_sensitivity": "Die toxische Wirkung wird erst durch UV-A-Strahlung (Sonnenlicht) ausgelöst — ohne Licht keine Reaktion, mit Licht schwere Photodermatitis. Deshalb sind sonnige Tage besonders gefährlich."
+  },
+  "pharmacology": {
+    "mechanism": "Furocumarine (Psoralene) dringen in die Haut ein und bilden unter UV-A-Licht kovalente Addukte mit Pyrimidinbasen der DNA (Photoaddition) sowie reaktive Sauerstoffspezies. Folge ist eine phototoxische (nicht primär allergische) Dermatitis vom Verbrennungstyp: Zelluntergang in der Epidermis, Entzündung, Blasenbildung. Nach Abheilen bleibt oft eine lang anhaltende postinflammatorische Hyperpigmentierung.",
+    "evidence_caveat": "Keine therapeutische Anwendung dieser Pflanze. Reiner Warn- und Erkennungseintrag. Die zugrunde liegende Photochemie der Furocumarine ist gut belegt (PUVA-Therapie), die Gefahr durch den Riesen-Bärenklau ist durch zahlreiche Fallberichte dokumentiert.",
+    "pharmacokinetics": "Wirkung lokal an der kontaktierten Haut. Symptombeginn typischerweise verzögert 15 Minuten bis wenige Stunden nach Sonnenexposition, Maximum der phototoxischen Dermatitis nach 24–48 (bis 72) Stunden. Hyperpigmentierung kann Wochen bis Monate, gelegentlich Jahre bestehen; erneute UV-Empfindlichkeit der betroffenen Areale über Monate möglich."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "Der Riesen-Bärenklau wird gelegentlich als harmlose 'Riesenstaude' oder als großes essbares Wildgemüse (Verwechslung mit Wiesen-Bärenklau) fehleingeschätzt. Tatsächlich verursacht schon flüchtiger Hautkontakt mit anschließender Sonne schwere, verbrennungsartige Blasen. Kein Küchen- oder Heilkraut.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze/Kontaktgift, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Der phototoxische Saft macht jede Handhabung ohne Schutz gefährlich; es gibt keine sichere Verwendung.",
+    "standard_dose": "keine — nicht anwenden. Gefahr ist der Hautkontakt mit dem Saft (nicht der Verzehr).",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Keine tolerierbare Handhabung ohne Schutz. Der Pflanzensaft aller Teile enthält Furocumarine; bereits kleine Saftmengen auf der Haut führen bei nachfolgender UV-A-Exposition zu phototoxischer Dermatitis (Blasen, Verbrennungen 2. Grades). Kein innerer Grenzwert definierbar — die Pflanze wird nicht verwendet.",
+    "contraindications": [
+      "Kein Verzehr, keine Selbstanwendung",
+      "Hautkontakt strikt vermeiden; Entfernung nur mit Schutzkleidung und Gesichtsschutz",
+      "Kinder besonders schützen (Spiel mit hohlen Stängeln)"
+    ],
+    "pregnancy_lactation": "Keine Anwendung — für alle Personen gilt striktes Kontaktverbot. Für Schwangere und Stillende keine gesonderte Anwendung, da die Pflanze grundsätzlich nicht genutzt wird.",
+    "adverse_effects": "Nach Hautkontakt und Sonnenlicht: brennende Rötung, Schwellung, nach 24–48 h teils große, verbrennungsartige Blasen (phototoxische Bullosis), Schmerzen; Abheilung über Wochen mit lang anhaltender Braunfärbung (Hyperpigmentierung). Saft in die Augen kann zu schweren Reizungen bis zu Hornhautschäden/Erblindungsgefahr führen. Erste Hilfe: Saft sofort mit Wasser und Seife abwaschen, betroffene Haut vor Sonne schützen/abdecken, kühlen; bei Blasen, großflächigem Kontakt oder Augenbeteiligung ärztlich vorstellen (Giftnotruf).",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Furocumarine der Pflanze wirken photosensibilisierend; eine bestehende Photosensibilisierung durch Arzneistoffe (z. B. Tetracycline, Fluorchinolone, Amiodaron, Johanniskraut, Diuretika) kann die Hautreaktion theoretisch verstärken. Im Vordergrund steht die reine Kontakt-Phototoxizität.",
+        "affected": "photosensibilisierende Arzneistoffe (Tetracycline, Fluorchinolone, Amiodaron, Thiazide, Johanniskraut)",
+        "clinical_relevance": "gering (Kontaktgefahr steht im Vordergrund)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "toxin_type": "Furocumarine",
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "photosensitizing": true,
+      "apiaceae_confusion_young": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Kontaktgift: Der phototoxische Pflanzensaft macht die Haut UV-empfindlich — nach Berührung und Sonne entstehen verbrennungsartige Blasen. Pflanze nicht anfassen; Kinder fernhalten (hohle Stängel!). Entfernung nur mit voller Schutzkleidung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Heilpflanze. Gefährlicher, deutlich größerer Doppelgänger des essbaren Wiesen-Bärenklaus — hier verläuft die kritische Grenze: Riesenwuchs, rotgefleckter borstiger Stängel und Riesendolde bedeuten Finger weg."
+  },
+  "garden": {
+    "site_soil": "feuchte, nährstoffreiche Böden, Ufernähe; breitet sich invasiv über zahlreiche Samen aus",
+    "hardiness": "winterhart, wüchsig; Anpflanzung nicht erlaubt/nicht empfohlen (invasiver Neophyt der EU-Unionsliste invasiver Arten)",
+    "propagation": "starke Selbstaussaat (eine Pflanze bildet bis zu mehreren Zehntausend Samen); nicht anpflanzen",
+    "bodensee_suitability": "Regional verwildert, aber NICHT für Garten oder Sammlung geeignet — invasiver, gesundheitsgefährdender Neophyt. Bestände nur mit Schutzausrüstung und fachgerecht bekämpfen (Behörden/Bauhof); Blütenstände vor der Samenreife entfernen."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Purpurrot gefleckter, borstig behaarter Stängel — wichtigstes Nahmerkmal",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "2–4 m hohe Pflanze mit weißer Riesendolde (bis 50 cm) und tief fiederteiligen 'Bärentatzen'-Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "WebSearch-Zusammenfassung DocCheck Flexikon (Riesen-Bärenklau: Furocumarine Methoxsalen/Bergapten/Imperatorin, phototoxische Dermatitis, Stängel bis 10 cm rotgefleckt, Dolde bis 50 cm)",
+    "WebSearch-Zusammenfassung hortica.de / gartenjournal.net / naturadb (Unterscheidung Wiesen- vs. Riesen-Bärenklau: Größe, rotgesprenkelter Stängel, Haarkranz an Knoten; Wiesen-Bärenklau jung essbar)",
+    "WebSearch-Zusammenfassung Zweckverband Peenetal / krautgeschwister (Abgrenzung Arznei-Engelwurz Angelica archangelica: kahl vs. borstig behaart; Furocumarin-Gehalt der Wiesenart geringer)",
+    "Grundlage Furocumarin-Photochemie (Psoralene/PUVA, DNA-Photoaddition) — allgemein anerkannter Wirkmechanismus",
+    "Hinweis: Primärquellen (Wikipedia DE, CliniTox/vetpharm, giftpflanzen.com) im Lauf per WebFetch nicht erreichbar (HTTP 403) — Erkennungs- und Toxin-Angaben aus WebSearch-Sekundärzusammenfassungen; ärztliche Gegenprüfung der Details empfohlen"
+  ]
+}

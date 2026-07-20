@@ -367,6 +367,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). Tropan-Alkaloide (Hyoscyamin/Atropin, Scopolamin) blockieren muskarinische ACh-Rezeptoren -> anticholinerges Syndrom ('rot, heiß, trocken, blind, verrückt'), bei Kindern sind bereits 3-4 der SÜSS schmeckenden schwarzen Beeren potenziell tödlich (Erwachsene ~10-12). Sicherheitskern (umgekehrte Verwechslungsrichtung): Einzelbeere mit sternförmigem, ansitzendem Kelch an krautiger Staude -> Abgrenzung zu Süßkirsche (Stein, langer Stiel, kein Kelch) und Heidelbeere (klein, Zwergstrauch); zusätzlich dokumentierte Blattverwechslung mit Spinat und Wurzelverwechslung mit Meerrettich. Antidot Physostigmin (nur ärztlich). deadly_confusion=false (Konvention); pregnancy_contraindicated=true. Toxin-Kennzahlen aus Sekundärquellen, HMPC/ESCOP nicht primär erreichbar (WebFetch 403) — ärztlich gegenzuprüfen."
+    },
+    {
+      "ts": "2026-07-20T12:20:00Z",
+      "id": "heracleum-mantegazzianum",
+      "common": "Riesen-Bärenklau",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). KONTAKTGIFT, nicht Verzehrgift: Der phototoxische Pflanzensaft (Furocumarine/Psoralene — Bergapten, Xanthotoxin/8-MOP, Imperatorin) macht die Haut UV-empfindlich; nach Berührung und Sonne entsteht mit 24-48 h Latenz eine verbrennungsartige Photodermatitis mit Blasen und monatelanger Hyperpigmentierung (Prinzip wie PUVA, hier unkontrolliert). Sicherheitskern (umgekehrte Verwechslungsrichtung): Riesenwuchs 2-4 m + purpurrot gefleckter, borstiger Stängel + Riesendolde bis 50 cm trennen ihn von essbaren Verwandten (Wiesen-Bärenklau jung essbar, aber selbst mild phototoxisch; Arznei-Engelwurz kahl; Giersch). Kinderwarnung: hohle Stängel als 'Blasrohr' -> Gesichtsverbrennungen. photosensitizing=true, apiaceae_confusion_young=true; invasiver Neophyt (EU-Unionsliste). Primärquellen (Wikipedia/CliniTox) im Lauf per WebFetch nicht erreichbar (403), Details aus Sekundärquellen — ärztlich gegenzuprüfen."
+    },
+    {
+      "ts": "2026-07-20T12:22:00Z",
+      "id": "andromeda-polifolia",
+      "common": "Rosmarinheide",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung als WARNEINTRAG (tier 3, not_for_use=true, keine indications). NAMENSFALLE: 'Rosmarinheide/Lavendelheide' ist NICHT Küchen-Rosmarin (Salvia rosmarinus), sondern ein giftiges Heidekrautgewächs (Ericaceae). Ganze Pflanze enthält Grayanotoxine (= Andromedotoxin/Acetylandromedol/Rhodotoxin), die spannungsabhängige Na-Kanäle offenhalten -> Dauerdepolarisation, vagal bedingte Bradykardie und Hypotonie (Mechanismus wie 'mad honey'); Grayanotoxine sind wasserlöslich und hitzestabil, gehen also in einen 'harmlosen Tee' über. Sicherheitskern: Moorstandort + geruchloses, blaugrün-weiß bereiftes Blatt trennt sie von aromatischem Rosmarin; Abgrenzung zum ebenfalls giftigen Sumpfporst (rostbraun filzige Blattunterseite) und zur essbaren Moosbeere am selben Standort. pregnancy_contraindicated=true; zusätzlich naturschutzrechtlich geschützte, rückläufige Moorart. Art-spezifische toxische/letale Mengen unsicher ('unsicher — zu prüfen'); Primärquellen per WebFetch 403, ärztlich gegenzuprüfen."
     }
   ]
 }

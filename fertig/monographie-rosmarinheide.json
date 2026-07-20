@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "id": "andromeda-polifolia",
+  "stand": "2026-07-20",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Andromeda polifolia L.",
+    "common_names_de": [
+      "Rosmarinheide",
+      "Lavendelheide",
+      "Polei-Gränke",
+      "Poleiblättrige Gränke"
+    ],
+    "family": "Ericaceae (Heidekrautgewächse)",
+    "drug_part": [
+      "keine Droge — Warn- und Erkennungseintrag; ganze Pflanze (Blätter, Blüten) giftig durch Grayanotoxine"
+    ],
+    "drug_name_latin": "—",
+    "synonym_note": "Akzeptierter Name Andromeda polifolia L. (Ericaceae). Der deutsche Name 'Rosmarinheide' ist eine Namensfalle: Die Pflanze ist NICHT mit dem Küchen-Rosmarin (Salvia rosmarinus) verwandt und ist giftig. Blätter äußerlich rosmarinähnlich — daher der Name.",
+    "synonyms": [
+      "Andromeda rosmarinifolia Pursh",
+      "Andromeda polifolia var. glaucophylla (Link) DC.",
+      "Polifolia rosmarinifolia (Pursh) Nakai"
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Niedriger, immergrüner Zwergstrauch (10–30 cm) der Hoch- und Übergangsmoore — Standort ist ein starkes Erkennungsmerkmal",
+      "Blätter schmal-lanzettlich, ledrig, immergrün, oberseits dunkelgrün, UNTERSEITS auffällig blaugrün-weißlich (bereift) und mit umgerolltem Blattrand — 'rosmarinähnlich', aber ohne Rosmarinduft",
+      "Blüten krug-/kugelförmig hängend, zartrosa bis weiß, in kleinen endständigen Dolden; Blütezeit Mai–Juli",
+      "Kahle Zweige (KEINE rostbraune Filzbehaarung der Blattunterseite — das trennt sie vom Sumpfporst)",
+      "Wächst auf kalkmeidenden, sauren, nassen Torfböden zwischen Torfmoosen, Moosbeere und Wollgras",
+      "Beim Zerreiben KEIN aromatischer Küchenkräuter-Duft (anders als Rosmarin und Sumpfporst)"
+    ],
+    "season": "immergrün; Blüte Mai–Juli; kleine, trockene Kapselfrüchte ab Sommer",
+    "habitat": "Nährstoffarme, saure, dauernasse Hoch- und Zwischenmoore, Torfmoosrasen, Moorheiden. In Deutschland u. a. in Oberschwaben (bodenseenah), im Schwarzwald, Alpenvorland, Bayerischer Wald, Fichtelgebirge; Bestände stark rückläufig und die Art ist geschützt.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "Nicht sammeln — ganze Pflanze giftig (Grayanotoxine) UND naturschutzrechtlich geschützt (Moorart, stark rückläufig)",
+      "Kein Verzehr, kein Tee, keine Selbstanwendung — reiner Warn- und Erkennungseintrag",
+      "Verwechslung mit Küchen-Rosmarin ausschließen: Rosmarinheide wächst im Moor, riecht nicht aromatisch, Blattunterseite blaugrün-weiß bereift",
+      "Nicht mit den essbaren Beeren der Moosbeere (Vaccinium oxycoccos) am selben Standort verwechseln — Rosmarinheide bildet keine essbaren Beeren, sondern trockene Kapseln",
+      "Auch als Zierpflanze ('Lavendelheide') im Handel — auch die Gartenform ist giftig, nicht in Reichweite von Kindern/Tieren als Nasch- oder Teepflanze behandeln"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Küchen-Rosmarin",
+      "scientific_name": "Salvia rosmarinus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Namensfalle! 'Rosmarinheide' klingt nach Rosmarin und die schmalen, ledrigen Blätter ähneln ihm. Aber: Küchen-Rosmarin (Lippenblütler) riecht stark aromatisch, Blattunterseite grau-grün filzig, wächst trocken/mediterran. Rosmarinheide (Heidekrautgewächs) riecht NICHT aromatisch, wächst im nassen Moor, Blattunterseite blaugrün-weiß bereift, und ist giftig. Verwechslung darf nie zum 'Tee' führen."
+    },
+    {
+      "name": "Sumpfporst",
+      "scientific_name": "Rhododendron tomentosum",
+      "toxicity_level": "giftig",
+      "toxin": "Grayanotoxine (Ledol, Palustrol u. a. ätherische Öle zusätzlich)",
+      "note": "Ebenfalls Moor-Ericaceae, ebenfalls giftig (Grayanotoxine) — KEINE Nahrungs-/Teepflanze. Unterscheidung: Sumpfporst ist größer (bis ~1,5 m), Blattunterseite dicht rostbraun filzig behaart, stark harzig-aromatischer Geruch. Rosmarinheide ist niedriger, kahl, Blattunterseite blaugrün bereift, geruchlos. Beide nicht anwenden."
+    },
+    {
+      "name": "Gewöhnliche Moosbeere",
+      "scientific_name": "Vaccinium oxycoccos",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Wächst im selben Torfmoosrasen, kriechend, mit kleinen ledrigen Blättern (Unterseite ebenfalls bläulich). Ihre roten Beeren sind essbar. Rosmarinheide bildet KEINE Beeren, sondern kleine trockene Kapseln, und ist giftig — beim Beerensammeln im Moor Pflanze und Frucht sicher trennen."
+    },
+    {
+      "name": "Besenheide / Heidekraut",
+      "scientific_name": "Calluna vulgaris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls Heidekrautgewächs magerer, saurer Standorte, traditionell als Heidekraut-Tee genutzt. Blätter jedoch winzig, schuppig-nadelig und anliegend, Blüten klein glockig lila-rosa in Trauben. Rosmarinheide hat deutlich größere, lanzettliche Blätter mit bereifter Unterseite und krugförmige Einzelblüten — nicht verwechseln, da giftig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Grayanotoxine (polyhydroxylierte Diterpene; Grayanotoxin I = Andromedotoxin/Acetylandromedol/Rhodotoxin)",
+      "iridoide Glykoside; Gerbstoffe",
+      "Grayanotoxine in allen oberirdischen Teilen, auch im Nektar (daher 'mad honey' bei Bienentracht auf Ericaceae)"
+    ],
+    "lead_substance": "Andromedotoxin (Grayanotoxin I) — bindet an spannungsabhängige Natriumkanäle und hält sie offen (verhindert Inaktivierung), Folge ist eine Dauerdepolarisation erregbarer Zellen mit vagaler Überaktivität",
+    "solubility_note": "Grayanotoxine sind wasserlöslich genug, um in Aufguss/Tee und in den Nektar/Honig überzugehen — genau deshalb ist ein 'harmloser Kräutertee' aus dieser Pflanze gefährlich. Keine sichere Zubereitung.",
+    "heat_light_sensitivity": "Grayanotoxine sind hitzestabil; Kochen/Trocknen entgiftet nicht."
+  },
+  "pharmacology": {
+    "mechanism": "Grayanotoxine (v. a. Grayanotoxin I / Andromedotoxin) binden an die offene Form spannungsabhängiger Natriumkanäle und verhindern deren Inaktivierung → anhaltende Depolarisation von Nerven- und Muskelzellen. Klinisch resultiert eine gesteigerte parasympathische (vagale) Aktivität: Bradykardie und Hypotonie, dazu gastrointestinale und zentralnervöse Symptome. Prinzip identisch mit der 'Mad-Honey'-Vergiftung durch Ericaceen-Nektar.",
+    "evidence_caveat": "Keine therapeutische Anwendung. Reiner Warn- und Erkennungseintrag. Der Wirkmechanismus der Grayanotoxine an Natriumkanälen und das klinische Bild sind aus der Mad-Honey-Literatur gut belegt; exakte toxische/letale Mengen speziell für Andromeda polifolia sind nicht sicher quantifiziert — 'unsicher, ärztlich zu prüfen'.",
+    "pharmacokinetics": "Rasche Resorption nach oraler Aufnahme; Symptombeginn meist innerhalb von Minuten bis wenigen Stunden. Verlauf in der Regel selbstlimitierend über einige Stunden bis ~24 h, kann aber bei relevanter Menge (v. a. kardial) bedrohlich werden. Angaben art-spezifisch unsicher."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "Der Name 'Rosmarinheide/Lavendelheide' und das rosmarinähnliche Laub verleiten dazu, die Pflanze für ein harmloses aromatisches Kraut zu halten. Tatsächlich enthält sie herzwirksame Grayanotoxine; ein Aufguss kann Übelkeit, Bradykardie und Blutdruckabfall auslösen. Kein Küchen- oder Heilkraut.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Grayanotoxine gehen wasserlöslich in den Aufguss über und sind hitzestabil; es gibt keine sichere Zubereitung.",
+    "standard_dose": "keine — nicht anwenden. Art-spezifische toxische Mengen unsicher; schon kleine Mengen können vagale Symptome auslösen.",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Keine tolerierbare Menge. Alle oberirdischen Teile enthalten Grayanotoxine; auch Aufgüsse und mit Ericaceen-Nektar belasteter Honig ('mad honey') sind toxisch. Kein sicherer Grenzwert — die Pflanze wird nicht verwendet.",
+    "contraindications": [
+      "Kein Verzehr, kein Tee, keine Selbstmedikation",
+      "Kinder und Weidetiere fernhalten",
+      "Vorsicht auch bei der Gartenform ('Lavendelheide') — ebenfalls giftig"
+    ],
+    "pregnancy_lactation": "Strikt meiden. Für Schwangere und Stillende keine Anwendung (wie für alle Personen) — die Pflanze wird grundsätzlich nicht genutzt.",
+    "adverse_effects": "Nach Aufnahme: Brennen im Mund, vermehrter Speichelfluss, Übelkeit, Erbrechen, Durchfall, Schwindel, Kribbeln/Parästhesien, Kaltschweißigkeit, Sehstörungen; kardiovaskulär Bradykardie, Blutdruckabfall, Herzrhythmusstörungen (bis AV-Block), Schwäche, Bewusstseinsstörung, in schweren Fällen Krämpfe und Atemprobleme. Meist selbstlimitierend, kann aber kardial bedrohlich werden. Notfall: Giftnotruf/Notarzt.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Grayanotoxine steigern den Vagotonus (Bradykardie/Hypotonie); gleichsinnig wirkende Arzneistoffe (Betablocker, Calciumantagonisten vom Verapamil-/Diltiazem-Typ, Digitalis, Cholinergika) können den Effekt verstärken. Klinisch steht die reine Giftwirkung im Vordergrund.",
+        "affected": "Betablocker, Calciumantagonisten, Digitalisglykoside, sonstige bradykardisierende/blutdrucksenkende Mittel",
+        "clinical_relevance": "relevant im Vergiftungsfall"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "toxin_type": "Grayanotoxine",
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Namensfalle: 'Rosmarinheide' ist NICHT Rosmarin, sondern giftig. Ganze Pflanze enthält herzwirksame Grayanotoxine — ein Aufguss kann Übelkeit, Bradykardie und Blutdruckabfall auslösen. Nicht verzehren, nicht als Tee verwenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze und geschützte Moorart",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "—",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und keine Heilpflanze. Wichtig als giftiger Namens-Doppelgänger des Küchen-Rosmarins und als Moorpflanze, die man beim Moosbeeren-Sammeln nicht mit essbaren Arten verwechseln darf."
+  },
+  "garden": {
+    "site_soil": "saurer, kalkfreier, dauerfeuchter Torf-/Moorboden, sonnig; nur für Moorbeete",
+    "hardiness": "sehr winterhart, immergrün; im Handel als Zierzwergstrauch ('Lavendelheide')",
+    "propagation": "Aussaat/Absenker; im Garten nur im Moorbeet gedeihend",
+    "bodensee_suitability": "Wild in bodenseenahen Mooren (Oberschwaben) selten und geschützt — dort NICHT entnehmen. Als gekaufte Gartenpflanze im Moorbeet möglich, aber wegen Giftigkeit nicht als Nasch-/Teepflanze und nicht in Kinderreichweite behandeln."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Schmale, ledrige Blätter mit umgerolltem Rand und blaugrün-weißer, bereifter Unterseite",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Niedriger immergrüner Moor-Zwergstrauch mit zartrosa krugförmigen Hängeblüten",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "WebSearch-Zusammenfassung giftpflanzen.com / pflanzen-deutschland / naturadb (Andromeda polifolia: Grayanotoxin/Andromedotoxin in ganzer Pflanze, Symptome, Standort Hochmoor, Blütezeit Mai–Juli, Vorkommen Oberschwaben/Schwarzwald/Alpenvorland, Rückgang/Schutz)",
+    "WebSearch-Zusammenfassung gartendatenbank.de (Synonym Andromeda rosmarinifolia; Blätter rosmarin-/lavendelähnlich, daher Name; giftig)",
+    "WebSearch-Zusammenfassung naturadb / NatureGate / Baumkunde (Abgrenzung Sumpfporst Rhododendron tomentosum syn. Ledum palustre: rostbraun filzige Blattunterseite, aromatisch, ebenfalls giftig)",
+    "Aryal et al., J Appl Toxicol 2025; Springer 2012 (Grayanotoxin = Andromedotoxin/Acetylandromedol/Rhodotoxin; Bindung an spannungsabhängige Natriumkanäle, Dauerdepolarisation, vagal bedingte Bradykardie/Hypotonie; 'mad honey')",
+    "Hinweis: Primärquellen (Wikipedia DE, CliniTox/vetpharm, giftpflanzen.com) im Lauf per WebFetch nicht erreichbar (HTTP 403) — Angaben aus WebSearch-Sekundärzusammenfassungen; art-spezifische toxische/letale Mengen unsicher, ärztliche Gegenprüfung nötig"
+  ]
+}

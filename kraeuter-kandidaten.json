@@ -455,8 +455,8 @@
       "latin": "Heracleum mantegazzianum",
       "tier": 3,
       "reason": "WARNEINTRAG — phototoxische Verbrennungen",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-riesen-baerenklau.json"
     },
     {
       "id": "andromeda-polifolia",
@@ -464,8 +464,8 @@
       "latin": "Andromeda polifolia",
       "tier": 3,
       "reason": "WARNEINTRAG — Grayanotoxine; Rosmarin-Namensfalle",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-rosmarinheide.json"
     },
     {
       "id": "taraxacum-officinale",
