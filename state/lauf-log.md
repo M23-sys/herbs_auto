@@ -915,3 +915,31 @@ Damit sind **alle tier-3-Warneintraege der Kandidatenliste abgearbeitet**; ab de
 - **Primärquellen (EMA/ESCOP) nicht direkt abrufbar (403)** — Evidenzgrade über Sekundärquellen belegt, in beiden Dateien in `sources` vermerkt. Ärztliche Gegenprüfung der Kernaussagen empfohlen.
 
 **Wunschliste-Status:** unverändert 1 Eintrag (cornus-sanguinea), bereits erfüllt → `docs/wunschliste.json` NICHT angefasst.
+
+---
+
+## 2026-07-21 (Lauf C) — Odermennig, Echtes Mädesüß (beide KANDIDATEN, tier 4)
+
+**Auswahl (genau 2):** Wunschliste hat Vorrang, hat aber 0 offene Einträge: einziger Eintrag in `docs/wunschliste.json` — **cornus-sanguinea** (Common dogwood, Bodensee) — liegt bereits als `fertig/monographie-blutroter-hartriegel.json` (id `cornus-sanguinea`) vor → per Dedup übersprungen (die App hakt den Wunsch selbst ab, `wunschliste.json` NICHT angefasst). 0 offene Wünsche → **beide Plätze aus der Kandidatenliste**: die ersten beiden `offen` nach `tier` aufsteigend (bei gleichem tier Listenreihenfolge) = **agrimonia-eupatoria** (Odermennig, tier 4) und **filipendula-ulmaria** (Echtes Mädesüß, tier 4).
+
+- **agrimonia-eupatoria** (Odermennig) — `fertig/monographie-odermennig.json` — Quelle: Kandidat tier 4. Status → `entwurf_fertig`.
+- **filipendula-ulmaria** (Echtes Mädesüß) — `fertig/monographie-maedesuess.json` — Quelle: Kandidat tier 4. Status → `entwurf_fertig`.
+
+**Dedup:** beide gegen alle `id` + `botany.synonyms` in `fertig/` (83 Dateien) und `vorhanden` in der Kandidatenliste geprüft — keine Dublette (auch keine Filename-Kollision). Altnamen selbst eingetragen: Odermennig = Agrimonia officinalis Lam., Agrimonia vulgaris Gray; Mädesüß = Spiraea ulmaria L., Ulmaria palustris Moench, Ulmaria pentapetala Gilib. Kein Self-Heal nötig (kein offener Kandidat lag schon in `fertig/`).
+
+**Prüfergebnis:** beide `✓ ok, mit Hinweisen`, **0 Fehler beim ersten Versuch — 0 Korrekturversuche.** Einziger Hinweis je Datei: enthält bewusst „unsicher/zu prüfen".
+
+**Hauptquellen / Quellen-Abruf:** direkter **WebFetch auf EMA-Primärquellen scheiterte mit HTTP 403** (final assessment report Agrimoniae herba u. a.) — dieselbe Proxy-/Bot-Sperre wie in allen Vorläufen. Recherche über **WebSearch-Zusammenfassungen** mehrerer übereinstimmender Sekundärquellen.
+- Odermennig: HMPC **traditional use** (leichter Durchfall innerlich; Mund-/Rachenentzündung Gurgeln; leichte Hautentzündung/kleine Wunden äußerlich) + **Kommission E positiv** (Tagesdosis ~3–6 g) + **ESCOP** (äußerlich Gurgeln/Umschläge). Inhaltsstoffe (Gerbstoffe 4–10 %, Agrimoniin, Flavonoide, Kieselsäure) via Altmeyers, arzneipflanzenlexikon.info, ScienceDirect-Phytochemie-Review 2022. Botanik/Verwechslung via Wikipedia, naturadb.de.
+- Mädesüß: HMPC **traditional use** für herba UND flos (unterstützend bei Erkältung; leichte Gelenkschmerzen) + **Kommission E positiv** (Spiraeae flos/herba, Schwitzmittel) + **ESCOP** (Erkältung). Salicylate/Flavonoide/Ellagitannine via PharmaWiki, PTAheute, arzneipflanzenlexikon.info; Botanik via floraweb.de, naturadb.de, plantura.garden.
+- **Primärquellen (EMA/ESCOP) nicht direkt abrufbar (403) — Evidenzgrad ungeprüft, ärztliche Gegenprüfung nötig** (in beiden Dateien in `sources` vermerkt).
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Mädesüß — „Aspirin-Pflanze", aber Erwartung dämpfen.** Wegen des Salicylat-Ursprungs (Altname *Spiraea ulmaria* → Namensgeber für Aspirin) wird ein aspirinähnlicher schmerz-/fieber-/gerinnungshemmender Effekt erwartet. Der Salicylatgehalt eines Tees ist aber **gering** → **kein Ersatz für ASS/NSAR**, bewusst als `overstated` markiert. Evidenz nur HMPC **traditional use** (kein WEU). Bitte diese Einordnung gegenprüfen.
+- **Mädesüß — sicherheitskritische Salicylat-Flags (bitte lesen).** Trotz Teedosis defensiv aufgenommen: Kontraindikation bei **ASS-/Salicylat-Überempfindlichkeit** und **salicylat-sensitivem Asthma** (Bronchospasmus), **Meiden bei Kindern/Jugendlichen mit fieberhaftem Virusinfekt** (Reye-Syndrom, theoretisch), theoretische Interaktion mit **Gerinnungshemmern**. Alle als „unsicher — zu prüfen" (klinische Relevanz bei Teedosis wahrscheinlich gering). `high_safety` bewusst **false**.
+- **Mädesüß — Verwechslung ehrlich gehalten.** Kein giftiger Doppelgänger gleicht in ALLEN Merkmalen; der **Wintergrün-/Mandelgeruch beim Zerreiben** + schaumige cremeweiße Rosaceen-Rispe + ulmenartiges Fiederblatt ist eindeutig. ABER: Mädesüß wächst an nassen Standorten, an denen auch **giftige Doldenblütler (Wasserschierling, Cicuta virosa)** vorkommen — als Fernverwechslungs-Warnung in einem eigenen `confusions`-Eintrag und in den Sammelhinweisen vermerkt (unterscheiden über echte Dolde, geteiltes Blatt, fehlenden Wintergründuft). `deadly_confusion` bleibt `false`, da bei sachgerechter Bestimmung eindeutig.
+- **Odermennig — solider regulatorischer Rückhalt für tier 4.** Anders als viele tier-4-Kräuter gleich **dreifach gestützt** (HMPC TU + Kommission E + ESCOP), aber nur symptomatisch-adstringierend. Der populäre Ruf als **„Leberkraut"/Leber-Gallen-Mittel** ist **NICHT belegt** — bewusst als `overstated` markiert. Kein giftiger Doppelgänger.
+- **Odermennig — Nebenbefund Photosensibilisierung.** Einzelne Sekundärquellen erwähnen ein theoretisch photosensibilisierendes Potenzial; klinisch nicht belegt, als „unsicher — zu prüfen" in `adverse_effects` vermerkt, kein Flag gesetzt.
+
+**Wunschliste-Status:** unverändert 1 Eintrag (cornus-sanguinea), bereits erfüllt → `docs/wunschliste.json` NICHT angefasst (nur die App schreibt sie).

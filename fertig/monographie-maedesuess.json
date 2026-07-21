@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "id": "filipendula-ulmaria",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Filipendula ulmaria (L.) Maxim.",
+    "common_names_de": ["Echtes Mädesüß", "Mädesüß", "Wiesenkönigin", "Spierstaude", "Geißbart (regional)", "Wiesengeißbart"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Blühendes Kraut (Herba)", "Blüten (Flos)"],
+    "drug_name_latin": "Filipendulae ulmariae herba / Filipendulae ulmariae flos (früher Spiraeae herba / Spiraeae flos)",
+    "synonyms": ["Spiraea ulmaria L.", "Ulmaria palustris Moench", "Ulmaria pentapetala Gilib."],
+    "synonym_note": "Früher in der Gattung Spiraea geführt: Spiraea ulmaria L. Aus diesem alten Gattungsnamen leitet sich der Aspirin-Name ab (A-cetyl + Spir-aea + -in), da die Salicylate erstmals u. a. aus Mädesüß isoliert wurden. Akzeptierter Name heute Filipendula ulmaria (L.) Maxim. Die Drogennamen HMPC/Kommission E lauten teils noch Spiraeae herba/flos."
+  },
+  "identification": {
+    "key_features": [
+      "Zerriebene Blätter/Blüten riechen deutlich nach Wintergrün/Salicylat bzw. mandelartig-süßlich (Salicylaldehyd) — sehr charakteristischer Bestätiger; kein Doldenblütler riecht so.",
+      "Große, unterbrochen gefiederte Blätter mit 2–5 Paaren großer, doppelt gesägter Fiederblättchen (ulmen-/'Ulmus'-ähnlich, daher 'ulmaria'), dazwischen kleine Blättchen; Blattunterseite meist weißfilzig behaart.",
+      "Dichte, cremeweiße, doldenrispige Blütenstände aus vielen kleinen, duftenden Blüten — wirkt schaumig/'wolkig'; süßer, honigartiger Duft.",
+      "Kräftige, oft rötlich überlaufene, kantige Stängel, 50–150 cm hoch; ausdauernd.",
+      "Standort feucht: Nasswiesen, Gräben, Ufer, Bach- und Waldränder, Hochstaudenfluren."
+    ],
+    "season": "Blütezeit Juni bis August; Ernte des blühenden Krauts/der Blüten zur Vollblüte",
+    "habitat": "Feuchte bis nasse, nährstoffreiche Standorte: Nasswiesen, Gräben, Ufer, Bach- und Waldränder, Hochstaudenfluren, Röhrichtsäume",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: cremeweiße, schaumige Blütenrispe UND unterbrochen gefiedertes, ulmenblattähnliches Laub UND der Wintergrün-/Mandelgeruch beim Zerreiben — zusammen eindeutig.",
+      "Blüten oder blühende Triebspitzen zur Vollblüte (Juni–August) bei trockenem Wetter ernten; nur an unbelasteten Feuchtstandorten sammeln.",
+      "Vom trockenheitsliebenden Kleinen Mädesüß (Filipendula vulgaris) durch den feuchten Standort, die sichelförmigen Nüsschen und die vielen kleinen Fiederblättchen unterscheiden — beide ungiftig."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kleines/Knolliges Mädesüß",
+      "scientific_name": "Filipendula vulgaris",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nächste Verwandte; wächst dagegen auf trockenen Magerrasen, hat viele kleine, dicht stehende Fiederblättchen und GERADE (nicht sichelförmig gekrümmte) Nüsschen sowie knollige Wurzelverdickungen. Ungiftig; wird ähnlich, aber schwächer genutzt. Unterscheidung über Standort, Fiederung und Nüsschenform."
+    },
+    {
+      "name": "Echter/Wald-Geißbart",
+      "scientific_name": "Aruncus dioicus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls große, cremeweiße, federartige Blütenrispen (Rosaceae), aber Blätter doppelt/dreifach gefiedert mit spitzen, nicht ulmenartig-runzeligen Blättchen, zweihäusig, und ohne den Wintergrün-/Salicylatgeruch. Gilt als ungiftig; keine Gefahr, aber andere Droge."
+    },
+    {
+      "name": "Baldrian / weiße Doldenblütler (aus der Ferne)",
+      "scientific_name": "Valeriana officinalis u. a.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aus der Distanz können weiße, schirmartige Blütenstände feuchter Standorte (z. B. Baldrian) ähneln. Beim Herantreten unterscheiden: Mädesüß-Blüten sind fünfzählige Rosaceenblüten in schaumiger Rispe, das Blatt ist ulmenartig gefiedert, und der Wintergrün-/Mandelgeruch beim Zerreiben ist eindeutig. WICHTIG: an nassen Standorten wachsen auch giftige Doldenblütler (z. B. Wasserschierling, Cicuta virosa) — diese haben aber echte Dolden, geteilte, nicht ulmenartige Blätter und keinen süßen Wintergründuft; nur nach sicherem Wintergrüngeruch UND Rosaceenmerkmalen sammeln."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bei sicherem Bestimmen",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Kein giftiger Doppelgänger gleicht Mädesüß in ALLEN Merkmalen. Der Wintergrün-/Mandelgeruch beim Zerreiben zusammen mit der schaumigen, cremeweißen Rosaceen-Blütenrispe und dem ulmenartig gefiederten, unterseits filzigen Blatt ist eindeutig. Vorsicht gilt nur der oberflächlichen Fernverwechslung mit weißen Doldenblütlern nasser Standorte (siehe eigenen Eintrag)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Salicylate/Phenolglykoside: Monotropitin und Spiraein (Gaultherin) → beim Trocknen/Wasserdampf Salicylaldehyd, Methylsalicylat und Salicylsäure; ätherisches Öl mit Salicylaldehyd",
+      "Flavonoide (Spiraeosid = Quercetin-4'-glucosid, Rutin, Hyperosid) — z. T. 3–5 %",
+      "Gerbstoffe (Ellagitannine, u. a. Rugosin) ca. 10–15 %, Phenolcarbonsäuren, Schleimstoffe"
+    ],
+    "lead_substance": "Salicylate (aus Monotropitin/Spiraein freigesetztes Salicylaldehyd/Methylsalicylat/Salicylsäure) — namengebend für 'Aspirin'; mild schmerz-/entzündungshemmend und schweißtreibend. ABER: der Salicylatgehalt der Droge ist gering, ein therapeutischer 'Aspirin-Effekt' aus Tee ist nicht zu erwarten.",
+    "solubility_note": "Salicylglykoside, Flavonoide und Gerbstoffe sind wasserlöslich und gehen in den Aufguss über. Wichtig: das Salicylaldehyd ist flüchtig/hitzeempfindlich — Blüten nur mit KOCHEND heißem Wasser übergießen und zugedeckt ziehen lassen, nicht auskochen, um Aroma-/Wirkstoffverlust zu begrenzen.",
+    "heat_light_sensitivity": "Das ätherische Öl/Salicylaldehyd ist flüchtig und licht-/wärmeempfindlich; Blüten schonend trocknen und geschlossen lagern. Gerbstoffe und Flavonoide sind stabiler."
+  },
+  "pharmacology": {
+    "mechanism": "Zugeschriebene milde analgetische, antiphlogistische und diaphoretische (schweißtreibende) Wirkung über die Salicylate; Gerbstoffe wirken zusätzlich adstringierend, Flavonoide antioxidativ. In vitro/tierexperimentell sind entzündungshemmende, antioxidative und magenschleimhautschützende Effekte beschrieben.",
+    "evidence_caveat": "Nur HMPC traditional use — KEIN well-established use. Die Wirksamkeit stützt sich auf langjährige Erfahrung und pharmakologische Plausibilität (Salicylatgehalt), nicht auf belastbare klinische Studien. Der tatsächliche Salicylatgehalt eines Tees ist gering; ein aspirinähnlicher Effekt ist unrealistisch. Datenlage schwach — unsicher, zu prüfen.",
+    "pharmacokinetics": "Salicylglykoside werden im Darm/Leber teilweise zu Salicylsäure metabolisiert; die zugeführten Mengen aus Tee sind jedoch klein. Detaillierte Humanpharmakokinetik nicht belastbar untersucht — unsicher, zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Unterstützende Behandlung von Erkältungsbeschwerden (fiebrige Erkältung)",
+      "synonyms": ["Erkältung", "grippaler Infekt", "Fieber", "Schwitzkur", "Frösteln", "Gliederschmerzen bei Erkältung"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use zur unterstützenden Behandlung von Erkältungen; Kommission E positiv (Spiraeae flos/herba) als Schwitzmittel bei fieberhaften Erkältungen; ESCOP-Monographie zu Erkältung. Kein well-established use.",
+      "realistic_expectation": "Kann als warmer Tee eine Erkältung unterstützend begleiten (Schwitzkur, Linderung von Frösteln/Beschwerden). KEIN Ersatz für ärztliche Behandlung; kein belegter fiebersenkender 'Aspirin-Effekt'. Bei hohem/anhaltendem Fieber, Atemnot oder schwerem Verlauf ärztlich abklären.",
+      "source": "EMA/HMPC European Union herbal monograph Filipendulae ulmariae herba/flos (traditional use); Kommission E (positiv); ESCOP; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Linderung leichter Gelenkschmerzen",
+      "synonyms": ["Gelenkschmerzen", "Gliederschmerzen", "leichtes Rheuma", "Rheumabeschwerden"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use zur Linderung leichter Gelenkschmerzen (auf Basis langjähriger Anwendung, Salicylat-Plausibilität). Kein Wirksamkeitsnachweis aus kontrollierten Studien.",
+      "realistic_expectation": "Traditionell bei leichten Gelenk-/Gliederschmerzen verwendet; die Wirkung ist bestenfalls mild und nicht belegt. Bei anhaltenden, entzündlichen oder starken Gelenkschmerzen ärztliche Abklärung statt Selbstbehandlung.",
+      "source": "EMA/HMPC Filipendulae ulmariae herba (traditional use); recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, angenehm duftendes Erkältungs-/Schwitzmittel und traditionelles Mittel bei leichten Gelenkschmerzen. Regulatorisch als traditionelles Arzneimittel anerkannt (HMPC traditional use, Kommission E, ESCOP). Enthält Salicylate und Gerbstoffe.",
+    "overstated": "Der 'Aspirin-Pflanze'-Ruf verleitet zu hohen Erwartungen: Der Salicylatgehalt im Tee ist gering, ein therapeutischer aspirinähnlicher schmerz-/fiebersenkender oder gerinnungshemmender Effekt ist NICHT zu erwarten und nicht belegt. Kein Ersatz für NSAR/ASS. Wirkung ist mild und symptomatisch.",
+    "effect_size": "mild, symptomatisch/unterstützend"
+  },
+  "preparation": {
+    "recommended_forms": ["Aufguss (Tee) aus Blüten oder blühendem Kraut", "Schwitztee (warm, bei Erkältung)", "Tinktur"],
+    "form_rationale": "Die wirksamkeitsbestimmenden Salicylglykoside, Flavonoide und Gerbstoffe sind wasserlöslich; das flüchtige Salicylaldehyd entsteht/entweicht beim Erhitzen — daher als zugedeckt ziehender Aufguss (nicht auskochen) zubereiten. Als warmer Tee für die Schwitzkur bei Erkältung.",
+    "standard_dose": "Kommission E: Blüten (Spiraeae flos) mittlere Tagesdosis ca. 2,5–6 g, Kraut (Spiraeae herba) ca. 2,5–6 g (Sekundärquellen nennen für Kraut auch bis ~18 g/Tag — unsicher, zu prüfen); Tee 1 Teelöffel Droge pro Tasse, mit kochendem Wasser übergießen, zugedeckt 10 min ziehen, mehrmals täglich warm.",
+    "preservation": "Blüten/Kraut schonend trocknen, trocken, luftdicht und lichtgeschützt lagern; das flüchtige Aroma nimmt bei langer Lagerung ab."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Salicylate (z. B. ASS/Aspirin)",
+      "Salicylat-sensitives Asthma (theoretisch Bronchospasmus-Gefahr) — nicht anwenden",
+      "Kinder und Jugendliche mit fieberhaften Virusinfekten meiden (theoretisches Reye-Syndrom-Risiko wegen Salicylaten) — unsicher, zu prüfen"
+    ],
+    "pregnancy_lactation": "Für die arzneiliche Anwendung in Schwangerschaft und Stillzeit liegen keine ausreichenden Daten vor; wegen des Salicylatgehalts vorsichtshalber meiden. Unsicher — zu prüfen.",
+    "adverse_effects": "In üblicher Teedosis meist gut verträglich. Wegen der Salicylate theoretisch Salicylat-typische Unverträglichkeiten möglich; hohe Gerbstoffmengen können den Magen reizen. Selten allergische Reaktionen.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Additive Salicylat-Wirkung; Salicylate können die Thrombozytenfunktion/Blutungsneigung theoretisch verstärken",
+        "affected": "Antikoagulanzien/Thrombozytenaggregationshemmer (z. B. ASS, Cumarine, DOAK), andere Salicylate",
+        "clinical_relevance": "gering bis relevant — bei Gerinnungshemmung Vorsicht; klinische Bedeutung bei Teedosen wahrscheinlich gering, unsicher, zu prüfen"
+      },
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe können im Darm Eisen und andere Stoffe komplexieren und deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate",
+        "clinical_relevance": "gering — zeitlichen Abstand (1–2 h) halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Enthält Salicylate: bei Salicylat-/ASS-Überempfindlichkeit und salicylat-sensitivem Asthma nicht anwenden, bei Kindern/Jugendlichen mit fieberhaften Virusinfekten meiden (Reye-Risiko, theoretisch); der 'Aspirin-Pflanze'-Ruf ist überzogen — der Salicylatgehalt im Tee ist gering, kein Ersatz für ASS/NSAR."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten/blühendes Kraut zur Vollblüte Juni bis August",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Blüte (und blühendes Kraut)",
+    "method": "Cremeweiße Blütenrispen bzw. blühende Triebspitzen bei trockenem Wetter schneiden; Artbestätigung über Wintergrüngeruch beim Zerreiben und ulmenartig gefiedertes Blatt.",
+    "processing": "Schonend, luftig im Schatten trocknen, um das flüchtige Salicylaldehyd-Aroma zu erhalten; nicht in der prallen Sonne oder zu heiß trocknen.",
+    "storage": "Trocken, luftdicht, lichtgeschützt; Aroma nimmt mit der Zeit ab, innerhalb eines Jahres verbrauchen."
+  },
+  "kitchen": {
+    "uses": ["Aromatisieren von Sirup, Gelee, Süßspeisen und Getränken (Met, Wein, Limonade) mit den duftenden Blüten", "Kräutertee"],
+    "culinary_vs_medicinal": "Die honig-mandelartig duftenden Blüten werden als Aroma für Sirup, Desserts und Getränke geschätzt (kulinarischer Wert). Medizinisch relevant ist der warme Aufguss als Erkältungs-/Schwitztee. Wegen des Salicylatgehalts sollten salicylatempfindliche Personen auch den reichlichen Küchengebrauch meiden."
+  },
+  "garden": {
+    "site_soil": "Feuchte bis nasse, nährstoffreiche, humose Böden; sonnig bis halbschattig. Ideal an Teichrand/Bachlauf.",
+    "hardiness": "Voll winterhart, ausdauernd, kräftig wachsend.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung der Rhizome im Frühjahr/Herbst.",
+    "bodensee_suitability": "Sehr gut geeignet — in der Region an Ufern, Gräben und Nasswiesen natürlicherweise häufig; im Garten nur an ausreichend feuchtem Standort dauerhaft, auf trockenen Beeten ungeeignet."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Mädesüß mit cremeweißer, schaumiger Blütenrispe an feuchtem Standort", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Unterbrochen gefiedertes, ulmenblattähnliches Laub mit weißfilziger Unterseite; zerriebene Blätter riechen nach Wintergrün", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph Filipendulae ulmariae herba und Filipendulae ulmariae flos (traditional use: unterstützende Behandlung von Erkältungen; Linderung leichter Gelenkschmerzen). Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Evidenzgrad über mehrere übereinstimmende Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen (recherchiert 2026-07)",
+    "ESCOP: Filipendulae ulmariae herba (Meadowsweet) — Anwendung bei Erkältung; Bewertung auf Basis traditioneller Anwendung und pharmakologischer Plausibilität; Primärseite escop.com via WebFetch nicht erreichbar (403), Inhalt über Sekundärquellen (recherchiert)",
+    "Kommission E: positiv — Spiraeae flos/herba als unterstützendes Mittel bei fieberhaften Erkältungen (Schwitzkur); Tagesdosis Blüten ca. 2,5–6 g",
+    "Inhaltsstoffe (Salicylglykoside Monotropitin/Spiraein → Salicylaldehyd/Methylsalicylat/Salicylsäure; Flavonoide Spiraeosid/Rutin; Ellagitannine): Altmeyers Enzyklopädie, arzneipflanzenlexikon.info, PharmaWiki, PTAheute (recherchiert 2026-07)",
+    "Botanik/Bestimmung (unterbrochen gefiedertes, ulmenartiges Blatt, cremeweiße Rispe, Wintergrüngeruch, Feuchtstandort; Verwechslung mit Filipendula vulgaris/Aruncus/weißen Doldenblütlern; Synonym Spiraea ulmaria und Aspirin-Namensherkunft): naturadb.de, floraweb.de, pflanzen-vielfalt.net, plantura.garden (recherchiert 2026-07)"
+  ]
+}

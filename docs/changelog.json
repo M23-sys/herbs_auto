@@ -447,6 +447,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). Gerbstoffdroge (5–10 %, überwiegend Ellagitannine) + Flavonoide. NUR Kommission E positiv (leichte krampfartige Menstruationsbeschwerden, unterstützend bei leichtem Durchfall, äußerlich Mund-/Rachenschleimhaut; 4–6 g/Tag) — KEIN HMPC, KEIN ESCOP. Die namensgebende krampflösende Wirkung ('Krampfkraut') bei Dysmenorrhoe ist nur traditionell/experimentell (kleine ältere Studie), NICHT klinisch belegt — bewusst als overstated markiert und alle Indikationen TRAD getaggt. Taxonomie: Art wird in neueren Floren als Argentina anserina geführt (Pl@ntNet-Abgleich prüfen — als synonym_note vermerkt). Kein giftiger Doppelgänger (silbrig-seidige Blattunterseite unverwechselbar). In Schwangerschaft vorsichtshalber meiden (Uterus-Bezug)."
+    },
+    {
+      "ts": "2026-07-21T18:30:00Z",
+      "id": "agrimonia-eupatoria",
+      "common": "Odermennig",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Mildes Gerbstoff-Adstringens (Catechin-/Ellagitannin-Gerbstoffe 4–10 %, Agrimoniin, Flavonoide, Kieselsäure). Regulatorisch solide für ein tier-4-Kraut: HMPC traditional use + Kommission E + ESCOP für leichten Durchfall (innerlich), leichte Mund-/Rachenentzündung (Gurgeln) und leichte Hautentzündung/kleine Wunden (äußerlich). Der volkstümliche Ruf als 'Leberkraut'/Leber-Gallen-Mittel ist NICHT belegt — bewusst als overstated markiert. Kein giftiger Doppelgänger (gelbe Blütenähre + hakige Klettfrüchte + unterseits filziges Fiederblatt eindeutig). EMA/ESCOP-Primärquelle 403 — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung nötig."
+    },
+    {
+      "ts": "2026-07-21T18:31:00Z",
+      "id": "filipendula-ulmaria",
+      "common": "Echtes Mädesüß",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Salicylatpflanze ('Aspirin'-Namensgeber über den Altnamen Spiraea ulmaria). HMPC traditional use + Kommission E + ESCOP: unterstützend bei fieberhafter Erkältung (Schwitztee), zusätzlich HMPC-TU für leichte Gelenkschmerzen. WICHTIG/overstated: Salicylatgehalt im Tee ist gering — KEIN aspirinähnlicher schmerz-/fieber-/gerinnungshemmender Effekt, kein Ersatz für ASS/NSAR. Sicherheit: Salicylate → bei ASS-/Salicylat-Überempfindlichkeit und salicylat-sensitivem Asthma kontraindiziert, bei Kindern/Jugendlichen mit Virusinfekt meiden (Reye, theoretisch), theoretische Interaktion mit Gerinnungshemmern. Kein giftiger Doppelgänger bei sicherem Bestimmen (Wintergrüngeruch beim Zerreiben + ulmenartiges Fiederblatt eindeutig), aber Fernverwechslung mit weißen Doldenblütlern nasser Standorte im Sammelhinweis vermerkt."
     }
   ]
 }

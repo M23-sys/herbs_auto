@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "id": "agrimonia-eupatoria",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Agrimonia eupatoria L.",
+    "common_names_de": ["Gemeiner Odermennig", "Kleiner Odermennig", "Odermennig", "Ackermennig", "Leberklette", "Bruchkraut", "Königskraut"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Kraut/blühende oberirdische Teile (Herba) — zur Blütezeit gesammelt"],
+    "drug_name_latin": "Agrimoniae herba",
+    "synonyms": ["Agrimonia officinalis Lam.", "Agrimonia vulgaris Gray"],
+    "synonym_note": "Ältere, noch verbreitete Namen sind Agrimonia officinalis Lam. und Agrimonia vulgaris Gray — dieselbe Art. Akzeptierter Name heute Agrimonia eupatoria L. Nicht verwechseln mit der Gattung Eupatorium (Wasserdost) — der Artname 'eupatoria' geht auf König Mithridates Eupator zurück, nicht auf jene Gattung."
+  },
+  "identification": {
+    "key_features": [
+      "Lange, schlanke, ährenartige Blütentraube (endständig, oft 10–20 cm) mit vielen kleinen, fünfzähligen, goldgelben Blüten, die von unten nach oben aufblühen — die Ähre wirkt kerzenartig.",
+      "Klettfrüchte: die verblühten Blüten bilden verkehrt-kegelförmige, gefurchte Kelchbecher mit einem Kranz nach außen/oben gerichteter hakiger Stacheln (Klettmechanismus) — sehr charakteristisch und nach der Blüte am sichersten.",
+      "Unterbrochen gefiederte Blätter: 3–6 große, grob gesägte Fiederblättchen mit kleineren Blättchen dazwischen; Blattunterseite grau- bis weißfilzig behaart.",
+      "Ganze Pflanze weich zottig behaart, aufrecht, 30–100 cm hoch, meist unverzweigter Stängel; schwach aromatischer Geruch.",
+      "Standort: sonnige, trockene bis frische, eher kalkhaltige Böschungen, Wegränder, Magerwiesen, Gebüschsäume."
+    ],
+    "season": "Blütezeit Juni bis August (September); Klettfrüchte danach bis in den Herbst",
+    "habitat": "Sonnige, warme, mäßig trockene bis frische, meist kalkhaltige Standorte: Wegränder, Böschungen, Magerrasen, Weg- und Gebüschsäume, lichte Trockenwiesen",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: die gelbe, schlanke Blütenähre ZUSAMMEN mit den unterbrochen gefiederten, unterseits filzigen Blättern und — nach der Blüte — den hakigen Klettfrüchten ist eindeutig.",
+      "Zur Blütezeit (Juni–August) die oberen blühenden Triebspitzen (Herba) schneiden, wenn die ersten Blüten offen sind und der Gehalt am günstigsten ist.",
+      "Vom Großen/Wohlriechenden Odermennig (Agrimonia procera) leicht zu unterscheiden, aber unbedenklich: procera ist stärker drüsig, klebrig und deutlich aromatisch — beide sind ungiftig und werden pharmazeutisch gleichwertig verwendet."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Großer/Wohlriechender Odermennig",
+      "scientific_name": "Agrimonia procera",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandte Art, größer und mit vielen sitzenden Drüsen an Stängel und Blattunterseite — dadurch klebrig und stark aromatisch duftend. Ungiftig und laut Kommission-E-Droge gleichwertig verwendbar; keine Gefahr, allenfalls etwas anderes Aroma."
+    },
+    {
+      "name": "Kleinblütige/Gewöhnliche Königskerze",
+      "scientific_name": "Verbascum spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aus der Ferne kann die gelbe Blütenkerze der Königskerze ähneln. Unterscheidung: Königskerze hat große, ganze, dicht wollig-filzige Blätter in einer Grundrosette und deutlich größere Einzelblüten; Odermennig hat gefiederte Blätter und kleine Blüten mit späteren Klettfrüchten. Verbascum ist ebenfalls ungiftig (Heilpflanze), also keine Vergiftungsgefahr."
+    },
+    {
+      "name": "Kleiner Wiesenknopf / Bibernellen",
+      "scientific_name": "Sanguisorba minor, Pimpinella spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls gefiederte Rosaceen-/Doldenblütler-Blätter, aber ohne die gelbe Blütenähre und ohne hakige Klettfrüchte. Ungiftig. Zur Sicherheit auf die Kombination gelbe Ähre + Klettfrucht + unterseits filziges Fiederblatt achten."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für den Odermennig ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Die Kombination aus schlanker gelber Blütenähre, unterbrochen gefiederten, unterseits filzigen Blättern und hakigen Klettfrüchten ist eindeutig. Alle plausiblen Verwechslungspartner (andere Agrimonia-Arten, Königskerze, Wiesenknopf) sind ungiftig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe ca. 4–10 % — überwiegend kondensierte Catechingerbstoffe (Proanthocyanidine), daneben Ellagitannine (u. a. Agrimoniin)",
+      "Flavonoide (u. a. Luteolin-, Apigenin- und Quercetin-Glykoside), Phenolcarbonsäuren",
+      "Kieselsäure (Silikate), Bitterstoffe, Triterpene, geringe Mengen ätherisches Öl"
+    ],
+    "lead_substance": "Catechin-/Ellagitannin-Gerbstoffe (adstringierend, eiweißfällend) — Grundlage der Wirkung bei Durchfall und Schleimhaut-/Hautentzündung; Flavonoide und Kieselsäure als Begleitstoffe.",
+    "solubility_note": "Gerbstoffe und Flavonoide sind wasserlöslich und gehen gut in den Aufguss über; für das weiche Kraut genügt ein Aufguss (Tee) — zum Gurgeln/für Umschläge etwas stärker/länger ziehen lassen. Tinktur alternativ.",
+    "heat_light_sensitivity": "Gerbstoffe sind hitzestabil; getrocknetes Kraut ist gut lagerfähig, sollte aber vor Licht und Feuchte geschützt werden."
+  },
+  "pharmacology": {
+    "mechanism": "Die Gerbstoffe wirken adstringierend: Sie fällen Oberflächenproteine der Schleimhaut zu einer schützenden Membran, dichten ab, hemmen Sekretion und Flüssigkeitsverlust und mildern lokal Reizung und leichte Entzündung. Für Flavonoid-/Gerbstofffraktionen sind in vitro antioxidative, antimikrobielle und entzündungshemmende Effekte beschrieben.",
+    "evidence_caveat": "Regulatorisch als traditionelles Arzneimittel anerkannt (HMPC traditional use; Kommission E positiv; ESCOP), aber die Anerkennung stützt sich auf langjährige Erfahrung und pharmakologische Plausibilität, nicht auf belastbare kontrollierte Studien am Menschen. Klinische Wirksamkeitsbelege für einzelne Indikationen fehlen weitgehend.",
+    "pharmacokinetics": "Gerbstoffe werden kaum resorbiert und wirken überwiegend lokal an Darm-, Mund- und Hautschleimhaut. Systemische Pharmakokinetik nicht relevant untersucht — unsicher, zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter unspezifischer Durchfallerkrankungen",
+      "synonyms": ["Durchfall", "Diarrhö", "wässriger Stuhl", "flauer Magen", "leichte Magen-Darm-Beschwerden"],
+      "evidence_tag": "TU",
+      "comment": "HMPC führt Agrimoniae herba als traditionelles Arzneimittel zur symptomatischen Behandlung leichter Durchfälle; Kommission E positiv für unspezifische, leichte akute Durchfälle. Wirkprinzip: adstringierende Gerbstoffe. Kein 'well-established use'.",
+      "realistic_expectation": "Kann leichten, unkomplizierten Durchfall unterstützend lindern. KEIN Ersatz bei Durchfall > 3 Tage, Fieber, Blut im Stuhl oder Austrocknungszeichen — dann ärztliche Abklärung. Entscheidend bleibt der Ausgleich von Flüssigkeit und Elektrolyten.",
+      "source": "EMA/HMPC European Union herbal monograph Agrimoniae herba (traditional use); Kommission E (positiv); recherchiert 2026-07"
+    },
+    {
+      "canonical": "Leichte Entzündungen der Mund- und Rachenschleimhaut (Spülung/Gurgeln)",
+      "synonyms": ["Zahnfleischentzündung", "Mundschleimhautentzündung", "wunder Mund", "Halsschmerzen", "Rachenentzündung", "Gurgeln"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use und Kommission E für die oromukosale Anwendung bei leichten Entzündungen der Mund-/Rachenschleimhaut; ESCOP nennt Gurgeln bei Entzündungen der Mund- und Rachenschleimhaut. Klassische Gerbstoff-Adstringens-Anwendung.",
+      "realistic_expectation": "Zieht die Schleimhaut zusammen, lindert Reizung und leichte Entzündung. Kein Ersatz für zahn-/ärztliche Behandlung bei anhaltender (> 1 Woche) oder ausgeprägter Entzündung.",
+      "source": "EMA/HMPC Agrimoniae herba (oromukosal, traditional use); Kommission E; ESCOP; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Leichte oberflächliche Hautentzündungen und kleine oberflächliche Wunden (äußerlich)",
+      "synonyms": ["gereizte Haut", "kleine Wunden", "Schürfwunden", "Umschlag", "Hautentzündung"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use und Kommission E für äußerliche Anwendung bei leichten Hautentzündungen; ESCOP nennt Umschläge/Spülungen zur unterstützenden Wundbehandlung. Adstringierend-abdeckende Gerbstoffwirkung.",
+      "realistic_expectation": "Kann als Umschlag/Waschung gereizte Haut beruhigen und kleine, oberflächliche Wunden unterstützend versorgen. Keine Anwendung auf tiefen, stark blutenden, infizierten oder großflächigen Wunden — dann ärztlich.",
+      "source": "EMA/HMPC Agrimoniae herba (kutan, traditional use); Kommission E; ESCOP; recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, gut verträgliches Gerbstoff-Adstringens. Traditionell und regulatorisch anerkannt (HMPC traditional use, Kommission E, ESCOP) bei leichtem unspezifischem Durchfall, leichten Mund-/Rachenentzündungen (Spülung/Gurgeln) und leichten Hautentzündungen/kleinen Wunden (äußerlich).",
+    "overstated": "Der volkstümliche Ruf als 'Leberkraut' und universelles Leber-, Galle- und Stoffwechselmittel ist NICHT belegt — es gibt keinen Beleg für eine ursächliche Leber- oder Gallenwirkung beim Menschen. Auch als Mittel gegen Diabetes oder chronische Erkrankungen ist Odermennig nicht belegt. Wirkung ist lokal-adstringierend und symptomatisch.",
+    "effect_size": "mild, rein symptomatisch/lokal"
+  },
+  "preparation": {
+    "recommended_forms": ["Aufguss (Tee) des Krauts — innerlich", "Gurgel-/Spüllösung (stärkerer Aufguss)", "Umschlag/Waschung — äußerlich", "Tinktur"],
+    "form_rationale": "Die adstringierenden Gerbstoffe und die Flavonoide sind wasserlöslich und lassen sich aus dem weichen Kraut gut als Aufguss extrahieren. Für Gurgel-/Spüllösungen und Umschläge stärker/länger ziehen lassen, um mehr Gerbstoff zu lösen; Tinktur als haltbare Alternative.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis ca. 3–6 g Droge; Tee 1,5–3 g fein geschnittenes Kraut pro Tasse (ca. 150 ml), mehrmals täglich; zum Gurgeln/für Umschläge stärkeren Aufguss (mehr Droge/länger ziehen). Innerlich bei Durchfall nur kurzfristig (wenige Tage).",
+    "preservation": "Getrocknetes, geschnittenes Kraut trocken, luftdicht und lichtgeschützt lagern; Gerbstoffe bleiben lange erhalten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Odermennig; empfindlicher/gereizter Magen (Gerbstoffe können auf nüchternen Magen reizen)"
+    ],
+    "pregnancy_lactation": "Für die arzneiliche Anwendung in Schwangerschaft und Stillzeit liegen keine ausreichenden Daten vor; mangels Daten wird die Anwendung nicht empfohlen. Vorsichtshalber meiden. Unsicher — zu prüfen.",
+    "adverse_effects": "Insgesamt gut verträglich bei bestimmungsgemäßer, kurzfristiger Anwendung. Gelegentlich Magenbeschwerden durch den Gerbstoffgehalt, v. a. auf nüchternen Magen. Theoretisch photosensibilisierendes Potenzial diskutiert (in Sekundärquellen erwähnt) — klinisch nicht belegt, unsicher, zu prüfen.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe komplexieren im Darm Eisen, Alkaloide und andere Stoffe und können deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate, alkaloidhaltige Arzneistoffe, ggf. Mineralstoffe",
+        "clinical_relevance": "gering — zeitlichen Abstand (1–2 h) zur Einnahme anderer Arzneimittel halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Mildes, sicheres Gerbstoff-Adstringens ohne giftigen Doppelgänger — aber nur symptomatisch: Durchfall über 3 Tage, mit Fieber oder Blut, bzw. Mund-/Rachenentzündung über 1 Woche gehören ärztlich abgeklärt; der volkstümliche Ruf als Leber-/Gallenmittel ist nicht belegt."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühende Triebspitzen zur Blütezeit Juni bis August",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Kraut (blühende oberirdische Teile)",
+    "method": "Obere blühende Triebspitzen bei trockenem Wetter schneiden, wenn die ersten Blüten der Ähre offen sind; Artbestätigung über gelbe Ähre + gefiederte, unterseits filzige Blätter.",
+    "processing": "Locker gebündelt oder ausgebreitet luftig im Schatten trocknen; danach schneiden.",
+    "storage": "Trocken, luftdicht, lichtgeschützt; etwa ein Jahr haltbar."
+  },
+  "kitchen": {
+    "uses": ["Aromatischer Kräutertee (mild, leicht adstringierend)"],
+    "culinary_vs_medicinal": "Kaum eigenständige Küchenverwendung. Das leicht herb-aromatische Kraut wird gelegentlich als Teebestandteil genutzt; der adstringierende Charakter begrenzt den Speisegebrauch. Medizinisch relevant ist die adstringierende Zubereitung, nicht die kulinarische Nutzung."
+  },
+  "garden": {
+    "site_soil": "Sonnig, warm, durchlässige, eher kalkhaltige, mäßig trockene bis frische Böden.",
+    "hardiness": "Voll winterhart, ausdauernd, anspruchslos und trockenheitsverträglich.",
+    "propagation": "Aussaat im Frühjahr oder Teilung; versamt sich am geeigneten Standort selbst.",
+    "bodensee_suitability": "Gut geeignet — in der Region an warmen Böschungen und Magerrasen natürlicherweise häufig; im Garten an sonnig-durchlässigem Standort problemlos."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Odermennig mit schlanker, gelber Blütenähre über gefiedertem Laub", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Hakige Klettfrüchte (verkehrt-kegelförmiger Kelchbecher mit Stachelkranz) und unterseits filziges, unterbrochen gefiedertes Blatt", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph Agrimoniae herba (traditional use: leichter Durchfall innerlich; leichte Entzündung Mund-/Rachenschleimhaut oromukosal; leichte Hautentzündung/kleine oberflächliche Wunden kutan). Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Evidenzgrad über mehrere übereinstimmende Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen (recherchiert 2026-07)",
+    "Kommission E: positiv — innerlich leichte unspezifische akute Durchfälle; äußerlich leichte Entzündungen der Mund-/Rachenschleimhaut und leichte oberflächliche Hautentzündungen; Tagesdosis ca. 3–6 g Droge",
+    "ESCOP: Agrimoniae herba — u. a. Gurgeln bei Entzündungen der Mund-/Rachenschleimhaut, Umschläge/Spülungen zur unterstützenden Wundbehandlung; Primärseite escop.com via WebFetch nicht erreichbar (403), Inhalt über Sekundärquellen (recherchiert)",
+    "Inhaltsstoffe (Catechin-/Ellagitannin-Gerbstoffe 4–10 %, Agrimoniin, Flavonoide, Kieselsäure): Altmeyers Enzyklopädie (Agrimoniae herba), Arzneipflanzen-Lexikon, Phytochemie-Review ScienceDirect 2022 (recherchiert 2026-07)",
+    "Botanik/Bestimmung (gelbe Blütenähre, hakige Klettfrüchte, unterbrochen gefiederte, unterseits filzige Blätter; Verwechslung mit Agrimonia procera, Verbascum, Sanguisorba; Synonyme Agrimonia officinalis/vulgaris): Wikipedia (Gemeiner Odermennig), naturadb.de, arzneipflanzenlexikon.info, botanische Bestimmungsschlüssel (recherchiert 2026-07)"
+  ]
+}

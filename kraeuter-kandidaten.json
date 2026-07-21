@@ -545,8 +545,8 @@
       "latin": "Agrimonia eupatoria",
       "tier": 4,
       "reason": "Gerbstoffe, Rachen",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-odermennig.json"
     },
     {
       "id": "filipendula-ulmaria",
@@ -554,8 +554,8 @@
       "latin": "Filipendula ulmaria",
       "tier": 4,
       "reason": "Salicylate — ASS-Vorläufer; Salicylat-Allergie",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-maedesuess.json"
     },
     {
       "id": "galium-verum",
