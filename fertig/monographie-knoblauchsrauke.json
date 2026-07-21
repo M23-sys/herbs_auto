@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "id": "alliaria-petiolata",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Alliaria petiolata (M.Bieb.) Cavara & Grande",
+    "common_names_de": ["Knoblauchsrauke", "Lauchkraut", "Knoblauchhederich", "Knoblauchskraut", "Knoblauchraukel"],
+    "family": "Kreuzblütengewächse (Brassicaceae)",
+    "drug_part": ["Kraut/junge Blätter (Herba)", "Samen", "seltener Wurzel"],
+    "drug_name_latin": "Alliariae herba",
+    "synonyms": ["Alliaria officinalis", "Erysimum alliaria", "Sisymbrium alliaria", "Arabis petiolata", "Alliaria alliaria"]
+  },
+  "identification": {
+    "key_features": [
+      "Zerreibetest: Beim Zerreiben von Blatt oder Stängel deutlicher Knoblauch-/Lauchgeruch — das sicherste Merkmal, weil kein giftiger Doppelgänger diesen Geruch hat.",
+      "Grundblätter (1. Jahr, Rosette) langgestielt, nieren- bis herzförmig, grob und stumpf gekerbt-gezähnt, mit deutlichem Adernetz, matt (nicht glänzend).",
+      "Im 2. Jahr aufrechter Stängel (30–100 cm); obere Stängelblätter dreieckig-herzförmig, spitzer und schärfer gezähnt.",
+      "Blüten klein, weiß, mit vier kreuzständigen Kronblättern (typischer Kreuzblütler); Blütezeit April bis Juli.",
+      "Früchte: aufrecht abstehende, schmale, kantige Schoten (Siliquen) — botanisch eindeutig Brassicaceae.",
+      "Zweijährig: 1. Jahr flache Blattrosette, 2. Jahr Blüte/Frucht, danach Absterben."
+    ],
+    "season": "Junge Rosettenblätter ab dem zeitigen Frühjahr (März) sowie überwinternd; Blüte April bis Juli",
+    "habitat": "Nährstoffreiche, humose, eher frische Böden in Halbschatten bis Schatten: lichte Laubwälder, Waldränder, Hecken, Gebüsche, schattige Weg- und Zaunränder, Gärten",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestimmung IMMER über den Zerreibe-/Geruchstest absichern: eindeutiger Knoblauchgeruch bestätigt die Art. Fehlt der Geruch oder riecht es anders, stehen lassen.",
+      "Junge Blätter vor der Blüte sind am mildesten und zartesten; nach der Blüte werden sie bitter.",
+      "Achtung im Frühjahr: Rosettenblätter ähneln anderen herzblättrigen Frühjahrskräutern (Scharbockskraut, Gundermann, junger Aronstab) — nur bei eindeutigem Knoblauchgeruch UND grob gekerbtem, netznervigem, mattem Blatt sammeln.",
+      "Nicht an belasteten Standorten (Hundewege, Straßenränder) sammeln."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Aronstab",
+      "scientific_name": "Arum maculatum",
+      "toxicity_level": "giftig",
+      "toxin": "Calciumoxalat-Nadeln (Raphiden), scharf schmeckende Aroine/Saponine",
+      "note": "Junge Aronstab-Blätter sind gestielt, pfeil-/spießförmig, glänzend, oft dunkel gefleckt, mit netzartig-heller Aderung und GANZRANDIG (nicht gekerbt-gezähnt), und riechen beim Zerreiben NICHT nach Knoblauch. Knoblauchsrauke ist matt, grob gekerbt und riecht deutlich nach Knoblauch. Aronstab verursacht starkes Brennen und Schwellung im Mund-Rachen-Raum."
+    },
+    {
+      "name": "Scharbockskraut",
+      "scientific_name": "Ficaria verna (Ranunculus ficaria)",
+      "toxicity_level": "giftig",
+      "toxin": "Protoanemonin (in rohem Zustand, v. a. ab der Blüte)",
+      "note": "Blätter herzförmig, aber stark GLÄNZEND, fleischig, ohne sichtbares Adernetz und ohne Knoblauchgeruch; oft gelbe Sternblüten daneben. Roh und ab Blühbeginn durch Protoanemonin reizend/giftig (Übelkeit, Schleimhautreizung). Knoblauchsrauke ist matt, netznervig und riecht nach Knoblauch."
+    },
+    {
+      "name": "Gundermann (Gundelrebe)",
+      "scientific_name": "Glechoma hederacea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährliche, aber häufige Verwechslung der jungen Blätter: Gundermann-Blätter sind eher nierenförmig, kerbig gezähnt, oft am Rand rötlich, Stängel vierkantig (Lippenblütler), Geruch harzig-minzig — nicht knoblauchartig. Aromatisch essbar, aber botanisch klar unterscheidbar."
+    },
+    {
+      "name": "Echte Nelkenwurz",
+      "scientific_name": "Geum urbanum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Grundblätter gefiedert mit großem Endblättchen, ohne Knoblauchgeruch (Wurzel riecht nelkenartig). Ungefährlich, aber zur Sicherheit über den Geruchstest abgrenzen."
+    },
+    {
+      "name": "Bärlauch (Anlass der Verwechslung, umgekehrte Richtung)",
+      "scientific_name": "Allium ursinum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Knoblauchsrauke wird als 'Bärlauch-Alternative' gehandelt, weil beide nach Knoblauch riechen. Bärlauch hat aber lange, lanzettliche, ganzrandige, glänzende Einzelblätter mit parallelen Adern — nicht die gekerbt-gezähnten Herzblätter der Knoblauchsrauke. Wichtig: Beim Sammeln von 'Knoblauchduft-Kräutern' die tödlichen Bärlauch-Doppelgänger Maiglöckchen und Herbstzeitlose kennen — diese riechen NICHT nach Knoblauch."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Glucosinolate (Senfölglykoside), v. a. Sinigrin und Alliarinosid — beim Zerreiben enzymatisch (Myrosinase) zu scharfen Senfölen (u. a. Allylisothiocyanat) gespalten",
+      "Vitamin C (hoch), Provitamin A (Carotin)",
+      "Flavonoide, ätherisches Öl (gering), Saponine",
+      "Bitter-/Gerbstoffe in geringen Mengen"
+    ],
+    "lead_substance": "Sinigrin bzw. das daraus freigesetzte Allylsenföl (Isothiocyanat) — verantwortlich für Geruch, Schärfe und die leicht antibakterielle Wirkung. Keine arzneilich standardisierte Leitsubstanz (nicht offiziell monographiert).",
+    "solubility_note": "Senföle sind flüchtig und hitzeempfindlich; sie entstehen erst beim Zerkleinern der frischen Pflanze. Für Aroma und Wirkstoff daher Frischverzehr — Kochen und langes Trocknen zerstören Geschmack und Senföle weitgehend.",
+    "heat_light_sensitivity": "Senföle und Vitamin C zerfallen bei Hitze und Lagerung; frisch verwenden, nicht mitkochen."
+  },
+  "pharmacology": {
+    "mechanism": "Senföle (Isothiocyanate) wirken in vitro leicht antibakteriell/antimikrobiell und reizend; hoher Vitamin-C-Gehalt ernährungsphysiologisch relevant. Ein klinisch belegter Heilmechanismus fehlt — die traditionellen Anwendungen (Atemwege, Wundreinigung) stützen sich auf die allgemeine Senföl-Wirkung, nicht auf Studien.",
+    "evidence_caveat": "KEINE EMA/HMPC-Monographie, KEINE ESCOP-Monographie, KEINE Kommission-E-Monographie. Kontrollierte klinische Studien fehlen vollständig. Die Anwendung ist rein volksmedizinisch/kulinarisch. Wirkaussagen daher sehr zurückhaltend zu bewerten — unsicher — zu prüfen.",
+    "pharmacokinetics": "Nicht untersucht — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Nährstoffreiches Wildgemüse und Würzkraut (Vitamin-C-Quelle)",
+      "synonyms": ["Wildkräuter essen", "Wildsalat", "Frühjahrskur", "Vitamin C", "Knoblauchersatz", "Bärlauchalternative"],
+      "evidence_tag": "TRAD",
+      "comment": "Der kulinarische Gebrauch ist der eigentliche, gut belegte Nutzen: junge Blätter roh als Würz-/Salatkraut (mild-knoblauchartig), Samen als Senfersatz. Hoher Vitamin-C-Gehalt.",
+      "realistic_expectation": "Schmackhaftes, vitaminreiches Wildgemüse. Ein über die normale Ernährung hinausgehender 'Heileffekt' ist nicht belegt.",
+      "source": "Wildkräuter-/Ernährungsliteratur (recherchiert 2026-07); keine regulatorische Monographie"
+    },
+    {
+      "canonical": "Traditionell äußerlich bei kleinen Wunden und Insektenstichen; innerlich bei Husten/Bronchialbeschwerden",
+      "synonyms": ["Wunden", "Insektenstiche", "Husten", "Bronchitis", "Erkältung", "Verdauungsbeschwerden", "Wundreinigung"],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinisch werden zerdrückte frische Blätter als desinfizierender Umschlag und der Aufguss bei Atemwegs-/Verdauungsbeschwerden genutzt. Begründet mit der leicht antibakteriellen Senföl-Wirkung, aber ohne klinischen Wirksamkeitsnachweis.",
+      "realistic_expectation": "Allenfalls mildes Hausmittel. KEIN Ersatz für Wunddesinfektion oder ärztliche Behandlung bei Infektionen. Wirknachweis fehlt.",
+      "source": "Volksheilkundliche Literatur (recherchiert); kein HMPC/ESCOP/Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliches, vitamin- und senfölreiches Wildgemüse mit mild-knoblauchartigem Aroma; als Bärlauch-Alternative kulinarisch beliebt. Leichte antibakterielle Eigenschaften der Senföle sind plausibel.",
+    "overstated": "Als 'Heilpflanze' wird sie überschätzt: Es gibt keine klinische Evidenz und keine regulatorische Monographie. Die Senföl-Wirkung ersetzt keine Wunddesinfektion oder Hustentherapie. Die eigentliche Aufmerksamkeit gilt der sicheren Bestimmung beim Sammeln, nicht einer belegten Heilwirkung.",
+    "effect_size": "kulinarisch/ernährungsphysiologisch relevant; medizinisch unbelegt, allenfalls mild"
+  },
+  "preparation": {
+    "recommended_forms": ["Frische junge Blätter (Salat, Pesto, Würze)", "Samen als Senfersatz", "äußerlich frischer Blattbrei/Umschlag", "seltener Aufguss/Tee"],
+    "form_rationale": "Die wirksamen Senföle sind flüchtig und hitzeempfindlich und entstehen erst beim Zerkleinern der frischen Pflanze — deshalb Frischverzehr statt Kochen/Trocknen. Getrocknetes Kraut verliert Aroma und Wirkstoff fast vollständig.",
+    "standard_dose": "Keine arzneiliche Dosierung (nicht monographiert). Küchenüblich als Frischkraut; volkstümlicher Tee ca. 1–2 TL frisches Kraut pro Tasse. Bei Selbstsammlung Bestimmung über Geruchstest strikt absichern.",
+    "preservation": "Frisch rasch verbrauchen (kühl 1–2 Tage); für Vorrat besser einfrieren oder als Pesto/Paste in Öl. Trocknen wenig sinnvoll (Aromaverlust)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Unsichere Bestimmung bei Wildsammlung (Verwechslungsgefahr, siehe confusions)",
+      "Bekannte Allergie/Unverträglichkeit gegenüber Kreuzblütlern/Senfölen"
+    ],
+    "pregnancy_lactation": "In küchenüblichen Nahrungsmengen unbedenklich. Für gezielte 'therapeutische' Mengen liegen keine Sicherheitsdaten vor — dann vorsichtshalber meiden. Unsicher — zu prüfen.",
+    "adverse_effects": "In Nahrungsmengen sehr gut verträglich. Scharfe Senföle können bei großen Mengen die Magen-Darm-Schleimhaut reizen. Selten Kreuzblütler-Unverträglichkeit.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Wechselwirkungen bekannt (keine Studiendaten)",
+        "affected": "—",
+        "clinical_relevance": "keine bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Knoblauchsrauke selbst ist ungiftig und essbar — Vorsicht gilt dem Sammeln: Vor der Blüte ähneln die herzförmigen Rosettenblätter anderen Frühjahrskräutern, darunter der giftige Aronstab und das rohe Scharbockskraut. Nur bei eindeutigem Knoblauchgeruch beim Zerreiben ernten; im Zweifel stehen lassen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Junge Blätter im Frühjahr (März–Mai) vor der Blüte; Blüten April–Juni essbar; Samen im Spätsommer",
+    "harvest_month_tags": [3, 4, 5],
+    "harvest_organ": "Blatt/Kraut (Herba)",
+    "method": "Junge, hellgrüne Blätter pflücken; Bestimmung über Zerreibe-/Geruchstest absichern.",
+    "processing": "Frisch verwenden; nicht mitkochen (Senföl-/Aromaverlust). Zum Aufbewahren einfrieren oder als Pesto verarbeiten.",
+    "storage": "Frisch nur wenige Tage kühl; besser eingefroren oder in Öl."
+  },
+  "kitchen": {
+    "uses": ["Wildsalat", "Pesto", "Kräuterquark/-butter", "Würze für Suppen und Aufstriche (roh zugeben)", "Samen als Senfersatz"],
+    "culinary_vs_medicinal": "Der Küchengebrauch (mildes Knoblaucharoma, Vitamin C) ist der belegte Nutzen; die 'medizinische' Anwendung ist rein traditionell und unbelegt. Roh und frisch verwenden — Erhitzen zerstört Geschmack und Senföle."
+  },
+  "garden": {
+    "site_soil": "Frische bis feuchte, nährstoffreiche, humose Böden; halbschattig bis schattig (unter Gehölzen).",
+    "hardiness": "Voll winterhart, zweijährig; versamt sich reichlich selbst.",
+    "propagation": "Aussaat (Kaltkeimer/Selbstaussaat); einmal etabliert dauerhaft im Bestand durch Selbstversamung.",
+    "bodensee_suitability": "Bestens geeignet — in der Bodenseeregion an schattigen Rändern häufig und anspruchslos. Eher sammeln als anbauen; im Garten neigt sie zum Verwildern."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blühende Knoblauchsrauke mit weißen Kreuzblüten und dreieckig-herzförmigen Stängelblättern", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Nieren-/herzförmiges, grob gekerbtes, netznerviges Rosettenblatt — Zerreibetest riecht nach Knoblauch", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kein EMA/HMPC-Monograph vorhanden (recherchiert 2026-07; EMA-Seite via WebFetch nicht direkt abrufbar — 403)",
+    "Keine ESCOP-Monographie vorhanden (recherchiert)",
+    "Kommission E: keine Monographie (recherchiert)",
+    "Wikipedia (de) 'Knoblauchsrauke' — Botanik, Inhaltsstoffe (Sinigrin/Glucosinolate), Blütezeit, Standort",
+    "Wildkräuter-/Heilpflanzen-Fachseiten (kostbarenatur.net, kraeuter-buch.de, heilkraeuter.de, plantura.garden) zu Merkmalen, Küche und traditioneller Anwendung",
+    "Verwechslungsquellen zu 'drei Herzblätter' (Scharbockskraut, Gundermann) und Aronstab — Wildkräuter-Bestimmungsseiten (recherchiert)"
+  ]
+}

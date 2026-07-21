@@ -415,6 +415,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). WICHTIG: Kommission E führt eine NEGATIV-Monographie (Wirksamkeit nicht belegt); keine HMPC/ESCOP-Monographie — alle Indikationen TRAD. Enthält das lebertoxische, abortiv wirkende Pulegon im ätherischen Öl (Gehalt gering, < 1/30 der Poleiminze, keine offizielle Kraut-Höchstmenge → tox_ceiling als 'unsicher — zu prüfen'). Flags: toxin_ceiling=true (Pulegon), pregnancy_contraindicated=true; ätherisches Öl generell meiden. Zusatzbefund für die Tierhaltung: für Pferde/Kleinsäuger stark giftig. Giftige Verwechslung Efeu (Hedera helix, 'Erdefeu'/hederacea) dokumentiert; Geruchsprobe als Sicherheitsanker (Efeu riecht nicht würzig)."
+    },
+    {
+      "ts": "2026-07-21T10:30:00Z",
+      "id": "alliaria-petiolata",
+      "common": "Knoblauchsrauke",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Kein HMPC/ESCOP/Kommission-E-Monograph — alle Indikationen TRAD (Wildgemüse/Würzkraut, Vitamin C; volksmedizinisch leicht antibakteriell durch Senföle/Sinigrin). Kreuzblütler, NICHT Doldenblütler. Sicherheit liegt allein im Sammeln: herzförmige Rosettenblätter ähneln im Frühjahr dem giftigen Aronstab und dem roh giftigen Scharbockskraut (Protoanemonin) sowie dem essbaren Gundermann/Nelkenwurz — Knoblauch-Zerreibetest ist der eindeutige Sicherheitsanker. Kein lebensgefährlicher Doppelgänger, daher deadly_confusion=false. Hinweis zur Bärlauch-Vermarktung ergänzt (Maiglöckchen/Herbstzeitlose riechen nicht nach Knoblauch)."
+    },
+    {
+      "ts": "2026-07-21T10:31:00Z",
+      "id": "alchemilla-vulgaris",
+      "common": "Frauenmantel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Evidenz gespalten: Für unspezifische leichte Durchfälle ESCOP+ und Kommission E POSITIV (1986, 5–10 g/Tag) — adstringierende Gerbstoffe (6–8 %, Ellagitannine/Agrimoniin). KEIN HMPC-Monograph. Die namensgebende Frauenheilkunde (Menstruations-/Wechseljahresbeschwerden, Milchbildung) ist rein TRAD und NICHT belegt — bewusst als overstated markiert (kein Hormoneffekt). Kein giftiger Doppelgänger bekannt (Blattfaltung + Guttationströpfchen sind unverwechselbar); Verwechslung nur innerhalb des apomiktischen Sammelkomplexes (alle essbar/gleichwertig). Gerbstoff-Interaktion mit oralem Eisen ergänzt (zeitlicher Abstand)."
     }
   ]
 }

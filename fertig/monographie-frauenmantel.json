@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "id": "alchemilla-vulgaris",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Alchemilla vulgaris L. s.l. (agg.)",
+    "common_names_de": ["Gewöhnlicher Frauenmantel", "Frauenmantel", "Sinau", "Taumantel", "Marienkraut", "Löwenfuß"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Kraut (Herba) — blühende oberirdische Teile: Blätter, Blüten, Stängel"],
+    "drug_name_latin": "Alchemillae herba",
+    "synonyms": [],
+    "synonym_note": "'Alchemilla vulgaris L.' wird sensu lato für einen apomiktischen Sammelkomplex (Alchemilla vulgaris agg.) mit zahlreichen kleinen, kaum unterscheidbaren Mikroarten verwendet. Die Droge Alchemillae herba stammt aus mehreren dieser Arten (u. a. A. xanthochlora, A. acutiloba); sie gelten arzneilich als gleichwertig."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter fächer-/nierenförmig-rundlich, flach ausgebreitet, mit meist 7–11 halbkreisförmigen, gesägten Lappen und markanter Faltung (wie ein gefalteter Fächer/Mantel) — das namensgebende Merkmal.",
+      "Guttation: morgens sitzen an den Blattzähnen und in der Blattmitte glänzende Wassertröpfchen (aktiv ausgeschiedenes Wasser, nicht Tau) — typisch und diagnostisch.",
+      "Blätter oft weich behaart, am Rand fein gezähnt; grundständig lang gestielt, in einer bodennahen Rosette.",
+      "Blüten sehr klein, gelbgrün, unscheinbar, in lockeren Trugdolden; ohne Kronblätter — passt zu Rosaceae.",
+      "Ausdauernd, horstig, 10–40 cm hoch; auf Wiesen, Weiden und in Gebirgslagen häufig."
+    ],
+    "season": "Blätter ab Frühjahr; Blüte (Erntezeit des Krauts) Mai bis September, Schwerpunkt Juni–August",
+    "habitat": "Frische bis feuchte, nährstoffreiche Wiesen, Weiden, Wegränder, Gräben, lichte Wälder; von der Ebene bis ins Gebirge — besonders in Mittelgebirgs- und Voralpenlagen häufig",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Zur Blütezeit das ganze blühende Kraut (Blätter, Blüten, obere Stängel) sammeln; ältere, fleckige oder pilzbefallene Blätter meiden.",
+      "Bestätiger: fächerförmig gefaltetes, rundlich-gelapptes Blatt mit Guttationströpfchen und die kleinen gelbgrünen Blüten ohne Kronblätter.",
+      "Nicht an belasteten Standorten (gedüngte Intensivweiden, Straßenränder, Hundewege) sammeln."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Andere Frauenmantel-Kleinarten",
+      "scientific_name": "Alchemilla spp. (z. B. A. xanthochlora, A. acutiloba, A. monticola)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Innerhalb des Sammelkomplexes (Alchemilla vulgaris agg.) sind die Mikroarten kaum unterscheidbar. Das ist unbedenklich: Alle gelten als essbar und arzneilich gleichwertig; eine artgenaue Bestimmung ist für die Anwendung nicht nötig."
+    },
+    {
+      "name": "Alpen-Frauenmantel / Silbermantel",
+      "scientific_name": "Alchemilla alpina",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "In höheren Lagen; Blätter tiefer bis zum Grund handförmig geteilt, unterseits silbrig-seidig behaart. Ebenfalls ungiftig und traditionell genutzt — keine Gefahr, nur andere Blattform."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für den Gewöhnlichen Frauenmantel ist kein giftiger oder gar lebensgefährlicher Doppelgänger bekannt. Das charakteristisch gefaltete, fächer-/mantelförmige, rundlich gelappte Blatt mit morgendlichen Guttationströpfchen ist unverwechselbar. Vor Entfaltung der typischen Blattform könnten sehr junge Blätter allenfalls oberflächlich an andere Rosettenpflanzen (z. B. Malve, Gundermann) erinnern — diese sind aber ungiftig; im Zweifel bis zur Ausbildung des typischen Faltblatts warten."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe 6–8 % (bis ~18 %), überwiegend hydrolysierbare Ellagitannine, Leitkomponente Agrimoniin",
+      "Flavonoide (ca. 2 %, u. a. Quercetin-Glykoside)",
+      "Bitterstoffe, Spuren ätherischen Öls, Phytosterole"
+    ],
+    "lead_substance": "Gerbstoffe (Ellagitannine, v. a. Agrimoniin) — adstringierend (eiweißfällend), Grundlage der Wirkung bei unspezifischem Durchfall und der äußerlichen/oralen Anwendung.",
+    "solubility_note": "Gerbstoffe sind wasserlöslich und gehen gut in wässrigen Aufguss/Abkochung über — daher ist Tee die sinnvolle Form. Für stärkere Adstringenz kann kurz abgekocht werden.",
+    "heat_light_sensitivity": "Gerbstoffe sind hitzestabil; getrocknetes Kraut gut lagerfähig."
+  },
+  "pharmacology": {
+    "mechanism": "Die Gerbstoffe wirken adstringierend: Sie fällen Oberflächenproteine der Schleimhaut und bilden eine schützende Membran, was Sekretion und Flüssigkeitsverlust bei Durchfall dämpft und lokal reizmildernd/antiphlogistisch wirkt. Die traditionellen gynäkologischen Anwendungen sind pharmakologisch nicht überzeugend erklärt.",
+    "evidence_caveat": "Für den Durchfall besteht Plausibilität und regulatorische Anerkennung (ESCOP; Kommission E positiv), aber kaum kontrollierte klinische Studien. Für die frauenheilkundlichen Anwendungen (Menstruations-/Wechseljahresbeschwerden, 'Milchbildung') fehlt ein Wirksamkeitsnachweis — rein traditionell. KEINE EMA/HMPC-Monographie vorhanden.",
+    "pharmacokinetics": "Gerbstoffe werden kaum resorbiert und wirken überwiegend lokal im Magen-Darm-Trakt bzw. auf Schleimhäuten. Systemische Pharmakokinetik nicht relevant untersucht."
+  },
+  "indications": [
+    {
+      "canonical": "Unspezifische, leichte akute Durchfallerkrankungen",
+      "synonyms": ["Durchfall", "Diarrhö", "leichter Durchfall", "Magen-Darm-Beschwerden", "flauer Magen"],
+      "evidence_tag": "ESCOP+",
+      "comment": "Von der Kommission E (Monographie 1986) als einziges Anwendungsgebiet positiv bewertet; ESCOP führt die unterstützende Anwendung bei unspezifischem Durchfall/Magen-Darm-Beschwerden. Wirkprinzip: adstringierende Gerbstoffe. Kein HMPC-Monograph.",
+      "realistic_expectation": "Kann leichten, unkomplizierten Durchfall unterstützend lindern. KEIN Ersatz bei anhaltendem Durchfall (> 2–3 Tage), Fieber, Blut im Stuhl oder bei Kindern/älteren Menschen mit Austrocknungsgefahr — dann ärztliche Abklärung. Wichtig ist die Flüssigkeits-/Elektrolytzufuhr.",
+      "source": "Kommission E (1986); ESCOP (Alchemillae herba); recherchiert 2026-07"
+    },
+    {
+      "canonical": "Adstringierende Anwendung bei leichten Entzündungen im Mund-/Rachenraum (Spülung/Gurgeln) und äußerlich bei kleinen Hautentzündungen",
+      "synonyms": ["Mundschleimhautentzündung", "Zahnfleischentzündung", "wunde Haut", "Gurgeln", "Umschlag"],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle adstringierende Anwendung analog anderer Gerbstoffdrogen; von der Kommission E nicht ausdrücklich als Indikation geführt, aber pharmakologisch plausibel.",
+      "realistic_expectation": "Mild zusammenziehend/reizlindernd bei kleinen Schleimhaut-/Hautreizungen. Kein Ersatz für gezielte Behandlung ausgeprägter Entzündungen.",
+      "source": "Traditionelle Gerbstoff-Anwendung; ESCOP (adstringierend); recherchiert"
+    },
+    {
+      "canonical": "Traditionelle Frauenheilkunde: Menstruations- und Wechseljahresbeschwerden",
+      "synonyms": ["Regelschmerzen", "Menstruationsbeschwerden", "starke Regelblutung", "Wechseljahre", "Frauenbeschwerden", "prämenstruelle Beschwerden"],
+      "evidence_tag": "TRAD",
+      "comment": "Namensgebende, seit dem Mittelalter zentrale Anwendung als 'Frauenkraut'. ESCOP nennt die unterstützende Anwendung bei Menstruationsbeschwerden auf Basis langjähriger Erfahrung. Ein kontrollierter Wirksamkeitsnachweis fehlt; KEIN HMPC.",
+      "realistic_expectation": "Traditionelles, allenfalls mild unterstützendes Mittel. KEIN belegter Effekt auf Blutungsstärke, Zyklus oder hormonelle Beschwerden. Anhaltend starke/unregelmäßige Blutungen gehören ärztlich abgeklärt, nicht selbst behandelt.",
+      "source": "ESCOP (traditionelle Anwendung); volksheilkundliche Literatur; recherchiert"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliche Gerbstoffdroge, die leichten unspezifischen Durchfall unterstützend lindern kann (adstringierend) und sich zum Gurgeln/für Umschläge eignet. Regulatorisch für den Durchfall anerkannt (ESCOP; Kommission E).",
+    "overstated": "Der populäre Ruf als universelles 'Frauenkraut' überzeichnet die Datenlage: Für Menstruations-, Wechseljahres- oder Fruchtbarkeitsbeschwerden und für 'Milchbildung' gibt es keinen belegten Wirknachweis und keine HMPC-Anerkennung — diese Anwendungen sind rein traditionell. Frauenmantel reguliert keinen Hormonhaushalt.",
+    "effect_size": "mild, symptomatisch; für Durchfall plausibel, für gynäkologische Indikationen unbelegt"
+  },
+  "preparation": {
+    "recommended_forms": ["Tee (Aufguss/Abkochung des Krauts)", "Gurgel-/Spüllösung", "äußerlich Umschlag/Waschung", "junge Blätter als Wildsalat"],
+    "form_rationale": "Die adstringierenden Gerbstoffe sind wasserlöslich und hitzestabil — deshalb ist der wässrige Aufguss/die Abkochung die sinnvolle Zubereitung. Zum Gurgeln/für Umschläge kann etwas stärker/länger gezogen werden.",
+    "standard_dose": "Kommission E: 5–10 g getrocknetes Kraut täglich als zerkleinerte Droge für Aufgüsse/Abkochungen; üblich 1–2 TL pro Tasse, 2–3 × täglich. Bei Durchfall nur kurzfristig (einige Tage) anwenden.",
+    "preservation": "Getrocknetes Kraut trocken, luftdicht und lichtgeschützt lagern; Gerbstoffe bleiben gut erhalten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Keine spezifischen Kontraindikationen bekannt; bei bekannter Gerbstoff-Unverträglichkeit/empfindlichem Magen zurückhaltend"
+    ],
+    "pregnancy_lactation": "Zur Anwendung in Schwangerschaft und Stillzeit liegen keine ausreichenden Sicherheitsdaten vor; von einer gezielten arzneilichen Anwendung wird daher vorsichtshalber abgeraten. Küchenübliche Mengen als Wildsalat gelten als unbedenklich. Unsicher — zu prüfen.",
+    "adverse_effects": "Gut verträglich. Große Mengen Gerbstoffe können auf nüchternen/empfindlichen Magen Übelkeit oder (paradox) Verstopfung verursachen.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe können im Darm Eisen, andere Mineralstoffe, Alkaloide und Proteinarzneistoffe komplexieren und deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate, mineralstoffreiche Nahrung, ggf. alkaloidhaltige Arzneistoffe",
+        "clinical_relevance": "gering — vorsichtshalber zeitlichen Abstand (1–2 h) zu Eisen-/Arzneimitteleinnahme halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Insgesamt sehr sichere Gerbstoffdroge — aber nur symptomatisch: Bei Durchfall über 2–3 Tage, mit Fieber oder Blut, bei Kindern oder Austrocknungszeichen ärztlich abklären. Die frauenheilkundliche Wirkung ist traditionell und nicht belegt; starke/unregelmäßige Blutungen nicht selbst behandeln."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühendes Kraut zur Blütezeit (Juni–August)",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Kraut (Herba) — Blätter, Blüten, obere Stängel",
+    "method": "Oberirdische blühende Teile über dem Boden abschneiden; saubere, gesunde Blätter wählen.",
+    "processing": "Luftig im Schatten trocknen (Bündel oder Horde); vollständig durchtrocknen lassen.",
+    "storage": "Getrocknet trocken, luftdicht und lichtgeschützt; ca. 1 Jahr haltbar."
+  },
+  "kitchen": {
+    "uses": ["junge Blätter im Wildsalat", "Kräutersuppe", "als milde Beigabe zu Gemüse"],
+    "culinary_vs_medicinal": "Junge Blätter sind ein mildes, leicht herbes Wildgemüse (Küchengebrauch). Die medizinisch relevante Anwendung ist der gerbstoffhaltige Tee bei Durchfall — der herbe Gerbstoffgeschmack begrenzt den Rohverzehr."
+  },
+  "garden": {
+    "site_soil": "Frische bis feuchte, nährstoffreiche, humose Böden; sonnig bis halbschattig.",
+    "hardiness": "Voll winterhart, ausdauernd, langlebig und pflegeleicht.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung; versamt sich willig selbst.",
+    "bodensee_suitability": "Sehr gut geeignet — in der Bodensee-/Voralpenregion natürlicherweise häufig; als robuste Staude und Heilkraut problemlos kultivierbar."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Frauenmantel-Horst mit fächerförmig gefalteten Blättern und lockeren gelbgrünen Blütenständen", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Rundlich-gelapptes, gefaltetes Blatt mit morgendlichen Guttationströpfchen an den Blattzähnen", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kein EMA/HMPC-Monograph vorhanden — Alchemillae herba wurde vom HMPC bislang nicht bearbeitet (recherchiert 2026-07; EMA/ESCOP-Primärseite via WebFetch nicht direkt abrufbar — 403)",
+    "ESCOP: Alchemillae herba — unterstützend bei unspezifischem Durchfall/Magen-Darm-Beschwerden und (traditionell) Menstruationsbeschwerden (recherchiert)",
+    "Kommission E (Monographie 1986): positiv für unspezifische, leichte Durchfallerkrankungen; Tagesdosis 5–10 g Droge",
+    "Inhaltsstoffe (Gerbstoffe 6–8 %, Ellagitannine/Agrimoniin, Flavonoide ~2 %): Altmeyers Enzyklopädie (Phytotherapie), heilpflanzen-welt.de, arzneipflanzenlexikon.info (recherchiert)",
+    "Botanik/Guttation/Sammelkomplex: Arzneipflanzen-Lexikon, Uni Ulm Apothekergarten, Wildkräuter-Fachseiten (recherchiert)"
+  ]
+}

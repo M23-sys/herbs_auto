@@ -509,8 +509,8 @@
       "latin": "Alliaria petiolata",
       "tier": 4,
       "reason": "Senföle, Wildgemüse",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-knoblauchsrauke.json"
     },
     {
       "id": "alchemilla-vulgaris",
@@ -518,8 +518,8 @@
       "latin": "Alchemilla vulgaris",
       "tier": 4,
       "reason": "Gerbstoffe, Frauenheilkunde (traditionell)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-frauenmantel.json"
     },
     {
       "id": "potentilla-erecta",
