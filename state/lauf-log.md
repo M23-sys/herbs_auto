@@ -890,3 +890,28 @@ Damit sind **alle tier-3-Warneintraege der Kandidatenliste abgearbeitet**; ab de
 - **Knoblauchsrauke — Vermarktung als „Baerlauch-Alternative".** Da beide nach Knoblauch riechen, wird sie so verkauft. Sie sieht Baerlauch aber NICHT aehnlich (gezaehnte Herzblaetter vs. glatte lanzettliche Baerlauchblaetter). Trotzdem im `confusions`-Eintrag und Changelog der Hinweis auf die toedlichen Baerlauch-Doppelgaenger (Maigloeckchen/Herbstzeitlose) — diese riechen NICHT nach Knoblauch. Alle Indikationen **TRAD** (kein HMPC/ESCOP/Kommission E); Heilwirkung ist volksmedizinisch, Kuechennutzen ist der belegte Wert.
 
 **Wunschliste-Status:** unveraendert 1 Eintrag (cornus-sanguinea), bereits erfuellt → `docs/wunschliste.json` NICHT angefasst (nur die App schreibt sie). Aeltere Nebenbefunde aus Vorlaeufen (Validierungsfehler in Altbestand-Monographien) nicht Teil dieses Auftrags.
+
+---
+
+## Lauf 2026-07-21 (Blutwurz, Gänsefingerkraut)
+
+**Bearbeitete Kräuter (beide aus der KANDIDATENLISTE, tier 4):**
+- **Blutwurz** — Potentilla erecta → `fertig/monographie-blutwurz.json`
+- **Gänsefingerkraut** — Potentilla anserina → `fertig/monographie-gaensefingerkraut.json`
+
+**Auswahl-Begründung:** Wunschliste (`docs/wunschliste.json`) enthält 1 Eintrag: `cornus-sanguinea`. Dieser liegt bereits als `fertig/monographie-blutroter-hartriegel.json` (id `cornus-sanguinea`) vor → **Wunsch bereits erfüllt, übersprungen** (wunschliste.json NICHT angefasst, schreibt nur die App). Damit 0 offene Wünsche → beide Kräuter aus der Kandidatenliste: erste zwei mit `status: offen`, tier aufsteigend = potentilla-erecta, potentilla-anserina (beide tier 4). Dedup gegen alle `id` + `botany.synonyms` in `fertig/` sowie `vorhanden`: keine Treffer (kriechendes-fingerkraut ist Potentilla reptans, andere Art). Status beider Kandidaten → `entwurf_fertig`, `datei` gesetzt.
+
+**Prüfergebnis:** beide `✓ ok, mit Hinweisen`, **0 Fehler beim ersten Versuch — 0 Korrekturversuche.** Einziger Hinweis je Datei: enthält bewusst „unsicher/zu prüfen".
+
+**Hauptquellen / Quellen-Abruf:** Direkter **WebFetch scheiterte durchgehend mit HTTP 403** (EMA/HMPC Tormentillae rhizoma, ESCOP tormentil, Altmeyers) — dieselbe Proxy-/Bot-Sperre wie in allen Vorläufen. Recherche über **WebSearch-Zusammenfassungen** mehrerer übereinstimmender Sekundärquellen (EMA-Seitenzusammenfassung, ESCOP, Altmeyers Enzyklopädie, Thieme/Planta-Medica-Review PMID 32155655, PMC6272682, PubMed 15440668).
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Blutwurz — ungewöhnlich starke regulatorische Basis für ein tier-4-Kraut.** Anders als die meisten tier-4-Einträge hat die Blutwurz eine **HMPC-Monographie (traditional use)** PLUS Kommission E PLUS ESCOP. Wichtig aus der HMPC: Anwendung **nur bei Erwachsenen**, Durchfall > 3 Tage bzw. Mundschleimhautentzündung > 1 Woche → Arzt. Indikation Durchfall daher `TU/ESCOP+`, Mundschleimhaut `TU`. Höchster Gerbstoffgehalt der heimischen Drogen (15–22 %) → auf nüchternen Magen Magenreizung möglich; Gerbstoff-Eisen-Interaktion (zeitlicher Abstand) vermerkt. `high_safety` bewusst **false** (Magenreizung + fehlende Schwangerschaftsdaten).
+- **Blutwurz — Bestimmungssicherheit ist stark, kein giftiger Doppelgänger.** Zwei unabhängige Bestätiger: **VIER gelbe Kronblätter** (fast alle anderen Fingerkräuter haben fünf) UND **blutrot anlaufender Wurzelstock**. Verwechslung nur mit anderen, ungiftigen Potentilla-Arten (schwächere Droge). `deadly_confusion=false`.
+- **Gänsefingerkraut — deutlich schwächere Evidenz als der populäre Ruf.** NUR **Kommission E** positiv, **KEIN HMPC, KEIN ESCOP**. Die namensgebende krampflösende Wirkung („Krampfkraut") bei **Menstruationskrämpfen** stützt sich nur auf traditionelle Anwendung + einzelne experimentelle/kleine klinische Daten (PubMed 15440668, alt/schwach) → alle drei Indikationen **TRAD** getaggt, krampflösende Wirkung bewusst als `overstated` markiert. Bitte diese Einordnung prüfen, falls im Katalog eine höhere Erwartung gewünscht ist.
+- **Gänsefingerkraut — TAXONOMIE-WARNUNG (bitte ansehen).** Die Art wird in neueren Floren/Datenbanken in die Gattung **Argentina** gestellt: **Argentina anserina (L.) Rydb.** Ich habe `id` als `potentilla-anserina` und `scientific_name` „Potentilla anserina L." belassen (so führt es Pl@ntNet arzneilich noch meist), den neuen Namen als `botany.synonyms`/`synonym_note` eingetragen und als „unsicher — zu prüfen" markiert. **Falls die App/Pl@ntNet bereits auf Argentina anserina umgestellt hat, müsste die id angepasst werden.**
+- **Schwangerschaft:** Gänsefingerkraut wegen des traditionellen Uterus-Bezugs (krampflösend/„menstruationsfördernd") vorsichtshalber gemieden; Blutwurz mangels Daten laut HMPC nicht empfohlen. Beide als „unsicher — zu prüfen".
+- **Primärquellen (EMA/ESCOP) nicht direkt abrufbar (403)** — Evidenzgrade über Sekundärquellen belegt, in beiden Dateien in `sources` vermerkt. Ärztliche Gegenprüfung der Kernaussagen empfohlen.
+
+**Wunschliste-Status:** unverändert 1 Eintrag (cornus-sanguinea), bereits erfüllt → `docs/wunschliste.json` NICHT angefasst.

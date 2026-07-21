@@ -527,8 +527,8 @@
       "latin": "Potentilla erecta",
       "tier": 4,
       "reason": "stärkste Gerbstoffdroge — Durchfall",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-blutwurz.json"
     },
     {
       "id": "potentilla-anserina",
@@ -536,8 +536,8 @@
       "latin": "Potentilla anserina",
       "tier": 4,
       "reason": "Krämpfe, Gerbstoffe",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-gaensefingerkraut.json"
     },
     {
       "id": "agrimonia-eupatoria",

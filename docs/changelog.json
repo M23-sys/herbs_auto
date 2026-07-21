@@ -431,6 +431,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). Evidenz gespalten: Für unspezifische leichte Durchfälle ESCOP+ und Kommission E POSITIV (1986, 5–10 g/Tag) — adstringierende Gerbstoffe (6–8 %, Ellagitannine/Agrimoniin). KEIN HMPC-Monograph. Die namensgebende Frauenheilkunde (Menstruations-/Wechseljahresbeschwerden, Milchbildung) ist rein TRAD und NICHT belegt — bewusst als overstated markiert (kein Hormoneffekt). Kein giftiger Doppelgänger bekannt (Blattfaltung + Guttationströpfchen sind unverwechselbar); Verwechslung nur innerhalb des apomiktischen Sammelkomplexes (alle essbar/gleichwertig). Gerbstoff-Interaktion mit oralem Eisen ergänzt (zeitlicher Abstand)."
+    },
+    {
+      "ts": "2026-07-21T12:40:00Z",
+      "id": "potentilla-erecta",
+      "common": "Blutwurz",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Stärkste heimische Gerbstoffdroge: 15–22 % Gerbstoffe (überwiegend kondensierte Catechingerbstoffe + Ellagitannine/Agrimoniin, dazu Tormentillrot). HMPC traditional use (TU): innerlich leichter Durchfall, oromukosal leichte Mundschleimhautentzündung — laut HMPC NUR bei Erwachsenen; Durchfall > 3 Tage bzw. Mundentzündung > 1 Woche → Arzt. Zusätzlich Kommission E und ESCOP positiv (4–6 g/Tag). Kein giftiger Doppelgänger: sichere Bestimmung über VIER gelbe Kronblätter (statt fünf bei anderen Fingerkräutern) und blutrot anlaufenden Wurzelstock. Gerbstoff-Eisen-Interaktion ergänzt. Primärquellen EMA/ESCOP nur mit HTTP 403 erreichbar — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
+    },
+    {
+      "ts": "2026-07-21T12:41:00Z",
+      "id": "potentilla-anserina",
+      "common": "Gänsefingerkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Gerbstoffdroge (5–10 %, überwiegend Ellagitannine) + Flavonoide. NUR Kommission E positiv (leichte krampfartige Menstruationsbeschwerden, unterstützend bei leichtem Durchfall, äußerlich Mund-/Rachenschleimhaut; 4–6 g/Tag) — KEIN HMPC, KEIN ESCOP. Die namensgebende krampflösende Wirkung ('Krampfkraut') bei Dysmenorrhoe ist nur traditionell/experimentell (kleine ältere Studie), NICHT klinisch belegt — bewusst als overstated markiert und alle Indikationen TRAD getaggt. Taxonomie: Art wird in neueren Floren als Argentina anserina geführt (Pl@ntNet-Abgleich prüfen — als synonym_note vermerkt). Kein giftiger Doppelgänger (silbrig-seidige Blattunterseite unverwechselbar). In Schwangerschaft vorsichtshalber meiden (Uterus-Bezug)."
     }
   ]
 }

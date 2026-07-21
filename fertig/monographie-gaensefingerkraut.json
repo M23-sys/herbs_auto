@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "id": "potentilla-anserina",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Potentilla anserina L.",
+    "common_names_de": ["Gänsefingerkraut", "Gänserich", "Silberkraut", "Krampfkraut", "Anserine"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Kraut (Herba) — blühende oberirdische Teile"],
+    "drug_name_latin": "Potentillae anserinae herba (Anserinae herba)",
+    "synonyms": ["Argentina anserina"],
+    "synonym_note": "Die Art wird in neueren Floren häufig in die Gattung Argentina gestellt (Argentina anserina (L.) Rydb.); arzneilich und in Pl@ntNet meist noch als Potentilla anserina geführt. Namensgleichheit prüfen — akzeptierter Gattungsname derzeit im Wandel. Unsicher — zu prüfen."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter unterbrochen gefiedert mit vielen (bis ~25) tief gesägten Fiederblättchen, oberseits grün, unterseits SILBRIG-seidig weiß behaart — das namensgebende, sicherste Merkmal ('Silberkraut').",
+      "Lange, rötliche, oberirdische Ausläufer (Kriechtriebe), die an den Knoten wurzeln — bildet flächige Bestände.",
+      "Blüten einzeln auf langen Stielen, gelb, mit FÜNF Kronblättern (typisches Fingerkraut).",
+      "Rosettig-kriechender Wuchs, kein aufrechter Stängel; Blätter meist grundständig gehäuft.",
+      "Auf feuchten, nährstoffreichen, oft verdichteten Böden: Weg- und Ackerränder, Ufer, Trittrasen, Überschwemmungsflächen."
+    ],
+    "season": "Blütezeit Mai bis August (September); Krauternte zur Blüte",
+    "habitat": "Feuchte bis wechselfeuchte, stickstoffreiche, verdichtete Böden: Wegränder, Trittstellen, Fluss- und Grabenufer, Weiden, Ruderalflächen; Ebene bis montan",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: gefiederte Blätter mit silbrig-seidiger Unterseite UND fünfzählige gelbe Einzelblüten an langen Stielen mit kriechenden Ausläufern.",
+      "Blühendes Kraut (Blätter, Blüten) sammeln; von Weg- und Ackerrändern mit möglicher Belastung (Herbizide, Hundekot, Straßennähe) meiden.",
+      "Nicht mit anderen Fingerkräutern verwechseln — die silbrige Blattunterseite ist eindeutig; alle sind ungiftig."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kriechendes Fingerkraut",
+      "scientific_name": "Potentilla reptans",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls kriechend mit gelben fünfzähligen Blüten, aber Blätter fünfzählig-gefingert (nicht gefiedert) und beidseitig grün — KEINE silbrige Unterseite. Ungiftig; Unterscheidung über die gefiederte, silbrig behaarte Blattunterseite des Gänsefingerkrauts."
+    },
+    {
+      "name": "Blutwurz / Aufrechtes Fingerkraut",
+      "scientific_name": "Potentilla erecta",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Andere Potentilla-Art mit VIER Kronblättern und aufsteigendem Wuchs, dreizählige Blätter, keine silbrige Unterseite. Ungiftig; andere Droge (Wurzelstock statt Kraut)."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für das Gänsefingerkraut ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Die silbrig-seidig behaarte, gefiederte Blattunterseite mit vielen Fiederblättchen und die kriechenden Ausläufer sind unverwechselbar. Verwechslungen betreffen nur andere, ungiftige Fingerkräuter."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe 5–10 % — überwiegend Ellagitannine, daneben kondensierte Gerbstoffe",
+      "Flavonoide (u. a. Glucuronide von Kaempferol, Quercetin, Myricetin, Isorhamnetin), Anthocyane",
+      "Triterpene (Tormentosid), Phytosterole, Cholin, Bitterstoffe"
+    ],
+    "lead_substance": "Gerbstoffe (Ellagitannine) — adstringierend; Grundlage der Wirkung bei Durchfall und Schleimhautentzündung. Für die traditionelle krampflösende Wirkung bei Regelschmerzen ist kein einzelner Wirkstoff eindeutig belegt.",
+    "solubility_note": "Gerbstoffe und Flavonoide sind wasserlöslich und gehen gut in den Aufguss über — daher ist Tee die sinnvolle Form; für stärkere Adstringenz kurz abkochen.",
+    "heat_light_sensitivity": "Gerbstoffe hitzestabil; getrocknetes Kraut gut lagerfähig."
+  },
+  "pharmacology": {
+    "mechanism": "Die Gerbstoffe wirken adstringierend (Eiweißfällung, schützende Schleimhautmembran) — das erklärt Wirkung bei Durchfall und Schleimhautreizung. Eine krampflösende (spasmolytische) Wirkung an glatter Muskulatur ist in einzelnen experimentellen (in-vitro/in-vivo) Untersuchungen beschrieben und begründet die traditionelle Anwendung bei leichten Menstruationskrämpfen; der Wirkmechanismus ist jedoch nicht sicher geklärt.",
+    "evidence_caveat": "KEINE EMA/HMPC-Monographie und keine ESCOP-Monographie vorhanden. Positiv bewertet nur von der Kommission E (und DAC). Für die krampflösende/dysmenorrhoe-lindernde Anwendung existiert nur schwache, ältere Evidenz (eine kleine klinische Untersuchung, experimentelle Daten) — kein belastbarer kontrollierter Wirksamkeitsnachweis. Weitgehend traditionelle Anwendung.",
+    "pharmacokinetics": "Gerbstoffe werden kaum resorbiert und wirken überwiegend lokal im Magen-Darm-Trakt bzw. auf Schleimhäuten. Systemische Pharmakokinetik nicht relevant untersucht."
+  },
+  "indications": [
+    {
+      "canonical": "Leichte Menstruationskrämpfe (leichte Dysmenorrhoe)",
+      "synonyms": ["Regelschmerzen", "Menstruationskrämpfe", "Unterleibskrämpfe", "Regelbeschwerden", "krampfartige Regel"],
+      "evidence_tag": "TRAD",
+      "comment": "Namensgebend als 'Krampfkraut'. Kommission E führt leichte krampfartige Menstruationsbeschwerden als Anwendungsgebiet (positiv). Wirksamkeit nur traditionell/experimentell gestützt; kein HMPC, kein ESCOP, kein belastbarer klinischer Nachweis.",
+      "realistic_expectation": "Allenfalls mild krampflindernd bei leichten Regelbeschwerden — kein belegter, verlässlicher Effekt. Bei starken, zunehmenden oder neu aufgetretenen Regelschmerzen ärztliche Abklärung, nicht Selbstbehandlung.",
+      "source": "Kommission E (positiv, leichte Dysmenorrhoe); ältere experimentelle/klinische Daten; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Leichte unspezifische akute Durchfallerkrankungen (unterstützend)",
+      "synonyms": ["Durchfall", "Diarrhö", "leichter Durchfall", "Magen-Darm-Beschwerden"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E: unterstützende Behandlung leichter unspezifischer akuter Durchfälle. Wirkprinzip: adstringierende Gerbstoffe. Kein HMPC/ESCOP.",
+      "realistic_expectation": "Kann leichten Durchfall unterstützend lindern (adstringierend). Kein Ersatz bei Durchfall > 2–3 Tage, Fieber, Blut im Stuhl oder Austrocknungsgefahr — dann ärztlich abklären; Flüssigkeit/Elektrolyte ausgleichen.",
+      "source": "Kommission E (positiv); recherchiert 2026-07"
+    },
+    {
+      "canonical": "Leichte Entzündungen der Mund- und Rachenschleimhaut (Spülung/Gurgeln)",
+      "synonyms": ["Zahnfleischentzündung", "Mundschleimhautentzündung", "Halsentzündung", "wunder Mund", "Gurgeln"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E: äußerliche Anwendung bei leichten Entzündungen der Mund-/Rachenschleimhaut. Klassische adstringierende Gerbstoffanwendung.",
+      "realistic_expectation": "Mild zusammenziehend/reizlindernd bei kleinen Schleimhautreizungen. Kein Ersatz für gezielte Behandlung ausgeprägter Entzündungen.",
+      "source": "Kommission E (positiv, äußerlich); recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliche, mäßig gerbstoffhaltige Droge (5–10 %). Plausibel und von der Kommission E anerkannt als adstringierendes Mittel bei leichtem Durchfall und leichten Mund-/Rachenentzündungen (Spülung).",
+    "overstated": "Der Ruf als verlässliches 'Krampfkraut' gegen Menstruations- und Wadenkrämpfe überzeichnet die Datenlage: Die krampflösende Wirkung ist nur traditionell und experimentell, nicht klinisch belegt; es fehlen HMPC- und ESCOP-Monographie. Das Kraut reguliert keinen Hormonhaushalt und ersetzt bei ausgeprägter Dysmenorrhoe keine ärztliche Behandlung.",
+    "effect_size": "mild, symptomatisch; für Durchfall/Schleimhaut plausibel, für Regelkrämpfe unbelegt"
+  },
+  "preparation": {
+    "recommended_forms": ["Tee (Aufguss des Krauts)", "Gurgel-/Spüllösung", "junge Blätter/Wurzeln als Wildgemüse"],
+    "form_rationale": "Gerbstoffe und Flavonoide sind wasserlöslich und hitzestabil — der wässrige Aufguss ist die sinnvolle Zubereitung. Zum Gurgeln stärker/länger ziehen lassen.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis 4–6 g Droge; üblich 1–2 TL getrocknetes Kraut pro Tasse als Aufguss, 2–3 × täglich. Bei Durchfall nur kurzfristig anwenden.",
+    "preservation": "Getrocknetes Kraut trocken, luftdicht und lichtgeschützt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Gerbstoff-Unverträglichkeit; sehr empfindlicher/gereizter Magen"
+    ],
+    "pregnancy_lactation": "Für die arzneiliche Anwendung in Schwangerschaft und Stillzeit liegen keine ausreichenden Daten vor; wegen der traditionellen Anwendung an der Gebärmuttermuskulatur (krampflösend/'menstruationsfördernd') vorsichtshalber meiden. Küchenübliche Mengen gelten als unbedenklich. Unsicher — zu prüfen.",
+    "adverse_effects": "Gut verträglich. Große Gerbstoffmengen können auf nüchternen/empfindlichen Magen Übelkeit oder Verstopfung verursachen.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe komplexieren im Darm Eisen, Alkaloide und Proteinarzneistoffe und können deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate, alkaloidhaltige Arzneistoffe, ggf. Mineralstoffe",
+        "clinical_relevance": "gering — zeitlichen Abstand (1–2 h) zu Eisen-/Arzneimitteleinnahme halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Sichere, mild adstringierende Gerbstoffdroge — aber nur symptomatisch. Die beworbene krampflösende Wirkung bei Regelschmerzen ist traditionell und nicht belegt; starke oder neue Regelschmerzen sowie Durchfall über 2–3 Tage (mit Fieber/Blut) gehören ärztlich abgeklärt. In der Schwangerschaft meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühendes Kraut zur Blütezeit (Mai–August)",
+    "harvest_month_tags": [5, 6, 7, 8],
+    "harvest_organ": "Kraut (Herba) — Blätter und Blüten",
+    "method": "Oberirdische blühende Teile über dem Boden abschneiden; saubere, gesunde Blätter mit silbriger Unterseite wählen.",
+    "processing": "Luftig im Schatten trocknen; vollständig durchtrocknen lassen.",
+    "storage": "Getrocknet trocken, luftdicht und lichtgeschützt; ca. 1 Jahr haltbar."
+  },
+  "kitchen": {
+    "uses": ["junge Blätter im Wildsalat/als Gemüse", "stärkereiche Wurzeln gekocht (traditionelles Notnahrungsmittel)"],
+    "culinary_vs_medicinal": "Junge Blätter sind ein mildes Wildgemüse; die fleischigen Wurzeln wurden früher als stärkereiches Notnahrungsmittel gekocht. Medizinisch relevant ist der gerbstoffhaltige Tee (Durchfall, Spülung) — der herbe Geschmack begrenzt den Rohverzehr."
+  },
+  "garden": {
+    "site_soil": "Feuchte bis wechselfeuchte, nährstoffreiche, auch verdichtete Böden; sonnig.",
+    "hardiness": "Voll winterhart, ausdauernd, ausbreitungsfreudig über Ausläufer.",
+    "propagation": "Über bewurzelnde Ausläufer sehr leicht; auch Aussaat oder Teilung.",
+    "bodensee_suitability": "Sehr gut geeignet — in der Region an Ufern, Wegen und Feuchtstellen natürlicherweise häufig. Im Garten wegen starker Ausläuferbildung eher als Wildstaude/Bodendecker, kann wuchern."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Gänsefingerkraut mit kriechenden Ausläufern, gefiederten Blättern und einzelnen gelben Blüten", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Gefiedertes Blatt mit silbrig-seidig behaarter Unterseite ('Silberkraut') und fünfzählige gelbe Blüte", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kein EMA/HMPC-Monograph und keine ESCOP-Monographie vorhanden (recherchiert 2026-07). Primärquelle nicht erreichbar — Evidenzgrad ausschließlich über Kommission E belegt, ärztliche Gegenprüfung nötig.",
+    "Kommission E: positiv — innerlich leichte krampfartige Menstruationsbeschwerden und unterstützend bei leichtem unspezifischem Durchfall; äußerlich leichte Entzündungen Mund-/Rachenschleimhaut; Tagesdosis 4–6 g Droge (recherchiert)",
+    "Inhaltsstoffe (Gerbstoffe 5–10 %, überwiegend Ellagitannine; Flavonoid-Glucuronide von Kaempferol/Quercetin/Myricetin/Isorhamnetin; Anthocyane, Tormentosid): Altmeyers Enzyklopädie (Potentillae anserinae herba); Phenolprofil-Studie PMC6272682 (recherchiert)",
+    "Spasmolyse/Dysmenorrhoe: experimentelle Daten und kleine klinische Untersuchung (PubMed 15440668) — schwache Evidenz (recherchiert)",
+    "Taxonomie (Argentina anserina (L.) Rydb. als neuerer akzeptierter Name): botanische Datenbanken/Floren — Zuordnung im Wandel, für Pl@ntNet-Abgleich zu prüfen (recherchiert 2026-07)"
+  ]
+}

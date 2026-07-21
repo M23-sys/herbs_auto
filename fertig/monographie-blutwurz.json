@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "id": "potentilla-erecta",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Potentilla erecta (L.) Raeusch.",
+    "common_names_de": ["Blutwurz", "Aufrechtes Fingerkraut", "Tormentill", "Ruhrwurz", "Rotwurz", "Natterwurz", "Dilledapp"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Wurzelstock/Rhizom (Rhizoma) — von den Wurzeln befreit"],
+    "drug_name_latin": "Tormentillae rhizoma",
+    "synonyms": ["Tormentilla erecta", "Potentilla tormentilla", "Potentilla laeta"],
+    "synonym_note": "Ältere, in der Literatur noch häufige Namen sind Tormentilla erecta L. und Potentilla tormentilla Neck. — dieselbe Art. Akzeptierter Name heute Potentilla erecta."
+  },
+  "identification": {
+    "key_features": [
+      "Blüte mit nur VIER gelben Kronblättern — das sicherste Merkmal: fast alle anderen Fingerkräuter (Potentilla) haben fünf. Kleine (ca. 8–12 mm), einzeln auf dünnen Stielen stehende Blüten.",
+      "Wurzelstock/Rhizom beim Anschneiden auffallend blutrot anlaufend (Sauerstoffkontakt) — daher 'Blutwurz'; außen dunkelbraun, knollig-derb.",
+      "Stängelblätter meist dreizählig (drei gesägte Fiederblättchen), sitzend, mit großen, blattartig gelappten Nebenblättern — dadurch wirkt das Blatt oft fünf- bis siebenfingerig.",
+      "Niederliegend-aufsteigende, dünne, gabelig verzweigte Stängel, 10–30 cm; keine Ausläufer (im Gegensatz zum Kriechenden Fingerkraut).",
+      "Ausdauernd; auf mageren, sauren Standorten: Heiden, Magerwiesen, Moorränder, lichte Wälder."
+    ],
+    "season": "Blütezeit Mai bis September (bis Oktober); Wurzelstock-Ernte im zeitigen Frühjahr oder Herbst",
+    "habitat": "Magere, eher saure und wechselfeuchte Böden: Heiden, Borstgrasrasen, Magerweiden, Moor- und Waldränder, lichte Wälder; Ebene bis Hochgebirge",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: vierzählige gelbe Blüte UND blutrot anlaufender Schnitt des Wurzelstocks — beide zusammen sind eindeutig.",
+      "Wurzelstock im Frühjahr (vor dem Austrieb) oder Herbst ausgraben, wenn der Gerbstoffgehalt am höchsten ist; oberirdisch die vierzählige Blüte zur Artbestätigung nutzen.",
+      "Nicht mit anderen, fünfzähligen Fingerkräutern verwechseln — diese sind zwar ungiftig, liefern aber eine schwächere Droge. Von geschützten Feuchtstandorten nicht sammeln."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kriechendes Fingerkraut",
+      "scientific_name": "Potentilla reptans",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Sehr ähnliche gelbe Blüten, aber FÜNF Kronblätter und lange oberirdische Ausläufer (Kriechtriebe), Blätter meist fünfzählig. Ungiftig; nur eine schwächere, weniger gerbstoffreiche Droge. Unterscheidung über die vier statt fünf Kronblätter der Blutwurz."
+    },
+    {
+      "name": "Gänsefingerkraut",
+      "scientific_name": "Potentilla anserina",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls Potentilla, aber fünfzählige Blüte und unverkennbar silbrig-seidig behaarte, gefiederte Blätter mit vielen Fiederblättchen. Ungiftig. Keine Gefahr, andere Droge (Kraut statt Wurzelstock)."
+    },
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für die Blutwurz ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Die Kombination aus vierzähliger gelber Blüte und blutrot anlaufendem Wurzelstock ist eindeutig. Verwechslungen betreffen nur andere, ungiftige Fingerkräuter (fünf Kronblätter) und liefern lediglich eine schwächere Droge."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe 15–22 % — überwiegend kondensierte Catechingerbstoffe (Proanthocyanidine), daneben hydrolysierbare Ellagitannine (u. a. Agrimoniin)",
+      "Tormentillrot (Phlobaphen, Kondensationsprodukt der Catechingerbstoffe — färbt den Schnitt rot)",
+      "Triterpene (Tormentosid = Tormentillsäure-Glykosid), Phenolcarbonsäuren, Spuren ätherischen Öls"
+    ],
+    "lead_substance": "Catechingerbstoffe (kondensierte Proanthocyanidine) — stark adstringierend (eiweißfällend); höchster Gerbstoffgehalt der heimischen Gerbstoffdrogen und Grundlage der Wirkung bei Durchfall und Schleimhautentzündung.",
+    "solubility_note": "Gerbstoffe sind wasserlöslich und gehen in Abkochung/Tinktur gut über. Für den harten Wurzelstock ist eine Abkochung (Dekokt, kurz kochen) oder die alkoholische Tinktur sinnvoller als der bloße Aufguss.",
+    "heat_light_sensitivity": "Gerbstoffe sind hitzestabil; getrockneter Wurzelstock ist gut und lange lagerfähig."
+  },
+  "pharmacology": {
+    "mechanism": "Die hochkonzentrierten Gerbstoffe wirken adstringierend: Sie fällen Oberflächenproteine der Schleimhaut zu einer schützenden Membran, dichten ab, hemmen Sekretion und Flüssigkeitsverlust und mildern lokal Reizung und Entzündung. Zusätzlich sind adstringierend-antimikrobielle und (in vitro) antivirale Effekte beschrieben.",
+    "evidence_caveat": "Regulatorisch anerkannt (HMPC traditional use; Kommission E positiv; ESCOP), aber die Anerkennung stützt sich auf langjährige Erfahrung und Plausibilität, nicht auf breite kontrollierte Studien. Es gibt einzelne klinische Studien (u. a. ein Tormentill-Extrakt bei Rotavirus-Durchfall), diese betreffen jedoch spezifische Zubereitungen und begründen keinen allgemeinen 'well-established use'.",
+    "pharmacokinetics": "Gerbstoffe werden kaum resorbiert und wirken überwiegend lokal an Darm- und Mundschleimhaut. Systemische Pharmakokinetik nicht relevant untersucht."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter unspezifischer Durchfallerkrankungen",
+      "synonyms": ["Durchfall", "Diarrhö", "Ruhr (alt)", "wässriger Stuhl", "Magen-Darm-Grippe", "flauer Magen"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC-Monographie führt Tormentillae rhizoma als traditionelles Arzneimittel zur symptomatischen Behandlung leichter Durchfälle (nur Erwachsene). Kommission E und ESCOP positiv für unspezifischen akuten Durchfall. Wirkprinzip: adstringierende Catechingerbstoffe.",
+      "realistic_expectation": "Kann leichten, unkomplizierten Durchfall unterstützend verkürzen/lindern. KEIN Ersatz bei Durchfall > 3 Tage, Fieber, Blut im Stuhl oder Austrocknungszeichen — dann ärztliche Abklärung. Entscheidend bleibt der Ausgleich von Flüssigkeit und Elektrolyten.",
+      "source": "EMA/HMPC Community herbal monograph Tormentillae rhizoma (traditional use); Kommission E (positiv); ESCOP; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Leichte Entzündungen der Mund- und Rachenschleimhaut (Spülung/Pinselung)",
+      "synonyms": ["Zahnfleischentzündung", "Mundschleimhautentzündung", "wunder Mund", "Halsentzündung", "Aphthen", "Gurgeln"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für die oromukosale Anwendung bei leichten Entzündungen der Mundschleimhaut; Kommission E nennt zusätzlich äußerliche Anwendung. Klassische Gerbstoff-Adstringens-Anwendung.",
+      "realistic_expectation": "Zieht die Schleimhaut zusammen, lindert Reizung und leichte Entzündung. Kein Ersatz für zahnärztliche/ärztliche Behandlung bei anhaltender (> 1 Woche) oder ausgeprägter Entzündung.",
+      "source": "EMA/HMPC (oromucosal, traditional use); Kommission E; recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Kräftigste heimische Gerbstoffdroge (15–22 %). Gut belegt als adstringierendes, symptomatisch wirksames Mittel bei leichtem unspezifischem Durchfall und bei leichten Mund-/Rachenentzündungen (Spülung). Regulatorisch anerkannt (HMPC traditional use, Kommission E, ESCOP).",
+    "overstated": "Der volkstümliche Ruf als 'Ruhrwurz' und Allheilmittel gegen Infektionen überzeichnet die Datenlage: Es gibt keinen Beleg für eine ursächliche Behandlung von Infektionen, chronischen Darmerkrankungen oder Blutungen. Wirkung ist rein lokal-adstringierend und symptomatisch, nicht kausal.",
+    "effect_size": "moderat (für Gerbstoffdrogen stark), rein symptomatisch/lokal"
+  },
+  "preparation": {
+    "recommended_forms": ["Abkochung (Dekokt) des Wurzelstocks", "Tinktur (alkoholischer Auszug)", "Gurgel-/Spüllösung", "Mundpinselung"],
+    "form_rationale": "Die Gerbstoffe sitzen im harten, holzigen Wurzelstock und sind wasser- und alkohollöslich, aber schlecht durch bloßes Überbrühen zu lösen — deshalb kurz abkochen (Dekokt) oder als Tinktur ansetzen. Zum Gurgeln stärker/länger ziehen lassen.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis 4–6 g Droge; Tee/Abkochung 1–2 g fein zerkleinerter Wurzelstock pro Tasse, 2–3 × täglich; Tinktur (1:5, ~70 % Ethanol) 10–20 Tropfen mehrmals täglich bzw. verdünnt zum Spülen. Bei Durchfall nur kurzfristig (wenige Tage).",
+    "preservation": "Getrockneten, zerkleinerten Wurzelstock trocken, luftdicht und lichtgeschützt lagern; Gerbstoffe bleiben lange erhalten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Gerbstoff-Unverträglichkeit; sehr empfindlicher/gereizter Magen (Gerbstoffe können auf nüchternen Magen reizen)"
+    ],
+    "pregnancy_lactation": "Für die arzneiliche Anwendung in Schwangerschaft und Stillzeit liegen keine ausreichenden Daten vor; die HMPC-Monographie empfiehlt die Anwendung mangels Daten nicht. Vorsichtshalber meiden. Unsicher — zu prüfen.",
+    "adverse_effects": "Selten Magenbeschwerden/Übelkeit, besonders bei Einnahme auf nüchternen Magen (hoher Gerbstoffgehalt). Insgesamt gut verträglich bei kurzfristiger, bestimmungsgemäßer Anwendung.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe komplexieren im Darm Eisen, Alkaloide und Proteinarzneistoffe und können deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate, alkaloidhaltige Arzneistoffe, ggf. Mineralstoffe",
+        "clinical_relevance": "gering — zeitlichen Abstand (1–2 h) zur Einnahme anderer Arzneimittel halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Sichere, stark adstringierende Gerbstoffdroge — aber nur symptomatisch und laut HMPC nur bei Erwachsenen: Durchfall über 3 Tage, mit Fieber oder Blut, oder Mundentzündung über 1 Woche gehören ärztlich abgeklärt. Nicht auf nüchternen Magen überdosieren (Magenreizung)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzelstock im zeitigen Frühjahr (März–April, vor Austrieb) oder im Herbst (September–Oktober)",
+    "harvest_month_tags": [3, 4, 9, 10],
+    "harvest_organ": "Rhizom (Wurzelstock)",
+    "method": "Wurzelstock ausgraben, von Wurzeln und Erde befreien, waschen; Artbestätigung über die vierzählige Blüte im Sommer vormerken.",
+    "processing": "Längs aufschneiden (läuft rot an) und rasch bei mäßiger Wärme trocknen; grob zerkleinert lagern.",
+    "storage": "Trocken, luftdicht, lichtgeschützt; gut über ein Jahr haltbar."
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine Küchenverwendung im engeren Sinn. Der stark gerbstoffhaltige Wurzelstock wurde traditionell zum Rotfärben und Gerben sowie als Bittertonikum in Kräuterschnäpsen/Likören genutzt — der herbe, adstringierende Geschmack begrenzt jeden Speisegebrauch. Medizinisch relevant ist allein die adstringierende Zubereitung."
+  },
+  "garden": {
+    "site_soil": "Magere, eher saure, humose und mäßig feuchte Böden; sonnig bis halbschattig. Verträgt keine gedüngten, kalkreichen Standorte gut.",
+    "hardiness": "Voll winterhart, ausdauernd, anspruchslos.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung des Wurzelstocks im Frühjahr/Herbst.",
+    "bodensee_suitability": "Gut geeignet — in der Region auf Magerwiesen und Moorrändern natürlicherweise häufig; im Garten nur auf mageren, sauren Standorten dauerhaft."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Blutwurz mit niederliegenden Stängeln und einzeln stehenden, vierzähligen gelben Blüten", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Vierzählige gelbe Blüte (statt fünf) und längs aufgeschnittener, blutrot anlaufender Wurzelstock", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — Community herbal monograph Tormentillae rhizoma (traditional use: leichter Durchfall innerlich; leichte Mundschleimhautentzündung oromukosal; nur Erwachsene; Durchfall > 3 Tage bzw. Mundentzündung > 1 Woche → Arzt). Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Inhalt über Sekundärquellen bestätigt, ärztliche Gegenprüfung empfohlen (recherchiert 2026-07)",
+    "ESCOP: Tormentillae rhizoma — unspezifischer akuter Durchfall, adjuvant bei Enteritis/Colitis; Primärseite escop.com via WebFetch nicht erreichbar (HTTP 403), Inhalt über Sekundärquellen (recherchiert)",
+    "Kommission E: positiv — innerlich unspezifische akute Durchfälle, äußerlich leichte Entzündungen Mund-/Rachenschleimhaut; Tagesdosis 4–6 g Droge",
+    "Inhaltsstoffe (Catechingerbstoffe 15–22 %, Ellagitannine/Agrimoniin, Tormentillrot, Tormentosid): Altmeyers Enzyklopädie (Tormentillae rhizoma), Thieme/Planta Medica Review 2020 (PMID 32155655) (recherchiert)",
+    "Botanik/Bestimmung (vierzählige Blüte, blutrot anlaufender Wurzelstock, Synonyme Tormentilla erecta / Potentilla tormentilla): Arzneipflanzen-Fachliteratur, botanische Bestimmungsschlüssel (recherchiert 2026-07)"
+  ]
+}
