@@ -399,6 +399,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). WICHTIG für die Erwartungssteuerung: trotz 'Heilpflanze des Jahres 2017' existiert KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie und keine klinische Studie — alle drei Indikationen (Husten/Expektorans, milde Dyspepsie, äußerlich Prellungen/Wunden als 'Arnika des Nordens') sind rein TRAD/volksmedizinisch-homöopathisch. Leitstoffe Triterpensaponine (expektorierend, in größeren Mengen aber schleimhautreizend). Sehr sicheres, essbares Wildkraut OHNE giftigen Doppelgänger → high_safety=true, deadly_confusion=false; asteraceae_allergy=true. Warnung dennoch defensiv: größere Rohmengen des Krauts wegen Saponinen meiden; arzneiliche Anwendung in Schwangerschaft/bei Säuglingen mangels Daten als 'unsicher — zu prüfen'."
+    },
+    {
+      "ts": "2026-07-21T09:00:00Z",
+      "id": "stellaria-media",
+      "common": "Vogelmiere",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Keine EMA/HMPC-, ESCOP- oder Kommission-E-Monographie — alle Indikationen (Reizhusten, äußerlich Hautreizung, Vitamin-C-Wildgemüse) rein TRAD/präklinisch. Sicherheitskern liegt NICHT in der Pflanze, sondern im Sammeln: zwei giftige Verwechslungen aktiv dokumentiert — Acker-Gauchheil (Lysimachia/Anagallis arvensis; vierkantiger Stängel ohne Haarlinie, rote Blüten) und Wolfsmilch-Arten (weißer Milchsaft). Sicherstes Erkennungsmerkmal: einreihige, an jedem Knoten seitenwechselnde Haarlinie + elastischer Zentralfaden + fehlender Milchsaft. high_safety BEWUSST false gesetzt (giftige Doppelgänger), deadly_confusion=false (keine lebensgefährliche Verwechslung)."
+    },
+    {
+      "ts": "2026-07-21T09:05:00Z",
+      "id": "glechoma-hederacea",
+      "common": "Gundermann",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). WICHTIG: Kommission E führt eine NEGATIV-Monographie (Wirksamkeit nicht belegt); keine HMPC/ESCOP-Monographie — alle Indikationen TRAD. Enthält das lebertoxische, abortiv wirkende Pulegon im ätherischen Öl (Gehalt gering, < 1/30 der Poleiminze, keine offizielle Kraut-Höchstmenge → tox_ceiling als 'unsicher — zu prüfen'). Flags: toxin_ceiling=true (Pulegon), pregnancy_contraindicated=true; ätherisches Öl generell meiden. Zusatzbefund für die Tierhaltung: für Pferde/Kleinsäuger stark giftig. Giftige Verwechslung Efeu (Hedera helix, 'Erdefeu'/hederacea) dokumentiert; Geruchsprobe als Sicherheitsanker (Efeu riecht nicht würzig)."
     }
   ]
 }

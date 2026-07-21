@@ -491,8 +491,8 @@
       "latin": "Stellaria media",
       "tier": 4,
       "reason": "Wildgemüse; Verwechslung Ackergauchheil (giftig)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-vogelmiere.json"
     },
     {
       "id": "glechoma-hederacea",
@@ -500,8 +500,8 @@
       "latin": "Glechoma hederacea",
       "tier": 4,
       "reason": "Lippenblütler, Wildkraut",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-gundermann.json"
     },
     {
       "id": "alliaria-petiolata",

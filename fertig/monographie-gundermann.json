@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "id": "glechoma-hederacea",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Glechoma hederacea L.",
+    "common_names_de": [
+      "Gundermann",
+      "Gundelrebe",
+      "Echt-Gundelrebe",
+      "Erdefeu",
+      "Soldatenpetersilie"
+    ],
+    "family": "Lippenblütler (Lamiaceae)",
+    "drug_part": [
+      "Kraut (Herba)"
+    ],
+    "drug_name_latin": "Glechomae hederaceae herba (Hederae terrestris herba)",
+    "synonyms": [
+      "Nepeta glechoma Benth.",
+      "Nepeta hederacea (L.) Trevis.",
+      "Glechoma hederaceum L."
+    ],
+    "synonym_note": "Historisch auch in die Gattung Nepeta gestellt (Nepeta glechoma/hederacea); akzeptiert ist Glechoma hederacea L."
+  },
+  "identification": {
+    "key_features": [
+      "Geruchsprobe (SICHERSTES Merkmal): zerriebenes Kraut riecht kräftig würzig-herb (an Maggi/minzig, oft als 'nach Ziege' beschrieben) — der ungiftige Kriechende Günsel und der giftige Efeu riechen NICHT würzig-aromatisch",
+      "Vierkantiger Stängel (typisch Lippenblütler) mit kriechenden Ausläufern, die an den Knoten wurzeln",
+      "Gegenständige, rundlich-nierenförmige Blätter mit gekerbtem Rand (efeuähnlich — daher der Artname 'hederacea')",
+      "Blauviolette Lippenblüten zu 2–5 scheinquirlig in den oberen Blattachseln; Blütezeit April bis Juni",
+      "Niederliegend-kriechender, wintergrüner Wuchs, bildet flächige Teppiche"
+    ],
+    "season": "Blüte April bis Juni; das Kraut ist nahezu ganzjährig grün und verfügbar",
+    "habitat": "Wiesen, Gebüschsäume, Wegränder, Gärten, lichte Wälder; frische, nährstoffreiche Böden, halbschattig; sehr häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Geruchsprobe als Sicherheitsanker: nur das eindeutig würzig-aromatisch riechende Kraut verwenden",
+      "Vierkantigen Stängel und gekerbte, nierenförmige, gegenständige Blätter bestätigen",
+      "Abgrenzung zum giftigen Efeu: dieser ist verholzt/kletternd, hat ledrige, eckig-gelappte, wechselständige, immergrüne Blätter und keinen würzigen Geruch",
+      "Abgrenzung zum Kriechenden Günsel: dieser ist geruchlos und hat eine längere, aufrechte Blütenähre",
+      "Sparsam ernten und verwenden (Pulegongehalt)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Efeu (Gemeiner Efeu)",
+      "scientific_name": "Hedera helix",
+      "toxicity_level": "giftig",
+      "toxin": "Hederasaponine (α-Hederin), Falcarinol (Polyacetylen)",
+      "note": "Namens- und formbedingte Verwechslung ('Erdefeu'; Blätter efeuähnlich). Unterschied: Efeu ist eine verholzte Kletter-/Kriechpflanze mit ledrigen, eckig-gelappten, wechselständigen, immergrünen Blättern, rundem Trieb und OHNE würzigen Geruch — Gundermann ist krautig, hat vierkantigen Stängel, gekerbte nierenförmige gegenständige Blätter und riecht aromatisch. Efeu-Verzehr reizt Magen-Darm-Trakt (Erbrechen, Krämpfe); Saft kann Kontaktdermatitis auslösen."
+    },
+    {
+      "name": "Kriechender Günsel",
+      "scientific_name": "Ajuga reptans",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls kriechender Lippenblütler mit blauvioletten Blüten. Unterschied: Günsel ist geruchlos, hat eine deutlich längere, aufrechte Blütenähre, glänzendere und weniger gekerbte Blätter. Ungiftig, aber bitter — Verwechslung ist kulinarisch, nicht toxikologisch relevant."
+    },
+    {
+      "name": "Purpurrote Taubnessel",
+      "scientific_name": "Lamium purpureum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Lippenblütler mit vierkantigem Stängel und rotvioletten Blüten. Unterschied: aufrechter Wuchs, obere Blätter rötlich überlaufen und weniger nierenförmig, milderer Geruch. Ungiftig, essbar — keine Gefahr."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (etwa 0,03–0,2 %) mit Pulegon, Menthon, Limonen u.a.",
+      "Lamiaceen-Gerbstoffe (u.a. Rosmarinsäure)",
+      "Flavonoide (u.a. Cymarosid, Isoquercitrin)",
+      "Triterpencarbonsäuren (Ursol-/Oleanolsäure)",
+      "Bitterstoff (Marrubiin-ähnlich), Kalium, Vitamin C, Spuren Alkaloide"
+    ],
+    "lead_substance": "Keine arzneilich definierte Leitsubstanz. Gerb- und Bitterstoffe tragen die traditionell adstringierende/appetitanregende Zuschreibung; das pulegonhaltige ätherische Öl ist der sicherheitsbestimmende Bestandteil.",
+    "solubility_note": "Gerb- und Bitterstoffe sowie Flavonoide sind wasserlöslich (Tee/Aufguss); das ätherische Öl ist flüchtig und geht beim Kochen verloren. Zum Würzen frisches, fein gehacktes Kraut in kleinen Mengen.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig und hitzeempfindlich; beim Trocknen und Kochen Aroma- und Wirkstoffverlust."
+  },
+  "pharmacology": {
+    "mechanism": "Gerbstoffe wirken lokal adstringierend auf Schleimhäute, Bitterstoffe regen Speichel-/Magensaftsekretion an; dem ätherischen Öl werden mild expektorierende und antimikrobielle Effekte zugeschrieben. In vitro zeigen Extrakte antioxidative und antiinflammatorische Aktivität.",
+    "evidence_caveat": "Keine HMPC- und keine ESCOP-Monographie. Die Kommission E hat Gundelrebenkraut bewertet und eine NEGATIV-Monographie erteilt (Wirksamkeit nicht ausreichend belegt). Sämtliche Anwendungen sind volksmedizinisch/präklinisch — klinische Wirksamkeitsbelege fehlen.",
+    "pharmacokinetics": "unsicher — zu prüfen"
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der oberen Atemwege / leichter Husten (traditionell)",
+      "synonyms": [
+        "Husten",
+        "Erkältung",
+        "Bronchialkatarrh",
+        "Schleim",
+        "verschleimte Atemwege"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Anwendung bei Erkältungshusten. Kommission E: negativ bewertet; keine HMPC/ESCOP-Monographie.",
+      "realistic_expectation": "Bestenfalls mildes Hausmittel ohne belegten Nutzen; ausdrücklich von der Kommission E nicht als wirksam anerkannt. Kein Ersatz für geprüfte Hustenmittel.",
+      "source": "Volksmedizin; Kommission E (Negativmonographie)"
+    },
+    {
+      "canonical": "Leichte Magen-Darm-Beschwerden / Appetitlosigkeit (traditionell)",
+      "synonyms": [
+        "Appetitlosigkeit",
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Magenbeschwerden",
+        "Durchfall (leicht)"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Nutzung der Gerb- und Bitterstoffe bei Verdauungsbeschwerden. Keine positive Monographie.",
+      "realistic_expectation": "Mild adstringierend/bittertonisch wie andere Gerbstoffkräuter; keine belegte therapeutische Wirkung.",
+      "source": "Volksmedizin; Kräuterliteratur"
+    },
+    {
+      "canonical": "Schlecht heilende Wunden und Hautleiden (äußerlich, traditionell)",
+      "synonyms": [
+        "Wunden",
+        "eiternde Wunden",
+        "Hautentzündung",
+        "Umschlag",
+        "Bad",
+        "Geschwür"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Der Name 'Gundermann' leitet sich von 'Gund' (= Eiter) ab; traditionell äußerlich für schlecht heilende Wunden und als Bad. Keine klinische Evidenz.",
+      "realistic_expectation": "Traditionelles äußerliches Hausmittel; ein wundheilungsfördernder Effekt ist nicht belegt.",
+      "source": "Volksmedizin; historische Namensgebung/Kräuterbücher"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches Wildwürzkraut (historisch Bierwürze vor dem Hopfen, Bestandteil von 'Gründonnerstagssuppen'); äußerlich/traditionell adstringierend.",
+    "overstated": "Als 'germanisches Universal-Heilkraut' stark überschätzt. Die Kommission E hat es negativ bewertet; klinische Wirksamkeit ist bei keiner Indikation belegt. Der Pulegongehalt begrenzt zudem eine bedenkenlose Dauernutzung.",
+    "effect_size": "mild; symptomatisch/kulinarisch, kein belegter arzneilicher Effekt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frisches Kraut als Würze (sparsam)",
+      "Aufguss/Tee aus frischem oder getrocknetem Kraut (traditionell)",
+      "Umschlag/Waschung/Bad äußerlich"
+    ],
+    "form_rationale": "Gerb- und Bitterstoffe sind wasserlöslich (Tee/Aufguss); für die Küche frisches, fein gehacktes Kraut. Konzentriertes ätherisches Öl ist wegen des Pulegongehalts zu meiden.",
+    "standard_dose": "Als Würzkraut nur kleine Mengen. Traditioneller Tee etwa 1 TL Kraut pro Tasse; nicht als Dauergebrauch und nicht in großen Mengen. Kein standardisiertes Fertigpräparat etabliert.",
+    "preservation": "frisch am aromatischsten; getrocknet mit deutlichem Aroma-/Wirkstoffverlust; ätherisches Öl nicht selbst herstellen/anwenden."
+  },
+  "safety": {
+    "tox_ceiling": "Pulegon (Monoterpenketon) ist lebertoxisch und wirkt abortiv/gebärmutteranregend. Im Gundermannkraut ist der Gehalt gering (ätherisches Öl < 1/30 des Gehalts der Poleiminze), eine offizielle Höchstmenge für das Kraut ist nicht definiert — daher: als Würze in kleinen Mengen unbedenklich, große/dauerhafte Mengen und konzentriertes ätherisches Öl meiden. Konkrete Grenzwerte für das Kraut: unsicher — zu prüfen.",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit (arzneiliche/größere Mengen — Pulegon)",
+      "Anwendung von konzentriertem ätherischem Öl generell meiden",
+      "Vorsicht in der Tierhaltung: für Pferde (und Kleinsäuger wie Meerschweinchen) stark giftig"
+    ],
+    "pregnancy_lactation": "Kulinarische Spuren als Würze gelten als tolerierbar; eine arzneiliche Anwendung sowie größere Mengen sind wegen des abortiv wirkenden Pulegons in Schwangerschaft und Stillzeit zu meiden.",
+    "adverse_effects": "In Würzmengen gut verträglich. Große Mengen oder das ätherische Öl können pulegonbedingt lebertoxisch und magen-darm-reizend wirken. Hinweis: für Weidetiere, v.a. Pferde, ist die Pflanze stark giftig.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "additive Pulegon-/Lebertoxizität bei gleichzeitiger Aufnahme anderer pulegonhaltiger Pflanzen (z. B. Poleiminze) oder lebertoxischer Substanzen",
+        "affected": "andere pulegonhaltige/lebertoxische Kräuter und Arzneistoffe",
+        "clinical_relevance": "gering (in Küchenmengen)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Pulegon",
+      "raw_toxicity": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Beim Sammeln Geruchsprobe (der giftige Efeu riecht nicht würzig); enthält das lebertoxische, abortiv wirkende Pulegon — daher nur als Würze in kleinen Mengen, kein ätherisches Öl, in Schwangerschaft/Stillzeit arzneilich meiden. Für Pferde stark giftig."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "April bis Juni (zur Blüte am aromatischsten); Blätter nahezu ganzjährig verfügbar",
+    "harvest_month_tags": [
+      4,
+      5,
+      6
+    ],
+    "harvest_organ": "Kraut",
+    "method": "blühende Triebspitzen und junges Kraut abschneiden; Geruchsprobe zur Abgrenzung von Efeu/Günsel",
+    "processing": "frisch verwenden; zum Würzen fein hacken; für Tee locker trocknen (Aromaverlust beachten)",
+    "storage": "frisch kühl wenige Tage; getrocknet dunkel und trocken, Aroma lässt nach"
+  },
+  "kitchen": {
+    "uses": [
+      "Würzkraut für Suppen und Wildkräutersalate (sparsam)",
+      "Bestandteil von Kräuter-/Gründonnerstagssuppen",
+      "aromatische Note in Quark/Kräuterbutter",
+      "historisch Bierwürze (vor dem Hopfen)"
+    ],
+    "culinary_vs_medicinal": "Als Würzkraut in kleinen Mengen unbedenklich und aromatisch. Grenze: medizinische Wirksamkeit ist nicht belegt (Kommission E negativ), und der Pulegongehalt verbietet den Gebrauch in großen Mengen oder als ätherisches Öl."
+  },
+  "garden": {
+    "site_soil": "frische, nährstoffreiche Böden, halbschattig bis schattig; anspruchslos",
+    "hardiness": "ausdauernd, wintergrün, sehr frosthart",
+    "propagation": "über kriechende, an den Knoten wurzelnde Ausläufer; breitet sich stark aus",
+    "bodensee_suitability": "Im Bodenseeraum sehr gut — wächst wild sehr häufig; im Garten wegen des starken Ausbreitungsdrangs eher lästiges Beikraut als gezielte Kulturpflanze."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine Monographie zu Glechoma hederacea",
+    "ESCOP: keine Monographie; Kommission E: NEGATIV-Monographie (Wirksamkeit nicht belegt)",
+    "Taxonomie/Synonyme (Nepeta glechoma/hederacea): POWO (Kew), GBIF, ITIS",
+    "Ätherisches Öl / Pulegongehalt und Chemie: PMC8949430 (Wild-Grown and Cultivated Glechoma hederacea), sowie Übersichten zum Pulegongehalt (Öl < 1/30 der Poleiminze)",
+    "Bestimmung/Verwechslung (Efeu, Kriechender Günsel, Taubnessel): gruenundgesund.de, flora-emslandia.de, pflanzen-vielfalt.net",
+    "Toxikologie Efeu (Hederasaponine/Falcarinol) und Weidetier-/Pferdetoxizität: tiermedizinportal.de, Gesellschaft für Toxikologie (toxikologie.de)"
+  ]
+}

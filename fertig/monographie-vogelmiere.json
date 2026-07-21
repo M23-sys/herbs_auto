@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "id": "stellaria-media",
+  "stand": "2026-07-21",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Stellaria media (L.) Vill.",
+    "common_names_de": [
+      "Vogelmiere",
+      "Gewöhnliche Vogelmiere",
+      "Vogel-Sternmiere",
+      "Hühnerdarm",
+      "Mieren"
+    ],
+    "family": "Nelkengewächse (Caryophyllaceae)",
+    "drug_part": [
+      "Kraut (Herba)"
+    ],
+    "drug_name_latin": "Stellariae mediae herba",
+    "synonyms": [
+      "Alsine media L.",
+      "Stellularia media (L.) Kuntze"
+    ],
+    "synonym_note": "Basionym Alsine media L.; akzeptiert ist Stellaria media (L.) Vill. Sammelart mit mehreren Kleinarten/Unterarten."
+  },
+  "identification": {
+    "key_features": [
+      "KEIN Milchsaft beim Abbrechen des Stängels und geruchlos — grenzt sofort gegen die giftigen Wolfsmilch-Arten (Euphorbia) ab, die weißen Milchsaft führen",
+      "Einreihige Haarlinie am ansonsten kahlen, runden Stängel, die an JEDEM Blattknoten die Seite wechselt (sicherstes botanisches Merkmal; der giftige Acker-Gauchheil hat einen vierkantigen, haarlinienlosen Stängel)",
+      "Elastischer, gummiartiger Zentralstrang: zieht man den Stängel vorsichtig auseinander, bleibt ein dehnbarer innerer Faden übrig",
+      "Weiße, sternförmige Blüten; 5 tief bis fast zum Grund zweigeteilte Kronblätter (wirken wie 10), meist 3 Griffel",
+      "Gegenständige, eiförmige, kurz zugespitzte Blätter; niederliegend-kriechender Wuchs; blüht und wächst nahezu ganzjährig, auch in milden Wintern"
+    ],
+    "season": "nahezu ganzjährig; Hauptwuchs und Blüte März bis Oktober, in milden Lagen auch im Winter",
+    "habitat": "Äcker, Gärten, Beete, Wegränder, Schuttplätze; Stickstoff-/nährstoffreiche, frische, lockere Böden; Kulturzeiger; sehr häufig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Vor der Ernte immer die einreihige Haarlinie am Stängel UND das Fehlen von Milchsaft prüfen",
+      "Abgrenzung zum giftigen Acker-Gauchheil: dieser hat einen vierkantigen Stängel ohne Haarlinie und ziegelrote (selten blaue) radförmige Blüten statt weißer Sternblüten",
+      "Abgrenzung zu Wolfsmilch-Arten: jede Milchsaft führende Pflanze verwerfen",
+      "Junges, frisches Kraut ernten; im Zweifel die weißen Sternblüten abwarten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Acker-Gauchheil",
+      "scientific_name": "Lysimachia arvensis (syn. Anagallis arvensis)",
+      "toxicity_level": "giftig",
+      "toxin": "Triterpensaponine (u.a. Cyclamin), Cucurbitacine",
+      "note": "Wächst als niederliegendes 'Unkraut' oft am selben Standort. Unterschied: vierkantiger Stängel OHNE Haarlinie, ziegelrote (selten blaue) radförmige Blüten statt weißer Sternblüten, kein elastischer Zentralfaden. Verzehr kann Magen-Darm-Reizung, Kopfschmerz, Übelkeit und (durch Saponine) hämolytische Wirkung auslösen. Wichtigste Verwechslung der Vogelmiere."
+    },
+    {
+      "name": "Wolfsmilch-Arten (z. B. Garten-Wolfsmilch)",
+      "scientific_name": "Euphorbia peplus und weitere Euphorbia spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Diterpenester (Ingenol-/Phorbolester) im weißen Milchsaft",
+      "note": "Niederliegende Euphorbia-Arten wachsen ebenfalls in Beeten. Eindeutiger Unterschied: beim Abbrechen tritt weißer Milchsaft aus (Vogelmiere führt KEINEN Milchsaft). Der Milchsaft reizt Haut, Augen und Schleimhäute stark; Verzehr verursacht Reizung/Entzündung im Magen-Darm-Trakt."
+    },
+    {
+      "name": "Ähnliche Sternmieren / Hornkräuter",
+      "scientific_name": "Stellaria spp., Cerastium spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe Verwandte (z. B. Gras-Sternmiere, Acker-Hornkraut) sind harmlos, aber oft rauer/haariger, faseriger und geschmacklich fade. Keine Gefahr, nur kulinarisch weniger geeignet; typische Vogelmiere an Haarlinie und mildem Geschmack erkennen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (in geringer Konzentration)",
+      "Flavonoide (u.a. Rutin, Apigenin-Glykoside)",
+      "Vitamin C (hoch), Carotinoide",
+      "Cumarine (Spuren)",
+      "Mineralstoffe (Kalium, Kalzium, Eisen, Zink), Gerbstoffe"
+    ],
+    "lead_substance": "Keine arzneilich definierte Leitsubstanz. Die milden Saponine tragen die volksmedizinisch behauptete reizmildernd-schleimlösende Zuschreibung; der hohe Vitamin-C-Gehalt ist ernährungsphysiologisch der eigentliche Wert.",
+    "solubility_note": "Vitamin C, Mineralstoffe und Flavonoide sind wasserlöslich und hitzeempfindlich — daher als frisches Wildgemüse/Frischsaft am sinnvollsten, nicht als lang gekochter Tee. Für die äußerliche Anwendung frisches, zerquetschtes Kraut als Auflage.",
+    "heat_light_sensitivity": "Vitamin C zerfällt bei Hitze und Lagerung rasch; die Pflanze trocknet schlecht und verliert dabei den größten Teil ihres Werts."
+  },
+  "pharmacology": {
+    "mechanism": "Saponine werden mild reizmildernd/expektorierend und äußerlich hautberuhigend zugeschrieben; Flavonoide und Vitamin C wirken präklinisch antioxidativ und schwach antiinflammatorisch. Ein belastbarer klinischer Wirkmechanismus ist nicht etabliert.",
+    "evidence_caveat": "Für Stellaria media existiert KEINE HMPC-, keine ESCOP- und keine Kommission-E-Monographie. Die vorliegende Literatur ist volksmedizinisch bzw. präklinisch (in vitro/Tier); belastbare klinische Studien am Menschen fehlen. Alle Anwendungsangaben sind traditionell (TRAD).",
+    "pharmacokinetics": "unsicher — zu prüfen"
+  },
+  "indications": [
+    {
+      "canonical": "Reizhusten und Katarrhe der oberen Atemwege (traditionell)",
+      "synonyms": [
+        "Husten",
+        "Hustenreiz",
+        "festsitzender Schleim",
+        "Erkältungshusten",
+        "Bronchialkatarrh"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Anwendung des saponinhaltigen Krauts als mildes Hustenmittel. Keine regulatorische Monographie (HMPC/ESCOP/Kommission E fehlen).",
+      "realistic_expectation": "Bestenfalls milde, symptomatische Linderung; kein belegter Effekt und kein Ersatz für geprüfte Hustenmittel. Wirkung nicht durch Studien gestützt.",
+      "source": "Volksmedizin; Madaus, Lehrbuch der biologischen Heilmittel"
+    },
+    {
+      "canonical": "Leichte Hautreizungen und Juckreiz (äußerlich, traditionell)",
+      "synonyms": [
+        "Juckreiz",
+        "gereizte Haut",
+        "Ekzem",
+        "Hautrötung",
+        "Umschlag",
+        "Auflage"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Frisches, zerdrücktes Kraut wird traditionell als kühlende Auflage bei Hautreizungen, Juckreiz und kleineren Entzündungen verwendet.",
+      "realistic_expectation": "Kühlend-lindernd im Sinne eines Hausmittels; keine belegte Heilwirkung bei entzündlichen Hauterkrankungen.",
+      "source": "Volksmedizin; Kräuterliteratur (z. B. pflanzen-vielfalt.net)"
+    },
+    {
+      "canonical": "Vitamin-C-reiches Wildgemüse / Frühjahrskur (nutritiv)",
+      "synonyms": [
+        "Frühjahrskur",
+        "Vitamin C",
+        "Wildsalat",
+        "Frühjahrsmüdigkeit",
+        "Nährstoffe"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Als frisches, nährstoff- und vitaminreiches Wildgemüse historisch geschätzt (u.a. Skorbutprophylaxe).",
+      "realistic_expectation": "Sinnvoll als schmackhaftes, vitaminreiches Frischgemüse; ein arzneilicher 'Entschlackungs-' oder 'Blutreinigungs'-Effekt ist nicht belegt.",
+      "source": "Volksmedizin; ernährungshistorische Quellen"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mild schmeckendes, vitamin- und mineralstoffreiches Wildgemüse (roh als Salat, Pesto, Smoothie); äußerlich traditionell als kühlende Auflage bei Hautreizungen.",
+    "overstated": "Als 'Heilpflanze' oder 'Superfood' gegen Rheuma, Stoffwechsel- oder innere Erkrankungen deutlich überschätzt — dafür gibt es keine klinische Evidenz und keine Monographie. Der Nutzen liegt im Nähr-, nicht im Arzneiwert.",
+    "effect_size": "mild; nutritiv/symptomatisch, kein belegter arzneilicher Effekt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "frisches Kraut (Salat, Pesto, Smoothie, Brotaufstrich)",
+      "Frischsaft",
+      "frische Auflage/Umschlag (äußerlich)",
+      "Tee aus frischem Kraut (traditionell)"
+    ],
+    "form_rationale": "Vitamin C und Mineralstoffe sind hitzeempfindlich und wasserlöslich — der Wert steckt im frischen Kraut, nicht in Trocknung oder langem Kochen. Für Hautanwendungen wirkt frisches, zerquetschtes Kraut als kühlende Auflage.",
+    "standard_dose": "Als Wildgemüse in Küchenmengen; keine arzneiliche Standarddosis definiert. Große Mengen rohes Kraut wegen der Saponine nicht dauerhaft.",
+    "preservation": "Frisch, kühl wenige Tage haltbar; trocknet schlecht und verliert dabei Vitamin C und Aroma."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Keine spezifischen bei Verzehr in Küchenmengen",
+      "Bekannte Saponin-/Empfindlichkeit: große Mengen rohen Krauts meiden"
+    ],
+    "pregnancy_lactation": "In Küchenmengen als Wildgemüse gilt Vogelmiere als unbedenklich. Für eine gezielte arzneiliche Anwendung in Schwangerschaft und Stillzeit fehlen Daten — unsicher, zu prüfen.",
+    "adverse_effects": "Sehr gut verträglich. In großen rohen Mengen kann der Saponingehalt leichte Magen-Darm-Reizungen auslösen. Relevante Toxizität ist nicht bekannt.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "",
+        "affected": "",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Pflanze selbst ist harmlos — die Gefahr liegt beim Sammeln: Vor jedem Verzehr die einreihige Haarlinie am Stängel und das Fehlen von Milchsaft prüfen, um den giftigen Acker-Gauchheil (vierkantiger Stängel, rote Blüten) und Wolfsmilch-Arten (weißer Milchsaft) sicher auszuschließen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "nahezu ganzjährig; am zartesten im Frühjahr (März–Mai), Hauptmenge März–Oktober",
+    "harvest_month_tags": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_organ": "Kraut",
+    "method": "oberirdisches Kraut abschneiden oder zupfen; Haarlinie und fehlenden Milchsaft als Sicherheitsanker prüfen",
+    "processing": "frisch verwenden; kurz waschen; nicht lange lagern oder kochen (Vitamin-C-Verlust)",
+    "storage": "frisch kühl wenige Tage; Einfrieren möglich, Trocknen kaum sinnvoll"
+  },
+  "kitchen": {
+    "uses": [
+      "Wildsalat",
+      "Pesto",
+      "Smoothie/Grüner Saft",
+      "Brotaufstrich",
+      "Suppe (nur kurz erhitzt)",
+      "Gemüsebeilage (spinatartig)"
+    ],
+    "culinary_vs_medicinal": "Primär ein mildes, nährstoffreiches Küchen-Wildkraut (Geschmack nach jungem Mais/Erbse). Die Grenze: als Frischgemüse sinnvoll und vitaminreich; eine arzneiliche Heilwirkung ist nicht belegt."
+  },
+  "garden": {
+    "site_soil": "nährstoffreiche, frische, lockere Böden; sonnig bis halbschattig; als Kulturbegleiter praktisch überall",
+    "hardiness": "einjährig bis überwinternd, sehr frosthart; wächst auch im Winter",
+    "propagation": "Selbstaussaat in Mengen; muss nicht kultiviert werden und breitet sich von selbst aus",
+    "bodensee_suitability": "Im Bodenseeraum sehr gut — wächst wild sehr häufig; im Garten eher als 'Beikraut' allgegenwärtig denn als Kulturpflanze."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine Monographie zu Stellaria media",
+    "ESCOP: keine Monographie; Kommission E: keine Monographie",
+    "Taxonomie/Synonyme (Basionym Alsine media L.; Stellularia media): POWO (Kew), GBIF",
+    "Phytochemie/Pharmakologie (Saponine, Flavonoide, Vitamin C; nur präklinisch): Übersichtsarbeit 'Stellaria media (L.) Vill. — phytochemistry and pharmacology', PMC7284062",
+    "Bestimmung/Verwechslung (Haarlinie, elastischer Faden, Acker-Gauchheil, Wolfsmilch): pflanzen-vielfalt.net, lovethegarden.com, plantura.garden",
+    "Toxikologie Acker-Gauchheil (Saponine/Cyclamin): pflanzen-deutschland.de, naturadb.de"
+  ]
+}
