@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "id": "verbascum-thapsus",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Verbascum thapsus L.",
+    "common_names_de": [
+      "Kleinblütige Königskerze",
+      "Königskerze",
+      "Wollblume",
+      "Wollkraut",
+      "Himmelbrand",
+      "Marienkerze",
+      "Donnerkerze"
+    ],
+    "family": "Scrophulariaceae (Braunwurzgewächse)",
+    "drug_part": [
+      "Blüte (Verbasci flos) — die Blütenkronen"
+    ],
+    "drug_name_latin": "Verbasci flos",
+    "synonyms": [
+      "Verbascum schraderi G.Mey.",
+      "Thapsus linnaei Opiz"
+    ],
+    "synonym_note": "Taxonomisch stabil. Wichtig für die Droge: Die HMPC-/Kommission-E-Monographie zu Verbasci flos umfasst gleichrangig drei Arten — Verbascum thapsus, V. densiflorum (Großblütige Königskerze) und V. phlomoides (Windblumen-Königskerze). Ihre Blüten sind arzneilich austauschbar; V. densiflorum/V. phlomoides liefern wegen größerer Blüten die Handelsware."
+  },
+  "identification": {
+    "key_features": [
+      "Ganze Pflanze dicht grau-weiß-filzig wollig behaart (verzweigte Sternhaare) auf BEIDEN Blattseiten — das sicherste Merkmal und der entscheidende Unterschied zum Roten Fingerhut",
+      "Bis 2 m hohe, meist unverzweigte, kerzenförmige endständige Blütenähre mit gelben, radförmig-fünfzähligen Blüten",
+      "Blattbasis läuft als 'Flügel' weit am Stängel herab (dekurrent/herablaufend) — bei V. thapsus besonders ausgeprägt",
+      "Im 1. Jahr grundständige Rosette aus länglich-elliptischen, filzigen Blättern (zweijährige Pflanze), im 2. Jahr der Blütenstängel",
+      "Staubblätter: die 3 oberen Staubfäden weiß-wollig behaart, die 2 unteren kahl (Bestimmungsdetail unter der Lupe)"
+    ],
+    "season": "Blütezeit Juli bis August; zweijährig (Rosette im 1. Jahr, Blüte im 2. Jahr)",
+    "habitat": "Sonnige, trockene, magere und durchlässige Böden: Böschungen, Weg- und Straßenränder, Kies- und Sandgruben, Brachen, Ruderalflächen, Bahndämme; wärmeliebender Pionier",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nur die gelben Blütenkronen sammeln — an sonnigen Vormittagen, da sich täglich neue Blüten öffnen und rasch welken",
+      "Bestätiger vor dem Pflücken: durchgehend grau-filzige Wollbehaarung auf BEIDEN Blattseiten + gelbe radförmige Blüten in kerzenförmiger Ähre",
+      "NIEMALS im blütenlosen Rosettenstadium (1. Jahr) sammeln: dann Verwechslungsgefahr mit der Rosette des tödlich giftigen Roten Fingerhuts — dessen Blätter sind dunkelgrün, runzelig und nur unterseits (grau) behaart, oberseits fast kahl",
+      "Nur an unbelasteten Standorten abseits von Straßen und Hundehöhe sammeln"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Roter Fingerhut",
+      "scientific_name": "Digitalis purpurea",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzwirksame Glykoside (Digitoxin, Digoxin u. a.) in allen Pflanzenteilen",
+      "note": "Gefahr besteht v. a. im blütenlosen Rosettenstadium, wenn beide nur eine bodenständige Blattrosette bilden. Unterscheidung: Königskerze ist auf BEIDEN Blattseiten dicht grau-weiß-filzig-wollig; Fingerhut-Blätter sind dunkelgrün, stark runzelig-genervt und nur UNTERSEITS grau-filzig, oberseits fast kahl. Blühend eindeutig: Königskerze gelbe radförmige Blüten in aufrechter Kerze, Fingerhut hängende purpurne Fingerhut-Glocken. Im Zweifel nicht sammeln."
+    },
+    {
+      "name": "Großblütige und Windblumen-Königskerze",
+      "scientific_name": "Verbascum densiflorum / Verbascum phlomoides",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gleichwertige, ungiftige Arzneidrogen — die HMPC-Monographie führt sie zusammen mit V. thapsus. Blüten deutlich größer (bis 3,5 cm), Narbe spatelig (V. phlomoides). Verwechslung völlig unbedenklich, arzneilich sogar erwünscht."
+    },
+    {
+      "name": "Gewöhnliche Nachtkerze (Rosette)",
+      "scientific_name": "Oenothera biennis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls zweijährig mit bodenständiger Rosette an ähnlichen Ruderalstandorten. Unterschied: Nachtkerzenblätter haben einen auffällig hellen, oft rötlichen Mittelnerv und sind nur schwach behaart, nicht grau-filzig. Ungiftig, essbar — harmlose Verwechslung."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (Polysaccharide, ca. 3 %) — reizmildernd/demulzent",
+      "Triterpensaponine (u. a. Verbascosaponin) — leicht sekretolytisch",
+      "Iridoidglykoside (Aucubin, Catalpol, Isocatalpol)",
+      "Phenylethanoidglykoside (Verbascosid/Acteosid) — antioxidativ (präklinisch)",
+      "Flavonoide (Rutin, Hesperidin), Invertzucker"
+    ],
+    "lead_substance": "Schleimpolysaccharide als reizmildernder Schutzfilm (demulzent) in Kombination mit Saponinen (mild auswurffördernd); zusammen erklären sie die Anwendung bei Reizhusten und Atemwegskatarrhen.",
+    "solubility_note": "Schleimstoffe und Glykoside sind wasserlöslich → wässriger Aufguss (Tee) oder Kaltauszug ist die sinnvolle Form; Alkohol fällt Schleim aus, eine Tinktur erfasst nur Saponine/Iridoide. WICHTIG: Den Aufguss immer durch ein feines Sieb, Tuch oder einen Kaffeefilter abseihen — die feinen Sternhaare der Blüten reizen sonst Rachen und Kehlkopf (Kratzen, Hustenreiz).",
+    "heat_light_sensitivity": "Schleim ist hitzeempfindlich (nicht kochen). Die gelbe Blütenfarbe verblasst licht- und luftabhängig — kein Wirkverlust der Schleimstoffe, aber Qualitätsindikator."
+  },
+  "pharmacology": {
+    "mechanism": "Überwiegend physikalisch-demulzent: Der Schleimfilm legt sich über die gereizte Rachen- und Atemwegsschleimhaut, dämpft den trockenen Hustenreiz und schützt vor weiterer Reizung. Die Saponine wirken zusätzlich schwach sekretolytisch/expektorierend. Für Verbascosid sind antioxidative und antiinflammatorische Effekte präklinisch beschrieben.",
+    "evidence_caveat": "Nur traditionelle Anwendung (HMPC 'traditional use'); belastbare kontrollierte klinische Studien am Menschen fehlen. In vitro berichtete antivirale/antibakterielle Effekte sind nicht auf die therapeutische Anwendung übertragbar.",
+    "pharmacokinetics": "Schleimstoffe werden nicht resorbiert und wirken lokal an der Schleimhaut; systemische Pharmakokinetik der Blütendroge ist nicht relevant beschrieben — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der oberen Atemwege mit trockenem Reizhusten und Halsschmerzen bei Erkältung",
+      "synonyms": [
+        "Reizhusten",
+        "trockener Husten",
+        "Erkältungshusten",
+        "Halskratzen",
+        "Halsschmerzen",
+        "kratziger Hals",
+        "Heiserkeit",
+        "Husten bei Erkältung"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC EU-Monographie 'traditional use' für Verbasci flos (Verbascum thapsus / densiflorum / phlomoides, 2018); ESCOP-Monographie Verbasci flos (2014) positiv; Kommission E positiv (Katarrhe der Atemwege).",
+      "realistic_expectation": "Lindert symptomatisch trockenen Reizhusten und Halskratzen durch einen beruhigenden Schleimfilm, meist als Bestandteil von Hustentees. Beseitigt keine Infektion, löst keinen festsitzenden produktiven Husten ursächlich und verkürzt den Erkältungsverlauf nicht. Wirkung mild und kurz anhaltend.",
+      "source": "HMPC traditional use (Verbasci flos); ESCOP; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, gut verträgliches Reizlinderungsmittel bei trockenem Erkältungshusten und Halskratzen — angenehm als Blüten-/Hustentee, auch für Kinder geeignet.",
+    "overstated": "Kein Antibiotikum und kein Virostatikum; heilt keine Bronchitis oder Lungenentzündung und ersetzt bei bakteriellen Atemwegsinfekten keine ärztliche Behandlung. Die im Internet oft beworbene 'antivirale' Wirkung stützt sich nur auf Laborversuche.",
+    "effect_size": "mild; rein symptomatisch, lokal reizmildernd"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Blütentee (Aufguss) — unbedingt durch feines Sieb/Kaffeefilter abseihen",
+      "Bestandteil von Husten- und Brusttees",
+      "Kaltauszug der Blüten"
+    ],
+    "form_rationale": "Die wirksamen Schleimstoffe sind wasserlöslich und hitzeempfindlich, daher wässrige Zubereitung ohne Kochen. Das Abseihen durch ein feines Filter entfernt die reizenden Sternhaare der Blüten — ohne diesen Schritt kann der Tee selbst Hustenreiz auslösen.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis 3–4 g Blüten. Aufguss: ca. 1,5–2 g getrocknete Blüten mit 150 ml heißem (nicht kochendem) Wasser übergießen, 10 min ziehen lassen, durch feines Filter abseihen; 2–3× täglich. Kinder entsprechend geringer.",
+    "preservation": "Blüten rasch und schonend bei ≤40 °C trocknen (Farbe möglichst erhalten), trocken, dunkel und luftdicht lagern; innerhalb eines Jahres verbrauchen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Königskerze"
+    ],
+    "pregnancy_lactation": "Es liegen keine Daten aus kontrollierten Studien vor; die HMPC-Monographie empfiehlt mangels Daten Zurückhaltung. Als Hustentee in üblichen Mengen erfahrungsgemäß risikoarm — für die arzneiliche Anwendung in Schwangerschaft und Stillzeit dennoch 'unsicher — zu prüfen'.",
+    "adverse_effects": "Selten Kontaktreizung/-dermatitis durch die feinen Härchen; ungefilterter Tee kann Rachen reizen. Hinweis: Nur die Blüten arzneilich verwenden — die Samen enthalten Saponine und Rotenoide (historisch als Fischgift) und sind nicht zur Anwendung bestimmt.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Der Schleimfilm auf der Schleimhaut kann die Resorption gleichzeitig eingenommener Arzneimittel geringfügig verzögern",
+        "affected": "oral eingenommene Arzneimittel allgemein",
+        "clinical_relevance": "gering — vorsorglich 30–60 min Abstand zu anderen Medikamenten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Pflanze selbst ist mild und sicher — aber im blütenlosen Rosettenstadium ist sie mit dem tödlich giftigen Roten Fingerhut verwechselbar (dann nicht sammeln); den Tee stets durch ein feines Filter abseihen, da die Blütenhärchen sonst den Rachen reizen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten während der Blütezeit Juli–August, an sonnigen Vormittagen",
+    "harvest_month_tags": [
+      7,
+      8
+    ],
+    "harvest_organ": "Blüte",
+    "method": "Nur die gelben Blütenkronen einzeln abzupfen (sie öffnen sich täglich neu und welken rasch); Kelch und Härchen möglichst nicht mitsammeln",
+    "processing": "Sofort dünn ausgebreitet und schonend bei ≤40 °C an luftigem, schattigem Ort trocknen — rasch, sonst braune Verfärbung",
+    "storage": "Trocken, dunkel und luftdicht; innerhalb eines Jahres verbrauchen (Farbverlust zeigt Alterung an)"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kaum ein Küchenkraut; die Blüten sind essbar und werden gelegentlich als essbare Dekoration verwendet. Der Nutzen liegt klar im arzneilichen Bereich (Hustentee)."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, mager, trocken und durchlässig; anspruchsloser Pionier, verträgt keine Staunässe",
+    "hardiness": "Zweijährig und winterhart; versamt sich reichlich selbst",
+    "propagation": "Aussaat (Lichtkeimer) im Frühjahr oder Selbstaussaat",
+    "bodensee_suitability": "Gut geeignet — im Bodenseeraum wildwachsend häufig, im Garten als Struktur- und Insektenpflanze problemlos; neigt zum Versamen."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Grau-filzige Wollbehaarung auf beiden Blattseiten — Unterscheidungsmerkmal zum Fingerhut",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Verbascum thapsus L., V. densiflorum Bertol. (V. thapsiforme Schrad.) and V. phlomoides L., flos (traditional use, 2018)",
+    "EMA/HMPC Assessment report Verbasci flos",
+    "ESCOP Monograph Verbasci flos (Mullein flower), 2014",
+    "Kommission E: Verbasci flos (positiv — Katarrhe der Atemwege)",
+    "Sekundärquellen zu Chemie/Verwechslung: heilpflanzen-atlas.de, awl.ch, arzneipflanzenlexikon.info, gruenundgesund.de"
+  ]
+}

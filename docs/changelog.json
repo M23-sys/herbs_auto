@@ -479,6 +479,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). Klassisches Bittermittel (Amarum). HMPC traditional use für die Wurzel (Cichorii radix): leichte dyspeptische Beschwerden (Völlegefühl, Blähungen, träge Verdauung) und vorübergehende Appetitlosigkeit, Anwendung ab 12 Jahren; zusätzlich Kommission E positiv (Wurzel und Kraut, ~3 g/Tag). Leitstoffe: bittere Sesquiterpenlactone (Intybin/Lactucopikrin) + Inulin (Wurzel bis ~58 %, präbiotisch). Korbblütler → asteraceae_allergy-Flag gesetzt: bei Asteraceen-Allergie meiden; bei Gallensteinen nur nach Rücksprache; Schwangerschaft mangels Daten nicht empfohlen. Overstated: kein gesichertes Mittel gegen Diabetes/Gicht/Leberkrankheit/Krebs (nur Tierdaten/Volksheilkunde). Kein giftiger Doppelgänger — himmelblaue Zungenblüten unverwechselbar; Verwechslung nur im blattigen Rosettenstadium mit Löwenzahn/Gänsedistel (alle ungiftig). Hinweis: gerösteter Zichorienkaffee ist Genuss-, kein Arzneimittel (Rösten baut Bitterkeit ab). EMA-Primärquelle 403 — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
+    },
+    {
+      "ts": "2026-07-22T12:00:00Z",
+      "id": "verbascum-thapsus",
+      "common": "Kleinblütige Königskerze",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Reizmildernde Schleimdroge Verbasci flos; HMPC traditional use (2018) und ESCOP+ (2014) für Katarrhe der oberen Atemwege mit trockenem Reizhusten/Halsschmerzen, Kommission E positiv → TU/ESCOP+. Leitstoffe: Schleimpolysaccharide (demulzent) + Saponine (mild sekretolytisch), dazu Iridoide und Verbascosid. WICHTIG für den Arzt: (1) deadly_confusion gesetzt — im blütenlosen Rosettenstadium mit dem tödlich giftigen Roten Fingerhut (Digitalis, Herzglykoside) verwechselbar; sicheres Unterscheidungsmerkmal ist die beidseitige graue Wollbehaarung (Fingerhut nur unterseits behaart). (2) Tee zwingend durch feines Filter abseihen — die Sternhaare der Blüten reizen sonst den Rachen. (3) Nur Blüten arzneilich; Samen enthalten Saponine/Rotenoide. HMPC-Primärquelle (EMA-PDF) per WebFetch nicht erreichbar (403) — Evidenzgrad über EMA-Suchtreffer und Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
+    },
+    {
+      "ts": "2026-07-22T12:00:00Z",
+      "id": "solidago-virgaurea",
+      "common": "Echte Goldrute",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Solidaginis virgaureae herba zur Durchspülungstherapie der Harnwege (adjuvant bei Entzündungen, Harnsteinen, Nierengrieß). ÜBERRASCHUNG/Erwartung dämpfen: Trotz kräftigem Diuretikum-Ruf führt die HMPC-Monographie (EMEA/HMPC/285758/2007) sie NUR als traditional use ('Steigerung der Harnmenge'); ESCOP und Kommission E positiv → eingestuft als TU/ESCOP+, NICHT WEU. Leitstoffe: Saponine + Flavonoide + charakteristische Phenolglykoside (Leiocarposid) → aquaretisch/antiphlogistisch. Sicherheit: cardiorenal_flush_caution gesetzt — KEINE Durchspülung bei Ödemen infolge Herz-/Niereninsuffizienz; kein Antibiotika-Ersatz bei bakteriellem HWI; asteraceae_allergy (Korbblütler). Verwechslung aktiv gesucht: giftiges Jakobs-Greiskraut (Pyrrolizidinalkaloide, hepatotoxisch) als gelber Korbblütler zeitgleich/standortgleich — Unterscheidung über große Zungenblüten-Kränze und fiederteilige Blätter des Greiskrauts vs. viele winzige Körbchen der Goldrute; zusätzlich harmlose, aber pharmazeutisch mindere Neophyten-Goldruten (S. canadensis/gigantea, Droge ohne Phenolglykoside). EMA-Primärquelle (403) nicht erreichbar — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
     }
   ]
 }

@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "id": "solidago-virgaurea",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Solidago virgaurea L.",
+    "common_names_de": [
+      "Echte Goldrute",
+      "Gewöhnliche Goldrute",
+      "Goldwundkraut",
+      "Heidnisch Wundkraut",
+      "Petrusstab"
+    ],
+    "family": "Asteraceae (Korbblütler)",
+    "drug_part": [
+      "Kraut (Solidaginis virgaureae herba) — die getrockneten blühenden oberirdischen Teile"
+    ],
+    "drug_name_latin": "Solidaginis virgaureae herba",
+    "synonyms": [
+      "Solidago vulgaris Lam.",
+      "Doria virgaurea (L.) Scop."
+    ],
+    "synonym_note": "Wichtige Drogen-Abgrenzung: Die ECHTE Goldrute (S. virgaurea) liefert 'Solidaginis virgaureae herba' und enthält charakteristische Phenolglykoside (Leiocarposid, Virgaureosid A). Die eingeschleppten Neophyten Kanadische Goldrute (S. canadensis) und Riesengoldrute (S. gigantea) liefern das andere, geringer bewertete 'Solidaginis herba' ohne diese Phenolglykoside — botanisch eigene Arten, keine Synonyme."
+  },
+  "identification": {
+    "key_features": [
+      "Kleine gold-gelbe Blütenkörbchen (5–10 mm) mit deutlichen Zungen- UND Röhrenblüten, angeordnet in einer schmalen, aufrechten, wenig verzweigten, oft unterbrochenen endständigen Traube/Rispe — NICHT in dichten, überhängenden, einseitswendigen Rispen (Unterschied zu den Neophyten-Goldruten)",
+      "Untere Stängelblätter breiter, elliptisch, in den geflügelten Stiel verschmälert und gesägt; obere Blätter schmäler, sitzend, ganzrandig — die Blattform ändert sich am Stängel deutlich",
+      "Stängel aufrecht, 20–100 cm, meist unbehaart bis kahl, oft rötlich überlaufen",
+      "Blütezeit Juli bis Oktober",
+      "Früchte behaarte Achänen mit weißem Pappus (Flugschirmchen)"
+    ],
+    "season": "Blütezeit Juli bis Oktober",
+    "habitat": "Lichte Wälder, Waldränder und -lichtungen, Heiden, Magerrasen, Böschungen, Wegränder; trockene bis frische, eher magere Böden. Heimische Art (im Gegensatz zu den invasiven amerikanischen Goldruten der Feucht-/Ruderalflächen)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Blühende Triebspitzen kurz vor bis zu Beginn der Vollblüte schneiden",
+      "Gezielt die heimische Echte Goldrute sammeln (schmale, aufrechte Rispe, unten breitere Blätter) — sie liefert die höherwertige Droge mit Phenolglykosiden",
+      "Abgrenzung zu den Neophyten (Kanadische/Riesengoldrute): diese haben dichte, überhängende, einseitswendige Blütenrispen und durchgehend schmale Blätter",
+      "WICHTIG: sicher vom giftigen Jakobs-Greiskraut (gelbe Korbblütler mit großen randständigen Zungenblüten und fiederteiligen Blättern) unterscheiden — im Zweifel nicht sammeln"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kanadische Goldrute / Riesengoldrute",
+      "scientific_name": "Solidago canadensis / Solidago gigantea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftige, invasive Neophyten. Unterschied: dichte, überhängende, einseitswendige Blütenrispen und am ganzen Stängel gleich schmale Blätter; S. gigantea Stängel kahl und bläulich bereift, S. canadensis Stängel (im oberen Teil) behaart. Nicht gefährlich, liefern aber die pharmazeutisch geringer bewertete Droge 'Solidaginis herba' ohne die charakteristischen Phenolglykoside der Echten Goldrute."
+    },
+    {
+      "name": "Jakobs-Greiskraut / Jakobskreuzkraut",
+      "scientific_name": "Jacobaea vulgaris (Senecio jacobaea)",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (lebertoxisch, potenziell kanzerogen)",
+      "note": "Ebenfalls gelber Korbblütler, blüht zeitgleich an ähnlichen Standorten. Unterscheidung: Greiskraut hat große, deutlich abstehende randständige Zungenblüten (margeriten-/gänseblümchenartige Einzelkörbchen, meist ~13 'Blütenblätter') und fiederteilige Blätter; die Echte Goldrute hat viele winzige Körbchen in einer schmalen Rispe und ungeteilte, lanzettliche Blätter. Bei Sammelunsicherheit meiden — Pyrrolizidinalkaloide schädigen die Leber."
+    },
+    {
+      "name": "Weitere Greis-/Kreuzkräuter",
+      "scientific_name": "Senecio spp.",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (lebertoxisch)",
+      "note": "Mehrere gelbblühende Senecio-/Jacobaea-Arten wachsen an Weg- und Waldrändern. Alle als Korbblütler mit typischen Zungenblütenkränzen und meist geteilten/gebuchteten Blättern erkennbar — deutlich verschieden von den vielen kleinen Körbchen der Goldrute. Nur eindeutig bestimmte Echte Goldrute ernten."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Triterpensaponine (Virgaureasaponine) — aquaretisch/antiphlogistisch",
+      "Phenolglykoside (Leiocarposid, Virgaureosid A) — charakteristisch für die ECHTE Goldrute",
+      "Flavonoide (Rutin, Quercitrin, Hyperosid, Astragalin)",
+      "Kaffeesäurederivate (u. a. Chlorogensäure)",
+      "Catechingerbstoffe, geringe Mengen ätherisches Öl"
+    ],
+    "lead_substance": "Zusammenspiel von Saponinen und Flavonoiden bewirkt eine aquaretische Wirkung (vermehrte Harnbildung durch gesteigerte Nierendurchblutung, ohne nennenswerten Elektrolytverlust) mit antiphlogistischer und schwach spasmolytischer Komponente — Grundlage der Durchspülungstherapie.",
+    "solubility_note": "Flavonoide, Saponine und Phenolglykoside sind wasserlöslich → Teeaufguss ist die geeignete Form für die Durchspülung; auch Fluidextrakt/Tinktur gebräuchlich. Entscheidend ist, zur Anwendung REICHLICH Flüssigkeit (mind. ~2 l/Tag) zu trinken, sonst bleibt der Durchspüleffekt aus.",
+    "heat_light_sensitivity": "Wässriger Aufguss unproblematisch; getrocknetes Kraut licht- und feuchtegeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Aquaretisch: Steigerung der Harnmenge über vermehrte Nierendurchblutung/Filtration ohne relevanten Salzverlust (anders als bei Schleifendiuretika), dazu antiinflammatorische, schwach spasmolytische und in vitro antibakterielle Effekte. In Summe 'Durchspülung' der ableitenden Harnwege.",
+    "evidence_caveat": "Die HMPC-Monographie führt Solidago virgaurea NUR als 'traditional use' (Steigerung der Harnmenge zur Durchspülung). ESCOP und Kommission E bewerten positiv, aber große kontrollierte klinische Studien am Menschen fehlen — kein 'well-established use' im HMPC-Sinn. Die antibakterielle Wirkung ist nur präklinisch (in vitro) belegt.",
+    "pharmacokinetics": "Pharmakokinetik der Einzelstoffe beim Menschen unzureichend untersucht — unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Durchspülungstherapie bei entzündlichen Erkrankungen der ableitenden Harnwege sowie bei Harnsteinen und Nierengrieß (adjuvant)",
+      "synonyms": [
+        "Blasenentzündung (begleitend)",
+        "Harnwegsinfekt (unterstützend)",
+        "Reizblase",
+        "häufiger Harndrang",
+        "Nierengrieß",
+        "Harnsteine",
+        "Durchspülung der Harnwege",
+        "Wasserlassen fördern",
+        "Nieren durchspülen"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC EU-Monographie 'traditional use' (EMEA/HMPC/285758/2007): Steigerung der Harnmenge zur Durchspülung als Adjuvans bei leichten Harnwegsbeschwerden. ESCOP und Kommission E positiv (Durchspülungstherapie bei entzündlichen Harnwegserkrankungen, Harnsteinen, Nierengrieß).",
+      "realistic_expectation": "Unterstützt durch vermehrte Harnbildung das 'Durchspülen' der Harnwege und kann Reizzustände lindern — nur bei reichlicher Flüssigkeitszufuhr. Ist KEIN Ersatz für Antibiotika bei bakteriellem Harnwegsinfekt: bei Fieber, Flankenschmerz, Blut im Urin oder anhaltenden Beschwerden ärztliche Behandlung nötig. Löst bestehende Steine nicht auf.",
+      "source": "HMPC traditional use; ESCOP; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes pflanzliches Aquaretikum mit antiphlogistischer Note zur unterstützenden Durchspülung bei leichten Reizzuständen der Harnwege und zur Vorbeugung von Nierengrieß — bei ausreichendem Trinken.",
+    "overstated": "Löst bestehende Nieren-/Blasensteine nicht auf und ersetzt bei bakteriellem Harnwegsinfekt keine antibiotische Therapie. 'Entwässerung zum Abnehmen' oder eine generelle 'Nierenstärkung' sind nicht belegt. Der populäre Ruf als kräftiges Diuretikum ist überzogen — die HMPC-Einstufung ist nur traditionell.",
+    "effect_size": "mild bis moderat; symptomatisch/adjuvant, aquaretisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Teeaufguss (Durchspülung — mit reichlich Flüssigkeit)",
+      "Fluidextrakt/Tinktur",
+      "standardisierte Fertigpräparate"
+    ],
+    "form_rationale": "Die wirksamen Flavonoide, Saponine und Phenolglykoside sind wasserlöslich, daher Aufguss. Die Durchspülungswirkung setzt eine reichliche Flüssigkeitszufuhr voraus — der Tee wirkt über das zusätzlich getrunkene Wasser mit.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis 6–12 g Droge. Aufguss: ca. 1 gehäufter TL (~1,5–2 g) getrocknetes Kraut mit 150 ml heißem Wasser übergießen, 10–15 min ziehen lassen; 2–4× täglich zwischen den Mahlzeiten, dazu über den Tag reichlich trinken.",
+    "preservation": "Getrocknetes Kraut trocken, dunkel und luftdicht lagern; innerhalb eines Jahres verbrauchen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Ödeme infolge eingeschränkter Herz- oder Nierentätigkeit — dann KEINE Durchspülungstherapie",
+      "Chronische Nierenentzündung / eingeschränkte Nierenfunktion",
+      "Bekannte Korbblütler-(Asteraceae-)Allergie"
+    ],
+    "pregnancy_lactation": "Es liegen keine ausreichenden Daten vor; die arzneiliche Anwendung in Schwangerschaft und Stillzeit wird nicht empfohlen bzw. sollte nur nach ärztlicher Rücksprache erfolgen — 'unsicher — zu prüfen'.",
+    "adverse_effects": "Selten Magen-Darm-Beschwerden; bei Korbblütler-Allergikern allergische Reaktionen möglich.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Additive Steigerung der Diurese/Aquarese bei gleichzeitiger Einnahme anderer harntreibender Mittel",
+        "affected": "Diuretika (z. B. bei Herz-/Blutdrucktherapie)",
+        "clinical_relevance": "gering bis relevant — auf Flüssigkeits-/Elektrolythaushalt achten, im Zweifel ärztlich abklären"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "cardiorenal_flush_caution": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Nur als Durchspülung MIT reichlich Flüssigkeit anwenden — NICHT bei Ödemen infolge Herz- oder Niereninsuffizienz; ersetzt bei bakteriellem Harnwegsinfekt keine ärztliche/antibiotische Behandlung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühende Triebspitzen von Juli bis September, kurz vor bis zu Beginn der Vollblüte",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Obere blühende Sprossabschnitte abschneiden; nur eindeutig bestimmte Echte Goldrute, verholzte untere Stängelteile weglassen",
+    "processing": "Locker gebündelt oder ausgebreitet luftig im Schatten bei ≤40 °C trocknen",
+    "storage": "Trocken, dunkel und luftdicht; innerhalb eines Jahres verbrauchen"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Primär Heilpflanze, kaum ein Küchenkraut; die Grenze ist klar arzneilich (Durchspülungstee), nicht kulinarisch."
+  },
+  "garden": {
+    "site_soil": "Sonnig bis halbschattig, magerer, durchlässiger Boden; anspruchslos",
+    "hardiness": "Winterhart, ausdauernd (mehrjährig)",
+    "propagation": "Aussaat oder Teilung des Wurzelstocks",
+    "bodensee_suitability": "Gut geeignet und heimisch — im Garten der invasiven Kanadischen/Riesengoldrute unbedingt vorzuziehen (letztere breiten sich stark aus und verdrängen heimische Flora)."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Schmale aufrechte Blütenrispe mit kleinen Körbchen — Unterschied zu den überhängenden Rispen der Neophyten",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Community herbal monograph on Solidago virgaurea L., herba (EMEA/HMPC/285758/2007, traditional use, adoptiert 2008)",
+    "ESCOP Monograph Solidaginis virgaureae herba (European golden rod)",
+    "Kommission E: Solidaginis virgaureae herba (positiv — Durchspülungstherapie bei entzündlichen Erkrankungen der Harnwege, Harnsteine, Nierengrieß)",
+    "Kołodziej et al., Solidago virgaurea L.: A Review, Biomolecules 2020 (Phytochemie/Pharmakologie)",
+    "Sekundärquellen zu Verwechslung/Dosierung: arzneipflanzenlexikon.info, klein-naturarznei.de, pflanzen-vielfalt.net"
+  ]
+}

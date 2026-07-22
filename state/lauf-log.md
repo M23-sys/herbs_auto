@@ -968,3 +968,30 @@ Damit sind **alle tier-3-Warneintraege der Kandidatenliste abgearbeitet**; ab de
 ### Katalog-Beobachtung (nicht Teil dieses Laufs, aber meldenswert)
 
 Beim Gesamt-Check `validate_monographie.py fertig/*.json` schlagen **11 ältere Dateien** mit FEHLERn auf: baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut — augenscheinlich die handkuratierten Erstbestände (`herkunft: "kuratiert"`), die vor der heutigen, strengeren Schema-/Skriptversion entstanden sind (z. B. ungültiger `toxicity_level` "essbar/gering"). Meine beiden neuen Dateien sind fehlerfrei. Ich habe die Altbestände **bewusst nicht angefasst** (außerhalb dieses 2-Kräuter-Laufs; kuratierte Dateien nicht verändern). Empfehlung: separater Wartungslauf, der die kuratierten Monographien an das aktuelle Schema angleicht.
+
+---
+
+## Lauf 2026-07-22 (mittags) — Königskerze, Goldrute
+
+**Auswahl (genau 2):** Wunschliste `docs/wunschliste.json` enthielt 1 Eintrag — `cornus-sanguinea` (Common dogwood, Bodensee). **Bereits erfüllt:** liegt als `fertig/monographie-blutroter-hartriegel.json` (id `cornus-sanguinea`) → übersprungen (App entfernt ihn selbst). Damit 0 offene Wünsche → beide Kräuter aus der **Kandidatenliste**, tier aufsteigend, Listenreihenfolge:
+1. **Kleinblütige Königskerze** (Verbascum thapsus) — Kandidat, tier 4 (erster offener Eintrag)
+2. **Echte Goldrute** (Solidago virgaurea) — Kandidat, tier 4 (zweiter offener Eintrag)
+
+**Self-Healing:** Skript-Scan aller `fertig/`-`id` gegen die als `"offen"` markierten Kandidaten — keine bereits erledigten Einträge mit falschem Status gefunden, keine Korrektur nötig.
+
+**Dedup:** Beide gegen alle `id` + alle `botany.synonyms` in `fertig/` und gegen `vorhanden` geprüft (Skript-Scan) — keine Kollision. Lateinische Synonyme selbst eingetragen (Königskerze: V. schraderi, Thapsus linnaei; Goldrute: Solidago vulgaris, Doria virgaurea).
+
+**Prüfergebnis:** Beide `✓ ok, mit Hinweisen` (0 Fehler). Einziger Hinweis je: enthält "unsicher/zu prüfen" (bewusst gesetzt). **0 Korrekturversuche** nötig.
+
+**Hauptquellen:**
+- Königskerze (Verbasci flos): EMA/HMPC EU herbal monograph V. thapsus/densiflorum/phlomoides, flos (traditional use, 2018); ESCOP Verbasci flos (2014); Kommission E; Sekundär: heilpflanzen-atlas.de, awl.ch, gruenundgesund.de (Verwechslung Fingerhut).
+- Goldrute (Solidaginis virgaureae herba): EMA/HMPC Community herbal monograph Solidago virgaurea (EMEA/HMPC/285758/2007, traditional use, 2008); ESCOP; Kommission E; Kołodziej et al., Biomolecules 2020 (Review); Sekundär: arzneipflanzenlexikon.info, pflanzen-vielfalt.net.
+- **Quellen-Abruf:** WebFetch auf EMA-PDFs und mehrere Sekundärseiten (altmeyers, arzneipflanzenlexikon, awl.ch, klein-naturarznei) lieferte durchgehend HTTP 403 (Bot-Sperre der Zielserver; Proxy laut Status ok). Evidenzgrad daher über EMA-WebSearch-Treffer + mehrere übereinstimmende Sekundärquellen belegt — **HMPC-Primärtext ungeprüft, ärztliche Gegenprüfung nötig**, insbesondere die wörtliche Indikations-/Posologie-Formulierung.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Königskerze — tödliche Verwechslung im Rosettenstadium (deadly_confusion=true).** Vor der Blüte ist die Blattrosette mit dem **Roten Fingerhut** (Digitalis, Herzglykoside) verwechselbar. Sicheres Merkmal: Königskerze beidseitig grau-wollig behaart, Fingerhut nur unterseits. In `confusions`, `collection_rules` und `key_warning` deutlich adressiert. Königskerze selbst ist mild — high_safety trotzdem NICHT gesetzt (Widerspruch zu deadly_confusion + Skript fängt das).
+- **Königskerze — Aufguss muss gefiltert werden:** die feinen Sternhaare der Blüten reizen ungefiltert den Rachen (können selbst Hustenreiz auslösen). Praxisrelevant, in `solubility_note`, `preparation` und `key_warning`.
+- **Goldrute — Evidenz niedriger als der Ruf (Erwartung dämpfen):** Trotz populärem Diuretikum-Image führt die HMPC-Monographie sie NUR als *traditional use* ("Steigerung der Harnmenge"), nicht als WEU. Eingestuft als **TU/ESCOP+** (ESCOP + Kommission E positiv). Bitte den Evidenzgrad gegenprüfen — Regel 2 (Evidenz nicht schönen) war hier einschlägig.
+- **Goldrute — giftiger Doppelgänger aktiv gesucht:** **Jakobs-Greiskraut** (Jacobaea vulgaris, Pyrrolizidinalkaloide, hepatotoxisch) ist ein zeit- und standortgleicher gelber Korbblütler. Als `giftig`-Verwechslung mit Unterscheidungsmerkmalen eingetragen (große Zungenblütenkränze + fiederteilige Blätter vs. viele winzige Körbchen). Zusätzlich harmlose, aber pharmazeutisch mindere Neophyten-Goldruten (S. canadensis/gigantea) — deren Droge fehlen die Phenolglykoside.
+- **Goldrute — Kontraindikation cardiorenal_flush_caution:** KEINE Durchspülung bei Ödemen infolge Herz-/Niereninsuffizienz; kein Antibiotika-Ersatz bei bakteriellem HWI. Gesetzt und in `key_warning`.

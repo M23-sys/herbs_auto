@@ -581,8 +581,8 @@
       "latin": "Verbascum thapsus",
       "tier": 4,
       "reason": "Schleimdroge, Husten",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-koenigskerze.json"
     },
     {
       "id": "malva-sylvestris",
@@ -599,8 +599,8 @@
       "latin": "Solidago virgaurea",
       "tier": 4,
       "reason": "Durchspülung Harnwege; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-goldrute.json"
     },
     {
       "id": "ononis-spinosa",
