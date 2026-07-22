@@ -995,3 +995,29 @@ Beim Gesamt-Check `validate_monographie.py fertig/*.json` schlagen **11 ältere 
 - **Goldrute — Evidenz niedriger als der Ruf (Erwartung dämpfen):** Trotz populärem Diuretikum-Image führt die HMPC-Monographie sie NUR als *traditional use* ("Steigerung der Harnmenge"), nicht als WEU. Eingestuft als **TU/ESCOP+** (ESCOP + Kommission E positiv). Bitte den Evidenzgrad gegenprüfen — Regel 2 (Evidenz nicht schönen) war hier einschlägig.
 - **Goldrute — giftiger Doppelgänger aktiv gesucht:** **Jakobs-Greiskraut** (Jacobaea vulgaris, Pyrrolizidinalkaloide, hepatotoxisch) ist ein zeit- und standortgleicher gelber Korbblütler. Als `giftig`-Verwechslung mit Unterscheidungsmerkmalen eingetragen (große Zungenblütenkränze + fiederteilige Blätter vs. viele winzige Körbchen). Zusätzlich harmlose, aber pharmazeutisch mindere Neophyten-Goldruten (S. canadensis/gigantea) — deren Droge fehlen die Phenolglykoside.
 - **Goldrute — Kontraindikation cardiorenal_flush_caution:** KEINE Durchspülung bei Ödemen infolge Herz-/Niereninsuffizienz; kein Antibiotika-Ersatz bei bakteriellem HWI. Gesetzt und in `key_warning`.
+
+## Lauf 2026-07-22 (nachmittags) — Dornige Hauhechel, Echtes Tausendgüldenkraut
+
+**Auswahl (genau 2):** Wunschliste `docs/wunschliste.json` enthielt 1 Eintrag — `cornus-sanguinea` (Common dogwood, Bodensee). **Bereits erfüllt:** liegt als `fertig/monographie-blutroter-hartriegel.json` (id `cornus-sanguinea`, Synonym-Abgleich bestätigt) → übersprungen (App entfernt ihn selbst). Damit 0 offene Wünsche → beide Kräuter aus der **Kandidatenliste**, tier aufsteigend, Listenreihenfolge:
+1. **Dornige Hauhechel** (Ononis spinosa) — Kandidat, tier 4 (erster offener Eintrag)
+2. **Echtes Tausendgüldenkraut** (Centaurium erythraea) — Kandidat, tier 4 (zweiter offener Eintrag)
+
+**Self-Healing:** Die als `"offen"` markierten Kandidaten gegen alle `fertig/`-Dateien geprüft — keiner lag bereits fertig vor, kein Status falsch, keine Korrektur nötig.
+
+**Dedup:** Beide gegen alle `id` + alle `botany.synonyms` in `fertig/` und gegen `vorhanden` geprüft — keine Kollision. Lateinische Synonyme selbst eingetragen (Hauhechel: Ononis campestris, O. spinosa subsp. spinosa; Tausendgüldenkraut: Centaurium minus, C. umbellatum, Erythraea centaurium, Gentiana centaurium).
+
+**Prüfergebnis:** Beide `✓ ok, mit Hinweisen` (0 Fehler). Einziger Hinweis je: enthält "unsicher/zu prüfen" (bewusst gesetzt). **0 Korrekturversuche** nötig.
+
+**Hauptquellen:**
+- Hauhechel (Ononidis radix): EMA/HMPC EU herbal monograph Ononis spinosa L., radix (EMA/HMPC/138316/2013, traditional use); ESCOP-Monographie Restharrow Root (escop.com); Kommission E; Sekundär: altmeyers.org (Ononidis radix), Wikipedia Dornige/Kriechende Hauhechel (Bestimmung/Artenschwarm), naturadb.de.
+- Tausendgüldenkraut (Centaurii herba): EMA/HMPC EU herbal monograph Centaurium erythraea Rafn s.l., herba (EMA/HMPC/277493/2015, traditional use; Assessment EMA/HMPC/277491/2015); Kommission E (positiv, Bundesanzeiger 06.07.1988); ESCOP; Sekundär: pharma4u.de, altmeyers.org, arzneipflanzenlexikon.info, botanik-bochum.de, BArtSchV (Schutzstatus).
+- **Quellen-Abruf:** WebFetch lieferte diesen Lauf durchgehend HTTP 403 (EMA-Direktseiten, EMA-PDFs, e-lactancia-Spiegel, sogar de.wikipedia) — dasselbe Muster wie in den Vorläufen. Recherche daher über WebSearch (liefert inhaltsreiche Treffer-Zusammenfassungen inkl. EMA-Dokumenten) + mehrere übereinstimmende Sekundärquellen. **HMPC-Primärtext ungeprüft, ärztliche Gegenprüfung nötig**, insbesondere wörtliche Indikations-/Posologie-Formulierung und die TU-Einstufung.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Tausendgüldenkraut — besonders geschützt (BArtSchV):** Die Art darf in Deutschland NICHT wild gesammelt werden; Droge nur aus Anbau/Handel. In `collection_rules`, `key_warning` und den confusions vermerkt. Auch die verwandten C. pulchellum/littorale stehen unter Schutz — die „Verwechslung" ist hier eher rechtlich als toxikologisch.
+- **Tausendgüldenkraut — kein „Leber-/Fieber-/Blutzuckermittel":** trotz alter Namen (Fieberkraut) und kursierender Ansprüche ist es ein reines Bittermittel; solche Wirkungen sind unbelegt (bewusst als `overstated`). Kontraindikation Magen-/Darmgeschwür (Säureanregung) → `reflux_caution` gesetzt. Wirkt nur ungesüßt/vor der Mahlzeit (Bittergeschmack).
+- **Hauhechel — Evidenz niedriger als der Ruf (Erwartung dämpfen):** HMPC führt sie nur als *traditional use*; die diuretische Belegkette stammt überwiegend aus alten Tierversuchen (1930er/40er). Eingestuft als **TU/ESCOP+** (ESCOP-Monographie + Kommission E positiv). Kein Antiinfektivum, kein Antibiotika-Ersatz — in `overstated`/`realistic_expectation`/`key_warning` adressiert. Regel 2 (Evidenz nicht schönen) einschlägig.
+- **Hauhechel — Dornen sind KEIN sicheres Bestimmungsmerkmal:** Ononis spinosa und die ungiftige, arzneilich gleichwertige Ononis repens bilden einen Artenschwarm mit Hybriden; dornenlose Formen von „spinosa" existieren. Trennung eher über Wuchs (aufrecht vs. kriechend) und Blattform. Kein giftiger Doppelgänger — confusions dennoch aktiv gefüllt (inkl. expliziter „keine giftige Verwechslung bekannt"-Eintrag mit Begründung).
+- **Hauhechel — Kontraindikation cardiorenal_flush_caution:** KEINE Durchspülung bei Ödemen infolge Herz-/Niereninsuffizienz; ausreichende Flüssigkeitszufuhr nötig. Gesetzt und in `key_warning`.
+- **Nebenbefund außerhalb des Auftrags (nur zur Kenntnis, NICHT verändert):** Eine Voll-Validierung `validate_monographie.py fertig/*.json` meldet aktuell ~38 Fehler in ÄLTEREN, bereits abgelieferten Monographien (nicht in den beiden neuen). Meine zwei Dateien sind fehlerfrei. Da der Auftrag strikt „genau 2" lautet und Fremddateien nicht anzufassen sind, wurde hier nichts korrigiert — sollte aber in einem eigenen Lauf geprüft werden.

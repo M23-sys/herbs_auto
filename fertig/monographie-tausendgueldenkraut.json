@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "id": "centaurium-erythraea",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Centaurium erythraea Rafn",
+    "common_names_de": [
+      "Echtes Tausendgüldenkraut",
+      "Tausendgüldenkraut",
+      "Tausendguldenkraut",
+      "Bitterkraut",
+      "Fieberkraut"
+    ],
+    "family": "Enziangewächse (Gentianaceae)",
+    "drug_part": [
+      "Kraut (blühendes) (Herba)"
+    ],
+    "drug_name_latin": "Centaurii herba",
+    "synonyms": [
+      "Centaurium minus Moench",
+      "Centaurium umbellatum Gilib.",
+      "Erythraea centaurium (L.) Pers.",
+      "Gentiana centaurium L."
+    ],
+    "synonym_note": "Ältere Namen Centaurium minus / C. umbellatum / Erythraea centaurium; in der älteren Literatur auch unter Gentiana centaurium. Akzeptiert ist heute Centaurium erythraea Rafn (s. l.)."
+  },
+  "identification": {
+    "key_features": [
+      "Kleine, sternförmige rosa Blüten mit 5 Zipfeln, in einer flachen, doldenartigen Trugdolde (Dichasium); öffnen sich nur bei Sonne — sicherstes Merkmal in der Blüte",
+      "Grundständige Blattrosette (im ersten Jahr; zur Blüte oft noch vorhanden), daraus ein aufrechter, kantiger Stängel 10–40 cm",
+      "Gegenständige, sitzende, ei- bis lanzettliche Stängelblätter mit meist 3–5 Längsnerven",
+      "Intensiv bitterer Geschmack des ganzen Krauts (Bitterstoffdroge)",
+      "Zweijährige Pflanze; kahl, hellgrün"
+    ],
+    "season": "Blütezeit Juni bis September",
+    "habitat": "Lichte, wechselfeuchte bis magere Standorte: Halbtrockenrasen, Waldlichtungen, Wegränder, Dünentäler; kalkhold, sonnig bis halbschattig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "ACHTUNG: In Deutschland nach BArtSchV besonders geschützt — Wildsammlung ist verboten. Droge nur aus Anbau/Handel beziehen, nicht in der Natur sammeln.",
+      "Falls kultiviert: das blühende Kraut zu Blühbeginn ohne die untersten, oft verfärbten Blätter ernten",
+      "Bestätiger: rosa 5-zählige Sternblüten in flacher Trugdolde + gegenständige Blätter + deutlich bitterer Geschmack"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kleines Tausendgüldenkraut",
+      "scientific_name": "Centaurium pulchellum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandt, aber einjährig, kleiner, OHNE grundständige Blattrosette, Blüten meist gestielt und lockerer. Ungiftig, wird arzneilich ähnlich genutzt. Ebenfalls geschützt — nicht wild sammeln."
+    },
+    {
+      "name": "Strand-Tausendgüldenkraut",
+      "scientific_name": "Centaurium littorale",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Küsten-/Salzstellen-Art mit schmaleren, spateligen Rosettenblättern. Ungiftig; am Bodensee nicht zu erwarten. Ebenfalls geschützt."
+    },
+    {
+      "name": "Keine giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für das Echte Tausendgüldenkraut ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Verwechslungen betreffen nur andere, ungiftige Centaurium-Arten. Achtung eher rechtlich als toxikologisch: alle heimischen Centaurium-Arten stehen unter Schutz."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Secoiridoid-Bitterstoffe (Swertiamarin ~75 % der Iridoide, Gentiopikrosid/Gentiopikrin, Swerosid, Centapikrin)",
+      "Xanthone (u. a. Eustomin, Mangiferin)",
+      "Flavone, Triterpene, Phytosterole",
+      "Spuren von Pyridinalkaloiden (Gentianin)"
+    ],
+    "lead_substance": "Secoiridoid-Bitterstoffe, v. a. Swertiamarin — vermitteln über den Bittergeschmack reflektorisch die Anregung von Speichel- und Magensaftsekretion",
+    "solubility_note": "Bitterstoffe sind gut wasserlöslich → Tee (Aufguss/Kaltauszug) oder Tinktur. NICHT süßen: die Wirkung hängt am Bittergeschmack. Etwa eine halbe Stunde vor der Mahlzeit einnehmen.",
+    "heat_light_sensitivity": "Trocken und lichtgeschützt lagern; Bitterwert der getrockneten Droge über die Zeit abnehmend"
+  },
+  "pharmacology": {
+    "mechanism": "Amarum (reines Bittermittel): Die Bitterstoffe reizen die Geschmacksrezeptoren, reflektorisch werden Speichel- und Magensaftfluss angeregt — das fördert Appetit und Verdauung. Die Wirkung setzt eine intakte Geschmackswahrnehmung voraus.",
+    "evidence_caveat": "Der Wirkmechanismus als Bittermittel ist plausibel und traditionell gut belegt, kontrollierte klinische Studien sind jedoch spärlich. Einstufung HMPC 'traditional use'.",
+    "pharmacokinetics": "unsicher — zu prüfen (die reflektorische Wirkung erfolgt lokal über den Geschmackssinn; systemische Pharmakokinetik ohne klinische Relevanz)"
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Blähungen",
+        "Magendrücken",
+        "träge Verdauung"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use; Kommission E positiv; ESCOP führt die Droge ebenfalls.",
+      "realistic_expectation": "Als Bittermittel kann es Verdauungsbeschwerden mild lindern und die Magensaftbildung anregen. Kein Mittel gegen strukturelle Ursachen; anhaltende oder starke Beschwerden ärztlich abklären.",
+      "source": "HMPC traditional use (EMA/HMPC/277493/2015); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Vorübergehende Appetitlosigkeit",
+      "synonyms": [
+        "kein Appetit",
+        "Appetitmangel",
+        "Inappetenz"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use; Kommission E positiv. Einnahme vor den Mahlzeiten.",
+      "realistic_expectation": "Kann den Appetit anregen, wenn etwa eine halbe Stunde vor dem Essen ungesüßt eingenommen. Wirkung mild und symptomatisch; klärt keine Ursache eines dauerhaften Appetitverlusts.",
+      "source": "HMPC traditional use (EMA/HMPC/277493/2015); Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Klassisches Bittermittel (Amarum): regt reflektorisch Speichel- und Magensaftsekretion an, unterstützt Appetit und Verdauung bei leichten Beschwerden.",
+    "overstated": "Kein 'Leberreiniger', kein Fiebermittel (trotz alter Namen), kein Entgiftungs- oder Blutzuckermittel — solche Ansprüche sind nicht belegt. Wirkt nur, solange der Bittergeschmack erhalten bleibt (nicht süßen).",
+    "effect_size": "mild; symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee (Aufguss oder Kaltauszug)",
+      "Tinktur / bittere Tropfen",
+      "Bestandteil von Magenbitter- und Appetit-Teemischungen"
+    ],
+    "form_rationale": "Bitterstoffe sind wasser- und alkohollöslich. Entscheidend ist der erhaltene Bittergeschmack im Mund — daher ungesüßt und vor der Mahlzeit. Tee oder Tinktur bringen die Bitterstoffe an die Geschmacksrezeptoren.",
+    "standard_dose": "Tee: ca. 1–2 g fein geschnittenes Kraut auf 150 ml Wasser, mehrmals täglich vor den Mahlzeiten; Tagesdosis Kommission E ca. 6 g Droge. Tinktur nach Herstellerangabe.",
+    "preservation": "Getrocknetes Kraut trocken und lichtgeschützt aufbewahren; Bitterwert schwindet mit der Zeit"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Magen- und Darmgeschwüre (peptisches Ulkus) — Bitterstoffe steigern die Magensäuresekretion",
+      "Bekannte Überempfindlichkeit"
+    ],
+    "pregnancy_lactation": "Keine ausreichenden Daten für Schwangerschaft und Stillzeit — Anwendung nicht empfohlen. unsicher — zu prüfen",
+    "adverse_effects": "Bei bestimmungsgemäßem Gebrauch sind keine Nebenwirkungen bekannt. Bei Ulkusleiden können Beschwerden durch die Säureanregung zunehmen.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Interaktionen bekannt",
+        "affected": "",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "reflux_caution": true
+    },
+    "key_warning": "Bittermittel: bei Magen- oder Darmgeschwüren nicht anwenden (steigert die Magensäure). Rechtlich: heimische Bestände sind besonders geschützt — nicht wild sammeln."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Zu Blühbeginn (Juni–August); nur aus Anbau/Handel — Wildsammlung verboten",
+    "harvest_month_tags": [
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Blühendes Kraut oberhalb der untersten Blätter schneiden (nur kultivierte Pflanzen)",
+    "processing": "Rasch und schonend im Schatten/luftig trocknen, um den Bitterwert zu erhalten",
+    "storage": "Trocken, lichtgeschützt, luftdicht; nach längerer Lagerung Bitterwert prüfen"
+  },
+  "kitchen": {
+    "uses": [
+      "Bitterkomponente in Magenbitter/Kräuterbitter-Auszügen (traditionell)"
+    ],
+    "culinary_vs_medicinal": "Die Grenze verläuft an der Dosis und am Zweck: als Speisebitter/Magenbitter in kleinen Mengen traditionell, arzneilich als Amarum bei Appetit-/Verdauungsbeschwerden. Wegen des Schutzstatus ohnehin nur Kulturware."
+  },
+  "garden": {
+    "site_soil": "Sonnig bis halbschattig, magerer, kalkhaltiger, eher wechselfeuchter Boden",
+    "hardiness": "Zweijährig; bildet im ersten Jahr die Rosette, blüht und fruchtet im zweiten Jahr",
+    "propagation": "Aussaat (Lichtkeimer) an Ort und Stelle; feiner Samen nur andrücken, nicht bedecken",
+    "bodensee_suitability": "Am Bodensee auf mageren, lichten Kalkstandorten kultivierbar; im Anbau die Alternative zur (verbotenen) Wildsammlung. Auf fetten Gartenböden schwierig."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: European Union herbal monograph on Centaurium erythraea Rafn s.l., herba (EMA/HMPC/277493/2015); Assessment report EMA/HMPC/277491/2015 — Primärquelle diesen Lauf per WebFetch nicht erreichbar (HTTP 403), Angaben aus Sekundärquellen abgeleitet",
+    "Kommission E: Centaurii herba (positiv, Bundesanzeiger 06.07.1988)",
+    "ESCOP / Phytotherapie-Literatur zu Centaurii herba",
+    "Altmeyers Enzyklopädie / pharma4u: Centaurii herba (Inhaltsstoffe, Kontraindikationen)",
+    "Bundesartenschutzverordnung (BArtSchV): Centaurium erythraea besonders geschützt"
+  ]
+}

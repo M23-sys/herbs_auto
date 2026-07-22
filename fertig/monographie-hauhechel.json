@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "id": "ononis-spinosa",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Ononis spinosa L.",
+    "common_names_de": [
+      "Dornige Hauhechel",
+      "Hauhechel",
+      "Weiberkrieg",
+      "Stachelkraut"
+    ],
+    "family": "Hülsenfrüchtler (Fabaceae / Leguminosae)",
+    "drug_part": [
+      "Wurzel (Radix)"
+    ],
+    "drug_name_latin": "Ononidis radix",
+    "synonyms": [
+      "Ononis campestris Koch & Ziz",
+      "Ononis spinosa subsp. spinosa"
+    ],
+    "synonym_note": "Ononis spinosa und Ononis repens (Kriechende Hauhechel) bilden einen Artenschwarm mit fließenden Übergängen und Hybriden; die Sippen werden oft als Aggregat 'Ononis spinosa agg.' geführt. Arzneilich sind beide Wurzeln gleichwertig."
+  },
+  "identification": {
+    "key_features": [
+      "Rosa Schmetterlingsblüten (Fabaceae-Typ), einzeln oder zu 2(-3) in den oberen Blattachseln — sicherstes Merkmal in der Blütezeit",
+      "Aufrechter, oft im unteren Teil verholzter Halbstrauch, 30–60 cm, häufig mit starren Sprossdornen bewehrt",
+      "Dreizählige (kleeartige) Laubblätter mit drüsig-klebrig behaarten, fein gesägten Fiederblättchen",
+      "Ganze Pflanze klebrig-drüsig behaart und oft mit strengem Geruch",
+      "Tiefreichende, holzige, zähe Pfahlwurzel (die Droge Ononidis radix)"
+    ],
+    "season": "Blütezeit Juni bis September",
+    "habitat": "Kalk- und basenreiche Magerrasen, Halbtrockenrasen, Weiden, Wegränder und Böschungen; wärmeliebend, auf mageren, kalkhaltigen Böden",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "Wurzel im Herbst (oder zeitigen Frühjahr) 2- bis 3-jähriger Pflanzen ausgraben — die zähe Pfahlwurzel ist mühsam zu bergen",
+      "Bestätiger: rosa Schmetterlingsblüten + dreizählige, klebrig-drüsige Blätter + verholzte Basis. Die Dornen allein sind KEIN sicheres Merkmal (siehe confusions)",
+      "Standort schonen — die Art ist am Bodensee wild eher selten; Kalkmagerrasen sind als Lebensraum geschützt (keine Flächen ausgraben)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kriechende Hauhechel",
+      "scientific_name": "Ononis repens",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nächste Verwandte, niederliegend-kriechend, meist dornenlos, Blätter breiter, Blüten einzeln. Ungiftig und arzneilich gleichwertig — die Verwechslung ist unkritisch. WICHTIG: Dornen sind kein zuverlässiges Trennmerkmal, beide Sippen hybridisieren (Artenschwarm)."
+    },
+    {
+      "name": "Esparsette / andere rosa Schmetterlingsblütler",
+      "scientific_name": "Onobrychis viciifolia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Esparsette, Klee (Trifolium) und Wicken haben ähnliche rosa Schmetterlingsblüten, aber keine klebrig-drüsige Behaarung, keine verholzte, bedornte Basis und keine zähe Pfahlwurzel. Alle ungiftig."
+    },
+    {
+      "name": "Keine giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für die Dornige Hauhechel ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Verwechslungen beschränken sich auf andere ungiftige Schmetterlingsblütler (v. a. Ononis repens). Der Halbstrauch-Wuchs mit verholzter Basis, die klebrig-drüsige Behaarung und die zähe Pfahlwurzel grenzen sie sicher ab."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Isoflavonoide (u. a. Ononin, Formononetin, Biochanin A, Genistein, Trifolirhizin)",
+      "Triterpen α-Onocerin (Onocerol)",
+      "Wenig ätherisches Öl",
+      "Gerbstoffe, Phytosterole"
+    ],
+    "lead_substance": "Isoflavonoide (Ononin) und Triterpen α-Onocerin — der aquaretisch-durchspülende Effekt wird ihnen zugeschrieben, ist aber nicht auf eine einzelne Leitsubstanz belegt",
+    "solubility_note": "Für die Durchspülungstherapie zählt vor allem die zugeführte Flüssigkeitsmenge. Als Abkochung (Dekokt) der zerkleinerten Wurzel; die wirksamkeitsbestimmenden Stoffe sind nur teils wasserlöslich — reichlich mittrinken ist wichtiger als die Extraktausbeute",
+    "heat_light_sensitivity": "Wurzeldroge relativ robust; trocken, licht- und feuchtigkeitsgeschützt lagern"
+  },
+  "pharmacology": {
+    "mechanism": "Milde aquaretische (harntreibende) Wirkung — vermehrte Harnausscheidung zur Durchspülung der ableitenden Harnwege; zusätzlich werden schwach entzündungshemmende Effekte diskutiert. Der genaue Mechanismus ist nicht eindeutig geklärt",
+    "evidence_caveat": "Die diuretische Wirkung stützt sich überwiegend auf alte Tierversuche (1930er/40er Jahre) und traditionelle Anwendung. Belastbare kontrollierte klinische Studien am Menschen fehlen. Einstufung daher HMPC 'traditional use'.",
+    "pharmacokinetics": "unsicher — zu prüfen (keine belastbaren Humandaten zur Pharmakokinetik)"
+  },
+  "indications": [
+    {
+      "canonical": "Durchspülungstherapie bei leichten Beschwerden der ableitenden Harnwege",
+      "synonyms": [
+        "Harnwegsbeschwerden",
+        "leichte Blasenbeschwerden",
+        "Durchspülen der Harnwege",
+        "wassertreibend",
+        "zur Vorbeugung von Nierengrieß"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; positive ESCOP-Monographie (Ononidis radix / Restharrow Root); Kommission E positiv. Nur adjuvant und nur bei leichten Beschwerden.",
+      "realistic_expectation": "Ein mildes Mehr an Harnvolumen zur Durchspülung — mehr nicht. Wirkt NICHT gegen eine bakterielle Infektion selbst und ersetzt keine Antibiotika. Bei Fieber, Flankenschmerz, Blut im Urin oder anhaltenden Beschwerden gehört die Person zum Arzt.",
+      "source": "HMPC traditional use (EMA/HMPC/138316/2013); ESCOP Ononidis radix; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sanfte Durchspülung der Harnwege als unterstützende Maßnahme bei leichten, unkomplizierten Beschwerden — vor allem über die zugeführte Flüssigkeit.",
+    "overstated": "Kein Antiinfektivum: Die Hauhechel bekämpft keinen Harnwegsinfekt. Keine belegte Wirkung bei Nierensteinen, Ödemen oder als 'Entwässerung' zum Abnehmen. Die harntreibende Evidenz ist alt und schwach.",
+    "effect_size": "mild; symptomatisch/adjuvant"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee (Abkochung/Dekokt der zerkleinerten Wurzel)",
+      "Bestandteil von Blasen- und Nierentees"
+    ],
+    "form_rationale": "Als Durchspülungsmittel steht die Flüssigkeitszufuhr im Vordergrund; die zähe Wurzel gibt ihre Inhaltsstoffe als Abkochung am besten ab. Reichlich zusätzlich trinken.",
+    "standard_dose": "Tagesdosis ca. 6–12 g zerkleinerte Wurzel; Einzelaufguss/Abkochung 2–3 g auf 150 ml Wasser, bis zu 3–4× täglich. Auf reichliche Flüssigkeitszufuhr achten.",
+    "preservation": "Getrocknete Wurzel trocken, licht- und luftgeschützt aufbewahren"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Durchspülungstherapie NICHT bei Ödemen infolge eingeschränkter Herz- oder Nierenfunktion",
+      "Keine Durchspülungstherapie ohne ausreichende Flüssigkeitszufuhr"
+    ],
+    "pregnancy_lactation": "Keine ausreichenden Daten zur Anwendung in Schwangerschaft und Stillzeit — Anwendung nicht empfohlen. unsicher — zu prüfen",
+    "adverse_effects": "Bei bestimmungsgemäßem Gebrauch sind keine relevanten Nebenwirkungen bekannt. Sehr selten Magen-Darm-Beschwerden.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Additive Wirkung mit anderen Diuretika denkbar (Flüssigkeits-/Elektrolythaushalt)",
+        "affected": "synthetische Diuretika",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "cardiorenal_flush_caution": true
+    },
+    "key_warning": "Durchspülungsmittel, kein Antibiotikum: bei Fieber, Flankenschmerz oder Blut im Urin zum Arzt — und keine Durchspülung bei herz- oder nierenbedingten Ödemen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst (September–November) oder im zeitigen Frühjahr, meist 2- bis 3-jähriger Pflanzen",
+    "harvest_month_tags": [
+      3,
+      9,
+      10,
+      11
+    ],
+    "harvest_organ": "Wurzel",
+    "method": "Zähe Pfahlwurzel ausgraben, von Erde befreien, waschen",
+    "processing": "In Stücke schneiden und rasch trocknen (schonende Wärme)",
+    "storage": "Trocken, licht- und luftgeschützt; getrocknete Wurzel gut haltbar"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung — reine Arzneidroge (Wurzel). Junge Triebe wurden regional früher gelegentlich gegessen, das ist aber ohne Bedeutung."
+  },
+  "garden": {
+    "site_soil": "Voll sonnig, magerer, kalkhaltiger, durchlässiger Boden; verträgt Trockenheit",
+    "hardiness": "Winterhart, ausdauernder Halbstrauch",
+    "propagation": "Aussaat (Kaltkeimer); Pfahlwurzel verträgt Verpflanzen schlecht",
+    "bodensee_suitability": "Für sonnige, magere Kalkstandorte am Bodensee geeignet; auf nährstoffreichen Gartenböden dagegen mickrig — ein echter Magerkeitszeiger."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: European Union herbal monograph on Ononis spinosa L., radix (EMA/HMPC/138316/2013) — Primärquelle diesen Lauf per WebFetch nicht erreichbar (HTTP 403), Angaben aus Sekundärquellen abgeleitet",
+    "ESCOP-Monographie Ononidis radix (Restharrow Root)",
+    "Kommission E: Ononidis radix (positiv)",
+    "Altmeyers Enzyklopädie / Phytotherapie: Ononidis radix",
+    "Wikipedia: Dornige Hauhechel; Kriechende Hauhechel (Bestimmungsmerkmale, Artenschwarm)"
+  ]
+}

@@ -495,6 +495,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). Solidaginis virgaureae herba zur Durchspülungstherapie der Harnwege (adjuvant bei Entzündungen, Harnsteinen, Nierengrieß). ÜBERRASCHUNG/Erwartung dämpfen: Trotz kräftigem Diuretikum-Ruf führt die HMPC-Monographie (EMEA/HMPC/285758/2007) sie NUR als traditional use ('Steigerung der Harnmenge'); ESCOP und Kommission E positiv → eingestuft als TU/ESCOP+, NICHT WEU. Leitstoffe: Saponine + Flavonoide + charakteristische Phenolglykoside (Leiocarposid) → aquaretisch/antiphlogistisch. Sicherheit: cardiorenal_flush_caution gesetzt — KEINE Durchspülung bei Ödemen infolge Herz-/Niereninsuffizienz; kein Antibiotika-Ersatz bei bakteriellem HWI; asteraceae_allergy (Korbblütler). Verwechslung aktiv gesucht: giftiges Jakobs-Greiskraut (Pyrrolizidinalkaloide, hepatotoxisch) als gelber Korbblütler zeitgleich/standortgleich — Unterscheidung über große Zungenblüten-Kränze und fiederteilige Blätter des Greiskrauts vs. viele winzige Körbchen der Goldrute; zusätzlich harmlose, aber pharmazeutisch mindere Neophyten-Goldruten (S. canadensis/gigantea, Droge ohne Phenolglykoside). EMA-Primärquelle (403) nicht erreichbar — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
+    },
+    {
+      "ts": "2026-07-22T13:30:00Z",
+      "id": "ononis-spinosa",
+      "common": "Dornige Hauhechel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Ononidis radix (Hauhechelwurzel) zur Durchspülungstherapie der Harnwege bei leichten Beschwerden. HMPC traditional use + positive ESCOP-Monographie (Restharrow Root) + Kommission E → eingestuft als TU/ESCOP+, NICHT WEU. Erwartung dämpfen: mildes Aquaretikum, wirkt NICHT gegen die Infektion, kein Antibiotika-Ersatz; die diuretische Evidenz stützt sich weitgehend auf alte Tierversuche (1930er/40er). Leitstoffe: Isoflavonoide (Ononin, Formononetin) + Triterpen α-Onocerin. Sicherheit: cardiorenal_flush_caution gesetzt — KEINE Durchspülung bei Ödemen infolge Herz-/Niereninsuffizienz. Kein giftiger Doppelgänger — Verwechslung nur mit der ungiftigen, arzneilich gleichwertigen Kriechenden Hauhechel (Ononis repens); WICHTIG: Dornen sind KEIN sicheres Trennmerkmal (Artenschwarm/Hybriden). EMA/ESCOP-Primärquellen im Lauf nur mit HTTP 403 erreichbar — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
+    },
+    {
+      "ts": "2026-07-22T13:30:30Z",
+      "id": "centaurium-erythraea",
+      "common": "Echtes Tausendgüldenkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Centaurii herba, klassisches Bittermittel (Amarum). HMPC traditional use + Kommission E positiv (Bundesanzeiger 06.07.1988) für dyspeptische Beschwerden und vorübergehende Appetitlosigkeit → TU. Leitstoffe: Secoiridoid-Bitterstoffe (Swertiamarin ~75 %, Gentiopikrosid, Swerosid) + Xanthone. Zubereitungshinweis: NICHT süßen, ~30 min vor der Mahlzeit — die Wirkung hängt am erhaltenen Bittergeschmack. Sicherheit: reflux_caution gesetzt — bei Magen-/Darmgeschwüren kontraindiziert (Bitterstoffe steigern die Magensäure). ÜBERRASCHUNG/rechtlich: Die Art ist in Deutschland nach BArtSchV BESONDERS GESCHÜTZT — Wildsammlung ist verboten, Droge nur aus Anbau/Handel. Kein giftiger Doppelgänger — Verwechslung nur mit anderen (ebenfalls geschützten, ungiftigen) Centaurium-Arten (C. pulchellum ohne Grundrosette, C. littorale). EMA/HMPC-Primärquellen im Lauf nur mit HTTP 403 erreichbar — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
     }
   ]
 }

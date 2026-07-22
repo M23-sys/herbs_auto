@@ -608,8 +608,8 @@
       "latin": "Ononis spinosa",
       "tier": 4,
       "reason": "Durchspülung",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-hauhechel.json"
     },
     {
       "id": "centaurium-erythraea",
@@ -617,8 +617,8 @@
       "latin": "Centaurium erythraea",
       "tier": 4,
       "reason": "Bittermittel; geschützt",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-tausendgueldenkraut.json"
     },
     {
       "id": "salix-alba",
