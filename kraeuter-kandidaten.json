@@ -563,8 +563,8 @@
       "latin": "Galium verum",
       "tier": 4,
       "reason": "Lab-Enzym, Volksmedizin",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-echtes-labkraut.json"
     },
     {
       "id": "cichorium-intybus",
@@ -572,8 +572,8 @@
       "latin": "Cichorium intybus",
       "tier": 4,
       "reason": "Bitterstoff; Korbblütler",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-wegwarte.json"
     },
     {
       "id": "verbascum-thapsus",

@@ -943,3 +943,28 @@ Damit sind **alle tier-3-Warneintraege der Kandidatenliste abgearbeitet**; ab de
 - **Odermennig — Nebenbefund Photosensibilisierung.** Einzelne Sekundärquellen erwähnen ein theoretisch photosensibilisierendes Potenzial; klinisch nicht belegt, als „unsicher — zu prüfen" in `adverse_effects` vermerkt, kein Flag gesetzt.
 
 **Wunschliste-Status:** unverändert 1 Eintrag (cornus-sanguinea), bereits erfüllt → `docs/wunschliste.json` NICHT angefasst (nur die App schreibt sie).
+
+## 2026-07-22 — Echtes Labkraut, Gemeine Wegwarte
+
+**Auswahl / Quelle:** Wunschliste (`docs/wunschliste.json`) enthielt genau 1 Eintrag: `cornus-sanguinea` (Common dogwood, Bodensee) — dieser liegt bereits in `fertig/` als `monographie-blutroter-hartriegel.json` (id `cornus-sanguinea`, Synonyme Swida/Thelycrania sanguinea). Wunsch also **bereits erfüllt → übersprungen** (App entfernt ihn selbst). Damit 0 offene Wünsche → **beide Kräuter aus der Kandidatenliste**: die zwei ersten offenen Einträge nach tier/Listenreihenfolge = `galium-verum` (Echtes Labkraut) und `cichorium-intybus` (Gemeine Wegwarte), beide tier 4.
+
+**Dedup:** Beide gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden` geprüft — keine Kollision (Skript-Scan). Waldmeister (galium-odoratum) ist eine andere Art, kein Konflikt.
+
+**Prüfergebnis:** Beide `✓ ok, mit Hinweisen` (0 Fehler). Einziger Hinweis je: enthält "unsicher/zu prüfen" (bewusst gesetzt). **0 Korrekturversuche** nötig.
+
+**Hauptquellen:**
+- Echtes Labkraut (Galium verum): Heilpflanzen-Atlas, AWL.ch, pflanzenfreunde.com, kraeuterleben.de (Volksmedizin); naturadb / arzneipflanzenlexikon (Inhaltsstoffe/Botanik); pflanzen-vielfalt.net, die-honigmacher.de, Wikipedia (Verwechslung Galium mollugo/aparine/odoratum).
+- Gemeine Wegwarte (Cichorium intybus): HMPC EU herbal monograph *Cichorium intybus* L., radix (traditional use); Kommission E; Thieme/natuerlich (Heilpflanze des Jahres 2020), AWL.ch, avogel.ch, walaarzneimittel.de, natur-forum.de; scialert/herbalref/Altmeyers (Phytochemie).
+- **Quellen-Abruf:** WebFetch auf EMA sowie arzneipflanzenlexikon.info/altmeyers/naturadb lieferte durchgehend HTTP 403 (Sandbox-typisch). Evidenzgrad daher über mehrere übereinstimmende Sekundärquellen belegt — **Primärquelle ungeprüft, ärztliche Gegenprüfung nötig**, insbesondere die exakte HMPC-Indikationsformulierung/Posologie der Wegwartenwurzel.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Echtes Labkraut hat KEINE regulatorische Grundlage.** Weder HMPC noch ESCOP noch Kommission E führen Galium verum. Alle Indikationen sind bewusst mit `TRAD` getaggt und der `evidence_caveat` sagt das ausdrücklich. Für ein Nachschlagewerk ist das ein Kraut mit sehr schwacher Evidenz — bitte prüfen, ob es überhaupt als "Heilpflanze" (statt nur als botanischer/kulturhistorischer Eintrag) geführt werden soll.
+- **Sicherheitsrelevanter Overstatement-Punkt Labkraut:** Im Netz kursiert Galium verum/aparine prominent als angebliches Mittel gegen Lymphstau, Schilddrüsenknoten und **Krebs** ("Galium-/Labkraut-Therapie"). Das ist unbelegt; die eigentliche Gefahr ist die Behandlungsverzögerung. Ich habe das explizit in `expectation_summary.overstated` und `key_warning` adressiert.
+- **Namensfalle Labkraut/Waldmeister:** Beide sind Galium. Der coumarinreiche Waldmeister (G. odoratum) ist als eigener Verwechslungseintrag mit Toxin-Hinweis geführt, obwohl Standort (Wald/schattig) und Blütenfarbe (weiß) klar abgrenzen — zur Klarstellung des unterschiedlichen Sicherheitsprofils.
+- **Wegwarte — Droge ist die WURZEL, nicht das Kraut:** Die HMPC-Anerkennung (traditional use) gilt für Cichorii radix. Kommission E umfasst Wurzel und Kraut. Habe die Wurzel als Hauptdroge geführt, Kraut ergänzend. `asteraceae_allergy`-Flag gesetzt (Korbblütler). Anwendung laut HMPC ab 12 Jahren.
+- **Wegwarte — Zichorienkaffee ≠ Arzneimittel:** Rösten baut die Bitter-Sesquiterpenlactone ab; das Genussgetränk hat nicht die appetit-/verdauungsanregende Amarum-Wirkung. In `kitchen.culinary_vs_medicinal` und `preparation` vermerkt.
+
+### Katalog-Beobachtung (nicht Teil dieses Laufs, aber meldenswert)
+
+Beim Gesamt-Check `validate_monographie.py fertig/*.json` schlagen **11 ältere Dateien** mit FEHLERn auf: baerlauch, beinwell, brennnessel, holunder, johanniskraut, kamille, pfefferminze, ringelblume, salbei, schafgarbe, wermut — augenscheinlich die handkuratierten Erstbestände (`herkunft: "kuratiert"`), die vor der heutigen, strengeren Schema-/Skriptversion entstanden sind (z. B. ungültiger `toxicity_level` "essbar/gering"). Meine beiden neuen Dateien sind fehlerfrei. Ich habe die Altbestände **bewusst nicht angefasst** (außerhalb dieses 2-Kräuter-Laufs; kuratierte Dateien nicht verändern). Empfehlung: separater Wartungslauf, der die kuratierten Monographien an das aktuelle Schema angleicht.

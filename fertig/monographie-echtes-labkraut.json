@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "id": "galium-verum",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Galium verum L.",
+    "common_names_de": ["Echtes Labkraut", "Gelbes Labkraut", "Gelb-Labkraut", "Liebfrauenbettstroh", "Honigkraut", "Mägdekraut"],
+    "family": "Rötegewächse (Rubiaceae)",
+    "drug_part": ["Blühendes Kraut (Herba) — zur Blütezeit gesammelt"],
+    "drug_name_latin": "Galii veri herba",
+    "synonyms": ["Galium verum subsp. verum"],
+    "synonym_note": "Galium verum L. ist der akzeptierte Name; keine bedeutende taxonomische Umbenennung. Die gelb-weiß blühende Hybride mit dem Wiesen-Labkraut wird als Galium × pomeranicum Retz. geführt (Zwischenform, kein eigener Drogenname)."
+  },
+  "identification": {
+    "key_features": [
+      "Leuchtend goldgelbe, sehr kleine, vierzählige Blüten in dichten, rispig-pyramidalen Blütenständen — die einzige heimische Labkraut-Art mit gelben Blüten (alle übrigen blühen weiß/weißlich). Das ist das sicherste Bestimmungsmerkmal.",
+      "Blätter in Quirlen (Wirteln) zu meist 8–12 pro Knoten, sehr schmal-nadelförmig, am Rand nach unten eingerollt, oberseits dunkelgrün-glänzend, unterseits graufilzig.",
+      "Honigartig-süßlicher Blütenduft; die Pflanze bräunt/schwärzt beim Trocknen.",
+      "Vierkantiger, aufrechter bis aufsteigender Stängel, 20–80 cm, oben verzweigt; Pflanze insgesamt zart.",
+      "Standort: sonnige, trockene Magerrasen, Böschungen, Wegränder, Dünen, meist kalkhaltig."
+    ],
+    "season": "Blütezeit Juni bis September",
+    "habitat": "Sonnige, trockene bis mäßig trockene, nährstoffarme, meist kalkhaltige Magerrasen, Trockenrasen, Böschungen, Wegränder und Dünen",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: die leuchtend GELBEN Blütenrispen zusammen mit den schmal-nadelförmigen, unterseits graufilzigen Blattquirlen (8–12 Blätter pro Wirtel) sind eindeutig — kein anderes heimisches Labkraut blüht gelb.",
+      "Zur Vollblüte (Juni–August) die oberen blühenden Triebe schneiden; bei trockenem Wetter ernten und rasch trocknen (die Pflanze verfärbt sich sonst dunkel).",
+      "Nicht mit dem coumarinreichen Waldmeister (Galium odoratum) verwechseln: dieser wächst schattig im Wald, blüht WEISS und riecht erst beim Welken nach Cumarin — anderes Anwendungs- und Sicherheitsprofil."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wiesen-Labkraut / Weißes Labkraut",
+      "scientific_name": "Galium mollugo (Galium album)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Häufigster Verwechslungspartner, aber ungiftig. Unterscheidung: Wiesen-Labkraut blüht REIN WEISS, hat breitere, nicht eingerollte Blätter und ist geruchlos; Echtes Labkraut blüht goldgelb, hat nadelschmale, unterseits filzige Blätter und duftet honigartig. Beide werden volksmedizinisch ähnlich (aber nicht identisch) genutzt."
+    },
+    {
+      "name": "Kletten-Labkraut / Klebkraut",
+      "scientific_name": "Galium aparine",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Sofort erkennbar an den rückwärts gerichteten Klimmhäkchen an Stängel, Blattrand und Frucht, mit denen es an Kleidung haftet ('klebt'); Blüten weißlich-grün. Echtes Labkraut ist glatt und haftet nicht."
+    },
+    {
+      "name": "Waldmeister",
+      "scientific_name": "Galium odoratum",
+      "toxicity_level": "essbar",
+      "toxin": "Cumarin (in größerer Menge/hoher Dosis Kopfschmerz, Schwindel, lebertoxisch)",
+      "note": "Naher Verwandter, in üblicher Küchen-/Teemenge unbedenklich, in großer Menge aber cumarinbedingt problematisch. Abgrenzung: Waldmeister wächst schattig im Laubwald, blüht WEISS, hat breitere Blätter in Quirlen zu 6–9 und riecht typisch nach Cumarin (Heu) beim Welken. Verwechslung ist selten, da Standort und Blütenfarbe verschieden sind — hier nur zur Klarstellung des Sicherheitsprofils genannt."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für das Echte Labkraut ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Alle plausiblen Verwechslungspartner sind andere, ungiftige Labkraut-Arten. Die leuchtend gelbe Blütenfarbe grenzt Galium verum eindeutig von allen weiß blühenden Verwandten ab."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Iridoidglykoside (v. a. Asperulosid, Monotropein) — typische Rubiaceen-Bitterstoffe",
+      "Flavonoide (u. a. Rutin, Quercetin-Glykoside), Phenolcarbonsäuren (Chlorogen-/Kaffeesäure)",
+      "Gerbstoffe, Kieselsäure, Spuren ätherisches Öl; das milchgerinnende ('Lab-')Enzym in der blühenden Pflanze"
+    ],
+    "lead_substance": "Iridoidglykoside (Asperulosid) und Flavonoide als Träger der milden adstringierenden/harntreibenden Volkswirkung. Keine gut charakterisierte, klinisch belegte Leitsubstanz.",
+    "solubility_note": "Iridoide, Flavonoide und Gerbstoffe sind wasserlöslich und gehen als Aufguss (Tee) über; für äußerliche Umschläge stärker ansetzen. Frisch enthält die Pflanze das milchgerinnende Enzym (historische Käseherstellung), das beim Trocknen/Erhitzen zerstört wird.",
+    "heat_light_sensitivity": "Rasch und schonend trocknen — die Pflanze verfärbt sich beim Welken dunkel. Das milchgerinnende Enzym ist hitze- und lagerungsempfindlich; die Gerbstoffe/Flavonoide sind gut lagerfähig."
+  },
+  "pharmacology": {
+    "mechanism": "Belastbar untersuchter Wirkmechanismus fehlt. Zugeschrieben werden — plausibel aus den Inhaltsstoffen, aber nicht klinisch belegt — eine milde harntreibende (aquaretische) Wirkung, adstringierende Effekte der Gerbstoffe an Haut/Schleimhaut und schwach krampflösende Effekte. Für Extrakte sind in vitro antioxidative und schwach antimikrobielle Effekte beschrieben.",
+    "evidence_caveat": "Für Galium verum existiert KEINE HMPC-Monographie, KEINE ESCOP-Monographie und KEINE Kommission-E-Monographie. Es gibt keine kontrollierten klinischen Studien am Menschen. Alle Anwendungen sind rein volksmedizinisch (TRAD) und wissenschaftlich nicht gesichert.",
+    "pharmacokinetics": "Nicht relevant untersucht — unsicher, zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Traditionelle Durchspülung der ableitenden Harnwege (mild harntreibend)",
+      "synonyms": ["Wassertreiben", "Blasentee", "Nierentee", "zum Durchspülen", "Harntreiben"],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinische Anwendung als mildes Aquaretikum bei Blasen- und Nierenbeschwerden. KEINE regulatorische Anerkennung (kein HMPC/ESCOP/Kommission E). Bei bakteriellem Harnwegsinfekt kein Ersatz für eine ärztliche/antibiotische Behandlung.",
+      "realistic_expectation": "Allenfalls eine milde, unspezifische harntreibende Wirkung wie bei vielen Teedrogen — nicht belegt. KEINE nachgewiesene Wirkung bei Nieren- oder Blasenerkrankungen. Bei Fieber, Flankenschmerz, Blut im Urin oder anhaltenden Beschwerden ärztlich abklären. Ausreichend trinken bleibt das Entscheidende.",
+      "source": "Volksmedizin/Traditionelle Anwendung (Heilpflanzen-Atlas, arzneipflanzenlexikon.info, AWL.ch); keine HMPC/ESCOP/Kommission-E-Monographie (recherchiert 2026-07)"
+    },
+    {
+      "canonical": "Äußerliche traditionelle Anwendung bei leichten Hautproblemen und kleinen Wunden",
+      "synonyms": ["Hautausschlag", "schlecht heilende Haut", "Umschlag", "Waschung", "gereizte Haut", "Ekzem"],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinisch werden Umschläge/Waschungen des Krauts bei leichten Hautentzündungen, schlecht heilenden Stellen und kleinen Wunden verwendet (adstringierende Gerbstoffe). Nicht klinisch belegt, keine regulatorische Anerkennung.",
+      "realistic_expectation": "Kann als Umschlag gereizte Haut allenfalls mild beruhigen (Gerbstoffwirkung). Kein Wund- oder Hautheilmittel im medizinischen Sinn. Nicht auf tiefe, infizierte oder großflächige Wunden anwenden.",
+      "source": "Volksmedizin/Traditionelle Anwendung (Heilpflanzen-Atlas, pflanzenfreunde.com, kraeuterleben.de); keine regulatorische Monographie (recherchiert 2026-07)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, ungiftiges Volksheilkraut. Historisch vor allem als pflanzliches Lab zur Käseherstellung und zum Gelbfärben von Käse bedeutsam ('Labkraut'). Medizinisch bestenfalls milde adstringierende und schwach harntreibende Effekte — traditionell, nicht wissenschaftlich gesichert.",
+    "overstated": "Deutlich überschätzt. Verbreitete Internet- und Volksheil-Behauptungen, Echtes Labkraut wirke gegen Schilddrüsenerkrankungen/Kropf, Lymphstau oder gar KREBS ('Galium-Therapie'), sind NICHT belegt und dürfen eine ärztliche Behandlung ernster Erkrankungen niemals ersetzen — hier besteht ein echtes Gefahrenpotenzial durch Behandlungsverzögerung. Auch die harntreibende und hautheilende Wirkung ist nur traditionell begründet.",
+    "effect_size": "mild, unspezifisch, symptomatisch; klinisch nicht belegt"
+  },
+  "preparation": {
+    "recommended_forms": ["Aufguss (Tee) des blühenden Krauts", "Umschlag/Waschung — äußerlich", "frischer Presssaft (volkstümlich)"],
+    "form_rationale": "Die wasserlöslichen Iridoide, Flavonoide und Gerbstoffe lassen sich als Aufguss extrahieren; für äußerliche Umschläge stärker ansetzen. Das milchgerinnende Enzym spielt nur bei frischer Anwendung (historische Käseherstellung) eine Rolle und ist medizinisch ohne Bedeutung.",
+    "standard_dose": "Keine standardisierte, regulatorisch abgesicherte Dosierung vorhanden (keine Monographie). Volkstümlich Tee aus ca. 1–2 TL getrocknetem Kraut pro Tasse, mehrmals täglich. Wegen fehlender Datenlage nur kurzfristig und zurückhaltend anwenden — unsicher, zu prüfen.",
+    "preservation": "Rasch und schonend trocknen (dunkelt leicht nach), dann trocken, luftdicht und lichtgeschützt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen die Pflanze",
+      "Kein Ersatz bei ernsten Erkrankungen (Schilddrüse, Tumor, Harnwegsinfekt) — dann ärztliche Behandlung, keine Selbstbehandlung mit Labkraut"
+    ],
+    "pregnancy_lactation": "Keine ausreichenden Daten zur arzneilichen Anwendung in Schwangerschaft und Stillzeit; da keine Monographie und keine Sicherheitsstudien vorliegen, vorsichtshalber meiden. Unsicher — zu prüfen.",
+    "adverse_effects": "Bei üblicher Anwendung gelten alle Pflanzenteile des Echten Labkrauts als ungiftig; ernste Nebenwirkungen sind nicht bekannt. Wegen der fehlenden Datenlage (keine systematische Sicherheitsbewertung) bleibt das Nebenwirkungsprofil unsicher — zu prüfen. Der Cumaringehalt ist — anders als beim verwandten Waldmeister — gering.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Additive harntreibende Wirkung theoretisch denkbar; klinisch nicht untersucht",
+        "affected": "Diuretika (theoretisch)",
+        "clinical_relevance": "gering — keine belegten Interaktionen bekannt"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Ungiftiges, aber nur traditionell begründetes Volksheilkraut ohne regulatorische Anerkennung — die kursierenden Behauptungen einer Wirkung gegen Schilddrüsenleiden, Lymphstau oder Krebs sind nicht belegt und dürfen eine ärztliche Behandlung niemals ersetzen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühende Triebspitzen zur Vollblüte Juni bis August",
+    "harvest_month_tags": [6, 7, 8],
+    "harvest_organ": "Kraut (blühende oberirdische Teile)",
+    "method": "Obere blühende Triebe bei trockenem, sonnigem Wetter schneiden; Bestätigung über gelbe Blütenrispen + schmale, unterseits filzige Blattquirle.",
+    "processing": "Locker ausgebreitet, luftig und rasch im Schatten trocknen, damit die Pflanze nicht nachdunkelt; danach schneiden.",
+    "storage": "Trocken, luftdicht, lichtgeschützt; etwa ein Jahr haltbar."
+  },
+  "kitchen": {
+    "uses": ["Historisch pflanzliches Lab zum Dicklegen der Milch bei der Käseherstellung", "Gelbfärbung von Käse (z. B. traditionell bei Chesterkäse)", "gelegentlich als aromatischer Teebestandteil"],
+    "culinary_vs_medicinal": "Die kulturhistorisch wichtigste Nutzung ist kulinarisch-technisch (Lab-Ersatz und Käsefärbung durch das milchgerinnende Enzym und gelbe Farbstoffe), nicht medizinisch. Eine eigenständige heilkundliche Bedeutung hat die Pflanze in der modernen Phytotherapie nicht."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, trockener, magerer, durchlässiger, kalkhaltiger Boden.",
+    "hardiness": "Voll winterhart, ausdauernd, anspruchslos und trockenheitsverträglich.",
+    "propagation": "Aussaat oder Teilung; breitet sich über Ausläufer und Selbstaussaat aus und kann in mageren Beeten wuchern.",
+    "bodensee_suitability": "Gut geeignet — in der Region an trockenwarmen Magerrasen und Böschungen natürlicherweise häufig; im Garten nur an sonnig-magerem Standort, sonst wüchsig und ausbreitungsfreudig."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Echtes Labkraut mit goldgelben Blütenrispen auf sonnigem Magerrasen", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blattquirl (8–12 schmal-nadelförmige, unterseits filzige Blätter) und gelbe vierzählige Einzelblüten", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "KEINE HMPC-Monographie, KEINE ESCOP-Monographie, KEINE Kommission-E-Monographie für Galium verum — die Anwendungen sind rein volksmedizinisch (bestätigt über mehrere übereinstimmende Sekundärquellen, recherchiert 2026-07)",
+    "Heilpflanzen-Atlas (heilpflanzen-atlas.de/heilpflanzen/labkraut): traditionelle Anwendung als mild harntreibend und äußerlich bei Hautproblemen; keine schulmedizinische Anerkennung mangels Studien",
+    "AWL.ch (Labkraut/Galium verum) und pflanzenfreunde.com: volksmedizinische Zuschreibungen (harntreibend, adstringierend, krampflösend, wundheilend), ausdrücklich nicht klinisch gesichert",
+    "arzneipflanzenlexikon.info (Labkraut) und naturadb.de/pflanzen/galium-verum: Botanik, Inhaltsstoffe (Iridoide/Asperulosid, Flavonoide, Gerbstoffe, Kieselsäure), Familie Rubiaceae — Primärabruf via WebFetch mit HTTP 403 nicht erreichbar, Inhalt über Suchtreffer/weitere Sekundärquellen belegt",
+    "Botanik/Verwechslung (gelbe vs. weiße Blüten, Abgrenzung Galium mollugo/aparine/odoratum; Ungiftigkeit aller Pflanzenteile): pflanzen-vielfalt.net, die-honigmacher.de, Wikipedia (Galium verum), kaesekessel.de (recherchiert 2026-07)"
+  ]
+}

@@ -463,6 +463,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). Salicylatpflanze ('Aspirin'-Namensgeber über den Altnamen Spiraea ulmaria). HMPC traditional use + Kommission E + ESCOP: unterstützend bei fieberhafter Erkältung (Schwitztee), zusätzlich HMPC-TU für leichte Gelenkschmerzen. WICHTIG/overstated: Salicylatgehalt im Tee ist gering — KEIN aspirinähnlicher schmerz-/fieber-/gerinnungshemmender Effekt, kein Ersatz für ASS/NSAR. Sicherheit: Salicylate → bei ASS-/Salicylat-Überempfindlichkeit und salicylat-sensitivem Asthma kontraindiziert, bei Kindern/Jugendlichen mit Virusinfekt meiden (Reye, theoretisch), theoretische Interaktion mit Gerinnungshemmern. Kein giftiger Doppelgänger bei sicherem Bestimmen (Wintergrüngeruch beim Zerreiben + ulmenartiges Fiederblatt eindeutig), aber Fernverwechslung mit weißen Doldenblütlern nasser Standorte im Sammelhinweis vermerkt."
+    },
+    {
+      "ts": "2026-07-22T09:00:00Z",
+      "id": "galium-verum",
+      "common": "Echtes Labkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). ACHTUNG Evidenz: KEINE HMPC-, KEINE ESCOP-, KEINE Kommission-E-Monographie — alle Indikationen sind rein volksmedizinisch (TRAD) getaggt, es gibt keine klinischen Studien. Traditionell mild harntreibend (Durchspülung) und äußerlich bei Hautproblemen. Bewusst als overstated markiert und sicherheitsrelevant: die im Netz kursierenden Behauptungen einer Wirkung gegen Schilddrüsenleiden, Lymphstau oder KREBS ('Galium-Therapie') sind unbelegt und dürfen keine ärztliche Behandlung ersetzen — Gefahr durch Behandlungsverzögerung. Ungiftig, kein giftiger Doppelgänger (einzige gelb blühende heimische Labkraut-Art; Abgrenzung zu weiß blühendem Wiesen-Labkraut, Kletten-Labkraut und coumarinreichem Waldmeister im Sammelhinweis). Namensgebend das milchgerinnende 'Lab'-Enzym (historische Käseherstellung/-färbung), medizinisch bedeutungslos."
+    },
+    {
+      "ts": "2026-07-22T09:01:00Z",
+      "id": "cichorium-intybus",
+      "common": "Gemeine Wegwarte",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Klassisches Bittermittel (Amarum). HMPC traditional use für die Wurzel (Cichorii radix): leichte dyspeptische Beschwerden (Völlegefühl, Blähungen, träge Verdauung) und vorübergehende Appetitlosigkeit, Anwendung ab 12 Jahren; zusätzlich Kommission E positiv (Wurzel und Kraut, ~3 g/Tag). Leitstoffe: bittere Sesquiterpenlactone (Intybin/Lactucopikrin) + Inulin (Wurzel bis ~58 %, präbiotisch). Korbblütler → asteraceae_allergy-Flag gesetzt: bei Asteraceen-Allergie meiden; bei Gallensteinen nur nach Rücksprache; Schwangerschaft mangels Daten nicht empfohlen. Overstated: kein gesichertes Mittel gegen Diabetes/Gicht/Leberkrankheit/Krebs (nur Tierdaten/Volksheilkunde). Kein giftiger Doppelgänger — himmelblaue Zungenblüten unverwechselbar; Verwechslung nur im blattigen Rosettenstadium mit Löwenzahn/Gänsedistel (alle ungiftig). Hinweis: gerösteter Zichorienkaffee ist Genuss-, kein Arzneimittel (Rösten baut Bitterkeit ab). EMA-Primärquelle 403 — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
     }
   ]
 }

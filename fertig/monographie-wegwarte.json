@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "id": "cichorium-intybus",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Cichorium intybus L.",
+    "common_names_de": ["Gemeine Wegwarte", "Gewöhnliche Wegwarte", "Zichorie", "Wilde Zichorie", "Wegleuchte", "Sonnenwirbel"],
+    "family": "Korbblütler (Asteraceae/Compositae)",
+    "drug_part": ["Wurzel (Radix) — Hauptdroge", "blühendes Kraut (Herba)"],
+    "drug_name_latin": "Cichorii radix (Wurzel); Cichorii herba (Kraut)",
+    "synonyms": ["Cichorium intybus var. intybus", "Cichorium intybus var. sativum (Wurzelzichorie/Kaffeezichorie, Kulturform)"],
+    "synonym_note": "Cichorium intybus L. ist der akzeptierte Name. Die Kulturformen — Wurzel-/Kaffeezichorie (var. sativum), Chicorée/Radicchio/Zuckerhut (var. foliosum) und die Endivie (eigene Art Cichorium endivia) — stammen von bzw. stehen neben der Wildpflanze; arzneilich gilt die Wildform (var. intybus)."
+  },
+  "identification": {
+    "key_features": [
+      "Leuchtend himmelblaue (selten weiße/rosa) Zungenblüten-Körbchen von ca. 3–4 cm, die Zungen vorn fünfzähnig gekerbt — die Blüten öffnen sich morgens und schließen um die Mittagszeit. Diese Blütenfarbe und der Tagesrhythmus sind das sicherste Merkmal.",
+      "Sparriger, kantig-gerillter, steif aufrechter Stängel (30–120 cm) mit weit abstehenden, rutenförmigen Ästen — 'wegwartenartig' sperriger Wuchs an Wegrändern.",
+      "Untere Blätter schrotsägeförmig gelappt und in eine Rosette gestellt (löwenzahnähnlich); obere Stängelblätter klein, sitzend, den Stängel mit Öhrchen umfassend.",
+      "Alle Teile führen weißen, bitteren Milchsaft (Latex) — typisch für die Zungenblütler.",
+      "Standort: sonnige Wegränder, Böschungen, Schuttplätze, Ruderalflächen, magere Wiesen — namengebend an Wegen."
+    ],
+    "season": "Blütezeit Juli bis September (Oktober)",
+    "habitat": "Sonnige, trockenwarme Wegränder, Böschungen, Ruderal- und Schuttflächen, Weg- und Feldraine, magere Wiesen; kalkliebend",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger blühend: himmelblaue, morgens geöffnete Zungenblütenkörbchen am sparrigen Stängel mit weißem Milchsaft sind eindeutig.",
+      "Wurzel (Hauptdroge) im Herbst (September/Oktober) oder zeitigen Frühjahr des 1./2. Jahres ausgraben, wenn der Inulingehalt hoch ist; die dicke Pfahlwurzel gründlich reinigen, längs schneiden und trocknen.",
+      "Kraut zur Blütezeit sammeln. Im nicht blühenden Rosettenstadium ist die Verwechslung mit anderen Korbblütler-Rosetten (Löwenzahn, Gänsedistel, Wilder Lattich) möglich — dann erst zur Blüte sicher bestimmen; alle diese sind ungiftig."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Löwenzahn",
+      "scientific_name": "Taraxacum officinale agg.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftig. Im Rosettenstadium ähnlich schrotsägeförmige, milchsaftführende Blätter. Unterscheidung spätestens zur Blüte: Löwenzahn hat GELBE Blüten auf einem blattlosen, hohlen Schaft; Wegwarte hat BLAUE Blüten an einem beblätterten, sparrig verzweigten, festen Stängel."
+    },
+    {
+      "name": "Gänsedistel / Wilder Lattich (Rosettenstadium)",
+      "scientific_name": "Sonchus spp., Lactuca serriola",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls Korbblütler mit gelappten, milchsaftführenden Blättern; ungiftig (Wilder Lattich enthält bitteren Lactucarium-Milchsaft, aber nicht giftig in üblichem Rahmen). Abgrenzung über die blauen Zungenblüten und den sparrigen Wuchs der Wegwarte zur Blütezeit."
+    },
+    {
+      "name": "Endivie / Chicorée (Kulturformen)",
+      "scientific_name": "Cichorium endivia; Cichorium intybus var. foliosum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Essbare Kultur-Verwandte derselben Gattung bzw. Art (Salatzichorien). Keine Gefahr — nur botanisch nahe, arzneilich wird die bittere Wildform bzw. die Wurzelzichorie verwendet."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für die Wegwarte ist kein giftiger oder lebensgefährlicher Doppelgänger bekannt. Alle plausiblen Verwechslungspartner sind ungiftige Korbblütler. Die himmelblauen, morgens geöffneten Zungenblüten am sparrigen Stängel sind unverwechselbar; Unsicherheit besteht nur im blattigen Rosettenstadium, das keine Vergiftungsgefahr birgt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Bittere Sesquiterpenlactone (Guaianolide: Lactucin, Lactucopikrin, 8-Desoxylactucin, sog. 'Intybin') — Bitterstoffe",
+      "Inulin (in der Wurzel bis ca. 50–58 %, ein Fructan/Präbiotikum)",
+      "Phenolcarbonsäuren (Cichoriensäure/Chicorsäure, Chlorogensäure), Cumarine (u. a. Cichoriin, Aesculin), Flavonoide"
+    ],
+    "lead_substance": "Bittere Sesquiterpenlactone (Intybin/Lactucopikrin) als Träger der appetit- und verdauungsanregenden Bitterwirkung; Inulin als präbiotischer Ballaststoff der Wurzel (Grundlage von Zichorien-'Kaffee').",
+    "solubility_note": "Die Bitterstoffe und Inulin sind wasserlöslich und gehen als Abkochung (Dekokt) der Wurzel bzw. Aufguss des Krauts über. Für eine Bitterwirkung ist der bittere Geschmack erwünscht — nicht durch Zuckerzusatz überdecken. Geröstete Zichorienwurzel ('Zichorienkaffee') hat durch die Röstung veränderte, mildere Bitterstoffe.",
+    "heat_light_sensitivity": "Sesquiterpenlactone sind gegenüber starker/langer Hitze empfindlich (Rösten baut Bitterkeit ab); getrocknete Droge trocken und lichtgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Die Bitterstoffe regen reflektorisch über Geschmacksrezeptoren die Speichel-, Magensaft- und Gallensekretion an und fördern so Appetit und Verdauung (Amarum-Wirkung). Tierexperimentell sind cholagoge (gallentreibende) sowie antioxidative und leberprotektive Effekte beschrieben; Inulin wirkt als präbiotischer Ballaststoff auf die Darmflora.",
+    "evidence_caveat": "Die regulatorische Anerkennung stützt sich auf langjährige Erfahrung (HMPC traditional use für die Wurzel; Kommission E positiv), NICHT auf belastbare kontrollierte klinische Studien am Menschen. Belege für einzelne Indikationen beruhen überwiegend auf Tradition, pharmakologischer Plausibilität und tierexperimentellen Daten.",
+    "pharmacokinetics": "Bitterstoffe wirken bereits lokal-reflektorisch im Mund-/Magenraum; systemische Pharmakokinetik nicht relevant untersucht — unsicher, zu prüfen. Inulin wird nicht im Dünndarm resorbiert, sondern im Dickdarm bakteriell fermentiert."
+  },
+  "indications": [
+    {
+      "canonical": "Leichte dyspeptische Beschwerden (Völlegefühl, Blähungen, träge Verdauung)",
+      "synonyms": ["Völlegefühl", "Blähungen", "Verdauungsschwäche", "träge Verdauung", "Magendrücken", "Verdauungsbeschwerden"],
+      "evidence_tag": "TU",
+      "comment": "HMPC führt die Wegwartenwurzel (Cichorii radix) als traditionelles pflanzliches Arzneimittel bei leichten Verdauungsbeschwerden; Kommission E positiv für Appetitlosigkeit und dyspeptische Beschwerden (Wurzel und Kraut). Bitterstoff-/Amarum-Prinzip. Kein 'well-established use'.",
+      "realistic_expectation": "Kann als Bittermittel Appetit und Verdauung mild anregen und leichtes Völlegefühl/Blähungen lindern. Kein Mittel gegen ernste Magen-Darm-Erkrankungen. Bei anhaltenden oder starken Beschwerden ärztlich abklären.",
+      "source": "EMA/HMPC European Union herbal monograph Cichorium intybus L., radix (traditional use); Kommission E (positiv). Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Evidenzgrad über übereinstimmende Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen (recherchiert 2026-07)"
+    },
+    {
+      "canonical": "Vorübergehende Appetitlosigkeit",
+      "synonyms": ["Appetitlosigkeit", "kein Appetit", "Appetitmangel", "zur Appetitanregung", "Bittermittel"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use (Wurzel) und Kommission E: Anregung des Appetits über die Bitterstoffe. Anwendung laut HMPC nur bei Erwachsenen und Jugendlichen über 12 Jahren.",
+      "realistic_expectation": "Kann kurzfristig den Appetit anregen (Bitterwirkung). Keine Wirkung bei krankhaftem Gewichtsverlust — anhaltende Appetitlosigkeit gehört ärztlich abgeklärt.",
+      "source": "EMA/HMPC Cichorii radix (traditional use); Kommission E; ESCOP nennt die Wurzel als Bitter-/Verdauungsmittel (recherchiert 2026-07)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Klassisches, gut verträgliches Bittermittel (Amarum) aus der Wegwartenwurzel. Traditionell und regulatorisch anerkannt (HMPC traditional use, Kommission E) bei leichten Verdauungsbeschwerden und vorübergehender Appetitlosigkeit. Die geröstete Wurzel ist der historische 'Zichorienkaffee'; Inulin macht sie zum präbiotischen Ballaststofflieferanten.",
+    "overstated": "Über die Bitter-/Verdauungswirkung hinausgehende Heilversprechen sind nicht belegt: Wegwarte ist KEIN gesichertes Mittel gegen Diabetes, Gicht, Leber-/Gallenerkrankungen im engeren Sinn, Herz-Kreislauf-Leiden oder gar Krebs — solche Zuschreibungen (teils aus Tierstudien oder Volksheilkunde) sind klinisch nicht abgesichert. Die tierexperimentelle 'Leberschutz'-Wirkung darf nicht als Therapie einer Lebererkrankung missverstanden werden.",
+    "effect_size": "mild, symptomatisch (Bitter-/Verdauungswirkung)"
+  },
+  "preparation": {
+    "recommended_forms": ["Abkochung (Dekokt) der Wurzel", "Aufguss des Krauts", "Tinktur (Bittertropfen)", "gerösteter Zichorienkaffee (Genussmittel)"],
+    "form_rationale": "Bitterstoffe und Inulin sind wasserlöslich; die derbe Wurzel wird als Abkochung (kurz aufkochen/ziehen lassen), das weiche Kraut als Aufguss angesetzt. Für die Bitterwirkung ca. 15–30 Minuten vor der Mahlzeit trinken und nicht süßen. Rösten (Kaffee-Ersatz) baut die Bitterkeit ab — dann kein Bittermittel mehr, sondern Genussgetränk.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis ca. 3 g Droge (Wurzel bzw. Kraut); Tee/Abkochung entsprechend mehrmals täglich vor den Mahlzeiten. Anwendung bei Erwachsenen und Jugendlichen über 12 Jahren; bei Beschwerden über 2 Wochen ärztlich abklären.",
+    "preservation": "Getrocknete, geschnittene Wurzel/Kraut trocken, luftdicht und lichtgeschützt lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Allergie gegen Wegwarte oder andere Korbblütler (Asteraceae/Kreuzallergie)",
+      "Gallensteinleiden nur nach ärztlicher Rücksprache (Bittermittel/Gallenfluss-Anregung)",
+      "Verschluss der Gallenwege"
+    ],
+    "pregnancy_lactation": "Keine ausreichenden Daten zur arzneilichen Anwendung in Schwangerschaft und Stillzeit; mangels Sicherheitsdaten wird die arzneiliche Anwendung nicht empfohlen, vorsichtshalber meiden. (Der Verzehr als Salat/Kaffeeersatz in üblicher Lebensmittelmenge ist davon unberührt.) Unsicher — zu prüfen.",
+    "adverse_effects": "Insgesamt gut verträglich. Selten allergische Haut-/Schleimhautreaktionen, v. a. bei Korbblütler-Allergie; vereinzelt Kontaktdermatitis (Sesquiterpenlactone). Sehr selten kann bei Sensibilisierten eine Kreuzreaktion auftreten.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Bittermittel/gallenflussanregende Wirkung; präbiotisches Inulin kann Blähungen verstärken. Keine klinisch belegten Arzneimittelinteraktionen bekannt",
+        "affected": "keine spezifischen Arzneistoffe belegt",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Gut verträgliches Bittermittel ohne giftigen Doppelgänger — aber Korbblütler: bei bekannter Asteraceen-Allergie meiden, bei Gallensteinen nur nach ärztlicher Rücksprache; ein Bittermittel ersetzt keine Abklärung anhaltender Verdauungsbeschwerden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst (September/Oktober) oder zeitigen Frühjahr; Kraut zur Blütezeit Juli–September",
+    "harvest_month_tags": [7, 8, 9, 10],
+    "harvest_organ": "Wurzel (Radix); daneben Kraut (Herba)",
+    "method": "Dicke Pfahlwurzel im Herbst ausgraben, reinigen, längs aufschneiden; blühendes Kraut zur Blütezeit schneiden.",
+    "processing": "Wurzel in Stücke/Scheiben schneiden und zügig bei mäßiger Wärme trocknen; Kraut luftig im Schatten trocknen.",
+    "storage": "Trocken, luftdicht, lichtgeschützt; Wurzeldroge etwa ein Jahr haltbar."
+  },
+  "kitchen": {
+    "uses": ["Geröstete Wurzel als Zichorienkaffee/Kaffee-Ersatz und Kaffeezusatz", "junge Blätter/Rosette als (bitterer) Wildsalat", "Kulturformen Chicorée, Radicchio, Zuckerhut, Endivie als Gemüse/Salat", "blaue Blüten essbar als Dekoration"],
+    "culinary_vs_medicinal": "Die Grenze ist fließend: Als Lebensmittel (Salatzichorien, Zichorienkaffee, Inulin-Ballaststoff) ist die Pflanze breit im Gebrauch. Medizinisch zählt die BITTERE Wildwurzel als Amarum — durch Rösten geht die appetit-/verdauungsanregende Bitterwirkung weitgehend verloren, der Zichorienkaffee ist daher Genuss-, kein Arzneimittel."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, tiefgründiger, durchlässiger, kalkhaltiger, eher magerer Boden (für lange Pfahlwurzel).",
+    "hardiness": "Voll winterhart, ausdauernd, anspruchslos und trockenheitsverträglich.",
+    "propagation": "Aussaat im Frühjahr direkt an Ort und Stelle (Pfahlwurzel verträgt Verpflanzen schlecht); versamt sich selbst.",
+    "bodensee_suitability": "Gut geeignet — in der Region an Wegrändern und Böschungen häufig wild; im Garten an sonnig-durchlässigem Standort problemlos, auch als bienenfreundliche Blühpflanze."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Wegwarte mit himmelblauen Zungenblütenkörbchen am sparrigen Stängel", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blaues Blütenkörbchen (vorn fünfzähnige Zungenblüten) und schrotsägeförmiges Grundblatt mit weißem Milchsaft", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph Cichorium intybus L., radix (traditional use: leichte dyspeptische Beschwerden wie Völlegefühl/Blähungen/träge Verdauung; vorübergehende Appetitlosigkeit; Anwendung ab 12 Jahren). Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Evidenzgrad über mehrere übereinstimmende Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen (recherchiert 2026-07)",
+    "Kommission E: positiv — Appetitlosigkeit und dyspeptische Beschwerden (Wegwartenwurzel und -kraut); Tagesdosis ca. 3 g",
+    "Thieme/natuerlich (Heilpflanzenporträt Cichorium intybus, Heilpflanze des Jahres 2020) und AWL.ch (Wegwarte): Wirkprofil als Bittermittel/Amarum, Inhaltsstoffe, Anwendung",
+    "Inhaltsstoffe (Sesquiterpenlactone/Intybin/Lactucopikrin, Inulin bis ~58 %, Cumarine, Cichoriensäure): scialert.net Chicory-Review, herbalref.com (Cichorii intybi radix), Altmeyers Enzyklopädie (recherchiert 2026-07)",
+    "Sicherheit/Korbblütler-Allergie, Kontraindikationen (Asteraceae-Kreuzallergie, Gallensteine, Schwangerschaft nicht empfohlen), Botanik/Verwechslung (blaue Zungenblüten, Rosettenverwechslung mit Löwenzahn/Gänsedistel; Kulturformen): natur-forum.de, walaarzneimittel.de, avogel.ch, Wikipedia (Gemeine Wegwarte) (recherchiert 2026-07)"
+  ]
+}
