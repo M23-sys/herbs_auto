@@ -1,12 +1,26 @@
 {
   "hinweis": "Wird von der Herbarium-App geschrieben. Die Routine liest sie und arbeitet sie VOR der Kandidatenliste ab.",
-  "stand": "2026-07-18",
-  "anzahl": 1,
+  "stand": "2026-07-22",
+  "anzahl": 3,
   "kandidaten": [
     {
-      "id": "cornus-sanguinea",
-      "common": "Common dogwood",
-      "latin": "Cornus sanguinea",
+      "id": "vitis-vinifera",
+      "common": "Grape Vine",
+      "latin": "Vitis vinifera",
+      "region": "Bodensee",
+      "quelle": "Merkposten"
+    },
+    {
+      "id": "chenopodium-album",
+      "common": "Lambs Quarters",
+      "latin": "Chenopodium album",
+      "region": "Bodensee",
+      "quelle": "Merkposten"
+    },
+    {
+      "id": "platanus-hispanica",
+      "common": "London planetree",
+      "latin": "Platanus × hispanica",
       "region": "Bodensee",
       "quelle": "Merkposten"
     }
