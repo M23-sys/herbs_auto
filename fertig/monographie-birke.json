@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "id": "betula-pendula",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Betula pendula Roth",
+    "common_names_de": [
+      "Hänge-Birke",
+      "Warzen-Birke",
+      "Weiß-Birke",
+      "Sand-Birke",
+      "Birke (Birkenblätter)"
+    ],
+    "family": "Birkengewächse (Betulaceae)",
+    "drug_part": [
+      "Blatt (Folium)"
+    ],
+    "drug_name_latin": "Betulae folium",
+    "synonyms": [
+      "Betula verrucosa",
+      "Betula alba"
+    ],
+    "synonym_note": "Betula pendula Roth ist der akzeptierte Name; Betula verrucosa Ehrh. ist ein reines Synonym. 'Betula alba L.' war ein alter Sammelname, der heute auf die zwei getrennten Arten B. pendula (Hänge-Birke) UND B. pubescens (Moor-Birke) aufgeteilt ist — 'Betula alba' ist dadurch mehrdeutig und wird nicht mehr verwendet. Die HMPC-Droge Betulae folium stammt von Betula pendula Roth und/oder Betula pubescens Ehrh. sowie ihren Hybriden (arzneilich gleichwertig)."
+  },
+  "identification": {
+    "key_features": [
+      "Weiße, papierartig abblätternde Rinde; im Alter am Stammfuß schwarze, rautig-rissige Borke — unverwechselbares Erkennungsmerkmal",
+      "Junge Zweige überhängend ('pendula') und mit zahlreichen hellen, warzigen Harzdrüsen ('verrucosa') besetzt, unbehaart",
+      "Blätter dreieckig-rautenförmig, lang zugespitzt, doppelt gesägt, beidseitig KAHL (Abgrenzung zu B. pubescens: dort Triebe/Blätter behaart)",
+      "Einhäusig: hängende männliche und aufrechte weibliche Kätzchen am selben Baum; Blüte April–Mai (starker Pollenflug)",
+      "Lichtbedürftiger Pionierbaum auf mageren, sandigen Böden, bis ~30 m"
+    ],
+    "season": "Blüte April–Mai; Blattsammlung Mai–Juni (junge Blätter)",
+    "habitat": "Pionier auf sandig-mageren, trockenen bis frischen Böden; Waldränder, Heiden, Brachen, lichte Wälder; sehr anpassungsfähig",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nur junge, frisch ausgetriebene Blätter (Mai–Juni) sammeln, solange sie noch hellgrün und weich sind; ältere, klebrige Blätter sind weniger geeignet",
+      "Fernab von Straßen/Hundewegen sammeln; Birken sind Flachwurzler und Pionierbäume, Sammeln unproblematisch, aber Baum nicht schädigen",
+      "Zur Unterscheidung Hänge-Birke / Moor-Birke auf behaarte Triebe achten (B. pubescens behaart) — beide sind arzneilich verwendbar, also kein Sicherheitsrisiko"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Moor-Birke",
+      "scientific_name": "Betula pubescens",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Keine Gefahr — arzneilich gleichwertig und Teil derselben HMPC-Droge. Unterscheidung nur botanisch: B. pubescens hat behaarte junge Triebe/Blätter und aufrechtere Äste, wächst auf feuchteren/moorigen Böden; B. pendula ist kahl, warzig und überhängend."
+    },
+    {
+      "name": "Erle (Schwarz-/Grau-Erle)",
+      "scientific_name": "Alnus glutinosa / Alnus incana",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nicht giftig, aber andere Droge. Erlenblätter sind rundlich bis verkehrt-eiförmig, vorn oft ausgerandet/stumpf und nur einfach gezähnt; Rinde bleibt dunkel/glatt (nicht weiß). Erle trägt verholzte 'Zäpfchen'. Birke = weiße Rinde + doppelt gesägte, spitze Blätter."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für die Birke bzw. Birkenblätter existiert kein tödlich giftiger Doppelgänger; die weiße Rinde macht den Baum nahezu unverwechselbar. Das relevante Risiko ist nicht die Verwechslung, sondern die Birkenpollen-/Kreuzallergie und die Kontraindikation der Durchspülung bei Herz-/Niereninsuffizienz."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide bis ~3 % (Hyperosid ~0,8 %, Avicularin ~0,6 %, Quercetin-/Myricetin-/Kämpferol-Glykoside) — Träger der aquaretischen Wirkung",
+      "Proanthocyanidine/Gerbstoffe",
+      "Triterpensaponine (u. a. Betulafolientriol-Derivate)",
+      "Kaffee-/Phenolcarbonsäuren, ätherisches Öl (Spuren), Ascorbinsäure, Kaliumsalze"
+    ],
+    "lead_substance": "Flavonoide (Hyperosid, Quercetin-Glykoside) — aquaretisch (Steigerung der Harnmenge)",
+    "solubility_note": "Die wirksamkeitsbestimmenden Flavonoide sind wasserlöslich → der Aufguss (Tee) ist die sinnvolle Zubereitung. Entscheidend ist nicht ein 'starker' Auszug, sondern die begleitend zugeführte Flüssigkeitsmenge (Durchspülung).",
+    "heat_light_sensitivity": "Flavonoide sind gegen kurzes Überbrühen ausreichend stabil; getrocknete Droge kühl und lichtgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Aquaretische (harntreibende) Wirkung überwiegend durch Flavonoide: erhöhte Harnproduktion und Spülung der ableitenden Harnwege, weitgehend ohne relevanten Elektrolytverlust (Aquarese, keine echte Saluretika-Diurese wie bei Schleifendiuretika). Traditionell zusätzlich als unterstützend bei rheumatischen Beschwerden.",
+    "evidence_caveat": "Nur traditional use — keine belastbaren kontrollierten klinischen Wirksamkeitsstudien; Effekt plausibel und langjährig gebräuchlich. WICHTIG: 'Durchspülung' bedeutet Spülen der Harnwege, NICHT das Auflösen bestehender Nierensteine und KEINE antibiotische Wirkung.",
+    "pharmacokinetics": "unsicher — zu prüfen (keine belastbaren Humandaten zu Resorption/Elimination der maßgeblichen Flavonoide)"
+  },
+  "indications": [
+    {
+      "canonical": "Durchspülung der Harnwege bei leichten Harnwegsbeschwerden",
+      "synonyms": [
+        "Durchspülung",
+        "Harnwegsinfekt (unterstützend)",
+        "Blasenentzündung (begleitend)",
+        "Reizblase",
+        "Nierengrieß",
+        "wassertreibend",
+        "harntreibend"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use: 'zur Steigerung der Harnmenge zwecks Durchspülung der Harnwege als Adjuvans bei leichten Harnwegsbeschwerden'. ESCOP und Kommission E positiv (Durchspülung, auch bei Nierengrieß).",
+      "realistic_expectation": "Unterstützende Durchspülung bei ausreichender Flüssigkeitszufuhr; kann Beschwerden lindern, ersetzt aber bei echtem, fieberhaftem oder kompliziertem Harnwegsinfekt KEINE ärztliche Behandlung/Antibiose und löst keine Steine auf.",
+      "source": "HMPC traditional use (Betulae folium, 2015); ESCOP; Kommission E"
+    },
+    {
+      "canonical": "Unterstützung bei rheumatischen Beschwerden",
+      "synonyms": [
+        "Rheuma",
+        "rheumatische Beschwerden",
+        "Gelenkbeschwerden",
+        "Gliederschmerzen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E führt Birkenblätter unterstützend bei rheumatischen Beschwerden; HMPC beschränkt sich auf die Harnwegs-Indikation. Evidenz rein traditionell.",
+      "realistic_expectation": "Traditionelle unterstützende Anwendung ohne belastbaren Wirksamkeitsnachweis; kein Ersatz für eine antirheumatische Basistherapie.",
+      "source": "Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes pflanzliches Aquaretikum zur unterstützenden Durchspülung der Harnwege bei leichten Beschwerden — wirkt nur zusammen mit reichlicher Flüssigkeitszufuhr.",
+    "overstated": "Birkenblätter 'entschlacken', 'entgiften', 'reinigen das Blut' oder lösen Nierensteine auf — das ist nicht belegt (Marketing der Frühjahrskur). Sie ersetzen bei fieberhaftem/kompliziertem Harnwegsinfekt keine Antibiotika und heilen kein Rheuma.",
+    "effect_size": "mild; symptomatisch/adjuvant"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Teeaufguss der getrockneten Blätter",
+      "Fertigpräparate (Dragees/Extrakte) für die Durchspülungstherapie"
+    ],
+    "form_rationale": "Die aquaretisch wirksamen Flavonoide sind wasserlöslich → Aufguss ist geeignet und einfach. Der therapeutische Effekt beruht auf der Kombination aus Wirkstoff und hoher Trinkmenge, nicht auf einem besonders konzentrierten Auszug.",
+    "standard_dose": "Aufguss aus ca. 2–3 g fein geschnittenen getrockneten Blättern pro Tasse, 3–4× täglich (Tagesmenge ~6–12 g Droge). Während der Durchspülungstherapie zusätzlich reichlich trinken (mind. ~2 Liter/Tag).",
+    "preservation": "Getrocknete Blätter trocken, dunkel und luftdicht aufbewahren."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Ödeme infolge eingeschränkter Herz- oder Nierenfunktion (KEINE Durchspülungstherapie)",
+      "Bekannte Birkenpollen-Allergie bzw. Überempfindlichkeit gegen Birke (Kreuzreaktionen möglich)",
+      "Eingeschränkte Nierenfunktion nur nach ärztlicher Rücksprache"
+    ],
+    "pregnancy_lactation": "Keine ausreichenden Daten für die arzneiliche Anwendung; in Schwangerschaft und Stillzeit nicht empfohlen (unsicher — zu prüfen).",
+    "adverse_effects": "Insgesamt gut verträglich; selten allergische Reaktionen, v. a. bei Birkenpollen-Allergikern (Kreuzsensibilisierung). Magen-Darm-Beschwerden möglich.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Additiver harntreibender Effekt; theoretisch verstärkter Flüssigkeits-/Elektrolytverlust",
+        "affected": "Diuretika (bei gleichzeitiger Anwendung)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "cardiorenal_flush_caution": true,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Durchspülungstherapie nur bei ausreichender Flüssigkeitszufuhr (mind. ~2 L/Tag) — KONTRAINDIZIERT bei Ödemen durch Herz- oder Niereninsuffizienz. Kein Ersatz für Antibiotika bei fieberhaftem/kompliziertem Harnwegsinfekt; löst bestehende Nierensteine nicht auf. Vorsicht bei Birkenpollen-Allergie."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Frühjahr bis Frühsommer (Mai–Juni), junge frisch ausgetriebene Blätter",
+    "harvest_month_tags": [
+      5,
+      6
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Junge Blätter abstreifen/pflücken, solange hellgrün und weich",
+    "processing": "Luftig im Schatten trocknen (Blätter dünn ausbreiten), bis sie rascheltrocken sind",
+    "storage": "Trocken, dunkel, luftdicht; innerhalb ~1 Jahr verbrauchen"
+  },
+  "kitchen": {
+    "uses": [
+      "Junge Birkenblätter im Frühjahr als milde Salatbeigabe",
+      "Birkenblättertee als erfrischendes Getränk",
+      "Birkenwasser/Birkensaft (Anzapfen im zeitigen Frühjahr) — separates Produkt, nicht das Blatt"
+    ],
+    "culinary_vs_medicinal": "Ganz junge Blätter sind als Wildsalat/Tee kulinarisch nutzbar (mild). Die medizinische Durchspülungs-Anwendung nutzt gezielt größere Teemengen mit hoher Trinkmenge — hier gelten die Kontraindikationen (Herz-/Niereninsuffizienz)."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig, magere, sandige bis normale, eher durchlässige Böden; Pionierbaum",
+    "hardiness": "Vollkommen winterhart (heimisch)",
+    "propagation": "Über Samen (Windstreuer, sät sich leicht selbst aus); junge Sämlinge sind häufig",
+    "bodensee_suitability": "Gut geeignet und heimisch. Zu bedenken: starker allergener Pollenflug (Frühjahr), Flachwurzler (kann Beläge/Leitungen beeinträchtigen) und viel Samenflug — für allergikernahe Kleingärten daher nur bedingt empfehlenswert."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Betula pendula Roth / Betula pubescens Ehrh. sowie Hybriden, folium (2015) — traditional use",
+    "EMA/HMPC Assessment report Betulae folium; Birch leaf herbal summary (EMA, 2015)",
+    "ESCOP Monograph Betulae folium (Birch Leaf)",
+    "Kommission E Monographie Betulae folium (Durchspülung Harnwege, Nierengrieß, unterstützend rheumatische Beschwerden)",
+    "Arzneipflanzen-Lexikon / PharmaWiki / AWL.ch — Inhaltsstoffe (Flavonoide, Saponine), Kontraindikationen (Ödeme, Pollenallergie)"
+  ]
+}

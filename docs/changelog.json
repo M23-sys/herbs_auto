@@ -511,6 +511,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidatenliste, tier 4). Centaurii herba, klassisches Bittermittel (Amarum). HMPC traditional use + Kommission E positiv (Bundesanzeiger 06.07.1988) für dyspeptische Beschwerden und vorübergehende Appetitlosigkeit → TU. Leitstoffe: Secoiridoid-Bitterstoffe (Swertiamarin ~75 %, Gentiopikrosid, Swerosid) + Xanthone. Zubereitungshinweis: NICHT süßen, ~30 min vor der Mahlzeit — die Wirkung hängt am erhaltenen Bittergeschmack. Sicherheit: reflux_caution gesetzt — bei Magen-/Darmgeschwüren kontraindiziert (Bitterstoffe steigern die Magensäure). ÜBERRASCHUNG/rechtlich: Die Art ist in Deutschland nach BArtSchV BESONDERS GESCHÜTZT — Wildsammlung ist verboten, Droge nur aus Anbau/Handel. Kein giftiger Doppelgänger — Verwechslung nur mit anderen (ebenfalls geschützten, ungiftigen) Centaurium-Arten (C. pulchellum ohne Grundrosette, C. littorale). EMA/HMPC-Primärquellen im Lauf nur mit HTTP 403 erreichbar — Evidenzgrad über Sekundärquellen belegt, ärztliche Gegenprüfung empfohlen."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "id": "salix-alba",
+      "common": "Silberweide",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 4). HMPC führt Salicis cortex als WELL-ESTABLISHED USE für leichte Rückenschmerzen — aber NUR für den standardisierten Trockenextrakt (240 mg Salicin/Tag); Gelenkschmerz/Fieber/Kopfschmerz nur traditional use. Kein harmloser Aspirin-Ersatz: Salicylat-Droge — kontraindiziert bei ASS-/Salicylat-Allergie, Analgetika-Asthma, Ulkus, Gerinnungsstörung, Schwangerschaft/Stillzeit und bei Kindern/Jugendlichen <18 (Reye-Syndrom); pregnancy_contraindicated + interaction_heavy gesetzt. WICHTIG: gerade S. alba ist salicin-ARM — Rindentee ist kein zuverlässiger Wirkstoffträger."
+    },
+    {
+      "ts": "2026-07-22T00:00:00Z",
+      "id": "betula-pendula",
+      "common": "Hänge-Birke",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 4). HMPC Betulae folium nur TRADITIONAL USE: Durchspülung der Harnwege als Adjuvans bei leichten Beschwerden (TU/ESCOP+, Kommission E); rheumatisch nur TRAD. Durchspülung KONTRAINDIZIERT bei Ödemen durch Herz-/Niereninsuffizienz (Flag cardiorenal_flush_caution) und braucht hohe Trinkmenge. Kein Nierenstein-Auflöser, kein Antibiotika-Ersatz; 'Entschlackung/Blutreinigung' unbelegt. Vorsicht Birkenpollen-Kreuzallergie. Taxonomie: B. verrucosa = Synonym; alter Sammelname B. alba heute in B. pendula + B. pubescens aufgeteilt."
     }
   ]
 }

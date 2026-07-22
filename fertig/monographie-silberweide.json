@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "id": "salix-alba",
+  "stand": "2026-07-22",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Salix alba L.",
+    "common_names_de": [
+      "Silber-Weide",
+      "Silberweide",
+      "Weißweide",
+      "Weide (Weidenrinde)"
+    ],
+    "family": "Weidengewächse (Salicaceae)",
+    "drug_part": [
+      "Rinde junger (2–3-jähriger) Zweige (Cortex)"
+    ],
+    "drug_name_latin": "Salicis cortex",
+    "synonyms": [],
+    "synonym_note": "Salix alba L. ist der aktuell akzeptierte Name. WICHTIG für die App: Die HMPC-Droge Salicis cortex stammt ausdrücklich von MEHREREN Weidenarten (u. a. Salix purpurea L., S. daphnoides Vill., S. fragilis L. sowie S. alba). Der Salicingehalt schwankt stark zwischen den Arten — gerade S. alba zählt eher zu den salicin-ARMEN Weiden; die salicinreichen Arzneiextrakte werden meist aus S. daphnoides/S. purpurea gewonnen. Ein Pl@ntNet-Treffer 'Salix alba' bedeutet also nicht automatisch eine hochwirksame Arzneidroge."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter beidseitig (v. a. jung) seidig silbrig-weiß behaart und dadurch schimmernd — daher 'alba'/Silberweide; schmal-lanzettlich, fein gesägt, 5–10 cm",
+      "Großer Baum bis 25–30 m mit tief längsrissiger, grauer Borke; Zweige biegsam-elastisch, gelbbraun bis olivgrün, nicht brechend",
+      "Zweihäusig: männliche und weibliche Kätzchen auf getrennten Bäumen, Blüte zeitgleich mit Laubaustrieb (April–Mai)",
+      "Standort typischerweise an Ufern, in Auen und feuchten Niederungen — ausgeprägter Feuchtezeiger",
+      "Arzneilich verwendet wird nur die RINDE 2–3-jähriger Zweige, nicht Blatt oder Blüte"
+    ],
+    "season": "Blüte April–Mai (mit dem Laubaustrieb)",
+    "habitat": "Auwälder, Fluss- und Bachufer, feuchte Wiesen und Gräben; lichtbedürftiger Pionierbaum feuchter Standorte",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Nur Rinde junger, 2–3-jähriger Zweige im Frühjahr (März–April) beim Saftaufstieg schälen — ältere Stammborke ist salicinarm und ungeeignet",
+      "Weiden stehen an Gewässern häufig unter Ufer-/Naturschutz und sind ökologisch wertvoll (Bienenweide) — Wildschnitt nur mit Erlaubnis, keine Kopfweiden-Rinde flächig schälen",
+      "Der Selbstsammler kann Salicingehalt und Art nicht sicher bestimmen; für die belegte Wirkung (Rückenschmerz) ist ohnehin ein standardisierter Fertigextrakt nötig, nicht selbstgeschälte Rinde"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Andere Weidenarten (Purpur-, Reif-, Bruch-Weide)",
+      "scientific_name": "Salix purpurea / S. daphnoides / S. fragilis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nicht giftig, aber pharmazeutisch NICHT gleichwertig: Der Salicingehalt schwankt artabhängig um ein Vielfaches. S. alba ist salicinarm, die salicinreichen Arzneidrogen stammen v. a. aus S. daphnoides/S. purpurea. Für gleichmäßige Wirkung ist Standardisierung auf Salicin entscheidend, nicht die botanische 'Weide' an sich."
+    },
+    {
+      "name": "Pappel (Zitter-/Schwarzpappel)",
+      "scientific_name": "Populus tremula / P. nigra",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gleiche Familie (Salicaceae), enthält ebenfalls Salicylate (Salicin, Populin) und wird ähnlich verwendet — keine Vergiftungsgefahr. Unterscheidung: Pappelblätter rundlich-herzförmig mit abgeflachtem Stiel (zittern im Wind), Weidenblätter schmal-lanzettlich."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für Silberweide bzw. die Rinden-Droge existiert kein tödlich giftiger Doppelgänger. Das eigentliche Risiko ist nicht botanisch (Vergiftung), sondern pharmazeutisch: falsche Art / zu geringer, schwankender Salicingehalt und der Salicylat-Charakter der Droge (siehe Sicherheit)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Salicylalkohol-Derivate (Phenolglykoside) 1,5–11 %: Salicin, Salicortin, Fragilin, Populin, Tremulacin",
+      "Flavonoide (u. a. Isoquercitrin, Naringenin-Derivate)",
+      "Catechin-Gerbstoffe (Proanthocyanidine)",
+      "Kaffeesäure-Derivate"
+    ],
+    "lead_substance": "Salicin — Prodrug: wird im Darm zu Saligenin und in der Leber zu Salicylsäure metabolisiert (antiphlogistisch/analgetisch)",
+    "solubility_note": "Salicin ist wasserlöslich, im Tee/Dekokt ist der Gehalt jedoch gering und stark schwankend. Die belegte (well-established) Wirkung ist an den STANDARDISIERTEN ethanolischen Trockenextrakt gebunden (240 mg Gesamtsalicin/Tag). Tee ist bestenfalls traditionelle Anwendung, kein zuverlässiger Wirkstoffträger.",
+    "heat_light_sensitivity": "Salicortin/Tremulacin sind hydrolyseempfindlich; standardisierte Extrakte sind auf Gesamtsalicylate eingestellt, um die Schwankung auszugleichen."
+  },
+  "pharmacology": {
+    "mechanism": "Salicin → Saligenin → Salicylsäure: reversible Hemmung der Cyclooxygenasen (COX-1/2) mit antiphlogistischer, analgetischer und antipyretischer Wirkung. Wirkeintritt langsamer als bei ASS; anders als Acetylsalicylsäure führt Weidenrinde NICHT zu klinisch relevanter, irreversibler Thrombozytenaggregationshemmung — sie ist deshalb KEIN Ersatz für kardiovaskuläres ASS. Flavonoide/Polyphenole tragen wahrscheinlich zur Wirkung bei (mehr als der Salicingehalt allein erklärt).",
+    "evidence_caveat": "Well-established use gilt nur für den quantifizierten Trockenextrakt (DER 8–14:1, Ethanol 70 %, auf Salicylate standardisiert) bei kurzfristigen leichten Rückenschmerzen; Datenbasis sind wenige RCT (u. a. Chrubasik 2000, Schmid 2001) mit begrenzter Aussagekraft. Für Gelenkschmerz, Fieber und Kopfschmerz nur traditional use. Selbstgemachter Tee ist nicht belegt.",
+    "pharmacokinetics": "Salicin wird erst nach Darmpassage/Leber zu Salicylsäure aktiviert → verzögerter Wirkeintritt; Spitzenspiegel an Salicylsäure deutlich niedriger als bei äquivalenten ASS-Dosen."
+  },
+  "indications": [
+    {
+      "canonical": "Kurzzeitbehandlung leichter Rückenschmerzen (Lumbalgie)",
+      "synonyms": [
+        "Rückenschmerzen",
+        "Kreuzschmerzen",
+        "Hexenschuss",
+        "Lendenschmerzen",
+        "unterer Rückenschmerz",
+        "Verspannungsschmerz Rücken"
+      ],
+      "evidence_tag": "WEU/ESCOP+",
+      "comment": "HMPC well-established use AUSSCHLIESSLICH für den standardisierten Trockenextrakt (240 mg Gesamtsalicin/Tag), Erwachsene. Nicht für Kinder/Jugendliche <18 Jahre.",
+      "realistic_expectation": "Milde bis mäßige, symptomatische Schmerzlinderung mit langsamerem Wirkeintritt als NSAR — nur mit standardisiertem Extrakt. Kein Akut-/Notfallanalgetikum, kein Aspirin-Ersatz, behandelt nicht die Ursache.",
+      "source": "HMPC well-established use (Salicis cortex, 2017); ESCOP; Chrubasik 2000"
+    },
+    {
+      "canonical": "Leichte Gelenk-/rheumatische Beschwerden",
+      "synonyms": [
+        "Gelenkschmerzen",
+        "Rheuma",
+        "rheumatische Beschwerden",
+        "Arthroseschmerz",
+        "Gliederschmerzen"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use; ESCOP und Kommission E positiv für rheumatische Beschwerden.",
+      "realistic_expectation": "Traditionell zur symptomatischen Linderung; belastbare Wirksamkeitsbelege schwächer als für Rückenschmerz. Kein Krankheitsverlauf-modifizierender Effekt.",
+      "source": "HMPC traditional use; ESCOP; Kommission E"
+    },
+    {
+      "canonical": "Fieberhafte Erkältung und Kopfschmerzen",
+      "synonyms": [
+        "Fieber",
+        "Erkältung",
+        "grippaler Infekt",
+        "Kopfschmerzen",
+        "Kopfweh"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use; Kommission E (fieberhafte Erkrankungen, Kopfschmerzen). Bei Fieber im Rahmen von Virusinfekten NICHT bei Kindern/Jugendlichen (Reye-Syndrom, Salicylat).",
+      "realistic_expectation": "Traditionelle, milde fiebersenkende/schmerzlindernde Anwendung bei Erwachsenen. Kein Ersatz für ärztliche Abklärung bei hohem/anhaltendem Fieber.",
+      "source": "HMPC traditional use; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mit standardisiertem Extrakt milde bis mäßige, symptomatische Linderung leichter Rücken-/Gelenkschmerzen; traditionell auch bei fieberhaften Erkältungen und Kopfschmerzen (Erwachsene).",
+    "overstated": "'Pflanzliches Aspirin ohne Nebenwirkungen' ist irreführend: Weidenrinde ist ein Salicylat-Wirkstoff mit den entsprechenden Kontraindikationen (ASS-Allergie, Ulkus, Kinder/Reye). Tee liefert zu wenig und zu schwankend Salicin für zuverlässige Wirkung. Sie schützt NICHT das Herz-Kreislauf-System wie niedrig dosiertes ASS (kaum Thrombozytenwirkung) und heilt keine rheumatische Grunderkrankung.",
+    "effect_size": "mild bis moderat; rein symptomatisch; verzögerter Wirkeintritt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Standardisierter ethanolischer Trockenextrakt (Tabletten/Kapseln, auf Salicin eingestellt)",
+      "Teeaufguss/Dekokt der Rinde (nur traditionell, schwächer und schwankend)"
+    ],
+    "form_rationale": "Die belegte Wirkung ist an einen definierten Salicin-Tagesgehalt (240 mg) gebunden — nur der standardisierte Extrakt garantiert diese Dosis. Rindentee schwankt stark im Gehalt und ist bestenfalls traditionelle Anwendung.",
+    "standard_dose": "Erwachsene: standardisierter Extrakt entsprechend 240 mg Gesamtsalicin/Tag (z. B. 393–786 mg Trockenextrakt 2×/Tag). Traditionell als Tee: 1–3 g fein geschnittene Rinde pro Aufguss, mehrmals täglich (bis ~10 g/Tag). Nicht für Personen <18 Jahre. Kurzfristige Anwendung; bei anhaltenden Beschwerden ärztliche Abklärung.",
+    "preservation": "Rinde trocken, licht- und feuchtigkeitsgeschützt lagern; Wirkstoffgehalt nimmt bei langer Lagerung ab."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Überempfindlichkeit gegen Salicylate/Acetylsalicylsäure (inkl. Analgetika-Asthma / Salicylat-Intoleranz)",
+      "Aktives Magen- oder Zwölffingerdarmgeschwür",
+      "Blutgerinnungsstörungen / hämorrhagische Diathese",
+      "Kinder und Jugendliche unter 18 Jahren (Reye-Syndrom-Risiko bei fieberhaften Virusinfekten)",
+      "Schwangerschaft und Stillzeit",
+      "Vorsicht bei Asthma bronchiale, schwerer Leber-/Niereninsuffizienz, Gicht (wie bei anderen Salicylaten)"
+    ],
+    "pregnancy_lactation": "Kontraindiziert. Salicylate sind in der Schwangerschaft (v. a. 3. Trimenon: vorzeitiger Ductus-Verschluss, Wehenhemmung, Blutungsrisiko) und Stillzeit zu meiden. Keine ausreichenden Unbedenklichkeitsdaten für die arzneiliche Anwendung.",
+    "adverse_effects": "Magen-Darm-Beschwerden, selten allergische Reaktionen (Hautausschlag, Juckreiz, bei Salicylat-Sensiblen bis zu Asthmaanfall/anaphylaktoiden Reaktionen). Insgesamt gastrointestinal besser verträglich als ASS in analgetischer Dosis, aber nicht nebenwirkungsfrei.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Additive Blutungsneigung; für Warfarin ist eine Verstärkung der Antikoagulation beschrieben",
+        "affected": "Antikoagulanzien (Warfarin/Phenprocoumon, DOAK, Heparin), Thrombozytenaggregationshemmer (ASS, Clopidogrel)",
+        "clinical_relevance": "relevant"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Salicylat-typische Interaktionen (verstärkte Toxizität/Wirkung)",
+        "affected": "Methotrexat, andere NSAR, Sulfonylharnstoffe (Blutzucker), Urikosurika (Gicht)",
+        "clinical_relevance": "relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein harmloser Aspirin-Ersatz: Weidenrinde ist ein Salicylat — kontraindiziert bei ASS-/Salicylat-Allergie, Analgetika-Asthma, Ulkus, Gerinnungsstörungen sowie in Schwangerschaft/Stillzeit, und NICHT für Kinder/Jugendliche <18 Jahre (Reye-Syndrom). Zuverlässige Wirkung nur mit standardisiertem Extrakt (240 mg Salicin/Tag), nicht mit selbstgemachtem Tee."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Frühjahr (März–April) beim Saftaufstieg, wenn sich die Rinde leicht löst",
+    "harvest_month_tags": [
+      3,
+      4
+    ],
+    "harvest_organ": "Rinde",
+    "method": "Rinde nur von 2–3-jährigen Zweigen abschälen (salicinreicher als alte Borke); zerkleinern",
+    "processing": "Rasch trocknen (Luft/schonende Wärme), vor Feuchtigkeit schützen; für arzneiliche Nutzung ist standardisierter Fertigextrakt vorzuziehen",
+    "storage": "Trocken, dunkel, in geschlossenem Gefäß; begrenzte Haltbarkeit wegen Wirkstoffabbau"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung. Weidenrinde ist ausschließlich Arzneidroge (bitter, gerbstoffreich); wegen des Salicylat-Gehalts kein Küchen- oder Wellness-Tee für Kinder oder Salicylat-Empfindliche."
+  },
+  "garden": {
+    "site_soil": "Feuchte bis nasse, nährstoffreiche Böden; volle Sonne; sehr schnellwüchsig",
+    "hardiness": "Vollkommen winterhart (heimisch)",
+    "propagation": "Sehr leicht über Steckhölzer/Steckruten (bewurzeln nahezu von selbst)",
+    "bodensee_suitability": "Bestens geeignet und heimisch — typischer Auen-/Uferbaum am Bodensee. Wird jedoch sehr groß; für kleine Gärten nur als Kopfweide sinnvoll."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Salix [various species incl. S. purpurea, S. daphnoides, S. fragilis], cortex (2017) — well-established use (Rückenschmerz) + traditional use",
+    "EMA/HMPC Assessment report Salicis cortex; Willow bark herbal summary (EMA)",
+    "ESCOP Monograph Salicis cortex (Willow Bark)",
+    "Kommission E Monographie Salicis cortex (fieberhafte Erkrankungen, rheumatische Beschwerden, Kopfschmerzen)",
+    "Memorial Sloan Kettering / USP Safety Review of Willow Bark (2019) — Salicylat-Sicherheit, Interaktionen",
+    "Chrubasik et al. 2000; Schmid et al. 2001 (RCT Rückenschmerz/Arthrose)"
+  ]
+}

@@ -626,8 +626,8 @@
       "latin": "Salix alba",
       "tier": 4,
       "reason": "Salicin — ASS-Ursprung; Schmerz",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-silberweide.json"
     },
     {
       "id": "betula-pendula",
@@ -635,8 +635,8 @@
       "latin": "Betula pendula",
       "tier": 4,
       "reason": "Durchspülung; Pollenallergie",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-birke.json"
     },
     {
       "id": "quercus-robur",
