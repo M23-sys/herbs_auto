@@ -644,8 +644,8 @@
       "latin": "Quercus robur",
       "tier": 4,
       "reason": "Rinde, Gerbstoffe, Sitzbäder",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-stieleiche.json"
     },
     {
       "id": "juglans-regia",

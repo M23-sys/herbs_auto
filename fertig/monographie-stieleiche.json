@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0",
+  "id": "quercus-robur",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Quercus robur L.",
+    "common_names_de": [
+      "Stieleiche",
+      "Sommereiche",
+      "Deutsche Eiche",
+      "Eiche (Eichenrinde)"
+    ],
+    "family": "Buchengewächse (Fagaceae)",
+    "drug_part": [
+      "Rinde junger Zweige und Seitenäste (Cortex)"
+    ],
+    "drug_name_latin": "Quercus cortex (Eichenrinde)",
+    "synonyms": [
+      "Quercus pedunculata"
+    ],
+    "synonym_note": "Quercus robur L. ist der akzeptierte Name; Quercus pedunculata Ehrh. ist ein reines Synonym. Die arzneiliche Droge Quercus cortex stammt laut Ph. Eur./HMPC von Quercus robur L., Quercus petraea (Matt.) Liebl. UND/ODER Quercus pubescens Willd. — diese drei Eichenarten sind arzneilich gleichwertig. Die Rot-Eiche (Quercus rubra, aus Nordamerika) gehört NICHT zur offizinellen Droge."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter kurz gestielt (Stiel nur 2–7 mm) bis fast sitzend, mit 4–6 stumpfen Lappenpaaren und am Grund zwei kleinen, nach hinten gerichteten Öhrchen (geöhrter Blattgrund) — sicherstes Merkmal gegen die Traubeneiche",
+      "Eicheln zu 1–3 an einem langen Stiel (2–8 cm) hängend ('gestielt' = Stieleiche); Fruchtbecher (Cupula) mit dachziegelig anliegenden Schuppen",
+      "Rinde jung glatt und graugrün, im Alter dick, tief längsrissig und in rechteckigen, hochkantigen Feldern (Borke)",
+      "Großer, breitkroniger, oft knorriger Laubbaum bis ~40 m; lichtbedürftig, sehr alt werdend",
+      "Blüte April–Mai, einhäusig: hängende gelbgrüne männliche Kätzchen, unscheinbare weibliche Blüten"
+    ],
+    "season": "Blüte April–Mai; arzneiliche Rindengewinnung im Frühjahr (März–April) vor/bei Blattaustrieb von jungen Zweigen",
+    "habitat": "Eichen-Hainbuchen- und Auenwälder, lichte Laubwälder, Waldränder, Parks; verträgt periodische Überschwemmung und schwere Böden besser als die Traubeneiche",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Arzneilich verwendet wird nur die Rinde JUNGER Zweige/Seitenäste (glatt, gerbstoffreich), nicht die dicke Altborke des Stammes",
+      "Rinde im Frühjahr (Saftfluss) gewinnen, dann löst sie sich leicht; nur an Schnittgut/beim Baumschnitt, den Baum nicht schädigen",
+      "Stiel- und Traubeneiche sind arzneilich gleichwertig — eine Verwechslung der beiden ist kein Sicherheitsproblem; entscheidend ist nur, keine Rot-Eiche (fremde Art) zu verwenden"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Traubeneiche (Wintereiche)",
+      "scientific_name": "Quercus petraea",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Keine Gefahr — arzneilich gleichwertig und Teil derselben HMPC-Droge. Unterscheidung: Traubeneiche hat LANG gestielte Blätter (13–25 mm) und fast sitzende, gehäufte ('traubige') Eicheln ohne langen Stiel; Stieleiche umgekehrt (kurz gestielte Blätter mit Öhrchen, lang gestielte Eicheln)."
+    },
+    {
+      "name": "Rot-Eiche",
+      "scientific_name": "Quercus rubra",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nicht giftig, aber NICHT die offizinelle Droge (nordamerikanische Zierart). Blätter groß mit spitzen, borstig zugespitzten Lappen (nicht stumpf gerundet); Herbstfärbung leuchtend rot. Für Eichenrinde nicht verwenden — nur Q. robur/petraea/pubescens."
+    },
+    {
+      "name": "Ess-Kastanie / Rosskastanie (Rinde)",
+      "scientific_name": "Castanea sativa / Aesculus hippocastanum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Andere gerbstoff-/saponinhaltige Rindendrogen, die beim getrockneten Schnittgut verwechselt werden könnten. Am stehenden Baum eindeutig über Blatt/Frucht zu trennen (Kastanien-Fiederblatt bzw. gefingertes Blatt, stachelige bzw. bestachelte Fruchthüllen). Rosskastaniensamen sind roh giftig — nicht mit Eicheln verwechseln."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für die Eiche existiert kein tödlich giftiger Doppelgänger. Hinweis am Rande: ROHE Eicheln enthalten sehr viel Gerbstoff und sind roh nur bedingt genießbar (Magen-Darm-Reizung, für Weidetiere in Menge problematisch) — sie müssen gewässert/geröstet werden; das betrifft aber die Frucht, nicht die arzneiliche Rinde."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe 8–20 % (v. a. hydrolysierbare Ellagitannine wie Vescalagin/Castalagin sowie Catechingerbstoffe/Proanthocyanidine) — Träger der adstringierenden Wirkung",
+      "Freie Ellag- und Gallussäure, Quercitol (Cyclit)",
+      "Flavonoide, Phenolcarbonsäuren, geringe Mengen Triterpene"
+    ],
+    "lead_substance": "Gerbstoffe (Ellag-/Catechingerbstoffe) — adstringierend, sekretionshemmend, leicht entzündungshemmend und antimikrobiell durch Eiweißfällung an Schleimhaut-/Wundoberflächen",
+    "solubility_note": "Gerbstoffe sind wasserlöslich → Abkochung (Dekokt) ist die sinnvolle Zubereitung: Rinde wird angesetzt und gekocht, nicht nur überbrüht. Für Umschläge/Spülungen/Sitzbäder wird die Abkochung äußerlich verwendet, für Durchfall der abgekühlte Tee getrunken.",
+    "heat_light_sensitivity": "Gerbstoffe sind gegenüber Kochen ausreichend stabil (Dekokt ist Standard); Auszüge trüben/oxidieren mit der Zeit, daher frisch zubereiten. Droge trocken und lichtgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Gerbstoffe fällen Oberflächenproteine von Haut, Schleimhaut und Wundexsudat und bilden eine dichtende Membranschicht ('Gerben'). Folge: verminderte Permeabilität, verringerte Sekretion und Nässe, mechanischer Schutz der darunterliegenden Schichten, Juckreizlinderung und Hemmung des Bakterienwachstums. Bei Durchfall wirkt dies stopfend/symptomatisch an der Darmschleimhaut.",
+    "evidence_caveat": "Nur traditional use / Erfahrungsheilkunde — keine belastbaren kontrollierten klinischen Wirksamkeitsstudien. Der adstringierende Mechanismus ist gut plausibel und pharmakologisch nachvollziehbar, ersetzt aber keine Ursachenbehandlung. Bei Durchfall ist die Rehydratation (Flüssigkeit/Elektrolyte) die eigentliche Basismaßnahme.",
+    "pharmacokinetics": "Gerbstoffe werden kaum resorbiert und wirken weitgehend lokal (Darmlumen bzw. Haut/Schleimhaut-Oberfläche); systemische Kinetik daher wenig relevant. Genaue Humandaten: unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter, unspezifischer akuter Durchfallerkrankungen",
+      "synonyms": [
+        "Durchfall",
+        "Diarrhö",
+        "Bauchgrippe (Durchfall)",
+        "flotter Otto",
+        "dünner Stuhl"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use (innerlich) zur symptomatischen Therapie leichter Diarrhö; Kommission E: unspezifische akute Durchfallerkrankungen; ESCOP positiv. Nur kurzfristig.",
+      "realistic_expectation": "Kann wässrigen Durchfall vorübergehend eindämmen; behandelt aber die Ursache nicht und ersetzt bei anhaltendem/blutigem/fieberhaftem Durchfall keine ärztliche Abklärung. Wichtigste Maßnahme bleibt ausreichendes Trinken (Flüssigkeit/Elektrolyte).",
+      "source": "HMPC traditional use (Quercus cortex, EMA/HMPC/3203/2009); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Leichte Entzündungen der Mund- und Rachenschleimhaut (äußerlich, als Spülung/Gurgellösung)",
+      "synonyms": [
+        "Zahnfleischentzündung",
+        "wundes Zahnfleisch",
+        "Halsschmerzen",
+        "Rachenentzündung",
+        "Mundschleimhautentzündung",
+        "Aphthen (begleitend)"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use / Kommission E: lokale Behandlung leichter Entzündungen im Mund- und Rachenraum. Nur zum Spülen/Gurgeln, nicht schlucken.",
+      "realistic_expectation": "Adstringierende, leicht reizlindernde Wirkung an der Schleimhaut; unterstützend, kein Ersatz für zahnärztliche/ärztliche Behandlung bei stärkeren oder länger als 2–3 Wochen bestehenden Beschwerden.",
+      "source": "HMPC traditional use; Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Juckreiz und Brennen bei Hämorrhoidalleiden sowie leichte Haut- und Analentzündungen (äußerlich, Sitzbad/Umschlag)",
+      "synonyms": [
+        "Hämorrhoiden",
+        "Analjucken",
+        "nässende Ekzeme",
+        "wunde Haut",
+        "Hautentzündung",
+        "Sitzbad"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use / Kommission E: äußerlich bei entzündlichen Hauterkrankungen und lokal im Genital-/Analbereich; Linderung von Juckreiz/Brennen bei Hämorrhoiden erst nach Ausschluss ernster Ursachen.",
+      "realistic_expectation": "Adstringierende Sitzbäder/Umschläge können Nässen, Juckreiz und Brennen lindern; heilen aber keine ursächliche Erkrankung. Ernste Ursachen (z. B. Blutung, Analfissur, Tumor) vorher ärztlich ausschließen.",
+      "source": "HMPC traditional use; Kommission E; ESCOP"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Klassische, gut plausible Gerbstoffdroge: adstringierend, sekretions- und juckreizhemmend, leicht antientzündlich — kurzfristig bei leichtem Durchfall und äußerlich bei Schleimhaut-/Hautentzündungen und Hämorrhoidenbeschwerden.",
+    "overstated": "Eichenrinde 'entgiftet' nicht, heilt keine chronischen Hautkrankheiten und keine Ursache von Durchfall. Nicht für Dauergebrauch: hoher Gerbstoffgehalt kann bei innerlicher Daueranwendung Magen reizen und die Aufnahme anderer Stoffe stören.",
+    "effect_size": "mild bis moderat; rein symptomatisch/lokal"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Abkochung (Dekokt) der getrockneten Rinde — innerlich (Durchfall) oder äußerlich (Spülung, Gurgellösung, Sitzbad, Umschlag)",
+      "Fertige Eichenrinden-Extrakte für Bäder/Spülungen"
+    ],
+    "form_rationale": "Die wasserlöslichen Gerbstoffe werden durch Abkochen gut extrahiert; deshalb Dekokt statt bloßem Aufguss. Äußere Anwendungen (Sitzbad, Gurgeln) nutzen dieselbe Abkochung.",
+    "standard_dose": "Innerlich bei Durchfall: ca. 3 g fein geschnittene Droge/Tag als Abkochung (etwa 3 Tassen). Gurgel-/Spüllösung: ca. 2 g Rinde auf 100 ml Wasser ~10–15 min kochen, abseihen. Voll-/Sitzbäder: ca. 5 g Rinde pro 1 Liter Wasser. Innerlich max. 3–4 Tage; äußere Anwendungen nicht länger als 2–3 Wochen ohne ärztlichen Rat.",
+    "preservation": "Getrocknete Rinde trocken, dunkel und luftdicht lagern; Abkochung stets frisch zubereiten (Auszüge oxidieren/trüben)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Großflächige Hautschäden/nässende Ekzeme großer Fläche sowie fieberhafte/infektiöse Erkrankungen (keine Vollbäder)",
+      "Vollbäder nicht bei Herzinsuffizienz (NYHA III/IV) und schwerem Bluthochdruck",
+      "Überempfindlichkeit gegen die Droge",
+      "Anhaltender (> 2 Tage), blutiger oder fieberhafter Durchfall gehört ärztlich abgeklärt, nicht selbst weiterbehandelt"
+    ],
+    "pregnancy_lactation": "Für die innerliche arzneiliche Anwendung in Schwangerschaft und Stillzeit liegen keine ausreichenden Daten vor — nicht empfohlen (unsicher — zu prüfen). Kurzfristige äußerliche/lokale Anwendung gilt als unkritischer, sollte aber ärztlich abgestimmt werden.",
+    "adverse_effects": "Insgesamt gut verträglich. Innerlich kann der hohe Gerbstoffgehalt Magenreizung, Übelkeit oder (bei Daueranwendung) Verdauungsstörungen verursachen. Äußerlich selten lokale Hautreizungen. Zubereitungen können Zähne/Wäsche bräunlich verfärben.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe binden und fällen Alkaloide, basische Arzneistoffe, Eisen(salze) und Eiweiße im Darm und können deren Aufnahme vermindern",
+        "affected": "Alkaloidhaltige/basische Arzneistoffe, Eisenpräparate, generell zeitgleich eingenommene orale Arzneimittel",
+        "clinical_relevance": "gering bis relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "reflux_caution": false,
+      "high_safety": false
+    },
+    "key_warning": "Nur kurzfristig anwenden: innerlich bei Durchfall max. 3–4 Tage — bei Durchfall > 2 Tage, Blut im Stuhl oder Fieber zum Arzt. Äußere Anwendung nicht über 2–3 Wochen; keine Vollbäder bei großflächigen Hautschäden, Fieber, schwerer Herzinsuffizienz oder Bluthochdruck. Orale Medikamente zeitlich versetzt einnehmen (Gerbstoffe mindern die Aufnahme)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Frühjahr (März–April), Saftfluss vor/bei Blattaustrieb — nur Rinde junger Zweige/Seitenäste",
+    "harvest_month_tags": [
+      3,
+      4
+    ],
+    "harvest_organ": "Rinde",
+    "method": "Rinde glatter junger Zweige (z. B. beim Baumschnitt) ringeln/ablösen; keine dicke Stammborke, Baum nicht schädigen",
+    "processing": "In Streifen/Stücke schneiden und luftig im Schatten oder bei mäßiger Wärme trocknen, bis rascheltrocken",
+    "storage": "Trocken, dunkel, luftdicht; getrocknete Droge über ~1–3 Jahre gerbstoffstabil"
+  },
+  "kitchen": {
+    "uses": [
+      "Geröstete/gewässerte Eicheln (Frucht) wurden historisch als Kaffee-Ersatz und Mehlstreckung genutzt — nur nach Entfernen der Gerbstoffe durch Wässern"
+    ],
+    "culinary_vs_medicinal": "Die Rinde ist reine Arzneidroge (kein Lebensmittel). Kulinarisch relevant sind allenfalls die entbitterten Eicheln; rohe Eicheln sind wegen des hohen Gerbstoffgehalts nicht genießbar."
+  },
+  "garden": {
+    "site_soil": "Tiefgründige, nährstoffreiche, auch zeitweise nasse/schwere Böden in voller Sonne; sehr großer, lichtbedürftiger Baum",
+    "hardiness": "Vollkommen winterhart (heimisch)",
+    "propagation": "Aussaat frischer Eicheln im Herbst (Keimung im Frühjahr); Eicheln nicht austrocknen lassen",
+    "bodensee_suitability": "Heimisch und bestens geeignet, aber nur für große Grundstücke/Alleen — als Solitär im Kleingarten wegen Endgröße und Wurzelraum ungeeignet. Ökologisch extrem wertvoll (Hunderte Insektenarten)."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Community herbal monograph on Quercus robur L., Quercus petraea (Matt.) Liebl., Quercus pubescens Willd., cortex (EMA/HMPC/3203/2009) — traditional use",
+    "EMA/HMPC Assessment report Quercus cortex (oak bark)",
+    "Kommission E Monographie Eichenrinde (Quercus cortex, Bundesanzeiger 01.02.1990)",
+    "ESCOP Monograph Quercus cortex (Oak Bark)",
+    "PharmaWiki / Arzneipflanzen-Lexikon / PTA-Forum — Gerbstoffgehalt, Dosierung, Kontraindikationen, Gerbstoff-Interaktion"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "id": "platanus-hispanica",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Platanus × hispanica Mill. ex Münchh.",
+    "common_names_de": [
+      "Gewöhnliche Platane",
+      "Ahornblättrige Platane",
+      "Bastard-Platane",
+      "London-Platane"
+    ],
+    "family": "Platanengewächse (Platanaceae)",
+    "drug_part": [
+      "keine offizinelle Droge (historisch: Rinde — Cortex Platani, obsolet)"
+    ],
+    "drug_name_latin": "keine offizinelle Droge",
+    "synonyms": [
+      "Platanus × acerifolia",
+      "Platanus × hybrida"
+    ],
+    "synonym_note": "Platanus × hispanica Mill. ex Münchh. ist der akzeptierte Name der gärtnerischen Hybride aus Morgenländischer Platane (Platanus orientalis) × Amerikanischer Platane (Platanus occidentalis). 'Platanus × acerifolia (Aiton) Willd.' bezeichnet denselben Baum und ist das häufig verwendete Synonym. KEINE Heilpflanze im heutigen Sinn — der Eintrag dient v. a. Bestimmung und Reizungs-/Allergiehinweis."
+  },
+  "identification": {
+    "key_features": [
+      "Rinde blättert in unregelmäßigen Platten ab und hinterlässt ein charakteristisches gelblich-grünes bis cremefarbenes 'Tarnfleck'-Muster — unverwechselbares Erkennungsmerkmal, auch im Winter",
+      "Blätter ahornähnlich (3–5 spitze Lappen, handförmig), aber WECHSELSTÄNDIG angeordnet (Ahorn: gegenständig!) — sicherste Abgrenzung gegen Ahorn",
+      "Kugelige, hängende Fruchtstände ('Fruchtkugeln', meist 1–2 pro langem Stiel), die über Winter hängen bleiben und im Frühsommer in stachelig-haarige Nüsschen zerfallen",
+      "Blattgrund am Stiel: Blattstielbasis umschließt die Knospe (Knospe liegt in der Stielbasis verborgen)",
+      "Großer Alleen- und Stadtbaum bis ~30–40 m, sehr stadtklima-/schnitttolerant; Blüte April–Mai"
+    ],
+    "season": "Blüte April–Mai; Fruchtkugeln reifen im Herbst und zerfallen im folgenden Frühjahr/Frühsommer (Zeit der Trichom-Freisetzung)",
+    "habitat": "Angepflanzt in Alleen, Parks, Innenstädten, an Ufern; nicht heimisch wild, gelegentlich verwildernd; verträgt Trockenheit, Hitze und Bodenverdichtung",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Kein Sammelgut für die Selbstanwendung — die Platane ist keine gebräuchliche Heilpflanze",
+      "Bei Baumpflege/Aufenthalt unter fruchtenden Platanen im Frühsommer an mechanische Reizung durch abbrechende Sternhaare (Trichome) denken (Augen-/Atemschutz)",
+      "Zur sicheren Bestimmung Blattstellung prüfen: wechselständig = Platane, gegenständig = Ahorn"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Ahorn (Berg-/Spitz-/Feldahorn)",
+      "scientific_name": "Acer pseudoplatanus / Acer platanoides / Acer campestre",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Namensgeber der Verwechslung ('ahornblättrig'). Sicher zu trennen: Ahornblätter stehen GEGENSTÄNDIG, Platanenblätter WECHSELSTÄNDIG; Ahorn trägt geflügelte Spaltfrüchte (Nasenzwicker/Samara), die Platane hängende Fruchtkugeln; Ahornrinde blättert nicht in bunten Platten ab. Ahorne sind für Menschen ungiftig (Hinweis: Samen/Keimlinge des Bergahorns können bei Pferden atypische Weidemyopathie auslösen — für den Menschen ohne Bedeutung)."
+    },
+    {
+      "name": "Amerikanische / Morgenländische Platane (Elternarten)",
+      "scientific_name": "Platanus occidentalis / Platanus orientalis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Reine Artfrage ohne Sicherheitsrelevanz: Die gepflanzte Hybride P. × hispanica steht zwischen den Eltern; Unterscheidung über Zahl der Fruchtkugeln pro Stiel und Lappentiefe. Für Bestimmung/Warnung irrelevant, da alle Platanen ungiftig sind und dieselbe Trichom-Reizung zeigen."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die Platane hat keinen giftigen Doppelgänger und ist selbst für den Menschen ungiftig; die Fruchtkugeln sind hart und ungenießbar, aber nicht toxisch. Das relevante Risiko ist NICHT Verwechslung oder Vergiftung, sondern die mechanische Reizung durch die Sternhaare (Trichome) und die Pollenallergie."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Rinde (historisch, Cortex Platani): Triterpene (Betulin, Betulinsäure, Betulinaldehyd, Platansäure), β-Sitosterol, Polyphenole/Gerbstoffe",
+      "Blätter/Knospen/Fruchtkugeln: dichte, spitze Sternhaare (Trichome) — mechanisch reizend, kein pharmakologischer Wirkstoff",
+      "Pollen: Allergen Pla a 1 (Hauptallergen der Platane)"
+    ],
+    "lead_substance": "Keine arzneilich genutzte Leitsubstanz. Klinisch bedeutsam sind stattdessen die mechanisch reizenden Trichome und das Pollenallergen Pla a 1.",
+    "solubility_note": "Nicht anwendungsrelevant — es existiert keine empfohlene Zubereitung. Die historische Rindenabkochung (wasserlösliche Gerb-/Polyphenole) ist obsolet und nicht belegt.",
+    "heat_light_sensitivity": "Nicht relevant (keine gebräuchliche Zubereitung)."
+  },
+  "pharmacology": {
+    "mechanism": "Kein belegter arzneilicher Wirkmechanismus. Historisch wurde der adstringierenden, gerbstoffhaltigen Rinde eine zusammenziehende Wirkung bei Hautleiden zugeschrieben (plausibel wie bei anderen Gerbstoffdrogen, aber nie belegt). Klinisch fassbar ist allein die mechanisch-irritative Wirkung der Trichome auf Atemwege, Augen und Haut ('Platanenhusten') sowie eine IgE-vermittelte Pollenallergie.",
+    "evidence_caveat": "Für jede innerliche oder äußerliche Heilanwendung fehlt jede belastbare Evidenz; die historischen Angaben sind rein volksmedizinisch und obsolet. Das Trichom-Reizphänomen ist beschrieben, aber wissenschaftlich bislang wenig untersucht.",
+    "pharmacokinetics": "nicht relevant / unsicher — zu prüfen (keine arzneiliche Anwendung)"
+  },
+  "indications": [
+    {
+      "canonical": "Historische volksmedizinische Rindenanwendung bei Hautleiden und Augenreizungen (obsolet, nicht empfohlen)",
+      "synonyms": [
+        "trockenes Ekzem",
+        "schuppende Haut",
+        "Hautleiden",
+        "Augenleiden",
+        "Lidbeschwerden"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Nur historisch: Abkochungen der Platanenrinde (Cortex Platani) wurden früher äußerlich bei trockenen, schuppenden Ekzemen und Augen-/Lidbeschwerden verwendet. Keine HMPC-, ESCOP- oder Kommission-E-Monographie; heute nicht mehr gebräuchlich.",
+      "realistic_expectation": "Keine belegte Wirkung; ausdrücklich KEINE Anwendungsempfehlung. Die Platane ist im heutigen Sinn keine Heilpflanze — dieser Eintrag dokumentiert nur die historische Verwendung und dient v. a. der Bestimmung und dem Reizungs-/Allergiehinweis.",
+      "source": "Lexikon der Arzneipflanzen und Drogen (Platanus-Arten); rein volksmedizinisch/historisch"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Keine belegte Heilwirkung. Praktisch bedeutsam ist die Platane als Bestimmungs- und Warnobjekt: die Sternhaare (Trichome) reizen im Frühsommer Atemwege, Augen und Haut ('Platanenhusten'), und die Pollen sind ein relevantes Frühjahrs-Allergen.",
+    "overstated": "Als 'Heilbaum' wird die Platane überschätzt — die historischen Rinden-Anwendungen sind obsolet und ohne Wirknachweis. Umgekehrt wird sie oft für Ahorn gehalten (falsche Bestimmung).",
+    "effect_size": "keine belegte therapeutische Wirkung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Keine empfohlene arzneiliche Zubereitung"
+    ],
+    "form_rationale": "Da keine belegte Wirksamkeit und keine Monographie existieren, wird keine Zubereitung empfohlen. Der Eintrag dient Erkennung und Reizungs-/Allergiehinweis, nicht der Anwendung.",
+    "standard_dose": "Keine — keine Anwendung empfohlen.",
+    "preservation": "Nicht relevant."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Keine Selbstanwendung empfohlen (keine gebräuchliche Heilpflanze)",
+      "Bei bekannter Platanenpollen-Allergie Exposition (Blütezeit, Baumnähe) meiden",
+      "Empfindliche Atemwege (Asthma): Aufenthalt unter fruchtenden Platanen bei trockenem, windigem Wetter im Frühsommer meiden"
+    ],
+    "pregnancy_lactation": "Keine arzneiliche Anwendung — daher keine spezifischen Daten nötig. Von einer inneren Anwendung der Rinde ist generell abzuraten (obsolet, nicht geprüft).",
+    "adverse_effects": "Nicht durch Giftigkeit, sondern durch mechanische Reizung: die feinen, spitzen Sternhaare (Trichome) von jungen Blättern, Knospen und zerfallenden Fruchtkugeln können beim Einatmen Husten, Atemnot ('Platanenhusten') sowie Augen- und Hautreizungen auslösen — besonders bei beruflich Exponierten (Baumpflege) und im Frühsommer. Zusätzlich Pollenallergie (Allergen Pla a 1) im Frühjahr.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine arzneiliche Anwendung, daher keine bekannten Arzneimittelinteraktionen",
+        "affected": "",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "photosensitizing": false,
+      "topical_only": false,
+      "not_for_use": false,
+      "high_safety": false
+    },
+    "key_warning": "Keine Heilpflanze — keine Anwendung empfohlen. Die Platane ist ungiftig, reizt aber über ihre feinen Sternhaare (Trichome von Blättern/Knospen/Fruchtkugeln) Atemwege, Augen und Haut ('Platanenhusten', v. a. Frühsommer, v. a. bei Baumpflege) und ist ein relevantes Pollenallergen (Pla a 1)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Keine arzneiliche Ernte (historische Rindengewinnung obsolet)",
+    "harvest_month_tags": [],
+    "harvest_organ": "Rinde (historisch, obsolet)",
+    "method": "Nicht empfohlen — keine gebräuchliche Droge",
+    "processing": "Nicht relevant",
+    "storage": "Nicht relevant"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Keine kulinarische Verwendung. Die Fruchtkugeln sind hart und ungenießbar (nicht giftig, aber kein Lebensmittel)."
+  },
+  "garden": {
+    "site_soil": "Sonnig, anspruchslos, sehr hitze-, trockenheits- und stadtklimatolerant; benötigt viel Platz",
+    "hardiness": "Winterhart in Weinbau-/Seeklima; junge Bäume in rauen Lagen anfällig für Zweigsterben (Massaria/Anthraknose)",
+    "propagation": "Über Steckhölzer/Stecklinge (Hybride, wird gärtnerisch vermehrt); Aussaat unüblich",
+    "bodensee_suitability": "Als Allee-/Parkbaum am Bodensee weit verbreitet und klimatauglich, aber wegen Endgröße, Trichom-Reizung und Pollenallergie für Hausgärten nur bedingt zu empfehlen; für Allergiker eher ungeeignet."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Lexikon der Arzneipflanzen und Drogen (Spektrum) — Platanus-Arten: Inhaltsstoffe der Rinde (Triterpene, β-Sitosterol), historische Anwendung, 'heute nicht mehr arzneilich genutzt'",
+    "aha! Allergiezentrum Schweiz — 'Platanenhusten', Trichom-Reizung von Atemwegen/Augen/Haut",
+    "Deutscher Allergiekongress / medical-tribune — Phänomen Platanenhusten (mechanische Reizung durch Sternhaare)",
+    "Polleninformation.at / Allergiequellen — Platanen-Pollenallergen Pla a 1",
+    "Botanikus / Pflanzen-Deutschland / Wikipedia (Ahornblättrige Platane) — Botanik, Ungiftigkeit, Abgrenzung zum Ahorn (Blattstellung, Fruchtform, Rinde)"
+  ]
+}

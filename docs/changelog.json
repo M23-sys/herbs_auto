@@ -543,6 +543,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Wunschliste). Kein regulatorischer Heilstatus: WEDER HMPC noch ESCOP noch Kommission E führen den Weißen Gänsefuß — es ist ein nährstoffreiches WILDGEMÜSE (Spinatersatz, Quinoa-Verwandter), keine Heilpflanze; alle 'Heil'-Anwendungen sind TRAD/unbelegt. Sicherheitskritisch: Keimlinge/Jungpflanzen an nährstoffreichen Gartens-/Ruderalböden können mit dem LEBENSGEFÄHRLICHEN Stechapfel (Datura stramonium) und dem giftigen Schwarzen Nachtschatten verwechselt werden — deadly_confusion gesetzt; sicheres Merkmal ist die mehlig-weiße Bestäubung + Geruchsneutralität. Oxalsäure/Nitrat (Akkumulator)/Samen-Saponine: roh nur in Maßen, blanchieren. Namensfalle: NICHT der giftige Wurmsamen Dysphania ambrosioides (früher Chenopodium ambrosioides, Ascaridol)."
+    },
+    {
+      "ts": "2026-07-23T09:00:00Z",
+      "id": "quercus-robur",
+      "common": "Stieleiche",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidatenliste, tier 4). Klassische Gerbstoffdroge Eichenrinde (Quercus cortex): HMPC traditional use INNERLICH bei leichtem akutem Durchfall und AEUSSERLICH (Spuelung/Gurgeln, Sitzbad/Umschlag) bei leichten Mund-/Rachen- und Haut-/Analentzuendungen sowie Haemorrhoiden-Juckreiz; Kommission E und ESCOP bestaetigen — daher TU/ESCOP+. Harte Grenzen: innerlich max. 3-4 Tage (Arzt bei Durchfall >2 Tage, Blut, Fieber), aeusserlich max. 2-3 Wochen; keine Vollbaeder bei grossflaechigen Hautschaeden/Fieber/Herzinsuffizienz/Hypertonie. Gerbstoffe mindern die Resorption oral eingenommener Arzneimittel (zeitlicher Abstand). Drogenquelle sind Q. robur/petraea/pubescens (gleichwertig) — Rot-Eiche Q. rubra NICHT verwenden."
+    },
+    {
+      "ts": "2026-07-23T09:00:00Z",
+      "id": "platanus-hispanica",
+      "common": "Gewöhnliche Platane",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). KEINE Heilpflanze im heutigen Sinn: weder HMPC noch ESCOP noch Kommission E; die einzige indications-Zeile dokumentiert nur die obsolete historische Rindenanwendung (TRAD, ausdruecklich ohne Anwendungsempfehlung). Sicherheitskern ist NICHT Giftigkeit (die Platane ist fuer den Menschen ungiftig), sondern (1) die mechanisch reizenden Sternhaare/Trichome von Blaettern, Knospen und zerfallenden Fruchtkugeln — 'Platanenhusten' mit Atemwegs-, Augen- und Hautreizung, v. a. Fruehsommer und bei Baumpflege — und (2) das Pollenallergen Pla a 1. Bestimmungsfalle: wird staendig fuer Ahorn gehalten; sicheres Merkmal ist die WECHSELSTAENDIGE Blattstellung (Ahorn gegenstaendig) plus abblaetternde Tarnfleck-Rinde und haengende Fruchtkugeln."
     }
   ]
 }
