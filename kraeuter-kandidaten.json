@@ -653,8 +653,8 @@
       "latin": "Juglans regia",
       "tier": 4,
       "reason": "Blatt, Gerbstoffe, Hautleiden",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-walnuss.json"
     },
     {
       "id": "tilia-cordata",
@@ -662,8 +662,8 @@
       "latin": "Tilia cordata",
       "tier": 4,
       "reason": "Blüte, Diaphoretikum bei Erkältung",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-winterlinde.json"
     },
     {
       "id": "rosa-canina",

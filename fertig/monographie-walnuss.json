@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "id": "juglans-regia",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Juglans regia L.",
+    "common_names_de": [
+      "Echte Walnuss",
+      "Walnussbaum",
+      "Walnuss (Walnussblätter)",
+      "Welsche Nuss",
+      "Baumnuss"
+    ],
+    "family": "Walnussgewächse (Juglandaceae)",
+    "drug_part": [
+      "Blatt (Folium)"
+    ],
+    "drug_name_latin": "Juglandis folium",
+    "synonyms": [
+      "Juglans duclouxiana",
+      "Juglans fallax",
+      "Juglans sinensis",
+      "Juglans orientis"
+    ],
+    "synonym_note": "Juglans regia L. ist der akzeptierte Name; die aufgeführten Namen (Dode) gelten als taxonomische Synonyme. Arzneilich wird ausschließlich das Blatt (Juglandis folium) geführt — nicht zu verwechseln mit der Schwarznuss Juglans nigra L., einer eigenen Art."
+  },
+  "identification": {
+    "key_features": [
+      "Wechselständige, unpaarig gefiederte Blätter mit meist 5–9 Fiederblättchen; Endblättchen oft am größten — beim Zerreiben deutlich aromatischer, harzig-würziger Geruch (sicherstes Feldmerkmal zur Abgrenzung vom übelriechenden Götterbaum)",
+      "Fiederblättchen ganzrandig (nicht gesägt), elliptisch, oberseits kahl und glänzend, jung leicht bräunlich-rot überlaufen",
+      "Rinde jung glatt und grau, im Alter längsrissig-grau; kräftiger, breitkroniger Baum bis ~25 m",
+      "Blüte April–Mai: hängende männliche Kätzchen, unscheinbare weibliche Blüten; Frucht die bekannte Steinfrucht (Walnuss) mit grüner, fleischiger Außenhülle",
+      "Zerdrückte grüne Pflanzenteile färben die Finger durch Juglon/Gerbstoffe bräunlich"
+    ],
+    "season": "Blüte April–Mai; Blattsammlung Juni–Juli (voll entwickelte, noch gesunde Blätter, vor Bräunung)",
+    "habitat": "Kulturbaum in Gärten, an Höfen, Wegrändern und Streuobstwiesen; wärmeliebend, verwildert an sonnigen, nährstoffreichen Standorten des Tieflands und der Weinbauregionen",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Nur gesunde, voll entwickelte grüne Blättchen (Juni–Juli) ohne braune Flecken sammeln; die Blattspindel meist verwerfen, nur die Fiederblättchen trocknen",
+      "Bestätiger: aromatischer Geruch beim Zerreiben + ganzrandige Fiederblättchen + wechselständige Anordnung",
+      "Klare Abgrenzung zum invasiven Götterbaum (Ailanthus): dessen Blätter riechen beim Zerreiben unangenehm (nach ranziger Nuss/Erdnuss) und tragen am Blättchengrund einige drüsige Zähne — nicht sammeln, Saft kann Hautreizungen auslösen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Götterbaum",
+      "scientific_name": "Ailanthus altissima",
+      "toxicity_level": "giftig",
+      "toxin": "Ailanthon/Quassinoide im Saft; Kontaktallergen (Blatt-/Rindensaft)",
+      "note": "Wichtigste Verwechslung — ebenfalls wechselständig gefiedert, aber Blätter deutlich größer (bis 60–90 cm) mit 11–25 Blättchen, die am Grund 1–4 drüsige Zähne tragen und beim Zerreiben UNANGENEHM riechen (Walnuss: aromatisch-würzig). Der Saft kann Kontaktdermatitis und Reizungen auslösen — nicht sammeln. Der Götterbaum treibt spät (erst ab Juni) aus und ist ein invasiver Neophyt."
+    },
+    {
+      "name": "Gemeine Esche",
+      "scientific_name": "Fraxinus excelsior",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nicht giftig, aber falsche Droge. Entscheidender Unterschied: Eschenblätter stehen GEGENSTÄNDIG (Walnuss wechselständig), die Fiederblättchen sind fein gesägt, und die Winterknospen sind samtschwarz. Kein Walnuss-Aroma beim Zerreiben."
+    },
+    {
+      "name": "Eberesche (Vogelbeere)",
+      "scientific_name": "Sorbus aucuparia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Harmlos, aber andere Pflanze. Fiederblättchen deutlich gesägt (Walnuss ganzrandig), 9–19 Stück, schmaler; kein aromatischer Geruch. Rohe Beeren reizen den Magen, spielen aber für die Blattsammlung keine Rolle."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für Walnussblätter existiert kein tödlich giftiger Doppelgänger. Das reale Risiko ist nicht tödliche Vergiftung, sondern das versehentliche Sammeln des invasiven Götterbaums (Kontaktdermatitis durch den Saft) oder einfach der falschen, unwirksamen Droge. Aromatischer Geruch + ganzrandige, wechselständige Fiederblättchen identifizieren die Walnuss zuverlässig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe (v. a. Ellagitannine) ~10 % — Träger der adstringierenden, entzündungshemmenden Oberflächenwirkung",
+      "Flavonoide (u. a. Hyperosid, Quercetin- und Kämpferol-Glykoside)",
+      "Naphthochinone (Juglon, überwiegend als Vorstufe Hydrojuglon-Glucosid; Juglon entsteht durch Oxidation und färbt bräunlich)",
+      "Phenolcarbonsäuren, Diarylheptanoide, Spuren ätherisches Öl"
+    ],
+    "lead_substance": "Ellagitannine (Gerbstoffe) — adstringierend, oberflächlich zusammenziehend und schweißhemmend; Juglon als charakteristisches, färbendes Naphthochinon",
+    "solubility_note": "Die adstringierenden Gerbstoffe sind wasserlöslich → für die äußerliche Anwendung wird eine Abkochung (Dekokt) angesetzt und als Umschlag, Waschung oder Teilbad verwendet. Keine sinnvolle innerliche Teeanwendung als Arzneimittel.",
+    "heat_light_sensitivity": "Gerbstoffe sind hitzestabil (Abkochung möglich); Juglon oxidations- und lichtempfindlich, deshalb Droge dunkel und trocken lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Die hohen Ellagitannin-Gehalte wirken adstringierend: sie fällen oberflächlich Proteine, verdichten die oberste Hautschicht, wirken dadurch entzündungshemmend, sekret- und schweißhemmend sowie leicht antimikrobiell. Daraus leiten sich die traditionellen äußerlichen Anwendungen (leichte Hautentzündungen, übermäßiges Schwitzen an Händen/Füßen) ab.",
+    "evidence_caveat": "Ausschließlich traditional use (langjährige Erfahrung), keine belastbaren kontrollierten klinischen Wirksamkeitsstudien. Die HMPC-Anwendung ist strikt ÄUSSERLICH; für eine innerliche Anwendung (z. B. gegen Würmer, 'Blutreinigung', Diabetes) gibt es keinen belastbaren Beleg. Primärquellen (EMA/HMPC, ESCOP) waren beim Erstellen nicht direkt abrufbar — Evidenzgrad TU aus Sekundärquellen (Kommission E, Arzneipflanzenlexika) abgeleitet, ärztliche Gegenprüfung nötig.",
+    "pharmacokinetics": "Für die äußerliche Anwendung nicht relevant; systemische Pharmakokinetik der Gerbstoffe/Juglon: unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Leichte oberflächliche Hautentzündungen (äußerlich)",
+      "synonyms": [
+        "Hautentzündung",
+        "leichte Entzündung der Haut",
+        "wunde Hautstellen",
+        "Hautreizung",
+        "entzündete Haut",
+        "Ekzem (leicht, begleitend)"
+      ],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC traditional use (Juglandis folium, 2013): 'zur Linderung leichter entzündlicher Hauterkrankungen' — ausschließlich äußerlich. Kommission E positiv (adstringierend, äußerlich bei leichten oberflächlichen Hautentzündungen). ESCOP-Monographie vorhanden.",
+      "realistic_expectation": "Mildernde, adstringierende Oberflächenwirkung bei leichten Hautreizungen als Umschlag/Waschung. Kein Ersatz für die Behandlung ausgedehnter, nässender oder infizierter Hauterkrankungen; nicht auf offene Wunden.",
+      "source": "HMPC traditional use (Juglandis folium, 2013); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Übermäßiges Schwitzen an Händen und Füßen (äußerlich)",
+      "synonyms": [
+        "Schwitzen",
+        "übermäßiges Schwitzen",
+        "Schweißhände",
+        "Schweißfüße",
+        "Hyperhidrose",
+        "feuchte Hände"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use: 'zur Verminderung übermäßigen Schwitzens an Händen und Füßen' — äußerlich als Teilbad/Waschung. Kommission E führt die schweißhemmende (adstringierende) Anwendung ebenfalls.",
+      "realistic_expectation": "Kann als adstringierendes Teilbad lokal das Schwitzen an Händen/Füßen mildern; wirkt symptomatisch und vorübergehend. Keine Behandlung einer generalisierten oder krankhaften Hyperhidrose.",
+      "source": "HMPC traditional use (Juglandis folium, 2013); Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Adstringierende äußerliche Anwendung (Umschlag, Waschung, Teilbad) bei leichten oberflächlichen Hautentzündungen und übermäßigem Schwitzen an Händen und Füßen — mild, symptomatisch, traditionell begründet.",
+    "overstated": "Innerliche Wirkungen wie 'Blutreinigung', Entwurmung, Senkung des Blutzuckers bei Diabetes oder Krebsvorbeugung sind nicht belegt. Der populäre Ruf der Walnussblätter als innerliches Allheilmittel geht weit über die belegte, rein äußerliche traditionelle Anwendung hinaus.",
+    "effect_size": "mild; rein äußerlich/symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Abkochung (Dekokt) der getrockneten Blätter für Umschläge, Waschungen und Teilbäder",
+      "Fertige Zubereitungen zur äußerlichen Anwendung"
+    ],
+    "form_rationale": "Die wirksamen Gerbstoffe sind wasserlöslich und hitzestabil → eine Abkochung ist die geeignete Form. Anwendung ausschließlich äußerlich (Kompresse/Bad), da nur die adstringierende Oberflächenwirkung belegt ist.",
+    "standard_dose": "Für Umschläge/Waschungen/Teilbäder ca. 4–6 g fein geschnittene getrocknete Blätter mit ~200 ml Wasser abkochen (ca. 10 Min.); 2–4× täglich äußerlich anwenden. Anwendungsdauer möglichst nicht länger als ~1 Woche; nicht auf offene Wunden oder großflächig geschädigte Haut.",
+    "preservation": "Getrocknete Blätter trocken, dunkel und luftdicht lagern; wegen des oxidations-/lichtempfindlichen Juglons zügig verbrauchen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Offene Wunden, nässende oder großflächig geschädigte Haut (keine Anwendung)",
+      "Bekannte Überempfindlichkeit gegen Walnuss/Walnussbestandteile",
+      "Keine belegte innerliche Anwendung als Arzneimittel"
+    ],
+    "pregnancy_lactation": "Für die arzneiliche Anwendung liegen keine ausreichenden Daten vor; in Schwangerschaft und Stillzeit nicht empfohlen (unsicher — zu prüfen). Die äußerliche Anwendung kleiner Flächen gilt als wenig bedenklich, ist aber nicht belegt.",
+    "adverse_effects": "Bei bestimmungsgemäßer äußerlicher Anwendung gut verträglich; bei längerer/ausgedehnter Anwendung kann die Gerbstoffwirkung die Haut austrocknen. Selten allergische Hautreaktionen. Juglon kann Haut und Wäsche bräunlich verfärben.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Rein äußerliche adstringierende Anwendung ohne relevante systemische Resorption",
+        "affected": "keine klinisch relevanten Arzneimittelinteraktionen bekannt",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": true,
+      "high_safety": false
+    },
+    "key_warning": "Nur äußerlich anwenden (Umschläge/Waschungen/Teilbäder), nicht auf offene Wunden oder großflächig geschädigte Haut und höchstens ~1 Woche; eine innerliche Anwendung ist nicht belegt. Beim Sammeln nicht mit dem invasiven Götterbaum (Ailanthus altissima) verwechseln — dessen Saft kann Kontaktdermatitis auslösen; der aromatische Geruch der zerriebenen Walnussblätter ist das sicherste Unterscheidungsmerkmal."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Frühsommer (Juni–Juli), voll entwickelte, gesunde grüne Blätter vor der Bräunung",
+    "harvest_month_tags": [
+      6,
+      7
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Gesunde Fiederblättchen abstreifen/pflücken; dicke Blattspindeln verwerfen",
+    "processing": "Rasch und luftig im Schatten trocknen (dünn ausbreiten), um Bräunung/Verderb zu vermeiden",
+    "storage": "Trocken, dunkel und luftdicht; wegen empfindlicher Inhaltsstoffe innerhalb ~1 Jahr verbrauchen"
+  },
+  "kitchen": {
+    "uses": [
+      "Walnussblatt spielt in der Küche kaum eine Rolle; verwendet wird die reife Nuss (Samen)",
+      "Unreife grüne Nüsse (nicht das Blatt) werden traditionell zu Likör/Nusswein oder eingelegt verarbeitet"
+    ],
+    "culinary_vs_medicinal": "Die kulinarische Nutzung betrifft die Nuss bzw. die grüne Fruchthülle, nicht das arzneiliche Blatt. Das Blatt (Juglandis folium) ist eine rein äußerlich verwendete Gerbstoffdroge."
+  },
+  "garden": {
+    "site_soil": "Tiefgründige, nährstoffreiche, kalkhaltige Böden in warmer, sonniger Lage; als Großbaum viel Platz nötig",
+    "hardiness": "Winterhart; Spätfröste können junge Triebe und Blüten schädigen",
+    "propagation": "Über Saat (Nuss) oder veredelte Sorten; keimt am Naturstandort leicht selbst",
+    "bodensee_suitability": "Gut geeignet — die wärmebegünstigte Bodenseeregion sagt der Walnuss zu; sie ist als Kultur- und Hofbaum verbreitet und verwildert. Zu bedenken: Juglon in Laub/Fruchthüllen kann das Wachstum darunter stehender Pflanzen hemmen (allelopathisch); als Großbaum raumgreifend."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Juglans regia L., folium (2013, EMA/HMPC/346737/2011) — traditional use, äußerlich (Primärquelle beim Erstellen nicht direkt abrufbar, aus Sekundärquellen belegt)",
+    "EMA/HMPC Assessment report / Walnut leaf summary for the public (Juglans regia folium)",
+    "ESCOP-Monographie Juglandis folium (Walnut leaf)",
+    "Kommission E Monographie Juglandis folium (adstringierend, äußerlich bei leichten oberflächlichen Hautentzündungen und übermäßigem Schwitzen)",
+    "Arzneipflanzen-Lexikon / PharmaWiki / AWL.ch — Inhaltsstoffe (Ellagitannine ~10 %, Juglon, Flavonoide), Dosierung Abkochung 4–6 g/200 ml, Abgrenzung Götterbaum"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schema_version": "1.0",
+  "id": "tilia-cordata",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Tilia cordata Mill.",
+    "common_names_de": [
+      "Winter-Linde",
+      "Winterlinde",
+      "Kleinblättrige Linde",
+      "Steinlinde",
+      "Linde (Lindenblüten)"
+    ],
+    "family": "Malvengewächse (Malvaceae), früher Lindengewächse (Tiliaceae)",
+    "drug_part": [
+      "Blüte (Flos)"
+    ],
+    "drug_name_latin": "Tiliae flos",
+    "synonyms": [
+      "Tilia parvifolia",
+      "Tilia ulmifolia",
+      "Tilia sylvestris"
+    ],
+    "synonym_note": "Tilia cordata Mill. ist der akzeptierte Name (frühere Synonyme: T. parvifolia Ehrh., T. ulmifolia Scop.). Die HMPC-Droge Tiliae flos stammt arzneilich gleichwertig von Tilia cordata Mill., Tilia platyphyllos Scop., Tilia × vulgaris Heyne (= T. × europaea) oder deren Mischungen. Die Familie Tiliaceae wird heute in die Malvaceae eingegliedert."
+  },
+  "identification": {
+    "key_features": [
+      "Blütenstand mit einem großen, häutig-zungenförmigen, hellgrünen Hochblatt (Braktee), das mit dem Blütenstiel verwachsen ist — nahezu unverwechselbares Erkennungsmerkmal der Lindenblüte",
+      "Blätter herzförmig, zugespitzt, gesägt, meist unsymmetrischer Blattgrund; bei der Winterlinde vergleichsweise klein (~3–6 cm) und unterseits blaugrün",
+      "Diagnostisch: in den Nervenwinkeln der Blattunterseite rostbraune Achselbärtchen (Sommerlinde: weißliche Achselbärte, größere Blätter)",
+      "Blüte Juni–Juli, gelblich-weiß, stark duftend, in hängenden bis aufrechten Trugdolden (Winterlinde 5–11 Blüten je Stand, mehr als die Sommerlinde)",
+      "Großer Laubbaum bis ~30 m mit rundlicher Krone; Früchte kleine, dünnschalige, kaum gerippte Nüsschen"
+    ],
+    "season": "Blüte Juni–Juli (Winterlinde blüht etwas später als die Sommerlinde); Sammlung zur Vollblüte",
+    "habitat": "In Laub- und Mischwäldern, an Hängen, als Allee-, Dorf- und Parkbaum weit verbreitet; anspruchslos, wärmeliebend, auf frischen bis mäßig trockenen Böden",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Ganze Blütenstände samt dem zungenförmigen Hochblatt zur Vollblüte (Juni–Juli) an trockenen Tagen ernten; nur voll aufgeblühte, unbeschädigte, nicht bräunliche Blüten",
+      "Bestätiger: das mit dem Blütenstiel verwachsene, häutige Hochblatt — fehlt es, ist es keine Lindenblüte",
+      "Nicht von der Silberlinde (Tilia tomentosa) sammeln (Blattunterseite silbrig-filzig) — sie gehört nicht zur offiziellen Droge; Sommer- und Winterlinde sowie deren Hybride sind dagegen gleichwertig verwendbar"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Sommer-Linde",
+      "scientific_name": "Tilia platyphyllos",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Keine Gefahr — arzneilich gleichwertig und Teil derselben HMPC-Droge Tiliae flos. Unterscheidung nur botanisch: größere Blätter, weißliche Achselbärtchen auf der Blattunterseite (Winterlinde: rostbraun), meist behaarte Blattoberseite, weniger Blüten je Stand, blüht ~2 Wochen früher."
+    },
+    {
+      "name": "Holländische Linde (Gewöhnliche Linde)",
+      "scientific_name": "Tilia × vulgaris (= Tilia × europaea)",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Hybride aus Winter- und Sommerlinde, ebenfalls offizinell und gleichwertig — häufigster Alleebaum. Merkmale intermediär. Keine Gefahr."
+    },
+    {
+      "name": "Silber-Linde",
+      "scientific_name": "Tilia tomentosa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nicht die offizielle Droge — deshalb nicht sammeln. Kenntlich an der silbrig-weißfilzig behaarten Blattunterseite. Für den Menschen nicht als giftig belegt, ihr Nektar gilt aber für Hummeln/Bienen als (vermutlich) unbekömmlich. Zur Teegewinnung nur Winter-, Sommer- und Gewöhnliche Linde verwenden."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für die Lindenblüte existiert kein tödlich giftiger Doppelgänger. Das mit dem Blütenstiel verwachsene, häutig-zungenförmige Hochblatt macht die Droge nahezu unverwechselbar; kein anderer heimischer Baum bildet zur Blütezeit einen vergleichbaren Blütenstand. Die einzige relevante 'Verwechslung' ist die botanisch nahe Silberlinde, die man einfach meidet."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide >1 % (u. a. Quercetin- und Kämpferol-Glykoside, Tilirosid) — antioxidativ, mitbestimmend für die Wirkung",
+      "Schleimstoffe ca. 3–10 % (Arabinogalactane) — reizlindernd bei Hustenreiz und Halskratzen",
+      "Ätherisches Öl (u. a. mit Farnesol, Linalool, Geraniol) — Träger des typischen Dufts",
+      "Gerbstoffe und Phenolcarbonsäuren"
+    ],
+    "lead_substance": "Flavonoide + Schleimstoffe — die Schleimstoffe wirken reizlindernd (demulzent), die Flavonoide antioxidativ; die schweißtreibende Wirkung ist keiner Einzelsubstanz zuzuordnen",
+    "solubility_note": "Flavonoide und Schleimstoffe sind wasserlöslich → der heiße Aufguss (Tee) ist die sinnvolle Zubereitung. Für die 'Schwitzkur' wird der Tee möglichst heiß getrunken.",
+    "heat_light_sensitivity": "Aufguss mit heißem Wasser üblich; Schleimstoffe und ätherisches Öl sind hitzeempfindlich, daher zugedeckt ziehen lassen und nicht kochen. Getrocknete Droge licht- und feuchtigkeitsgeschützt lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Reizlindernde (demulzente) Wirkung der Schleimstoffe auf gereizte Rachen-/Atemwegsschleimhäute lindert Hustenreiz; traditionell zusätzlich schweißtreibende (diaphoretische) Anwendung bei fieberhaften Erkältungen, meist als heiße 'Schwitzkur'. Die Flavonoide wirken antioxidativ.",
+    "evidence_caveat": "Nur traditional use — keine belastbaren kontrollierten klinischen Wirksamkeitsstudien. WICHTIG: Ob Lindenblüten tatsächlich schweißtreibend wirken, ist umstritten; ein für die Diaphorese verantwortlicher Inhaltsstoff wurde bislang NICHT identifiziert — der Schwitzeffekt beruht wohl wesentlich auf der heiß getrunkenen Flüssigkeit. Primärquellen (EMA/HMPC, ESCOP) waren beim Erstellen nicht direkt abrufbar — Evidenzgrad TU aus Sekundärquellen (Kommission E, Arzneipflanzenlexika) abgeleitet, ärztliche Gegenprüfung nötig.",
+    "pharmacokinetics": "unsicher — zu prüfen (keine belastbaren Humandaten)"
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung von Erkältungsbeschwerden",
+      "synonyms": [
+        "Erkältung",
+        "grippaler Infekt",
+        "Husten",
+        "Reizhusten",
+        "Halsschmerzen",
+        "Halskratzen",
+        "Schnupfen",
+        "fieberhafter Infekt"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use (Tiliae flos): 'zur Linderung der Symptome einer Erkältung'. Kommission E führt Lindenblüten bei Erkältungskrankheiten und damit verbundenem Husten.",
+      "realistic_expectation": "Reizlinderung bei Erkältungshusten und Halskratzen; als wohltuender, wärmender Tee sinnvoll. Lindert Symptome, verkürzt aber den Infekt nicht und ersetzt bei hohem/anhaltendem Fieber keine ärztliche Behandlung.",
+      "source": "HMPC traditional use (Tiliae flos); Kommission E"
+    },
+    {
+      "canonical": "Schweißtreibende Anwendung bei fieberhafter Erkältung ('Schwitzkur')",
+      "synonyms": [
+        "schweißtreibend",
+        "Schwitzkur",
+        "Fieber",
+        "Erkältungsfieber",
+        "diaphoretisch"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Anwendung (Kommission E) als schweißtreibendes Mittel; der Effekt ist umstritten und keiner Leitsubstanz zuzuordnen.",
+      "realistic_expectation": "Der als heiße 'Schwitzkur' getrunkene Tee kann das Schwitzen fördern — vermutlich vor allem durch Wärme und Flüssigkeit, nicht durch einen spezifischen Wirkstoff. Angenehm-unterstützend, kein belegter fiebersenkender Effekt; ausreichend trinken und warm halten.",
+      "source": "Kommission E; traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, sehr gut verträgliches Erkältungsmittel: reizlindernder Tee bei Erkältungshusten und Halskratzen, traditionell als wärmende 'Schwitzkur' bei fieberhaften Infekten.",
+    "overstated": "Eine echte schweißtreibende oder fiebersenkende Arzneiwirkung ist nicht belegt — der Schwitzeffekt geht wohl auf das heiße Getränk zurück. Lindenblüten 'heilen' keine Grippe und wirken nicht nachweislich beruhigend/schlaffördernd im Sinne eines Sedativums (populäre Zuschreibung ohne belastbaren Beleg).",
+    "effect_size": "mild; symptomatisch/reizlindernd"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Teeaufguss der getrockneten Blütenstände",
+      "Bestandteil von Erkältungs- und Husten-Teemischungen"
+    ],
+    "form_rationale": "Die wirksamen Schleim- und Flavonoidbestandteile sind wasserlöslich → der Aufguss ist die geeignete Form; für die 'Schwitzkur' wird er möglichst heiß getrunken. Zugedeckt ziehen lassen, um ätherisches Öl und Schleimstoffe zu schonen.",
+    "standard_dose": "Aufguss aus ca. 2–4 g getrockneten Lindenblüten je Tasse mit heißem Wasser, zugedeckt ~5–10 Min. ziehen lassen; 2–4× täglich möglichst heiß trinken (Tagesmenge ~4–6 g Droge). Bei fieberhafter Erkältung als Schwitzkur, danach Ruhe/Wärme.",
+    "preservation": "Getrocknete Blüten trocken, dunkel und luftdicht aufbewahren; innerhalb ~1 Jahr verbrauchen (Aroma- und Wirkstoffverlust)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Lindenblüten",
+      "Keine spezifischen Kontraindikationen bekannt; bei anhaltendem hohem Fieber, Atemnot oder Beschwerden >1 Woche ärztliche Abklärung statt Selbstbehandlung"
+    ],
+    "pregnancy_lactation": "Als traditionelles Erkältungsmittel gilt Lindenblütentee in üblichen Mengen als wenig bedenklich; für die gezielte arzneiliche Anwendung fehlen jedoch ausreichende Daten, daher nur nach Rücksprache (unsicher — zu prüfen).",
+    "adverse_effects": "Sehr gut verträglich; allergische Reaktionen sind selten. Größere Mengen können — wie andere Erkältungstees — gelegentlich Magen-Darm-Beschwerden verursachen.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten pharmakokinetischen oder -dynamischen Interaktionen bekannt",
+        "affected": "keine",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Sehr sicheres, mildes Erkältungsmittel; die 'schweißtreibende' Wirkung ist nicht belegt und beruht wohl auf dem heißen Getränk. Kein Ersatz für ärztliche Behandlung bei hohem/anhaltendem Fieber, Atemnot oder Beschwerden über eine Woche. Das mit dem Blütenstiel verwachsene, zungenförmige Hochblatt sichert die Bestimmung — nur Winter-, Sommer- und Gewöhnliche Linde sammeln, nicht die Silberlinde."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Vollblüte im Juni–Juli, an trockenen Tagen",
+    "harvest_month_tags": [
+      6,
+      7
+    ],
+    "harvest_organ": "Blüte",
+    "method": "Ganze Blütenstände mit dem Hochblatt abschneiden/pflücken, sobald voll aufgeblüht und noch hell",
+    "processing": "Luftig im Schatten dünn ausgebreitet trocknen (nicht in praller Sonne), bis rascheltrocken; Braunfärbung vermeiden",
+    "storage": "Trocken, dunkel, luftdicht; innerhalb ~1 Jahr verbrauchen"
+  },
+  "kitchen": {
+    "uses": [
+      "Lindenblütentee als wohlschmeckendes, duftendes Alltagsgetränk",
+      "Getrocknete Blüten als Aromakomponente in Kräuterteemischungen; Lindenblütenhonig ist ein Bienenprodukt, kein Küchenrezept"
+    ],
+    "culinary_vs_medicinal": "Als milder Genusstee ist Lindenblüte unbedenklich; die 'medizinische' Anwendung (Schwitzkur bei Erkältung) nutzt denselben Aufguss gezielt heiß und in etwas größerer Menge. Die Grenze ist fließend, das Sicherheitsprofil in beiden Fällen günstig."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig bis halbschattig, frische, nährstoffreiche, tiefgründige Böden; verträgt Schnitt gut",
+    "hardiness": "Vollkommen winterhart (heimisch)",
+    "propagation": "Über Samen (Kaltkeimer, Keimung oft verzögert), Ableger/Stockausschlag oder Veredelung",
+    "bodensee_suitability": "Sehr gut geeignet und heimisch — klassischer Dorf-, Allee- und Hausbaum der Region und wichtige Bienenweide. Zu bedenken: Großbaum mit erheblichem Platzbedarf; Blattläuse können 'Honigtau' (klebrige Beläge) verursachen. Für kleine Gärten nur als geschnittene Form."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Tilia cordata Mill., Tilia platyphyllos Scop., Tilia × vulgaris Heyne or their mixtures, flos — traditional use (Erkältungsbeschwerden); Primärquelle beim Erstellen nicht direkt abrufbar, aus Sekundärquellen belegt",
+    "Kommission E Monographie Tiliae flos (Erkältungskrankheiten und damit verbundener Husten; schweißtreibend)",
+    "PharmaWiki / Arzneipflanzen-Lexikon / AWL.ch — Inhaltsstoffe (Flavonoide >1 %, Schleimstoffe/Arabinogalactane, ätherisches Öl), Dosierung Aufguss 2–4 g, Hinweis zur umstrittenen diaphoretischen Wirkung",
+    "Botanische Bestimmungsquellen (LWF Bayern, Baumkunde) — Unterscheidung Winter-/Sommer-/Silberlinde (Achselbärtchen, Blattunterseite, Hochblatt)"
+  ]
+}

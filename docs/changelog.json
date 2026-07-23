@@ -559,6 +559,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Wunschliste). KEINE Heilpflanze im heutigen Sinn: weder HMPC noch ESCOP noch Kommission E; die einzige indications-Zeile dokumentiert nur die obsolete historische Rindenanwendung (TRAD, ausdruecklich ohne Anwendungsempfehlung). Sicherheitskern ist NICHT Giftigkeit (die Platane ist fuer den Menschen ungiftig), sondern (1) die mechanisch reizenden Sternhaare/Trichome von Blaettern, Knospen und zerfallenden Fruchtkugeln — 'Platanenhusten' mit Atemwegs-, Augen- und Hautreizung, v. a. Fruehsommer und bei Baumpflege — und (2) das Pollenallergen Pla a 1. Bestimmungsfalle: wird staendig fuer Ahorn gehalten; sicheres Merkmal ist die WECHSELSTAENDIGE Blattstellung (Ahorn gegenstaendig) plus abblaetternde Tarnfleck-Rinde und haengende Fruchtkugeln."
+    },
+    {
+      "ts": "2026-07-23T13:00:00Z",
+      "id": "juglans-regia",
+      "common": "Walnuss",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat). Arzneidroge ist das BLATT (Juglandis folium), Anwendung strikt AEUSSERLICH: HMPC traditional use (2013) fuer leichte oberflaechliche Hautentzuendungen und uebermaessiges Schwitzen an Haenden/Fuessen, gestuetzt auf ~10 % Ellagitannine (adstringierend); Kommission E positiv. flags.topical_only gesetzt — innerliche Anwendung (Entwurmung, 'Blutreinigung', Diabetes) ist NICHT belegt. Sicherheitsrelevante Verwechslung: der invasive Goetterbaum (Ailanthus altissima), ebenfalls wechselstaendig gefiedert, dessen Saft Kontaktdermatitis ausloest — sicherstes Feldmerkmal ist der aromatische Geruch der zerriebenen Walnussblaetter (Ailanthus riecht unangenehm) und die ganzrandigen Fiederblaettchen."
+    },
+    {
+      "ts": "2026-07-23T13:05:00Z",
+      "id": "tilia-cordata",
+      "common": "Winterlinde",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat). Droge Tiliae flos (Bluete), HMPC traditional use zur Linderung von Erkaeltungsbeschwerden; Kommission E zusaetzlich bei Erkaeltungshusten und schweisstreibend. WICHTIG fuer die Erwartung: die diaphoretische ('schweisstreibende') Wirkung ist UMSTRITTEN — kein verantwortlicher Inhaltsstoff identifiziert, der Effekt beruht wohl auf dem heiss getrunkenen Tee; daher zweite Indikation nur TRAD. Wirkprinzip: Schleimstoffe (reizlindernd) + Flavonoide. Sehr hohes Sicherheitsprofil (flags.high_safety): kein toedlicher Doppelgaenger, das mit dem Bluetenstiel verwachsene zungenfoermige Hochblatt macht die Bluete nahezu unverwechselbar. Droge gleichwertig von T. cordata, T. platyphyllos, T. x vulgaris — NICHT von der Silberlinde (T. tomentosa) sammeln."
     }
   ]
 }
