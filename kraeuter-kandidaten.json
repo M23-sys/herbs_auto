@@ -671,8 +671,8 @@
       "latin": "Rosa canina",
       "tier": 4,
       "reason": "Hagebutte, Vitamin C, Arthrose (Galaktolipid)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-hunds-rose.json"
     },
     {
       "id": "prunus-spinosa",
@@ -680,8 +680,8 @@
       "latin": "Prunus spinosa",
       "tier": 4,
       "reason": "Blüte/Frucht; Blausäure in Samen",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-schlehe.json"
     },
     {
       "id": "vaccinium-myrtillus",

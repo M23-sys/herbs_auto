@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "id": "rosa-canina",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Rosa canina L.",
+    "common_names_de": ["Hunds-Rose", "Hundsrose", "Heckenrose", "Wilde Rose", "Hagebutte (Frucht)", "Hagerose"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Hagebuttenschalen ohne Nüsschen (Rosae pseudofructus sine fructibus)", "Ganze Sammelfrucht mit Nüsschen (Rosae pseudofructus cum fructibus)", "Nüsschen/Kerne (Rosae fructus/semen)"],
+    "drug_name_latin": "Rosae pseudofructus (cum/sine fructibus)",
+    "synonyms": ["Rosa lutetiana Léman"],
+    "synonym_note": "Rosa canina L. ist der aktuell akzeptierte Name. Die Art gehört zur taxonomisch schwierigen Sektion Caninae (Hundsrosen) mit vielen kaum trennbaren Kleinarten/Mikrospezies und Hybriden; im Handel und in Monographien werden Hagebutten mehrerer Rosa-Wildarten (u. a. R. canina, R. pendulina, R. rubiginosa) gemeinsam als Rosae pseudofructus geführt. Die botanische Bezeichnung 'Hagebutte' meint die Sammelfrucht (Scheinfrucht), nicht eine eigene Art."
+  },
+  "identification": {
+    "key_features": [
+      "Kräftige, breit ausladende Kletterrose (1–3 m) mit derben, sichel-/hakenförmig gekrümmten Stacheln an den Trieben — die Hakenform ist ein sicherer Bestätiger gegenüber borstig-vielstacheligen Rosen.",
+      "Blüten einfach, fünfzählig, blass-rosa bis fast weiß, 4–6 cm Durchmesser, nur schwach duftend, Juni–Juli.",
+      "Blätter unpaarig gefiedert mit 5–7 (meist unbehaarten) gesägten Fiederblättchen; Nebenblätter mit dem Blattstiel verwachsen.",
+      "Frucht (Hagebutte) glänzend scharlachrot, eiförmig bis kugelig, 1,5–3 cm, mit abfallenden Kelchblättern; reift ab September; innen zahlreiche harte Nüsschen zwischen steifen, hautreizenden Härchen ('Juckhaare', Juckpulver).",
+      "Kelchblätter der Hagebutte fallen bei R. canina zur Reife ab und hinterlassen eine kahle Scheibe (Unterscheidung zu einigen anderen Wildrosen, bei denen sie stehen bleiben)."
+    ],
+    "season": "Blüte Juni–Juli; Hagebuttenreife September–November (Aroma und Süße nehmen nach dem ersten Frost zu)",
+    "habitat": "Hecken, Waldränder, Gebüsche, Böschungen, Weg- und Feldraine, magere bis mäßig nährstoffreiche Standorte; sonnig; sehr anpassungsfähig",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: einfache fünfzählige rosa Blüte bzw. glänzend scharlachrote, längliche Hagebutte mit abgefallenen Kelchblättern UND haken-/sichelförmige Stacheln UND gefiederte Blätter — zusammen eindeutig eine Wildrose (alle heimischen Wildrosen-Hagebutten sind essbar).",
+      "Hagebutten nach dem ersten Frost oder nach dem Weichwerden ernten; Fruchtfleisch verwenden, Nüsschen und die feinen Härchen sorgfältig entfernen (Hautreiz/Juckpulver).",
+      "Keine Verwechslung mit giftigen roten Früchten (z. B. Zaunrübe, Geißblatt): Hagebutte ist eine trockene, ledrig-fleischige Sammelfrucht mit vielen harten Nüsschen im Inneren, sitzt an bestacheltem Rosenstrauch mit gefiederten Blättern."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Andere heimische Wildrosen (z. B. Wein-Rose, Alpen-Hecken-Rose, Filz-Rose)",
+      "scientific_name": "Rosa rubiginosa, Rosa pendulina, Rosa tomentosa u. a.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Sehr ähnliche, ebenfalls essbare Hagebutten; unterscheidbar u. a. an Drüsenbehaarung (Wein-Rose: apfelduftende Blattdrüsen), Stachelform und ob die Kelchblätter an der Frucht stehen bleiben. Für die Küche/Teenutzung praktisch unproblematisch, da alle Wildrosen-Hagebutten verwendbar sind. Für die Pl@ntNet-Zuordnung kann die Kleinart abweichen."
+    },
+    {
+      "name": "Weißdorn",
+      "scientific_name": "Crataegus monogyna / laevigata",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls roter, herbstlicher Fruchtschmuck an dornigem Heckenstrauch, aber Weißdornfrüchte sind mehlige Apfelfrüchte mit 1–3 Steinkernen (nicht Nüsschen zwischen Härchen), Blätter gelappt (nicht gefiedert), Dornen sind echte Sprossdornen. Weißdorn ist ungiftig; andere Droge (Herz-Kreislauf)."
+    },
+    {
+      "name": "Hundsbeere/Zaunrübe, Geißblatt und andere giftige rote Beeren (Fernverwechslung)",
+      "scientific_name": "Bryonia dioica, Lonicera xylosteum u. a.",
+      "toxicity_level": "giftig",
+      "toxin": "Cucurbitacine (Zaunrübe), Xylostein/Saponine (Rote Heckenkirsche)",
+      "note": "Nur aus der Ferne verwechselbar: das sind glatte, saftige Beeren an KRAUTIGEN Kletterpflanzen bzw. an Sträuchern mit ungeteilten Blättern und ohne Rosenstacheln. Die Hagebutte ist die ledrige Sammelfrucht der bestachelten Wildrose mit gefiederten Blättern und harten Nüsschen im Inneren — nur so bestimmte Früchte sammeln."
+    },
+    {
+      "name": "Keine giftige Verwechslung bei sicherer Rosenbestimmung",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ist der Strauch als bestachelte Wildrose mit fünfzähliger einfacher Blüte und gefiederten Blättern erkannt, gibt es keinen giftigen Doppelgänger — alle heimischen Wildrosen-Hagebutten sind essbar. Das eigentliche Risiko ist mechanisch: die feinen Härchen im Inneren wirken als Juckpulver (Haut-/Schleimhautreiz) und müssen entfernt werden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Vitamin C (Ascorbinsäure) hoch: bis ~2,4 % in den Schalen, dazu ~10 % Dehydroascorbinsäure — jedoch hitze- und lagerungsempfindlich",
+      "Galaktolipide, v. a. GOPO ((2S)-1,2-di-O-[(9Z,12Z,15Z)-octadeca-9,12,15-trienoyl]-3-O-β-D-galactopyranosyl-glycerol) — entzündungshemmender Leitstoff des standardisierten Pulvers",
+      "Fruchtsäuren, Pektine, Gerbstoffe, Carotinoide (Lycopin, β-Carotin, Rubixanthin), Flavonoide, Zucker"
+    ],
+    "lead_substance": "Für die volkstümliche Nutzung: Vitamin C (Nährstoff, mild). Für die entzündungshemmende/schmerzlindernde Wirkung bei Arthrose: das Galaktolipid GOPO aus standardisiertem, schonend getrocknetem Fruchtpulver — hemmt in vitro die Chemotaxis neutrophiler Granulozyten.",
+    "solubility_note": "Vitamin C, Fruchtsäuren, Pektine und Gerbstoffe sind wasserlöslich und gehen in den Tee/Aufguss über. Das lipophile GOPO steckt im ganzen (fett-/schalenhaltigen) Fruchtpulver — es ist im wässrigen Aufguss kaum enthalten. Deshalb: für die Vitamin-C-/Erkältungsnutzung Tee, für die Arthrose-Nutzung standardisiertes Pulver (Kapseln), nicht Tee.",
+    "heat_light_sensitivity": "Vitamin C zerfällt bei Hitze, Licht und langer Lagerung deutlich; Aufguss nicht lange kochen, Droge trocken und dunkel lagern und binnen eines Jahres verbrauchen. Carotinoide und GOPO sind stabiler."
+  },
+  "pharmacology": {
+    "mechanism": "Galaktolipide (GOPO) hemmen die Migration/Chemotaxis von Leukozyten ins Gelenk und wirken so mild antiphlogistisch; Vitamin C als Antioxidans und Kofaktor der Kollagensynthese; Gerbstoffe adstringierend, Fruchtsäuren/Pektine mild. Antioxidative und schwach entzündungshemmende Effekte sind in vitro und tierexperimentell belegt.",
+    "evidence_caveat": "Die Arthrose-Wirkung ist nur für standardisierte Hagebuttenpulver-Präparate (Nahrungsergänzung, z. B. GOPO-standardisiert) in Studien untersucht — NICHT für selbst gekochten Tee, Mus oder Marmelade. Die Meta-Analyse (Christensen 2008, 3 RCTs, 287 Patienten) zeigte nur einen kleinen bis moderaten, kurzfristigen (3–4 Monate) schmerzlindernden Effekt. Für Erkältungs-/Durchspülungsnutzung fehlen belastbare klinische Belege; Kommission E gab keine positive Bewertung (Null-Monographie). HMPC hat Rosae pseudofructus nicht bearbeitet. Unsicher — ärztlich zu prüfen.",
+    "pharmacokinetics": "Vitamin C wird im Dünndarm resorbiert, Aufnahme sättigbar; Überschuss renal ausgeschieden. Humanpharmakokinetik von GOPO nicht belastbar publiziert — unsicher, zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung von Gelenkschmerzen bei Arthrose (Knie, Hüfte, Hand)",
+      "synonyms": ["Arthrose", "Gelenkverschleiß", "Gelenkschmerzen", "steife Gelenke", "Knieschmerzen", "Hüftschmerzen"],
+      "evidence_tag": "RCT",
+      "comment": "Evidenz aus RCTs/Meta-Analyse (Christensen et al., Osteoarthritis Cartilage 2008) — betrifft standardisiertes Hagebuttenpulver (Nahrungsergänzungsmittel), nicht Tee. Kein HMPC-Status, kein arzneilicher Wirksamkeitsanspruch in D.",
+      "realistic_expectation": "Standardisiertes Hagebuttenpulver kann Arthroseschmerzen kleiner bis moderat und kurzfristig (über 3–4 Monate) lindern und ggf. Schmerzmittel etwas einsparen — es stoppt den Gelenkverschleiß NICHT und ersetzt keine leitliniengerechte Therapie. Selbst gekochter Hagebuttentee/-mus hat diesen Effekt nicht (GOPO ist kaum wasserlöslich).",
+      "source": "Christensen R et al. Osteoarthritis Cartilage 2008 (Meta-Analyse, 3 RCTs); Winther/Larsen (GOPO-Isolierung); ESCOP; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Unterstützung bei Erkältungen und als Vitamin-C-Quelle",
+      "synonyms": ["Erkältung", "grippaler Infekt", "Immunstärkung", "Vitamin C", "Frösteln", "Abwehr stärken"],
+      "evidence_tag": "ESCOP+",
+      "comment": "ESCOP führt Rosae pseudofructus (u. a. als milde Vitamin-C-Quelle/adjuvant); HMPC nicht bearbeitet; Kommission E ohne positive Bewertung. Populäre, aber klinisch schwach belegte Anwendung.",
+      "realistic_expectation": "Als aromatischer, Vitamin-C-haltiger Tee mild unterstützend und als Getränk sinnvoll — ein Beleg, dass Hagebuttentee Erkältungen verkürzt oder verhindert, fehlt. Der Vitamin-C-Gehalt sinkt zudem durch Trocknung, Lagerung und Kochen erheblich.",
+      "source": "ESCOP-Monographie Rosae pseudofructus; traditionelle Anwendung; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Traditionell bei leichtem Durchfall und zur Durchspülung",
+      "synonyms": ["Durchfall", "Verdauung", "leichte Magen-Darm-Beschwerden", "Durchspülung", "harntreibend"],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Anwendung: Gerbstoffe der Schalen adstringierend, Fruchtsäuren mild harntreibend. Keine regulatorische Bestätigung.",
+      "realistic_expectation": "Mild und symptomatisch; kein belegter Effekt über den allgemeinen Nutzen eines gerbstoffhaltigen Tees hinaus. Bei anhaltendem Durchfall ärztlich abklären.",
+      "source": "Traditionelle/volksmedizinische Anwendung; recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Sehr sichere, vitamin-C-reiche Wild- und Küchenfrucht mit mildem, angenehmem Erkältungstee. Für Arthroseschmerzen gibt es echte, wenn auch nur kleine bis moderate Studienevidenz — aber NUR für standardisiertes Hagebuttenpulver.",
+    "overstated": "Der 'Superfood'- und 'Arthrose-Wunder'-Ruf ist überzogen: (1) Der Schmerzeffekt gilt für standardisiertes GOPO-Pulver, NICHT für Tee, Mus oder Marmelade, und ist klein bis moderat, nicht heilend. (2) Der hohe Vitamin-C-Gehalt schrumpft durch Trocknen/Kochen/Lagern deutlich. (3) Kommission E hat keine positive Bewertung abgegeben, HMPC hat die Frucht nicht als Arzneimittel geführt.",
+    "effect_size": "mild (Tee/Vitamin C); klein bis moderat und symptomatisch (standardisiertes Pulver bei Arthrose)"
+  },
+  "preparation": {
+    "recommended_forms": ["Standardisiertes Hagebuttenpulver / Kapseln (für Arthrose)", "Aufguss/Tee aus Hagebuttenschalen (Vitamin C, Erkältung)", "Mus, Marmelade, Sirup (Küche)"],
+    "form_rationale": "Zwei getrennte Wege aus der Chemie: Das entzündungshemmende GOPO ist lipophil und im Tee kaum vorhanden — für die Gelenkwirkung braucht es das ganze, schonend getrocknete, standardisierte Fruchtpulver. Für Vitamin C und Aroma reicht der wässrige Aufguss der Schalen; er ist aber kein Arthrosemittel.",
+    "standard_dose": "Standardisiertes Pulver in Studien meist ~5 g/Tag (Hersteller-/Studienangabe beachten). Tee: 2–3 g zerkleinerte Hagebuttenschalen pro Tasse mit heißem Wasser übergießen, 10–15 min ziehen lassen, mehrmals täglich. Genaue Dosierung produktabhängig — unsicher, zu prüfen.",
+    "preservation": "Nach der Ernte rasch und schonend trocknen (Vitamin-C-Erhalt), Nüsschen/Härchen entfernen; trocken, dunkel, luftdicht lagern und binnen eines Jahres verbrauchen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Hagebutte/Rosengewächse",
+      "Nüsschen und die feinen Härchen nicht verzehren (mechanischer Haut-/Schleimhautreiz — 'Juckpulver')"
+    ],
+    "pregnancy_lactation": "Als Lebensmittel (Tee, Mus, Marmelade) in üblichen Mengen unbedenklich. Für hochdosiertes standardisiertes Pulver in Schwangerschaft/Stillzeit liegen keine ausreichenden Daten vor — vorsichtshalber ärztlich abklären. Unsicher — zu prüfen.",
+    "adverse_effects": "Sehr gut verträglich. Selten leichte Magen-Darm-Beschwerden/weicher Stuhl bei hohen Mengen (Fruchtsäuren, Vitamin C). Die Fruchthärchen reizen Haut und Schleimhäute mechanisch. Sehr selten allergische Reaktionen.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Hohe Vitamin-C-Zufuhr kann die Eisenaufnahme steigern und theoretisch Laborwerte/Oxalatbildung beeinflussen; klinisch bei üblicher Nahrungsaufnahme unbedeutend",
+        "affected": "Eisenpräparate (verstärkte Aufnahme); bei Neigung zu Oxalatsteinen sehr hohe Dosen meiden",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Sehr sichere Frucht — aber die entzündungshemmende Arthrose-Wirkung gilt nur für standardisiertes Hagebuttenpulver, NICHT für Tee/Marmelade; und die feinen Härchen im Fruchtinneren sind ein Hautreiz ('Juckpulver') und gehören nicht in die Zubereitung."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten Juni–Juli; Hagebutten September–November, für Küche/Aroma nach dem ersten Frost",
+    "harvest_month_tags": [9, 10, 11],
+    "harvest_organ": "Frucht (Hagebutte); ggf. Blüte",
+    "method": "Reife, glänzend rote Hagebutten von der bestachelten Wildrose pflücken (Handschuhe wegen Stacheln); halbieren, Nüsschen und Härchen entfernen.",
+    "processing": "Fruchtfleisch schonend trocknen oder frisch zu Mus/Marmelade/Sirup verarbeiten; für Tee die getrockneten Schalen zerkleinern. Rasches, nicht zu heißes Trocknen erhält Vitamin C.",
+    "storage": "Getrocknete Schalen trocken, dunkel und luftdicht lagern; Vitamin-C-Gehalt nimmt mit der Lagerzeit ab, innerhalb eines Jahres verbrauchen."
+  },
+  "kitchen": {
+    "uses": ["Hagebuttenmus und -marmelade ('Hiffenmark')", "Hagebuttensuppe", "Sirup, Likör, Fruchtsaft", "Hagebuttentee (Vitamin C)"],
+    "culinary_vs_medicinal": "Kulinarisch ist die Hagebutte eine geschätzte, vitamin-C-reiche Wildfrucht (Mus, Suppe, Tee). Medizinisch relevant im engeren Sinn ist v. a. das standardisierte Pulver bei Arthrose — dieses ist ein Nahrungsergänzungsmittel und nicht mit selbst gekochtem Mus gleichzusetzen. Nüsschen und Härchen immer entfernen."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; sonnig, in nahezu jedem durchlässigen Gartenboden, auch mager und kalkhaltig.",
+    "hardiness": "Voll winterhart, robust, ausschlagfreudig; wird als Hecken- und Vogelschutzgehölz genutzt.",
+    "propagation": "Aussaat (Kaltkeimer, Keimung oft erst im 2. Jahr), Ausläufer/Wurzelbrut, Steckhölzer.",
+    "bodensee_suitability": "Sehr gut geeignet — in der Region an Hecken, Waldrändern und Böschungen natürlicherweise häufig; als dornige Wildhecke ideal, kann aber durch Wurzelbrut ausbreiten."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Bestachelte Wildrose mit blassrosa fünfzähligen Blüten bzw. scharlachroten Hagebutten in der Hecke", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Haken-/sichelförmige Stacheln und gefiederte Blätter; halbierte Hagebutte mit Nüsschen und feinen Härchen im Inneren", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "ESCOP-Monographie Rosae pseudofructus (Hagebutte) — positive Bewertung/traditionelle und ernährungsbezogene Anwendung; Primärseite escop.com via WebFetch nicht erreichbar (HTTP 403), Inhalt über mehrere übereinstimmende Sekundärquellen; ärztliche Gegenprüfung des Evidenzgrades empfohlen (recherchiert 2026-07)",
+    "EMA/HMPC: Rosae pseudofructus wurde nicht als Herbal Monograph bearbeitet (HMPC führt nur Rosenblütenblätter Rosa gallica/centifolia/damascena flos); Kommission E: Null-/keine positive Monographie für Hagebutte (recherchiert 2026-07)",
+    "Christensen R, Bartels EM, Altman RD et al. 'Does the hip powder of Rosa canina (rosehip) reduce pain in osteoarthritis patients?' Osteoarthritis Cartilage 2008 — Meta-Analyse, 3 RCTs, 287 Patienten, kleiner bis moderater, kurzfristiger Schmerzeffekt (Sekundärquellen, recherchiert 2026-07)",
+    "Inhaltsstoffe (Vitamin C bis ~2,4 %, Galaktolipid GOPO, Gerbstoffe, Fruchtsäuren, Carotinoide): arzneipflanzenlexikon.info, Altmeyers Enzyklopädie (Rosae pseudo-fructus), greenic/Thieme naturheilkundliche Sekundärquellen (recherchiert 2026-07)",
+    "Botanik/Bestimmung/Ernte/Juckhaare/Verwechslungen (hakenförmige Stacheln, gefiederte Blätter, Kelchblätter fallen ab, Ernte nach Frost, Nüsschen als Juckpulver, Abgrenzung Weißdorn/giftige rote Beeren): baumkunde.de, garten-wissen.com, pflanzen-vielfalt.net, gartenexperten-Sekundärquellen (recherchiert 2026-07)"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "id": "prunus-spinosa",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Prunus spinosa L.",
+    "common_names_de": ["Schlehe", "Schlehdorn", "Schwarzdorn", "Heckendorn", "Deichelbeere"],
+    "family": "Rosengewächse (Rosaceae)",
+    "drug_part": ["Blüten (Pruni spinosae flos)", "Früchte/Fruchtfleisch (Pruni spinosae fructus)"],
+    "drug_name_latin": "Pruni spinosae flos; Pruni spinosae fructus",
+    "synonyms": [],
+    "synonym_note": "Prunus spinosa L. ist der akzeptierte Name. Zahlreiche Kultur- und Naturhybriden mit der Pflaume (Prunus × fruticans = P. spinosa × P. domestica, 'Haferschlehe') sind bekannt und in der Frucht ebenfalls essbar."
+  },
+  "identification": {
+    "key_features": [
+      "Blüht auffällig VOR dem Laubaustrieb (März–April): der Strauch ist dann dicht weiß überschneit, an noch kahlen, dunklen Zweigen — sicherstes Erkennungsmerkmal gegenüber dem später (mit Laub) blühenden Weißdorn.",
+      "Sparriger, undurchdringlicher Strauch (1–3 m) mit echten, kräftigen Sprossdornen; Rinde und junge Zweige dunkel bis schwarz ('Schwarzdorn').",
+      "Blüten einzeln (nicht in Dolden), fünfzählig, weiß, ~1–1,5 cm, mit vielen Staubblättern.",
+      "Frucht eine kugelige, blau-schwarze Steinfrucht (~1–1,5 cm) mit bläulich-weißem Wachsreif und EINEM harten Steinkern; sehr herb-sauer, adstringierend, mildert nach Frost.",
+      "Blätter erst nach der Blüte, klein, verkehrt-eiförmig, gesägt, wechselständig."
+    ],
+    "season": "Blüte März–April (vor dem Laub); Fruchtreife September–November, Ernte meist nach dem ersten Frost",
+    "habitat": "Sonnige Waldränder, Hecken, Böschungen, Trockenrasen, Feld- und Wegränder; kalkliebend; bildet dornige Dickichte durch Wurzelbrut",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Blüten im März/April von den noch unbelaubten, dornigen Zweigen sammeln; Verwechslung mit Weißdorn ausgeschlossen, da dieser erst mit Laub blüht.",
+      "Früchte nach dem ersten Frost ernten (weniger Gerbstoffe, milder, süßer); nur das Fruchtfleisch verwenden, die Steinkerne NICHT anstoßen/zerbeißen (Amygdalin/Blausäure).",
+      "Blau-schwarze Frucht mit Wachsreif und EINEM Steinkern an dornigem Strauch bestätigen; abgrenzen von schwarzen Beeren mit mehreren Samen (Liguster, Kreuzdorn) und von hängenden Trauben (Traubenkirsche)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Weißdorn",
+      "scientific_name": "Crataegus monogyna / laevigata",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ähnlicher dorniger Heckenstrauch, aber Weißdorn blüht ERST mit/nach dem Laubaustrieb (Mai) und trägt rote, mehlige Apfelfrüchte mit 1–3 Steinkernen. Schlehe blüht vor dem Laub und hat blau-schwarze Steinfrüchte mit einem Kern. Beide ungiftig; andere Verwendung."
+    },
+    {
+      "name": "Liguster (Rainweide)",
+      "scientific_name": "Ligustrum vulgare",
+      "toxicity_level": "giftig",
+      "toxin": "Ligustrosid/Oleuropein-Sekoiridoide (Beeren gering giftig)",
+      "note": "Glänzend schwarze, kleinere Beeren in AUFRECHTEN Rispen/Büscheln; Blätter gegenständig, lanzettlich, KEINE Dornen. Beeren gering giftig (Erbrechen, Durchfall). Schlehe dagegen: einzeln stehende, größere blau-bereifte Steinfrüchte an dorniger, wechselblättriger Pflanze."
+    },
+    {
+      "name": "Kreuzdorn",
+      "scientific_name": "Rhamnus cathartica",
+      "toxicity_level": "giftig",
+      "toxin": "Anthrachinone/Glykoside (stark abführend, roh giftig)",
+      "note": "Ebenfalls dorniger Strauch mit schwarzen, erbsengroßen Beeren, aber Beeren mit MEHREREN (3–4) Samen, Blätter mit charakteristisch bogigen Seitennerven, Dornen an Zweigenden. Beeren wirken drastisch abführend/toxisch. Schlehe: Steinfrucht mit einem Kern, bläulicher Reif."
+    },
+    {
+      "name": "Gewöhnliche Traubenkirsche",
+      "scientific_name": "Prunus padus",
+      "toxicity_level": "giftig",
+      "toxin": "Amygdalin/Prunasin (Blausäure) v. a. in Kern, Rinde, Blättern; Fruchtfleisch essbar, aber herb",
+      "note": "Schwarze Kirschfrüchte in HÄNGENDEN Trauben (viele Früchte an einer Achse), kein Dorn, Blätter zur Fruchtzeit vorhanden. Schlehe trägt EINZELN stehende, blau-bereifte Steinfrüchte an dornigen Zweigen. Traubenkirschen-Kerne sind blausäurehaltig."
+    },
+    {
+      "name": "Haferschlehe / Schlehen-Pflaumen-Hybriden",
+      "scientific_name": "Prunus × fruticans u. a.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Natürliche Kreuzungen mit der Pflaume; größere, etwas mildere Früchte. Unproblematisch, da ebenfalls essbar und ähnlich verwendbar."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Blüten: Flavonoide (u. a. Kämpferol-/Quercetin-Glykoside, Rutin), Gerbstoffe, geringe Cumaringehalte, Spuren cyanogener Glykoside",
+      "Früchte/Fruchtfleisch: Gerbstoffe (adstringierend, sinken nach Frost), Fruchtsäuren (Apfel-/Zitronensäure), Anthocyane, Vitamin C, Zucker, Pektin",
+      "Samen/Steinkerne: Amygdalin (cyanogenes Glykosid → Blausäure) — NICHT für den Verzehr"
+    ],
+    "lead_substance": "Für die Frucht: Gerbstoffe (adstringierend, magen-darm-zusammenziehend) plus Fruchtsäuren/Vitamin C. Für die Blüten wird traditionell eine milde 'abführende/blutreinigende' Wirkung angenommen — pharmakologisch ist kein belegter Leitstoff/Wirkmechanismus gesichert.",
+    "solubility_note": "Gerbstoffe, Flavonoide, Fruchtsäuren, Anthocyane und Vitamin C sind wasserlöslich und gehen in Aufguss/Auszug über — daher Tee (Blüten, getrocknete Früchte) und Sirup/Likör sinnvoll. Das Amygdalin sitzt im Steinkern und bleibt bei sachgerechter Verarbeitung (Fruchtfleisch, Kern nicht anstoßen) außen vor.",
+    "heat_light_sensitivity": "Vitamin C und Anthocyane sind hitze-/lichtempfindlich; Blüten schonend trocknen. Gerbstoffe sind stabil."
+  },
+  "pharmacology": {
+    "mechanism": "Fruchtgerbstoffe wirken adstringierend (Schleimhaut-zusammenziehend) und dadurch mild stopfend bei Durchfall und lokal reizmildernd bei Mund-/Rachenentzündung. Den Schlehenblüten wird traditionell eine milde laxierende und 'blutreinigende' Wirkung zugeschrieben; ein Wirkmechanismus ist nicht belegt.",
+    "evidence_caveat": "Schwache Datenlage. Kommission E hat die Schlehenblüten (Pruni spinosae flos) NEGATIV bewertet — die behauptete Wirksamkeit ('Blutreinigung', mildes Abführen, bei Hautleiden) ist nicht belegt. HMPC hat die Bewertung mangels Daten eingestellt; ESCOP hat die Droge nicht bearbeitet. Die Fruchtnutzung (Gerbstoffe bei leichtem Durchfall/Rachenspülung) ist plausibel, aber nicht regulatorisch bestätigt. Unsicher — ärztlich zu prüfen.",
+    "pharmacokinetics": "Keine belastbaren Humandaten. Amygdalin aus zerkleinerten Kernen würde enzymatisch zu Blausäure gespalten — Grund, Steinkerne nicht zu zerbeißen/zerkleinern. Unsicher, zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Traditionell: leichte, vorübergehende Verstopfung und 'Blutreinigung'/Frühjahrskur mit Schlehenblüten",
+      "synonyms": ["Verstopfung", "träger Darm", "Frühjahrskur", "Blutreinigung", "Entschlackung", "Hautunreinheiten"],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinische Anwendung. WICHTIG: Kommission E hat die Schlehenblüten NEGATIV monographiert — die Wirksamkeit gilt als nicht belegt.",
+      "realistic_expectation": "Kein verlässlicher abführender oder 'entschlackender' Effekt zu erwarten; 'Blutreinigung' ist kein medizinisches Konzept. Wenn überhaupt, allenfalls sehr milde Wirkung. Bei Verstopfung wirksamere/geprüfte Mittel bevorzugen.",
+      "source": "Kommission E (Negativmonographie Pruni spinosae flos); traditionelle Anwendung; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Traditionell: leichter Durchfall und Entzündungen im Mund-Rachen-Raum (Schlehenfrüchte)",
+      "synonyms": ["Durchfall", "Magen-Darm-Beschwerden", "Mundschleimhautentzündung", "Halsschmerzen", "Rachenentzündung", "Gurgeln"],
+      "evidence_tag": "TRAD",
+      "comment": "Gerbstoffe der Früchte adstringierend; volksmedizinisch als stopfender Tee und als Gurgellösung. Keine regulatorische Bestätigung durch HMPC/ESCOP; ESCOP nicht bearbeitet.",
+      "realistic_expectation": "Als gerbstoffhaltiger Tee/Gurgellösung mild adstringierend und symptomatisch lindernd — kein Ersatz für ärztliche Behandlung. Bei anhaltendem Durchfall (> 2–3 Tage), Fieber oder Blut im Stuhl ärztlich abklären.",
+      "source": "Traditionelle/volksmedizinische Anwendung (Gerbstoffdroge); recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Robuste, essbare Wildfrucht: Nach Frost geerntetes Fruchtfleisch für Mus, Likör, Saft und als mild adstringierender Tee. Die Blüten sind ein hübsches, mildes Frühjahrsteekraut.",
+    "overstated": "Der Ruf als 'Blutreinigungs-' und Abführmittel ist NICHT gedeckt: Kommission E bewertete die Schlehenblüten ausdrücklich negativ, HMPC stellte die Bewertung mangels Daten ein. 'Entschlackung/Blutreinigung' hat keine medizinische Grundlage. Eine wesentliche Heilwirkung sollte man weder von Blüten noch Früchten erwarten.",
+    "effect_size": "mild bis unbelegt; bestenfalls symptomatisch (Gerbstoffe der Frucht)"
+  },
+  "preparation": {
+    "recommended_forms": ["Blütentee (Aufguss)", "Fruchttee aus getrockneten Früchten", "Gurgellösung (Frucht)", "Mus, Sirup, Likör, Schlehenwein (Küche)"],
+    "form_rationale": "Die wasserlöslichen Gerbstoffe, Flavonoide, Fruchtsäuren und Anthocyane gehen in wässrige Aufgüsse und Auszüge über. Für die adstringierende Nutzung eignet sich der Fruchttee/die Gurgellösung; die Blüten werden mild als Frühjahrstee verwendet. Kerne bei der Verarbeitung nicht zerkleinern (Amygdalin).",
+    "standard_dose": "Blüten: ca. 1–2 g getrocknete Blüten pro Tasse als Aufguss, 1–2× täglich (traditionell). Früchte: gerbstoffhaltiger Tee/Gurgellösung nach Bedarf. Konkrete arzneiliche Dosierungen sind mangels Monographien nicht standardisiert — unsicher, zu prüfen.",
+    "preservation": "Blüten schonend trocknen; Früchte nach Frost frisch verarbeiten oder trocknen. Steinkerne entfernen und nicht mitverarbeiten (Blausäure-Vorstufe). Trocken, dunkel, luftdicht lagern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Steinkerne/Samen nicht zerkauen oder zerkleinert verzehren (Amygdalin → Blausäure)",
+      "Bekannte Überempfindlichkeit gegen Rosengewächse/Steinobst"
+    ],
+    "pregnancy_lactation": "Fruchtfleisch als Lebensmittel (Mus, Saft) in üblichen Mengen unbedenklich. Für die arzneiliche Anwendung von Blüten/Früchten in Schwangerschaft und Stillzeit fehlen Daten — vorsichtshalber meiden bzw. ärztlich abklären. Unsicher — zu prüfen.",
+    "adverse_effects": "Fruchtfleisch und Blütentee in üblichen Mengen gut verträglich. Unreife/rohe, sehr gerbstoffreiche Früchte schmecken stark adstringierend und können Magen reizen. Gefahr geht von den blausäurehaltigen Steinkernen aus, wenn sie zerkleinert verzehrt werden.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe können im Darm Eisen und andere Stoffe komplexieren und deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate, ggf. andere oral aufgenommene Wirkstoffe",
+        "clinical_relevance": "gering — zeitlichen Abstand (1–2 h) halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Fruchtfleisch und Blüten sind ungiftig, aber die Steinkerne enthalten Amygdalin (Blausäure) und dürfen nicht zerkleinert/zerbissen werden; die traditionelle 'blutreinigende'/abführende Blütenwirkung ist von der Kommission E negativ bewertet und nicht belegt."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blüten März–April (vor Laubaustrieb); Früchte September–November, meist nach dem ersten Frost",
+    "harvest_month_tags": [3, 4, 10, 11],
+    "harvest_organ": "Blüte und Frucht",
+    "method": "Blüten von den unbelaubten, dornigen Zweigen zupfen (Dornen beachten); Früchte nach Frost pflücken oder abstreifen.",
+    "processing": "Blüten schonend im Schatten trocknen. Früchte entsteinen bzw. Kerne nicht zerkleinern; zu Mus, Saft, Sirup oder Likör verarbeiten oder trocknen.",
+    "storage": "Getrocknete Blüten/Früchte trocken, dunkel und luftdicht lagern; Fruchtaroma nach Frostverarbeitung am besten."
+  },
+  "kitchen": {
+    "uses": ["Schlehenmus/-marmelade", "Schlehensaft, -sirup, -likör und -wein", "Getrocknete Früchte als herber Tee", "Blüten als Frühjahrstee/essbare Deko"],
+    "culinary_vs_medicinal": "Kulinarisch überwiegt die Fruchtnutzung (herb-fruchtige Liköre, Mus, Wein) — traditionell erst nach dem Frost geerntet. Medizinisch ist der Wert gering und unbelegt (Blüten: Kommission E negativ; Früchte: mild adstringierend). Steinkerne gehören nicht ins Rezept."
+  },
+  "garden": {
+    "site_soil": "Sonnig, anspruchslos, kalkliebend; auf trockenen bis frischen, durchlässigen Böden. Bildet über Wurzelbrut dichte Dickichte.",
+    "hardiness": "Voll winterhart, sehr robust; wichtiges Vogelschutz- und Bienennährgehölz (frühe Blüte).",
+    "propagation": "Aussaat (Kaltkeimer), Wurzelausläufer, Steckhölzer.",
+    "bodensee_suitability": "Sehr gut geeignet — in der Region an Hecken, Trockenrasen und Waldrändern häufig; als früh blühende Wildhecke ökologisch wertvoll, breitet sich aber durch Ausläufer stark aus."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Vor dem Laubaustrieb dicht weiß blühender, dorniger Strauch (März/April)", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blau-schwarze, bereifte Steinfrucht mit einem Kern an dornigem Zweig; einzeln stehende weiße Blüten", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC: Bewertung von Schlehenblüten/-zweigspitzen mangels ausreichender Daten eingestellt (discontinued); ESCOP: Droge nicht bearbeitet (recherchiert 2026-07)",
+    "Kommission E: NEGATIVmonographie für Pruni spinosae flos (Schlehenblüten) — Wirksamkeit für 'Blutreinigung'/mildes Abführen/Hautleiden nicht belegt (recherchiert 2026-07)",
+    "Amygdalin/Blausäure in den Steinkernen; Fruchtfleisch und Blüten ungiftig; Gerbstoffabbau und Milderung nach Frost: naturadb.de, plantura.garden, gruenundgesund.de, kraeuter-son.de, GIZ Bonn (Giftzentrale) (recherchiert 2026-07)",
+    "Botanik/Bestimmung (Blüte vor Laubaustrieb, Sprossdornen, blau-schwarze Steinfrucht mit Wachsreif und einem Kern, Blüte März–April, Frucht Okt–Nov): naturadb.de, pflanzenbestimmung.info, BUND-SH Wildstraeucher-Merkblatt (recherchiert 2026-07)",
+    "Verwechslungen (Weißdorn essbar; Liguster gering giftig; Kreuzdorn Rhamnus cathartica abführend/giftig; Traubenkirsche Prunus padus, Kerne blausäurehaltig; Haferschlehe essbar): hortica.de, gruenundgesund.de, botanikus.de, NABU Bremen Heckenpflanzen (recherchiert 2026-07)"
+  ]
+}

@@ -575,6 +575,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat). Droge Tiliae flos (Bluete), HMPC traditional use zur Linderung von Erkaeltungsbeschwerden; Kommission E zusaetzlich bei Erkaeltungshusten und schweisstreibend. WICHTIG fuer die Erwartung: die diaphoretische ('schweisstreibende') Wirkung ist UMSTRITTEN — kein verantwortlicher Inhaltsstoff identifiziert, der Effekt beruht wohl auf dem heiss getrunkenen Tee; daher zweite Indikation nur TRAD. Wirkprinzip: Schleimstoffe (reizlindernd) + Flavonoide. Sehr hohes Sicherheitsprofil (flags.high_safety): kein toedlicher Doppelgaenger, das mit dem Bluetenstiel verwachsene zungenfoermige Hochblatt macht die Bluete nahezu unverwechselbar. Droge gleichwertig von T. cordata, T. platyphyllos, T. x vulgaris — NICHT von der Silberlinde (T. tomentosa) sammeln."
+    },
+    {
+      "ts": "2026-07-23T18:30:00Z",
+      "id": "rosa-canina",
+      "common": "Hunds-Rose",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat). Drogen Rosae pseudofructus (Hagebutte). WICHTIG fuer die Erwartung: Die schmerzlindernde Arthrose-Wirkung ist echte RCT-Evidenz (Meta-Analyse Christensen 2008, klein bis moderat, kurzfristig), gilt aber NUR fuer standardisiertes GOPO-Hagebuttenpulver (Nahrungsergaenzung), NICHT fuer selbst gekochten Tee/Mus — das lipophile Galaktolipid GOPO ist im waessrigen Aufguss kaum enthalten. HMPC hat die Frucht NICHT bearbeitet, Kommission E ohne positive Bewertung, ESCOP positiv. Vitamin C bis ~2,4 %, zerfaellt aber beim Trocknen/Kochen. Sehr sicher (flags.high_safety); einziges Feldrisiko sind die Frucht-Haerchen als Juckpulver. Keine giftige Verwechslung bei sicherer Rosenbestimmung."
+    },
+    {
+      "ts": "2026-07-23T18:31:00Z",
+      "id": "prunus-spinosa",
+      "common": "Schlehe",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat). Drogen Pruni spinosae flos (Blueten) und fructus (Fruechte). WICHTIG: Kommission E hat die Schlehenblueten NEGATIV monographiert — die traditionelle 'blutreinigende'/mild abfuehrende Wirkung ist NICHT belegt; HMPC-Bewertung mangels Daten eingestellt, ESCOP nicht bearbeitet. Beide Indikationen daher nur TRAD. Sicherheit: Fruchtfleisch und Blueten ungiftig, aber die Steinkerne enthalten Amygdalin (Blausaeure) und duerfen nicht zerkleinert werden. Verwechslungen aktiv ergaenzt: Weissdorn (essbar, blueht spaeter mit Laub), Liguster (gering giftig), Kreuzdorn Rhamnus cathartica (giftig/abfuehrend), Traubenkirsche (Kerne blausaeurehaltig). Erkennungsanker: blueht VOR dem Laubaustrieb; blau-schwarze bereifte Steinfrucht mit einem Kern."
     }
   ]
 }
