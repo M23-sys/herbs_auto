@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "id": "chenopodium-album",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Chenopodium album L.",
+    "common_names_de": [
+      "Weißer Gänsefuß",
+      "Melde (volkstümlich)",
+      "Mehlkraut",
+      "Wilder Spinat"
+    ],
+    "family": "Fuchsschwanzgewächse (Amaranthaceae; früher Gänsefußgewächse/Chenopodiaceae)",
+    "drug_part": [
+      "junge Blätter und Triebe (Kraut/Folium) — überwiegend Wildgemüse, keine offizinelle Droge",
+      "Samen (Semen) — traditionell als Pseudogetreide, saponinhaltig"
+    ],
+    "drug_name_latin": "Chenopodii albi herba (nicht offizinell)",
+    "synonyms": [],
+    "synonym_note": "Chenopodium album L. ist der akzeptierte Name. Die alte Familie Chenopodiaceae (Gänsefußgewächse) ist heute in die Amaranthaceae eingegliedert; mehrere frühere 'Chenopodium'-Arten wurden in andere Gattungen (Dysphania, Chenopodiastrum, Oxybasis, Blitum) verschoben — C. album selbst blieb Chenopodium. NICHT zu verwechseln mit dem giftigen Wurmsamen-Öl aus Dysphania ambrosioides (früher Chenopodium ambrosioides/anthelminticum)."
+  },
+  "identification": {
+    "key_features": [
+      "Junge Blätter, Triebspitzen und Blütenstände mehlig-weiß bestäubt (feiner, abwischbarer Belag aus Blasenhaaren) — das ist das sicherste Erkennungs- UND Abgrenzungsmerkmal ('album' = weiß)",
+      "Blätter wechselständig, rautenförmig bis eiförmig-lanzettlich, meist unregelmäßig gezähnt/gebuchtet, Grund keilförmig; obere Blätter schmaler und ganzrandig",
+      "Stängel aufrecht, kantig-gerillt, oft rötlich oder grün gestreift, verzweigt, 0,3–1,5 m",
+      "Blüten unscheinbar grün, knäuelig in ährigen Rispen; kein auffälliger Duft",
+      "Keine Blattscheiden; Same linsenförmig, schwarz, glänzend"
+    ],
+    "season": "Blüte Juni–Oktober; junge Blätter/Triebe ab Frühjahr bis Frühsommer am zartesten",
+    "habitat": "Stickstoffreiche Ruderalstellen, Äcker, Gärten, Wegränder, Schuttplätze; typisches Hackfrucht-/Garten-Beikraut",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-sehr-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "NUR mehlig-weiß bestäubte, geruchsneutrale Jungpflanzen mit rautenförmigen, gänsefußartigen Blättern ernten.",
+      "Keimlinge und Jungpflanzen VOR der Ernte sicher bestimmen — junge Stechapfel- (Datura) und Schwarzer-Nachtschatten-Keimlinge (Solanum nigrum) wachsen an denselben nährstoffreichen Standorten und sind ohne Blüte/Frucht leicht zu verwechseln (siehe confusions).",
+      "Nährstoffbelastete Standorte (gedüngte Äcker, Straßenränder) meiden — Nitrat-Akkumulation.",
+      "Ältere Blätter und rohe Samen nur sparsam (Oxalsäure bzw. Saponine); Samen vor Verzehr wässern/kochen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gemeiner Stechapfel",
+      "scientific_name": "Datura stramonium",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Tropanalkaloide (Hyoscyamin/Atropin, Scopolamin) — anticholinerges Syndrom, potenziell tödlich",
+      "note": "Junge Stechapfel-Pflanzen keimen an denselben stickstoffreichen Gartens-/Ruderalböden und wurden schon mit essbaren Gänsefuß-/Meldeblättern verwechselt (dokumentierte Vergiftungen). Unterscheidung: Gänsefuß ist mehlig-weiß bestäubt und geruchsneutral, Blätter rautenförmig; Stechapfel ist kahl/bläulich, riecht unangenehm-narkotisch, Blätter grob buchtig-gezähnt, später große weiße Trichterblüten und stachelige Kapseln. Im Zweifel NICHT ernten."
+    },
+    {
+      "name": "Schwarzer Nachtschatten",
+      "scientific_name": "Solanum nigrum",
+      "toxicity_level": "giftig",
+      "toxin": "Solanin/Steroidglykoalkaloide (v. a. in Kraut und unreifen grünen Beeren)",
+      "note": "Wächst im selben Habitat; junge Pflanzen ähneln vor der Blüte einem Gänsefuß. Unterscheidung: keine mehlige Bestäubung, Blätter eiförmig und ganzrandiger, später weiße Sternblüten und schwarze Beeren. Kraut nicht verzehren."
+    },
+    {
+      "name": "Melden",
+      "scientific_name": "Atriplex spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Sehr ähnlich und ebenfalls essbar (früher gemeinsam als 'Melde' genutzt) — Verwechslung ist unbedenklich. Atriplex-Blätter oft pfeil-/spießförmig am Grund; Bestäubung meist silbrig-schülferig statt mehlig. Keine Gefahr."
+    },
+    {
+      "name": "Amarant / Fuchsschwanz",
+      "scientific_name": "Amaranthus spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Keimlinge ähneln dem Gänsefuß, sind aber essbar; Amaranth hat oft rötliche Stängel/Blattadern und keine mehlige Bestäubung. Hoher Nitrat-/Oxalatgehalt bei üppigem Wuchs — wie Gänsefuß in Maßen genießen."
+    },
+    {
+      "name": "Drüsiger Gänsefuß / Mexikanisches Teekraut (Wurmsamen)",
+      "scientific_name": "Dysphania ambrosioides (syn. Chenopodium ambrosioides)",
+      "toxicity_level": "giftig",
+      "toxin": "Ätherisches Öl mit Ascaridol — reizend/neurotoxisch, kein Speisegemüse",
+      "note": "Namens- und Gattungsfalle: früher ebenfalls 'Chenopodium'. Deutlich unterscheidbar durch STARKEN aromatischen Geruch (der Weiße Gänsefuß ist geruchsneutral) und drüsige, nicht mehlige Behaarung. Das daraus gewonnene Chenopodiumöl war ein toxisches Wurmmittel — nicht mit dem essbaren C. album verwechseln."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Oxalsäure/Oxalate (steigen mit Blattalter)",
+      "Saponine (v. a. in den Samen)",
+      "Nitrat (Akkumulator auf stickstoffreichen Böden)",
+      "Vitamine (A, C), Mineralstoffe (Eisen, Calcium, Kalium, Magnesium), Eiweiß",
+      "Flavonoide, Phenolsäuren"
+    ],
+    "lead_substance": "Keine arzneiliche Leitsubstanz — der Gehalt an Oxalsäure, Saponinen und Nitrat ist eher als Anti-Nährstoff/Risiko relevant denn als Wirkprinzip.",
+    "solubility_note": "Oxalate und Nitrat sind wasserlöslich und lassen sich durch Blanchieren/Abgießen des Kochwassers deutlich senken; Samen-Saponine werden durch Wässern und Erhitzen weitgehend entschärft.",
+    "heat_light_sensitivity": "Vitamin C hitzeempfindlich; Kochen reduziert zugleich Oxalat/Nitrat — ernährungsphysiologischer Kompromiss."
+  },
+  "pharmacology": {
+    "mechanism": "Kein belegter arzneilicher Wirkmechanismus. Volksmedizinisch zugeschriebene mild-abführende/entzündungslindernde Effekte werden mit dem Saponin-/Ballaststoffgehalt begründet, sind aber klinisch nicht untersucht.",
+    "evidence_caveat": "Weder HMPC- noch ESCOP- noch Kommission-E-Monographie vorhanden. Jede medizinische Wirkaussage ist rein traditionell/volksmedizinisch und unbelegt. Der Weiße Gänsefuß ist primär ein Wildgemüse, keine Heilpflanze.",
+    "pharmacokinetics": ""
+  },
+  "indications": [
+    {
+      "canonical": "Nährstoffreiches Wildgemüse (ernährungsbezogen, keine Heilindikation)",
+      "synonyms": [
+        "Wildspinat",
+        "wildes Gemüse",
+        "essbares Unkraut"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Historisch und aktuell v. a. als Blattgemüse (Spinatersatz) genutzt; kein regulatorischer Heilstatus.",
+      "realistic_expectation": "Liefert Vitamine/Mineralstoffe als Gemüse. KEINE arzneiliche Wirkung; in großen rohen Mengen wegen Oxalsäure/Saponinen sogar leicht reizend/abführend.",
+      "source": "Volksmedizin/Ethnobotanik; keine HMPC-/ESCOP-/Kommission-E-Monographie"
+    },
+    {
+      "canonical": "Traditionelle äußerliche Anwendung bei leichten Hautreizungen (Umschläge)",
+      "synonyms": [
+        "Insektenstiche",
+        "Sonnenbrand",
+        "juckende Haut",
+        "geschwollene Füße"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Überliefert als kühlende Auflage/Waschung; ohne klinische Evidenz.",
+      "realistic_expectation": "Bestenfalls unspezifisch kühlend-lindernd; keine gesicherte Wirksamkeit, kein Ersatz für indizierte Therapie.",
+      "source": "Volksmedizin (u. a. Kräuterliteratur)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Ein schmackhaftes, nährstoffreiches Wildgemüse (Spinatersatz), das reichlich und leicht verfügbar ist.",
+    "overstated": "Als 'Heilkraut' überschätzt: es gibt keine belegte medizinische Indikation. Die volkstümlichen Anwendungen (Abführen, Wundheilung, 'Entgiftung') sind unbewiesen; hohe Roh- oder Dauermengen sind wegen Oxalsäure und Nitrat eher nachteilig.",
+    "effect_size": "keine gesicherte arzneiliche Wirkung; ernährungsphysiologisch mild"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Junge Blätter/Triebe gedünstet oder blanchiert (wie Spinat)",
+      "kurz gekochtes Gemüse (Kochwasser abgießen)"
+    ],
+    "form_rationale": "Erhitzen/Blanchieren senkt Oxalsäure und Nitrat (wasserlöslich, gehen ins Kochwasser über) und entschärft Samen-Saponine — daher gegartes gegenüber rohem Verzehr bevorzugen, besonders bei größeren Mengen.",
+    "standard_dose": "Als Gemüse in üblichen Portionen; rohe große Mengen und ältere Blätter meiden (Oxalsäure). Keine arzneiliche Dosierung definiert.",
+    "preservation": "Frisch verwenden; Blattgemüse ist nur kurz lagerfähig, Nitrat kann bei warmer Lagerung ansteigen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Neigung zu Nierensteinen/Oxalatsteinen oder Nierenerkrankung — Oxalsäure meiden bzw. nur blanchiert und in Maßen",
+      "Rohe Samen in Menge (Saponine)"
+    ],
+    "pregnancy_lactation": "Als Lebensmittel in üblichen Küchenmengen keine besonderen Bedenken; hohe Oxalat-/Nitratmengen und jede arzneiliche Anwendung meiden. Keine Daten zu medizinischem Gebrauch.",
+    "adverse_effects": "In großen rohen Mengen Magen-Darm-reizend und leicht abführend (Saponine, Oxalsäure). Nitratreiche Bestände problematisch (v. a. für Säuglinge). Nitrat-Akkumulator.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "keine dokumentierten Arzneimittelinteraktionen als Lebensmittel",
+        "affected": "",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein Heilkraut, sondern Wildgemüse: nur mehlig-weiß bestäubte, geruchsneutrale Jungpflanzen ernten — Keimlinge können mit dem lebensgefährlichen Stechapfel (Datura) und dem giftigen Schwarzen Nachtschatten verwechselt werden; roh nur junge Blätter in Maßen (Oxalsäure/Nitrat)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Junge Blätter/Triebe Frühjahr bis Frühsommer; Samen im Herbst (September–Oktober)",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Zarte Triebspitzen und junge Blätter pflücken; nur eindeutig mehlig bestäubte, geruchsneutrale Pflanzen.",
+    "processing": "Waschen, blanchieren/dünsten, Kochwasser abgießen (senkt Oxalat/Nitrat).",
+    "storage": "Frisch verarbeiten; nicht warm zwischenlagern (Nitrit-Bildung)."
+  },
+  "kitchen": {
+    "uses": [
+      "Junge Blätter als Spinatersatz (gedünstet, in Suppen, Füllungen)",
+      "Triebspitzen wie Gemüse",
+      "Samen als Pseudogetreide (gut gewässert/gekocht) — botanisch mit Quinoa (Chenopodium quinoa) verwandt"
+    ],
+    "culinary_vs_medicinal": "Klar auf der Küchenseite: ein wertvolles Wildgemüse und naher Verwandter der Quinoa. Medizinisch ohne Bedeutung; der 'Heilpflanzen'-Ruf beruht auf Volksüberlieferung, nicht auf Evidenz."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos, bevorzugt stickstoffreiche, offene Böden; als Beikraut praktisch überall.",
+    "hardiness": "Einjährig, reichlich selbstaussäend; kein Anbau nötig.",
+    "propagation": "Samen (Selbstaussaat in großer Zahl) — gilt als hartnäckiges Acker-/Gartenunkraut.",
+    "bodensee_suitability": "Überall verfügbar — als häufiges Ruderal-/Gartenunkraut im Bodenseeraum sehr leicht zu finden; ein gezielter Anbau lohnt nicht."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Keine HMPC-/ESCOP-/Kommission-E-Monographie vorhanden (Stand 2026) — Status geprüft",
+    "Ethnobotanische/volksmedizinische Standardliteratur zu Wildgemüsen (Weißer Gänsefuß)",
+    "Fachliteratur zu Oxalat-/Nitrat-/Saponingehalt der Chenopodiaceae/Amaranthaceae",
+    "Toxikologische Fallberichte zu Verwechslung essbarer Melden/Gänsefüße mit Datura stramonium und Solanum nigrum"
+  ]
+}

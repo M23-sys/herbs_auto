@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "id": "vitis-vinifera",
+  "stand": "2026-07-23",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Vitis vinifera L.",
+    "common_names_de": [
+      "Weinrebe",
+      "Echte Weinrebe",
+      "Weinstock",
+      "Rebe"
+    ],
+    "family": "Weinrebengewächse (Vitaceae)",
+    "drug_part": [
+      "Blatt (Folium) — 'Rotes Weinlaub' / Folium Vitis viniferae rubrum (arzneilich)",
+      "Frucht (Fructus, Weintraube) — Küche",
+      "Samen (Semen) — Traubenkernextrakt/OPC, separater Zubereitungstyp"
+    ],
+    "drug_name_latin": "Vitis viniferae folium (rubrum)",
+    "synonyms": [],
+    "synonym_note": "Vitis vinifera L. ist der aktuell akzeptierte Name (keine Taxonomie-Umbenennung). Wichtig: Das arzneiliche 'Rote Weinlaub' stammt von der rotlaubigen Varietät Vitis vinifera L. var. tinctoria (Färbertraube) bzw. rotlaubigen Sorten, deren Blätter sich im Herbst durch Anthocyane rot färben — es ist NICHT die Traube und NICHT der Traubenkern (OPC)."
+  },
+  "identification": {
+    "key_features": [
+      "Verholzende Kletterpflanze mit blättchenloser, sich gegenüber den Blättern bildender Ranke (Sprossranke) — klettert durch Umwinden, NICHT mit Haftscheiben",
+      "Blätter einfach, handförmig 3–5-lappig, gezähnt, herzförmiger Grund; im Herbst bei roten Sorten leuchtend rot (Rotes Weinlaub)",
+      "Rinde alter Triebe längsstreifig, in Fasern ablösend; Mark der jungen Triebe von Knoten unterbrochen (Diaphragma)",
+      "Blüten klein, grünlich, in Rispen; Früchte = Weintrauben (Beeren) mit charakteristischem Duft",
+      "Junge Triebe/Blattunterseite je nach Sorte kahl bis leicht filzig"
+    ],
+    "season": "Blüte Mai–Juni; Laubverfärbung/Ernte des roten Weinlaubs September–Oktober; Fruchtreife August–Oktober",
+    "habitat": "Weinberge, Spaliere, Gärten; verwildert an Hängen, Waldrändern und Auen (verwildernde Vitis vinifera subsp. sylvestris ist selten und geschützt)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Für 'Rotes Weinlaub' die im Herbst rot verfärbten Blätter rotlaubiger Reben sammeln; nur spritzmittelfreie Bestände (Weinbau ist intensiv behandelt!).",
+      "Wildsammlung liefert KEINEN standardisierten Extrakt — die Studienevidenz gilt nur für den quantifizierten Fertigarzneimittel-Trockenextrakt (AS 195). Selbst gesammeltes Weinlaub erreicht die Wirkdosis nicht zuverlässig.",
+      "Abgrenzen gegen Wilden Wein (Parthenocissus) an den Ranken: Weinrebe umwindet, Wilder Wein haftet mit Haftscheiben."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Selbstkletternde Jungfernrebe / Wilder Wein",
+      "scientific_name": "Parthenocissus quinquefolia / Parthenocissus tricuspidata",
+      "toxicity_level": "giftig",
+      "toxin": "Oxalsäure/Calciumoxalat-Raphide (Nadelkristalle) in Beeren und Pflanzensaft; Beeren ungenießbar-giftig, v. a. für Kinder",
+      "note": "Blauschwarze Beeren ähneln kleinen Trauben — Verwechslung v. a. durch Kinder. Unterscheidung: Jungfernrebe klettert mit Haftscheiben an den Rankenenden und hat 5-zählig gefingerte (quinquefolia) bzw. 3-lappige (tricuspidata) Blätter; die Weinrebe umwindet mit Ranken ohne Haftscheiben und hat einfache, handförmig gelappte Einzelblätter."
+    },
+    {
+      "name": "Doldenrebe / Scheinrebe",
+      "scientific_name": "Ampelopsis spp.",
+      "toxicity_level": "giftig",
+      "toxin": "ungenießbar-giftige Beeren (Oxalate); keine Speisetraube",
+      "note": "Zierkletterer mit blau-violetten, weinbeerähnlichen Früchten; Blätter reben-ähnlich. Kein Speisewert — nur reife Trauben eindeutig bestimmter Vitis-vinifera-Reben essen."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Für das ARZNEILICH genutzte rote Weinlaub gibt es keinen tödlichen Doppelgänger. Die relevanteste Falle ist inhaltlicher Art: 'Rotes Weinlaub' (Blatt) wird oft mit Traubenkernextrakt/OPC (Samen) oder mit Rotwein/Resveratrol verwechselt — das sind pharmakologisch und regulatorisch verschiedene Dinge mit unterschiedlicher Evidenz."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide/Flavonolglykoside (v. a. Quercetin-3-O-β-D-glucuronid, Isoquercitrin, Kämpferol-Glykoside)",
+      "Anthocyane (Rotfärbung des Herbstlaubs)",
+      "Gerbstoffe/Proanthocyanidine (OPC — im Blatt geringer, im Samen hoch)",
+      "Phenolcarbonsäuren, organische Säuren"
+    ],
+    "lead_substance": "Quercetin-3-O-β-D-glucuronid — Leitsubstanz des roten Weinlaub-Trockenextrakts (AS 195); trägt die venenwirksame (ödemprotektive, kapillarabdichtende) Wirkung",
+    "solubility_note": "Die wirksamkeitsbestimmenden Flavonoidglykoside sind wasserlöslich — der arzneiliche Extrakt wird wässrig gewonnen (DER 4–6:1, Auszugsmittel Wasser). Deshalb prinzipiell tee-/wasserextrahierbar, aber die Standarddosis erreicht nur der quantifizierte Fertigextrakt.",
+    "heat_light_sensitivity": "Anthocyane sind hitze- und lichtempfindlich; die therapeutisch relevanten Flavonolglykoside sind im standardisierten Trockenextrakt stabilisiert."
+  },
+  "pharmacology": {
+    "mechanism": "Der wässrige Blattextrakt (AS 195) verbessert die Mikrozirkulation, senkt die pathologisch erhöhte Kapillarpermeabilität und wirkt dadurch ödemprotektiv (antiödematös) bei chronisch-venöser Insuffizienz; diskutiert werden endothelprotektive und antioxidative Effekte der Flavonoide.",
+    "evidence_caveat": "Die belastbare Evidenz gilt AUSSCHLIESSLICH für den standardisierten wässrigen Trockenextrakt AS 195 (rotes Weinlaub), nicht für Weinlaubtee, Traubenkern-OPC oder Rotwein. Die Wirkung ist symptomatisch (Ödem, Beschwerden), nicht kausal (keine Rückbildung von Krampfadern oder Klappeninsuffizienz).",
+    "pharmacokinetics": "unsicher — zu prüfen (Bioverfügbarkeit der Flavonolglucuronide beim Menschen nur unvollständig charakterisiert)"
+  },
+  "indications": [
+    {
+      "canonical": "Chronisch-venöse Insuffizienz (CVI, Stadium I–II)",
+      "synonyms": [
+        "schwere Beine",
+        "müde Beine",
+        "geschwollene Beine",
+        "Beinödem",
+        "Venenschwäche",
+        "Krampfaderbeschwerden",
+        "Spannungsgefühl in den Waden",
+        "Wadenkrämpfe",
+        "Juckreiz und Kribbeln in den Beinen"
+      ],
+      "evidence_tag": "WEU/RCT",
+      "comment": "HMPC führt Vitis viniferae folium (rotes Weinlaub, Trockenextrakt DER 4–6:1, Wasser) als 'well-established use' bei CVI; gestützt durch randomisiert-kontrollierte Studien mit AS 195 (u. a. Kiesewetter 2000, Rabe 2011).",
+      "realistic_expectation": "Reduziert nachweislich Beinödem/Wadenumfang und bessert Symptome wie Schwere- und Spannungsgefühl — in Studien in einer Größenordnung vergleichbar mit Kompressionsstrümpfen. Symptomatische Linderung, KEINE Heilung von Krampfadern; ersetzt bei fortgeschrittener CVI weder Kompression noch fachärztliche Abklärung.",
+      "source": "EMA/HMPC EU herbal monograph Vitis vinifera L., folium (well-established use, CVI); RCT Kiesewetter 2000 / Rabe 2011 (AS 195); ESCOP"
+    },
+    {
+      "canonical": "Leichte venöse Kreislaufbeschwerden (Missempfindungen, Schweregefühl der Beine)",
+      "synonyms": [
+        "schwere Beine bei langem Stehen",
+        "leichte Venenbeschwerden"
+      ],
+      "evidence_tag": "TU",
+      "comment": "Traditional-use-Bereich der HMPC-Monographie für leichtere Formen ohne diagnostizierte CVI.",
+      "realistic_expectation": "Kann leichte Missempfindungen lindern; unspezifisch und symptomatisch.",
+      "source": "EMA/HMPC EU herbal monograph, traditional use"
+    },
+    {
+      "canonical": "Symptomatische kapillare Fragilität / Hämorrhoidalbeschwerden (Juckreiz, Brennen)",
+      "synonyms": [
+        "leicht platzende Äderchen",
+        "brennende Hämorrhoiden"
+      ],
+      "evidence_tag": "TU",
+      "comment": "Traditionelle Anwendung; keine belastbare klinische Evidenz.",
+      "realistic_expectation": "Allenfalls symptomatische Linderung; bei Hämorrhoiden und Blutungen ärztliche Abklärung nötig.",
+      "source": "EMA/HMPC EU herbal monograph, traditional use"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Standardisierter roter Weinlaub-Trockenextrakt (AS 195, 360–720 mg/Tag) lindert bei leichter/mittlerer CVI Beinödem und Beschwerden messbar und ist gut verträglich — eine der besser belegten pflanzlichen Venentherapien.",
+    "overstated": "Heilt keine Krampfadern, bessert keine Klappeninsuffizienz, macht Kompression/OP nicht überflüssig. 'Rotes Weinlaub' ist NICHT gleich Traubenkernextrakt/OPC und NICHT gleich Rotwein/Resveratrol — die kardiovaskulären 'Rotwein-ist-gesund'-Erwartungen gehören nicht hierher. Selbst gebrühter Weinlaubtee erreicht die Studiendosis nicht.",
+    "effect_size": "moderat; rein symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Standardisierter Trockenextrakt (Fertigarzneimittel, rotes Weinlaub, DER 4–6:1, Wasser)"
+    ],
+    "form_rationale": "Nur der quantifizierte wässrige Trockenextrakt (auf Flavonoide/Quercetin-glucuronid eingestellt) reproduziert die Studiendosis; wässrig, weil die wirksamen Flavonoidglykoside wasserlöslich sind. Weinlaubtee ist nicht standardisiert und therapeutisch nicht gesichert.",
+    "standard_dose": "360–720 mg roter Weinlaub-Trockenextrakt (AS 195) einmal täglich, üblicherweise morgens; Wirkeintritt über Wochen. Bei ausbleibender Besserung nach ~6 Wochen oder Verschlechterung ärztlich abklären.",
+    "preservation": "Fertigarzneimittel trocken und lichtgeschützt lagern; Haltbarkeit laut Packungsangabe."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Überempfindlichkeit gegen rotes Weinlaub / Bestandteile",
+      "Kinder und Jugendliche unter 18 Jahren (keine Daten)",
+      "Bei akuter, einseitiger, schmerzhafter Beinschwellung KEINE Selbstbehandlung — Thrombose ausschließen"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit nicht empfohlen (unzureichende Daten).",
+    "adverse_effects": "Insgesamt gut verträglich; selten leichte, vorübergehende Magen-Darm-Beschwerden (Übelkeit), Kopfschmerzen oder Hautreaktionen (Ausschlag, Juckreiz).",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Flavonoidreicher Extrakt; eine klinisch relevante Interaktion (z. B. mit Antikoagulanzien) ist nicht belegt, theoretisch aber nicht ausgeschlossen",
+        "affected": "Antikoagulanzien/Thrombozytenaggregationshemmer (theoretisch)",
+        "clinical_relevance": "gering; nicht belegt (unsicher — zu prüfen)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Eine plötzliche, einseitige, schmerzhafte oder überwärmte Beinschwellung ist KEIN Fall für rotes Weinlaub, sondern ein Thrombose-Verdacht — sofort ärztlich abklären; das Präparat lindert nur Symptome einer bereits gesicherten chronisch-venösen Insuffizienz."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Rotes Weinlaub: Herbst (September–Oktober), wenn sich die Blätter rotlaubiger Reben verfärben; Trauben ab August–Oktober bei Reife",
+    "harvest_month_tags": [
+      9,
+      10
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Rot verfärbte Blätter unbehandelter (spritzmittelfreier) Reben ernten; rasch trocknen.",
+    "processing": "Schonend trocknen; für therapeutische Zwecke jedoch Fertigextrakt bevorzugen (Selbsttrocknung nicht standardisierbar).",
+    "storage": "Trocken, licht- und luftgeschützt; getrocknetes Laub verliert Wirkstoffe."
+  },
+  "kitchen": {
+    "uses": [
+      "Weinblätter (junge, grüne) gefüllt (Dolma/Sarma)",
+      "Weintrauben frisch, als Saft, Rosinen",
+      "Traubenkernöl (kaltgepresst) als Speiseöl"
+    ],
+    "culinary_vs_medicinal": "Tafeltrauben, Weinblätter und Traubenkernöl sind Lebensmittel; die Venen-Indikation gilt ausschließlich für den standardisierten roten Weinlaub-Extrakt. Weinlaubtee und Traubengenuss haben keine gesicherte Venenwirkung."
+  },
+  "garden": {
+    "site_soil": "Sonnig-warm, durchlässiger, eher kalkhaltiger Boden; Spalier/Pergola; wärmebegünstigte Lagen.",
+    "hardiness": "Ausreichend winterhart in Weinbaulagen; junge Reben und frühe Austriebe spätfrostgefährdet.",
+    "propagation": "Steckhölzer, Veredelung (reblausbedingt fast ausschließlich auf resistenter Unterlage).",
+    "bodensee_suitability": "Sehr geeignet — der Bodenseeraum ist eine klassische Weinbauregion; Reben gedeihen an geschützten, sonnigen Hängen und Hauswänden zuverlässig."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC — European Union herbal monograph on Vitis vinifera L., folium (well-established use bei CVI; traditional use), inkl. Assessment Report",
+    "ESCOP-Monographie Vitis viniferae folium (rotes Weinlaub)",
+    "Kiesewetter H. et al. 2000, Arzneimittelforschung — RCT AS 195 bei CVI",
+    "Rabe E. et al. 2011 — dosisabhängige RCT-Evidenz AS 195",
+    "Kommission E / Standard-Phytotherapie-Literatur (Wichtl, Blaschek)"
+  ]
+}

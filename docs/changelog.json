@@ -527,6 +527,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat, Tier 4). HMPC Betulae folium nur TRADITIONAL USE: Durchspülung der Harnwege als Adjuvans bei leichten Beschwerden (TU/ESCOP+, Kommission E); rheumatisch nur TRAD. Durchspülung KONTRAINDIZIERT bei Ödemen durch Herz-/Niereninsuffizienz (Flag cardiorenal_flush_caution) und braucht hohe Trinkmenge. Kein Nierenstein-Auflöser, kein Antibiotika-Ersatz; 'Entschlackung/Blutreinigung' unbelegt. Vorsicht Birkenpollen-Kreuzallergie. Taxonomie: B. verrucosa = Synonym; alter Sammelname B. alba heute in B. pendula + B. pubescens aufgeteilt."
+    },
+    {
+      "ts": "2026-07-23T00:00:00Z",
+      "id": "vitis-vinifera",
+      "common": "Weinrebe",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). HMPC führt Vitis viniferae folium — ROTES WEINLAUB, wässriger Trockenextrakt DER 4-6:1 (AS 195), 360-720 mg/Tag — als WELL-ESTABLISHED USE bei chronisch-venöser Insuffizienz (Ödem/schwere Beine), in RCTs ödemreduzierend vergleichbar mit Kompressionsstrümpfen; leichtere Venenbeschwerden, Hämorrhoiden und Kapillarfragilität nur traditional use. WICHTIG: Die Evidenz gilt NUR für den Blattextrakt, NICHT für Traube, Traubenkern-OPC oder Rotwein/Resveratrol, und nicht für selbst gebrühten Weinlaubtee. key_warning: plötzliche einseitige Beinschwellung = Thrombose-Verdacht, kein Selbsttherapie-Fall."
+    },
+    {
+      "ts": "2026-07-23T00:00:00Z",
+      "id": "chenopodium-album",
+      "common": "Weißer Gänsefuß",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Wunschliste). Kein regulatorischer Heilstatus: WEDER HMPC noch ESCOP noch Kommission E führen den Weißen Gänsefuß — es ist ein nährstoffreiches WILDGEMÜSE (Spinatersatz, Quinoa-Verwandter), keine Heilpflanze; alle 'Heil'-Anwendungen sind TRAD/unbelegt. Sicherheitskritisch: Keimlinge/Jungpflanzen an nährstoffreichen Gartens-/Ruderalböden können mit dem LEBENSGEFÄHRLICHEN Stechapfel (Datura stramonium) und dem giftigen Schwarzen Nachtschatten verwechselt werden — deadly_confusion gesetzt; sicheres Merkmal ist die mehlig-weiße Bestäubung + Geruchsneutralität. Oxalsäure/Nitrat (Akkumulator)/Samen-Saponine: roh nur in Maßen, blanchieren. Namensfalle: NICHT der giftige Wurmsamen Dysphania ambrosioides (früher Chenopodium ambrosioides, Ascaridol)."
     }
   ]
 }
