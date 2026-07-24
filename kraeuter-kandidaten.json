@@ -707,8 +707,8 @@
       "latin": "Pulmonaria officinalis",
       "tier": 4,
       "reason": "PA-Verdacht — prüfen! Raublattgewächs",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-lungenkraut.json"
     },
     {
       "id": "oenothera-biennis",
@@ -716,8 +716,8 @@
       "latin": "Oenothera biennis",
       "tier": 4,
       "reason": "Gamma-Linolensäure, Neurodermitis",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-nachtkerze.json"
     },
     {
       "id": "gentiana-lutea",

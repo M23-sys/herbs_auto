@@ -607,6 +607,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat). Droge Lupuli flos (weibliche Zapfen). HMPC traditional use bei nervoeser Unruhe und als Schlafhilfe (nur TU als Einzeldroge). EVIDENZ-LEHRSTUECK: fuer die Einzeldroge fehlt klinische Evidenz — belastbare (well-established use) Daten gibt es NUR fuer die Fixkombination Hopfen + Baldrian. Wirkstoff-Hypothese: das bei Lagerung entstehende 2-Methyl-3-buten-2-ol; Wirkstoffe bauen rasch ab (frisch/Extrakt bevorzugt). Sicherheit: additive Sedierung mit Alkohol/Benzodiazepinen (pharmakodynamisch, relevant); nicht in SS/Stillzeit, nicht < 12 J. Das Phytooestrogen 8-Prenylnaringenin ist zwar das staerkste bekannte pflanzliche Phytooestrogen, bei ueblicher Dosis aber hormonell vernachlaessigbar (Hopfentee/-kissen sind KEINE Hormontherapie). Verwechslung aktiv ergaenzt: giftige Zaunruebe Bryonia (klettert mit RANKEN, Hopfen windet OHNE Ranken) — Risiko v. a. bei jungen Trieben."
+    },
+    {
+      "ts": "2026-07-24T06:17:22Z",
+      "id": "pulmonaria-officinalis",
+      "common": "Echtes Lungenkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 4). KEINE HMPC-/ESCOP-Monographie; Kommission E fuehrt eine NEGATIV-/Nullmonographie (Wirksamkeit nicht belegt, keine Risiken erwartet) -> alle Indikationen TRAD. Der Name stammt aus der Signaturenlehre (gefleckte Blaetter), nicht aus einer Lungenwirkung. Ueberraschung zum queue-Hinweis 'PA-Verdacht': systematische Untersuchung findet in P. officinalis KEINE toxischen Pyrrolizidinalkaloide (anders als bei anderen Raublattgewaechsen). deadly_confusion=true wegen Fingerhut-Rosette beim Fruehjahrs-Sammeln."
+    },
+    {
+      "ts": "2026-07-24T06:17:22Z",
+      "id": "oenothera-biennis",
+      "common": "Gemeine Nachtkerze",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 4). HMPC nur 'traditional use' (Oenotherae oleum) fuer Juckreiz bei trockener Haut/Neurodermitis und Mastodynie - NICHT well-established use. WICHTIG: Cochrane 2013 (27 Studien, 1596 Pat.) fand fuer orales Nachtkerzenoel KEINEN Vorteil ueber Placebo bei Ekzem -> Erwartung ausdruecklich gedaempft. Sicherheitssignal: kann die Krampfschwelle senken (lowers_seizure_threshold), Anfaelle unter Phenothiazinen berichtet; milde Blutungs-Interaktion. Wirkstoff nur im Samenoel, nicht im Tee."
     }
   ]
 }

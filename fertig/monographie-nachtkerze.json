@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "id": "oenothera-biennis",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Oenothera biennis L.",
+    "common_names_de": ["Gemeine Nachtkerze", "Gewöhnliche Nachtkerze", "Zweijährige Nachtkerze", "Schinkenwurz"],
+    "family": "Onagraceae (Nachtkerzengewächse)",
+    "drug_part": ["Fettes Öl aus dem Samen (Oenotherae oleum)"],
+    "drug_name_latin": "Oenotherae oleum (Nachtkerzensamenöl)",
+    "synonyms": ["Onagra biennis"],
+    "synonym_note": "Formenkreis Oenothera biennis agg.; zahlreiche schwer trennbare, taxonomisch strittige Kleinarten."
+  },
+  "identification": {
+    "key_features": [
+      "Große, hellgelbe, vierzählige Blüten mit herzförmig ausgerandeten Kronblättern, die sich abends öffnen — sicherstes Merkmal",
+      "Zweijährig: im 1. Jahr bodenständige Blattrosette mit dickfleischiger Pfahlwurzel, im 2. Jahr aufrechter, oft rötlich überlaufener Stängel (0,8–1,8 m)",
+      "Lanzettliche, ganzrandige bis schwach gezähnte Stängelblätter mit hellem Mittelnerv",
+      "Lange, schmale, aufrechte Kapselfrüchte mit vielen kleinen Samen",
+      "Ruderalstandorte: Wegränder, Bahndämme, Kies- und Sandflächen; Neophyt"
+    ],
+    "season": "Juni–September (Blüte)",
+    "habitat": "Ruderalflächen, Wegränder, Bahndämme, Kies- und Sandböden; wärmeliebender Neophyt aus Nordamerika",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "kultur-und-verwildert"}
+    ],
+    "collection_rules": [
+      "Für die medizinische Anwendung ist Selbstsammeln nicht sinnvoll — Wirkstoff ist das kaltgepresste Samenöl aus reifen Samen, im Haushalt nicht herstellbar",
+      "Wurzel (1. Jahr, 'Schinkenwurz') und junge Blätter/Blüten sind essbar — nur bei sicherer Bestimmung",
+      "Blühende Pflanze durch die großen gelben Abendblüten eindeutig bestimmbar"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Andere Nachtkerzen-Arten",
+      "scientific_name": "Oenothera spp.",
+      "toxicity_level": "essbar",
+      "note": "Der Formenkreis O. biennis agg. umfasst viele schwer trennbare, ebenfalls unbedenkliche Arten. Verwechslung ohne gesundheitliche Folgen."
+    },
+    {
+      "name": "Keine relevante lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "note": "Die blühende Pflanze ist durch die großen gelben Abendblüten eindeutig; ein giftiger Doppelgänger mit vergleichbarem Habitus ist nicht bekannt. Vorsicht nur bei der Wurzelernte im 1. Jahr: bodenständige Rosetten verschiedener Pflanzen ähneln sich — die Wurzel deshalb nur ernten, wenn die Pflanze am Vorjahresstandort sicher als Nachtkerze bestimmt wurde."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Fettes Samenöl",
+      "Linolsäure (~65–75 %)",
+      "γ-Linolensäure / GLA (~8–10 %)",
+      "Ölsäure",
+      "Sterole, Tocopherole"
+    ],
+    "lead_substance": "γ-Linolensäure (GLA) — Vorstufe entzündungsmodulierender Eicosanoide (Prostaglandin E1)",
+    "solubility_note": "Das Wirkprinzip ist das fette Öl → nur als kaltgepresstes Samenöl (Kapseln) oder äußerlich als Hautöl sinnvoll. Ein wässriger Tee oder Aufguss aus dem Kraut enthält KEIN GLA und ist wirkungslos.",
+    "heat_light_sensitivity": "Mehrfach ungesättigte Fettsäuren → stark oxidations-, licht- und wärmeempfindlich (wird ranzig). Kühl und dunkel lagern, oft mit Vitamin E stabilisiert."
+  },
+  "pharmacology": {
+    "mechanism": "GLA umgeht die (bei Atopikern möglicherweise verminderte) Delta-6-Desaturase und wird zu Dihomo-γ-Linolensäure verstoffwechselt, aus der das antiinflammatorische Prostaglandin E1 entsteht. Zugrunde liegt die Hypothese eines Fettsäure-Stoffwechseldefekts beim atopischen Ekzem.",
+    "evidence_caveat": "Die kontrollierte Evidenz ist enttäuschend: Der Cochrane-Review 2013 (Bamford et al., 27 Studien, 1596 Teilnehmer) fand für orales Nachtkerzenöl KEINEN Vorteil gegenüber Placebo beim Ekzem. Der HMPC führt die Anwendung ausdrücklich nur als 'traditional use' — nicht als well-established use.",
+    "pharmacokinetics": "GLA wird resorbiert und in Membranphospholipide eingebaut; ein etwaiger Effekt auf die Haut tritt erst nach Wochen ein."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Linderung von Juckreiz bei trockener Haut / atopischem Ekzem (Neurodermitis)",
+      "synonyms": ["Neurodermitis", "atopisches Ekzem", "trockene Haut", "Juckreiz", "Hautjucken", "juckende Haut"],
+      "evidence_tag": "TU",
+      "comment": "HMPC 'traditional use' (Oenotherae oleum). ACHTUNG: Der Cochrane-Review 2013 fand keinen Nutzen über Placebo hinaus — die Tradition ist hier kein Wirksamkeitsbeleg.",
+      "realistic_expectation": "Als rückfettendes Hautöl bei trockener Haut angenehm und gut verträglich. Ein über die reine Hautpflege hinausgehender, spezifischer Effekt auf die Neurodermitis ist nach bestem Evidenzstand nicht belegt. Kein Ersatz für die topische Standardtherapie (Emollienzien, bei Schüben ggf. Glukokortikoide).",
+      "source": "HMPC traditional use (Oenotherae oleum); Cochrane 2013 (negatives Ergebnis)"
+    },
+    {
+      "canonical": "Zyklusabhängige Mastodynie / prämenstruelles Spannungsgefühl der Brust",
+      "synonyms": ["Brustspannen", "PMS", "Mastodynie", "prämenstruelle Beschwerden", "Spannungsgefühl Brust"],
+      "evidence_tag": "TU",
+      "comment": "Traditionelle Anwendung; die kontrollierte Evidenz ist schwach und uneinheitlich.",
+      "realistic_expectation": "Allenfalls milde, unsichere Linderung; belastbare RCT-Belege fehlen weitgehend. Bei anhaltender oder einseitiger Mastodynie ärztliche Abklärung.",
+      "source": "HMPC traditional use; traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Gut verträgliches, GLA-reiches Samenöl; als rückfettendes Emolliens bei trockener Haut brauchbar.",
+    "overstated": "Der Ruf als Neurodermitis-Heilmittel: Der bislang beste Evidenzstand (Cochrane 2013) zeigt für orales Nachtkerzenöl KEINEN Vorteil gegenüber Placebo. Die Erwartung an eine krankheitsmodifizierende Wirkung ist nicht gedeckt.",
+    "effect_size": "gering; symptomatisch/pflegend, nicht kurativ"
+  },
+  "preparation": {
+    "recommended_forms": ["Kaltgepresstes Samenöl in Kapseln (innerlich)", "Hautöl (äußerlich)"],
+    "form_rationale": "Der Wirkstoff GLA steckt ausschließlich im fetten Samenöl — ein Tee oder Aufguss aus dem Kraut ist wirkungslos. Kaltpressung und Lichtschutz erhalten die empfindlichen Fettsäuren.",
+    "standard_dose": "Traditionell oral 1–6 g Samenöl pro Tag (GLA-Gehalt ~8–10 %); äußerlich nach Bedarf. Wirkeintritt erst nach mehreren Wochen.",
+    "preservation": "Kühl, dunkel, dicht verschlossen; angebrochene Flaschen/Kapseln zügig verbrauchen (Ranzidität)."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": ["Bekannte Überempfindlichkeit", "Vorsicht bei Epilepsie oder krampfschwellensenkender Komedikation"],
+    "pregnancy_lactation": "Keine ausreichenden Daten; die Sicherheit in Schwangerschaft und Stillzeit ist nicht belegt — vorsichtshalber meiden bzw. ärztlich abklären. unsicher — zu prüfen.",
+    "adverse_effects": "Selten Kopfschmerzen, Übelkeit, weicher Stuhl; sehr selten allergische Hautreaktionen.",
+    "interactions": [
+      {"type": "pharmakodynamisch", "mechanism": "additive Hemmung der Thrombozytenaggregation", "affected": "Antikoagulanzien / Thrombozytenaggregationshemmer (z. B. Warfarin, ASS, Clopidogrel)", "clinical_relevance": "gering bis relevant"},
+      {"type": "pharmakodynamisch", "mechanism": "mögliche Senkung der Krampfschwelle; Fallberichte über ausgelöste Anfälle, insbesondere unter Phenothiazin-Therapie", "affected": "Antiepileptika; Phenothiazine (Neuroleptika)", "clinical_relevance": "relevant"}
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "lowers_seizure_threshold": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kann die Krampfschwelle senken — bei Epilepsie und unter Phenothiazin-Neuroleptika meiden; die erhoffte Neurodermitis-Wirkung ist nach Cochrane 2013 nicht besser als Placebo."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Samenreife im 2. Jahr, Spätsommer bis Herbst (Öl wird industriell kaltgepresst)",
+    "harvest_month_tags": [9, 10],
+    "harvest_organ": "Samen",
+    "method": "Reife Kapseln bzw. Samen ernten; das medizinisch relevante Öl wird gepresst — im Haushalt nicht praktikabel.",
+    "processing": "Kaltpressung der Samen unter Lichtschutz.",
+    "storage": "Öl kühl, dunkel und dicht verschlossen; Vitamin-E-Zusatz gegen Oxidation."
+  },
+  "kitchen": {
+    "uses": ["Wurzel des 1. Jahres gekocht als Gemüse ('Schinkenwurz')", "Junge Blätter und Blüten essbar"],
+    "culinary_vs_medicinal": "Kulinarisch sind Wurzel, Blätter und Blüten nutzbar. Medizinisch zählt allein das Samenöl — beides nicht miteinander verwechseln; das Gemüse hat keine Arzneiwirkung."
+  },
+  "garden": {
+    "site_soil": "Sonnig, durchlässig, mager, sandig-kiesig; sehr anspruchslos.",
+    "hardiness": "Zweijährig, winterhart; versamt sich reichlich.",
+    "propagation": "Aussaat; verwildert leicht (Neophyt).",
+    "bodensee_suitability": "Sehr gut — gedeiht auf mageren, kiesigen Ruderalstellen und neigt zum Verwildern; eher Wildstaude als Beetpflanze."
+  },
+  "images": [
+    {"role": "habitus", "caption": "", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Hellgelbe, abends öffnende Blüte", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC: Assessment report on Oenothera biennis L., Oenothera lamarckiana L., oleum — Einstufung als 'traditional use' (nicht well-established use)",
+    "Cochrane Review 2013 (Bamford JTM et al.): Oral evening primrose oil and borage oil for eczema — kein Vorteil gegenüber Placebo (27 Studien, 1596 Teilnehmer)",
+    "Arzneipflanzenlexikon / PTA-Forum: Inhaltsstoffe (Linolsäure, γ-Linolensäure ~8–10 %), Anwendung, Nebenwirkungen",
+    "Interaktionshinweise (Antikoagulanzien; Krampfschwelle/Phenothiazine): onmeda, PTA-Forum, DocMorris-Ratgeber",
+    "Wikipedia: Gemeine Nachtkerze — Familie Onagraceae, Merkmale, zweijährig, Schinkenwurz, Neophyt"
+  ]
+}

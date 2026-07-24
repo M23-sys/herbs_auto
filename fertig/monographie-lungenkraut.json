@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "id": "pulmonaria-officinalis",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Pulmonaria officinalis L.",
+    "common_names_de": ["Echtes Lungenkraut", "Geflecktes Lungenkraut", "Hänsel und Gretel", "Lungenwurz"],
+    "family": "Boraginaceae (Raublattgewächse)",
+    "drug_part": ["Blühendes Kraut (Pulmonariae herba)", "Blatt (Folium)"],
+    "drug_name_latin": "Pulmonariae herba",
+    "synonyms": ["Pulmonaria maculosa"],
+    "synonym_note": "Formenreiche Art (Pulmonaria officinalis agg.); botanisch von den nahen Arten P. obscura und P. mollis schwer zu trennen."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter mit auffälligen weißen bis silbrigen Flecken — namensgebend und sicherstes Feldmerkmal",
+      "Grundständige Rosette aus gestielten, eiförmig-zugespitzten, rau-borstig behaarten Blättern",
+      "Trichterförmige Blüten mit Farbwechsel an derselben Pflanze: im Aufblühen rosa-rot, später blau-violett",
+      "Niedriger Wuchs (10–30 cm), Frühblüher",
+      "Halbschattige Laub- und Auwälder auf kalkhaltigem, frischem Boden"
+    ],
+    "season": "März–Mai",
+    "habitat": "Laub- und Auwälder, Gebüschsäume; frische, kalkhaltige, humose Böden im Halbschatten",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Nur Pflanzen mit den charakteristischen weißen Blattflecken sammeln",
+      "Von der lebensgefährlichen Fingerhut-Rosette (graugrün, weich-filzig, KEINE Flecken) klar abgrenzen",
+      "Vom PA-haltigen Beinwell abgrenzen: dieser ist deutlich größer, ungefleckt, Blätter am Stängel herablaufend",
+      "Junge Blätter vor bzw. zur Blüte ernten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Schatten-Lungenkraut und andere Pulmonaria-Arten",
+      "scientific_name": "Pulmonaria obscura",
+      "toxicity_level": "essbar",
+      "note": "Gleiche Gattung, ebenfalls unbedenklich. Blätter ungefleckt oder nur schwach gefleckt. Verwechslung ohne gesundheitliche Folgen."
+    },
+    {
+      "name": "Echter Beinwell",
+      "scientific_name": "Symphytum officinale",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (lebertoxisch)",
+      "note": "Ebenfalls Raublattgewächs, aber viel größer und kräftiger, Blätter ungefleckt und am Stängel herablaufend (geflügelt), rau-borstig. Lungenkraut bleibt niedrig und trägt weiße Blattflecken."
+    },
+    {
+      "name": "Roter Fingerhut (Blattrosette)",
+      "scientific_name": "Digitalis purpurea",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzglykoside (Digitoxin)",
+      "note": "Im Frühjahr können bodenständige, behaarte Blattrosetten beim flüchtigen Sammeln ähneln. Fingerhutblätter sind graugrün, weich-filzig, runzelig-genetzt und OHNE weiße Flecken; Lungenkraut trägt charakteristische weiße Punkte. Im Zweifel nicht sammeln — Fingerhut kann schon in kleiner Menge tödlich sein."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Schleimstoffe (Arabinogalactane, Rhamnogalacturonane)",
+      "Lösliche Kieselsäure (~2,5 %)",
+      "Allantoin (~1–2 %)",
+      "Gerbstoffe (Catechin-/Gallotannine, ~4 %)",
+      "Flavonoide",
+      "Saponine"
+    ],
+    "lead_substance": "Schleimstoffe (reizlindernd) und Allantoin (gewebefreundlich, äußerlich); Kieselsäure als Begleitstoff",
+    "solubility_note": "Schleimstoffe und Kieselsäure gehen am besten als Kaltwasserauszug oder kurz gebrühter Tee über; Gerbstoffe sind wasserlöslich. Eine alkoholische Tinktur nutzt die Schleimstoffe schlecht — daher Tee bevorzugen.",
+    "heat_light_sensitivity": "Schleimstoffe hitzeempfindlich — nicht lange kochen; kurz überbrühen genügt."
+  },
+  "pharmacology": {
+    "mechanism": "Reizlinderung durch Schleimüberzug der Rachen-/Schleimhäute; Gerbstoffe wirken lokal adstringierend; Allantoin fördert bei äußerlicher Anwendung die Gewebeneubildung. Eine spezifisch bronchiale oder 'Lungen'-Wirkung ist nicht nachgewiesen.",
+    "evidence_caveat": "Keine kontrollierten Studien am Menschen. Die Zuordnung 'Lungenkraut → Lunge' stammt aus der Signaturenlehre (gefleckte Blätter als Sinnbild der kranken Lunge), nicht aus der Pharmakologie. Kommission E: Wirksamkeit nicht belegt (Negativmonographie).",
+    "pharmacokinetics": "Keine Daten. unsicher — zu prüfen."
+  },
+  "indications": [
+    {
+      "canonical": "Katarrh der oberen Atemwege, Reizhusten, Halskratzen",
+      "synonyms": ["Husten", "Halsschmerzen", "Heiserkeit", "Rachenentzündung", "Verschleimung", "Erkältung"],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission-E-Negativmonographie: Wirksamkeit nicht ausreichend belegt, aber auch keine Risiken erwartet (sog. Nullmonographie). Weder HMPC- noch ESCOP-Monographie vorhanden.",
+      "realistic_expectation": "Die Schleimstoffe können eine gereizte Rachenschleimhaut kurzfristig überziehen und das Kratzen lindern. Ein über den unspezifischen Schleim-/Placebo-Effekt hinausgehender Nutzen ist nicht belegt. Kein Ersatz bei bakteriellem Infekt oder anhaltendem Husten.",
+      "source": "Kommission E (Negativmonographie); traditionelle Anwendung"
+    },
+    {
+      "canonical": "Kleinere Hautreizungen und schlecht heilende Wunden (äußerlich)",
+      "synonyms": ["Ekzem", "Wunden", "Hautentzündung", "wunde Haut"],
+      "evidence_tag": "TRAD",
+      "comment": "Rein traditionelle äußerliche Anwendung, hergeleitet aus dem Allantoin-Gehalt. Keine klinische Evidenz.",
+      "realistic_expectation": "Allenfalls milde, pflegende Wirkung durch Allantoin und Schleimstoffe. Bei entzündeten oder nässenden Wunden ärztlich abklären.",
+      "source": "traditionelle Anwendung (Allantoin-Gehalt)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, reizlinderndes Schleim- und Gerbstoffkraut; volksmedizinisch bei Halskratzen und trockenem Reizhusten, äußerlich als Hautpflege.",
+    "overstated": "Der Name 'Lungenkraut' verspricht eine Lungenwirkung, die es nicht hat — er stammt aus der Signaturenlehre (gefleckte Blätter = 'kranke Lunge'). Eine Wirkung bei Bronchitis, Asthma oder tiefen Atemwegserkrankungen ist nicht belegt; Kommission E bewertet die Wirksamkeit negativ.",
+    "effect_size": "mild; rein symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": ["Tee (Aufguss)", "Kaltwasserauszug", "Umschlag (äußerlich)"],
+    "form_rationale": "Wirkbestimmend sind wasserlösliche Schleimstoffe und Kieselsäure — diese gehen in Wasser über und werden durch Alkohol schlecht erfasst. Deshalb Tee/Kaltauszug statt Tinktur; nur kurz überbrühen, um die hitzeempfindlichen Schleimstoffe zu schonen.",
+    "standard_dose": "Teeaufguss: ca. 1,5 g getrocknetes Kraut auf 150 ml Wasser, 2–3× täglich. Äußerlich als Umschlag nach Bedarf.",
+    "preservation": "Getrocknetes Kraut trocken und dunkel lagern; Aufguss frisch zubereiten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": ["Bekannte Überempfindlichkeit gegen die Pflanze"],
+    "pregnancy_lactation": "Keine belastbaren Daten zur Sicherheit in Schwangerschaft und Stillzeit. Als Raublattgewächs vorsichtshalber meiden — auch wenn P. officinalis nach systematischer Untersuchung frei von toxischen 1,2-ungesättigten Pyrrolizidinalkaloiden ist. unsicher — zu prüfen.",
+    "adverse_effects": "Bei bestimmungsgemäßem Gebrauch keine bekannt. Gerbstoffe können bei empfindlichem Magen leicht reizen.",
+    "interactions": [
+      {"type": "theoretisch", "mechanism": "Gerbstoffe können die Resorption gleichzeitig eingenommener Mineralstoffe oder Alkaloide vermindern", "affected": "orale Eisenpräparate, alkaloidhaltige Arzneistoffe", "clinical_relevance": "gering"}
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Beim Sammeln junger Blattrosetten im Frühjahr die lebensgefährliche Fingerhut-Rosette (Digitalis) und den PA-haltigen Beinwell sicher ausschließen — echtes Lungenkraut trägt weiße Blattflecken."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühendes Kraut bzw. Blätter im Frühjahr (März–Mai), zur Blüte",
+    "harvest_month_tags": [3, 4, 5],
+    "harvest_organ": "Kraut",
+    "method": "Oberirdisches blühendes Kraut bzw. junge Blätter schneiden; nur eindeutig gefleckte Pflanzen.",
+    "processing": "Luftig im Schatten trocknen — Schleimstoffe sind hitzeempfindlich, daher nicht in praller Sonne oder heißer Trocknung.",
+    "storage": "Trocken, dunkel, in Papier oder Stoff; nicht luftdicht."
+  },
+  "kitchen": {
+    "uses": ["Junge, sicher bestimmte Blätter als mildes Wildgemüse oder Salatbeigabe"],
+    "culinary_vs_medicinal": "Kulinarisch ein mildes Frühlings-Wildgemüse. Medizinisch keine belegte Wirkung — der Nutzen liegt eher am Tisch als in der Apotheke."
+  },
+  "garden": {
+    "site_soil": "Humoser, frischer, kalkhaltiger Boden im Halbschatten bis Schatten.",
+    "hardiness": "Winterhart, ausdauernde Staude.",
+    "propagation": "Teilung im Herbst; versamt sich selbst.",
+    "bodensee_suitability": "Gut geeignet — in den Laubwäldern der Region heimisch und als frühblühende Schattenstaude im Garten beliebt."
+  },
+  "images": [
+    {"role": "habitus", "caption": "", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Blätter mit charakteristischen weißen Flecken", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "Kommission E: Pulmonariae herba (Negativmonographie) — Wirksamkeit nicht belegt, keine Risiken erwartet",
+    "Keine HMPC-/EMA-Monographie und keine ESCOP-Monographie vorhanden (Stand Recherche 2026-07)",
+    "Spektrum, Lexikon der Arzneipflanzen und Drogen: Pulmonaria officinalis — Inhaltsstoffe (Kieselsäure ~2,5 %, Allantoin, Gerbstoffe, Schleimstoffe)",
+    "Systematische Untersuchungen: keine nachweisbaren toxischen Pyrrolizidinalkaloide in P. officinalis (im Unterschied zu vielen anderen Boraginaceae)",
+    "Wikipedia/Arzneipflanzenlexikon: Merkmale, Blütezeit, Standort, Verwechslung"
+  ]
+}
