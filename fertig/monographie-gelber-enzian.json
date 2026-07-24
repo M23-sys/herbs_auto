@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "id": "gentiana-lutea",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Gentiana lutea L.",
+    "common_names_de": [
+      "Gelber Enzian",
+      "Enzian",
+      "Bitterwurz",
+      "Gelbsuchtwurz",
+      "Fieberwurzel"
+    ],
+    "family": "Enziangewächse (Gentianaceae)",
+    "drug_part": [
+      "Wurzel und Wurzelstock (getrocknet, unfermentiert) (Radix)"
+    ],
+    "drug_name_latin": "Gentianae radix",
+    "synonyms": [],
+    "synonym_note": "Gentiana lutea L. ist der aktuell akzeptierte Name. Arzneilich verwendet wird ausschließlich die Wurzel (Gentianae radix)."
+  },
+  "identification": {
+    "key_features": [
+      "Blätter KREUZGEGENSTÄNDIG (paarweise, um 90° gedreht) — das sicherste Unterscheidungsmerkmal zum lebensgefährlichen Weißen Germer, dessen Blätter WECHSELSTÄNDIG/schraubig stehen",
+      "Große, blaugrüne, breit-elliptische Blätter mit 5–7 markanten, bogigen Längsnerven",
+      "Kräftige, gelbe Trichter-/Radblüten mit meist 5–6 sternförmig ausgebreiteten Zipfeln, quirlig in den oberen Blattachseln",
+      "Aufrechter, unverzweigter, hohler Stängel 40–140 cm; mehrjährig, blüht erst nach mehreren (5–10) Jahren",
+      "Wurzel innen kräftig gelb (Weißer Germer: innen weiß), Geschmack der Wurzel intensiv und lang anhaltend bitter"
+    ],
+    "season": "Blütezeit Juni bis August",
+    "habitat": "Kalkreiche, sonnige Bergwiesen, Magerrasen und Weiden der Alpen und Voralpen, meist 800–2500 m; kalkhold",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-selten"
+      }
+    ],
+    "collection_rules": [
+      "LEBENSGEFAHR durch Verwechslung: Vor der Blüte ist die grundständige Blattrosette leicht mit dem hochgiftigen Weißen Germer (Veratrum album) zu verwechseln — Wurzeln NIEMALS vor sicherer Bestimmung graben. Sicheres Merkmal: Enzian-Blätter kreuzgegenständig, Germer-Blätter wechselständig.",
+      "RECHTLICH: Gentiana lutea ist nach BArtSchV besonders geschützt (Rote Liste) — Wildsammlung, besonders der Wurzel, ist verboten. Droge nur aus kontrolliertem Anbau/Handel.",
+      "Bestätiger: kreuzgegenständige Blätter + gelbe Sternblüten + innen gelbe, extrem bittere Wurzel"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Weißer Germer",
+      "scientific_name": "Veratrum album",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Veratrum-Steroidalkaloide (Protoveratrine A/B, Jervin, Veratramin)",
+      "note": "KLASSISCHE TÖDLICHE VERWECHSLUNG, v. a. beim Graben der Wurzel für Enzianschnaps vor der Blüte. Unterscheidung: Germer-Blätter WECHSELSTÄNDIG/schraubig und stark längsfaltig (plissiert); Enzian-Blätter KREUZGEGENSTÄNDIG und glatt. Germer-Blüten weißlich-grün (Enzian gelb), Germer-Wurzel innen weiß (Enzian innen gelb). Schon geringe Mengen: Erbrechen, Bradykardie, Blutdruckabfall, Kreislaufkollaps, Atemlähmung — sofort Notruf."
+    },
+    {
+      "name": "Purpur-Enzian / Punktierter Enzian",
+      "scientific_name": "Gentiana purpurea / Gentiana punctata",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandte Enzian-Arten mit ähnlicher Wurzel, arzneilich gleichwertig genutzt, ungiftig. Blütenfarbe/-form abweichend (purpurn bzw. gelb-punktiert). Ebenfalls geschützt — nicht sammeln. Toxikologisch unkritisch."
+    },
+    {
+      "name": "Gelber Fingerhut",
+      "scientific_name": "Digitalis grandiflora",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzglykoside (Digitalis-Glykoside)",
+      "note": "Ebenfalls gelbblütige Bergpflanze, kann im vegetativen/blühenden Zustand mit Enzian verwechselt werden. Fingerhut: Blüten glockig-hängend in einseitiger Traube, Blätter wechselständig und weich behaart. Enzian: sternförmige, aufrechte Blüten, Blätter kreuzgegenständig und kahl."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Secoiridoid-Bitterstoffe: Gentiopikrosid (Gentiopikrin, ca. 2–4 %), Amarogentin (0,02–0,04 %), Swerosid, Sweriamarin",
+      "Xanthone (Gentisin, Isogentisin, Gentiosid) — gelbe Farbstoffe",
+      "Oligosaccharide: Gentianose (Trisaccharid), Gentiobiose",
+      "Spuren des Pyridinalkaloids Gentianin"
+    ],
+    "lead_substance": "Amarogentin — mit einem Bitterwert von ca. 58.000.000 einer der bittersten bekannten Naturstoffe; trotz geringer Menge wertbestimmend. Der Bitterwert der Droge (Gentianae radix) beträgt mindestens 10.000.",
+    "solubility_note": "Bitterstoffe sind gut wasser- und alkohollöslich → Tee (Aufguss/Kaltmazerat) oder Tinktur/bittere Tropfen. Wirkung hängt am Bittergeschmack: NICHT süßen, nicht als Kapsel/Dragee (dort entfällt der Geschmacksreiz). Etwa 30 min vor der Mahlzeit einnehmen.",
+    "heat_light_sensitivity": "Getrocknete Wurzel trocken und lichtgeschützt lagern; Bitterwert schwindet über die Jahre"
+  },
+  "pharmacology": {
+    "mechanism": "Amarum purum (reines Bittermittel): Die Bitterstoffe reizen die Bittergeschmacksrezeptoren, reflektorisch (über den N. vagus) werden Speichel- und Magensaftsekretion sowie die Gallensekretion angeregt — das fördert Appetit und Verdauung. Voraussetzung ist eine intakte Geschmackswahrnehmung.",
+    "evidence_caveat": "Der Wirkmechanismus als Bittermittel ist plausibel und traditionell gut belegt; kontrollierte klinische Studien sind spärlich. HMPC-Einstufung 'traditional use'. Antiphlogistische/weitere Effekte sind überwiegend präklinisch.",
+    "pharmacokinetics": "unsicher — zu prüfen (die reflektorische Wirkung erfolgt lokal über den Geschmackssinn; belastbare systemische Pharmakokinetik-Daten fehlen)"
+  },
+  "indications": [
+    {
+      "canonical": "Vorübergehende Appetitlosigkeit",
+      "synonyms": [
+        "kein Appetit",
+        "Appetitmangel",
+        "Inappetenz",
+        "Appetitlosigkeit nach Krankheit"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use (Gentianae radix); Kommission E positiv; ESCOP führt die Droge. Ungesüßt ca. 30 min vor dem Essen einnehmen.",
+      "realistic_expectation": "Kann als Bittermittel den Appetit anregen. Wirkung mild und symptomatisch; klärt keine Ursache eines anhaltenden Appetitverlusts (dieser gehört ärztlich abgeklärt).",
+      "source": "HMPC traditional use (Gentianae radix); Kommission E; ESCOP"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Blähungen",
+        "Magendrücken",
+        "träge Verdauung"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use; Kommission E positiv bei dyspeptischen Beschwerden. Klassische Komponente von Magenbittern.",
+      "realistic_expectation": "Lindert leichte Verdauungsbeschwerden mild und symptomatisch, indem es die Magensaft- und Gallensekretion anregt. Kein Mittel gegen strukturelle Ursachen; starke oder anhaltende Beschwerden ärztlich abklären.",
+      "source": "HMPC traditional use (Gentianae radix); Kommission E; ESCOP"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Eines der stärksten pflanzlichen Bittermittel (Amarum): regt reflektorisch Speichel-, Magensaft- und Gallensekretion an, unterstützt Appetit und Verdauung bei leichten Beschwerden.",
+    "overstated": "Kein 'Leberreiniger', kein Fieber- oder Gelbsuchtmittel (trotz alter Namen wie Gelbsuchtwurz), kein Entgiftungs-, Immun- oder Blutzuckermittel — solche Ansprüche sind nicht belegt. Wirkt nur bei erhaltenem Bittergeschmack (nicht süßen, nicht verkapseln).",
+    "effect_size": "mild bis moderat; rein symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee (Aufguss oder Kaltmazerat)",
+      "Tinktur / bittere Tropfen",
+      "Bestandteil von Magenbitter- und Appetit-Teemischungen"
+    ],
+    "form_rationale": "Bitterstoffe sind wasser- und alkohollöslich; entscheidend ist der erhaltene Bittergeschmack im Mund. Daher Tee oder Tinktur, ungesüßt und ca. 30 min vor der Mahlzeit — Kapseln/Dragees umgehen den Geschmacksreiz und sind wirkungslos.",
+    "standard_dose": "Tee: ca. 1–2 g fein geschnittene Wurzel auf 150 ml Wasser, 3–4 × täglich vor den Mahlzeiten; Kommission E Tagesdosis ca. 2–4 g Droge. Tinktur (1:5) ca. 1–3 g bzw. nach Herstellerangabe. Nicht süßen.",
+    "preservation": "Getrocknete Wurzel trocken, luftdicht und lichtgeschützt aufbewahren; Bitterwert über die Zeit abnehmend"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Magen- und Zwölffingerdarmgeschwüre (peptisches Ulkus) — Bitterstoffe steigern die Magensäuresekretion",
+      "Überempfindlichkeit gegen Enzian",
+      "Bekannte Übersäuerung/Hyperazidität (relativ)"
+    ],
+    "pregnancy_lactation": "Keine ausreichenden Daten für Schwangerschaft und Stillzeit — Anwendung nicht empfohlen (HMPC). unsicher — zu prüfen",
+    "adverse_effects": "Bei bestimmungsgemäßem Gebrauch selten; bei empfindlichen Personen gelegentlich Kopfschmerzen. Bei Ulkusleiden können Beschwerden durch die Säureanregung zunehmen. In der älteren Literatur wird Zurückhaltung bei bestehender Hypertonie genannt (Beleglage schwach — unsicher, zu prüfen).",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Steigerung der Magensäuresekretion könnte die Wirkung von Säureblockern/Antazida theoretisch gegenläufig beeinflussen",
+        "affected": "Antazida, Protonenpumpenhemmer (theoretisch)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "reflux_caution": true
+    },
+    "key_warning": "Die Pflanze selbst ist ein sicheres Bittermittel — die eigentliche Lebensgefahr ist die Verwechslung der Wurzelrosette mit dem hochgiftigen Weißen Germer (Veratrum album): Blätter kreuzgegenständig (Enzian) vs. wechselständig (Germer). Bei Ulkus nicht anwenden; Wildsammlung verboten (geschützt)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst des mehrjährigen Wurzelstocks — jedoch NUR aus Anbau; Wildsammlung ist verboten",
+    "harvest_month_tags": [
+      9,
+      10
+    ],
+    "harvest_organ": "Wurzel",
+    "method": "Nur kultivierte Pflanzen: Wurzelstock im Herbst roden. Wildsammlung untersagt (geschützt) und wegen Germer-Verwechslung lebensgefährlich.",
+    "processing": "Wurzeln waschen, längs teilen, rasch und schonend trocknen (unfermentiert; eine langsame 'Fermentation' dunkelt die Handelsware, mindert aber den Bitterwert)",
+    "storage": "Trocken, luftdicht, lichtgeschützt; Bitterwert regelmäßig prüfen"
+  },
+  "kitchen": {
+    "uses": [
+      "Bitterkomponente in Magenbitter, Kräuterlikören und Aperitifs (Enzianschnaps aus der Wurzel — nur aus Kulturware)"
+    ],
+    "culinary_vs_medicinal": "Die Grenze verläuft an Dosis und Zweck: als Bitterlikör/Aperitif in kleinen Mengen (Genuss), arzneilich als Amarum bei Appetit-/Verdauungsbeschwerden. Wegen Schutzstatus ohnehin nur Kulturware."
+  },
+  "garden": {
+    "site_soil": "Sonnig, kalkhaltiger, tiefgründiger, eher magerer Boden",
+    "hardiness": "Mehrjährig, voll winterhart; sehr langsam wachsend, blüht erst nach mehreren Jahren",
+    "propagation": "Aussaat (Kaltkeimer/Frostkeimer) — braucht Geduld; Direktsaat an Ort und Stelle empfohlen",
+    "bodensee_suitability": "In der Region auf mageren, kalkhaltigen, sonnigen Standorten grundsätzlich kultivierbar, aber sehr langsam und blühfaul; auf fetten Gartenböden schwierig. Der Anbau ist die legale Alternative zur (verbotenen) Wildsammlung."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: European Union herbal monograph on Gentiana lutea L., radix (traditional use) — Primärquelle (EMA-PDF) diesen Lauf per WebFetch nicht erreichbar (HTTP 403), Evidenzgrad TU aus Sekundärquellen abgeleitet, ärztliche Gegenprüfung nötig",
+    "ESCOP: Gentianae radix (Gentian Root) Monographie",
+    "Kommission E: Gentianae radix (positiv — Appetitlosigkeit, dyspeptische Beschwerden)",
+    "Universität Ulm, Apothekergarten: Gentiana lutea (Inhaltsstoffe, Amarogentin, Bitterwert)",
+    "Giftpflanzen.com / Gartenjournal / AWL.ch: Verwechslung Gelber Enzian ↔ Weißer Germer (Veratrum album), Blattstellung und Wurzelfarbe",
+    "Bundesartenschutzverordnung (BArtSchV): Gentiana lutea besonders geschützt"
+  ]
+}

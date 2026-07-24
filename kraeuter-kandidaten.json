@@ -725,8 +725,8 @@
       "latin": "Gentiana lutea",
       "tier": 4,
       "reason": "stärkstes Bittermittel; GESCHÜTZT; Verwechslung Weißer Germer (tödlich)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-gelber-enzian.json"
     },
     {
       "id": "origanum-vulgare",
@@ -734,8 +734,8 @@
       "latin": "Origanum vulgare",
       "tier": 5,
       "reason": "Carvacrol, antimikrobiell",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-oregano.json"
     },
     {
       "id": "origanum-majorana",

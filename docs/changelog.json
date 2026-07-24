@@ -623,6 +623,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat, Tier 4). HMPC nur 'traditional use' (Oenotherae oleum) fuer Juckreiz bei trockener Haut/Neurodermitis und Mastodynie - NICHT well-established use. WICHTIG: Cochrane 2013 (27 Studien, 1596 Pat.) fand fuer orales Nachtkerzenoel KEINEN Vorteil ueber Placebo bei Ekzem -> Erwartung ausdruecklich gedaempft. Sicherheitssignal: kann die Krampfschwelle senken (lowers_seizure_threshold), Anfaelle unter Phenothiazinen berichtet; milde Blutungs-Interaktion. Wirkstoff nur im Samenoel, nicht im Tee."
+    },
+    {
+      "ts": "2026-07-24T12:20:00Z",
+      "id": "gentiana-lutea",
+      "common": "Gelber Enzian",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 4). HMPC 'traditional use' (Gentianae radix) fuer Appetitlosigkeit und dyspeptische Beschwerden; Kommission E positiv, ESCOP-Monographie. Amarum purum mit Amarogentin (Bitterwert ~58 Mio.). SICHERHEITSKRITISCH: lebensgefaehrliche Verwechslung der Wurzelrosette mit Weissem Germer (Veratrum album) - Enzian-Blaetter kreuzgegenstaendig vs. Germer wechselstaendig, Wurzel innen gelb vs. weiss; deadly_confusion gesetzt. Pflanze besonders geschuetzt (BArtSchV) - Wildsammlung verboten."
+    },
+    {
+      "ts": "2026-07-24T12:20:30Z",
+      "id": "origanum-vulgare",
+      "common": "Oregano",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 5). WICHTIG - Erwartung gedaempft: Fuer Origanum vulgare (Dostenkraut) existiert KEINE HMPC-Monographie (nur O. majorana und O. dictamnus haben eine), und die Kommission E hat die Anwendungsgebiete NEGATIV bewertet. Anwendung daher nur TRAD (volksmedizinisch), nicht TU. Der 'Oreganooel'-Ruf als natuerliches Antibiotikum ist klinisch unbelegt (nur in-vitro). Namensfalle: Wasserdost (Eupatorium cannabinum) enthaelt lebertoxische Pyrrolizidinalkaloide - als Konfusion aufgenommen. Konzentriertes aetherisches Oel schleimhautreizend, in Schwangerschaft meiden (Carvacrol uteruskontrahierend)."
     }
   ]
 }

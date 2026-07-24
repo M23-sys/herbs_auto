@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "id": "origanum-vulgare",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Origanum vulgare L.",
+    "common_names_de": [
+      "Gewöhnlicher Dost",
+      "Echter Dost",
+      "Oregano",
+      "Wilder Majoran",
+      "Wohlgemut"
+    ],
+    "family": "Lippenblütler (Lamiaceae)",
+    "drug_part": [
+      "Blühendes Kraut (getrocknet) (Herba)"
+    ],
+    "drug_name_latin": "Origani vulgaris herba (Origani herba)",
+    "synonyms": [
+      "Thymus origanum (L.) Kuntze",
+      "Origanum vulgare subsp. vulgare"
+    ],
+    "synonym_note": "Origanum vulgare L. ist der akzeptierte Name; als Gewürz-Oregano wird oft die aromareichere subsp. hirtum ('griechischer Oregano') genutzt. NICHT verwechseln mit Majoran (Origanum majorana) — eigene Art mit eigener HMPC-Monographie."
+  },
+  "identification": {
+    "key_features": [
+      "Aromatischer, würziger Duft beim Zerreiben des Krauts (Oregano-/Thymian-artig) — bestes Bestätigermerkmal",
+      "Vierkantiger Stängel und KREUZGEGENSTÄNDIGE, kurz gestielte, eiförmige, fast ganzrandige Blätter (typischer Lippenblütler)",
+      "Lockerer, doldenrispiger Blütenstand mit vielen kleinen rosa-purpurnen Lippenblüten und auffälligen rötlich-purpurnen Hochblättern (Brakteen)",
+      "Aufrechte, oft rötlich überlaufene, meist verzweigte Stängel, 20–60 cm hoch; mehrjährig, horstig",
+      "Blütezeit Juli–September, sonnige, trockene Kalkstandorte"
+    ],
+    "season": "Blütezeit Juli bis September",
+    "habitat": "Sonnige, trockene, kalkreiche Magerrasen, Säume, Wegränder, lichte Gebüsche und Böschungen; wärmeliebend",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "wild-haeufig"
+      }
+    ],
+    "collection_rules": [
+      "Blühendes Kraut an sonnigen, trockenen Standorten sammeln; Duftprobe als Bestätiger (deutlicher Oregano-Duft).",
+      "Nicht mit dem giftigen Wasserdost (Eupatorium cannabinum) verwechseln — dieser hat NUR den Namensteil 'Dost' gemein, ist ein Korbblütler (Asteraceae), wird hüfthoch und riecht nicht würzig.",
+      "Bestätiger: würziger Duft + vierkantiger Stängel + kreuzgegenständige Blätter + purpurne Hochblätter im Blütenstand"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Wasserdost / Kunigundenkraut",
+      "scientific_name": "Eupatorium cannabinum",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (lebertoxisch/kanzerogen bei wiederholter Aufnahme)",
+      "note": "NAMENSFALLE: trägt ebenfalls 'Dost', ist aber ein Korbblütler (Asteraceae), kein Küchenkraut. Unterschiede: 1–1,5 m hoch, hanfähnlich 3-teilig-gefingerte Blätter, schmutzig-rosa Röhrenblüten in Doldenrispe, KEIN würziger Duft, feuchte Standorte. Enthält leberschädigende Pyrrolizidinalkaloide — nicht als Tee verwenden."
+    },
+    {
+      "name": "Majoran",
+      "scientific_name": "Origanum majorana",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nächste Verwandte, essbar und ungefährlich, aber milder und süßlicher; einjährig kultiviert, graugrün-filzig behaart. Wichtig NICHT toxikologisch, sondern regulatorisch/inhaltlich: Majoran hat eine eigene HMPC-Monographie, Dost NICHT — die Evidenz darf nicht übertragen werden."
+    },
+    {
+      "name": "Andere aromatische Lippenblütler (Thymian, Bohnenkraut, Ysop)",
+      "scientific_name": "Thymus / Satureja / Hyssopus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Verwandte Küchen-/Heilkräuter, alle essbar. Abgrenzung über Blattform, Blütenstand und Duft. Toxikologisch unkritisch; ein giftiger morphologischer Doppelgänger von Dost ist nicht bekannt (siehe aber Namensfalle Wasserdost)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (ca. 0,1–4 %, stark chemotypabhängig): Carvacrol und/oder Thymol als Hauptphenole, dazu p-Cymen, γ-Terpinen, Linalool",
+      "Phenolische Gerbstoffe / Lamiaceen-Gerbstoffe, v. a. Rosmarinsäure",
+      "Flavonoide (u. a. Apigenin, Luteolin)",
+      "Triterpene, Phenolcarbonsäuren"
+    ],
+    "lead_substance": "Carvacrol (und Thymol) — antimikrobiell/spasmolytisch wirksame Phenole des ätherischen Öls; Rosmarinsäure als antioxidativer Gerbstoff",
+    "solubility_note": "Zwei Fraktionen: ätherisches Öl (lipophil, flüchtig → Öl/Ölkapsel, Inhalation, alkoholische Auszüge) und wasserlösliche Gerb-/Gerbstoffe (→ Tee). Für den überlieferten Reizhusten-/Verdauungsgebrauch dient der Aufguss; hochkonzentriertes 'Oreganoöl' ist eine ganz andere, reizende Zubereitung.",
+    "heat_light_sensitivity": "Ätherisches Öl ist flüchtig und licht-/wärmeempfindlich: Tee zugedeckt ziehen lassen, Droge kühl, trocken und dunkel lagern"
+  },
+  "pharmacology": {
+    "mechanism": "Ätherisches Öl (Carvacrol/Thymol) wirkt in vitro antimikrobiell, antioxidativ und spasmolytisch; Gerbstoffe adstringierend, Rosmarinsäure antioxidativ/antiphlogistisch. Daraus wird traditionell die Anwendung bei Husten und Verdauungsbeschwerden abgeleitet.",
+    "evidence_caveat": "ENTSCHEIDEND: Für Origanum vulgare (Dostenkraut) existiert KEINE HMPC-Monographie, und die Kommission E hat die beanspruchten Anwendungsgebiete NEGATIV bewertet (unzureichende Wirksamkeitsbelege). Die Datenlage ist überwiegend präklinisch/in vitro; belastbare klinische Studien am Menschen fehlen. Anwendung daher rein traditionell/volksmedizinisch.",
+    "pharmacokinetics": "unsicher — zu prüfen (keine belastbaren Humandaten)"
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der oberen Atemwege / Reizhusten (traditionell)",
+      "synonyms": [
+        "Husten",
+        "Erkältungshusten",
+        "Halskratzen",
+        "Bronchialbeschwerden",
+        "verschleimte Atemwege"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein traditionelle/volksmedizinische Anwendung. KEINE HMPC-Monographie; Kommission E hat NEGATIV bewertet. Kein anerkannter Wirksamkeitsnachweis.",
+      "realistic_expectation": "Traditionell als Tee bei Erkältungshusten verwendet; ein über den Erwartungs-/Wärmeeffekt hinausgehender Nutzen ist NICHT belegt. Bei anhaltendem oder produktivem Husten, Fieber oder Atemnot ärztlich abklären.",
+      "source": "Volksmedizin / traditionelle Phytotherapie (keine HMPC; Kommission E negativ)"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden / Blähungen (traditionell)",
+      "synonyms": [
+        "Verdauungsbeschwerden",
+        "Völlegefühl",
+        "Blähungen",
+        "Magenverstimmung"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Anwendung als Gewürz und Karminativum. KEINE HMPC-Monographie; Kommission E negativ. Kein gesicherter Wirksamkeitsnachweis.",
+      "realistic_expectation": "Als Küchengewürz und Tee traditionell verdauungsfördernd/blähungslindernd genutzt; eine über den Gewürzcharakter hinausgehende Heilwirkung ist nicht belegt.",
+      "source": "Volksmedizin / traditionelle Phytotherapie (keine HMPC; Kommission E negativ)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Wertvolles, sicheres Küchengewürz mit antioxidativen Gerbstoffen (Rosmarinsäure); das ätherische Öl zeigt in vitro antimikrobielle Effekte.",
+    "overstated": "Der Ruf als 'natürliches Antibiotikum' oder Allheilmittel (Oreganoöl-Hype) ist durch klinische Studien NICHT gedeckt. Für die Heilpflanze Dostenkraut fehlt eine HMPC-Monographie, und die Kommission E hat sie negativ bewertet. In-vitro-Wirkung ist kein Wirksamkeitsnachweis am Menschen.",
+    "effect_size": "als Arzneimittel unbelegt/mild; als Gewürz sicher"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Küchengewürz (getrocknetes/frisches Kraut)",
+      "Tee/Aufguss (traditionell)",
+      "Gurgel-/Spülaufguss bei Halskratzen (traditionell)"
+    ],
+    "form_rationale": "Für den überlieferten Gebrauch genügt der wässrige Aufguss (Gerbstoffe, Rosmarinsäure, etwas ätherisches Öl). Hochkonzentriertes 'Oreganoöl' ist eine reizende, schleimhautangreifende Sonderzubereitung und für die Selbstanwendung nicht ohne Weiteres zu empfehlen.",
+    "standard_dose": "Tee traditionell: ca. 1–2 g getrocknetes Kraut auf 150 ml Wasser, zugedeckt 10 min ziehen lassen, mehrmals täglich. Ätherisches Öl nur stark verdünnt (max. ~1–2 %) äußerlich. Keine offizielle Dosierung (Kommission E negativ).",
+    "preservation": "Kraut kühl, trocken und dunkel lagern; ätherisches Öl verflüchtigt sich — luftdicht aufbewahren"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Lippenblütler (Lamiaceae)",
+      "Konzentriertes ätherisches Oreganoöl: nicht unverdünnt auf Haut/Schleimhaut, nicht bei Säuglingen/Kleinkindern"
+    ],
+    "pregnancy_lactation": "Als Küchengewürz in üblichen Mengen unbedenklich. Konzentriertes Oreganoöl in der Schwangerschaft meiden (Carvacrol wirkt in Tiermodellen uteruskontrahierend/embryotoxisch) — nur nach ärztlicher Rücksprache. Stillzeit: keine ausreichenden Daten. unsicher — zu prüfen",
+    "adverse_effects": "Als Gewürz/Tee gut verträglich. Konzentriertes ätherisches Öl kann Haut- und Schleimhautreizungen, Übelkeit, Magenbrennen und Reflux verursachen. Selten Kontaktallergie.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Hohe Dosen ätherisches Öl / Carvacrol könnten theoretisch die Blutgerinnung beeinflussen; klinisch nicht belegt",
+        "affected": "Antikoagulanzien (theoretisch, nur bei hochdosiertem Öl)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Sicheres Küchengewürz, aber KEINE anerkannte Heilpflanze: keine HMPC-Monographie, Kommission E negativ — Heilversprechen (besonders zum 'Oreganoöl') sind nicht belegt. Konzentriertes ätherisches Öl reizt Haut/Schleimhaut und ist nicht mit dem Tee gleichzusetzen."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühendes Kraut zur Vollblüte (Juli–September), an trockenen Sonnentagen — dann höchster Gehalt an ätherischem Öl",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Obere blühende Triebe schneiden, locker bündeln",
+    "processing": "Luftig im Schatten trocknen (nicht über 35 °C), damit das ätherische Öl erhalten bleibt; anschließend rebeln",
+    "storage": "Trocken, kühl, dunkel und luftdicht; Aroma schwindet mit der Zeit"
+  },
+  "kitchen": {
+    "uses": [
+      "Klassisches Gewürz der mediterranen Küche (Pizza, Tomaten- und Fleischgerichte, Kräuter der Provence)",
+      "Würzessig/-öl"
+    ],
+    "culinary_vs_medicinal": "Die Stärke von Origanum vulgare liegt eindeutig in der Küche. Die 'medizinische' Grenze ist unscharf, weil ein belegter Heilnutzen fehlt: Als Gewürz und milder Tee traditionell und sicher, als hochdosiertes 'Oreganoöl'-Heilmittel überschätzt und potenziell reizend."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, trockener, durchlässiger, kalkhaltiger, magerer Boden",
+    "hardiness": "Mehrjährig, winterhart; anspruchslos und ausdauernd",
+    "propagation": "Aussaat (Lichtkeimer), Teilung oder Stecklinge; versamt sich willig",
+    "bodensee_suitability": "Sehr gut geeignet: gedeiht am Bodensee auf sonnigen, mageren, kalkigen Standorten problemlos, ist bienenfreundlich und pflegeleicht."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: KEINE Monographie für Origanum vulgare (nur Origanum majorana und Origanum dictamnus haben HMPC-Monographien — Evidenz nicht übertragbar)",
+    "Kommission E: Dostenkraut (Origani herba) NEGATIV bewertet (unzureichende Wirksamkeitsbelege)",
+    "AWL.ch / apotheken.de / arzneipflanzenlexikon.info: Origanum vulgare — Inhaltsstoffe (Carvacrol, Thymol, Rosmarinsäure), traditionelle Anwendung — Primärquellen per WebFetch diesen Lauf nicht erreichbar (HTTP 403), Angaben aus WebSearch-Zusammenfassungen",
+    "LactMed / MDPI (essential oil reproductive toxicity): Carvacrol uteruskontrahierend/embryotoxisch in Tiermodellen — Oreganoöl in Schwangerschaft meiden",
+    "Botanische Merkmale und Verwechslung Wasserdost (Eupatorium cannabinum, Pyrrolizidinalkaloide): Wildkräuter-/Botanikquellen"
+  ]
+}
