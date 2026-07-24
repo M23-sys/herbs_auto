@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "id": "vaccinium-myrtillus",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Vaccinium myrtillus L.",
+    "common_names_de": ["Heidelbeere", "Blaubeere", "Bickbeere", "Schwarzbeere", "Waldheidelbeere", "Wald-Heidelbeere", "Mostbeere", "Zeckbeere"],
+    "family": "Heidekrautgewächse (Ericaceae)",
+    "drug_part": ["getrocknete reife Frucht (Fructus) — arzneiliche Droge", "frische reife Frucht (Fructus recens)", "Blatt (Folium) — obsolet, siehe Warnung"],
+    "drug_name_latin": "Myrtilli fructus siccus (getrocknete Frucht); Myrtilli fructus recens (frische Frucht)",
+    "synonyms": ["Myrtillus niger", "Vaccinium montanum"],
+    "synonym_note": "Vaccinium myrtillus L. ist der aktuell akzeptierte Name; ältere/kaum gebräuchliche Synonyme wie Myrtillus niger Gilib. und Vaccinium montanum Salisb. Nicht zu verwechseln mit der Kulturheidelbeere Vaccinium corymbosum (Amerikanische Heidelbeere) und der Rauschbeere Vaccinium uliginosum — eigene Arten."
+  },
+  "identification": {
+    "key_features": [
+      "Fruchtfleisch färbt Mund, Zunge und Finger tief blau-violett — DAS entscheidende Unterscheidungsmerkmal zur Kulturheidelbeere (deren Fleisch hell bleibt) und zur Rauschbeere (farbloses Fleisch). Die wilde Heidelbeere ist innen durchgefärbt.",
+      "Niedriger, sommergrüner Zwergstrauch (nur 15–40 cm), stark verzweigt, mit auffallend GRÜNEN, scharf dreikantig-geflügelten Zweigen.",
+      "Beeren einzeln (selten zu zweit) in den Blattachseln, kugelig, blau-schwarz bereift, mit einer kleinen ringförmigen Krone (Kelchrest) am Scheitel.",
+      "Blätter wechselständig, eiförmig, fein gesägt, hellgrün, sommergrün (fallen im Herbst ab — Unterschied zur immergrünen Preiselbeere).",
+      "Blüten einzeln, kugelig-krugförmig, grünlich-rosa, hängend; Blütezeit April–Juni.",
+      "Standort: saure, humose Böden in lichten Wäldern, Heiden, Moorrändern; oft flächige Bestände."
+    ],
+    "season": "Blüte April–Juni; Fruchtreife Juli–September",
+    "habitat": "Saure, kalkarme, humose Böden: lichte Nadel- und Mischwälder, Heiden, Hochmoorränder, subalpine Zwergstrauchheiden; kalkmeidend, von der Ebene bis ins Gebirge",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: durchgehend blau-violett gefärbtes Fruchtfleisch UND niedriger Wuchs (unter 40 cm) mit grün-kantigen Zweigen und einzeln stehenden Beeren mit Krone.",
+      "LEBENSWICHTIGE Abgrenzung zur Tollkirsche: Heidelbeeren stehen an einem niedrigen Zwergstrauch, sind erbsengroß und tragen am Scheitel eine kleine Krone; Tollkirschen sind kirschgroß, glänzend, sitzen einzeln in einem fünfzipfeligen grünen Sternkelch an einer bis 1,5 m hohen Staude. Im Zweifel NICHT sammeln.",
+      "Beeren möglichst gewaschen und/oder erhitzt verzehren (Fuchsbandwurm-Vorsorge — Nutzen begrenzt, siehe Sicherheit).",
+      "Blätter nicht für Dauertee sammeln (siehe key_warning)."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Tollkirsche",
+      "scientific_name": "Atropa belladonna",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Tropanalkaloide (Atropin, Scopolamin) — bereits 3–4 Beeren können für ein Kind tödlich sein",
+      "note": "Der gefährlichste Doppelgänger, v. a. für Kinder. Unterschied: Tollkirsche ist eine bis 1,5 m hohe Staude, Beeren KIRSCHGROSS, schwarz glänzend, EINZELN in einem auffälligen fünfzipfeligen grünen Sternkelch. Heidelbeere ist ein niedriger Zwergstrauch (<40 cm), Beeren erbsengroß, matt-bereift, mit kleiner ringförmiger Krone, Fruchtfleisch färbt blau. Bei jeder Unsicherheit stehen lassen."
+    },
+    {
+      "name": "Rauschbeere (Moorbeere, Trunkelbeere)",
+      "scientific_name": "Vaccinium uliginosum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nahe verwandt und essbar, KEIN Giftstoff. Unterschied: Fruchtfleisch farblos/grünlich-weiß (färbt NICHT), Strauch höher (bis 75 cm) mit runden, braunen Zweigen (nicht grün-kantig), Blätter ganzrandig und blaugrün. Der Name täuscht Giftigkeit vor — Schwindel/Übelkeit nach großem Verzehr wurde früher fälschlich der Beere zugeschrieben (tatsächlich eher dem oft benachbart wachsenden Sumpfporst). Verwechslung ist ungefährlich, liefert aber eine geschmacklich schwächere, wässrige Frucht."
+    },
+    {
+      "name": "Gewöhnlicher Liguster (Beeren)",
+      "scientific_name": "Ligustrum vulgare",
+      "toxicity_level": "giftig",
+      "toxin": "Ligustrosid/Oleuropein und Syringin — Übelkeit, Erbrechen, Durchfall",
+      "note": "Schwarze, glänzende Beeren, aber in aufrechten Rispen/Trauben an einem 1–3 m hohen Strauch mit gegenständigen, ledrigen Blättern — nie einzeln am niedrigen Zwergstrauch. Fruchtfleisch färbt nicht blau. Verwechslung eher bei flüchtigem Blick auf schwarze Beeren."
+    },
+    {
+      "name": "Faulbaum (Beeren)",
+      "scientific_name": "Frangula alnus",
+      "toxicity_level": "giftig",
+      "toxin": "Anthranoide (v. a. in unreifen Beeren) — heftiges Erbrechen und Durchfall bei Verzehr",
+      "note": "Beeren erst rot, dann schwarz, an einem bis 3 m hohen Strauch mit wechselständigen, ganzrandigen, bogennervigen Blättern. Nie am bodennahen Zwergstrauch, Fruchtfleisch färbt nicht durchgehend blau. Unreife/rohe Beeren sind giftig."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Gerbstoffe 5–12 % (v. a. kondensierte Catechingerbstoffe/Proanthocyanidine) — durch das Trocknen adstringierend wirksam; die eigentliche Grundlage der Durchfall-Indikation",
+      "Anthocyane/Anthocyanoside ca. 0,3–0,5 % (blaue Farbstoffe, Antioxidantien) — v. a. in der frischen Frucht relevant",
+      "Flavonoide, Iridoide, Fruchtsäuren, Pektine, Vitamine (C, Provitamin A), Zucker"
+    ],
+    "lead_substance": "Für die Arzneidroge: kondensierte Gerbstoffe (adstringierend, in der getrockneten Frucht). Für den populären 'Antioxidantien'-Ruf: die Anthocyane der frischen Frucht — pharmakologisch aber schwächer belegt.",
+    "solubility_note": "Gerbstoffe sind wasserlöslich, lösen sich aus der harten getrockneten Frucht aber am besten durch längeres Abkochen (Dekokt, ~10 min) — nicht durch bloßes Überbrühen. Anthocyane sind wasserlöslich, aber hitze- und lichtempfindlich; die adstringierende Durchfallwirkung braucht die GETROCKNETE Frucht (frische Frucht wirkt eher mild laxierend).",
+    "heat_light_sensitivity": "Gerbstoffe hitzestabil und lange lagerfähig. Anthocyane zerfallen bei Hitze, Licht und Lagerung — der 'Antioxidantien'-Gehalt der getrockneten/gekochten Droge ist daher deutlich geringer als der der frischen Beere."
+  },
+  "pharmacology": {
+    "mechanism": "Die durch das Trocknen konzentrierten/vernetzten Gerbstoffe wirken adstringierend: Sie fällen Oberflächenproteine der Darmschleimhaut zu einer schützenden Membran, dichten ab, hemmen Sekretion und Flüssigkeitsverlust und mildern lokal Reizung. Frische Beeren wirken durch Pektine/Anthocyane und den Ballaststoffanteil eher mild stuhlregulierend. Für Anthocyane sind in vitro/tierexperimentell antioxidative, kapillarabdichtende und antiinflammatorische Effekte beschrieben.",
+    "evidence_caveat": "Die Durchfall-Indikation der getrockneten Frucht ist regulatorisch als TRADITIONELLE Anwendung anerkannt (HMPC traditional use; Kommission E und ESCOP positiv für unspezifische akute Durchfälle) — sie stützt sich auf Erfahrung und die plausible Gerbstoffwirkung, nicht auf kontrollierte Studien. Die weit populäreren Ansprüche (Sehkraft/Nachtsicht, Venen-/Kapillarschutz, Diabetes) betreffen ANTHOCYAN-Extrakte und sind für die Frucht/den Tee NICHT belegt.",
+    "pharmacokinetics": "Gerbstoffe werden kaum resorbiert, wirken lokal am Darm. Anthocyane haben eine sehr geringe orale Bioverfügbarkeit und kurze Halbwertszeit."
+  },
+  "indications": [
+    {
+      "canonical": "Symptomatische Behandlung leichter unspezifischer Durchfallerkrankungen",
+      "synonyms": ["Durchfall", "Diarrhö", "wässriger Stuhl", "flauer Magen", "Magen-Darm-Verstimmung"],
+      "evidence_tag": "TU/ESCOP+",
+      "comment": "HMPC-Monographie führt Myrtilli fructus siccus (getrocknete Frucht) als traditionelles Arzneimittel zur symptomatischen Behandlung leichter Durchfälle (Erwachsene und Kinder über 12 Jahre). Kommission E und ESCOP positiv für unspezifische akute Durchfälle. Wirkprinzip: adstringierende Gerbstoffe der getrockneten Frucht. WICHTIG: gilt für die GETROCKNETE Frucht — die frische Beere wirkt in Menge eher mild abführend.",
+      "realistic_expectation": "Kann leichten, unkomplizierten Durchfall symptomatisch lindern/verkürzen. KEIN Ersatz bei Durchfall über 3 Tage, Fieber, Blut im Stuhl oder Austrocknungszeichen — dann ärztliche Abklärung. Entscheidend bleibt der Ausgleich von Flüssigkeit und Elektrolyten.",
+      "source": "EMA/HMPC EU herbal monograph Vaccinium myrtillus, fructus siccus (traditional use); Kommission E (positiv); ESCOP; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Leichte Entzündungen der Mund- und Rachenschleimhaut (Spülung/Gurgeln)",
+      "synonyms": ["Zahnfleischentzündung", "wunder Mund", "Mundschleimhautentzündung", "Halsentzündung", "Aphthen", "Gurgeln"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für die oromukosale Anwendung (Spülung/Gurgeln) bei leichten Entzündungen der Mund-/Rachenschleimhaut, Erwachsene und Kinder über 12 Jahre. Klassische Gerbstoff-Adstringens-Anwendung.",
+      "realistic_expectation": "Zieht die Schleimhaut zusammen, lindert Reizung und leichte Entzündung. Kein Ersatz für ärztliche/zahnärztliche Behandlung bei anhaltender (über 1 Woche) oder ausgeprägter Entzündung.",
+      "source": "EMA/HMPC EU herbal monograph Vaccinium myrtillus, fructus siccus (oromucosal, traditional use); recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Getrocknete Heidelbeeren sind ein mildes, sicheres, traditionell anerkanntes Adstringens (HMPC traditional use) bei leichtem unspezifischem Durchfall und leichter Mund-/Rachenentzündung. Wirkung rein symptomatisch/lokal über die Gerbstoffe.",
+    "overstated": "Der berühmte Ruf, Heidelbeeren verbesserten die Seh-/Nachtsicht (Mythos aus dem 2. Weltkrieg über RAF-Piloten), gilt als widerlegt bzw. unbelegt. Auch Venen-/Kapillarschutz, Antioxidantien-'Superfood'-Wirkung, Blutzuckersenkung oder Krebsschutz beziehen sich auf hochdosierte Anthocyan-EXTRAKTE und sind für Frucht/Tee nicht belegt. Für die Durchfallwirkung braucht es die getrocknete Frucht — die frische Beere kann sogar mild abführen.",
+    "effect_size": "mild bis moderat, rein symptomatisch/lokal"
+  },
+  "preparation": {
+    "recommended_forms": ["Abkochung (Dekokt) der getrockneten Früchte", "Gurgel-/Spüllösung aus dem Dekokt", "getrocknete Früchte zum Kauen"],
+    "form_rationale": "Die adstringierenden Gerbstoffe sitzen in der harten getrockneten Frucht und lösen sich am besten durch ~10-minütiges Abkochen (Dekokt), nicht durch bloßes Überbrühen. Zum Gurgeln dasselbe, stärkere Dekokt verwenden. Für die Durchfallwirkung ausdrücklich die getrocknete, nicht die frische Frucht.",
+    "standard_dose": "Erwachsene und Jugendliche über 12 Jahre: Einzeldosis 5–15 g ganze/zerdrückte getrocknete Früchte in 250 ml Wasser ~10 min abkochen; 3–4-mal täglich (Tagesdosis 15–60 g). Zum Gurgeln mehrmals täglich. Bei Durchfall nur kurzfristig; über 3 Tage → Arzt.",
+    "preservation": "Getrocknete Früchte trocken, luftdicht und lichtgeschützt lagern; Gerbstoffe bleiben lange erhalten, Anthocyane bauen mit der Zeit ab."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Heidelbeeren",
+      "Anwendung als Arzneidroge bei Kindern unter 12 Jahren nicht empfohlen (mangels Daten); unter 4 Jahren nicht anwenden. Als Nahrungsmittel/Obst ist die Beere davon unberührt."
+    ],
+    "pregnancy_lactation": "Für die arzneiliche Anwendung (konzentriertes Dekokt) in Schwangerschaft und Stillzeit liegen keine ausreichenden Daten vor; die HMPC-Monographie empfiehlt sie mangels Daten nicht. Der Verzehr als Obst in üblicher Menge gilt als unbedenklich. Unsicher — zu prüfen.",
+    "adverse_effects": "Als Arzneidroge kurzfristig gut verträglich; hohe Gerbstoffmengen können auf nüchternen Magen leicht reizen/Übelkeit auslösen. Verzehr großer Mengen frischer Beeren kann mild abführend wirken.",
+    "interactions": [
+      {
+        "type": "pharmakokinetisch",
+        "mechanism": "Gerbstoffe komplexieren im Darm Eisen, Alkaloide und Proteinarzneistoffe und können deren Aufnahme mindern",
+        "affected": "orale Eisenpräparate, alkaloidhaltige Arzneistoffe",
+        "clinical_relevance": "gering — zeitlichen Abstand (1–2 h) zur Einnahme anderer Arzneimittel halten"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Beeren selbst sind sehr sicher — die Gefahr liegt im Sammeln: die LEBENSGEFÄHRLICHE Tollkirsche (kirschgroße Einzelbeere im Sternkelch an hoher Staude) wird v. a. von Kindern mit der Heidelbeere verwechselt. Nur die getrocknete Frucht wirkt bei Durchfall; über 3 Tage Durchfall gehört ärztlich abgeklärt. HEIDELBEERBLÄTTER-Tee NICHT als Dauer-/Diabetestherapie (unbelegt, chronische Toxizität möglich)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Reife Beeren von Juli bis September",
+    "harvest_month_tags": [7, 8, 9],
+    "harvest_organ": "Frucht (Beere)",
+    "method": "Reife, durchgefärbte Beeren einzeln oder mit Beerenkamm pflücken; auf durchgehend blaues Fruchtfleisch als Artbestätigung achten. Nicht von stark befahrenen/bodennahen Randstreifen sammeln.",
+    "processing": "Für die Arzneidroge zügig und schonend trocknen (Dörrgerät/luftig), bis die Beeren hart und geschrumpft sind; erst dadurch werden sie adstringierend wirksam.",
+    "storage": "Getrocknet trocken, luftdicht, lichtgeschützt; frische Beeren nur wenige Tage haltbar, gut einfrierbar."
+  },
+  "kitchen": {
+    "uses": ["frische Beeren roh", "Marmelade/Mus", "Kuchen, Kompott", "Saft, Sirup", "Heidelbeer-Suppe (norddeutsch/skandinavisch)"],
+    "culinary_vs_medicinal": "Die frische Beere ist ein wertvolles Obst (Anthocyane, Vitamine, Ballaststoffe). Medizinisch adstringierend wirkt jedoch die GETROCKNETE Frucht — die frische Beere kann in größerer Menge eher mild abführen. Küchen- und Arzneiverwendung nutzen also verschiedene Zubereitungszustände derselben Frucht."
+  },
+  "garden": {
+    "site_soil": "Saurer (pH 4–5), humoser, gleichmäßig feuchter, kalkfreier Boden; halbschattig bis sonnig. Kalk und Staunässe werden nicht vertragen.",
+    "hardiness": "Voll winterhart, ausdauernder Zwergstrauch.",
+    "propagation": "Aussaat (Kaltkeimer) oder Teilung/Absenker; im Garten schwierig zu etablieren, da streng kalkmeidend.",
+    "bodensee_suitability": "In den sauren Wäldern und Mooren der Region natürlicherweise häufig; im Garten nur auf ausgesprochen saurem Boden (Moorbeet) dauerhaft — auf den oft kalkhaltigen Bodenseeböden eher schwierig."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Niedriger Zwergstrauch mit grün-kantigen Zweigen und einzeln stehenden blau-schwarzen Beeren mit Krone", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Aufgeschnittene Wildheidelbeere mit durchgehend blau-violettem Fruchtfleisch (Unterschied zur Kulturheidelbeere und Rauschbeere)", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Vaccinium myrtillus L., fructus siccus (traditional use: symptomatische Behandlung leichter Durchfälle innerlich, leichte Mund-/Rachenschleimhautentzündung oromukosal; Erwachsene und Kinder über 12 Jahre; Durchfall > 3 Tage bzw. Mundentzündung > 1 Woche → Arzt). Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Inhalt über mehrere übereinstimmende Sekundärquellen bestätigt; regulatorischer Evidenzgrad ärztlich gegenzuprüfen (recherchiert 2026-07)",
+    "Kommission E: positiv — getrocknete Heidelbeeren innerlich bei unspezifischen akuten Durchfällen, äußerlich/oromukosal bei leichten Schleimhautentzündungen; Tagesdosis 20–60 g Droge",
+    "ESCOP: Myrtilli fructus — unspezifischer akuter Durchfall (Sekundärquelle; escop.com via WebFetch 403)",
+    "Inhaltsstoffe (Gerbstoffe 5–12 %, Anthocyane ~0,3–0,5 %, Flavonoide, Iridoide) und Dosierung: Altmeyers Enzyklopädie (Vaccinium myrtillus, fructus siccus), heilpflanzen-atlas.de, vetpharm.uzh.ch, arzneipflanzenlexikon.info (recherchiert 2026-07)",
+    "Verwechslungen (Tollkirsche lebensgefährlich; Rauschbeere essbar mit farblosem Fleisch; Liguster/Faulbaum giftig) sowie Fuchsbandwurm-Einordnung: gartenjournal.net, mundraub.org, infranken.de, bluehendesoesterreich.at (recherchiert 2026-07)"
+  ]
+}

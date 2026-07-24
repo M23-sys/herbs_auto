@@ -591,6 +591,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat). Drogen Pruni spinosae flos (Blueten) und fructus (Fruechte). WICHTIG: Kommission E hat die Schlehenblueten NEGATIV monographiert — die traditionelle 'blutreinigende'/mild abfuehrende Wirkung ist NICHT belegt; HMPC-Bewertung mangels Daten eingestellt, ESCOP nicht bearbeitet. Beide Indikationen daher nur TRAD. Sicherheit: Fruchtfleisch und Blueten ungiftig, aber die Steinkerne enthalten Amygdalin (Blausaeure) und duerfen nicht zerkleinert werden. Verwechslungen aktiv ergaenzt: Weissdorn (essbar, blueht spaeter mit Laub), Liguster (gering giftig), Kreuzdorn Rhamnus cathartica (giftig/abfuehrend), Traubenkirsche (Kerne blausaeurehaltig). Erkennungsanker: blueht VOR dem Laubaustrieb; blau-schwarze bereifte Steinfrucht mit einem Kern."
+    },
+    {
+      "ts": "2026-07-24T09:00:00Z",
+      "id": "vaccinium-myrtillus",
+      "common": "Heidelbeere",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat). Droge Myrtilli fructus siccus (GETROCKNETE Frucht). HMPC traditional use bei leichtem unspezifischem Durchfall (innerlich) und leichter Mund-/Rachenschleimhautentzuendung (Spuelung), Erwachsene und Kinder ab 12 J.; Kommission E + ESCOP positiv bei unspezifischem akutem Durchfall (TU/ESCOP+). WICHTIG: Nur die GETROCKNETE Frucht wirkt adstringierend (Gerbstoffe 5-12 %) — die frische Beere kann in Menge eher mild ABFUEHREN. LEBENSGEFAEHRLICHE Verwechslung fuer Kinder: Tollkirsche (kirschgrosse Einzelbeere im Sternkelch an hoher Staude) -> flags.deadly_confusion=true. Der beruehmte Seh-/Nachtsicht-Nutzen (RAF-Piloten-Mythos) sowie Venen-/Antioxidantien-/Diabetes-Wirkung gelten als unbelegt bzw. betreffen Anthocyan-Extrakte, nicht Tee. Fuchsbandwurm-Risiko durch Waldbeeren gilt als sehr gering und Kochen/Waschen hilft nur begrenzt."
+    },
+    {
+      "ts": "2026-07-24T09:01:00Z",
+      "id": "humulus-lupulus",
+      "common": "Hopfen",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat). Droge Lupuli flos (weibliche Zapfen). HMPC traditional use bei nervoeser Unruhe und als Schlafhilfe (nur TU als Einzeldroge). EVIDENZ-LEHRSTUECK: fuer die Einzeldroge fehlt klinische Evidenz — belastbare (well-established use) Daten gibt es NUR fuer die Fixkombination Hopfen + Baldrian. Wirkstoff-Hypothese: das bei Lagerung entstehende 2-Methyl-3-buten-2-ol; Wirkstoffe bauen rasch ab (frisch/Extrakt bevorzugt). Sicherheit: additive Sedierung mit Alkohol/Benzodiazepinen (pharmakodynamisch, relevant); nicht in SS/Stillzeit, nicht < 12 J. Das Phytooestrogen 8-Prenylnaringenin ist zwar das staerkste bekannte pflanzliche Phytooestrogen, bei ueblicher Dosis aber hormonell vernachlaessigbar (Hopfentee/-kissen sind KEINE Hormontherapie). Verwechslung aktiv ergaenzt: giftige Zaunruebe Bryonia (klettert mit RANKEN, Hopfen windet OHNE Ranken) — Risiko v. a. bei jungen Trieben."
     }
   ]
 }

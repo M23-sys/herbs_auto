@@ -689,8 +689,8 @@
       "latin": "Vaccinium myrtillus",
       "tier": 4,
       "reason": "Gerbstoffe, Durchfall; Fuchsbandwurm-Mythos",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-heidelbeere.json"
     },
     {
       "id": "humulus-lupulus",
@@ -698,8 +698,8 @@
       "latin": "Humulus lupulus",
       "tier": 4,
       "reason": "Sedativum, meist mit Baldrian",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-hopfen.json"
     },
     {
       "id": "pulmonaria-officinalis",

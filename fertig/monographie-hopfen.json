@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "id": "humulus-lupulus",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Humulus lupulus L.",
+    "common_names_de": ["Echter Hopfen", "Gewöhnlicher Hopfen", "Hopfen"],
+    "family": "Hanfgewächse (Cannabaceae)",
+    "drug_part": ["Weibliche Fruchtstände/Zapfen (Strobuli)", "Drüsenschuppen des Zapfens (Lupulin, Glandulae)"],
+    "drug_name_latin": "Lupuli flos (Hopfenzapfen); Lupuli glandula (Hopfendrüsen/Lupulin)",
+    "synonyms": [],
+    "synonym_note": "Humulus lupulus L. ist der akzeptierte Name; keine gebräuchlichen taxonomischen Altnamen. Früher gelegentlich zu den Maulbeergewächsen (Moraceae) gestellt, heute Cannabaceae."
+  },
+  "identification": {
+    "key_features": [
+      "Ausdauernde, RECHTS windende (im Uhrzeigersinn) Kletterpflanze OHNE Ranken — windet mit dem ganzen Stängel und hält sich mit steifen Klimmhaaren; wird mehrere Meter hoch. Das Fehlen von Ranken trennt ihn von der giftigen Zaunrübe.",
+      "Blätter gegenständig, meist 3–5-lappig und grob gesägt (weinrebenähnlich), rau, mit rückwärts gerichteten Klimmhäkchen an Stiel und Stängel.",
+      "Zweihäusig: die arzneilich genutzten weiblichen Blütenstände bilden zur Reife die typischen hellgrünen, hopfen-'zapfenartigen' hängenden Fruchtstände (Strobuli) aus überlappenden Deckblättern.",
+      "Am Grund der Deckblätter sitzen goldgelbe, klebrige Drüsen (Lupulin) mit intensiv bitter-harzigem, hopfentypischem Aroma — Zerreiben der Zapfen setzt den charakteristischen Geruch frei.",
+      "Wächst wild an Hecken, Ufergebüsch, Auwäldern; verbreitet kultiviert (Bierhopfen).",
+      "Blütezeit Juli–August, Zapfenreife August–September."
+    ],
+    "season": "Blüte Juli–August; Ernte der Zapfen Ende August–September",
+    "habitat": "Feuchte, nährstoffreiche Standorte: Auwälder, Ufergebüsch, Hecken, Waldränder; wild verbreitet, daneben großflächig kultiviert",
+    "region_occurrence": [
+      {"region": "Bodensee/Voralpen", "status": "wild-haeufig"}
+    ],
+    "collection_rules": [
+      "Bestätiger: windender Stängel OHNE Ranken, gegenständige weinrebenähnliche Blätter UND die charakteristisch hopfig-bitter riechenden, gelbdrüsigen weiblichen Zapfen.",
+      "Nur die reifen weiblichen Zapfen sammeln; sie müssen deutlich nach Hopfen riechen und gelbes klebriges Lupulin zeigen.",
+      "Wichtige Abgrenzung zur giftigen Zaunrübe (Bryonia): diese klettert mit RANKEN und hat weiße/gelbliche Beeren — Hopfen hat keine Ranken und keine Beeren.",
+      "Junge Hopfentriebe im Frühjahr (Gemüse) nur bei sicherer Bestimmung ernten — Verwechslung mit Zaunrübentrieben vermeiden."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Rote/Zweihäusige Zaunrübe",
+      "scientific_name": "Bryonia dioica (Bryonia cretica subsp. dioica)",
+      "toxicity_level": "giftig",
+      "toxin": "Cucurbitacine (Bryonin/Bryoniosid) — heftige Magen-Darm-Reizung, Erbrechen, blutige Durchfälle; größere Mengen potenziell lebensbedrohlich",
+      "note": "Ähnlicher kletternder Habitus an Hecken. Entscheidender Unterschied: Zaunrübe klettert mit gedrehten RANKEN und bildet rote (B. dioica) oder schwarze (B. alba) Beeren; Hopfen windet OHNE Ranken und trägt trockene grüne Zapfen, keine Beeren. Riskant v. a. beim Sammeln junger Frühjahrstriebe als Gemüse."
+    },
+    {
+      "name": "Echter/Wilder Wein, Weinrebe (Blätter)",
+      "scientific_name": "Vitis vinifera / Parthenocissus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Weinrebenähnliche Blätter können vegetativ ähneln, doch Wein klettert mit gegabelten RANKEN und trägt Trauben; Hopfen windet ohne Ranken und trägt Zapfen. Ungefährlich, aber keine Hopfendroge."
+    },
+    {
+      "name": "Keine lebensgefährliche Verwechslung bei reifem Zapfen",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Der reife, gelbdrüsige, hopfig riechende weibliche Zapfen ist praktisch unverwechselbar. Verwechslungsgefahr besteht v. a. im blattlosen/vegetativen Zustand oder bei jungen Trieben — dann gilt die Abgrenzung zur giftigen Zaunrübe (Ranken!)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Bittere Harze/Hopfenbittersäuren: α-Säuren (Humulon) und β-Säuren (Lupulon) — bitter, antibakteriell",
+      "Ätherisches Öl (0,3–1 %, u. a. Myrcen, Humulen)",
+      "Prenylflavonoide: Xanthohumol; das Phytoöstrogen 8-Prenylnaringenin (8-PN)",
+      "Aus den Bittersäuren entsteht bei Lagerung 2-Methyl-3-buten-2-ol (Methylbutenol) — gilt als sedativ wirksames Abbauprodukt"
+    ],
+    "lead_substance": "Für die beruhigende Wirkung diskutiert man v. a. das bei Lagerung entstehende 2-Methyl-3-buten-2-ol sowie das Zusammenspiel der Bitterstoffe; 8-Prenylnaringenin ist das stärkste bekannte pflanzliche Phytoöstrogen (bei üblicher Dosierung aber ohne relevante hormonelle Wirkung).",
+    "solubility_note": "Bitterstoffe und ätherisches Öl gehen in den heißen Aufguss und in alkoholische Auszüge über; da der sedative Effekt teils an flüchtige/lagerungsabhängige Stoffe gebunden ist, sind frisches Material bzw. standardisierte Extrakte bevorzugt.",
+    "heat_light_sensitivity": "Hopfenbittersäuren und ätherisches Öl sind licht-, luft- und wärmeempfindlich und bauen bei Lagerung ab (Wirkverlust); daher kühl, trocken und lichtgeschützt aufbewahren."
+  },
+  "pharmacology": {
+    "mechanism": "Der sedierend-schlaffördernde Effekt wird v. a. dem lagerungsbedingten Abbauprodukt 2-Methyl-3-buten-2-ol und einer Wirkung auf das GABA-/Melatonin-System zugeschrieben; die genaue Wirkweise ist nicht abschließend geklärt. Bitterstoffe fördern zudem reflektorisch die Verdauungssekretion. 8-Prenylnaringenin bindet an Östrogenrezeptoren (in vivo bei üblicher Dosis kaum relevant).",
+    "evidence_caveat": "Für den Einzelstoff Hopfen bei Unruhe/Schlafstörungen gibt es KEINE ausreichende klinische Studienevidenz — die Anerkennung ist rein traditionell (HMPC traditional use). Belastbarere klinische Daten liegen nur für die FIXKOMBINATION Hopfen + Baldrian vor, die von der HMPC als 'well-established use' zur Besserung von Schlafstörungen anerkannt ist. Laborstudien stützen die schlaffördernde Plausibilität.",
+    "pharmacokinetics": "Pharmakokinetik der wirksamkeitsbestimmenden Stoffe beim Menschen nur unvollständig untersucht; 8-PN wird resorbiert und unterliegt einem enterohepatischen Kreislauf."
+  },
+  "indications": [
+    {
+      "canonical": "Innere Unruhe / nervöse Anspannung (leichte Symptome mentaler Belastung)",
+      "synonyms": ["Nervosität", "innere Unruhe", "Anspannung", "Reizbarkeit", "nervöse Unruhe"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use: Hopfenzapfen zur Linderung leichter Symptome mentaler Belastung/Anspannung. Kommission E positiv bei Unruhe, Angst und Schlafstörungen. Meist in Kombination mit Baldrian angewendet.",
+      "realistic_expectation": "Mild beruhigend; kann leichte nervöse Unruhe dämpfen. Wirkt nicht wie ein Anxiolytikum/Beruhigungsmittel und ersetzt bei ausgeprägter Angst/Unruhe keine ärztliche Behandlung.",
+      "source": "EMA/HMPC EU herbal monograph Humulus lupulus L., flos (traditional use); Kommission E; recherchiert 2026-07"
+    },
+    {
+      "canonical": "Ein- und Durchschlafstörungen (Schlafhilfe)",
+      "synonyms": ["Schlafstörungen", "Einschlafhilfe", "schlecht schlafen", "unruhiger Schlaf", "Schlaflosigkeit"],
+      "evidence_tag": "TU",
+      "comment": "HMPC traditional use für den Einzeldrogen-Gebrauch als Schlafhilfe. Für die FIXKOMBINATION mit Baldrianwurzel führt die HMPC 'well-established use' zur Besserung von Schlafstörungen — der Einzeldroge Hopfen fehlt diese Evidenz. Anwendung meist abends bzw. als Kombipräparat.",
+      "realistic_expectation": "Kann das Einschlafen bei leichten, situativen Schlafstörungen unterstützen; der Effekt setzt oft erst nach einigen Tagen/Wochen ein und ist mild. Kein schnell wirkendes Schlafmittel. Bei chronischen Schlafstörungen ärztliche Abklärung.",
+      "source": "EMA/HMPC EU herbal monograph Humulus lupulus L., flos (traditional use, Einzeldroge); für Kombination Baldrian+Hopfen well-established use; recherchiert 2026-07"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Traditionell anerkanntes, mild beruhigendes Sedativum bei nervöser Unruhe und leichten Schlafstörungen (HMPC traditional use), meist sinnvoll mit Baldrian kombiniert — für diese Kombination gibt es die beste (well-established) Evidenz.",
+    "overstated": "Als Einzeldroge ist Hopfen bei Schlaf/Unruhe klinisch NICHT belegt (nur traditionell). Die viel diskutierte 'hormonelle'/wechseljahrslindernde Wirkung des Phytoöstrogens 8-Prenylnaringenin ist bei üblicher Dosierung vernachlässigbar — Hopfentee/-kissen sind keine Hormontherapie. Auch ein rascher, verlässlicher schlafanstoßender Effekt wird überschätzt.",
+    "effect_size": "mild, symptomatisch; verlässlicher in Kombination mit Baldrian"
+  },
+  "preparation": {
+    "recommended_forms": ["Tee/Aufguss aus Hopfenzapfen", "Kombinationspräparate mit Baldrian (Dragees/Extrakt)", "Tinktur", "Hopfenkissen (Aromatherapie zur Nacht)"],
+    "form_rationale": "Bitterstoffe und ätherisches Öl lösen sich im heißen Aufguss und in Alkohol. Da der beruhigende Effekt an flüchtige/lagerungsabhängige Stoffe gebunden ist und die Einzeldroge nur schwach belegt ist, sind Kombipräparate mit Baldrian oder standardisierte Extrakte oft wirksamer als reiner Tee.",
+    "standard_dose": "Tee: ca. 0,5 g Hopfenzapfen (1 TL) je Tasse, mehrmals täglich bzw. eine Tasse etwa eine halbe Stunde vor dem Schlafengehen. Bei Fertigpräparaten/Kombinationen Herstellerangabe folgen. Nur für Erwachsene und Jugendliche über 12 Jahre.",
+    "preservation": "Kühl, trocken, luftdicht und lichtgeschützt lagern; Wirkstoffe bauen relativ rasch ab — nicht zu lange bevorraten."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Hopfen (Kontaktallergien/Hopfenpflücker-Dermatitis beschrieben)",
+      "Kinder unter 12 Jahren (mangels Daten nicht anwenden)"
+    ],
+    "pregnancy_lactation": "Mangels ausreichender Daten in Schwangerschaft und Stillzeit nicht anwenden (HMPC). Zusätzlich wegen des Phytoöstrogens 8-Prenylnaringenin vorsichtshalber meiden. Unsicher — zu prüfen.",
+    "adverse_effects": "Selten; möglich sind allergische Haut-/Schleimhautreaktionen (Kontaktdermatitis beim Umgang mit frischen Zapfen). Müdigkeit als erwünschte/verstärkte Wirkung möglich.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "additive zentral dämpfende Wirkung",
+        "affected": "Alkohol, Benzodiazepine, andere Sedativa/Hypnotika, zentral dämpfende Arzneistoffe",
+        "clinical_relevance": "relevant — verstärkte Sedierung/Müdigkeit möglich"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "8-Prenylnaringenin wirkt östrogen; theoretische Relevanz bei hormonabhängigen Erkrankungen/Hormontherapie, bei üblicher Dosis aber vernachlässigbar",
+        "affected": "hormonabhängige Tumoren, Hormonersatz-/Verhütungstherapie",
+        "clinical_relevance": "gering (bei üblicher Dosierung)"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Mild und gut verträglich, aber verstärkt die Wirkung von Alkohol und Beruhigungs-/Schlafmitteln (additive Sedierung). Als Einzeldroge bei Schlaf/Unruhe nur traditionell belegt — gute Evidenz nur für die Kombination mit Baldrian. Nicht in Schwangerschaft/Stillzeit und nicht bei Kindern unter 12 Jahren."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Reife weibliche Zapfen Ende August bis September",
+    "harvest_month_tags": [8, 9],
+    "harvest_organ": "Blüte/Fruchtstand (Zapfen, Strobuli)",
+    "method": "Nur reife, hopfig duftende weibliche Zapfen mit gelbem Lupulin ernten; vegetativen/blattlosen Zustand meiden (Verwechslungsrisiko mit Zaunrübe).",
+    "processing": "Zapfen rasch und schonend bei geringer Wärme trocknen, Lupulin nicht ausschütteln; möglichst frisch verarbeiten, da die Wirkstoffe schnell abbauen.",
+    "storage": "Getrocknet kühl, trocken, luftdicht und lichtgeschützt; nur begrenzt haltbar (rascher Wirkverlust)."
+  },
+  "kitchen": {
+    "uses": ["Bierbrauen (Bitterung/Aroma/Haltbarkeit)", "junge Hopfentriebe im Frühjahr als Gemüse/'Hopfenspargel'"],
+    "culinary_vs_medicinal": "Kulinarisch ist Hopfen v. a. Bierrohstoff (Bitterung, Aroma, Konservierung); die jungen Triebe gelten regional als Delikatesse ('Hopfensprossen/Hopfenspargel'). Medizinisch genutzt werden dagegen die getrockneten weiblichen Zapfen (Lupuli flos) als mildes Sedativum. Beim Sammeln junger Triebe die Abgrenzung zur giftigen Zaunrübe beachten."
+  },
+  "garden": {
+    "site_soil": "Tiefgründiger, nährstoffreicher, frischer Boden; sonnig bis halbschattig; braucht eine hohe Rankhilfe.",
+    "hardiness": "Voll winterhart, ausdauernd; treibt jährlich neu und wächst sehr rasch/wüchsig.",
+    "propagation": "Teilung/Wurzelausläufer oder Steckhölzer; für Arznei/Bier nur weibliche Pflanzen.",
+    "bodensee_suitability": "Gut geeignet — wild in der Region an Ufern und Hecken häufig; im Garten wüchsig, kann aber durch Ausläufer stark wuchern. Hohe Kletterhilfe einplanen."
+  },
+  "images": [
+    {"role": "habitus", "caption": "Rechts windender Hopfen ohne Ranken mit gegenständigen, weinrebenähnlichen Blättern an einer Hecke", "url": "", "source": "", "license": ""},
+    {"role": "diagnostic", "caption": "Reifer weiblicher Hopfenzapfen (Strobulus) mit gelbem, klebrigem Lupulin an den Deckblättern", "url": "", "source": "", "license": ""}
+  ],
+  "user_layer": {"notes": "", "own_photos": [], "found_locations": [], "garden_status": ""},
+  "sources": [
+    "EMA/HMPC — EU herbal monograph Humulus lupulus L., flos (traditional use: Linderung leichter Symptome mentaler Belastung und als Schlafhilfe; Erwachsene und Jugendliche über 12 Jahre; nicht in Schwangerschaft/Stillzeit). Assessment report EMA/HMPC/418902/2005. Primärquelle ema.europa.eu via WebFetch nicht erreichbar (HTTP 403) — Inhalt über mehrere übereinstimmende Sekundärquellen bestätigt; regulatorischer Evidenzgrad ärztlich gegenzuprüfen (recherchiert 2026-07)",
+    "EMA/HMPC — well-established use für die Fixkombination Baldrianwurzel + Hopfenzapfen (Trockenextrakt) zur Besserung von Schlafstörungen (Assessment report Valeriana officinalis radix und Humulus lupulus flos; Sekundärquelle, EMA via WebFetch 403)",
+    "Kommission E: positiv — Unruhe, Angstzustände, Schlafstörungen; Einzeldosis ~0,5 g Droge",
+    "Inhaltsstoffe (Hopfenbittersäuren Humulon/Lupulon, ätherisches Öl, Xanthohumol, 8-Prenylnaringenin, Abbau zu 2-Methyl-3-buten-2-ol): heilpflanzen-atlas.de, pharmawiki.ch, pta-forum.de, arzneipflanzenlexikon.info (recherchiert 2026-07)",
+    "Phytoöstrogen 8-PN bei üblicher Dosis vernachlässigbar: Ärzte Zeitung (aerztezeitung.de); Verwechslung/Toxikologie Zaunrübe (Bryonia, Cucurbitacine): toxinfo.ch, awl.ch, heilkraeuter.de (recherchiert 2026-07)"
+  ]
+}
