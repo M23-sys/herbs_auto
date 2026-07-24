@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "id": "satureja-montana",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Satureja montana L.",
+    "common_names_de": [
+      "Bergbohnenkraut",
+      "Winter-Bohnenkraut",
+      "Winterbohnenkraut",
+      "Karstbohnenkraut",
+      "Pfefferkraut"
+    ],
+    "family": "Lamiaceae (Lippenblütler)",
+    "drug_part": [
+      "Kraut (Herba) — beblätterte, blühende Triebe"
+    ],
+    "drug_name_latin": "Saturejae montanae herba",
+    "synonyms": [
+      "Satureja illyrica Host",
+      "Micromeria montana (L.) Rchb."
+    ],
+    "synonym_note": "Mehrjähriges Winter-Bohnenkraut. Vom einjährigen Sommer-Bohnenkraut (Satureja hortensis) zu unterscheiden — dieses ist die häufigere Küchen-/Drogenware; beide teilen den deutschen Namen 'Bohnenkraut'."
+  },
+  "identification": {
+    "key_features": [
+      "Ausdauernder, immergrüner, an der Basis stark verholzender Halbstrauch (30–50 cm) — im Unterschied zum weichen, einjährigen Sommer-Bohnenkraut das sicherste Merkmal",
+      "Schmale, derb-lederige, lanzettliche bis nadelartige Blätter, spitz, oft am Rand fein bewimpert",
+      "Kleine weiße bis blass-lila Lippenblüten in den oberen Blattachseln, Blütezeit Juli–Oktober",
+      "Sehr scharf-würziger, pfeffrig-thymianartiger Duft und Geschmack (schärfer als Sommer-Bohnenkraut), vierkantiger Stängel"
+    ],
+    "season": "Blütezeit Juli bis Oktober",
+    "habitat": "Sonnige, trockene, felsig-kalkige Hänge des Mittelmeerraums/der submediterranen Karstgebiete; in Mitteleuropa Garten-/Kulturpflanze (winterhart, mehrjährig)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Praktisch reine Kulturdroge im Gartenanbau — kein relevantes Wildsammel-Risiko in der Region; Wildvorkommen liegen im submediterranen Raum.",
+      "Bestätiger: verholzte Basis + derb-schmale, lederige Blätter + scharf-pfeffriger Duft. Das grüne, weiche, einjährige Sommer-Bohnenkraut (S. hortensis) ist milder und nicht verholzt.",
+      "Kraut zur Blüte schneiden (höchster Ölgehalt); junge Triebspitzen sind zarter für die Küche."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Sommer-Bohnenkraut",
+      "scientific_name": "Satureja hortensis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Praktisch relevanteste Verwechslung — beide ungiftig und als 'Bohnenkraut' gehandelt. S. hortensis ist einjährig, weichkrautig, milder; S. montana mehrjährig, verholzt, deutlich schärfer (höherer Phenolgehalt). Wichtig, weil Wirk-/Dosis-Angaben oft auf die mildere Sommer-Art bezogen sind."
+    },
+    {
+      "name": "Andere kleinblättrige Küchen-Lippenblütler (Thymian, Ysop, Oregano)",
+      "scientific_name": "Thymus/Hyssopus/Origanum spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungiftige, aromatisch ähnliche Familienmitglieder. Unterscheidung über Wuchsform (verholzter Halbstrauch), schmale lederige Blätter und den scharf-pfeffrigen Duft. Nur aromatische/kulinarische Verwechslung, keine Gefahr."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Als kultivierte Gewürzpflanze mit markantem Aroma hat Bergbohnenkraut keinen giftigen morphologischen Doppelgänger. Aktiv gesucht (Lippenblütler): die ähnlichen Arten sind sämtlich essbare Küchenkräuter; ein toxischer Feld-Doppelgänger ist nicht bekannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (~1–2,5 %), phenolreich: v. a. Carvacrol und Thymol (Hauptträger von Schärfe und antimikrobieller Wirkung), dazu p-Cymen, γ-Terpinen, Linalool",
+      "Gerbstoffe (Rosmarinsäure-/Lamiaceen-Typ), Flavonoide, Bitterstoffe"
+    ],
+    "lead_substance": "Carvacrol (phenolisches Hauptterpen; antimikrobiell, adstringierend-reizend) neben Thymol — verantwortlich für Schärfe UND für die Schleimhautreizung des konzentrierten Öls",
+    "solubility_note": "Ätherisches Öl → Tee (abgedeckt ziehen). Für die milde innerliche Anwendung reicht der Aufguss; das konzentrierte ätherische Öl ist wegen des hohen Phenolgehalts stark reizend und für die Selbstanwendung nicht geeignet.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig, licht-/wärmeempfindlich → dunkel/geschlossen lagern, Tee abgedeckt ziehen."
+  },
+  "pharmacology": {
+    "mechanism": "Ätherisches Öl (Carvacrol/Thymol) wirkt karminativ, leicht spasmolytisch und in vitro deutlich antimikrobiell/antifungal; Gerbstoffe adstringierend (traditionell bei leichtem Durchfall). Anwendung überwiegend als appetitanregendes, verdauungsförderndes Gewürz.",
+    "evidence_caveat": "Es existiert KEINE HMPC-, ESCOP- oder Kommission-E-Monographie für Satureja montana. Die antimikrobielle Wirkung ist bislang nur präklinisch (in vitro) belegt; klinische Studien zu einer Heilanwendung fehlen. Der Ruf als Aphrodisiakum/'natürliches Antibiotikum' ist volksmedizinisch/vorklinisch, nicht klinisch gesichert.",
+    "pharmacokinetics": "Nicht belastbar untersucht (unsicher — zu prüfen)."
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden (Appetitlosigkeit, Blähungen, Völlegefühl, leichte Magen-Darm-Krämpfe)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Appetitlosigkeit",
+        "Verdauungsbeschwerden",
+        "Magendrücken",
+        "Blähbauch"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein traditionell/volksmedizinisch — keine regulatorische Monographie (weder HMPC noch ESCOP noch Kommission E führen Satureja). Gebrauch als karminatives, appetitanregendes Küchen-/Teekraut, analog (aber nicht gleichzusetzen) zu anderen aromatischen Lippenblütlern.",
+      "realistic_expectation": "Kann als würziger Tee/Gewürz die Verdauung anregen und Blähungen mild lindern. Kein belegter arzneilicher Wirknachweis; wirkt bestenfalls symptomatisch.",
+      "source": "Volksmedizin/Erfahrungsheilkunde; keine regulatorische Monographie"
+    },
+    {
+      "canonical": "Leichter, unspezifischer Durchfall (adstringierend, traditionell)",
+      "synonyms": [
+        "Durchfall",
+        "Bauchgrimmen",
+        "weicher Stuhl"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Gerbstoffbedingte, traditionelle Anwendung; nicht durch Monographien gedeckt. Bei anhaltendem/blutigem Durchfall ärztliche Abklärung, nicht Selbstbehandlung.",
+      "realistic_expectation": "Allenfalls milde, kurzfristige Stützung bei banalem Durchfall. Ersetzt bei relevanter Erkrankung keine ärztliche Behandlung und keine Flüssigkeits-/Elektrolytzufuhr.",
+      "source": "Volksmedizin/Erfahrungsheilkunde"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Scharf-würziges Küchenkraut, das die Verdauung fetter/blähender Speisen (klassisch: Bohnen und Hülsenfrüchte) anregt und bekömmlicher macht; mild adstringierend.",
+    "overstated": "Internet- und Aromatherapie-Quellen bewerben Bergbohnenkraut(-öl) als 'natürliches Antibiotikum', Aphrodisiakum oder Mittel gegen Infekte — klinisch NICHT belegt (nur in-vitro-Antimikrobik). Das konzentrierte ätherische Öl ist kein harmloses Hausmittel.",
+    "effect_size": "mild; symptomatisch; antimikrobielle Wirkung nur präklinisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Gewürz (frisch/getrocknet) zu Hülsenfrüchten und deftigen Speisen",
+      "Tee (Aufguss aus geschnittenem Kraut, abgedeckt ziehen)"
+    ],
+    "form_rationale": "Wirkträger ist das flüchtige ätherische Öl → abgedeckter Aufguss oder Mitkochen. Das konzentrierte ätherische Öl wird wegen des hohen Carvacrol-/Thymol-(Phenol-)Gehalts bewusst NICHT zur Selbstanwendung empfohlen (schleimhautreizend).",
+    "standard_dose": "Tee: ~1–2 TL geschnittenes Kraut auf 150 ml heißes Wasser, bis zu 3× täglich (Erfahrungswert; kein regulatorisch festgelegter Richtwert — unsicher, zu prüfen). Als Gewürz die haushaltsübliche Menge.",
+    "preservation": "Trocken, dunkel, dicht verschlossen; Aroma jährlich erneuern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Konzentriertes ätherisches Bergbohnenkraut-Öl nicht unverdünnt und nicht bei Säuglingen/Kleinkindern anwenden (Phenole: schleimhaut-/hautreizend)",
+      "Bekannte Überempfindlichkeit gegen Lippenblütler"
+    ],
+    "pregnancy_lactation": "Als Gewürz in Speisemengen vertretbar. Vom konzentrierten ätherischen Öl und hohen arzneilichen Mengen wird in Schwangerschaft/Stillzeit und bei kleinen Kindern (< 6 J.) abgeraten; belastbare Sicherheitsdaten fehlen (unsicher — zu prüfen).",
+    "adverse_effects": "Als Gewürz/mild dosierter Tee gut verträglich. Das phenolreiche ätherische Öl kann Haut und Schleimhäute reizen (moderates Reizpotenzial) und ist bei hoher Dosierung/oraler Aufnahme des reinen Öls potenziell leberbelastend. Selten Kreuzallergie innerhalb der Lippenblütler.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Keine klinisch dokumentierten Arzneimittelinteraktionen bekannt. Für phenolreiche Öle (Carvacrol/Thymol) sind theoretisch additive Schleimhautreizungen bzw. hohe-Dosis-Leberbelastung denkbar; bei Küchen-/Teemengen ohne praktische Relevanz.",
+        "affected": "keine spezifisch belegt (theoretisch: potenziell lebertoxische Substanzen bei Öl-Hochdosis)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Als scharfes Küchengewürz und milder Tee sicher, ohne belegten Heilwert (keine HMPC-/ESCOP-/Kommission-E-Monographie); das konzentrierte, phenolreiche ätherische Öl ist schleimhautreizend und gehört nicht in die laienhafte Selbstanwendung, besonders nicht bei Kindern, Schwangeren und Stillenden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Zur Blüte, Juli–Oktober, an einem trockenen Vormittag",
+    "harvest_month_tags": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Blühende, beblätterte Triebe schneiden; verholzte Basis stehen lassen, damit die mehrjährige Pflanze wieder austreibt.",
+    "processing": "Locker gebündelt kopfüber im Schatten trocknen; anschließend Blätter/Blütentriebe abstreifen.",
+    "storage": "Getrocknet dunkel und dicht verschlossen; ätherisches Öl ist flüchtig, Aroma jährlich erneuern."
+  },
+  "kitchen": {
+    "uses": [
+      "Klassisches Gewürz für Hülsenfrüchte (Bohnen, Linsen, Erbsen) — daher der Name 'Bohnenkraut'; verbessert die Bekömmlichkeit blähender Speisen",
+      "Würze für deftige Fleisch-, Wild- und Kräutergerichte (schärfer als Sommer-Bohnenkraut, sparsamer dosieren)"
+    ],
+    "culinary_vs_medicinal": "Der karminative Küchennutzen (zu Bohnen) IST die traditionelle 'Anwendung'. Die Speisemenge ist die sichere Alltagsdosis; ein belegter arzneilicher Zusatznutzen darüber hinaus besteht nicht. Das reine ätherische Öl gehört nicht in die Küchen-/Hausmittel-Selbstanwendung."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, trocken, durchlässig-kalkhaltig, mager; Staunässe meiden (mediterraner Karst-Standort).",
+    "hardiness": "Winterhart, mehrjährig-immergrün (anders als das einjährige Sommer-Bohnenkraut) — bei guter Drainage in Mitteleuropa ausdauernd.",
+    "propagation": "Aussaat (Lichtkeimer) im Frühjahr, Stecklinge oder Teilung; verholzt mit den Jahren.",
+    "bodensee_suitability": "Für sonnige, trockene, kalkhaltige Beete/Steingärten und Kübel am Bodensee gut geeignet und winterhart — dankbarer als der frostempfindliche Majoran, sofern die Drainage stimmt."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Drugs.com (Savory — Uses, Benefits & Dosage) — traditioneller Gebrauch, Inhaltsstoffe, fehlende klinische Evidenz",
+    "WebMD (Winter Savory) — Anwendung, Vorsichtshinweise (Schwangerschaft/Stillzeit/Kinder)",
+    "PubMed/PMC 7230815 (In-vitro-Antimikrobik gegen Campylobacter jejuni), PMC 9495055 (biologische Aktivität S. montana subsp.) — präklinische Belege Carvacrol/Thymol",
+    "Kostbare Natur, Herbaversum, kraeuter-buch.de, heilpraxisnet.de — Abgrenzung Sommer-/Winter-Bohnenkraut, Küchen-/Verdauungsanwendung",
+    "Aromatherapie-Sicherheitsquellen (Huiles & Sens, Physalis) — Phenolgehalt, Schleimhaut-Reizpotenzial des ätherischen Öls"
+  ]
+}

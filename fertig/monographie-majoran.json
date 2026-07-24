@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "id": "origanum-majorana",
+  "stand": "2026-07-24",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Origanum majorana L.",
+    "common_names_de": [
+      "Majoran",
+      "Gartenmajoran",
+      "Wurstkraut",
+      "Mairan"
+    ],
+    "family": "Lamiaceae (Lippenblütler)",
+    "drug_part": [
+      "Kraut (Herba) — beblätterte, blühende Triebe"
+    ],
+    "drug_name_latin": "Majoranae herba",
+    "synonyms": [
+      "Majorana hortensis Moench",
+      "Majorana majorana (L.) H.Karst."
+    ],
+    "synonym_note": "Früher als eigene Gattung Majorana geführt (Majorana hortensis Moench); heute in Origanum eingegliedert. NICHT zu verwechseln mit Origanum vulgare (Oregano/Dost) — eigene Art, eigene Monographie."
+  },
+  "identification": {
+    "key_features": [
+      "Ganze Pflanze grau-filzig behaart (samtig-matt) — im Unterschied zum meist kahleren, dunkelgrünen Oregano das sicherste Merkmal",
+      "Blüten in kugeligen, knäuelartigen Scheinähren zwischen graugrünen Deckblättern ('Knospen-/Knötchen-Majoran')",
+      "Kleine, gestielte, spatel- bis eiförmige Blätter mit mildem, süßlich-würzigem Duft (nicht scharf-pfeffrig wie Oregano)",
+      "Aufrechter, buschiger, an der Basis leicht verholzender Halbstrauch, 20–50 cm, vierkantiger Stängel (Lippenblütler-Merkmal)"
+    ],
+    "season": "Blütezeit Juli bis September",
+    "habitat": "Wärmeliebende Kulturpflanze mediterraner/vorderasiatischer Herkunft; in Mitteleuropa nur im Garten/Beet, nicht winterhart (einjährig kultiviert)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Reine Kulturdroge — es besteht praktisch kein Wildsammel-Risiko; die Pflanze wächst im Garten und wird nicht verwildert wildgesammelt.",
+      "Bestätiger: samtig-graue Behaarung + milder, süßlicher (nicht scharfer) Duft + kugelige Blütenknäuel. Wer Oregano erwartet, erkennt Majoran am milderen Aroma und dem grauen Filz.",
+      "Kraut kurz vor/zur Vollblüte schneiden — dann ist der Gehalt an ätherischem Öl am höchsten."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Oregano / Echter Dost",
+      "scientific_name": "Origanum vulgare",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nächster Verwandter, häufigste Verwechslung — beide ungiftig. Oregano ist dunkler grün, kahler, herber-schärfer im Duft und mehrjährig-winterhart; Majoran graufilzig, milder, süßlicher, frostempfindlich. Arzneilich NICHT gleichzusetzen: HMPC führt eine Monographie für O. majorana, aber KEINE für O. vulgare."
+    },
+    {
+      "name": "Andere kleinblättrige Küchen-Lippenblütler (Thymian, Bohnenkraut, Ysop)",
+      "scientific_name": "Thymus/Satureja/Hyssopus spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Alle ungiftige Gewürzkräuter derselben Familie. Unterscheidung über Duft (Majoran süßlich-mild) und die graufilzige Behaarung. Keine Gefahr, nur geschmackliche/aromatische Fehlzuordnung."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Als reine, im Garten gezogene Kulturpflanze mit charakteristischem Aroma hat Majoran keinen giftigen morphologischen Doppelgänger. Aktiv gesucht (Lippenblütler): alle ähnlichen Küchenkräuter sind essbar; ein toxischer Feld-Doppelgänger ist nicht bekannt."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (~0,7–3,5 %): u. a. cis-/trans-Sabinenhydrat und dessen Acetate (typische Majoran-Leitkomponenten), Terpinen-4-ol, γ-Terpinen, α-Terpineol, Linalool — phenolarm, daher milder als Oregano/Thymian",
+      "Gerbstoffe (Lamiaceen-/Rosmarinsäure-Typ), Flavonoide, Triterpene (u. a. Ursolsäure), Bitter- und Schleimstoffe"
+    ],
+    "lead_substance": "cis-Sabinenhydrat (mildes, würziges Majoran-Aroma) sowie Terpinen-4-ol; die karminativ-spasmolytische Wirkung wird dem Gesamt-Ölkomplex zugeschrieben, nicht einem einzelnen Phenol",
+    "solubility_note": "Wirkprinzip ist das ätherische Öl → warmer Aufguss (Tee, zugedeckt ziehen, damit das Öl nicht entweicht) oder alkoholische Auszüge/fette Zubereitungen (Salbe/Öl). Anders als Oregano/Thymian phenolarm, deshalb schleimhautschonender.",
+    "heat_light_sensitivity": "Ätherisches Öl ist flüchtig und licht-/wärmeempfindlich: Droge dunkel und dicht verschlossen lagern; Tee stets abgedeckt ziehen lassen."
+  },
+  "pharmacology": {
+    "mechanism": "Das ätherische Öl wirkt karminativ (entblähend) und leicht spasmolytisch auf die glatte Magen-Darm-Muskulatur; Gerbstoffe wirken schwach adstringierend. Traditionell zusätzlich äußerlich hautberuhigend. Insgesamt milde, symptomatische Wirkung.",
+    "evidence_caveat": "Es liegen keine belastbaren klinischen Studien vor. Die HMPC-Einstufung beruht ausschließlich auf langjähriger Erfahrung (traditional use), NICHT auf Wirksamkeitsnachweis. Zahlreiche volksmedizinische Zuschreibungen (Diabetes, Hypertonie, Arteriosklerose, Sedierung) sind klinisch unbelegt.",
+    "pharmacokinetics": "Nicht belastbar untersucht."
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden (Blähungen, Völlegefühl, leichte Magen-Darm-Krämpfe)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Blähbauch",
+        "Verdauungsbeschwerden",
+        "aufgeblähter Bauch",
+        "Magendrücken nach fettem Essen"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC EU herbal monograph Origanum majorana L., herba (EMA/HMPC/166517/2015): 'traditional use' als Karminativum und Spasmolytikum. Kein well-established use.",
+      "realistic_expectation": "Kann Blähungen und Völlegefühl mild lindern und macht fette Speisen bekömmlicher — ein sanftes Verdauungskraut. Erwarte keine Heilung struktureller Erkrankungen; wirkt symptomatisch.",
+      "source": "HMPC traditional use (Majoranae herba)"
+    },
+    {
+      "canonical": "Äußerlich: Reizlinderung der Haut, traditionell bei verstopfter/wunder Säuglingsnase ('Majoranbutter/-salbe')",
+      "synonyms": [
+        "wunde Naslöcher",
+        "Schnupfen beim Baby",
+        "verstopfte Nase Säugling",
+        "gereizte Haut um die Nase",
+        "Majoranbutter"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC führt zusätzlich halbfeste Zubereitungen zur kutanen Anwendung (Extrakt 1:5, Ethanol 96 % V/V, in weißer Vaseline) als 'traditional use'. Die klassische 'Majoranbutter' bei Säuglingsschnupfen ist Erfahrungsheilkunde.",
+      "realistic_expectation": "Kann gereizte Haut rund um die Nasenlöcher pflegen/beruhigen. KEIN Ersatz für abschwellende Maßnahmen; ein Schnupfen wird nicht 'weggecremt'. Bei Säuglingen nur äußerlich, dünn, nicht in die Nase.",
+      "source": "HMPC traditional use (kutane halbfeste Zubereitung)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes, gut verträgliches Küchen- und Verdauungskraut: entbläht, entkrampft leicht, macht schwere Speisen bekömmlicher; äußerlich hautberuhigend.",
+    "overstated": "Der 'Wurstkraut'-Ruf und Internetlisten schreiben Majoran Wirkung gegen Diabetes, Bluthochdruck, Arteriosklerose, Depression oder als Beruhigungsmittel zu — dafür gibt es KEINEN klinischen Beleg. Auch die HMPC bestätigt nur eine traditionelle, symptomatische Verdauungswirkung.",
+    "effect_size": "mild; rein symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee (Aufguss aus geschnittenem Kraut, zugedeckt ziehen)",
+      "Gewürz zu fetten/blähenden Speisen",
+      "Halbfeste kutane Zubereitung (Salbe/Majoranbutter) zur äußerlichen Anwendung"
+    ],
+    "form_rationale": "Wirkträger ist das flüchtige ätherische Öl → warmer, abgedeckter Aufguss hält das Öl im Tee; für die Hautanwendung bindet eine fette Grundlage (Vaseline/Butter) die Ölkomponenten.",
+    "standard_dose": "Tee: ~1–2 TL (ca. 1–2 g) geschnittenes Kraut auf 150 ml heißes Wasser, 2–3× täglich; innerliche Anwendung nicht länger als etwa 2 Wochen am Stück (Erfahrungsempfehlung wegen möglicher Kopfschmerzen bei Dauergebrauch). Exakte HMPC-Posologie am Original prüfen.",
+    "preservation": "Trocken, dunkel, dicht verschlossen; Aroma schwindet mit der Zeit — Vorrat jährlich erneuern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Überempfindlichkeit gegen Lippenblütler (Majoran, Oregano, Thymian u. a.)",
+      "Konzentriertes ätherisches Majoranöl nicht bei Säuglingen/Kleinkindern auf Schleimhäute oder ins Gesicht auftragen"
+    ],
+    "pregnancy_lactation": "Als Gewürz in Speisemengen unbedenklich. Von konzentrierten arzneilichen Mengen und dem ätherischen Öl wird in Schwangerschaft/Stillzeit abgeraten: dem Öl wird eine anregende Wirkung auf die glatte (auch Gebärmutter-)Muskulatur zugeschrieben; belastbare Daten fehlen — defensiv meiden (unsicher — zu prüfen).",
+    "adverse_effects": "In üblichen Mengen sehr gut verträglich. Bei häufigem, langfristigem Gebrauch werden gelegentlich Kopfschmuck/Kopfschmerzen beschrieben. Konzentriertes ätherisches Öl kann Haut/Schleimhäute reizen. Selten Kreuzallergie innerhalb der Lippenblütler.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Volksmedizinisch werden blutzucker- und blutdrucksenkende Effekte behauptet; klinisch nicht belegt. Ein theoretischer additiver Effekt mit Antidiabetika/Antihypertensiva ist nicht auszuschließen, praktisch bei Gewürz-/Teemengen ohne Relevanz.",
+        "affected": "Antidiabetika, Antihypertensiva (theoretisch)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": true
+    },
+    "key_warning": "Mildes, sicheres Küchen- und Verdauungskraut — nur symptomatisch wirksam (HMPC: traditional use); das konzentrierte ätherische Öl gehört nicht auf Säuglingsschleimhäute, und die populären Wirkversprechen (Diabetes, Blutdruck, Nerven) sind unbelegt."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Kurz vor bis zur Vollblüte, Juli–September, an einem trockenen Vormittag",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Blühende, beblätterte Triebe handbreit über dem Boden abschneiden.",
+    "processing": "Locker gebündelt kopfüber im Schatten luftig trocknen; danach Blätter/Blüten abstreifen.",
+    "storage": "Getrocknet dunkel und dicht verschlossen; ätherisches Öl ist flüchtig, Aroma jährlich erneuern."
+  },
+  "kitchen": {
+    "uses": [
+      "Klassisches Wurstgewürz (Leber-, Blut-, Bratwurst)",
+      "Würze für fette, deftige und hülsenfruchtreiche Gerichte (Kartoffel, Bohnen, Gans, Eintöpfe) — verbessert die Bekömmlichkeit"
+    ],
+    "culinary_vs_medicinal": "Der Übergang ist fließend: Der karminative Nutzen ist genau der Grund, warum Majoran traditionell zu blähenden/fetten Speisen gegeben wird. Die Speisemenge ist zugleich die sichere Alltagsdosis; 'arzneilich' meint hier nur den konzentrierteren Tee."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, durchlässig-kalkhaltig, eher mager; Staunässe meiden.",
+    "hardiness": "Frostempfindlich — in Mitteleuropa meist einjährig kultiviert; Aussaat/Anzucht ab Mai nach den Eisheiligen.",
+    "propagation": "Aussaat (Lichtkeimer, nicht mit Erde bedecken) ab Mai; Vorkultur auf der Fensterbank ab April.",
+    "bodensee_suitability": "Als Sommer-Kulturkraut im warmen, sonnigen Beet oder Topf am Bodensee gut machbar; überwintert im Freiland in der Regel nicht — jährlich neu säen."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC European Union herbal monograph on Origanum majorana L., herba (EMA/HMPC/166517/2015, final 2016) — traditional use, Karminativum/Spasmolytikum; Assessment report",
+    "Walaarzneimittel Heilpflanzenlexikon, Heilpflanzen-Atlas, Pschyrembel, Gesundheitswissen — Anwendung, Verdauungswirkung, Schwangerschafts-/Dauergebrauch-Hinweise",
+    "Kostbare Natur / Herbaversum / kraeuter-buch.de — Abgrenzung Majoran vs. Oregano, botanische Merkmale",
+    "Altmeyers Encyclopedia (Phytotherapie) — Marjoram herba"
+  ]
+}

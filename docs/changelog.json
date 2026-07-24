@@ -639,6 +639,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat, Tier 5). WICHTIG - Erwartung gedaempft: Fuer Origanum vulgare (Dostenkraut) existiert KEINE HMPC-Monographie (nur O. majorana und O. dictamnus haben eine), und die Kommission E hat die Anwendungsgebiete NEGATIV bewertet. Anwendung daher nur TRAD (volksmedizinisch), nicht TU. Der 'Oreganooel'-Ruf als natuerliches Antibiotikum ist klinisch unbelegt (nur in-vitro). Namensfalle: Wasserdost (Eupatorium cannabinum) enthaelt lebertoxische Pyrrolizidinalkaloide - als Konfusion aufgenommen. Konzentriertes aetherisches Oel schleimhautreizend, in Schwangerschaft meiden (Carvacrol uteruskontrahierend)."
+    },
+    {
+      "ts": "2026-07-24T18:30:00Z",
+      "id": "origanum-majorana",
+      "common": "Majoran",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 5). Anders als der nah verwandte Oregano HAT Majoran eine HMPC-Monographie: EMA/HMPC/166517/2015, Origanum majorana L. herba, 'traditional use' als Karminativum/Spasmolytikum (Tee innerlich) sowie halbfeste Zubereitung kutan (klassische 'Majoranbutter' bei wunder/verstopfter Saeuglingsnase) - Evidenzgrad TU, KEIN well-established use. Erwartung gedaempft: populaere Wirkversprechen (Diabetes, Blutdruck, Nerven/Sedierung) klinisch unbelegt. Sehr sichere Kuechenpflanze (high_safety=true), kein giftiger Doppelgaenger; einzige Vorsicht: konzentriertes aetherisches Oel nicht auf Saeuglingsschleimhaeute, in Schwangerschaft arzneiliche Mengen meiden (Uterus-anregend, Datenlage duenn)."
+    },
+    {
+      "ts": "2026-07-24T18:30:30Z",
+      "id": "satureja-montana",
+      "common": "Bergbohnenkraut",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 5). KEINE HMPC-/ESCOP-/Kommission-E-Monographie fuer Satureja montana -> alle Indikationen TRAD (volksmedizinisch: Karminativum, Appetit, mild adstringierend bei Durchfall). Erwartung gedaempft: der Ruf als 'natuerliches Antibiotikum'/Aphrodisiakum ist nur praeklinisch (in-vitro Carvacrol/Thymol), klinisch unbelegt. WICHTIG zur Abgrenzung: mehrjaehriges, verholztes Winter-Bohnenkraut vs. einjaehriges, milderes Sommer-Bohnenkraut (S. hortensis) - Wirk-/Dosisangaben im Handel beziehen sich oft auf die Sommer-Art. Sicherheit: phenolreiches aetherisches Oel (Carvacrol/Thymol) schleimhautreizend, nicht fuer Selbstanwendung/Kinder/Schwangere; high_safety bewusst false. Kein giftiger Doppelgaenger."
     }
   ]
 }

@@ -743,8 +743,8 @@
       "latin": "Origanum majorana",
       "tier": 5,
       "reason": "Küche + Verdauung",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-majoran.json"
     },
     {
       "id": "satureja-montana",
@@ -752,8 +752,8 @@
       "latin": "Satureja montana",
       "tier": 5,
       "reason": "Küche, Verdauung",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-bergbohnenkraut.json"
     },
     {
       "id": "hyssopus-officinalis",
