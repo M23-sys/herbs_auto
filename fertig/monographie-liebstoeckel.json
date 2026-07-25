@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "id": "levisticum-officinale",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Levisticum officinale W.D.J.Koch",
+    "common_names_de": [
+      "Liebstöckel",
+      "Maggikraut",
+      "Maggipflanze",
+      "Nusskraut",
+      "Sauerkrautwurz",
+      "Bergliebstöckel"
+    ],
+    "family": "Apiaceae (Doldenblütler)",
+    "drug_part": [
+      "Wurzel/Wurzelstock (Radix) — offizinelle Droge der HMPC-Monographie",
+      "Blatt und Frucht — überwiegend als Küchengewürz"
+    ],
+    "drug_name_latin": "Levistici radix",
+    "synonyms": [
+      "Ligusticum levisticum L.",
+      "Levisticum vulgare Rchb.",
+      "Hipposelinum levisticum (L.) Britton & Rose",
+      "Angelica levisticum (L.) All."
+    ],
+    "synonym_note": "Heute akzeptiert als Levisticum officinale W.D.J.Koch. Der ältere Name Ligusticum levisticum L. (und Levisticum vulgare) begegnet in Altliteratur — dieselbe Art. Die Gattung Levisticum ist monotypisch."
+  },
+  "identification": {
+    "key_features": [
+      "Kräftige, ausdauernde Staude, 1–2 (bis 2,5) m hoch, mit dickem, hohlem, oben verzweigtem, kahlem und fein gerilltem Stängel",
+      "SICHERSTES Merkmal: der intensive, charakteristische Sellerie-/Maggi-Geruch der ganzen Pflanze schon beim Zerreiben eines Blattes — kein giftiger Doldenblütler riecht so appetitlich-würzig",
+      "Blätter groß, glänzend dunkelgrün, kahl, 2- bis 3-fach gefiedert; Fiedern breit-keilig, im oberen Drittel grob gezähnt bis gelappt (an Staudensellerie erinnernd), Blattstiel oben rinnig",
+      "Blüten in großen, flachen, 8–20-strahligen Doppeldolden, blassgelb bis grünlichgelb (Juni–August); Früchte länglich-eiförmig, gelbbraun, mit geflügelten Rippen",
+      "Dicke, fleischige, außen bräunliche, innen weißlich-gelbe Pfahlwurzel mit demselben würzigen Geruch"
+    ],
+    "season": "Blütezeit Juni bis August; Wurzelernte im Herbst des 2.–3. Jahres",
+    "habitat": "Alte Bauerngarten- und Klostergartenpflanze westasiatischer Herkunft; nährstoffreiche, tiefgründige, frische Böden in Sonne bis Halbschatten. In Mitteleuropa Kulturpflanze, gelegentlich aus Gärten verwildernd.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Reine Garten-/Kulturpflanze — der Geruchstest (Sellerie/Maggi) ist der entscheidende Bestätiger und trennt sie von jedem giftigen Doldenblütler.",
+      "Bestätiger: dicker hohler Stängel + große glänzende, doppelt/dreifach gefiederte Blätter + blassgelbe Doppeldolden + würziger Duft.",
+      "WARNUNG für Wildsammler: Junge Apiaceae-Rosetten (Frühjahr) sind für Laien schwer sicher zu bestimmen. Niemals unbestimmte junge Doldenblütler nach Blattform sammeln — Schierling & Co. sind tödlich. Im Zweifel nur die eindeutig riechende, etablierte Gartenpflanze verwenden."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin und verwandte Piperidin-Alkaloide (Atemlähmung)",
+      "note": "Doldenblütler mit fein zerteilten Blättern und weißen Dolden. Unterscheidung: rotbraun gefleckter, kahler Stängel und unangenehmer, an Mäuseurin erinnernder Geruch beim Zerreiben — nicht der würzige Maggigeruch des Liebstöckels. Blüten weiß (nicht gelb). Bereits kleine Mengen tödlich."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin (schwerste Krämpfe, oft tödlich)",
+      "note": "Feuchtgebiets-Doldenblütler mit weißen Dolden. Eindeutig: beim Anschnitt tritt aus Stängelbasis/Wurzelstock ein gelblicher Saft aus, der verdickte Wurzelstock zeigt im Längsschnitt markante Querkammern. Riecht sellerieartig — deshalb besonders heimtückisch; gilt als eine der giftigsten Pflanzen Europas. Standort (nasse Ufer) und Hohlkammer-Wurzel trennen ihn."
+    },
+    {
+      "name": "Hundspetersilie",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (Aethusin), petersilienähnlich",
+      "note": "Kleiner, an Petersilie erinnernder Doldenblütler. Merkmal: 3–4 auffällig lange, nach unten hängende Hüllchenblättchen unter den Einzeldöldchen ('Bärtchen'); unangenehmer Geruch beim Zerreiben. Deutlich zierlicher als der bis 2 m hohe Liebstöckel."
+    },
+    {
+      "name": "Echter Sellerie / Staudensellerie",
+      "scientific_name": "Apium graveolens",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ungefährliche, geschmacklich verwandte Verwechslung — junge Liebstöckelblätter ähneln Selleriegrün und riechen ähnlich. Keine Gefahr, nur Sortenverwechslung; Liebstöckel wird viel größer und ist ausdauernd."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (Wurzel ca. 0,5–1 %) mit Phthaliden als Leitstoffen: (Z)-Ligustilid, Butylidenphthalid, Sedanolid — Träger des typischen Maggi-/Sellerie-Geruchs",
+      "Furocumarine (u. a. Psoralen, Bergapten) und einfache Cumarine — verantwortlich für die potenzielle Photosensibilisierung",
+      "Ätherisches Öl mit Terpenen (α-/β-Pinen, Phellandren); daneben Polyine, Harze, Zucker, wenig Gerbstoff"
+    ],
+    "lead_substance": "Phthalide (Ligustilid/Butylidenphthalid) als Geruchs- und mutmaßliche Wirkleitstoffe der aquaretischen (harntreibenden) Tradition; ein klinisch belegter Einzelwirkstoff für die Wirksamkeit existiert nicht.",
+    "solubility_note": "Der wässrige Aufguss/Abkochung der Wurzel überführt Cumarine, wasserlösliche Begleitstoffe und einen Teil der Phthalide; das lipophile ätherische Öl bleibt im Tee teilweise zurück. Für die traditionelle Durchspülungsanwendung ist die reichliche zusätzliche Flüssigkeitszufuhr entscheidend, nicht ein starkes Extrakt.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig; Droge dunkel und dicht verschlossen lagern. Furocumarine sind lichtaktiv — relevant für die Haut, nicht für die Lagerung."
+  },
+  "pharmacology": {
+    "mechanism": "Traditionell als Aquaretikum (Steigerung der Harnmenge zur Durchspülung), karminativ und verdauungsanregend beschrieben. Der harntreibende Effekt wird dem ätherischen Öl/den Phthaliden zugeschrieben (leichte Reizung des Nierenepithels, vermehrte Durchblutung); die karminative Wirkung dem Phthalid-/Terpenkomplex.",
+    "evidence_caveat": "Die HMPC-Einstufung ist ausdrücklich 'traditional use' — die Wirksamkeit gilt allein aufgrund langjähriger Anwendung als plausibel, NICHT durch kontrollierte klinische Studien belegt. Belastbare RCTs zur Wurzel fehlen. Kommission E führte Liebstöckelwurzel positiv (Durchspülungstherapie), ebenfalls erfahrungsbasiert.",
+    "pharmacokinetics": "Nicht belastbar untersucht (unsicher — zu prüfen)."
+  },
+  "indications": [
+    {
+      "canonical": "Adjuvante Durchspülung bei leichten Harnwegsbeschwerden (traditionell)",
+      "synonyms": [
+        "Blasenentzündung leichte Form",
+        "Harnwegsinfekt unterstützend",
+        "Durchspülung Harnwege",
+        "Wassertreiben",
+        "Reizblase",
+        "brennen beim Wasserlassen begleitend"
+      ],
+      "evidence_tag": "TU",
+      "comment": "HMPC Community herbal monograph (Levisticum officinale Koch, radix, 2012): traditionelles Arzneimittel zur Steigerung der Harnmenge und Durchspülung der ableitenden Harnwege als unterstützende Maßnahme bei leichten Harnwegsbeschwerden. Anwendungsdauer laut Monographie begrenzt (ohne ärztlichen Rat nicht länger als 2–4 Wochen). Kein Ersatz für Antibiotika bei fieberhaftem oder kompliziertem Infekt.",
+      "realistic_expectation": "Kann als Tee bei reichlicher Flüssigkeitszufuhr die Harnmenge erhöhen und leichte Beschwerden begleitend lindern. KEINE Heilung eines echten bakteriellen Harnwegsinfekts — bei Fieber, Flankenschmerz, Blut im Urin, in Schwangerschaft oder bei anhaltenden Beschwerden ärztlich abklären. Nicht 'durchspülen' bei Wassereinlagerung infolge Herz-/Nierenschwäche.",
+      "source": "HMPC Community herbal monograph on Levisticum officinale Koch, radix (2012, traditional use); Kommission E (Positivmonographie Liebstöckelwurzel)"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden / Völlegefühl und Blähungen (traditionell)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Verdauungsbeschwerden",
+        "Magendrücken",
+        "Appetitlosigkeit"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle karminativ-verdauungsanregende Anwendung (Bitter-/Gewürzwurzel). Von der HMPC-Harnwegs-Monographie nicht abgedeckt; erfahrungsheilkundlich.",
+      "realistic_expectation": "Als Gewürz und Tee mild verdauungsfördernd und blähungslindernd — symptomatisch. Keine Wirkung auf strukturelle Magen-Darm-Erkrankungen.",
+      "source": "Volksmedizin/Traditionelle Anwendung; Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatische Küchen- und Durchspülungspflanze: als Tee (bei reichlich Trinken) harntreibend und begleitend bei leichten Harnwegs- und Verdauungsbeschwerden — mild, symptomatisch, erfahrungsbasiert.",
+    "overstated": "Der Name 'Liebstöckel' und alte Kräuterbücher schreiben ihm Wirkung als Aphrodisiakum, 'Blutreiniger' oder Mittel gegen ernste Infektionen zu — dafür gibt es keinen Beleg. Die HMPC führt ausschließlich 'traditional use'; ein echter Harnwegsinfekt gehört nicht mit Liebstöckeltee behandelt.",
+    "effect_size": "mild; rein symptomatisch/adjuvant, nicht klinisch belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Abkochung aus der geschnittenen Wurzel",
+      "Küchengewürz (Blatt, frisch oder getrocknet)"
+    ],
+    "form_rationale": "Für die Durchspülungstradition ist die Wurzeldroge die offizinelle Form; entscheidend ist die begleitende reichliche Flüssigkeitszufuhr. Das Blatt ist vor allem Würzmittel (Maggigeruch), nicht die arzneiliche Droge.",
+    "standard_dose": "HMPC/Kommission E: mittlere Tagesdosis der Wurzeldroge ca. 4–8 g (je nach Zubereitung). Tee: ca. 1,5–3 g geschnittene Wurzel auf 150 ml, als Abkochung/Aufguss, mehrmals täglich, dazu reichlich trinken. Anwendung ohne ärztlichen Rat nicht länger als 2–4 Wochen.",
+    "preservation": "Wurzel gut durchtrocknen, dunkel und dicht verschlossen lagern; Aroma jährlich erneuern."
+  },
+  "safety": {
+    "tox_ceiling": "Kein akut relevantes Toxin in Anwendungsdosis. Grenzsetzend sind: (1) Furocumarine → Photosensibilisierung (siehe Warnung), (2) die Durchspülungsregel (keine Anwendung bei Ödemen infolge eingeschränkter Herz-/Nierenfunktion), (3) zeitliche Begrenzung 2–4 Wochen ohne ärztlichen Rat.",
+    "contraindications": [
+      "Ödeme infolge eingeschränkter Herz- oder Nierentätigkeit — keine Durchspülungstherapie",
+      "Akute Nierenentzündung / eingeschränkte Nierenfunktion",
+      "Bekannte Überempfindlichkeit gegen Doldenblütler (Sellerie-Beifuß-Gewürz-Syndrom)"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit arzneilich meiden: Liebstöckel galt traditionell als menstruationsfördernd/wehenanregend; die HMPC-Anwendung wird mangels Unbedenklichkeitsdaten nicht empfohlen (unsicher — zu prüfen). Küchenübliche Gewürzmengen gelten als unproblematisch.",
+    "adverse_effects": "In Gewürz-/Teemengen meist gut verträglich. Möglich: photoallergische/phototoxische Hautreaktionen bei Haut-/Saftkontakt plus intensiver UV-Bestrahlung (Furocumarine). Selten allergische Reaktionen (Kreuzallergie Doldenblütler).",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Additive Wasser-/Elektrolytverschiebung bei gleichzeitiger diuretischer Therapie; theoretisch verstärkte Durchspülung.",
+        "affected": "Diuretika",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Furocumarine sind photosensibilisierend; Kombination mit anderen photosensibilisierenden Arzneistoffen könnte Hautreaktionen bei UV-Exposition begünstigen. Für die orale Anwendung als Tee laut HMPC klinisch nicht als relevant belegt.",
+        "affected": "Photosensibilisierende Arzneistoffe (z. B. bestimmte Antibiotika, Retinoide)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "photosensitizing": true,
+      "apiaceae_confusion_young": true,
+      "cardiorenal_flush_caution": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Nicht 'durchspülen' bei Wassereinlagerungen wegen Herz- oder Nierenschwäche und keinen echten (fieberhaften) Harnwegsinfekt damit behandeln. Größte Feldgefahr: junge Doldenblütler sind für Laien schwer bestimmbar — nur die eindeutig nach Maggi/Sellerie riechende Gartenpflanze verwenden, nie unbestimmte Wildrosetten (Schierling ist tödlich)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Wurzel im Herbst (Oktober) des 2.–3. Standjahres; Blatt den Sommer über (vor der Blüte am aromatischsten)",
+    "harvest_month_tags": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "harvest_organ": "Wurzel",
+    "method": "Wurzelstock ausgraben, waschen, längs/quer schneiden. Blatt einzeln ernten.",
+    "processing": "Wurzelstücke bei mäßiger Wärme (bis ~40 °C) trocknen; Blatt luftig im Schatten trocknen oder einfrieren.",
+    "storage": "Getrocknet dunkel und dicht verschlossen; ätherisches Öl flüchtig, Aroma jährlich erneuern."
+  },
+  "kitchen": {
+    "uses": [
+      "Klassisches Suppen- und Eintopfgewürz (der 'Maggi'-Geschmack), zu Brühen, Fonds, Kartoffel- und Hülsenfruchtgerichten",
+      "Junge Blätter fein gehackt sparsam über Salate, Quark, Gemüse; Samen als Würze"
+    ],
+    "culinary_vs_medicinal": "Als Speisegewürz in üblichen Mengen unbedenklich (auch in der Schwangerschaft). 'Arzneilich' meint die Wurzel-Durchspülungsanwendung mit den genannten Einschränkungen (Dauer, Herz-/Nierenvorbehalt)."
+  },
+  "garden": {
+    "site_soil": "Tiefgründiger, nährstoffreicher, frischer Gartenboden, sonnig bis halbschattig; starkzehrend.",
+    "hardiness": "Voll winterhart, ausdauernd; zieht im Winter ein und treibt kräftig wieder aus. Eine Pflanze reicht für den Hausbedarf.",
+    "propagation": "Aussaat (Herbst/Frühjahr, Kaltkeimer-tolerant) oder Teilung des Wurzelstocks im Frühjahr/Herbst.",
+    "bodensee_suitability": "Am Bodensee sehr gut geeignet und dankbar; wird groß (bis 2 m), daher Standort mit Platz wählen."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC Community herbal monograph on Levisticum officinale Koch, radix (2012) — traditional use, Durchspülung der Harnwege; Tagesdosis 4–8 g, Anwendungsdauer 2–4 Wochen (EMA-PDF via WebFetch nicht direkt abrufbar/403 — Inhalt über EMA-Dokumentindex und Sekundärquellen bestätigt, ärztliche Gegenprüfung sinnvoll)",
+    "EMA/HMPC Assessment report on Levisticum officinale Koch, radix",
+    "Kommission E: Positivmonographie Liebstöckelwurzel (Durchspülungstherapie)",
+    "Herbal Reality — Lovage (Levisticum officinale): Anwendung, Furocumarine, Sicherheit",
+    "de.wikipedia.org — Liebstöckel; kraeuter-buch.de, plantura.garden — Botanik, Merkmale",
+    "de.wikipedia.org — Gefleckter Schierling, Wasserschierling; rabenkraeuter.at — Hundspetersilie (Verwechslungsmerkmale Doldenblütler)"
+  ]
+}

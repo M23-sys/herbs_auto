@@ -671,6 +671,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat, Tier 5). KEINE HMPC-Monographie; Kommission E negativ -> Indikationen TRAD (Kuechengewuerz/Verdauung; aeusserlich Lorbeeroel bei rheumatischen Beschwerden). Primaer ein Gewuerz ohne belegte Heilwirkung. SICHERHEITSKRITISCH sind die Verwechslungen: deadly_confusion=true wegen OLEANDER (Nerium oleander, herztoxisch, lebensgefaehrlich, lanzettlich-immergruen wie Lorbeer) und KIRSCHLORBEER (Prunus laurocerasus, cyanogen/Blausaeure, als Hecke allgegenwaertig) - Faustregel: echter Lorbeer riecht kraeftig wuerzig, die Giftpflanzen nicht (Kirschlorbeer nach Bittermandel). Weitere Punkte: Kontaktallergie durch Sesquiterpenlactone (Costunolid, Laurenobiolid); Methyleugenol im aetherischen Oel potenziell genotoxisch -> nur Speisemengen; ganze Blaetter nicht mitessen (mechanische Verletzung)."
+    },
+    {
+      "ts": "2026-07-25T06:15:00Z",
+      "id": "myrtus-communis",
+      "common": "Gemeine Myrte",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung. KEINE HMPC-Monographie fuer die Blattdroge -> TRAD. Wichtig: das klinisch untersuchte 'Myrtol standardisiert' (Gelomyrtol) ist ein Destillat-Gemisch und NICHT die Myrtenpflanze; cineolreiches Oel bei Kleinkindern (Glottiskrampf) und in Schwangerschaft meiden."
+    },
+    {
+      "ts": "2026-07-25T06:16:00Z",
+      "id": "levisticum-officinale",
+      "common": "Liebstoeckel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung. HMPC fuehrt traditional use: Durchspuelung der Harnwege (Wurzel, 4-8 g/Tag, max 2-4 Wochen), kein Ersatz bei echtem Harnwegsinfekt. Doldenbluetler: junge Rosetten mit Schierling (toedlich) verwechselbar - Maggi-/Sellerie-Geruch als Bestaetiger; Furocumarine (Photosensibilisierung)."
     }
   ]
 }

@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "id": "myrtus-communis",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Myrtus communis L.",
+    "common_names_de": [
+      "Gemeine Myrte",
+      "Echte Myrte",
+      "Brautmyrte",
+      "Myrte"
+    ],
+    "family": "Myrtaceae (Myrtengewächse)",
+    "drug_part": [
+      "Blatt (Folium) — Myrti folium",
+      "Ätherisches Öl aus Blättern/Zweigen (Myrtenöl)",
+      "traditionell auch die reifen Beeren (Frucht)"
+    ],
+    "drug_name_latin": "Myrti folium",
+    "synonyms": [
+      "Myrtus italica Mill.",
+      "Myrtus baetica Mill.",
+      "Myrtus latifolia Mill."
+    ],
+    "synonym_note": "Akzeptiert als Myrtus communis L. Zahlreiche alte Artnamen (M. italica, M. baetica u. a.) sind Synonyme derselben, sehr variablen Mittelmeerart; die schmalblättrige Form wird gärtnerisch als var. tarentina geführt."
+  },
+  "identification": {
+    "key_features": [
+      "SICHERSTES Merkmal: Blätter gegen das Licht gehalten zeigen zahlreiche durchscheinende, punktförmige Öldrüsen; beim Zerreiben starker aromatisch-würziger (eukalyptusartig-balsamischer) Duft",
+      "Immergrüner, dicht verzweigter Strauch (in Kultur meist 0,5–2 m, im Freiland bis 5 m) mit kleinen, kreuzgegenständigen, lederig-glänzenden, dunkelgrünen, schmal-eilanzettlichen, ganzrandigen, spitz zulaufenden Blättern",
+      "Blüten einzeln in den Blattachseln, weiß, angenehm duftend, mit fünf Kronblättern und einem auffälligen Büschel zahlreicher langer Staubblätter (Mai–August)",
+      "Früchte kugelig-eiförmig, erbsengroß, bei Reife blauschwarz (selten weiß) bekront vom bleibenden Kelch",
+      "Wärmeliebende Kübelpflanze; in Mitteleuropa nicht winterhart im Freiland"
+    ],
+    "season": "Blütezeit Mai bis August; Fruchtreife Herbst bis Winter",
+    "habitat": "Mediterrane Macchie/Garrigue; sonnige, warme, durchlässige Standorte. In Mitteleuropa Kübel-/Zimmerpflanze, frostfrei überwintert.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Reine Kultur-/Kübelpflanze — Wildsammlung in Mitteleuropa entfällt. Bestätiger: durchscheinende Öldrüsen (Licht-Test) + würziger Duft + weiße vielstaubblättrige Blüten + blauschwarze bekrönte Beeren.",
+      "Der Öldrüsen-Licht-Test trennt die Myrte von den ähnlich beblätterten, aber giftigen immergrünen Ziersträuchern (Buchsbaum, Kirschlorbeer), die KEINE durchscheinenden Drüsen und keinen Myrtenduft haben.",
+      "Beeren nur von sicher als Myrte bestimmten Pflanzen — Verwechslung reifer dunkler Beeren mit denen giftiger Ziersträucher aktiv ausschließen."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Buchsbaum",
+      "scientific_name": "Buxus sempervirens",
+      "toxicity_level": "giftig",
+      "toxin": "Steroidalkaloide (u. a. Cyclobuxin)",
+      "note": "Ähnlich kleiner, immergrüner Strauch mit kleinen glänzenden Blättern. Unterscheidung: Buchsblätter an der Spitze meist leicht ausgerandet, OHNE durchscheinende Öldrüsen und ohne würzigen Myrtenduft (eher unangenehm-katzenartig); Blüten unscheinbar grünlich. Der Öldrüsen-Licht-Test ist eindeutig."
+    },
+    {
+      "name": "Kirschlorbeer / Lorbeerkirsche",
+      "scientific_name": "Prunus laurocerasus",
+      "toxicity_level": "giftig",
+      "toxin": "Cyanogene Glykoside (Blausäure), v. a. in Blättern und Samen",
+      "note": "Immergrüner Zierstrauch mit glänzenden Blättern und dunklen Beeren — aber Blätter viel größer und länglich, ohne durchscheinende Öldrüsen; zerriebenes Blatt riecht nach Bittermandel (Blausäure), nicht würzig. Beeren nicht verwechseln: Kirschlorbeer-Kerne sind giftig."
+    },
+    {
+      "name": "Echter Lorbeer",
+      "scientific_name": "Laurus nobilis",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Ebenfalls mediterrane, aromatische Kübelpflanze; Blätter jedoch deutlich größer, härter, mit welligem Rand und typischem Lorbeer-Küchenduft. Ungefährliche, nur aromatische Verwechslung."
+    },
+    {
+      "name": "Oleander",
+      "scientific_name": "Nerium oleander",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzwirksame Glykoside (Oleandrin)",
+      "note": "Häufige mediterrane Kübelpflanze und daher gemeinsam mit Myrte anzutreffen. Morphologisch klar verschieden (viel größere, schmal-lange, lederige Blätter zu dritt im Quirl; große rosa/weiße Trichterblüten) — Verwechslung nur bei Unachtsamkeit, dann aber gefährlich. Kein Pflanzenteil des Oleanders verzehren/verwenden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (Blatt ca. 0,1–0,5 %): 1,8-Cineol (ca. 12–45 %), α-Pinen (ca. 15–38 %), Myrtenylacetat (4–20 %), Limonen (2–19 %), Myrtenol, Linalool, Geraniol — Zusammensetzung stark chemotyp-/herkunftsabhängig",
+      "Gerbstoffe, Flavonoide (Myricetin-Glykoside), Phloroglucinderivate (Myrtucommulon, Semimyrtucommulon), Bitterstoff"
+    ],
+    "lead_substance": "1,8-Cineol (schleimlösend/antimikrobiell zugeschrieben) und Myrtenylacetat als Duft-/Wirkleitstoffe; die Phloroglucine (Myrtucommulon) sind präklinisch antimikrobiell/antioxidativ interessant. Ein klinisch belegter Einzelwirkstoff für die Blattdroge existiert nicht.",
+    "solubility_note": "Der wässrige Aufguss (Blatt-Tee) zieht Gerbstoffe, Flavonoide und wenig Öl — mild adstringierend/aromatisch. Das konzentrierte ätherische Öl reichert Cineol/Terpene stark an und ist etwas völlig anderes als der Tee (siehe Sicherheit: Cineol bei Kleinkindern).",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig und licht-/wärmeempfindlich; Droge und Öl dunkel, kühl, dicht verschlossen lagern."
+  },
+  "pharmacology": {
+    "mechanism": "Traditionell adstringierend (Gerbstoffe), schleimlösend-auswurffördernd und leicht antiseptisch (cineolreiches Öl) bei Atemwegskatarrhen sowie äußerlich bei Haut-/Schleimhautentzündungen beschrieben. 1,8-Cineol wirkt sekretomotorisch/sekretolytisch und schwach antiinflammatorisch.",
+    "evidence_caveat": "Für die Blattdroge Myrtus communis existiert KEINE HMPC/EMA-Monographie und keine belastbare klinische Studienlage; die Anwendung ist traditionell/volksmedizinisch. WICHTIG: Das klinisch untersuchte 'Myrtol standardisiert' (Gelomyrtol) ist ein DESTILLAT-GEMISCH definierter ätherischer Öle und NICHT mit der Myrtenblatt-Droge oder einfachem Myrtenöl gleichzusetzen — Studienergebnisse zu Myrtol dürfen nicht auf die Pflanze übertragen werden.",
+    "pharmacokinetics": "Für die Blattdroge nicht belastbar untersucht (unsicher — zu prüfen)."
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der oberen Atemwege / verschleimter Husten (traditionell)",
+      "synonyms": [
+        "Husten",
+        "Bronchitis",
+        "Erkältung",
+        "festsitzender Schleim",
+        "verschleimte Atemwege",
+        "Nasennebenhöhlen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein traditionelle Anwendung der cineolhaltigen Blätter/des Öls als Expektorans. KEINE HMPC-Monographie für die Droge; kein anerkannter Wirksamkeitsbeleg. NICHT mit dem separat zugelassenen Fertigarzneimittel 'Myrtol standardisiert' verwechseln.",
+      "realistic_expectation": "Als aromatischer Tee oder (stark verdünnte) Inhalation subjektiv wohltuend bei Erkältungshusten. Ein über Wärme-/Aromaeffekt hinausgehender belegter Nutzen der Droge ist nicht nachgewiesen. Kein Ersatz bei anhaltendem/fieberhaftem Atemwegsinfekt.",
+      "source": "Volksmedizin/Traditionelle Anwendung; ältere ESCOP-/Sekundärliteratur"
+    },
+    {
+      "canonical": "Äußerlich bei leichten Haut- und Schleimhautentzündungen (traditionell)",
+      "synonyms": [
+        "wunde Haut",
+        "Mundschleimhaut",
+        "Zahnfleischentzündung",
+        "leichte Wunden",
+        "Spülung Gurgeln"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle adstringierend-antiseptische Anwendung (Gerbstoffe) als Spülung/Umschlag. Ohne regulatorische Bestätigung.",
+      "realistic_expectation": "Kann durch Gerbstoffe leicht zusammenziehend und pflegend wirken. Milde, symptomatische Anwendung; keine Heilwirkung bei ausgeprägten oder infizierten Hautprozessen.",
+      "source": "Volksmedizin/Traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatische mediterrane Zier- und Duftpflanze; als Blatt-Tee, Spülung oder verdünnte Inhalation traditionell mild schleimlösend/adstringierend — symptomatisch, ohne belegte Heilwirkung.",
+    "overstated": "Studien zum Fertigarzneimittel 'Myrtol standardisiert' werden im Netz oft der Myrtenpflanze zugeschrieben — das ist falsch: Myrtol ist ein anderes, standardisiertes Destillat. Auch 'antivirale', 'entgiftende' oder prostataheilende Zuschreibungen sind für die Droge nicht belegt.",
+    "effect_size": "gering; rein symptomatisch, nicht belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee/Aufguss aus den getrockneten Blättern",
+      "Abkochung als Spülung/Gurgellösung oder Umschlag (äußerlich)",
+      "Ätherisches Öl nur stark verdünnt und mit Altersvorbehalt (siehe Sicherheit)"
+    ],
+    "form_rationale": "Der wässrige Aufguss hält die Cineol-/Terpenlast niedrig und liefert vor allem Gerbstoffe/Flavonoide — verträglicher als das konzentrierte Öl. Das ätherische Öl reichert Cineol an und ist bei Kleinkindern und im Gesicht problematisch.",
+    "standard_dose": "Tee: ca. 1–2 g getrocknete Blätter auf 150 ml, 2–3× täglich; äußerlich als Abkochung zum Spülen/Gurgeln. Konkrete Obergrenzen der Droge sind mangels Monographie unsicher — zu prüfen; defensiv niedrig dosieren. Ätherisches Öl innerlich nur unter fachlicher Anleitung, nicht bei Kleinkindern.",
+    "preservation": "Trocken, dunkel, dicht verschlossen; Öl kühl und lichtgeschützt."
+  },
+  "safety": {
+    "tox_ceiling": "Kein strikter Dosisgrenzwert für die Blattdroge festgelegt (keine Monographie). Grenzsetzend ist das ätherische Öl: cineolreich → größere oral eingenommene Ölmengen (Größenordnung ab ~10 ml) können Übelkeit, Erbrechen und ZNS-Symptome auslösen; bei Säuglingen/Kleinkindern droht bei Anwendung im Gesicht/an der Nase ein Glottis-/Bronchospasmus.",
+    "contraindications": [
+      "Säuglinge und Kleinkinder (< 2 Jahre, vorsichtshalber < 6 Jahre): cineolhaltiges Öl NICHT im Gesicht/an Nase anwenden — Erstickungsgefahr durch Glottiskrampf",
+      "Asthma bronchiale / Neigung zu Bronchospasmus (ätherisches Öl)",
+      "Bekannte Überempfindlichkeit gegen Myrtengewächse / ätherische Öle"
+    ],
+    "pregnancy_lactation": "Ätherisches Myrtenöl in Schwangerschaft und Stillzeit meiden (unzureichende Daten; unsicher — zu prüfen). Küchenübliche/geringe Teemengen der Blätter gelten als wenig bedenklich, sollten aber zurückhaltend verwendet werden.",
+    "adverse_effects": "Blatt-Tee meist gut verträglich (Gerbstoffe können in großen Mengen den Magen reizen). Ätherisches Öl: Schleimhaut-/Hautreizung, bei Überdosierung Übelkeit und ZNS-Symptome; bei Kleinkindern Atemwegsspasmus.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Cineolreiche ätherische Öle können hepatische Enzyme (CYP) induzieren und so den Abbau anderer Arzneistoffe theoretisch beschleunigen; klinische Relevanz für die Droge nicht belegt.",
+        "affected": "CYP-abhängig verstoffwechselte Arzneistoffe (theoretisch)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "infant_facial_caution": true,
+      "oil_age_restriction": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Cineolreiches Myrtenöl niemals bei Säuglingen/Kleinkindern ins Gesicht oder an die Nase (Glottiskrampf, Erstickungsgefahr) und nicht bei Asthma. Das klinisch untersuchte 'Myrtol standardisiert' ist NICHT die Myrtenpflanze — Wirksamkeit der Droge ist nicht belegt (keine HMPC-Monographie)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter/beblätterte Zweige ganzjährig von der immergrünen Kübelpflanze, am aromatischsten vor/zur Blüte; Beeren im Herbst/Winter",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Beblätterte Zweigspitzen schneiden; Beeren reif ernten.",
+    "processing": "Blätter luftig im Schatten trocknen; ätherisches Öl wird destilliert (nicht im Hausgebrauch).",
+    "storage": "Getrocknete Blätter dunkel und dicht verschlossen; ätherisches Öl kühl, lichtgeschützt, flüchtig."
+  },
+  "kitchen": {
+    "uses": [
+      "Blätter und Beeren als mediterranes Gewürz zu Wild, Geflügel, Schmorgerichten (sparsam, entfernt an Lorbeer/Wacholder erinnernd)",
+      "Reife Beeren als Grundlage des sardischen/korsischen Myrtenlikörs (Mirto)"
+    ],
+    "culinary_vs_medicinal": "Als Speisegewürz in kleinen Mengen unbedenklich. 'Arzneilich' meint höchstens Blatt-Tee/Spülung — das konzentrierte ätherische Öl gehört nicht unkontrolliert in Küche oder Kinderpflege."
+  },
+  "garden": {
+    "site_soil": "Sonnig, warm, durchlässiges, eher kalkarmes Substrat; im Sommer regelmäßig gießen, Staunässe meiden.",
+    "hardiness": "Nicht winterhart in Mitteleuropa; als Kübelpflanze hell und frostfrei (ca. 5–10 °C) überwintern.",
+    "propagation": "Stecklinge (Sommer) oder Aussaat; langsam wachsend, gut schnittverträglich.",
+    "bodensee_suitability": "Am Bodensee nur als Kübelpflanze mit frostfreiem Winterquartier geeignet — im Freiland nicht ausdauernd."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine EU-Herbal-Monographie für Myrtus communis vorhanden (Recherche 2026; Primärquellen ema.europa.eu via WebFetch nicht direkt abrufbar/403 — über Sekundärquellen bestätigt, ärztliche Gegenprüfung sinnvoll)",
+    "AWL.ch Heilpflanzen — Myrtus communis: Botanik, Inhaltsstoffe, traditionelle Anwendung, Sicherheit",
+    "spektrum.de Lexikon der Arzneipflanzen und Drogen — Myrtus communis (ätherisches Öl, Zusammensetzung)",
+    "Abgrenzung Myrtol standardisiert (Gelomyrtol) als Destillat-Gemisch vs. Myrtenblatt-Droge (Sekundärliteratur, PharmaWiki)",
+    "Sicherheitsangaben zu 1,8-Cineol/ätherischen Ölen bei Säuglingen/Kleinkindern (Glottiskrampf) — kinderaerzte-im-netz.de, BfArM-Besonderheitenliste",
+    "giftpflanzen.com, myrtus-communis.de — Merkmale/Öldrüsen; Buxus sempervirens, Prunus laurocerasus, Nerium oleander (Verwechslungsmerkmale)"
+  ]
+}

@@ -32,7 +32,9 @@
     "melissa-officinalis",
     "artemisia-absinthium",
     "plantago-lanceolata",
-    "salvia-rosmarinus"
+    "salvia-rosmarinus",
+    "myrtus-communis",
+    "levisticum-officinale"
   ],
   "kandidaten": [
     {
@@ -779,8 +781,8 @@
       "latin": "Myrtus communis",
       "tier": 5,
       "reason": "Mittelmeer, Atemwege",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-myrte.json"
     },
     {
       "id": "levisticum-officinale",
@@ -788,8 +790,8 @@
       "latin": "Levisticum officinale",
       "tier": 5,
       "reason": "Doldenblütler; Durchspülung; Photosensibilisierung",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-liebstoeckel.json"
     },
     {
       "id": "petroselinum-crispum",
