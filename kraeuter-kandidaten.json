@@ -36,7 +36,8 @@
     "myrtus-communis",
     "levisticum-officinale",
     "petroselinum-crispum",
-    "tropaeolum-majus"
+    "tropaeolum-majus",
+    "armoracia-rusticana"
   ],
   "kandidaten": [
     {
@@ -819,8 +820,8 @@
       "latin": "Armoracia rusticana",
       "tier": 5,
       "reason": "Senföle; Harnwegsinfekt/Atemwege",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-meerrettich.json"
     }
   ]
 }

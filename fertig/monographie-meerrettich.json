@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "id": "armoracia-rusticana",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Armoracia rusticana G.Gaertn., B.Mey. & Scherb.",
+    "common_names_de": [
+      "Meerrettich",
+      "Kren",
+      "Pferderettich"
+    ],
+    "family": "Kreuzblütler (Brassicaceae)",
+    "drug_part": [
+      "Wurzel (Radix)"
+    ],
+    "drug_name_latin": "Armoraciae rusticanae radix",
+    "synonyms": [
+      "Cochlearia armoracia",
+      "Armoracia lapathifolia",
+      "Nasturtium armoracia",
+      "Rorippa armoracia"
+    ],
+    "synonym_note": "Historisch unter Cochlearia armoracia L. und Armoracia lapathifolia Gilib. geführt; akzeptiert ist heute Armoracia rusticana."
+  },
+  "identification": {
+    "key_features": [
+      "Frisch angeschnittene Wurzel und zerriebene Blätter riechen und schmecken intensiv scharf nach Senf/Rettich — nahezu eindeutiges Erkennungsmerkmal, das giftigen Doppelgängern fehlt",
+      "Große (bis 60–100 cm), grundständige, langgestielte Blätter mit gekerbt-gesägtem, oft welligem Rand, dunkelgrün und glänzend",
+      "Kräftige, walzenförmige Pfahlwurzel (bis 60 cm, 4–6 cm dick), außen schmutzig gelb-braun, innen weiß, leicht faserig",
+      "Weiße, vierzählige Kreuzblüten in lockeren Rispen (typische Kreuzblütler-Blüte)",
+      "Stängelblätter deutlich kleiner, kammförmig fiederteilig bis gesägt"
+    ],
+    "season": "Blüte Mai–Juli; Wurzelernte Herbst bis zeitiges Frühjahr",
+    "habitat": "Feuchte, nährstoffreiche Böden; Gärten, Wegränder, Ufer, Ruderalflächen; ursprünglich Kulturpflanze, häufig verwildert",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Sicherstes Bestätigungsmerkmal: der stechend-scharfe Senfgeruch der frisch angeschnittenen Wurzel bzw. zerriebenen Blätter",
+      "Junge grundständige Blattrosetten NICHT allein nach Blattform bestimmen — große Blattrosetten können mit Beinwell oder Fingerhut verwechselt werden (siehe confusions); im Zweifel ein Blatt zerreiben: fehlt der Senfgeruch, Finger weg",
+      "Wurzel im Herbst nach dem ersten Frost oder im zeitigen Frühjahr stechen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Roter Fingerhut",
+      "scientific_name": "Digitalis purpurea",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzglykoside (Digitoxin, Digoxin)",
+      "note": "Bildet im ersten Jahr eine große grundständige Blattrosette, die von Ungeübten mit jungen Meerrettichblättern verwechselt werden kann. Unterscheidung: Fingerhutblätter runzelig, unterseits grau-filzig behaart, ohne jeden Senfgeruch; Meerrettichblätter glänzend und beim Zerreiben scharf nach Senf riechend. Schon geringe Mengen Fingerhut sind lebensgefährlich (Herzrhythmusstörungen) — im Zweifel niemals verzehren."
+    },
+    {
+      "name": "Echter Beinwell",
+      "scientific_name": "Symphytum officinale",
+      "toxicity_level": "giftig",
+      "toxin": "Pyrrolizidinalkaloide (leber- und erbgutschädigend bei innerlicher Daueranwendung)",
+      "note": "Große, rau behaarte grundständige Blätter, die jungen Meerrettichblättern ähneln können. Unterscheidung: Beinwellblätter rau-borstig behaart, laufen am Stängel herab, kein Senfgeruch beim Zerreiben; Meerrettich glänzend, gekerbt, scharfer Senfgeruch. Beinwell nicht innerlich verzehren."
+    },
+    {
+      "name": "Ampfer-Arten",
+      "scientific_name": "Rumex spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Große grundständige Blätter ähnlicher Statur; essbar, aber oxalsäurereich. Unterscheidung: Ampfer schmeckt sauer, nicht scharf; kein Senfgeruch. Verwechslung ist harmlos, aber die Wurzel liefert dann keinen Meerrettich."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Glucosinolate (Senfölglykoside): v. a. Sinigrin (Allylglucosinolat) und Gluconasturtiin (2-Phenylethylglucosinolat)",
+      "Enzym Myrosinase (räumlich getrennt gespeichert, wird beim Zerkleinern freigesetzt)",
+      "Vitamin C, Kalium, Peroxidase; geringe Mengen ätherischen Öls"
+    ],
+    "lead_substance": "Allylsenföl (Allylisothiocyanat, ca. 85 % des gebildeten Senföls) und 2-Phenylethylsenföl (2-Phenylethylisothiocyanat, ~15 %) — antimikrobiell und schleimhautreizend/hyperämisierend",
+    "solubility_note": "Die scharfen Senföle liegen in der intakten Wurzel nur als geruchlose Glucosinolate vor. Erst beim Zerkleinern der FRISCHEN Wurzel setzt Myrosinase die flüchtigen Isothiocyanate frei. Deshalb wirkt frisch geriebene Wurzel oder ein standardisiertes Frischpräparat, nicht lange gekochter Tee — Hitze und Trocknung zerstören das Enzym und verflüchtigen das Senföl.",
+    "heat_light_sensitivity": "Stark hitze- und lagerungsempfindlich: gekochte, getrocknete oder länger stehende Zubereitungen verlieren die scharfen Senföle rasch."
+  },
+  "pharmacology": {
+    "mechanism": "Isothiocyanate (Allyl- und Phenylethylsenföl) wirken in vitro antibakteriell und antiviral und werden nach Resorption teils über die Atemwege und die Nieren ausgeschieden, wo sie lokal antimikrobiell und leicht reizend/durchblutungsfördernd wirken sollen. Lokal auf Haut und Schleimhaut hyperämisierend (Rubefaziens).",
+    "evidence_caveat": "Die antimikrobielle Wirkung ist überwiegend in vitro belegt. Kontrollierte klinische Daten liegen praktisch nur für die FIXKOMBINATION Meerrettichwurzel + Kapuzinerkressenkraut (z. B. bei akuter Sinusitis, Bronchitis, Zystitis) vor, nicht für die Einzeldroge; ihre methodische Qualität ist begrenzt. Es gibt WEDER eine HMPC- NOCH eine ESCOP-Monographie zu Armoracia rusticana — die Bewertung stützt sich auf die (ältere) positive Kommission-E-Monographie. Evidenzgrad daher konservativ TU.",
+    "pharmacokinetics": "unsicher — zu prüfen; belastbare Humandaten zu Resorption und renaler/pulmonaler Ausscheidung der Isothiocyanate sind spärlich."
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der Atemwege (unterstützend)",
+      "synonyms": [
+        "Husten",
+        "Erkältung",
+        "verschleimte Atemwege",
+        "Bronchitis",
+        "Nasennebenhöhlenentzündung",
+        "Sinusitis"
+      ],
+      "evidence_tag": "TU",
+      "comment": "Kommission E bewertet Meerrettichwurzel positiv bei Katarrhen der Atemwege. Kontrollierte klinische Belege bestehen v. a. für die Fixkombination mit Kapuzinerkressenkraut, nicht für die Einzeldroge. Keine HMPC/ESCOP-Monographie — konservativ TU. Ärztlich prüfen, ob eine Höherstufung gerechtfertigt ist.",
+      "realistic_expectation": "Kann leichte, banale Atemwegsinfekte unterstützend begleiten. KEIN Ersatz für Antibiotika bei fieberhafter, bakterieller oder schwerer Atemwegsinfektion.",
+      "source": "Kommission E (Positivmonographie Armoraciae rusticanae radix); Studien zur Fixkombination mit Kapuzinerkresse"
+    },
+    {
+      "canonical": "Harnwegsinfekte (unterstützend)",
+      "synonyms": [
+        "Blasenentzündung",
+        "Zystitis",
+        "Harnwegsinfekt",
+        "Brennen beim Wasserlassen"
+      ],
+      "evidence_tag": "TU",
+      "comment": "Kommission E: unterstützende Behandlung von Harnwegsinfekten. Klinische Daten wiederum v. a. für die Fixkombination mit Kapuzinerkresse. Keine HMPC/ESCOP-Monographie — TU.",
+      "realistic_expectation": "Allenfalls unterstützend bei leichtem, unkompliziertem Harnwegsinfekt und zur Rezidivprophylaxe. KEIN Ersatz für Antibiotika bei fieberhaftem, kompliziertem oder schwangerschaftsassoziiertem Harnwegsinfekt.",
+      "source": "Kommission E (Positivmonographie Armoraciae rusticanae radix)"
+    },
+    {
+      "canonical": "Leichte Muskelschmerzen (äußerlich, hyperämisierend)",
+      "synonyms": [
+        "Muskelschmerzen",
+        "Muskelverspannung",
+        "Gliederschmerzen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E führt die äußerliche Anwendung zur durchblutungsfördernden Behandlung bei leichten Muskelschmerzen. Zubereitungen dürfen äußerlich maximal 2 % Senföle enthalten. Reine Erfahrungsheilkunde.",
+      "realistic_expectation": "Lokale Wärme-/Durchblutungswirkung wie bei anderen Rubefazienzien; symptomatisch, kurzfristig. Bei zu langer Auflage Hautreizung bis Blasenbildung.",
+      "source": "Kommission E (Positivmonographie, äußerliche Anwendung)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Scharfe, senfölhaltige Wurzel mit in vitro breiter antimikrobieller Wirkung; unterstützend bei banalen Atemwegs- und Harnwegsinfekten (am ehesten als Fixkombination mit Kapuzinerkresse) und äußerlich als durchblutungsförderndes Rubefaziens. Kräftiges Küchengewürz.",
+    "overstated": "Kein belegter Ersatz für Antibiotika, kein gesichertes Krebs-, Herz- oder 'natürliches Penicillin'-Heilmittel. Für die Einzeldroge fehlt kontrollierte klinische Evidenz; es gibt keine HMPC- und keine ESCOP-Monographie. Der populäre Ruf übersteigt die Datenlage deutlich.",
+    "effect_size": "mild bis moderat, symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Frisch geriebene Wurzel",
+      "Frischpflanzen-Zubereitung / standardisiertes Fertigpräparat (Fixkombination mit Kapuzinerkresse)",
+      "Äußerlich Breiumschlag mit max. 2 % Senfölgehalt"
+    ],
+    "form_rationale": "Die wirksamen Senföle entstehen nur aus der frischen, zerkleinerten Wurzel durch Myrosinase und sind flüchtig sowie hitzeempfindlich — deshalb frische Zubereitung oder standardisiertes Frischpräparat, kein gekochter Tee.",
+    "standard_dose": "Kommission E: mittlere Tagesdosis ca. 20 g frische Wurzel bzw. entsprechende Zubereitungen, verteilt auf mehrere Gaben. Äußerlich: Zubereitungen mit höchstens 2 % Senfölen, Einwirkzeit begrenzen.",
+    "preservation": "Frische Wurzel kühl und feucht (Sand, Kühlschrank) lagern; Schärfe geht bei Trocknung und Lagerung rasch verloren."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Kinder unter 4 Jahren",
+      "Magen- und Darmgeschwüre (Ulcus ventriculi/duodeni)",
+      "entzündliche Darmerkrankungen",
+      "Nierenentzündung (Nephritis)",
+      "Schilddrüsenfunktionsstörungen (Glucosinolate wirken potenziell goitrogen/hemmen die Jodaufnahme) — unsicher, ärztlich abwägen"
+    ],
+    "pregnancy_lactation": "In arzneilich wirksamen Mengen in Schwangerschaft und Stillzeit nicht empfohlen (Schleimhautreizung, unzureichende Daten); übliche Küchenmengen als Gewürz gelten als unbedenklich.",
+    "adverse_effects": "Bei größeren Mengen Reizung von Magen-Darm-Schleimhaut mit Magenbeschwerden, gelegentlich Durchfall; allergische Reaktionen möglich. Äußerlich bei zu langer Auflage Hautreizung bis Blasenbildung. Dämpfe reizen Augen und Atemwege.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Goitrogene Wirkung der Glucosinolate könnte die Schilddrüsenfunktion/Jodaufnahme beeinflussen",
+        "affected": "Schilddrüsenhormon-Substitution (z. B. Levothyroxin), Thyreostatika",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Zusätzliche lokale Schleimhautreizung",
+        "affected": "magenreizende Arzneimittel (z. B. NSAR, Glukokortikoide)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "raw_toxicity": false,
+      "requires_heating": false,
+      "hepatotoxic": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "photosensitizing": false,
+      "reflux_caution": true,
+      "infant_facial_caution": true,
+      "topical_only": false,
+      "not_for_use": false,
+      "high_safety": false
+    },
+    "key_warning": "Scharfe Schleimhautreizung: nicht bei Kindern unter 4 Jahren, bei Magen-/Darmgeschwüren oder Nierenentzündung anwenden; das flüchtige Senföl reizt Augen und Atemwege — kein Ersatz für Antibiotika bei schweren Infekten."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Herbst nach dem ersten Frost (Oktober–Dezember) und zeitiges Frühjahr (März), solange die Pflanze nicht austreibt",
+    "harvest_month_tags": [
+      3,
+      10,
+      11
+    ],
+    "harvest_organ": "Wurzel",
+    "method": "Pfahlwurzel möglichst vollständig ausgraben/stechen; Seitenwurzeln als Vermehrungsmaterial nutzen",
+    "processing": "Frisch verarbeiten; erst unmittelbar vor Gebrauch reiben, da die Schärfe rasch verfliegt. Dämpfe reizen die Augen.",
+    "storage": "Frische Wurzel kühl in feuchtem Sand oder im Kühlschrank; Trocknen zerstört die Wirkung weitgehend."
+  },
+  "kitchen": {
+    "uses": [
+      "Frisch geriebene Wurzel als scharfes Gewürz (Tafelmeerrettich, Sahnemeerrettich)",
+      "Zu Fleisch, Fisch, Wurst; Grundlage von Meerrettichsauce und Wasabi-Ersatz",
+      "Junge Blätter fein gehackt als Würze"
+    ],
+    "culinary_vs_medicinal": "Küchenmengen als Gewürz sind unbedenklich. Die 'arzneiliche' Anwendung meint größere, wiederholte Mengen frischer Wurzel — hier greifen die Gegenanzeigen (Ulcus, Kinder < 4 Jahre, Nephritis)."
+  },
+  "garden": {
+    "site_soil": "Tiefgründiger, feuchter, nährstoffreicher, humoser Boden in sonniger bis halbschattiger Lage",
+    "hardiness": "Sehr winterhart, ausdauernd",
+    "propagation": "Vegetativ über Wurzelstecklinge (Fechser) im Frühjahr; breitet sich stark aus",
+    "bodensee_suitability": "Gut geeignet — gedeiht im milden, feuchten Bodenseeklima problemlos; neigt allerdings zum Verwildern und ist im Beet nur schwer wieder loszuwerden."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E, Monographie Armoraciae rusticanae radix (Meerrettichwurzel) — Positivmonographie (Bundesanzeiger)",
+    "Keine HMPC-Monographie und keine ESCOP-Monographie zu Armoracia rusticana vorhanden (Stand 2026-07)",
+    "Publizierte Studien zur Fixkombination Meerrettichwurzel + Kapuzinerkressenkraut (Angocin Anti-Infekt N) bei Atem- und Harnwegsinfekten",
+    "Botanische/pharmakognostische Standardliteratur zu Glucosinolaten (Sinigrin, Gluconasturtiin) und Isothiocyanaten"
+  ]
+}

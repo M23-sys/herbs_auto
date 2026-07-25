@@ -703,6 +703,14 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung. Arzneipflanze des Jahres 2013. Kommission E positiv (in Kombination) bei Harnwegs-/Atemwegsinfekten und aeusserlich bei Muskelschmerzen; klinische Daten v. a. fuer die Fixkombination mit Meerrettich (Benzylsenfoel), nicht das Einzelkraut -> Evidenz konservativ TRAD, keine HMPC/ESCOP. Kein Antibiotika-Ersatz. Gegenanzeigen: Magen-/Darmulkus, Nierenerkrankung, Kleinkinder. Kein giftiger Doppelgaenger."
+    },
+    {
+      "ts": "2026-07-25T00:00:00Z",
+      "id": "armoracia-rusticana",
+      "common": "Meerrettich",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 5). Evidenz konservativ TU: KEINE HMPC- und KEINE ESCOP-Monographie; Bewertung stuetzt sich auf die positive Kommission-E-Monographie (Atemwegskatarrhe, unterstuetzend bei Harnwegsinfekten, aeusserlich hyperaemisierend). Kontrollierte klinische Daten nur fuer die Fixkombination mit Kapuzinerkresse (Angocin), nicht die Einzeldroge — bewusst NICHT hochgestuft. Scharfe Schleimhautreizung: kontraindiziert bei Kindern < 4 Jahren, Magen-/Darmulcus und Nephritis; deadly_confusion=true wegen moeglicher Blattrosetten-Verwechslung mit Rotem Fingerhut/Beinwell (Erkennung: Senfgeruch der frisch angeschnittenen Wurzel). Kein Antibiotika-Ersatz."
     }
   ]
 }

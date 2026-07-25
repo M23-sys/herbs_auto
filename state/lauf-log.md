@@ -1312,3 +1312,26 @@ Naechster offener Kandidat waere gentiana-lutea (Gelber Enzian, Tier 4) gewesen 
 - **Beide reine Kulturpflanzen am Bodensee** (`nur-kultur`). Kein Antibiotika-Ersatz — bei beiden im key_warning verankert.
 
 **Ergebnis:** 2 Monographien erzeugt, beide fehlerfrei geprüft (0 Korrekturversuche). Status in kraeuter-kandidaten.json → `entwurf_fertig` (+ ids in `vorhanden`), `docs/changelog.json` ergänzt (88 Einträge). Wunschliste unverändert (hakt die App selbst ab).
+
+## Lauf 2026-07-25 (autonom) — Fortsetzung III
+
+**Vorbereitung:** `pip install -r requirements.txt` — jsonschema 4.26.0 in frischer Umgebung installiert; volle Schema-Prüfung aktiv.
+
+**Quelle-Auswahl:** `docs/wunschliste.json` (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) erneut geprüft — **alle drei bereits in `fertig/` erfüllt** (weinrebe/weisser-gaensefuss/platane, per id-Abgleich bestätigt). Wunschliste liefert 0 offene Einträge. Kandidatenliste: **nur noch EIN offener Eintrag** — armoracia-rusticana (Meerrettich, Tier 5); alles andere ist bereits `entwurf_fertig`. Damit standen diesem Lauf real **nur 1** offene Art zur Verfügung, nicht die anvisierten 2. Ehrlicher Ist-Zustand der Warteschlange, kein Fehler.
+
+**Dedup:** gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden`. Grep-Treffer auf "armoracia"/"meerrettich" waren ausschließlich Kombinations-/Konfusions-Bezüge in anderen Dateien (v. a. Kapuzinerkresse = Fixkombinationspartner) — kein echter Meerrettich-Eintrag. Altnamen selbst eingetragen: Cochlearia armoracia, Armoracia lapathifolia, Nasturtium armoracia, Rorippa armoracia. Kein Self-Heal nötig.
+
+**Meerrettich — Armoracia rusticana (Kandidat, Tier 5)** — `fertig/monographie-meerrettich.json`
+- Prüfung: `ok, mit Hinweisen` (nur positiver „unsicher/zu prüfen"-Hinweis). **0 Korrekturversuche.**
+- Evidenz: **TU**. **Kommission E POSITIV** (Armoraciae rusticanae radix: Katarrhe der Atemwege, unterstützend bei Harnwegsinfekten, äußerlich durchblutungsfördernd bei leichten Muskelschmerzen). **KEINE HMPC- und KEINE ESCOP-Monographie.** Deshalb bewusst NICHT auf WEU hochgestuft. Äußerliche Zubereitungen laut Kommission E max. 2 % Senföle; mittlere Tagesdosis ca. 20 g frische Wurzel.
+- Hauptquellen: Kommission-E-Zusammenfassungen (oeaz.at HMPPA, awl.ch, arzneipflanzenlexikon.info), paracelsus.de, kloesterl-apotheke.de; Anwendungsdaten Fixkombination mit Kapuzinerkresse.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Nur 1 statt 2 Monographien in diesem Lauf** — die Warteschlange ist nahezu leer: Wunschliste vollständig erfüllt, und Meerrettich war der **letzte offene Kandidat**. Nach diesem Lauf sind **0 offene Kandidaten** übrig. Der Katalog braucht neuen Nachschub (Wunschliste oder neue Kandidaten), sonst laufen künftige Läufe leer.
+- **Evidenz bewusst konservativ TU (nicht WEU).** Kommission E ist positiv, aber es existiert weder eine HMPC- noch eine ESCOP-Monographie. Die einzigen kontrollierten klinischen Daten betreffen die **Fixkombination Meerrettich + Kapuzinerkresse** (Angocin), NICHT die Einzeldroge. Kein RCT-Tag für das Einzelkraut (wäre Schönung). **Bitte prüfen, ob Kommission-E-positive Herbs im Katalog anders geführt werden sollen** — dieselbe Frage stellte sich schon bei Petersilie/Kapuzinerkresse.
+- **`deadly_confusion=true` gesetzt.** Aktiv nach Doppelgängern gesucht: Meerrettich ist zwar durch den stechenden Senfgeruch der frisch angeschnittenen Wurzel/Blätter nahezu eindeutig, ABER große grundständige Blattrosetten können von Ungeübten mit **Rotem Fingerhut** (Digitalis purpurea, lebensgefährlich, Herzglykoside) oder **Beinwell** (Symphytum, Pyrrolizidinalkaloide) verwechselt werden. Flag safety-forward gesetzt; das Unterscheidungsmerkmal (Senfgeruch beim Zerreiben) ist in confusions und collection_rules verankert. **Einordnung ärztlich gegenprüfen** — die Fingerhut-Verwechslung ist eher theoretisch/bei Laien, aber wegen der Lebensgefahr bewusst nicht verharmlost.
+- **Senföl-Chemie mit Zubereitungs-Konsequenz.** Allyl-/Phenylethylsenföl entstehen erst aus der frischen, zerkleinerten Wurzel (Myrosinase), sind flüchtig und hitzeempfindlich → frisch geriebene Wurzel/Frischpräparat wirksam, gekochter Tee nicht. `reflux_caution=true`, `infant_facial_caution=true` (reizende Dämpfe/Schleimhaut), Gegenanzeigen: Kinder < 4 Jahre, Ulcus, Nephritis; goitrogene Schilddrüsen-Vorsicht (als „unsicher — zu prüfen" markiert).
+- **Recherche-Einschränkung:** Ausschließlich WebSearch/WebFetch. WebFetch auf Primär-/Sekundär-PDFs (oeaz.at HMPPA, arzneipflanzenlexikon.info) lieferte wie in allen Vorläufen **HTTP 403**; der HMPC/ESCOP-Negativbefund und die Kommission-E-Angaben stützen sich daher auf übereinstimmende WebSearch-Sekundärquellen, NICHT auf ein direkt gelesenes Primärdokument. **Regulatorik am Primärdokument ärztlich gegenprüfen** (in Datei + Quellenliste vermerkt). Kein Ausweichen auf curl/wget.
+
+**Ergebnis:** 1 Monographie erzeugt (Meerrettich), fehlerfrei geprüft (0 Korrekturversuche). Status in kraeuter-kandidaten.json → `entwurf_fertig` (+ id in `vorhanden`), `docs/changelog.json` ergänzt (89 Einträge). Wunschliste unverändert (hakt die App selbst ab). **Warteschlange danach leer — 0 offene Kandidaten.**
