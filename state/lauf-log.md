@@ -1283,3 +1283,32 @@ Naechster offener Kandidat waere gentiana-lutea (Gelber Enzian, Tier 4) gewesen 
 **Recherche-Einschraenkung (fuer beide):** WebFetch lieferte fuer EMA/HMPC-Primaer-PDFs und mehrere Sekundaerquellen erneut **HTTP 403** (Proxy/Serverseite). Die HMPC-Aussagen (Liebstoeckel-TU inkl. Posologie; Myrte-Negativbefund) stuetzen sich daher auf WebSearch-Zusammenfassungen des EMA-Dokumentindex bzw. uebereinstimmender Sekundaerquellen, NICHT auf die direkt gelesene Primaer-PDF. **Aerztliche Gegenpruefung der Regulatorik empfohlen** (in beiden Dateien und Quellenlisten vermerkt). Evidenzgrade konservativ gewaehlt (Liebstoeckel TU, Myrte TRAD).
 
 **Ergebnis:** 2 Monographien erzeugt, geprueft (fehlerfrei), Status in kraeuter-kandidaten.json → entwurf_fertig (+ ids in `vorhanden`), changelog.json ergaenzt (86 Eintraege). Wunschliste unveraendert (macht die App).
+
+## Lauf 2026-07-25 (autonom, 2 Monographien) — Fortsetzung II
+
+**Vorbereitung:** `pip install -r requirements.txt` — jsonschema 4.26.0 installiert (frische Umgebung, Modul fehlte). Danach lief die volle Schema-Prüfung.
+
+**Quelle-Auswahl:** `docs/wunschliste.json` (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) erneut geprüft — **alle drei bereits in `fertig/` erfüllt** (weinrebe/weisser-gaensefuss/platane, per id-Abgleich bestätigt). Daher beide Plätze aus der Kandidatenliste. Nächste offene Einträge nach tier/Listenreihenfolge = **Petersilie (petroselinum-crispum)** und **Kapuzinerkresse (tropaeolum-majus)**, beide Tier 5. (Ysop, Lorbeer, Myrte, Liebstöckel waren in den früheren Läufen desselben Tages abgearbeitet.) Dedup gegen alle `id` + `botany.synonyms` in `fertig/` und `vorhanden`: keine Treffer (Grep-Treffer auf "petersilie" in anderen Dateien waren nur Konfusions-Bezüge, z. B. Hundspetersilie). Kein Self-Heal nötig. Altnamen selbst eingetragen.
+
+**Petersilie — Petroselinum crispum (Kandidat, Tier 5)** — `fertig/monographie-petersilie.json`
+- Prüfung: `ok, mit Hinweisen` (nur positiver „unsicher/zu prüfen"-Hinweis). **0 Korrekturversuche.**
+- Evidenz: **TRAD**. **Kommission E POSITIV** (Petroselini herba/radix: Durchspülung Harnwege, Nierengrieß-Prophylaxe) — aber KEINE HMPC- und KEINE ESCOP-Monographie gefunden. Deshalb konservativ TRAD getaggt, Kommission-E-Status in Quelle/Kommentar vermerkt. **Bitte prüfen, ob Höherstufung gewünscht ist.**
+- Hauptquellen: Kommission-E-Zusammenfassungen (aponet.de, gruenwalder.de), AWL.ch, Spektrum-Arzneipflanzenlexikon, Giftinformationszentrum/Bot. Sondergarten Wandsbek (Giftpflanze des Jahres 2023), giftpflanzen.com/pflanzen-deutschland.de (Aethusa).
+
+**Kapuzinerkresse — Tropaeolum majus (Kandidat, Tier 5)** — `fertig/monographie-kapuzinerkresse.json`
+- Prüfung: `ok, mit Hinweisen` (nur positiver „unsicher"-Hinweis). **0 Korrekturversuche.**
+- Evidenz: **TRAD**. **Kommission E POSITIV in Kombination** (Harnwege, Atemwege; äußerlich Muskelschmerz). Klinische Daten v. a. für die **Fixkombination mit Meerrettich** (Angocin), nicht das Einzelkraut; keine HMPC/ESCOP. Konservativ TRAD. Arzneipflanze des Jahres 2013.
+- Hauptquellen: Klostermedizin (Arzneipflanze 2013), AWL.ch, PharmaWiki, arzneipflanzenlexikon.info, Anwendungsdaten Fixkombination.
+
+**Recherche-Einschränkung (beide):** Ausschließlich WebSearch/WebFetch benutzt. WebFetch auf EMA/HMPC-Primärquellen war wie in allen Vorläufen nicht nutzbar (HTTP 403). Der HMPC/ESCOP-Negativbefund stützt sich daher auf übereinstimmende Sekundärquellen, NICHT auf die direkt gelesene EMA-Primärquelle. **Regulatorik-Status und Evidenzgrad am Primärdokument ärztlich gegenprüfen** (in beiden Dateien vermerkt). Kein Ausweichen auf curl/wget.
+
+### Überraschungen / unsichere Stellen für den Arzt
+
+- **Petersilie ist Giftpflanze des Jahres 2023.** Das kommt überraschend für ein Küchenkraut. Grund: (1) **Samen und ätherisches Öl** enthalten Apiol/Myristicin — uterusstimulierend; früher als Abortivum missbraucht, mit **tödlichen** Vergiftungen (Leber-/Nieren-/Herzschäden). `pregnancy_contraindicated=true` (nur arzneiliche Mengen/Samen/Öl; Küchenmenge unbedenklich). (2) **Wildsammel-Verwechslung** mit tödlichen Doldenblütlern: Hundspetersilie (Aethusa cynapium, giftig), Gefleckter/Wasser-Schierling (lebensgefährlich) → `deadly_confusion=true`, `apiaceae_confusion_young=true`. Feld-Bestätiger: appetitlicher Küchenduft; krause Sorten sind fast unverwechselbar (Zuchtgrund). (3) Furanocumarine → `photosensitizing=true` (Phytophotodermatitis bei Hautsaft + UV). Die Selbstmedikation ist bewusst auf den milden Kraut-/Wurzeltee begrenzt, Samen/Öl explizit ausgeschlossen.
+- **Petersilie-Evidenz bewusst konservativ (TRAD).** Kommission E ist positiv, aber es gibt keine HMPC/ESCOP-Monographie und keine kontrollierten Studien. Ich habe NICHT auf TU hochgestuft (TU ist per Spec HMPC-gebunden). Falls der Katalog Kommission-E-positive Herbs anders führen soll: hier entscheiden.
+- **Kapuzinerkresse — die Evidenz betrifft die Kombination, nicht das Einzelkraut.** Kontrollierte Studien existieren für die **Fixkombination Kapuzinerkresse + Meerrettich** (Angocin). Das Einzelkraut allein ist nur Kommission-E-positiv/traditionell. Bewusst NICHT als RCT getaggt (wäre Schönung: Kombination ≠ Einzeldroge, begrenzte Studienqualität), sondern TRAD mit klarer Beschreibung. **Bitte Evidenz-Einordnung prüfen** — der Kandidaten-Reason nannte es „WEU-nahe Fixkombination".
+- **Kapuzinerkresse — kein giftiger Doppelgänger.** Aktiv gesucht: die schildförmigen runden Blätter (zentraler Stielansatz) + gespornte Blüten sind praktisch eindeutig. `deadly_confusion=false`, dokumentierter „keine relevante Verwechslung"-Eintrag statt leerem Array. Aufgenommen: die reine **Namensfalle** „Nasturtium" (alter Name der Kapuzinerkresse) vs. Brunnenkresse (Nasturtium officinale, andere Pflanze).
+- **Kapuzinerkresse-Wirkstoffchemie hat Zubereitungs-Konsequenz.** Benzylsenföl entsteht erst aus der **frischen, zerkleinerten** Pflanze (Myrosinase) und ist flüchtig → Frischkraut/Tinktur/standardisierte Kombipräparate wirksamer als lang gekochter Tee. `reflux_caution=true` (Senföle reizen Schleimhaut; Ulkus/Niere/Kleinkinder als Gegenanzeigen).
+- **Beide reine Kulturpflanzen am Bodensee** (`nur-kultur`). Kein Antibiotika-Ersatz — bei beiden im key_warning verankert.
+
+**Ergebnis:** 2 Monographien erzeugt, beide fehlerfrei geprüft (0 Korrekturversuche). Status in kraeuter-kandidaten.json → `entwurf_fertig` (+ ids in `vorhanden`), `docs/changelog.json` ergänzt (88 Einträge). Wunschliste unverändert (hakt die App selbst ab).

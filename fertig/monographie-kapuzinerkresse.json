@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "id": "tropaeolum-majus",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Tropaeolum majus L.",
+    "common_names_de": [
+      "Große Kapuzinerkresse",
+      "Kapuzinerkresse",
+      "Indische Kresse",
+      "Kapuzinerle"
+    ],
+    "family": "Tropaeolaceae (Kapuzinerkressengewächse)",
+    "drug_part": [
+      "Kraut (Herba) — Blätter und Blüten"
+    ],
+    "drug_name_latin": "Tropaeoli majoris herba",
+    "synonyms": [
+      "Cardamindum majus Moench",
+      "Trophaeum majus (L.) Kuntze"
+    ],
+    "synonym_note": "Achtung Namensfalle: Der alte Küchen-/Apothekername 'Nasturtium indicum' meint die Kapuzinerkresse — 'Nasturtium' ist aber heute der botanische Gattungsname der Brunnenkresse (Nasturtium officinale), einer ganz anderen Pflanze. Nicht verwechseln."
+  },
+  "identification": {
+    "key_features": [
+      "Schildförmige (peltate) runde Blätter — der Blattstiel setzt in der Blattmitte an, nicht am Rand; hellgrün mit strahlig verlaufenden Adern (sehr charakteristisch, kaum zu verwechseln)",
+      "Große, langgespornte Blüten (5 Blütenblätter, ein deutlicher Nektarsporn) in Gelb, Orange bis kräftigem Rot",
+      "Kriechende oder kletternde, fleischige, wasserreiche Triebe; klettert über Blattstiele",
+      "Scharf-pfeffriger, kressenartiger Geschmack von Blatt und Blüte (Senföle)",
+      "Frucht in drei nierenförmige, runzelige Teilfrüchte zerfallend"
+    ],
+    "season": "Blüte Juni bis zum ersten Frost (Oktober)",
+    "habitat": "Reine Kultur-/Zierpflanze aus den südamerikanischen Anden; in Gärten, an Zäunen, in Kübeln und Beeten; anspruchslos, sonnig bis halbschattig.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Blätter und Blüten frisch ernten, am besten vor der vollen Blüte (höchster Senfölgehalt)",
+      "Bestätiger: schildförmige runde Blätter + scharf-pfeffriger Geschmack — die Kombination ist praktisch eindeutig",
+      "Aus dem eigenen Garten/Anbau ernten; keine giftigen Doppelgänger mit dieser Blattform bekannt (siehe confusions)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Keine relevante giftige Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Die schildförmigen, runden Blätter mit zentralem Stielansatz und die gespornten Blüten sind einzigartig — kein giftiger Doppelgänger mit dieser Merkmalskombination. Aktiv gesucht, keiner gefunden. Deshalb deadly_confusion=false."
+    },
+    {
+      "name": "Andere Kapuzinerkressen-Arten (z. B. Kleine Kapuzinerkresse)",
+      "scientific_name": "Tropaeolum minus",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Kleinere Blätter/Blüten, ebenfalls essbar und gleich verwendbar — Verwechslung ohne Gefahr. Tropaeolum-Knollenarten (T. tuberosum, Mashua) sind Nutzpflanzen."
+    },
+    {
+      "name": "Namens-Verwechslung: Brunnenkresse / Gartenkresse",
+      "scientific_name": "Nasturtium officinale",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Reine NAMENSfalle, keine morphologische: Brunnen- und Gartenkresse (Brassicaceae) enthalten ebenfalls Senföle und werden ähnlich verwendet, sehen aber völlig anders aus (kein schildförmiges Blatt, kein Sporn). Beim Wildsammeln von Brunnenkresse eigenes Thema (Leberegel-Risiko) — betrifft die Gartenkapuzinerkresse nicht."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Glucosinolate (Senfölglykoside), v. a. Glucotropaeolin",
+      "Senföle/Isothiocyanate: Benzylisothiocyanat (Benzylsenföl), enzymatisch aus Glucotropaeolin freigesetzt",
+      "Myrosinase (spaltendes Enzym)",
+      "Flavonoide (u. a. Isoquercitrin, Kaempferol-Glykoside)",
+      "Vitamin C, Carotinoide"
+    ],
+    "lead_substance": "Benzylisothiocyanat (Benzylsenföl) — trägt die antibakterielle/antivirale und lokal reizende (durchblutungsfördernde) Wirkung",
+    "solubility_note": "Das wirksame Senföl entsteht erst beim Zerkleinern der FRISCHEN Pflanze durch Myrosinase aus dem Glucosinolat und ist flüchtig. Deshalb sind frisches Kraut, Frischpflanzen-Tinktur oder standardisierte Fertigpräparate (Fixkombination mit Meerrettich) wirksamer als lange gekochter Tee — Hitze/Trocknung inaktivieren das Enzym und verflüchtigen das Senföl.",
+    "heat_light_sensitivity": "Senföle sind hitzeempfindlich und flüchtig; Vitamin C hitzelabil. Frischverarbeitung bevorzugen."
+  },
+  "pharmacology": {
+    "mechanism": "Benzylisothiocyanat wirkt in vitro antibakteriell (auch gegen einige Problemkeime), antiviral und antimykotisch; wird nach Resorption teils renal und über die Atemwege ausgeschieden, was den Einsatz bei Harnwegs- und Atemwegsinfekten begründet. Lokal reizend/hyperämisierend (Grundlage der äußerlichen Anwendung bei Muskelschmerzen).",
+    "evidence_caveat": "Die antimikrobielle Wirkung ist überwiegend in vitro belegt. Klinische Daten liegen v. a. für die FIXKOMBINATION mit Meerrettichwurzel vor (nicht für das Einzelkraut); ihre methodische Qualität ist begrenzt. Keine HMPC- und keine ESCOP-Monographie zu Tropaeolum majus — Regulatorik-Status ärztlich gegenzuprüfen.",
+    "pharmacokinetics": "unsicher — zu prüfen. Isothiocyanate werden rasch resorbiert und teils renal/pulmonal eliminiert; belastbare humane PK-Daten zur Droge fehlen."
+  },
+  "indications": [
+    {
+      "canonical": "Unterstützende Behandlung von Harnwegsinfekten",
+      "synonyms": [
+        "Blasenentzündung",
+        "Harnwegsinfekt",
+        "Zystitis",
+        "Blaseninfekt unterstützend"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E bewertet Kapuzinerkressenkraut in Kombinationen positiv zur unterstützenden Behandlung von Harnwegsinfekten. Kontrollierte klinische Daten existieren für die Fixkombination mit Meerrettichwurzel (z. B. bei akuter Zystitis), nicht für das Einzelkraut. Konservativ als TRAD getaggt — keine HMPC/ESCOP-Monographie; ärztlich prüfen, ob Höherstufung gerechtfertigt ist.",
+      "realistic_expectation": "Kann leichte, unkomplizierte Harnwegsinfekte unterstützend begleiten und wird u. a. zur Rezidivprophylaxe eingesetzt. KEIN Ersatz für Antibiotika bei fieberhaftem, kompliziertem oder schwangerschaftsassoziiertem Harnwegsinfekt. Der Nutzen ist am ehesten für die Fixkombination mit Meerrettich belegt.",
+      "source": "Kommission E (Positivbewertung in Kombination); kontrollierte Studien zur Fixkombination Kapuzinerkresse + Meerrettich"
+    },
+    {
+      "canonical": "Katarrhe der oberen Atemwege (unterstützend)",
+      "synonyms": [
+        "Bronchitis",
+        "Nebenhöhlenentzündung",
+        "Sinusitis",
+        "Erkältung",
+        "Husten mit Verschleimung"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E positiv (in Kombination) bei Katarrhen der Atemwege. Klinische Belege v. a. für die Fixkombination mit Meerrettich (akute Sinusitis/Bronchitis). Einzelkraut: traditionelle Anwendung.",
+      "realistic_expectation": "Unterstützend bei banalen Atemwegsinfekten/Verschleimung. Ersetzt keine antibiotische Therapie bei bakterieller Komplikation. Effekt mild.",
+      "source": "Kommission E (Positivbewertung in Kombination); Studien zur Fixkombination mit Meerrettich"
+    },
+    {
+      "canonical": "Leichte Muskelschmerzen (äußerlich)",
+      "synonyms": [
+        "Muskelschmerzen",
+        "Muskelkater",
+        "Verspannung"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E nennt die äußerliche Anwendung bei leichten Muskelschmerzen (lokal hyperämisierend durch Senföle).",
+      "realistic_expectation": "Lokale Wärme-/Durchblutungswirkung, symptomatisch. Bei empfindlicher Haut Reizung möglich — nicht auf verletzte Haut.",
+      "source": "Kommission E"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Senfölhaltiges Kraut mit in vitro breiter antimikrobieller Wirkung; unterstützend bei banalen Harnwegs- und Atemwegsinfekten, v. a. als Fixkombination mit Meerrettich. Wohlschmeckendes, vitaminreiches essbares Küchen-/Salatkraut. Arzneipflanze des Jahres 2013.",
+    "overstated": "'Pflanzliches Antibiotikum', das eine indizierte antibiotische Therapie ersetzt — das ist es nicht. Die starke Wirkung im Reagenzglas übersetzt sich nur begrenzt in klinischen Nutzen; belastbare Studien betreffen die Kombination, nicht das Einzelkraut.",
+    "effect_size": "mild bis moderat; unterstützend/symptomatisch"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Frisches Kraut (Blätter/Blüten) roh",
+      "Frischpflanzen-Tinktur",
+      "Standardisiertes Fertigpräparat als Fixkombination mit Meerrettichwurzel"
+    ],
+    "form_rationale": "Das wirksame Benzylsenföl entsteht nur aus der frischen, zerkleinerten Pflanze und ist flüchtig; lang gekochter Tee verliert es. Frischkraut, Tinktur oder standardisierte Kombipräparate erhalten den Wirkstoff.",
+    "standard_dose": "Fertigpräparate nach Herstellerangabe (Fixkombination). Tinktur traditionell 3×/Tag einige Tropfen. Frischkraut als Küchen-/Salatzugabe. Genaue arzneiliche Obergrenzen des Einzelkrauts: unsicher — zu prüfen. Nicht bei Kleinkindern.",
+    "preservation": "Frisch verwenden; Blüten/Blätter halten sich nur kurz. Für Vorrat Tinktur ansetzen."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Magen- und Darmgeschwüre (Senföle reizen die Schleimhaut)",
+      "Nierenerkrankungen / eingeschränkte Nierenfunktion",
+      "Säuglinge und Kleinkinder (Senföle); Anwendung bei Kindern unter ärztlicher Rücksprache — Fertigkombinationen teils ab Schulalter zugelassen"
+    ],
+    "pregnancy_lactation": "Sicherheit in Schwangerschaft und Stillzeit nicht ausreichend untersucht; arzneiliche Anwendung meiden. Küchen-/Speisemengen des frischen Krauts gelten als unbedenklich.",
+    "adverse_effects": "Senföle können bei innerlicher Anwendung Magen-Darm-Schleimhaut reizen (Sodbrennen, Magenbeschwerden), bei äußerlicher Anwendung — besonders mit frischer Pflanze — Hautreizungen. Überdosierung kann Nieren-/Schleimhautschäden verursachen.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine klinisch relevanten Arzneimittelinteraktionen dokumentiert",
+        "affected": "",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "reflux_caution": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Kein Ersatz für Antibiotika bei fieberhaftem/kompliziertem Harnwegs- oder Atemwegsinfekt; wegen der reizenden Senföle nicht bei Magen-Darm-Geschwüren, Nierenerkrankungen und nicht bei Säuglingen/Kleinkindern."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter und Blüten von Juni bis zum ersten Frost, frisch geerntet vor/während der Blüte.",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_organ": "Kraut (Blatt und Blüte)",
+    "method": "Blätter, Blüten und junge Triebe frisch pflücken; unreife Samen für Kapernersatz separat.",
+    "processing": "Frisch verwenden oder sofort zu Tinktur verarbeiten; Trocknen mindert die Senfölwirkung stark.",
+    "storage": "Frisch nur wenige Tage haltbar; Tinktur dunkel und kühl."
+  },
+  "kitchen": {
+    "uses": [
+      "Blätter und Blüten roh in Salaten, Kräuterquark, als essbare Deko (scharf-pfeffrig)",
+      "Unreife grüne Samen als Kapernersatz ('falsche Kapern') eingelegt",
+      "Blütenknospen und junge Blätter als würzige Salatzugabe"
+    ],
+    "culinary_vs_medicinal": "In Speisemengen ein sicheres, vitaminreiches Wildgemüse/Gewürzkraut. Die arzneiliche Anwendung (konzentrierte Tinktur, Kombipräparate) mit ihren Gegenanzeigen (Ulkus, Niere, Kleinkinder) liegt jenseits der Küchenmenge."
+  },
+  "garden": {
+    "site_soil": "Anspruchslos; eher magerer, durchlässiger Boden (zu viel Stickstoff → viel Laub, wenig Blüten), sonnig bis halbschattig.",
+    "hardiness": "Einjährig, frostempfindlich (nicht winterhart); sät sich oft selbst aus.",
+    "propagation": "Direktsaat der großen Samen ab Mai nach den Eisheiligen; keimt zuverlässig.",
+    "bodensee_suitability": "Sehr gut geeignet — dankbare, schnellwüchsige Sommerkultur in Beet, Kübel und an Zäunen; zieht Blattläuse an (traditionelle 'Fangpflanze')."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E — Positivbewertung Tropaeoli majoris herba (in Kombination: Harnwegsinfekte, Atemwegskatarrhe; äußerlich leichte Muskelschmerzen)",
+    "Forschergruppe Klostermedizin — 'Arzneipflanze des Jahres 2013: Große Kapuzinerkresse (Tropaeolum majus)'",
+    "AWL.ch — Kapuzinerkresse (Tropaeolum majus): Wirkung, Inhaltsstoffe, Gegenanzeigen",
+    "PharmaWiki — Kapuzinerkresse (Benzylsenföl, Anwendung, Kontraindikationen)",
+    "Arzneipflanzen-Lexikon (arzneipflanzenlexikon.info) — Kapuzinerkresse",
+    "Fachinformation/Anwendungsdaten zur Fixkombination Kapuzinerkressenkraut + Meerrettichwurzel (Angocin Anti-Infekt N)",
+    "Hinweis: WebFetch auf EMA/HMPC- und mehrere Sekundär-Primärquellen scheiterte (HTTP 403). Kein HMPC-/ESCOP-Eintrag auffindbar (auch per Sekundärquellen bestätigt) — Evidenzgrad konservativ TRAD gewählt, ärztliche Gegenprüfung des Regulatorik-Status empfohlen."
+  ]
+}

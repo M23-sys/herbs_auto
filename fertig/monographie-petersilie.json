@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "id": "petroselinum-crispum",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Petroselinum crispum (Mill.) Fuss",
+    "common_names_de": [
+      "Petersilie",
+      "Gartenpetersilie",
+      "Peterle",
+      "Peterling",
+      "Petersilge"
+    ],
+    "family": "Apiaceae (Doldenblütler)",
+    "drug_part": [
+      "Kraut (Herba)",
+      "Wurzel (Radix)",
+      "Frucht/Samen (Fructus)"
+    ],
+    "drug_name_latin": "Petroselini herba / Petroselini radix / Petroselini fructus",
+    "synonyms": [
+      "Petroselinum sativum Hoffm.",
+      "Petroselinum hortense Hoffm.",
+      "Apium petroselinum L.",
+      "Carum petroselinum (L.) Benth. & Hook.f."
+    ],
+    "synonym_note": "Häufig unter dem Altnamen Petroselinum sativum geführt; akzeptiert ist heute Petroselinum crispum (Mill.) Fuss. Krause und glatte (italienische) Petersilie sind Kultursorten derselben Art."
+  },
+  "identification": {
+    "key_features": [
+      "Charakteristischer, kräftig-würziger Petersiliengeruch beim Zerreiben der Blätter — das sicherste Feldmerkmal gegen die geruchlich abstoßenden Giftdoppelgänger",
+      "Blätter 2- bis 3-fach gefiedert; krause Sorten stark gekräuselt, glatte Sorten glänzend dunkelgrün, Abschnitte keilförmig, an der Spitze gezähnt",
+      "Zweijährig: im 1. Jahr Blattrosette, im 2. Jahr aufrechter, kantig-gerillter, kahler Stängel bis ~80 cm",
+      "Doldenblüte gelbgrün, flach; Frucht klein, eiförmig, gerippt",
+      "Wurzel bei Wurzelpetersilie fleischig-spindelig, weißlich (nicht mit Pastinake verwechseln)"
+    ],
+    "season": "Blüte Juni–Juli (im 2. Standjahr)",
+    "habitat": "Reine Kulturpflanze in Gärten und Beeten; nährstoffreicher, humoser, durchlässiger Boden, halbschattig bis sonnig. Ursprünglich Mittelmeerraum, selten verwildert.",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "NUR aus sicherem Anbau/Gartenkultur ernten — bei Wildpflanzen ist die Verwechslung mit tödlichen Doldenblütlern lebensgefährlich",
+      "Bestätiger: kräftig-appetitlicher Küchenduft. Riecht die Pflanze unangenehm/mäuseartig oder gar nicht würzig → NICHT verwenden",
+      "Krause Sorten bevorzugen — sie sind praktisch nicht mit glattblättrigen Giftdolden zu verwechseln (Grund für die Zuchtform)",
+      "Frucht/Samen und ätherisches Öl der Selbstmedikation NICHT zuführen — toxikologisch problematisch (Apiol/Myristicin)"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Hundspetersilie (Gartenschierling, Narrenpetersilie)",
+      "scientific_name": "Aethusa cynapium",
+      "toxicity_level": "giftig",
+      "toxin": "Polyine (Aethusin, Aethusanol); in größeren Mengen bis zur Atemlähmung tödlich",
+      "note": "Wichtigster Doppelgänger. Unterscheidung: glänzende (nicht stumpfgrüne) Blattunterseite; unangenehmer, knoblauch-/hundeartiger Geruch statt Küchenduft; weiße statt gelbgrüne Blüten; unter den Döldchen hängen 1–3 lange, schmale, nach unten weisende Hüllchenblätter ('Bärtchen'/'Schleifchen') — bei echter Petersilie fehlen diese."
+    },
+    {
+      "name": "Gefleckter Schierling",
+      "scientific_name": "Conium maculatum",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Coniin (Piperidinalkaloid) — aufsteigende Lähmung, Atemstillstand; schon kleine Mengen tödlich",
+      "note": "Stängel im unteren Teil rotbraun/purpurn gefleckt, kahl, bereift; beim Zerreiben widerlicher Mäuseurin-/Katzenharngeruch. Kann in der Rosettenphase jungen Petersilienblättern ähneln. Niemals wildwachsende 'Petersilie' sammeln."
+    },
+    {
+      "name": "Wasserschierling",
+      "scientific_name": "Cicuta virosa",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Cicutoxin — schwerste Krämpfe, rasch tödlich",
+      "note": "An feuchten Standorten/Gräben; Wurzelstock hohl-kammerig und aromatisch (kann sellerieartig-appetitlich riechen — besonders heimtückisch). Betrifft v. a. Verwechslung mit der Wurzelpetersilie beim Wildsammeln."
+    },
+    {
+      "name": "Pastinake",
+      "scientific_name": "Pastinaca sativa",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Nur relevant bei der Wurzelpetersilie: Wurzeln ähneln sich, Pastinake ist aber essbar. Petersilienwurzel schmeckt/riecht petersilig-würzig, Pastinake süßlich. Vorsicht: Pastinaken-Blattsaft ist phototoxisch (Furocumarine)."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (Kraut ~0,3 %, Frucht/Samen 2–7 %): Chemotyp-abhängig Apiol- oder Myristicin-dominiert",
+      "Phenylpropane: Apiol (bes. glattblättrige Sorten), Myristicin (~60–80 % im Fruchtöl mancher Typen), Elemicin",
+      "Furanocumarine: Bergapten, (Iso-)Psoralen — phototoxisch",
+      "Flavonoide (Apiin, Apigenin, Luteolin-Glykoside)",
+      "Vitamin C, Vitamin K, Carotinoide (Küchenbedeutung)"
+    ],
+    "lead_substance": "Apiol und Myristicin (Phenylpropane des ätherischen Öls) — tragen die diuretisch-durchspülende Wirkung, aber zugleich die Toxizität (uterusstimulierend, in hoher Dosis organschädigend)",
+    "solubility_note": "Flavonoide und Kaliumsalze sind wasserlöslich → milder Tee aus Kraut/Wurzel für die Durchspülung. Apiol/Myristicin reichern sich im ätherischen Öl und in den Früchten an → konzentrierte Öl-/Fruchtzubereitungen sind gefährlich und für die Selbstmedikation ungeeignet.",
+    "heat_light_sensitivity": "Vitamin C und Aroma hitze- und lagerempfindlich (frisch verwenden); Furanocumarine wirken nur unter UV-Licht phototoxisch."
+  },
+  "pharmacology": {
+    "mechanism": "Aquaretische ('durchspülende') Wirkung: Reizung des Nierenepithels durch Bestandteile des ätherischen Öls (Apiol/Myristicin) steigert die Harnmenge; Flavonoide und Kalium tragen bei. Myristicin/Apiol wirken zudem auf die glatte Muskulatur (Uterus, Blase, Darm) — Grundlage der emmenagogen (menstruationsfördernden) Volksanwendung und der abortiven Gefahr.",
+    "evidence_caveat": "Klinische Wirksamkeitsbelege am Menschen sind dünn; die Durchspülungswirkung ist überwiegend traditionell und über die Kommission-E-Positivbewertung anerkannt, nicht durch kontrollierte Studien gesichert. Keine HMPC- und keine ESCOP-Monographie gefunden — Regulatorik-Status ärztlich gegenzuprüfen (Primärquellenabruf scheiterte, siehe sources).",
+    "pharmacokinetics": "unsicher — zu prüfen. Myristicin wird u. a. zu psychoaktiven/toxischen Metaboliten umgesetzt; belastbare humane PK-Daten zur Droge fehlen."
+  },
+  "indications": [
+    {
+      "canonical": "Durchspülungstherapie der ableitenden Harnwege",
+      "synonyms": [
+        "Nieren durchspülen",
+        "Blase durchspülen",
+        "Harnwegsinfekt unterstützend",
+        "Wassertreiben",
+        "entwässern",
+        "Nierengrieß vorbeugen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Kommission E bewertet Petersilienkraut und -wurzel positiv zur Durchspülung bei Erkrankungen der ableitenden Harnwege und zur Vorbeugung/Behandlung von Nierengrieß. KEINE HMPC- oder ESCOP-Monographie — daher hier konservativ TRAD getaggt (Kommission-E-positiv, aber keine belastbare klinische Evidenz).",
+      "realistic_expectation": "Kann die Harnmenge mild steigern und so unterstützend 'durchspülen'. Ersetzt KEINE Antibiotika bei fieberhaftem/kompliziertem Harnwegsinfekt. Nur bei ausreichender Trinkmenge sinnvoll; nicht bei Ödemen infolge Herz-/Nierenschwäche anwenden.",
+      "source": "Kommission E (Positivmonographie Petroselini herba / Petroselini radix)"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden / Blähungen (Karminativum)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Verdauungsbeschwerden",
+        "Magendrücken"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Anwendung als mildes Karminativum/Aromastoff (Küchenmenge). Keine regulatorische Positivbewertung speziell hierfür.",
+      "realistic_expectation": "Als Gewürz/Tee in Speisemengen bekömmlichkeitsfördernd. Kein arzneilicher Effekt zu erwarten.",
+      "source": "Volksmedizin; traditioneller Küchen-/Teegebrauch"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Mildes Aquaretikum (Durchspülung) und bekömmliches Küchenkraut, reich an Vitamin C und K. In Speise- und moderaten Teemengen sicher.",
+    "overstated": "'Natürliche Entwässerung' zum Abnehmen, 'Nierenreinigung', 'Entgiftung' — nicht belegt. Besonders gefährlich überschätzt: die volksmedizinische Anwendung von Petersiliensamen/-öl zur Menstruationsauslösung oder Abtreibung — hier gab es tödliche Vergiftungen (Apiol).",
+    "effect_size": "mild; rein symptomatisch/unterstützend"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee aus getrocknetem Kraut oder Wurzel",
+      "Frisches Kraut als Küchengewürz"
+    ],
+    "form_rationale": "Für die Durchspülung genügt der wässrige Auszug (Flavonoide, Kalium); er hält die Aufnahme von Apiol/Myristicin niedrig. Konzentrierte Fruchtöl- oder Apiol-Zubereitungen werden bewusst NICHT empfohlen — sie tragen die Toxizität.",
+    "standard_dose": "Tee: ca. 2 g getrocknetes Kraut (1 TL) mit 150 ml heißem Wasser übergießen, 10–15 min ziehen, 2–3 Tassen/Tag; auf reichliche Flüssigkeitszufuhr achten. Frucht/Samen und ätherisches Öl NICHT zur Selbstmedikation. (Genaue arzneiliche Obergrenzen: unsicher — zu prüfen.)",
+    "preservation": "Kraut frisch verwenden oder schonend trocknen/einfrieren; Aroma und Vitamin C gehen bei Lagerung rasch verloren."
+  },
+  "safety": {
+    "tox_ceiling": "Kein definierter Grenzwert für die Küchen-/Teemenge des Krauts. Toxikologisch kritisch sind Früchte und ätherisches Öl (Apiol, Myristicin): hier keine Selbstmedikation. Apiol-Vergiftungen (früher als Abortivum missbraucht) verliefen mit Leber-, Nieren- und Herzschäden bis tödlich.",
+    "contraindications": [
+      "Schwangerschaft (arzneiliche Mengen, Früchte, ätherisches Öl) — Abortgefahr",
+      "Entzündliche Nierenerkrankungen und eingeschränkte Nierenfunktion — keine Durchspülungstherapie",
+      "Ödeme infolge eingeschränkter Herz- oder Nierentätigkeit (Kommission-E-Gegenanzeige der Durchspülung)"
+    ],
+    "pregnancy_lactation": "In Speise-/Küchenmengen unbedenklich. Arzneiliche Mengen, Petersiliensamen, konzentrierte Extrakte und ätherisches Öl sind in der Schwangerschaft KONTRAINDIZIERT (Apiol/Myristicin wirken uterusstimulierend, dokumentierte Aborte und tödliche Vergiftungen). In der Stillzeit arzneiliche Anwendung meiden; Küchenmenge unproblematisch.",
+    "adverse_effects": "Bei bestimmungsgemäßem Gebrauch selten. Ätherisches Öl/Früchte: gastrointestinale Reizung, in hoher Dosis Leber-/Nierenschäden, Herzrhythmusstörungen, Krämpfe. Hautkontakt mit dem Pflanzensaft plus UV-Licht kann Phytophotodermatitis (Rötung, Blasen) auslösen (Furanocumarine).",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Additive Wirkung auf Flüssigkeits-/Elektrolythaushalt",
+        "affected": "Diuretika, Lithium",
+        "clinical_relevance": "gering"
+      },
+      {
+        "type": "theoretisch",
+        "mechanism": "Vitamin-K-Gehalt (v. a. großen Kraut-Mengen) könnte Antikoagulation beeinflussen; Furanocumarine potenziell photosensibilisierend additiv",
+        "affected": "Vitamin-K-Antagonisten (Phenprocoumon/Warfarin); photosensibilisierende Arzneistoffe",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "photosensitizing": true,
+      "apiaceae_confusion_young": true,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Küchenpetersilie ist sicher — aber Petersiliensamen und -öl NIEMALS zur Selbstmedikation oder in der Schwangerschaft (Apiol: Abortgefahr, tödliche Vergiftungen), und wildwachsende 'Petersilie' nie sammeln (tödliche Doldenblütler-Doppelgänger)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blattkraut den ganzen Sommer (Mai–Oktober) frisch; Wurzel im Herbst des 2. Jahres; Ernte vor der Blüte, da der Aromagehalt danach abnimmt.",
+    "harvest_month_tags": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_organ": "Kraut (Blatt), Wurzel (Radix)",
+    "method": "Blätter/Stängel bodennah schneiden; Wurzelpetersilie im Herbst ausgraben. Nur aus sicherer Kultur.",
+    "processing": "Frisch verwenden, schonend trocknen oder einfrieren; Wurzel schälen und trocknen.",
+    "storage": "Getrocknet dunkel und trocken; Aroma verflüchtigt sich rasch — Vorräte klein halten."
+  },
+  "kitchen": {
+    "uses": [
+      "Universelles Küchengewürz (frisch, roh zugegeben)",
+      "Petersilienwurzel als Suppen-/Wurzelgemüse",
+      "Bestandteil von Kräutermischungen (z. B. Frankfurter Grüne Soße, Tabbouleh, Bouquet garni)"
+    ],
+    "culinary_vs_medicinal": "Die Grenze verläuft an der Menge und am Pflanzenteil: Blattkraut in Speisemengen ist Lebensmittel und sicher. Arzneiliche Konzentrate, Samen und ätherisches Öl überschreiten die Grenze zur Toxizität — sie gehören nicht in die Selbstmedikation."
+  },
+  "garden": {
+    "site_soil": "Humoser, tiefgründiger, gleichmäßig feuchter Boden, halbschattig bis sonnig; keine Petersilie nach Petersilie (Bodenmüdigkeit) — 4–5 Jahre Anbaupause.",
+    "hardiness": "Zweijährig, in milden Lagen winterhart; treibt im 2. Jahr zur Blüte und wird dann unbrauchbar bitter.",
+    "propagation": "Direktsaat (Lichtkeimer, langsame, unregelmäßige Keimung); Aussaat ab April.",
+    "bodensee_suitability": "Gut geeignet als Gartenkultur am Bodensee; verwildert kaum. Wächst zuverlässig im Beet oder Topf."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Kommission E — Positivmonographien Petroselini herba und Petroselini radix (Durchspülung Harnwege, Nierengrieß; Gegenanzeigen Schwangerschaft, entzündliche Nierenerkrankung)",
+    "Giftinformationszentrum / Botanischer Sondergarten Wandsbek — 'Giftpflanze des Jahres 2023: Petersilie' (Apiol/Myristicin, Verwechslungsgefahr)",
+    "AWL.ch — Petersilie (Petroselinum crispum): Wirkung & Risiken",
+    "Spektrum, Lexikon der Arzneipflanzen und Drogen — Petroselinum crispum",
+    "pflanzen-deutschland.de / giftpflanzen.com — Aethusa cynapium (Hundspetersilie), Unterscheidungsmerkmale",
+    "aponet.de — 'Petersilie spült die Nieren' (Teedosierung)",
+    "Hinweis: WebFetch auf EMA/HMPC-Primärquellen scheiterte (HTTP 403). Kein HMPC-/ESCOP-Eintrag über Sekundärquellen auffindbar — Regulatorik-Status und Evidenzgrad ärztlich am Primärdokument gegenprüfen."
+  ]
+}

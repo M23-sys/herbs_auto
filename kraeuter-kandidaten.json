@@ -34,7 +34,9 @@
     "plantago-lanceolata",
     "salvia-rosmarinus",
     "myrtus-communis",
-    "levisticum-officinale"
+    "levisticum-officinale",
+    "petroselinum-crispum",
+    "tropaeolum-majus"
   ],
   "kandidaten": [
     {
@@ -799,8 +801,8 @@
       "latin": "Petroselinum crispum",
       "tier": 5,
       "reason": "Apiol — Schwangerschaft! Verwechslung Hundspetersilie (giftig)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-petersilie.json"
     },
     {
       "id": "tropaeolum-majus",
@@ -808,8 +810,8 @@
       "latin": "Tropaeolum majus",
       "tier": 5,
       "reason": "Senföle; WEU-nahe Fixkombination mit Meerrettich",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-kapuzinerkresse.json"
     },
     {
       "id": "armoracia-rusticana",
