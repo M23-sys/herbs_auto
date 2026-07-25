@@ -655,6 +655,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat, Tier 5). KEINE HMPC-/ESCOP-/Kommission-E-Monographie fuer Satureja montana -> alle Indikationen TRAD (volksmedizinisch: Karminativum, Appetit, mild adstringierend bei Durchfall). Erwartung gedaempft: der Ruf als 'natuerliches Antibiotikum'/Aphrodisiakum ist nur praeklinisch (in-vitro Carvacrol/Thymol), klinisch unbelegt. WICHTIG zur Abgrenzung: mehrjaehriges, verholztes Winter-Bohnenkraut vs. einjaehriges, milderes Sommer-Bohnenkraut (S. hortensis) - Wirk-/Dosisangaben im Handel beziehen sich oft auf die Sommer-Art. Sicherheit: phenolreiches aetherisches Oel (Carvacrol/Thymol) schleimhautreizend, nicht fuer Selbstanwendung/Kinder/Schwangere; high_safety bewusst false. Kein giftiger Doppelgaenger."
+    },
+    {
+      "ts": "2026-07-25T00:20:00Z",
+      "id": "hyssopus-officinalis",
+      "common": "Ysop",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 5). KEINE HMPC-Monographie; Kommission E bewertet Ysopkraut NEGATIV -> alle Indikationen TRAD (volksmedizinisch: Erkaeltungshusten, Verdauung). ZENTRALE WARNUNG: Die Gefahr ist nicht die Pflanze, sondern ihr aetherisches Oel - die Monoterpenketone Pinocamphon/Isopinocamphon sind neurotoxisch und krampfausloesend (dokumentierte Anfaelle ab 10-30 Tropfen Oel bei Erwachsenen, 2-3 Tropfen bei einem 6-jaehrigen Kind). Flags gesetzt: toxin_ceiling (Pinocamphon), lowers_seizure_threshold, pregnancy_contraindicated. Oel niemals innerlich, nicht bei Epilepsie/Kindern/Schwangeren. Kein giftiger morphologischer Doppelgaenger. Hinweis: pinocamphon-arme var. decumbens ist ein anderer Chemotyp."
+    },
+    {
+      "ts": "2026-07-25T00:22:00Z",
+      "id": "laurus-nobilis",
+      "common": "Echter Lorbeer",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung (Kandidat, Tier 5). KEINE HMPC-Monographie; Kommission E negativ -> Indikationen TRAD (Kuechengewuerz/Verdauung; aeusserlich Lorbeeroel bei rheumatischen Beschwerden). Primaer ein Gewuerz ohne belegte Heilwirkung. SICHERHEITSKRITISCH sind die Verwechslungen: deadly_confusion=true wegen OLEANDER (Nerium oleander, herztoxisch, lebensgefaehrlich, lanzettlich-immergruen wie Lorbeer) und KIRSCHLORBEER (Prunus laurocerasus, cyanogen/Blausaeure, als Hecke allgegenwaertig) - Faustregel: echter Lorbeer riecht kraeftig wuerzig, die Giftpflanzen nicht (Kirschlorbeer nach Bittermandel). Weitere Punkte: Kontaktallergie durch Sesquiterpenlactone (Costunolid, Laurenobiolid); Methyleugenol im aetherischen Oel potenziell genotoxisch -> nur Speisemengen; ganze Blaetter nicht mitessen (mechanische Verletzung)."
     }
   ]
 }

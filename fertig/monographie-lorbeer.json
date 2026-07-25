@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "id": "laurus-nobilis",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Laurus nobilis L.",
+    "common_names_de": [
+      "Echter Lorbeer",
+      "Gewürzlorbeer",
+      "Edler Lorbeer",
+      "Lorbeerbaum",
+      "Suppenlorbeer"
+    ],
+    "family": "Lauraceae (Lorbeergewächse)",
+    "drug_part": [
+      "Blatt (Lauri folium) — Küchen- und Teedroge",
+      "Frucht/fettes Lorbeeröl (Lauri fructus / Oleum lauri) — äußerlich"
+    ],
+    "drug_name_latin": "Lauri folium",
+    "synonyms": [],
+    "synonym_note": "Botanisch stabil unter Laurus nobilis L. Namensfalle: Der als Heckenpflanze verbreitete 'Kirschlorbeer' (Prunus laurocerasus) ist KEIN Lorbeer, sondern ein giftiges Rosengewächs — siehe Verwechslungen."
+  },
+  "identification": {
+    "key_features": [
+      "Immergrüner Strauch oder Baum (bis ~10 m, als Kübelpflanze klein gehalten); Blätter wechselständig, lanzettlich-elliptisch, ledrig-derb, oberseits glänzend dunkelgrün, Rand oft leicht gewellt",
+      "Blatt beim Zerreiben stark aromatisch-würzig (typischer Küchenduft) — das sicherste Bestimmungsmerkmal gegenüber giftigen Doppelgängern",
+      "Zweihäusig (getrenntgeschlechtlich): kleine, gelblich-weiße Blüten in achselständigen Büscheln, April–Mai",
+      "Reife Früchte einsamige, blauschwarze bis schwarze Beeren (~1–1,5 cm), erbsen- bis kirschgroß"
+    ],
+    "season": "Blüte April–Mai; Fruchtreife im Herbst",
+    "habitat": "Mediterrane Art immergrüner Hartlaubwälder; in Mitteleuropa nicht winterhart, fast ausschließlich Kübel-/Topfkultur (Wintergarten, geschützter Standort)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Kulturpflanze — kein Wildsammel-Risiko in der Region. Blätter ganzjährig von der eigenen Kübelpflanze zu ernten.",
+      "Bestätiger (sicherheitskritisch): kräftig würziger Küchenduft beim Zerreiben. Riecht ein 'lorbeerähnliches' Blatt nach Bittermandel/Marzipan, ist es KEIN Gewürzlorbeer, sondern Kirschlorbeer (Blausäure) — nicht verwenden.",
+      "Nicht mit Kirschlorbeer-Hecke (Prunus laurocerasus) oder Oleander verwechseln: Beide sind giftig und ebenfalls immergrün-ledrig, riechen aber nicht würzig."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Kirschlorbeer / Lorbeerkirsche",
+      "scientific_name": "Prunus laurocerasus",
+      "toxicity_level": "giftig",
+      "toxin": "Cyanogene Glykoside (Prunasin/Amygdalin) → Blausäure (Cyanid)",
+      "note": "GEFÄHRLICHSTE Verwechslung, weil als Hecke allgegenwärtig und dem Gewürzlorbeer im Blatt oberflächlich ähnlich (immergrün, ledrig, glänzend). Aber: Rosengewächs, KEIN echter Lorbeer. Zerriebenes/zerkautes Blatt riecht nach Bittermandel/Marzipan (Blausäure!), nicht würzig; Blätter größer, am Grund zwei Nektardrüsen. Verzehr (v. a. zerkleinerte Blätter/Samen) kann zu Cyanidvergiftung führen. Niemals als Küchenlorbeer verwenden."
+    },
+    {
+      "name": "Oleander",
+      "scientific_name": "Nerium oleander",
+      "toxicity_level": "lebensgefährlich",
+      "toxin": "Herzwirksame Glykoside (Oleandrin u. a.)",
+      "note": "Ebenfalls immergrün mit lanzettlichen, ledrigen Blättern; in mediterranen Gärten/als Kübelpflanze direkt neben Lorbeer anzutreffen. Oleanderblätter sind schmaler, in Wirteln/gegenständig, mit deutlicher Mittelrippe und feiner Fiedernervatur, geruchlos-würzlos. Schon kleine Mengen wirken herztoxisch und potenziell tödlich. Blätter niemals verwechseln oder als Gewürz nutzen."
+    },
+    {
+      "name": "Portugiesischer Lorbeer / andere immergrüne Ziergehölze",
+      "scientific_name": "Prunus lusitanica",
+      "toxicity_level": "giftig",
+      "toxin": "Cyanogene Glykoside (geringer als bei P. laurocerasus)",
+      "note": "Ziergehölz, ebenfalls Rosengewächs und schwach cyanogen; kein Küchengewürz. Wieder gilt: fehlender würziger Duft und Bittermandelnote entlarven den falschen 'Lorbeer'."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl im Blatt (ca. 1–3 %): Hauptkomponente 1,8-Cineol (Eucalyptol, ~35–50 %), daneben α-/β-Pinen, Sabinen, α-Terpinylacetat, Linalool, Eugenol und Methyleugenol (Anteil ~2–4 %; toxikologisch relevant)",
+      "Sesquiterpenlactone (u. a. Costunolid, Laurenobiolid, Reynosin, Santamarin) — Kontaktallergene",
+      "Fettes Lorbeeröl aus den Früchten (Oleum lauri): Gemisch aus fettem Öl mit Laurinsäure und ~5 % ätherischem Öl; Grundlage äußerlicher Zubereitungen"
+    ],
+    "lead_substance": "1,8-Cineol (verdauungs-/schleimhautwirksames Leit-Terpen des Blattöls); die Kontaktallergie geht von den Sesquiterpenlactonen (Costunolid, Laurenobiolid) aus, die toxikologische Vorsicht vom Methyleugenol.",
+    "solubility_note": "Wirkträger ist das ätherische Öl → warmer, abgedeckter Aufguss (Blatt) hält flüchtige Komponenten im Tee; für äußerliche Anwendung binden fette Grundlagen (Lorbeeröl, Salbe) die lipophilen Öl- und Fettbestandteile. Ganze Blätter geben im Sud nur wenig Öl ab.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig, licht-/wärmeempfindlich; getrocknete Blätter dunkel und dicht verschlossen lagern, Aroma schwindet mit der Zeit."
+  },
+  "pharmacology": {
+    "mechanism": "Dem Blatt-/Ölkomplex werden karminative, verdauungsanregend-appetitfördernde und mild antiseptische Eigenschaften zugeschrieben (Bitter- und Aromawirkung, Cineol); äußerlich (Lorbeeröl/Salbe) traditionell durchblutungsfördernd-wärmend und leicht schmerzlindernd bei rheumatischen Beschwerden und Prellungen.",
+    "evidence_caveat": "Es liegt KEINE HMPC/EMA-Monographie für Lauri folium vor; die Kommission E hat Lorbeerblätter/Lorbeeröl NEGATIV bzw. ohne belegte Wirksamkeit bewertet. Die medizinische Anwendung ist damit rein traditionell/volksmedizinisch, klinische Wirksamkeitsbelege fehlen. Lorbeer ist primär ein Küchengewürz.",
+    "pharmacokinetics": "Nicht belastbar untersucht."
+  },
+  "indications": [
+    {
+      "canonical": "Dyspeptische Beschwerden / Appetitlosigkeit (rein traditionell, Küchengewürz)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Appetitlosigkeit",
+        "schwere Verdauung",
+        "Magendrücken nach deftigem Essen"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Anwendung als Gewürz/Karminativum; KEINE HMPC-Monographie, Kommission E negativ. Der Nutzen ist die Bekömmlichkeit deftiger Speisen, nicht ein arzneilicher Effekt.",
+      "realistic_expectation": "Als Gewürz macht Lorbeer schwere, fette Speisen bekömmlicher und wirkt mild verdauungsfördernd. Ein darüber hinausgehender arzneilicher Nutzen ist nicht belegt.",
+      "source": "Volksmedizin/Traditionelle Anwendung; Kommission E (negativ)"
+    },
+    {
+      "canonical": "Äußerlich: rheumatische/muskuläre Beschwerden, Prellungen, Verstauchungen (traditionell, Lorbeeröl/-salbe)",
+      "synonyms": [
+        "Gliederschmerzen",
+        "Muskelkater",
+        "Verstauchung",
+        "Prellung",
+        "Zerrung",
+        "steife Gelenke",
+        "Einreibung"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle äußerliche Anwendung des fetten Lorbeeröls bzw. von Salben/Einreibungen. Kein Wirksamkeitsbeleg; Anwendung nur stark verdünnt wegen Allergierisiko.",
+      "realistic_expectation": "Eine wärmende Einreibung kann subjektiv wohltuend sein. Belegte Heilwirkung auf Rheuma/Verletzungen besteht nicht; bei Sesquiterpenlacton-Allergie drohen Hautreaktionen.",
+      "source": "Volksmedizin/Traditionelle Anwendung (Oleum lauri)"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches Küchengewürz, das deftige Speisen bekömmlicher macht; äußerlich als traditionelle wärmende Einreibung. Alles mild und symptomatisch.",
+    "overstated": "Populär kursieren Versprechen wie Blutzucker-/Cholesterinsenkung, 'Entgiftung', krebshemmende oder stark antibakterielle Wirkung (oft aus Zell-/Tierstudien) — für die Anwendung am Menschen ist nichts davon belegt. Die Kommission E bewertete Lorbeer NEGATIV; eine HMPC-Monographie existiert nicht.",
+    "effect_size": "mild; rein symptomatisch, nicht belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Küchengewürz (ganze Blätter mitkochen, vor dem Servieren entfernen)",
+      "Tee/Aufguss (abgedeckt ziehen)",
+      "Äußerlich: fettes Lorbeeröl oder Salbe/Einreibung, stark verdünnt (~2 %)"
+    ],
+    "form_rationale": "Wirkträger ist das ätherische Öl → warmer, abgedeckter Aufguss oder fette Grundlage. Äußerlich muss wegen der allergenen Sesquiterpenlactone stark verdünnt werden. Das konzentrierte ätherische Blattöl (methyleugenolhaltig) ist keine empfohlene innerliche Form.",
+    "standard_dose": "Küche: 1–2 ganze Blätter je Gericht. Tee: ~1–2 g Blatt auf 150 ml, abgedeckt ziehen. Äußerlich: Lorbeeröl/Salbe stark verdünnt. Konkrete arzneiliche Obergrenzen sind mangels Monographie unsicher — zu prüfen; defensiv niedrig halten.",
+    "preservation": "Getrocknete Blätter trocken, dunkel, dicht verschlossen; Aroma jährlich erneuern."
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Bekannte Kontaktallergie gegen Sesquiterpenlactone bzw. Korbblütler-Kreuzallergie (äußerliche Anwendung meiden)",
+      "Ganze Lorbeerblätter nicht mitessen — harte, scharfkantige Blätter können Schleimhaut verletzen oder stecken bleiben; vor dem Servieren entfernen",
+      "Konzentriertes ätherisches Blattöl (methyleugenolhaltig) nicht innerlich anwenden"
+    ],
+    "pregnancy_lactation": "Als Speisegewürz in üblichen Mengen unbedenklich. Von konzentrierten arzneilichen Mengen und dem ätherischen Öl (Methyleugenol-Gehalt, unklares Risiko) wird in Schwangerschaft/Stillzeit abgeraten — defensiv meiden (unsicher — zu prüfen).",
+    "adverse_effects": "Häufigste relevante Reaktion: allergische Kontaktdermatitis durch Sesquiterpenlactone (Costunolid, Laurenobiolid), v. a. bei äußerlicher Anwendung und bei Korbblütler-Allikern. Ganze Blätter mechanisch gefährlich beim Verschlucken. Methyleugenol im ätherischen Öl gilt als potenziell genotoxisch/kanzerogen — daher nur Speisemengen, kein Daueröl innerlich.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Volksmedizinisch werden blutzuckersenkende Effekte behauptet (Zell-/Tierdaten); ein additiver Effekt mit Antidiabetika ist theoretisch nicht auszuschließen, bei Gewürzmengen jedoch ohne praktische Relevanz.",
+        "affected": "Antidiabetika (theoretisch)",
+        "clinical_relevance": "gering"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": true,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Die Gefahr liegt in der Verwechslung, nicht im Gewürz: 'Lorbeer'-Blätter aus dem Garten nur verwenden, wenn sie kräftig würzig riechen — Kirschlorbeer (Bittermandel/Blausäure) und Oleander (herztoxisch, lebensgefährlich) sehen ähnlich aus. Echter Lorbeer selbst ist ein Küchengewürz ohne belegte Heilwirkung; ganze Blätter nicht mitessen, äußerlich Allergierisiko."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blätter ganzjährig von der Kübelpflanze; für Vorrat bevorzugt im Sommer geerntete, ausgereifte Blätter",
+    "harvest_month_tags": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Blatt",
+    "method": "Einzelne ausgereifte Blätter oder kurze Zweigstücke abschneiden.",
+    "processing": "Blätter flach zwischen Tüchern/unter leichtem Gewicht im Schatten trocknen, damit sie sich nicht wellen.",
+    "storage": "Getrocknet dunkel und dicht verschlossen; ätherisches Öl flüchtig, Aroma jährlich erneuern."
+  },
+  "kitchen": {
+    "uses": [
+      "Klassisches Suppen-, Schmor- und Einlegegewürz (Eintöpfe, Sauerbraten, Marinaden, Essiggemüse, Fisch- und Wildgerichte)",
+      "Aromageber in Fonds und Bouquet garni"
+    ],
+    "culinary_vs_medicinal": "Lorbeer ist in erster Linie Küchengewürz; der 'verdauungsfördernde' Nutzen ist genau der Grund, warum er zu deftigen Speisen gehört. Die Speisemenge ist die sichere Dosis. Ganze Blätter würzen mit, werden aber nicht mitgegessen."
+  },
+  "garden": {
+    "site_soil": "Nährstoffreiche, durchlässige Kübelerde; sonnig bis halbschattig, gleichmäßig feucht, keine Staunässe.",
+    "hardiness": "Nicht ausreichend winterhart in Mitteleuropa (verträgt nur wenige Minusgrade) — Kübelkultur, frostfrei-hell überwintern.",
+    "propagation": "Stecklinge (bewurzeln langsam) oder Aussaat; langsam wachsend, gut schnittverträglich (Formgehölz).",
+    "bodensee_suitability": "Am Bodensee als Kübelpflanze gut möglich, muss aber frostfrei überwintert werden; im Freiland nicht dauerhaft winterhart."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine EU-Herbal-Monographie für Laurus nobilis (Lauri folium) vorhanden (Primärquelle ema.europa.eu während Recherche nicht direkt abrufbar — über Sekundärquellen bestätigt, ärztliche Gegenprüfung sinnvoll)",
+    "Kommission E: Lorbeerblätter/Lorbeeröl negativ bzw. ohne belegte Wirksamkeit bewertet",
+    "kostbarenatur.net, naturheilkraeuter.org, pflanzenfreunde.com — ätherisches Öl (Cineol ~45 %, Methyleugenol), Anwendung innerlich/äußerlich, Lorbeeröl",
+    "heckenpflanzendirekt.de, baumfreunde.org, pflanzenlust.de — Abgrenzung Echter Lorbeer vs. Kirschlorbeer (Prunus laurocerasus, cyanogen)",
+    "Dermatologische Literatur zu Kontaktallergie durch Sesquiterpenlactone (Costunolid, Laurenobiolid) in Laurus nobilis"
+  ]
+}

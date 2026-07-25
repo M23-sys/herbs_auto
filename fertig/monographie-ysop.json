@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "id": "hyssopus-officinalis",
+  "stand": "2026-07-25",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Hyssopus officinalis L.",
+    "common_names_de": [
+      "Ysop",
+      "Echter Ysop",
+      "Gewöhnlicher Ysop",
+      "Bienenkraut",
+      "Josefskraut"
+    ],
+    "family": "Lamiaceae (Lippenblütler)",
+    "drug_part": [
+      "Kraut (Herba) — blühende, beblätterte Triebspitzen"
+    ],
+    "drug_name_latin": "Hyssopi herba",
+    "synonyms": [],
+    "synonym_note": "Botanisch stabil unter Hyssopus officinalis L. geführt. Die pinocamphon-arme, in der Aromatherapie bevorzugte Sippe wird als Hyssopus officinalis var. decumbens (Kriechender Ysop) abgegrenzt — ein anderer Chemotyp, siehe Sicherheit."
+  },
+  "identification": {
+    "key_features": [
+      "Kleiner, immergrüner, an der Basis verholzender Halbstrauch, 30–60 (bis 90) cm, aufrecht-buschig, aromatisch-herb (kampferartig-würzig) duftend",
+      "Vierkantiger Stängel (Lippenblütler-Merkmal) mit schmalen, lineal-lanzettlichen, fast sitzenden, ganzrandigen Blättern",
+      "Blüten in lockeren, meist einseitswendigen Scheinähren an den Triebspitzen — kräftig blau bis violett (seltener rosa oder weiß), zweilippig, weit herausragende Staubblätter",
+      "Blütezeit Juni/Juli bis September/Oktober; ausgesprochene Bienen- und Schmetterlingsweide"
+    ],
+    "season": "Blütezeit Juni bis September (im warmen Jahr bis Oktober)",
+    "habitat": "Wärmeliebende, mediterran-südosteuropäische Art; sonnige, trockene, durchlässig-kalkhaltige, magere Böden. In Mitteleuropa überwiegend als Garten- und Gewürzpflanze kultiviert, gelegentlich aus Kultur verwildert (Mauern, Trockenhänge, Weinberge)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur-selten-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "Reine Garten-/Kulturdroge — kein nennenswertes Wildsammel-Risiko. Geerntet werden die blühenden Triebspitzen kurz vor/zur Vollblüte.",
+      "Bestätiger: vierkantiger Stängel + schmale, ganzrandige Blätter + einseitswendige blauviolette Blütenähren + herb-kampfriger Duft.",
+      "Abgrenzung: Wer den herb-kampfrigen (nicht lavendelig-blumigen, nicht scharf-thymianigen) Geruch kennt, verwechselt Ysop kaum. Alle ähnlichen blaublühenden Küchen-Lippenblütler sind ungiftig."
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Lavendel",
+      "scientific_name": "Lavandula angustifolia",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Gleiche Familie, ähnlicher Habitus und blauviolette Blüten. Lavendel duftet blumig-süß, Ysop herb-kampfrig; Lavendelblätter graufilziger, Ysopblätter grün und schmal-lanzettlich. Keine Gefahr, nur aromatische Fehlzuordnung."
+    },
+    {
+      "name": "Bohnenkraut / Thymian und andere Küchen-Lippenblütler",
+      "scientific_name": "Satureja/Thymus spp.",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Alle ungiftige Gewürzkräuter derselben Familie mit schmalen Blättchen. Unterscheidung über Duft und die blauvioletten, einseitswendigen Ysop-Blütenähren. Keine toxische Verwechslung."
+    },
+    {
+      "name": "Anisysop / Duftnessel",
+      "scientific_name": "Agastache foeniculum",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Trotz des Namens eine andere Gattung (nordamerikanisch), ebenfalls Lippenblütler mit blauvioletten Ähren, aber deutlich anis-/lakritzartig duftend. Ungiftig. Nur Namens- und Duftverwechslung, kein Sicherheitsproblem."
+    },
+    {
+      "name": "keine lebensgefährliche Verwechslung bekannt",
+      "scientific_name": "",
+      "toxicity_level": "essbar",
+      "toxin": "",
+      "note": "Aktiv gesucht: Ysop ist eine charakteristisch duftende Kulturpflanze ohne giftigen morphologischen Doppelgänger. Die relevante Gefahr geht nicht von einer Verwechslung aus, sondern vom eigenen ätherischen Öl (Pinocamphon, krampfauslösend) — siehe Sicherheit."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Ätherisches Öl (ca. 0,3–2 %): dominiert von den Monoterpenketonen (-)-Pinocamphon und Isopinocamphon (zusammen oft >40–50 %) — diese sind die neurotoxisch-krampffördernden Leitstoffe; daneben β-Pinen, Limonen, Sabinen, β-Caryophyllen, Pinocamphon-Chemotyp abhängig von Herkunft",
+      "Labiatengerbstoffe (Rosmarinsäure), Flavonoide (u. a. Diosmin, Hesperidin), Bitterstoff Marrubiin, Triterpene (Ursol-/Oleanolsäure)"
+    ],
+    "lead_substance": "Pinocamphon/Isopinocamphon (sicherheitsbestimmende Leitstoffe, neurotoxisch); für die milde schleimlösend-adstringierende Erfahrungswirkung werden Gerbstoffe, Flavonoide und der Ölkomplex verantwortlich gemacht — ein belegter Einzelwirkstoff für die Wirksamkeit existiert nicht.",
+    "solubility_note": "Der wässrige Aufguss (Tee) zieht Gerbstoffe, Flavonoide und Bitterstoff sowie geringe Ölmengen; das konzentrierte ätherische Öl (Destillat) reichert dagegen die krampfauslösenden Ketone stark an — deshalb ist der Tee etwas anderes als das Öl. Öl nur stark verdünnt und nicht innerlich.",
+    "heat_light_sensitivity": "Ätherisches Öl flüchtig und licht-/wärmeempfindlich: Droge dunkel, dicht verschlossen lagern; Tee abgedeckt ziehen."
+  },
+  "pharmacology": {
+    "mechanism": "Traditionell als schleimlösend/hustenlindernd (Expektorans), leicht adstringierend (Gerbstoffe) und karminativ-verdauungsanregend (Bitterstoff Marrubiin) beschrieben. Die krampfauslösende Wirkung des Öls beruht auf einer prokonvulsiven Aktivität der Monoterpenketone Pinocamphon/Isopinocamphon im ZNS.",
+    "evidence_caveat": "Es liegt KEINE HMPC/EMA-Monographie vor und die Kommission E hat Ysopkraut NEGATIV bewertet (Wirksamkeit bei den beanspruchten Anwendungen nicht ausreichend belegt). Die Anwendung ist damit rein volksmedizinisch/traditionell und klinisch nicht gesichert. Belastbare kontrollierte Studien fehlen.",
+    "pharmacokinetics": "Nicht belastbar untersucht."
+  },
+  "indications": [
+    {
+      "canonical": "Katarrhe der oberen Atemwege / Husten mit zähem Schleim (rein traditionell)",
+      "synonyms": [
+        "Husten",
+        "Bronchitis",
+        "Erkältung",
+        "festsitzender Schleim",
+        "Halskratzen",
+        "verschleimte Atemwege"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Rein volksmedizinische Anwendung. KEINE HMPC-Monographie; Kommission E negativ. Kein anerkannter Wirksamkeitsbeleg — die Einordnung erfolgt ausschließlich über die lange Anwendungstradition.",
+      "realistic_expectation": "Als warmer Kräutertee kann Ysop subjektiv wohltuend bei Erkältungshusten wirken, wie viele warme Aufgüsse. Ein über Placebo/Wärmeeffekt hinausgehender, belegter Nutzen ist NICHT nachgewiesen. Kein Ersatz für abklärungsbedürftigen oder anhaltenden Husten.",
+      "source": "Volksmedizin/Traditionelle Anwendung; Kommission E (Negativmonographie); ältere ESCOP-Angaben"
+    },
+    {
+      "canonical": "Dyspeptische Beschwerden / Appetitlosigkeit (rein traditionell)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Verdauungsbeschwerden",
+        "Appetitlosigkeit",
+        "Magendrücken"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Traditionelle Bitter-/Gewürzkraut-Anwendung als Karminativum/Stomachikum. Ohne regulatorische Bestätigung (kein HMPC, Kommission E negativ).",
+      "realistic_expectation": "Als Gewürz und Bittertee kann Ysop die Speisenbekömmlichkeit unterstützen — mild und symptomatisch. Keine Heilwirkung auf strukturelle Magen-Darm-Erkrankungen.",
+      "source": "Volksmedizin/Traditionelle Anwendung"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Aromatisches Bienen- und Küchenkraut; als milder Tee/Gewürz bei Erkältungshusten und zur Verdauung traditionell wohltuend — symptomatisch, ohne belegte Heilwirkung.",
+    "overstated": "Der antike Ruf als 'heiliges Reinigungskraut' und Internetlisten schreiben Ysop Wirkung gegen Asthma, Infektionen, 'Entgiftung' bis hin zu antiviralen Effekten zu. Nichts davon ist klinisch belegt; die Kommission E bewertete Ysop ausdrücklich NEGATIV. Vor allem die Gleichsetzung von 'Tee' und 'ätherischem Öl' ist gefährlich — das Öl kann Krämpfe auslösen.",
+    "effect_size": "gering; rein symptomatisch, nicht belegt"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Tee (Aufguss aus dem getrockneten Kraut, abgedeckt ziehen)",
+      "Gewürz zu fetten/deftigen Speisen (sparsam)"
+    ],
+    "form_rationale": "Der wässrige Aufguss überführt vorwiegend Gerbstoffe, Flavonoide und Bitterstoff und nur wenig ätherisches Öl — damit bleibt die krampffördernde Ketonlast gering. Das konzentrierte ätherische Öl ist ausdrücklich KEINE empfohlene Anwendungsform (Krampfrisiko).",
+    "standard_dose": "Tee: ca. 1–2 g (1–2 TL) geschnittenes Kraut auf 150 ml heißes Wasser, 2–3× täglich; nicht dauerhaft/hochdosiert. Ätherisches Öl NICHT zur inneren Anwendung. Konkrete Obergrenzen sind mangels Monographie unsicher — zu prüfen; defensiv niedrig dosieren.",
+    "preservation": "Trocken, dunkel, dicht verschlossen; Aroma jährlich erneuern."
+  },
+  "safety": {
+    "tox_ceiling": "Ätherisches Ysopöl (Pinocamphon/Isopinocamphon): krampfauslösend. Dokumentierte Krampfanfälle bei ca. 10–30 Tropfen Öl über mehrere Tage (Erwachsene) bzw. bereits 2–3 Tropfen bei einem 6-jährigen Kind; im Tierversuch klonisch-tonische Krämpfe ab ~0,13 g/kg. Konzentriertes Öl innerlich meiden; Anwendung des Krautes zeitlich begrenzen.",
+    "contraindications": [
+      "Epilepsie und andere Krampfleiden (auch anamnestisch) — Öl und hochdosiertes Kraut meiden",
+      "Ätherisches Ysopöl bei Säuglingen, Kleinkindern und in der Schwangerschaft/Stillzeit",
+      "Bekannte Überempfindlichkeit gegen Lippenblütler"
+    ],
+    "pregnancy_lactation": "In Schwangerschaft und Stillzeit meiden: Dem ätherischen Öl werden emmenagoge/prokonvulsive Eigenschaften zugeschrieben, volksmedizinisch galt Ysop als menstruationsfördernd/abortiv. Belastbare Daten fehlen — defensiv kontraindiziert für arzneiliche Mengen und Öl (unsicher — zu prüfen). Speise-Gewürzmengen gelten als unproblematisch.",
+    "adverse_effects": "Kraut in Küchen-/Teemengen meist gut verträglich. Das ätherische Öl ist neurotoxisch und kann bei Überdosierung tonisch-klonische Krämpfe auslösen. Selten Kreuzallergie innerhalb der Lippenblütler.",
+    "interactions": [
+      {
+        "type": "pharmakodynamisch",
+        "mechanism": "Prokonvulsive Wirkung des ätherischen Öls (Pinocamphon) kann die Krampfschwelle senken und die Wirkung von Antiepileptika theoretisch untergraben bzw. mit anderen krampfschwellensenkenden Substanzen additiv wirken.",
+        "affected": "Antiepileptika; andere krampfschwellensenkende Arzneistoffe",
+        "clinical_relevance": "relevant"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": true,
+      "toxin_type": "Pinocamphon/Isopinocamphon (Monoterpenketone)",
+      "lowers_seizure_threshold": true,
+      "pregnancy_contraindicated": true,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Nicht die Pflanze, sondern ihr ätherisches Öl ist die Gefahr: Pinocamphon/Isopinocamphon können Krämpfe auslösen — Öl niemals innerlich, nicht bei Epilepsie, Kindern oder in der Schwangerschaft. Wirksamkeit ist nicht belegt (Kommission E negativ, keine HMPC-Monographie)."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "Blühende Triebspitzen kurz vor bis zur Vollblüte, Juli–September, an einem trockenen Vormittag",
+    "harvest_month_tags": [
+      7,
+      8,
+      9
+    ],
+    "harvest_organ": "Kraut",
+    "method": "Obere, beblätterte Blütentriebe abschneiden (nicht ins alte Holz).",
+    "processing": "Locker gebündelt kopfüber im Schatten luftig trocknen; danach rebeln.",
+    "storage": "Getrocknet dunkel und dicht verschlossen; flüchtiges Öl, Aroma jährlich erneuern."
+  },
+  "kitchen": {
+    "uses": [
+      "Sparsames Würzkraut zu fetten Fleisch-, Wild- und Hülsenfruchtgerichten",
+      "Bestandteil traditioneller Kräuterliköre (in kleinen Mengen)"
+    ],
+    "culinary_vs_medicinal": "Als Speisegewürz in kleinen Mengen unbedenklich und die sichere Alltagsdosis. 'Arzneilich' meint höchstens den Tee — das konzentrierte ätherische Öl gehört ausdrücklich nicht in die Küche/innere Anwendung."
+  },
+  "garden": {
+    "site_soil": "Vollsonnig, warm, durchlässig-kalkhaltig, eher mager und trocken; Staunässe meiden.",
+    "hardiness": "Mehrjährig und weitgehend winterhart; in strengen Wintern frieren Triebe zurück, treibt aus dem verholzten Sockel wieder aus. Verjüngungsschnitt im Frühjahr.",
+    "propagation": "Aussaat (Lichtkeimer) ab April/Mai, Stecklinge oder Teilung; dankbare, pflegeleichte Staude.",
+    "bodensee_suitability": "Am sonnig-warmen, gut drainierten Standort (Kräuterbeet, Trockenmauer, Topf) am Bodensee gut geeignet und als Bienenweide wertvoll."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/HMPC: keine EU-Herbal-Monographie für Hyssopus officinalis vorhanden (Primärquelle ema.europa.eu während Recherche nicht direkt abrufbar — über Sekundärquellen bestätigt, ärztliche Gegenprüfung sinnvoll)",
+    "Kommission E: Negativmonographie Ysopkraut (Wirksamkeit nicht ausreichend belegt)",
+    "AWL.ch Heilpflanzen — Hyssopus officinalis: Regulatorik, Neurotoxizität des Öls, Anwendung",
+    "Toxikologische Fallberichte zu Ysopöl (Pinocamphon/Isopinocamphon, Krampfanfälle; Millet et al. u. a., zitiert in Sekundärliteratur)",
+    "kraeuter-buch.de, pascoe.de, naturadb.de, pflanzenreich.com — Botanik, Merkmale, traditionelle Anwendung"
+  ]
+}

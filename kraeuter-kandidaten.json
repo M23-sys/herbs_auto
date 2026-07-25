@@ -761,8 +761,8 @@
       "latin": "Hyssopus officinalis",
       "tier": 5,
       "reason": "Lippenblütler; Pinocamphon (Krampfschwelle)",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-ysop.json"
     },
     {
       "id": "laurus-nobilis",
@@ -770,8 +770,8 @@
       "latin": "Laurus nobilis",
       "tier": 5,
       "reason": "Küche; Kontaktallergie",
-      "status": "offen",
-      "datei": null
+      "status": "entwurf_fertig",
+      "datei": "fertig/monographie-lorbeer.json"
     },
     {
       "id": "myrtus-communis",

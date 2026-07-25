@@ -1245,3 +1245,22 @@ Naechster offener Kandidat waere gentiana-lutea (Gelber Enzian, Tier 4) gewesen 
 - **Bergbohnenkraut — die praktisch relevante Verwechslung ist innerhalb der Gattung.** Mehrjaehriges, verholztes, schaerferes **Winter-Bohnenkraut (S. montana)** vs. einjaehriges, milderes **Sommer-Bohnenkraut (S. hortensis)** — beide ungiftig, aber Wirk-/Dosisangaben und Handelsware beziehen sich meist auf die Sommer-Art. Als Konfusion prominent aufgenommen. KEIN giftiger morphologischer Doppelgaenger (aktiv gesucht) → `deadly_confusion=false`, expliziter "keine lebensgefaehrliche Verwechslung"-Eintrag statt leerem Array.
 - **Bergbohnenkraut — `high_safety` bewusst FALSE (Unterschied zu Majoran).** Grund: hoher Phenolgehalt (Carvacrol/Thymol); das konzentrierte aetherische Oel ist ein moderater Schleimhaut-/Hautreizstoff und wird fuer Schwangere/Stillende/Kinder < 6 J. explizit gemieden; zudem fehlt jede regulatorische Absicherung. Kein `toxin_ceiling` gesetzt, weil fuer die Kuechen-/Teemenge kein definierter Grenzwert existiert (die Phenol-Warnung betrifft das reine Oel, nicht das Gewuerz) — die Vorsicht steht stattdessen im Text. Bitte Flag-Abwaegung gegenpruefen.
 - **Beide sind reine Kulturpflanzen am Bodensee** (`nur-kultur`). Gartentauglichkeit unterschiedlich: Majoran frostempfindlich/einjaehrig, Bergbohnenkraut winterhart/mehrjaehrig — im `garden`-Block ehrlich vermerkt.
+
+## Lauf 2026-07-25 (autonom, 2 Monographien)
+
+**Quelle-Auswahl:** Wunschliste (`docs/wunschliste.json`, 3 Eintraege) vollstaendig ERFUELLT — alle drei liegen bereits in `fertig/`: vitis-vinifera→monographie-weinrebe, chenopodium-album→monographie-weisser-gaensefuss, platanus-hispanica→monographie-platane (per id-Abgleich bestaetigt). Daher beide Plaetze aus der Kandidatenliste: die naechsten offenen Eintraege nach tier/Listenreihenfolge = **Ysop (hyssopus-officinalis)** und **Echter Lorbeer (laurus-nobilis)**, beide Tier 5. Dedup gegen `fertig/`, Synonyme und `vorhanden`: keine Treffer.
+
+**Ysop — Hyssopus officinalis (Kandidat, Tier 5)**
+- Pruefung: ok (nur der positive „unsicher/zu pruefen"-Hinweis). 0 Korrekturversuche.
+- Evidenz: **TRAD**. KEINE HMPC-Monographie, **Kommission E NEGATIV**. Hauptquellen: AWL.ch, kraeuter-buch.de, pascoe.de, naturadb.de + toxikologische Fallberichte.
+- **UEBERRASCHUNG/WICHTIG fuer den Arzt:** Die eigentliche Gefahr ist das aetherische Oel, nicht eine Verwechslung. Pinocamphon/Isopinocamphon (Monoterpenketone) sind neurotoxisch, krampfausloesend — Anfaelle ab 10–30 Tropfen Oel (Erwachsene) bzw. 2–3 Tropfen bei einem 6-jaehrigen Kind dokumentiert. Flags: toxin_ceiling, lowers_seizure_threshold, pregnancy_contraindicated. Kein giftiger Doppelgaenger.
+- UNSICHER: konkrete arzneiliche Dosis-Obergrenzen (mangels Monographie) als „unsicher — zu pruefen" markiert.
+
+**Echter Lorbeer — Laurus nobilis (Kandidat, Tier 5)**
+- Pruefung: ok (nur positiver „unsicher"-Hinweis). 0 Korrekturversuche.
+- Evidenz: **TRAD**. KEINE HMPC-Monographie, Kommission E negativ. Primaer Kuechengewuerz. Hauptquellen: kostbarenatur.net, naturheilkraeuter.org, pflanzenfreunde.com, heckenpflanzendirekt.de, baumfreunde.org.
+- **UEBERRASCHUNG/WICHTIG:** `deadly_confusion=true`. Zwei kritische Doppelgaenger: **Oleander** (Nerium oleander, herztoxisch, *lebensgefaehrlich*, lanzettlich-immergruen) und **Kirschlorbeer** (Prunus laurocerasus, cyanogen/Blausaeure, als Hecke ueberall). Faustregel im Feld: echter Lorbeer riecht kraeftig wuerzig, die Giftpflanzen nicht (Kirschlorbeer nach Bittermandel). Zusaetzlich: Kontaktallergie (Sesquiterpenlactone Costunolid/Laurenobiolid) und Methyleugenol im Oel (potenziell genotoxisch → nur Speisemengen). Ganze Blaetter nicht mitessen.
+
+**Recherche-Einschraenkung (fuer beide):** WebFetch lieferte fuer EMA/HMPC und mehrere Sekundaerquellen durchgaengig HTTP 403 (Proxy/Serverseite). Der HMPC-Negativbefund („keine Monographie") stuetzt sich daher auf WebSearch-Zusammenfassungen der Sekundaerquellen, NICHT auf die direkt gelesene EMA-Primaerquelle. Evidenzgrad TRAD ist dadurch konservativ (niedrig) gewaehlt; **aerztliche Gegenpruefung des Regulatorik-Status empfohlen.** In beiden Dateien und Quellenlisten vermerkt.
+
+**Ergebnis:** 2 Monographien erzeugt, geprueft (fehlerfrei), Status in kraeuter-kandidaten.json → entwurf_fertig, changelog.json ergaenzt (84 Eintraege). Wunschliste unveraendert (macht die App).
