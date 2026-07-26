@@ -1354,3 +1354,14 @@ Naechster offener Kandidat waere gentiana-lutea (Gelber Enzian, Tier 4) gewesen 
 ### Zweite Zündung am 2026-07-26 (autonom)
 
 Die Routine feuerte am selben Tag ein weiteres Mal. Zustand unverändert gegenüber der ersten Zündung (Commit `fab6963`): Wunschliste (vitis-vinifera, chenopodium-album, platanus-hispanica) vollständig in `fertig/` erfüllt, Kandidatenliste weiterhin 87× `entwurf_fertig` / **0× `offen`**. Kein Self-Heal nötig, keine Monographie erzeugt, keine inhaltliche Änderung. **Kein Fehler** — nur ein leerer Nachlauf. Nachschub (Wunschliste oder neue `offen`-Kandidaten) weiterhin nötig, sonst laufen alle künftigen Läufe leer.
+
+### Dritte Zündung am 2026-07-26 (autonom) — Leerlauf, nichts zu tun
+
+Erneute Zündung derselben Routine am selben Tag. Zustand unverändert gegenüber den beiden vorherigen Zündungen des Tages:
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — **alle drei bereits in `fertig/` erfüllt**, per id-Abgleich frisch bestätigt: vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json. **0 offene** Wünsche. (Nicht abgehakt — das macht die App selbst.)
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig (kein „offen"-Eintrag, dessen Datei bereits existiert).
+
+Weder Wunschliste noch Kandidatenliste liefern offene Arten → gemäß Anweisung **keine Monographie erzeugt**, keine inhaltliche Änderung (`docs/changelog.json` bleibt unverändert). **Kein Fehler** — die Warteschlange ist schlicht abgearbeitet.
+
+**Für den Arzt:** Der Katalog ist vollständig abgearbeitet. Alle 87 Kandidaten stehen als Entwurf fertig (warten nur noch auf die ärztliche Sichtung → Status `geprueft`), alle 3 Wunschlisten-Einträge liegen in `fertig/`. Bis neuer Nachschub kommt — neue Einträge über die App in `docs/wunschliste.json` oder neue `offen`-Kandidaten in `kraeuter-kandidaten.json` — laufen alle künftigen autonomen Läufe leer. Empfehlung: entweder die fertigen Entwürfe sichten oder die Routine pausieren, um Leerläufe zu vermeiden.
