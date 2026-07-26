@@ -1335,3 +1335,18 @@ Naechster offener Kandidat waere gentiana-lutea (Gelber Enzian, Tier 4) gewesen 
 - **Recherche-Einschränkung:** Ausschließlich WebSearch/WebFetch. WebFetch auf Primär-/Sekundär-PDFs (oeaz.at HMPPA, arzneipflanzenlexikon.info) lieferte wie in allen Vorläufen **HTTP 403**; der HMPC/ESCOP-Negativbefund und die Kommission-E-Angaben stützen sich daher auf übereinstimmende WebSearch-Sekundärquellen, NICHT auf ein direkt gelesenes Primärdokument. **Regulatorik am Primärdokument ärztlich gegenprüfen** (in Datei + Quellenliste vermerkt). Kein Ausweichen auf curl/wget.
 
 **Ergebnis:** 1 Monographie erzeugt (Meerrettich), fehlerfrei geprüft (0 Korrekturversuche). Status in kraeuter-kandidaten.json → `entwurf_fertig` (+ id in `vorhanden`), `docs/changelog.json` ergänzt (89 Einträge). Wunschliste unverändert (hakt die App selbst ab). **Warteschlange danach leer — 0 offene Kandidaten.**
+
+## Lauf 2026-07-26 (autonom) — Leerlauf, nichts zu tun
+
+**Vorbereitung:** `pip install -r requirements.txt` — jsonschema 4.26.0 in frischer Umgebung installiert; volle Schema-Prüfung wäre aktiv gewesen.
+
+**Quelle-Auswahl geprüft:**
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — **alle drei bereits in `fertig/` erfüllt**, per id-Abgleich bestätigt: vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json. Wunschliste liefert **0 offene** Einträge. (Nicht abgehakt — das macht die App selbst.)
+- **`kraeuter-kandidaten.json`** — alle **87** Kandidaten stehen auf `entwurf_fertig`, **0 auf `offen`**. Kein Self-Heal nötig (kein „offen"-Eintrag, dessen Datei existiert). Statusverteilung: `{'entwurf_fertig': 87}`.
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Gemäß Anweisung („Nichts zu tun?") **keine Monographie erzeugt**, Zustand vermerkt, Lauf sauber beendet. **Kein Fehler** — die Warteschlange ist schlicht abgearbeitet.
+
+### Für den Arzt
+
+- **Der Katalog ist vollständig abgearbeitet.** Alle 87 Kandidaten sind als Entwurf fertig (warten nur noch auf die ärztliche Sichtung → Status `geprueft`), und alle 3 Wunschlisten-Einträge liegen in `fertig/`. Künftige autonome Läufe finden **nichts zu tun**, bis neuer Nachschub kommt: entweder neue Einträge über die App in `docs/wunschliste.json`, oder neue Kandidaten (Status `offen`) in `kraeuter-kandidaten.json`. Ohne Nachschub laufen die Routinen weiterhin leer.
+- Keine inhaltlichen Änderungen an Monographien, `docs/changelog.json` bleibt bei 89 Einträgen unverändert.
