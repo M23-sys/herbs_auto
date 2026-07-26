@@ -1350,3 +1350,7 @@ Naechster offener Kandidat waere gentiana-lutea (Gelber Enzian, Tier 4) gewesen 
 
 - **Der Katalog ist vollständig abgearbeitet.** Alle 87 Kandidaten sind als Entwurf fertig (warten nur noch auf die ärztliche Sichtung → Status `geprueft`), und alle 3 Wunschlisten-Einträge liegen in `fertig/`. Künftige autonome Läufe finden **nichts zu tun**, bis neuer Nachschub kommt: entweder neue Einträge über die App in `docs/wunschliste.json`, oder neue Kandidaten (Status `offen`) in `kraeuter-kandidaten.json`. Ohne Nachschub laufen die Routinen weiterhin leer.
 - Keine inhaltlichen Änderungen an Monographien, `docs/changelog.json` bleibt bei 89 Einträgen unverändert.
+
+### Zweite Zündung am 2026-07-26 (autonom)
+
+Die Routine feuerte am selben Tag ein weiteres Mal. Zustand unverändert gegenüber der ersten Zündung (Commit `fab6963`): Wunschliste (vitis-vinifera, chenopodium-album, platanus-hispanica) vollständig in `fertig/` erfüllt, Kandidatenliste weiterhin 87× `entwurf_fertig` / **0× `offen`**. Kein Self-Heal nötig, keine Monographie erzeugt, keine inhaltliche Änderung. **Kein Fehler** — nur ein leerer Nachlauf. Nachschub (Wunschliste oder neue `offen`-Kandidaten) weiterhin nötig, sonst laufen alle künftigen Läufe leer.
