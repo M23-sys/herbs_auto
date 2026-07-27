@@ -1391,3 +1391,15 @@ Erneute Zündung am 2026-07-27. Zustand unverändert gegenüber allen vorherigen
 Weder Wunschliste noch Kandidatenliste liefern offene Arten → gemäß Anweisung **keine Monographie erzeugt**, keine inhaltliche Änderung (`docs/changelog.json` unverändert). **Kein Fehler** — die Warteschlange ist restlos abgearbeitet.
 
 **Für den Arzt:** Fünfter Leerlauf in Folge. Der Katalog ist vollständig als Entwurf fertig (87 Kandidaten `entwurf_fertig`, warten nur auf ärztliche Sichtung → Status `geprueft`; 3 Wunschlisten-Einträge in `fertig/`). Die Routine findet dauerhaft nichts zu tun und feuert weiter leer. **Empfehlung:** entweder die fertigen Entwürfe sichten, neue Arten liefern (Wunschliste über die App oder `offen`-Kandidaten in der Kandidatenliste), oder **die Routine pausieren**, um weitere Leerläufe zu vermeiden.
+
+## Lauf 2026-07-27 (autonom, dritte Zündung) — Leerlauf, nichts zu tun
+
+Erneute Zündung am 2026-07-27 — **sechster Leerlauf in Folge**. Zustand unverändert.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id-Abgleich in `fertig/` bestätigt (→ monographie-weinrebe.json, monographie-weisser-gaensefuss.json, monographie-platane.json). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig.
+- **Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0 vorhanden.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
+
+**Für den Arzt:** Die Routine läuft jetzt zum sechsten Mal in Folge leer und wird das bei jeder Zündung weiter tun, solange kein Nachschub kommt. **Empfehlung: Routine pausieren** (oder fertige Entwürfe sichten → Status `geprueft`, bzw. neue Arten über Wunschliste/`offen`-Kandidaten liefern), um weitere Leerläufe zu vermeiden.
