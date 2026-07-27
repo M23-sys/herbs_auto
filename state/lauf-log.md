@@ -1365,3 +1365,16 @@ Erneute Zündung derselben Routine am selben Tag. Zustand unverändert gegenübe
 Weder Wunschliste noch Kandidatenliste liefern offene Arten → gemäß Anweisung **keine Monographie erzeugt**, keine inhaltliche Änderung (`docs/changelog.json` bleibt unverändert). **Kein Fehler** — die Warteschlange ist schlicht abgearbeitet.
 
 **Für den Arzt:** Der Katalog ist vollständig abgearbeitet. Alle 87 Kandidaten stehen als Entwurf fertig (warten nur noch auf die ärztliche Sichtung → Status `geprueft`), alle 3 Wunschlisten-Einträge liegen in `fertig/`. Bis neuer Nachschub kommt — neue Einträge über die App in `docs/wunschliste.json` oder neue `offen`-Kandidaten in `kraeuter-kandidaten.json` — laufen alle künftigen autonomen Läufe leer. Empfehlung: entweder die fertigen Entwürfe sichten oder die Routine pausieren, um Leerläufe zu vermeiden.
+
+## Lauf 2026-07-27 (autonom) — Leerlauf, nichts zu tun
+
+Erste Zündung am 2026-07-27 (nach drei Leerläufen am 2026-07-26). Zustand unverändert:
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — **alle drei bereits in `fertig/` erfüllt**, per id-Abgleich frisch bestätigt: vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json. **0 offene** Wünsche. (Nicht abgehakt — das macht die App.)
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig.
+
+**Vorbereitung:** `pip install -r requirements.txt` — jsonschema war bereits vorhanden (volle Schemaprüfung wäre aktiv).
+
+Weder Wunschliste noch Kandidatenliste liefern offene Arten → gemäß Anweisung **keine Monographie erzeugt**, keine inhaltliche Änderung (`docs/changelog.json` unverändert). **Kein Fehler** — die Warteschlange ist abgearbeitet.
+
+**Für den Arzt:** Vierter Leerlauf in Folge. Der Katalog ist vollständig als Entwurf fertig; die Routine findet dauerhaft nichts zu tun und feuert weiter leer. **Empfehlung:** entweder die fertigen Entwürfe sichten (Status → `geprueft`), neue Arten liefern (Wunschliste über die App oder `offen`-Kandidaten), oder **die Routine pausieren**, um weitere Leerläufe zu vermeiden.
