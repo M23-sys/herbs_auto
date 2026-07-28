@@ -1439,3 +1439,15 @@ Erneute Zündung am 2026-07-28 — **neunter Leerlauf in Folge**, zweite am selb
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
 
 **Für den Arzt:** Neunter ergebnisloser Lauf. Zum achten Lauf wurde bereits eine Push-Benachrichtigung ausgelöst; dieser Lauf verzichtet bewusst auf eine erneute Push-Meldung (identischer, bereits gemeldeter Zustand — kein Mehrwert). Die Routine feuert bei jeder Zündung weiter leer, solange kein Mensch eingreift. **Dringende Empfehlung: Routine pausieren.** Alternativ Nachschub liefern (neue Wunschlisten-Einträge über die App oder `offen`-Kandidaten) — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen.
+
+## Lauf 2026-07-28 (autonom, dritte Zündung desselben Tages) — Leerlauf, nichts zu tun
+
+Erneute Zündung am 2026-07-28 — **zehnter Leerlauf in Folge**, dritte am selben Tag. Zustand unverändert.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id-Abgleich in `fertig/` bestätigt (→ monographie-weinrebe.json, monographie-weisser-gaensefuss.json, monographie-platane.json; Synonyme geprüft). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig, keine verwaisten Einträge.
+- **Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
+
+**Für den Arzt:** Zehnter ergebnisloser Lauf. Push-Benachrichtigung wurde bereits am achten Lauf ausgelöst; dieser Lauf verzichtet bewusst auf eine erneute Push-Meldung (identischer, bereits gemeldeter Zustand — kein Mehrwert, nur Lärm). Die Routine feuert bei jeder Zündung weiter leer und verbraucht Rechenzeit ohne Gegenwert, solange kein Mensch eingreift. **Dringende Empfehlung: Routine pausieren.** Alternativ Nachschub liefern (neue Wunschlisten-Einträge über die App oder `offen`-Kandidaten in der Kandidatenliste) — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Nur ein Mensch kann diesen Leerlauf beenden.
