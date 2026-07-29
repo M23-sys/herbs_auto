@@ -1463,3 +1463,15 @@ Erneute Zündung am 2026-07-28 — **elfter Leerlauf in Folge**, vierte am selbe
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
 
 **Für den Arzt:** Elfter ergebnisloser Lauf. Push-Benachrichtigung wurde bereits am achten Lauf ausgelöst; dieser Lauf verzichtet bewusst auf eine erneute Push-Meldung (identischer, bereits gemeldeter Zustand — reiner Lärm). Die Routine feuert bei jeder Zündung weiter leer und verbraucht Rechenzeit ohne Gegenwert, solange kein Mensch eingreift. **Dringende Empfehlung: Routine pausieren.** Alternativ Nachschub liefern (neue Wunschlisten-Einträge über die App oder `offen`-Kandidaten in der Kandidatenliste) — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Nur ein Mensch kann diesen Leerlauf beenden.
+
+## Lauf 2026-07-29 (autonom) — Leerlauf, nichts zu tun
+
+Erste Zündung am 2026-07-29 — **zwölfter Leerlauf in Folge**. Zustand gegenüber den vier Läufen vom 2026-07-28 unverändert.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id- **und** Synonym-Abgleich in `fertig/` bestätigt (vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json, deren `synonyms` zusätzlich `Platanus × acerifolia`/`× hybrida` führen). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig, keine verwaisten Einträge.
+- **Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
+
+**Für den Arzt:** Zwölfter ergebnisloser Lauf (erster am 2026-07-29). Push-Benachrichtigung wurde bereits am achten Lauf ausgelöst; dieser Lauf verzichtet erneut bewusst darauf (identischer, bereits gemeldeter Zustand — reiner Lärm). Solange kein Mensch eingreift, feuert die Routine bei jeder Zündung leer und verbraucht Rechenzeit ohne Gegenwert. **Dringende Empfehlung: Routine pausieren.** Alternativ Nachschub liefern (neue Wunschlisten-Einträge über die App oder `offen`-Kandidaten in der Kandidatenliste) — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Nur ein Mensch kann diesen Leerlauf beenden.
