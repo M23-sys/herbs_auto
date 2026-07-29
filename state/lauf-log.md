@@ -1487,3 +1487,15 @@ Erneute Zündung am 2026-07-29 — **dreizehnter Leerlauf in Folge**, zweite am 
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
 
 **Für den Arzt:** Dreizehnter ergebnisloser Lauf. Push-Benachrichtigung wurde bereits am achten Lauf ausgelöst; dieser Lauf verzichtet erneut bewusst darauf (identischer, bereits gemeldeter Zustand — reiner Lärm, kein Mehrwert). Solange kein Mensch eingreift, feuert die Routine bei jeder Zündung leer und verbraucht Rechenzeit ohne Gegenwert. **Dringende Empfehlung: Routine pausieren.** Alternativ Nachschub liefern (neue Wunschlisten-Einträge über die App oder `offen`-Kandidaten in der Kandidatenliste) — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Nur ein Mensch kann diesen Leerlauf beenden.
+
+## Lauf 2026-07-29 (autonom, dritte Zündung desselben Tages) — Leerlauf, nichts zu tun
+
+Erneute Zündung am 2026-07-29 — **vierzehnter Leerlauf in Folge**, dritte am selben Tag. Zustand unverändert.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id- **und** Synonym-Abgleich in `fertig/` bestätigt (→ monographie-weinrebe.json, monographie-weisser-gaensefuss.json, monographie-platane.json). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig, keine verwaisten Einträge.
+- **Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
+
+**Für den Arzt:** Vierzehnter ergebnisloser Lauf. Push-Benachrichtigung wurde am achten Lauf ausgelöst; seither bewusst kein erneuter Push (identischer Zustand — reiner Lärm). Die Routine muss laufen bleiben, um neue Wunschlisten-Einträge zeitnah zu erfassen — ein Pausieren würde genau diese Reaktionsfähigkeit brechen; daher **kein** eigenmächtiges Pausieren. Solange kein Nachschub kommt, feuert sie leer. **Nur ein Mensch kann das ändern:** neue Wunschlisten-Einträge über die App liefern, `offen`-Kandidaten ergänzen — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Wenn kein Nachschub absehbar ist, Routine-Intervall strecken oder pausieren.
