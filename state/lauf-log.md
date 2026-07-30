@@ -1547,3 +1547,15 @@ Dritte Zündung am 2026-07-30 — **achtzehnter Leerlauf in Folge**. Zustand geg
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
 
 **Für den Arzt:** Achtzehnter ergebnisloser Lauf, dritter am 2026-07-30. Push-Benachrichtigung wurde am achten Lauf ausgelöst; seither bewusst kein erneuter Push (identischer, bereits gemeldeter Zustand — reiner Lärm). Die Routine bleibt laufbereit, um neue Wunschlisten-Einträge zeitnah zu erfassen — kein eigenmächtiges Pausieren. Solange kein Nachschub kommt, feuert sie leer und verbraucht Rechenzeit ohne Gegenwert. **Nur ein Mensch kann das ändern:** neue Wunschlisten-Einträge über die App liefern, `offen`-Kandidaten in der Kandidatenliste ergänzen — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Wenn absehbar kein Nachschub kommt, empfiehlt sich, das Routine-Intervall deutlich zu strecken oder die Routine zu pausieren.
+
+## Lauf 2026-07-30 (autonom, vierte Zündung des Tages) — Leerlauf, nichts zu tun
+
+Vierte Zündung am 2026-07-30 — **neunzehnter Leerlauf in Folge**. Zustand gegenüber allen vorangehenden Läufen unverändert.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id- **und** Synonym-Abgleich in `fertig/` bestätigt (vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json; letztere führt `synonyms` `Platanus × acerifolia`/`× hybrida`). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig, keine verwaisten Einträge.
+- **Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
+
+**Für den Arzt:** Neunzehnter ergebnisloser Lauf, vierter am 2026-07-30. Push-Benachrichtigung wurde am achten Lauf ausgelöst; seither bewusst kein erneuter Push (identischer, bereits gemeldeter Zustand — reiner Lärm). Die Routine bleibt laufbereit, um neue Wunschlisten-Einträge zeitnah zu erfassen — kein eigenmächtiges Pausieren. Solange kein Nachschub kommt, feuert sie leer und verbraucht Rechenzeit ohne Gegenwert. **Nur ein Mensch kann das ändern:** neue Wunschlisten-Einträge über die App liefern, `offen`-Kandidaten in der Kandidatenliste ergänzen — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Wenn absehbar kein Nachschub kommt, empfiehlt sich, das Routine-Intervall deutlich zu strecken oder die Routine zu pausieren.
