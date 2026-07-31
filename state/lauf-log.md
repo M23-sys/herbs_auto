@@ -1571,3 +1571,15 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Push-Benachrichtigung bereits am achten Lauf ausgelöst; bewusst kein erneuter Push (identischer, gemeldeter Zustand).
 
 **Für den Arzt:** Seit dem achten Lauf feuert die Routine ergebnislos. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten ergänzen, oder die 87 Entwürfe sichten und auf `geprueft` setzen. Bis dahin: Routine-Intervall strecken oder pausieren spart Rechenzeit.
+
+## Lauf 2026-07-31 (autonom, zweite Zündung des Tages) — Leerlauf, nichts zu tun
+
+**Einundzwanzigster Leerlauf in Folge**, zweite Zündung am 2026-07-31. Zustand unverändert gegenüber allen Vorläufen.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id- **und** Synonym-Abgleich in `fertig/` bestätigt (vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**, keine verwaisten `datei`-Verweise. Kein Self-Heal nötig.
+- Vorbereitung: `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Push-Benachrichtigung bereits am achten Lauf ausgelöst; bewusst kein erneuter Push (identischer, gemeldeter Zustand — reiner Lärm).
+
+**Für den Arzt:** Seit dem achten Lauf feuert die Routine ergebnislos. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten in der Kandidatenliste ergänzen, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Bis dahin: Routine-Intervall deutlich strecken oder Routine pausieren spart Rechenzeit ohne Verlust.
