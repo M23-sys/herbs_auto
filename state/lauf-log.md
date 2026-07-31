@@ -1595,3 +1595,15 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Bewusst kein Push (identischer, bereits am achten Lauf gemeldeter Zustand — reiner Lärm).
 
 **Für den Arzt:** Unverändert seit dem achten Lauf. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten in der Kandidatenliste ergänzen, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Bis dahin: Routine-Intervall deutlich strecken oder pausieren spart Rechenzeit ohne Verlust.
+
+## Lauf 2026-07-31 (autonom, vierte Zündung des Tages) — Leerlauf, nichts zu tun
+
+**Dreiundzwanzigster Leerlauf in Folge**, vierte Zündung am 2026-07-31. Zustand unverändert; unabhängig gegengeprüft (nicht dem Vorlauf-Log vertraut).
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id-Abgleich in `fertig/` bestätigt: vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json. **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — unabhängig ausgezählt: 87 Einträge, Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**, keine verwaisten `datei`-Verweise. Kein Self-Heal nötig.
+- Vorbereitung: `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Bewusst kein Push (identischer, bereits am achten Lauf gemeldeter Zustand — reiner Lärm für den Arzt).
+
+**Für den Arzt:** Unverändert seit dem achten Lauf. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten in der Kandidatenliste ergänzen, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Bis dahin: Routine-Intervall deutlich strecken oder pausieren spart Rechenzeit ohne Verlust.
