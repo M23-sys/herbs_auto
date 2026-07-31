@@ -1559,3 +1559,15 @@ Vierte Zündung am 2026-07-30 — **neunzehnter Leerlauf in Folge**. Zustand geg
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet.
 
 **Für den Arzt:** Neunzehnter ergebnisloser Lauf, vierter am 2026-07-30. Push-Benachrichtigung wurde am achten Lauf ausgelöst; seither bewusst kein erneuter Push (identischer, bereits gemeldeter Zustand — reiner Lärm). Die Routine bleibt laufbereit, um neue Wunschlisten-Einträge zeitnah zu erfassen — kein eigenmächtiges Pausieren. Solange kein Nachschub kommt, feuert sie leer und verbraucht Rechenzeit ohne Gegenwert. **Nur ein Mensch kann das ändern:** neue Wunschlisten-Einträge über die App liefern, `offen`-Kandidaten in der Kandidatenliste ergänzen — oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Wenn absehbar kein Nachschub kommt, empfiehlt sich, das Routine-Intervall deutlich zu strecken oder die Routine zu pausieren.
+
+## Lauf 2026-07-31 (autonom, erste Zündung des Tages) — Leerlauf, nichts zu tun
+
+**Zwanzigster Leerlauf in Folge**, erste Zündung am 2026-07-31. Zustand unverändert gegenüber allen Vorläufen.
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id-Abgleich in `fertig/` bestätigt (→ monographie-weinrebe / -weisser-gaensefuss / -platane.json). **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**, keine verwaisten `datei`-Verweise. Kein Self-Heal nötig.
+- Vorbereitung: `pip install -r requirements.txt` → jsonschema 4.26.0 neu installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Push-Benachrichtigung bereits am achten Lauf ausgelöst; bewusst kein erneuter Push (identischer, gemeldeter Zustand).
+
+**Für den Arzt:** Seit dem achten Lauf feuert die Routine ergebnislos. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten ergänzen, oder die 87 Entwürfe sichten und auf `geprueft` setzen. Bis dahin: Routine-Intervall strecken oder pausieren spart Rechenzeit.
