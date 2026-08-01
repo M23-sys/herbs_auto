@@ -1619,3 +1619,15 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Bewusst keine Push-Benachrichtigung (identischer, bereits am achten Lauf gemeldeter Zustand — reiner Lärm für den Arzt).
 
 **Für den Arzt:** Unverändert seit dem achten Lauf, jetzt 24 ergebnislose Läufe. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten in der Kandidatenliste ergänzen, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung:** Routine pausieren oder Intervall auf wöchentlich strecken — die tägliche Zündung erzeugt nur noch Log-Rauschen ohne jeden Ertrag.
+
+## Lauf 2026-08-01 (autonom, zweite Zündung) — Leerlauf, nichts zu tun
+
+**Fünfundzwanzigster Leerlauf in Folge**, zweite Zündung am 2026-08-01. Zustand unverändert; unabhängig gegengeprüft (nicht dem Vorlauf-Log vertraut).
+
+- **`docs/wunschliste.json`** (3 Einträge: vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id- **und** Synonym-Abgleich in `fertig/` bestätigt: vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json. **0 offene** Wünsche.
+- **`kraeuter-kandidaten.json`** — unabhängig ausgezählt: 87 Einträge, Statusverteilung `{'entwurf_fertig': 87}`, **0× `offen`**, keine verwaisten `datei`-Verweise. Kein Self-Heal nötig.
+- Vorbereitung: `pip install -r requirements.txt` → jsonschema installiert.
+
+Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Bewusst keine Push-Benachrichtigung (identischer, bereits am achten Lauf gemeldeter Zustand — reiner Lärm für den Arzt).
+
+**Für den Arzt:** Unverändert seit dem achten Lauf, jetzt 25 ergebnislose Läufe. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten in der Kandidatenliste ergänzen, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung:** Routine pausieren oder Intervall auf wöchentlich strecken — die tägliche Zündung erzeugt nur noch Log-Rauschen ohne jeden Ertrag.
