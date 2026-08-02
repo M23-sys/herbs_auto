@@ -1655,3 +1655,15 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** — Warteschlange restlos abgearbeitet. Bewusst keine Push-Benachrichtigung: identischer Zustand, dem Arzt bereits am achten Lauf gemeldet — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Unverändert seit dem achten Lauf, jetzt 27 ergebnislose Läufe. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge über die App, `offen`-Kandidaten in der Kandidatenliste ergänzen, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung:** Routine pausieren oder Intervall auf wöchentlich strecken — die tägliche Zündung erzeugt nur noch Log-Rauschen ohne jeden Ertrag.
+
+## 2026-08-02 — Kein offener Eintrag (Leerlauf)
+
+**Bearbeitet:** — (0 Monographien erzeugt)
+
+**Auswahlprüfung:**
+- `docs/wunschliste.json`: 3 Einträge (vitis-vinifera, chenopodium-album, platanus-hispanica) — **alle bereits in `fertig/`** vorhanden (monographie-weinrebe.json, monographie-weisser-gaensefuss.json, monographie-platane.json; id-Abgleich bestätigt). Keine offenen Wünsche.
+- `kraeuter-kandidaten.json`: 87 Kandidaten, **alle Status `entwurf_fertig`**, kein einziger `offen`. Nichts zu heilen (keine `offen`-Einträge mit vorhandener Datei).
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung. Lauf sauber beendet — kein Fehler.
+
+**Für den Arzt:** Der Katalog ist aus Sicht der Arbeitswarteschlange vollständig abgearbeitet (alle Kandidaten stehen als Entwurf zur ärztlichen Sichtung bereit). Neue Arbeit entsteht erst, wenn die App neue Einträge in `docs/wunschliste.json` schreibt oder neue `offen`-Kandidaten hinzukommen.
