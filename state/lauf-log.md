@@ -1679,3 +1679,16 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Nichts zu tun, Lauf sauber beendet, kein Fehler. Keine Push-Benachrichtigung (identischer, unveränderter Zustand — reines Rauschen).
 
 **Für den Arzt:** Die Routine feuert inzwischen mehrfach pro Tag ohne jeden Ertrag. Neue Arbeit entsteht nur menschlich: Wunschlisten-Einträge über die App, neue `offen`-Kandidaten, oder die 87 Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung weiterhin: Routine pausieren oder Intervall stark strecken.**
+
+## 2026-08-02 (dritte Zündung desselben Tages) — Leerlauf, Zustand unverändert
+
+**Bearbeitet:** — (0 Monographien). Dritte Routine-Zündung am 2026-08-02; zwei Leerlauf-Einträge für diesen Tag stehen bereits oben.
+
+**Auswahlprüfung (unabhängig gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `docs/wunschliste.json`: 3 Einträge (vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id-**und** Synonym-Abgleich in `fertig/` bestätigt: vitis-vinifera → monographie-weinrebe.json, chenopodium-album → monographie-weisser-gaensefuss.json, platanus-hispanica → monographie-platane.json (Synonyme *Platanus × acerifolia* / *× hybrida*). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, ausgezählt `{'entwurf_fertig': 87}`, **0× `offen`**. Kein verwaister `datei`-Verweis, kein Self-Heal nötig.
+- Vorbereitung: `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container installiert; Prüfskript lauffähig.
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst keine Push-Benachrichtigung: unveränderter Zustand, dem Arzt vielfach gemeldet — eine Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** Weiterhin unverändert — die Routine feuert mehrfach täglich ohne jeden Ertrag. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in der Kandidatenliste, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung weiterhin: Routine pausieren oder Intervall auf wöchentlich strecken.**
