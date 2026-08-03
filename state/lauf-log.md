@@ -1719,3 +1719,17 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst keine Push-Benachrichtigung: unveränderter Zustand, dem Arzt bereits vielfach gemeldet — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Unverändert seit dem 2026-08-01/02. Die Routine feuert weiterhin ohne Ertrag. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in der Kandidatenliste, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung weiterhin: Routine pausieren oder Intervall auf wöchentlich strecken.**
+
+## 2026-08-03 (zweite Zündung desselben Tages) — Leerlauf, Zustand unverändert
+
+**Bearbeitet:** — (0 Monographien). Weitere Routine-Zündung am 2026-08-03; ein Leerlauf-Eintrag für diesen Tag steht bereits oben.
+
+**Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0 im frischen Container installiert; Prüfskript lauffähig (nicht ausgeführt, da nichts erzeugt).
+
+**Auswahlprüfung (unabhängig gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `docs/wunschliste.json`: 3 Einträge (vitis-vinifera, chenopodium-album, platanus-hispanica) — alle drei per id-Abgleich direkt aus den Zieldateien in `fertig/` bestätigt: vitis-vinifera → monographie-weinrebe.json (id `vitis-vinifera`), chenopodium-album → monographie-weisser-gaensefuss.json (id `chenopodium-album`), platanus-hispanica → monographie-platane.json (id `platanus-hispanica`, Synonyme *Platanus × acerifolia* / *× hybrida*). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, ausgezählt `{'entwurf_fertig': 87}`, **0× `offen`**. Kein verwaister `datei`-Verweis, kein Self-Heal nötig.
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst keine Push-Benachrichtigung: unveränderter Zustand, dem Arzt bereits vielfach gemeldet — eine Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** Unverändert seit 2026-08-01. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in der Kandidatenliste, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung weiterhin: Routine pausieren oder Intervall auf wöchentlich strecken.**
