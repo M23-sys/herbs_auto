@@ -1811,3 +1811,15 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 4. **Agastache — Erwartungsdämpfung:** Die kursierenden anxiolytischen/antihypertensiven/antidepressiven Effekte sind **rein präklinisch** (Ratte/Meerschweinchen). Kein Humanbeleg, keine Zulassung. Zusätzlich chemotyp-abhängiger **Pulegon/Estragol**-Gehalt im ätherischen Öl (unsicher) → konzentrierte Ölform und Schwangerschaft im Text als zu meiden markiert. Theoretische MAO-/serotonerge Interaktion (gering, unbelegt) vermerkt.
 
 **Commit:** Monographien + `docs/changelog.json` + dieses Log zusammen. Push auf den Arbeitsbranch. **Kein** Status in `kraeuter-kandidaten.json` geändert (kein Kandidaten-Kraut bearbeitet). Push-Benachrichtigung an den Arzt: **ja** — nach langem Leerlauf wieder echter Nachschub, und Punkt 1 (Wunsch-id-Diskrepanz) braucht seine Aufmerksamkeit.
+
+## 2026-08-04 (vierte Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (unabhängig gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `docs/wunschliste.json`: 2 Einträge (`agastache-mexicana`, `cherry-laurel`). Beide per id- **und** Synonym-Abgleich direkt aus den Zieldateien in `fertig/` als **bereits erfüllt** bestätigt:
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id exakt gleich).
+  - `cherry-laurel` → aufgelöst zu **Prunus laurocerasus** → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme *Laurocerasus officinalis* / *Cerasus laurocerasus* / *Padus laurocerasus*). Beide wurden in der dritten Zündung (Commit `9376a80`) gebaut. **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, ausgezählt `{'entwurf_fertig': 87}`, **0× `offen`**. Kein Self-Heal nötig (kein `offen`-Kandidat, dessen Datei existiert).
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Arbeitsbaum vor diesem Log-Eintrag sauber. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand; der eigentliche Nachschub (die 2 neuen Monographien) wurde bereits in der dritten Zündung gemeldet — eine Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** Unverändert seit der dritten Zündung. Die Wunschliste zeigt noch die 2 Einträge, die die App erst beim nächsten Abgleich mit `fertig/` abhakt (Schreibrichtung: nur die App); das ist erwartetes Verhalten, kein Fehler. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten, oder die fertigen Entwürfe sichten und auf `geprueft` setzen. Erinnerung an Punkt 1 der dritten Zündung: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, bitte diesen Wunsch manuell abhaken.
