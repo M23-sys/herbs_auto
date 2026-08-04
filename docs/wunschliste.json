@@ -1,28 +1,21 @@
 {
   "hinweis": "Wird von der Herbarium-App geschrieben. Die Routine liest sie und arbeitet sie VOR der Kandidatenliste ab.",
-  "stand": "2026-07-22",
-  "anzahl": 3,
+  "stand": "2026-08-04",
+  "anzahl": 2,
   "kandidaten": [
     {
-      "id": "vitis-vinifera",
-      "common": "Grape Vine",
-      "latin": "Vitis vinifera",
+      "id": "agastache-mexicana",
+      "common": "Mexican giant hyssop",
+      "latin": "Agastache mexicana",
       "region": "Bodensee",
       "quelle": "Merkposten"
     },
     {
-      "id": "chenopodium-album",
-      "common": "Lambs Quarters",
-      "latin": "Chenopodium album",
+      "id": "cherry-laurel",
+      "common": "Cherry laurel",
+      "latin": "Cherry laurel",
       "region": "Bodensee",
-      "quelle": "Merkposten"
-    },
-    {
-      "id": "platanus-hispanica",
-      "common": "London planetree",
-      "latin": "Platanus × hispanica",
-      "region": "Bodensee",
-      "quelle": "Merkposten"
+      "quelle": "manuell"
     }
   ]
 }
