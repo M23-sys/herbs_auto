@@ -711,6 +711,22 @@
       "art": "neu",
       "sha": "",
       "text": "Erstfassung (Kandidat, Tier 5). Evidenz konservativ TU: KEINE HMPC- und KEINE ESCOP-Monographie; Bewertung stuetzt sich auf die positive Kommission-E-Monographie (Atemwegskatarrhe, unterstuetzend bei Harnwegsinfekten, aeusserlich hyperaemisierend). Kontrollierte klinische Daten nur fuer die Fixkombination mit Kapuzinerkresse (Angocin), nicht die Einzeldroge — bewusst NICHT hochgestuft. Scharfe Schleimhautreizung: kontraindiziert bei Kindern < 4 Jahren, Magen-/Darmulcus und Nephritis; deadly_confusion=true wegen moeglicher Blattrosetten-Verwechslung mit Rotem Fingerhut/Beinwell (Erkennung: Senfgeruch der frisch angeschnittenen Wurzel). Kein Antibiotika-Ersatz."
+    },
+    {
+      "ts": "2026-08-04T12:35:00Z",
+      "id": "agastache-mexicana",
+      "common": "Mexikanische Duftnessel",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Wunschliste. Mexikanisches Traditionskraut ('toronjil morado', Lamiaceae) — KEINE HMPC/ESCOP/Kommission-E-Monographie; Evidenz nur traditionell/praeklinisch, daher TRAD bzw. TRAD/PRAE. Anxiolytische/blutdrucksenkende Effekte (Leitflavon Tilianin, GABAA/BZD, MAO-Hemmung) stammen aus Tiermodellen, nicht vom Menschen — Erwartung entsprechend gedaempft. NAMENSFALLE: 'giant hyssop' ist kein Ysop (Hyssopus officinalis, Pinocamphon). Aetherisches Oel chemotyp-abhaengig (moeglicher Pulegon-/Estragol-Gehalt) — konzentrierte Oelform und Schwangerschaft meiden."
+    },
+    {
+      "ts": "2026-08-04T12:35:00Z",
+      "id": "prunus-laurocerasus",
+      "common": "Kirschlorbeer",
+      "art": "neu",
+      "sha": "",
+      "text": "Erstfassung aus der Wunschliste (Wunsch-Eintrag 'cherry-laurel' mit Platzhalter-id/latin — korrekt aufgeloest zu Prunus laurocerasus). WARNEINTRAG (not_for_use): cyanogene Glykoside (Prunasin) in Blaettern und Kernen setzen Blausaeure frei. SICHERHEITSKRITISCHE Verwechslung: Kirschlorbeerblatt vs. echtes Kuechenlorbeer-Blatt (Laurus nobilis) — nicht in den Kochtopf. Tox-Grenze: ~50-210 mg HCN/100 g frische Blaetter, letale HCN-Dosis ~1 mg/kg. Sehr haeufige, invasive Heckenpflanze im Bodenseeraum; Kinder/Haustiere vor Blaettern und schwarzen Fruechten schuetzen."
     }
   ]
 }

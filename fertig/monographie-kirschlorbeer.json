@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "id": "prunus-laurocerasus",
+  "stand": "2026-08-04",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Prunus laurocerasus L.",
+    "common_names_de": [
+      "Kirschlorbeer",
+      "Lorbeerkirsche",
+      "Pontische Lorbeerkirsche"
+    ],
+    "family": "Rosaceae (Rosengewächse)",
+    "drug_part": [
+      "keine Selbstanwendung — Warneintrag (historisch: Laurocerasi folium für Aqua Laurocerasi, obsolet)"
+    ],
+    "drug_name_latin": "Laurocerasi folium (historische Giftdroge; keine Selbstanwendung)",
+    "synonyms": [
+      "Laurocerasus officinalis M.Roem.",
+      "Cerasus laurocerasus (L.) Loisel.",
+      "Padus laurocerasus (L.) Mill."
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Immergrüner Strauch/kleiner Baum, meist als dichte Hecke; Blätter groß (bis ~15 cm), ledrig, oberseits kräftig glänzend dunkelgrün",
+      "Zerriebenes Blatt riecht deutlich nach Bittermandel/Marzipan (Blausäure) — NICHT der aromatisch-würzige Duft des Küchenlorbeers",
+      "Blätter länglich-elliptisch, am Rand fein und flach gesägt (nicht ganzrandig), ohne die kräftig durchscheinenden Fiedernerven des Echten Lorbeers",
+      "Weiße, aufrechte Blütentrauben im Frühjahr; danach kirschartige Früchte, grün → rot → glänzend schwarz",
+      "Sehr häufige Zier- und Heckenpflanze in Gärten und Parks (auch Bodenseeraum); verwildert zunehmend"
+    ],
+    "season": "Blüte April–Mai; Früchte (schwarze Steinfrüchte) Spätsommer bis Herbst",
+    "habitat": "Anpflanzung als Heckenstrauch in Gärten/Parks; zunehmend verwildert in Wäldern und an Waldrändern (invasiv)",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "kultur-und-verwildert"
+      }
+    ],
+    "collection_rules": [
+      "NICHT zum Verzehr oder als Küchengewürz sammeln — Blätter enthalten cyanogene Glykoside (Blausäure)",
+      "Sicherer Unterscheider zum Küchenlorbeer: Kirschlorbeerblatt riecht zerrieben nach Bittermandel, ist fein gesägt und stark glänzend; Küchenlorbeer (Laurus nobilis) riecht würzig-aromatisch, ist ganzrandig-wellig und matter",
+      "Kirschartige schwarze Früchte nicht mit Speisekirschen verwechseln — Fruchtfleisch harmlos-fade, aber die Kerne sind giftig (Blausäure); Kinder fernhalten"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Echter Lorbeer (Küchenlorbeer, Gewürzlorbeer)",
+      "scientific_name": "Laurus nobilis",
+      "toxicity_level": "essbar",
+      "note": "SICHERHEITSKRITISCH: Küchenlorbeer-Blätter werden zum Würzen verwendet — die ähnlich geformten Kirschlorbeerblätter dürfen NICHT in den Kochtopf. Echter Lorbeer: ganzrandig-leicht wellig, matter, würzig-aromatischer Duft, kräftig gefiederte Nerven. Kirschlorbeer: fein gesägt, stark glänzend, Bittermandelgeruch beim Zerreiben. Wer im Garten 'Lorbeer' erntet, muss diese beiden sicher trennen."
+    },
+    {
+      "name": "Portugiesischer Kirschlorbeer",
+      "scientific_name": "Prunus lusitanica",
+      "toxicity_level": "giftig",
+      "toxin": "cyanogene Glykoside (Blausäure)",
+      "note": "Ähnliche immergrüne Heckenpflanze; ebenfalls cyanogen und nicht zum Verzehr. Rötliche Blattstiele, schmalere Blätter. Beide sind keine Küchen-/Nahrungspflanzen."
+    },
+    {
+      "name": "Speisekirsche / Vogelkirsche (Früchte)",
+      "scientific_name": "Prunus avium",
+      "toxicity_level": "essbar",
+      "note": "Die schwarzen, kirschartigen Früchte des Kirschlorbeers laden zum Naschen ein. Fruchtfleisch ist weitgehend harmlos, aber fade-bitter; die KERNE enthalten Blausäure. Anders als bei der Speisekirsche steht der Kirschlorbeer als dichte immergrüne Hecke — kein Obstbaum. Besonders Kinder vor den Früchten/Kernen schützen."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "cyanogene Glykoside (Prunasin, Prulaurasin/Sambunigrin) — v. a. in Blättern und Samen"
+    ],
+    "lead_substance": "Prunasin — setzt bei Zellzerstörung (Kauen, Zerkleinern, enzymatische Spaltung) Blausäure (HCN) frei",
+    "solubility_note": "Intakte Glykoside sind ungefährlich; erst durch Zerkleinern/Enzyme entsteht das Gift. Wasserdampfdestillation der Blätter ergibt das historische, hochgiftige 'Kirschlorbeerwasser' (Aqua Laurocerasi). Es gibt KEINE sichere häusliche Zubereitung.",
+    "heat_light_sensitivity": "Blausäure ist flüchtig; die Glykoside selbst werden durch Erhitzen nicht zuverlässig unschädlich — Erhitzen macht das Blatt NICHT sicher genießbar"
+  },
+  "pharmacology": {
+    "mechanism": "Freigesetzte Blausäure (Cyanid) blockiert die mitochondriale Cytochrom-c-Oxidase und damit die zelluläre Sauerstoffverwertung ('innere Erstickung'). Betroffen sind zuerst sauerstoffabhängige Organe (ZNS, Herz).",
+    "evidence_caveat": "Keine Selbstanwendung — jede nennenswerte orale Aufnahme von Blättern/Kernen ist eine Vergiftung, keine dosierte Arznei. Historische medizinische Verwendung (Aqua Laurocerasi als Sedativum/Hustenmittel) ist wegen Vergiftungsgefahr obsolet.",
+    "pharmacokinetics": "Cyanid wird rasch resorbiert; Wirkeintritt bei relevanter Dosis innerhalb von Minuten. Entgiftung über Rhodanase zu Thiocyanat begrenzt und bei höherer Dosis überfordert."
+  },
+  "indications": [],
+  "expectation_summary": {
+    "plausible": "Keine Anwendung. Dieser Eintrag dient der Erkennung und Warnung.",
+    "overstated": "'Lorbeer aus dem eigenen Garten' und 'die Kirschen kann man naschen' sind gefährliche Fehlannahmen: Kirschlorbeerblätter sind kein Küchengewürz, und die Kerne der Früchte setzen Blausäure frei.",
+    "effect_size": "keine Anwendung"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "keine — Giftpflanze, keinerlei Zubereitung"
+    ],
+    "form_rationale": "Blätter und Kerne enthalten cyanogene Glykoside; weder Tee, Würzen noch Destillat sind sicher. Das historische Kirschlorbeerwasser war eine hochgiftige Apothekenzubereitung und ist obsolet.",
+    "standard_dose": "keine — nicht anwenden",
+    "preservation": "—"
+  },
+  "safety": {
+    "tox_ceiling": "Cyanogene Glykoside: frische Blätter enthalten ca. 1–2,5 % cyanogene Glykoside; aus 100 g frischen Blättern können ~50–210 mg Blausäure (HCN) freigesetzt werden (~0,5–2,1 mg HCN/g Blatt). Letale HCN-Dosis beim Menschen in der Größenordnung ~1 mg/kg Körpergewicht (Erwachsener ~50–90 mg). Historisch: mittlere letale orale Dosis von Aqua Laurocerasi ~60 mg/Person, in einem Fallbericht schon 17 Tropfen tödlich. Werte schwanken stark (Jahreszeit, Blattalter) — als Warngröße, nicht als 'sichere Restmenge' lesen.",
+    "contraindications": [
+      "Kein Verzehr der Blätter, kein Einsatz als Küchengewürz",
+      "Kerne der Früchte nicht essen/zerbeißen",
+      "Keine Selbstmedikation, keine Destillate ('Kirschlorbeerwasser')"
+    ],
+    "pregnancy_lactation": "Strikt meiden — cyanogene Pflanze ohne Anwendung; Blausäure ist plazentagängig und für Mutter und Kind gefährlich.",
+    "adverse_effects": "Cyanidvergiftung: Bittermandelgeruch der Atemluft, Kopfschmerz, Schwindel, Übelkeit/Erbrechen, Hyperventilation, Angst, dann Krämpfe, Bewusstlosigkeit, Herz-Kreislauf- und Atemstillstand. Bei relevanter Dosis rascher Verlauf — Notfall (112), spezifische Antidottherapie (z. B. Hydroxocobalamin) erforderlich. Bei Tieren (Hund, Pferd, Wiederkäuer) sind tödliche Vergiftungen durch Blätter/Schnittgut belegt.",
+    "interactions": [
+      {
+        "type": "keine relevanten",
+        "mechanism": "Keine therapeutische Anwendung; jede relevante Aufnahme ist eine Vergiftung, keine dosierte Arzneigabe.",
+        "affected": "—",
+        "clinical_relevance": "—"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "raw_toxicity": true,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false,
+      "not_for_use": true
+    },
+    "key_warning": "Blätter und Kerne sind cyanogen (Blausäure) — niemals als Küchengewürz mit echtem Lorbeer verwechseln und nicht verzehren; größere Mengen können tödlich sein, bei Vergiftung Notruf 112."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "keine Ernte — Giftpflanze",
+    "harvest_month_tags": [],
+    "harvest_organ": "",
+    "method": "—",
+    "processing": "Schnittgut nicht offen liegen lassen (Blausäure-Freisetzung; Gefahr für Weidetiere)",
+    "storage": "—"
+  },
+  "kitchen": {
+    "uses": [],
+    "culinary_vs_medicinal": "Kein Lebensmittel und kein Küchengewürz. Die gefährlichste Verwechslung betrifft die Blätter mit dem Echten Lorbeer (Laurus nobilis)."
+  },
+  "garden": {
+    "site_soil": "anspruchslos, sonnig bis schattig, frische Böden; sehr wüchsig",
+    "hardiness": "weitgehend winterhart, immergrün",
+    "propagation": "Stecklinge, Selbstaussaat über Vögel (Früchte) — dadurch invasiv verwildernd",
+    "bodensee_suitability": "Sehr häufige Heckenpflanze der Region, aber ökologisch problematisch (verdrängt heimische Arten, invasiv) und in allen grünen Teilen giftig. Für Haushalte mit Kindern/Haustieren kritisch; heimische Heckenalternativen bevorzugen."
+  },
+  "images": [
+    {
+      "role": "diagnostic",
+      "caption": "Großes, ledriges, glänzendes, fein gesägtes Blatt — beim Zerreiben Bittermandelgeruch",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "habitus",
+      "caption": "Immergrüner Heckenstrauch mit weißen Blütentrauben bzw. schwarzen kirschartigen Früchten",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "EMA/CVMP: Prunus laurocerasus, Summary Report (MRL) — cyanogene Glykoside (Prunasin/Sambunigrin) 1–2,5 % in Blättern, ~50–210 mg HCN/100 g frische Blätter, Aqua-Laurocerasi-Letaldosis, Prunasin-LD50 Ratte",
+    "Fachliteratur/Giftinformationszentren zu cyanogenen Glykosiden und Blausäurevergiftung (Symptomatik, Antidot Hydroxocobalamin)",
+    "Botanische Standardquellen (Kew POWO / GBIF) zu akzeptierter Taxonomie Prunus laurocerasus L. und Synonymen",
+    "Gartenbau-/Giftpflanzen-Portale zur Verwechslung Blatt Kirschlorbeer vs. Echter Lorbeer (Laurus nobilis) und Fruchtgiftigkeit",
+    "Hinweis: HCN-/Letaldosis-Werte schwanken stark (Blattalter, Jahreszeit); als Warngrößen zu verstehen — ärztliche Gegenprüfung der toxikologischen Angaben empfohlen"
+  ]
+}

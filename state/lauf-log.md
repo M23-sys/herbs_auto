@@ -1789,3 +1789,25 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst keine Push-Benachrichtigung: unveränderter, gesunder Zustand, dem Arzt bereits sechsmal in Folge gemeldet — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Unverändert seit 2026-08-01. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in der Kandidatenliste, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Dringende Empfehlung weiterhin: Routine pausieren oder Intervall auf wöchentlich strecken.**
+
+## 2026-08-04 (dritte Zündung) — 2 Monographien gebaut (endlich Nachschub aus der Wunschliste)
+
+**Bearbeitet:** 2 Monographien, **beide aus der Wunschliste** (`docs/wunschliste.json`). Nach sechs Leerlauf-Zündungen in Folge hat die App zwei **neue** Wünsche eingespielt:
+- `agastache-mexicana` — Mexikanische Duftnessel → `fertig/monographie-mexikanische-duftnessel.json`
+- `cherry-laurel` → aufgelöst zu **Prunus laurocerasus** (Kirschlorbeer) → `fertig/monographie-kirschlorbeer.json`
+
+**Vorbereitung:** `pip install -r requirements.txt` → jsonschema 4.26.0. Dedup gegen `fertig/` (id + `botany.synonyms`) und `vorhanden`: beide Arten neu, keine Dublette. Kandidatenliste unverändert (keine Kandidaten-Kräuter in diesem Lauf → keine Statusänderung dort).
+
+**Prüfung:** `validate_monographie.py` — beide **fehlerfrei**. Duftnessel mit einem `! Hinweis` (enthält bewusst 'unsicher — zu prüfen'; positiv). Kirschlorbeer „✓ alles sauber". Je 1 Versuch, keine Korrekturschleifen.
+
+**Verwendete Hauptquellen:**
+- Agastache mexicana: Übersichtsarbeit PMC8234942 (2021); ethnopharmakologische Studien zu Tilianin (anxiolytisch/sedierend, GABAA/BZD, MAO-Hemmung); Öl-Studie Pharmaceutical Biology 2016. **Keine** EMA/HMPC-, ESCOP- oder Kommission-E-Monographie erreichbar/existent → Evidenz nur TRAD/präklinisch.
+- Prunus laurocerasus: **EMA/CVMP MRL-Summary-Report** (cyanogene Glykoside 1–2,5 %; ~50–210 mg HCN/100 g frische Blätter; Aqua-Laurocerasi-Letaldosis ~60 mg; Prunasin-LD50 Ratte) + Giftinfo-/Gartenbau-Quellen zur Blatt-Verwechslung mit Laurus nobilis.
+
+**Überraschungen / unsichere Stellen — bitte ärztlich prüfen:**
+1. **Wunschlisten-Datenqualität (wichtig):** Der Eintrag `cherry-laurel` hatte eine **Platzhalter-`id`** ("cherry-laurel", kein `gattung-art`) und ein Platzhalter-`latin` ("Cherry laurel" = nur der englische Trivialname). Ich habe ihn zum akzeptierten botanischen Namen **Prunus laurocerasus** aufgelöst und die Datei entsprechend mit `id: prunus-laurocerasus` angelegt. → Die App hakt Wünsche über den Abgleich mit `fertig/` ab; falls sie strikt auf die Wunsch-`id` "cherry-laurel" matcht, wird dieser Wunsch evtl. **nicht automatisch abgehakt**. Bitte im App-Abgleich beachten / Wunsch-id nachziehen.
+2. **Kirschlorbeer ist als WARNEINTRAG angelegt** (`not_for_use`, `indications: []`), obwohl er nicht in der offiziellen Warnpflanzen-Liste (tier 3) der Kandidaten steht. Begründung: cyanogene Giftpflanze ohne legitime moderne Selbstanwendung; die historische Aqua Laurocerasi ist obsolet. Die sicherheitskritische Kernaussage ist die **Blatt-Verwechslung mit echtem Küchenlorbeer (Laurus nobilis)** — das begründet die Aufnahme trotz „keine Heilpflanze".
+3. **HCN-/Letaldosis-Zahlen streuen stark** (Blattalter, Jahreszeit) — im tox_ceiling bewusst als Warngrößen, nicht als „sichere Restmenge" formuliert. `raw_toxicity`-Flag gesetzt (Erhitzen macht das Blatt nicht sicher).
+4. **Agastache — Erwartungsdämpfung:** Die kursierenden anxiolytischen/antihypertensiven/antidepressiven Effekte sind **rein präklinisch** (Ratte/Meerschweinchen). Kein Humanbeleg, keine Zulassung. Zusätzlich chemotyp-abhängiger **Pulegon/Estragol**-Gehalt im ätherischen Öl (unsicher) → konzentrierte Ölform und Schwangerschaft im Text als zu meiden markiert. Theoretische MAO-/serotonerge Interaktion (gering, unbelegt) vermerkt.
+
+**Commit:** Monographien + `docs/changelog.json` + dieses Log zusammen. Push auf den Arbeitsbranch. **Kein** Status in `kraeuter-kandidaten.json` geändert (kein Kandidaten-Kraut bearbeitet). Push-Benachrichtigung an den Arzt: **ja** — nach langem Leerlauf wieder echter Nachschub, und Punkt 1 (Wunsch-id-Diskrepanz) braucht seine Aufmerksamkeit.

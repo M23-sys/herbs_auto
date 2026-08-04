@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "id": "agastache-mexicana",
+  "stand": "2026-08-04",
+  "herkunft": "ki-recherchiert",
+  "botany": {
+    "scientific_name": "Agastache mexicana (Kunth) Lint & Epling",
+    "common_names_de": [
+      "Mexikanische Duftnessel",
+      "Mexikanischer Riesenysop",
+      "Toronjil morado",
+      "Mexican giant hyssop"
+    ],
+    "family": "Lamiaceae (Lippenblütler)",
+    "drug_part": [
+      "blühendes Kraut (Herba)",
+      "Blatt (Folium)"
+    ],
+    "drug_name_latin": "Agastachis mexicanae herba (kein offizieller Arzneibuch-Name; keine europäische Drogenmonographie)",
+    "synonyms": [
+      "Cedronella mexicana Kunth",
+      "Brittonastrum mexicanum (Kunth) Briq.",
+      "Cedronella mexicana (Kunth) Benth."
+    ]
+  },
+  "identification": {
+    "key_features": [
+      "Aufrechter, im Querschnitt deutlich vierkantiger Stängel (Lippenblütler) mit kreuzgegenständigen Blättern",
+      "Blätter lanzettlich bis eiförmig-lanzettlich, gezähnt, beim Zerreiben stark aromatisch (zitronig-minzig)",
+      "Dichte, ährige, quirlständige Blütenstände am Sprossende; Blüten röhrig, zweilippig, je nach Unterart purpur-violett (ssp. mexicana) bis rot/orange (ssp. xolocotziana)",
+      "Krautige, horstige Staude, 0,6–1,2 m hoch, aus Mexiko stammend; in Mitteleuropa nur als Garten-/Kübelpflanze",
+      "Ganze Pflanze mit intensivem, an Melisse/Minze erinnerndem Duft"
+    ],
+    "season": "Blüte Sommer bis Herbst (Juli–Oktober in Kultur)",
+    "habitat": "Ursprünglich Hochland-Mexiko (offene, sonnige, sommerwarme Lagen); in Mitteleuropa/Bodenseeraum nur kultiviert, nicht wild",
+    "region_occurrence": [
+      {
+        "region": "Bodensee/Voralpen",
+        "status": "nur-kultur"
+      }
+    ],
+    "collection_rules": [
+      "Nur aus eigener, sicher bestimmter Kultur ernten — die Art wächst hier nicht wild",
+      "Bestätiger: vierkantiger Stängel, kreuzgegenständige Blätter, zitronig-minziger Duft, quirlständige Ährenblüten",
+      "Gegen andere Duftnesseln (Agastache foeniculum, A. rugosa) nur über Blütenfarbe, Unterart und Duftnote abgrenzbar — botanisch schwierig; im Zweifel Herkunft/Etikett der Pflanze heranziehen"
+    ]
+  },
+  "confusions": [
+    {
+      "name": "Anis-Duftnessel (Anisysop)",
+      "scientific_name": "Agastache foeniculum",
+      "toxicity_level": "essbar",
+      "note": "Nächster Verwandter und Gartennachbar; unterscheidet sich durch anisartigen (nicht zitronig-minzigen) Duft und meist blau-violette Ähren. Beide harmlos, aber chemisch/wirkungsmäßig nicht gleichzusetzen — Verwechslung verfälscht die erwartete Wirkung."
+    },
+    {
+      "name": "Echter Ysop",
+      "scientific_name": "Hyssopus officinalis",
+      "toxicity_level": "giftig",
+      "toxin": "Pinocamphon / Isopinocamphon im ätherischen Öl (krampfauslösend in hoher Dosis)",
+      "note": "NAMENSFALLE: 'giant hyssop' ist kein Ysop. Echter Ysop (bzw. dessen Öl) kann die Krampfschwelle senken. Wer nach Etikett 'Ysop' greift, verwechselt zwei verschiedene Pflanzen. Ysop: niedriger Halbstrauch, schmale ganzrandige Blätter, harzig-kampferartiger Duft."
+    },
+    {
+      "name": "Zitronenmelisse",
+      "scientific_name": "Melissa officinalis",
+      "toxicity_level": "essbar",
+      "note": "Wegen des zitronigen Duftes und des spanischen Namens 'toronjil' (= Melisse) laienhaft gleichgesetzt. Melisse: rundlich-eiförmige, runzelige Blätter, keine dichten Endähren. Beide harmlos, aber botanisch verschieden."
+    }
+  ],
+  "chemistry": {
+    "main_groups": [
+      "Flavonoide (Leitflavon Tilianin = Acacetin-7-O-glucosid; Acacetin)",
+      "Phenolcarbonsäuren",
+      "ätherisches Öl (chemotyp-abhängig, u. a. Pulegon, Isomenthon, Methylchavicol/Estragol — Zusammensetzung schwankt stark nach Unterart und Herkunft, unsicher — zu prüfen)"
+    ],
+    "lead_substance": "Tilianin (Acacetin-7-glucosid) — dem in Tiermodellen beschriebene anxiolytische, blutdrucksenkende und MAO-hemmende Effekte zugeschrieben werden",
+    "solubility_note": "Flavonglykoside wie Tilianin sind mäßig wasserlöslich — als Aufguss teilweise extrahierbar. Die lipophilen Ölanteile gehen besser in Tinktur/Alkohol über. Für die traditionell übliche beruhigende Anwendung ist der wässrige Aufguss (Tee) die naheliegende Form.",
+    "heat_light_sensitivity": "ätherisches Öl flüchtig — Gefäß beim Ziehen abdecken; unsicher — zu prüfen, ob Trocknung den Tilianin-Gehalt mindert"
+  },
+  "pharmacology": {
+    "mechanism": "Für den Methanol-/Wasserextrakt und für isoliertes Tilianin wurden in Nagermodellen anxiolytisch-sedierende Effekte gezeigt, an denen GABAA/Benzodiazepin-Bindungsstellen beteiligt scheinen; Tilianin hemmt zudem in vitro/tierexperimentell die Monoaminoxidase und wirkt gefäßrelaxierend/blutdrucksenkend. Auch antinozizeptive, entzündungshemmende und spasmolytische Effekte sind präklinisch beschrieben.",
+    "evidence_caveat": "Die Datenlage ist präklinisch (Zellkultur, Ratte, Meerschweinchen) und ethnobotanisch. Es existiert KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie und keine belastbare klinische Studie am Menschen. Wirksamkeit, Dosis und Sicherheit beim Menschen sind nicht gesichert.",
+    "pharmacokinetics": "Human-Pharmakokinetik nicht untersucht — unsicher — zu prüfen"
+  },
+  "indications": [
+    {
+      "canonical": "Nervöse Unruhe und Einschlafstörungen (traditionelle Anwendung)",
+      "synonyms": [
+        "Nervosität",
+        "innere Unruhe",
+        "Anspannung",
+        "Schlafprobleme",
+        "Aufregung",
+        "gestresst"
+      ],
+      "evidence_tag": "TRAD/PRÄ",
+      "comment": "Traditionelle mexikanische Anwendung ('toronjil morado') als Beruhigungsmittel; mechanistische Stützung nur aus Tiermodellen. Keine europäische Zulassung/Monographie.",
+      "realistic_expectation": "Bestenfalls milder, beruhigender Teegenuss vergleichbar anderen Melissen-/Minzenaufgüssen. KEIN belegter Effekt auf Angststörungen, Depression oder behandlungsbedürftige Schlafstörungen. Ersetzt keine wirksame Therapie.",
+      "source": "Ethnobotanik Mexiko; präklinische Studien (Methanolextrakt/Tilianin, GABAA/BZD-Beteiligung, MAO-Hemmung im Tiermodell)"
+    },
+    {
+      "canonical": "Funktionelle Verdauungsbeschwerden (traditionelle Anwendung)",
+      "synonyms": [
+        "Blähungen",
+        "Völlegefühl",
+        "Magendrücken",
+        "verdorbener Magen",
+        "Bauchweh"
+      ],
+      "evidence_tag": "TRAD",
+      "comment": "Volksmedizinische Verwendung als Karminativum/Magenmittel, wie bei aromatischen Lippenblütlern üblich; keine kontrollierte Evidenz.",
+      "realistic_expectation": "Als warmer Kräutertee möglicherweise mild entspannend auf den Verdauungstrakt — nicht mehr als bei Melisse oder Pfefferminze. Kein Beleg für eine darüber hinausgehende Wirkung.",
+      "source": "Ethnobotanik Mexiko; präklinische spasmolytische Befunde am glatten Muskel"
+    }
+  ],
+  "expectation_summary": {
+    "plausible": "Angenehmer, aromatischer Beruhigungstee mit plausibler, aber klinisch unbelegter mild-sedierender und verdauungsentspannender Wirkung — auf dem Niveau anderer Lippenblütler-Aufgüsse.",
+    "overstated": "Die im Netz und in Studien-Abstracts betonten anxiolytischen, blutdrucksenkenden und antidepressiven Effekte stammen aus Tiermodellen. Als belegte Wirkung beim Menschen darstellbar sind sie NICHT. 'Natürliches Angst-/Blutdruckmittel' ist eine Überschätzung.",
+    "effect_size": "mild; symptomatisch, traditionell"
+  },
+  "preparation": {
+    "recommended_forms": [
+      "Aufguss (Tee) aus getrocknetem blühendem Kraut",
+      "Frischkraut als Küchen-/Teekraut"
+    ],
+    "form_rationale": "Traditionell wird das Kraut als heißer Aufguss getrunken; die mäßig wasserlöslichen Flavonglykoside (Tilianin) und Aromastoffe gehen dabei teilweise über. Konzentrierte/standardisierte Zubereitungen sind mangels Daten nicht empfehlbar.",
+    "standard_dose": "unsicher — zu prüfen: keine etablierte, geprüfte Dosierung. Traditionell ca. 1–2 TL getrocknetes Kraut auf eine Tasse als Aufguss. Nicht als Dauermedikation, nicht in konzentrierter Ölform.",
+    "preservation": "getrocknetes Kraut trocken, licht- und luftgeschützt lagern"
+  },
+  "safety": {
+    "tox_ceiling": "",
+    "contraindications": [
+      "Schwangerschaft und Stillzeit (unzureichende Daten; mögliche Pulegon-Anteile im Öl — meiden)",
+      "Kein Ersatz für ärztlich behandlungsbedürftige Angst-, Depressions- oder Schlafstörungen",
+      "Konzentrierte Öl-/Extraktpräparate meiden (Chemotyp und Pulegon-/Estragol-Gehalt ungeklärt)"
+    ],
+    "pregnancy_lactation": "Mangels Daten in Schwangerschaft und Stillzeit meiden. Ätherische Öle mancher Chemotypen können Pulegon enthalten (potenziell lebertoxisch/abortiv) — deshalb besonders die konzentrierte Ölform strikt meiden. unsicher — zu prüfen.",
+    "adverse_effects": "Bei Teegenuss keine typischen Nebenwirkungen bekannt; systematische Sicherheitsdaten am Menschen fehlen. Theoretisch allergische Reaktionen (Lippenblütler) möglich.",
+    "interactions": [
+      {
+        "type": "theoretisch",
+        "mechanism": "Präklinisch beschriebene MAO-Hemmung durch Tilianin; klinische Relevanz beim Menschen unbelegt, aber theoretisch additive Effekte mit serotonergen/MAO-hemmenden Arzneistoffen denkbar.",
+        "affected": "Antidepressiva (MAO-Hemmer, SSRI), zentral dämpfende Mittel",
+        "clinical_relevance": "gering (theoretisch, unbelegt) — bei gleichzeitiger Psychopharmaka-Einnahme ärztlich abklären"
+      }
+    ],
+    "flags": {
+      "deadly_confusion": false,
+      "toxin_ceiling": false,
+      "pregnancy_contraindicated": false,
+      "interaction_heavy": false,
+      "asteraceae_allergy": false,
+      "topical_only": false,
+      "high_safety": false
+    },
+    "key_warning": "Wirkung beim Menschen nicht klinisch belegt (nur Tiermodelle/Tradition) — als milder Beruhigungstee vertretbar, aber kein Ersatz für eine wirksame Therapie; konzentrierte Öl-/Extraktformen und Anwendung in der Schwangerschaft meiden."
+  },
+  "harvest_processing_storage": {
+    "harvest_time": "während der Blüte (Sommer bis Frühherbst)",
+    "harvest_month_tags": [7, 8, 9],
+    "harvest_organ": "Kraut",
+    "method": "blühende Triebspitzen schneiden",
+    "processing": "luftig im Schatten trocknen, um das Aroma zu erhalten",
+    "storage": "getrocknet, trocken und dunkel, in geschlossenem Gefäß"
+  },
+  "kitchen": {
+    "uses": [
+      "aromatisches Teekraut",
+      "essbare Blüten als Dekoration",
+      "zitronig-minzige Würze in Desserts/Getränken (sparsam)"
+    ],
+    "culinary_vs_medicinal": "In Küchenmengen als Aroma-/Teekraut unbedenklich. Die 'medizinische' Abgrenzung ist unscharf: über den milden Genusswert hinaus ist keine belegte Heilwirkung anzunehmen."
+  },
+  "garden": {
+    "site_soil": "sonnig, warm, durchlässiger, eher magerer Boden; Staunässe meiden",
+    "hardiness": "nur bedingt winterhart (Hochland-Mexiko); in kalten Lagen frostgefährdet, oft als einjährig kultiviert oder frostfrei überwintert",
+    "propagation": "Aussaat, Teilung, Stecklinge; gute Bienen-/Insektenweide",
+    "bodensee_suitability": "Als Gartenstaude/Kübelpflanze im Bodenseeraum kultivierbar, braucht aber Winterschutz oder frostfreies Überwintern. Verwildert hier nicht — bleibt eine reine Kulturpflanze."
+  },
+  "images": [
+    {
+      "role": "habitus",
+      "caption": "Aufrechte Staude mit quirlständigen, ährigen purpurvioletten Blütenständen",
+      "url": "",
+      "source": "",
+      "license": ""
+    },
+    {
+      "role": "diagnostic",
+      "caption": "Vierkantiger Stängel mit kreuzgegenständigen, gezähnten, aromatischen Blättern",
+      "url": "",
+      "source": "",
+      "license": ""
+    }
+  ],
+  "user_layer": {
+    "notes": "",
+    "own_photos": [],
+    "found_locations": [],
+    "garden_status": ""
+  },
+  "sources": [
+    "Estrada-Reyes et al. u. a.: präklinische Studien zu Agastache mexicana / Tilianin (anxiolytisch-sedierend, GABAA/BZD, MAO-Hemmung; Journal of Ethnopharmacology)",
+    "Übersichtsarbeit 'A Systematic Approach to Agastache mexicana Research: Biology, Agronomy, Phytochemistry, and Bioactivity' (PMC8234942, 2021)",
+    "Studie zum relaxierenden Effekt des ätherischen Öls von A. mexicana ssp. mexicana an Trachea-Glattmuskel (Pharmaceutical Biology 2016)",
+    "Ethnobotanik: traditionelle mexikanische Verwendung als 'toronjil morado' (Angst, Unruhe, Hypertonie, Verdauung)",
+    "Hinweis: KEINE EMA/HMPC-, ESCOP- oder Kommission-E-Monographie vorhanden — Evidenzgrad daher nur TRAD/präklinisch; ärztliche Gegenprüfung nötig. Chemotyp/ätherisches-Öl-Zusammensetzung (Pulegon/Estragol) unsicher."
+  ]
+}
