@@ -1855,3 +1855,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 - `kraeuter-kandidaten.json`: 87× `entwurf_fertig`, **0× `offen`**. Kein Self-Heal nötig.
 
 **Ergebnis:** Kein Bau, keine Prüfung, keine Statusänderung. `changelog.json` unverändert. Sauber beendet, kein Fehler. Bewusst **keine** Push-Benachrichtigung (unveränderter, gesunder Zustand). Empfehlung an den Arzt unverändert: Routine-Intervall strecken/pausieren bis Nachschub (neue Wünsche, neue `offen`-Kandidaten, oder Entwürfe sichten). Weiterhin offen: Wunsch-`id` `cherry-laurel` ≠ Datei-`id` `prunus-laurocerasus` — falls die App strikt matcht, manuell abhaken.
+
+## 2026-08-05 (vierte Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `docs/wunschliste.json`: 2 Einträge, beide per id- **und** Synonym-Abgleich in `fertig/` als erfüllt bestätigt — `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id exakt gleich); `cherry-laurel` → *Prunus laurocerasus* → `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme *Laurocerasus officinalis* / *Cerasus laurocerasus* / *Padus laurocerasus*). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87× `entwurf_fertig`, **0× `offen`** (ausgezählt). Kein Self-Heal nötig.
+
+**Ergebnis:** Kein Bau, keine Prüfung, keine Statusänderung. `docs/changelog.json` unverändert. Sauber beendet, kein Fehler. Bewusst **keine** Push-Benachrichtigung — unveränderter, gesunder Zustand; der letzte echte Nachschub wurde in der dritten Zündung (2026-08-04, Commit `9376a80`) gemeldet.
+
+**Für den Arzt:** Fünfter Leerlauf in Folge. Nachschub kann nur ein Mensch liefern (neue Wunschlisten-Einträge, neue `offen`-Kandidaten, oder die 87 Entwürfe sichten und auf `geprueft` setzen). Weiterhin offen: Wunsch-`id` `cherry-laurel` ≠ Datei-`id` `prunus-laurocerasus` — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
