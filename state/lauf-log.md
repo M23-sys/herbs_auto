@@ -1847,3 +1847,11 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand; der letzte echte Nachschub wurde in der dritten Zündung (2026-08-04, Commit `9376a80`) gemeldet, eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt (unverändert, aber weiterhin relevant):** Die Routine fährt jetzt mehrere Zündungen in Folge leer. Nachschub kann nur ein Mensch liefern — neue Wunschlisten-Einträge, neue `offen`-Kandidaten, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Offener Punkt aus der dritten Zündung: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Empfehlung: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
+
+## 2026-08-05 (dritte Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft):**
+- `docs/wunschliste.json`: 2 Einträge, beide per id- **und** Synonym-Abgleich in `fertig/` erfüllt — `agastache-mexicana` → `monographie-mexikanische-duftnessel.json`; `cherry-laurel` → *Prunus laurocerasus* → `monographie-kirschlorbeer.json`. **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87× `entwurf_fertig`, **0× `offen`**. Kein Self-Heal nötig.
+
+**Ergebnis:** Kein Bau, keine Prüfung, keine Statusänderung. `changelog.json` unverändert. Sauber beendet, kein Fehler. Bewusst **keine** Push-Benachrichtigung (unveränderter, gesunder Zustand). Empfehlung an den Arzt unverändert: Routine-Intervall strecken/pausieren bis Nachschub (neue Wünsche, neue `offen`-Kandidaten, oder Entwürfe sichten). Weiterhin offen: Wunsch-`id` `cherry-laurel` ≠ Datei-`id` `prunus-laurocerasus` — falls die App strikt matcht, manuell abhaken.
