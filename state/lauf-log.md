@@ -1901,3 +1901,18 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`) — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Achter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
+
+## 2026-08-06 (vierte Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `pip install -r requirements.txt`: `jsonschema` erfolgreich installiert (Prüfskript voll funktionsfähig).
+- `docs/wunschliste.json`: 2 Einträge (`agastache-mexicana`, `cherry-laurel`). Beide per id- **und** Synonym-Abgleich direkt aus den Zieldateien in `fertig/` als **bereits erfüllt** bestätigt:
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id exakt `agastache-mexicana`; sci *Agastache mexicana (Kunth) Lint & Epling*; Synonyme *Cedronella mexicana Kunth* / *Brittonastrum mexicanum* / *Cedronella mexicana (Kunth) Benth.*).
+  - `cherry-laurel` → aufgelöst zu **Prunus laurocerasus** → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`; Synonyme *Laurocerasus officinalis* / *Cerasus laurocerasus* / *Padus laurocerasus*; Warneintrag `not_for_use=true`). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, ausgezählt `Counter({'entwurf_fertig': 87})`, **0× `offen`**. Kein Self-Heal nötig (kein `offen`-Kandidat, dessen Datei existiert).
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**.
+
+**Notifikation:** Anders als bei den acht vorherigen Leerläufen wurde diesmal **eine** Push-Benachrichtigung gesendet — nicht wegen einer Zustandsänderung (der ist unverändert gesund), sondern weil die Routine jetzt zum **neunten Mal in Folge leer feuert** und das eine menschliche Entscheidung erfordert (Intervall strecken/pausieren oder Nachschub liefern). Das reine Weiterloggen hat den Arzt in acht Zündungen nicht erreicht; eine einmalige, ausdrücklich handlungsorientierte Meldung ist gerechtfertigt. Dies ist eine **einmalige** Eskalation, kein neues Pro-Lauf-Muster.
+
+**Für den Arzt:** Neunter Leerlauf in Folge, unverändert seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`). Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen und verbrauchen Ressourcen ohne Nutzen.
