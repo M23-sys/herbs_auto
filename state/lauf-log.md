@@ -1901,3 +1901,15 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`) — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Achter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
+
+## 2026-08-07 — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `docs/wunschliste.json`: 2 Einträge (`agastache-mexicana`, `cherry-laurel`). Beide per id- **und** Synonym-Abgleich direkt aus den Zieldateien in `fertig/` als **bereits erfüllt** bestätigt:
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id exakt `agastache-mexicana`).
+  - `cherry-laurel` → aufgelöst zu **Prunus laurocerasus** → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`; Synonyme *Laurocerasus officinalis M.Roem.* / *Cerasus laurocerasus (L.) Loisel.* / *Padus laurocerasus (L.) Mill.* direkt in der Datei verifiziert; Warneintrag `not_for_use=true`). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, ausgezählt `Counter({'entwurf_fertig': 87})`, **0× `offen`**. Kein Self-Heal nötig (kein `offen`-Kandidat, dessen Datei existiert). `fertig/` enthält 118 Monographien.
+
+**Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`) — eine Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** Neunter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
