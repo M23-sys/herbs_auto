@@ -1923,3 +1923,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Keine offenen Arten aus beiden Quellen. Kein Bau, keine Prüfung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler. Keine Push-Benachrichtigung (unveränderter, gesunder Zustand seit 2026-08-04; Wiederholung wäre Rauschen).
 
 **Für den Arzt:** Zehnter Leerlauf in Folge. Nachschub kann nur ein Mensch liefern (neue Wunsch-/`offen`-Einträge oder die 87 Entwürfe auf `geprueft` setzen). Weiterhin offen: Wunsch-`id` `cherry-laurel` ≠ Datei-`id` `prunus-laurocerasus` — bei striktem App-Matching bitte manuell abhaken. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
+
+## 2026-08-07 (dritte Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft, nicht dem Vorlauf-Log vertraut):**
+- `docs/wunschliste.json`: 2 Einträge (`agastache-mexicana`, `cherry-laurel`) — beide per id- **und** Synonym-Abgleich direkt aus den Zieldateien in `fertig/` als **bereits erfüllt** bestätigt: `monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`, sci *Agastache mexicana (Kunth) Lint & Epling*) und `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme *Laurocerasus officinalis* / *Cerasus laurocerasus* / *Padus laurocerasus*, Warneintrag `not_for_use=true`). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, ausgezählt `Counter({'entwurf_fertig': 87})`, **0× `offen`**. Kein `offen`-Kandidat mit fehlender Datei → kein Self-Heal nötig. `fertig/` = 118 Dateien.
+
+**Ergebnis:** Keine offenen Arten aus beiden Quellen. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 — eine Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** Elfter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
