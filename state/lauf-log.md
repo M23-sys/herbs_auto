@@ -1913,3 +1913,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Weder Wunschliste noch Kandidatenliste liefern offene Arten. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`) — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Neunter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
+
+## 2026-08-07 (zweite Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft):**
+- `docs/wunschliste.json`: 2 Einträge (`agastache-mexicana`, `cherry-laurel`) — beide per id- **und** Synonym-Abgleich in `fertig/` als **bereits erfüllt** bestätigt (`monographie-mexikanische-duftnessel.json` → id `agastache-mexicana`; `monographie-kirschlorbeer.json` → id `prunus-laurocerasus`, Synonyme *Laurocerasus officinalis* / *Cerasus laurocerasus* / *Padus laurocerasus*). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, `Counter({'entwurf_fertig': 87})`, **0× `offen`**. Kein Self-Heal nötig. `fertig/` = 118 Dateien.
+
+**Ergebnis:** Keine offenen Arten aus beiden Quellen. Kein Bau, keine Prüfung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler. Keine Push-Benachrichtigung (unveränderter, gesunder Zustand seit 2026-08-04; Wiederholung wäre Rauschen).
+
+**Für den Arzt:** Zehnter Leerlauf in Folge. Nachschub kann nur ein Mensch liefern (neue Wunsch-/`offen`-Einträge oder die 87 Entwürfe auf `geprueft` setzen). Weiterhin offen: Wunsch-`id` `cherry-laurel` ≠ Datei-`id` `prunus-laurocerasus` — bei striktem App-Matching bitte manuell abhaken. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
