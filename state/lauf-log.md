@@ -1953,3 +1953,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Keine offenen Arten aus beiden Quellen. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`) — eine Wiederholung wäre reines Rauschen.
 
 **Für den Arzt:** Dreizehnter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
+
+## 2026-08-08 (zweite Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Dateien direkt gegengeprüft):**
+- `docs/wunschliste.json`: 2 Einträge (`agastache-mexicana`, `cherry-laurel`) — beide per id- **und** Synonym-Abgleich direkt aus `fertig/` als **bereits erfüllt** bestätigt: `monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`) und `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`; `cherry-laurel` botanisch = *Prunus laurocerasus*). **0 offene Wünsche.**
+- `kraeuter-kandidaten.json`: 87 Einträge, `Counter({'entwurf_fertig': 87})`, **0× `offen`**. Kein Self-Heal nötig. `fertig/` = 118 Dateien.
+
+**Ergebnis:** Keine offenen Arten aus beiden Quellen. Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Zweite Zündung desselben Tages — Zustand identisch zu Commit `61b7a73`. Lauf sauber beendet — **kein Fehler**. Bewusst **keine** Push-Benachrichtigung: unveränderter, gesunder Zustand seit 2026-08-04 (Nachschub `9376a80`) — Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** Vierzehnter Leerlauf in Folge, unverändert seit 2026-08-04. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Weiterhin offen: die Wunsch-`id` `cherry-laurel` weicht von der Datei-`id` `prunus-laurocerasus` ab — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Dringende Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
