@@ -2083,3 +2083,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Push-Benachrichtigung:** Bewusst **keine**. Zustand unverändert seit 2026-08-04; am 20. Leerlauf (2026-08-09) ging bereits **einmalig** eine Push-Info aufs Telefon. Eine Wiederholung wäre reines Rauschen — Schweigen ist korrekt.
 
 **Für den Arzt:** 25. Leerlauf in Folge, unverändert seit 2026-08-04 (letzter echter Nachschub Commit `9376a80`). Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Rein informativ (unverändert): Wunsch-`id` `cherry-laurel` ≠ Datei-`id` `prunus-laurocerasus` — falls die App strikt auf die Wunsch-`id` matcht, diesen Wunsch bitte manuell abhaken. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — sonst laufen weiter leere Zündungen.
+
+## 2026-08-11 (zweite Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Quelldateien erneut direkt gegengeprüft, 2026-08-11):** `docs/wunschliste.json` = 2 Einträge, beide per id/Synonym als **erfüllt** bestätigt (`agastache-mexicana` → `monographie-mexikanische-duftnessel.json`; `cherry-laurel`/*Prunus laurocerasus* → `monographie-kirschlorbeer.json`). `kraeuter-kandidaten.json` = 87× `entwurf_fertig`, **0× `offen`**. `fertig/` = 118 Dateien. **0 offene Arten aus beiden Quellen.**
+
+**Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+
+**Push:** Bewusst **keine** — Zustand unverändert seit 2026-08-04, einmalige Push-Info ging bereits am 2026-08-09 raus; Wiederholung wäre Rauschen.
+
+**Für den Arzt:** 26. Leerlauf in Folge und **zweite** Leerzündung allein heute (2026-08-11). Die Routine feuert inzwischen mehrfach täglich ins Leere. Nachschub kann nur ein Mensch liefern (neue Wunsch-/`offen`-Einträge oder die 87 Entwürfe auf `geprueft` setzen). **Empfehlung dringlicher denn je: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — bei mehreren Leerzündungen pro Tag lohnt sich das Pausieren sofort.
