@@ -2113,3 +2113,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Push:** Bewusst **keine** — Zustand unverändert seit 2026-08-04, einmalige Push-Info ging bereits am 2026-08-09 raus; Wiederholung wäre Rauschen.
 
 **Für den Arzt:** 28. Leerlauf in Folge, erste Zündung am 2026-08-12. Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert und dringlich: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — die Routine feuert seit Tagen mehrfach täglich ins Leere.
+
+## 2026-08-12 (zweite Zündung) — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Quelldateien direkt gegengeprüft, nicht dem Vorlauf-Log vertraut, 2026-08-12):** `docs/wunschliste.json` = 2 Einträge, beide per id/Synonym-Abgleich gegen `fertig/` als **bereits erfüllt** bestätigt (`agastache-mexicana` → `monographie-mexikanische-duftnessel.json`, Datei-id `agastache-mexicana`; `cherry-laurel`/*Prunus laurocerasus* → `monographie-kirschlorbeer.json`, Datei-id `prunus-laurocerasus`). `kraeuter-kandidaten.json` = 87 Einträge, ausgezählt `Counter({'entwurf_fertig': 87})`, **0× `offen`** → kein Bau, kein Self-Heal. `fertig/` = 118 Dateien. **0 offene Arten aus beiden Quellen.** `pip install -r requirements.txt` ok.
+
+**Ergebnis:** Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+
+**Push:** Bewusst **keine** — Zustand unverändert seit 2026-08-04, einmalige Push-Info ging bereits am 2026-08-09 raus; Wiederholung wäre reines Rauschen.
+
+**Für den Arzt:** 29. Leerlauf in Folge, zweite Leerzündung allein heute (2026-08-12). Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert und dringlich: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — die Routine feuert seit über einer Woche mehrfach täglich ins Leere.
