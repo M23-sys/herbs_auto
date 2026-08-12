@@ -2103,3 +2103,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Push:** Bewusst **keine** — Zustand unverändert seit 2026-08-04, einmalige Push-Info ging bereits am 2026-08-09 raus; Wiederholung wäre Rauschen.
 
 **Für den Arzt:** 27. Leerlauf in Folge, **dritte** Leerzündung allein heute (2026-08-11). Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert und dringlich: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — mehrere Leerzündungen pro Tag sind reine Verschwendung.
+
+## 2026-08-12 — Leerlauf: nichts zu tun
+
+**Auswahlprüfung (Quelldateien direkt gegengeprüft, 2026-08-12):** `docs/wunschliste.json` = 2 Einträge, beide per id/Synonym als **erfüllt** bestätigt (`agastache-mexicana` → `monographie-mexikanische-duftnessel.json`, id `agastache-mexicana`; `cherry-laurel`/*Prunus laurocerasus* → `monographie-kirschlorbeer.json`, id `prunus-laurocerasus`, Synonyme geprüft). `kraeuter-kandidaten.json` = 87× `entwurf_fertig`, **0× `offen`** → kein Bau, kein Self-Heal. `fertig/` = 118 Dateien. **0 offene Arten aus beiden Quellen.** `pip install -r requirements.txt` ok (jsonschema 4.26.0).
+
+**Ergebnis:** Kein Bau, keine Prüfung, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+
+**Push:** Bewusst **keine** — Zustand unverändert seit 2026-08-04, einmalige Push-Info ging bereits am 2026-08-09 raus; Wiederholung wäre Rauschen.
+
+**Für den Arzt:** 28. Leerlauf in Folge, erste Zündung am 2026-08-12. Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert und dringlich: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — die Routine feuert seit Tagen mehrfach täglich ins Leere.
