@@ -2161,3 +2161,11 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler. **Benachrichtigung:** bewusst keine (Lage unverändert seit 2026-08-04, Idle-Push ging bereits 2026-08-09 raus).
 
 **Für den Arzt (unverändert):** 33. Leerlauf in Folge. Nachschub kann nur ein Mensch liefern (neue Wunschlisten-/`offen`-Einträge oder die 87 Entwürfe sichten). **Empfehlung: Routine strecken oder pausieren, bis Nachschub vorliegt.**
+
+## 2026-08-13 (dritte Zündung) — Leerlauf: nichts zu tun (34. in Folge)
+
+**Auswahlprüfung (Quelldateien direkt ausgezählt, nicht dem Vorlauf-Log vertraut, 2026-08-13):** `docs/wunschliste.json` = 2 Einträge, beide per id-/Synonym-Abgleich gegen `fertig/` (118 Dateien) **erfüllt**: `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (Datei-id `agastache-mexicana`); `cherry-laurel`/*Prunus laurocerasus* → `monographie-kirschlorbeer.json` (Datei-id `prunus-laurocerasus`, Synonym `Laurocerasus officinalis M.Roem.` u. a. verifiziert). `kraeuter-kandidaten.json` = `Counter({'entwurf_fertig': 87})`, **0× `offen`** → kein Bau, kein Self-Heal (jeder `entwurf_fertig`-Kandidat hat seine Datei). `pip install -r requirements.txt` ok (jsonschema 4.26.0). **0 offene Arten aus beiden Quellen.**
+
+**Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler. **Benachrichtigung:** bewusst keine (Lage unverändert seit 2026-08-04, Idle-Push ging bereits 2026-08-09 raus; Wiederholung wäre Rauschen).
+
+**Für den Arzt (unverändert, dringlich):** 34. Leerlauf in Folge. Seit 2026-08-04 kein Nachschub; die Routine feuert seit über einer Woche mehrfach täglich ins Leere, das Log wächst nur noch. Nachschub kann **nur ein Mensch** liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
