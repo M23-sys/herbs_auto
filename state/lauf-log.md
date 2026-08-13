@@ -2143,3 +2143,13 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Benachrichtigung:** Bewusst **keine** neue Push-Info — Lage unverändert seit 2026-08-04, Push-Info zum Leerlauf ging bereits am 2026-08-09 raus; eine Wiederholung für denselben unveränderten Zustand wäre reines Rauschen.
 
 **Für den Arzt:** 31. Leerlauf in Folge, vierte Leerzündung allein am 2026-08-12. Seit 2026-08-04 kein Nachschub. Nachschub kann **nur ein Mensch** liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert und dringlich: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt** — die Routine feuert seit über einer Woche mehrfach täglich ins Leere, das Log wächst nur noch.
+
+## 2026-08-13 — Leerlauf: nichts zu tun (32. in Folge)
+
+**Auswahlprüfung (Quelldateien direkt ausgezählt, 2026-08-13):** `docs/wunschliste.json` = 2 Einträge, beide per id-/Synonym-Abgleich gegen `fertig/` (118 Dateien) **erfüllt**: `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`); `cherry-laurel`/*Prunus laurocerasus* → `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme `Laurocerasus officinalis` u. a. geprüft). `kraeuter-kandidaten.json` = `Counter({'entwurf_fertig': 87})`, **0× `offen`** → kein Bau, kein Self-Heal. `pip install -r requirements.txt` ok (jsonschema 4.26.0). **0 offene Arten aus beiden Quellen.**
+
+**Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+
+**Benachrichtigung:** Bewusst **keine** neue Push-Info — Lage unverändert seit 2026-08-04, Push-Info zum Leerlauf ging bereits am 2026-08-09 raus; eine Wiederholung desselben unveränderten Zustands wäre Rauschen.
+
+**Für den Arzt (unverändert, dringlich):** 32. Leerlauf in Folge, erste Zündung am 2026-08-13. Seit 2026-08-04 kein Nachschub; die Routine feuert seit über einer Woche mehrfach täglich ins Leere, das Log ist auf >2100 Zeilen gewachsen. Nachschub kann **nur ein Mensch** liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
