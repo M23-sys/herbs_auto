@@ -2185,3 +2185,21 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler. **Benachrichtigung:** bewusst keine (Lage unverändert seit 2026-08-04, Idle-Push ging bereits 2026-08-09 raus; erneuter Push wäre Rauschen).
 
 **Für den Arzt (unverändert, dringlich):** 36. Leerlauf in Folge, erster am 2026-08-14. Seit 2026-08-04 kein Nachschub; die Routine feuert seit über einer Woche mehrfach täglich ins Leere, das Log wächst nur noch. Nachschub kann **nur ein Mensch** liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
+
+---
+
+## Lauf 2026-08-14 (Routine, autonom) — kein Bau, beide Wünsche bereits erfüllt
+
+**Vorbereitung:** `pip install -r requirements.txt` ok (jsonschema 4.26.0). `docs/wunschliste.json` (2 Einträge) und `kraeuter-kandidaten.json` gelesen.
+
+**Auswahl / Dedup:**
+- Wunsch 1 `agastache-mexicana` (Toronjil morado / Mexican giant hyssop): **bereits erfüllt** → `fertig/monographie-mexikanische-duftnessel.json` trägt `id: agastache-mexicana`, `scientific_name: Agastache mexicana (Kunth) Lint & Epling`, `stand 2026-08-04`. Direkter id-Treffer → übersprungen.
+- Wunsch 2 `cherry-laurel` (Platzhalter-latin; = *Prunus laurocerasus*): **bereits erfüllt** → `fertig/monographie-kirschlorbeer.json` (`id: prunus-laurocerasus`, Warneintrag). Übersprungen.
+- Kandidatenliste: 87× `entwurf_fertig`, **0× `offen`** → kein Zweitbau möglich. Self-Heal-Prüfung ohne Handlungsbedarf.
+- Ergebnis: **0 offene Arten** aus beiden Quellen.
+
+**Beinah-Dublette (Prozesshinweis für den Arzt/Betreiber):** Ich hatte den Wunsch `agastache-mexicana` zunächst gebaut (`monographie-mexikanischer-riesenysop.json`), weil ein rein **dateinamensbasierter** Dedup-Check den bestehenden Eintrag verfehlte — die vorhandene Datei heißt `mexikanische-duftnessel`, nicht `…agastache…`. Der **id-basierte** Abgleich (`"id": "agastache-mexicana"` in `fertig/`) fand die Dublette. Datei wieder entfernt, mein Changelog-Eintrag zurückgenommen. **Lehre:** Dedup zwingend über `id` **und** `botany.synonyms` aller `fertig/`-Dateien, nicht über Dateinamen.
+
+**Ergebnis:** Kein Bau, keine Statusänderung in `kraeuter-kandidaten.json`, `docs/changelog.json` inhaltlich unverändert (nur dieser Log-Eintrag). Sauber beendet — kein Fehler.
+
+**Für den Arzt (unverändert, dringlich):** Erneuter Leerlauf. Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die fertigen Entwürfe sichten und auf `geprueft` setzen. Empfehlung: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.
