@@ -2219,3 +2219,11 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Benachrichtigung:** bewusst keine. Lage seit 2026-08-04 unverändert; Idle-Push ging bereits 2026-08-09 raus. Erneuter Push desselben Zustands wäre Rauschen.
 
 **Für den Arzt (unverändert):** Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.
+
+## 2026-08-14T18:20:20Z (Routine, autonom) — Leerlauf: nichts zu tun (38.+ in Folge)
+
+**Vorbereitung:** `pip install -r requirements.txt` ok (jsonschema). Quelldateien direkt ausgezählt.
+**Auswahl/Dedup:** Wunsch 1 `agastache-mexicana` → erfüllt (`fertig/monographie-mexikanische-duftnessel.json`, id-Treffer). Wunsch 2 `cherry-laurel`/*Prunus laurocerasus* → erfüllt (`fertig/monographie-kirschlorbeer.json`, id `prunus-laurocerasus`, Synonyme verifiziert). Kandidatenliste: 87× `entwurf_fertig`, **0× `offen`**. Self-Heal ohne Handlungsbedarf. → **0 offene Arten**.
+**Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+**Benachrichtigung:** bewusst keine (Lage unverändert; Idle-Push lief bereits 2026-08-09).
+**Für den Arzt (unverändert):** Seit 2026-08-04 kein Nachschub. Nur ein Mensch kann Nachschub liefern: neue Wunschlisten-Einträge, neue `offen`-Kandidaten oder die 87 Entwürfe sichten/auf `geprueft` setzen. Empfehlung: Routine-Intervall strecken oder pausieren.
