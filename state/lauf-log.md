@@ -2203,3 +2203,19 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Kein Bau, keine Statusänderung in `kraeuter-kandidaten.json`, `docs/changelog.json` inhaltlich unverändert (nur dieser Log-Eintrag). Sauber beendet — kein Fehler.
 
 **Für den Arzt (unverändert, dringlich):** Erneuter Leerlauf. Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die fertigen Entwürfe sichten und auf `geprueft` setzen. Empfehlung: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.
+
+## 2026-08-14T17:21:40Z (weitere Zündung 2026-08-14) — Leerlauf: nichts zu tun (37.+ in Folge)
+
+**Vorbereitung:** `pip install -r requirements.txt` ok (jsonschema 4.26.0). `docs/wunschliste.json` (2 Einträge) und `kraeuter-kandidaten.json` gelesen. Quelldateien **direkt ausgezählt**, nicht dem Vorlauf-Log vertraut.
+
+**Auswahl / Dedup (Vorrang Wunschliste):**
+- Wunsch 1 `agastache-mexicana` (*Agastache mexicana*): **erfüllt** → `fertig/monographie-mexikanische-duftnessel.json` trägt `id: agastache-mexicana` (direkter id-Treffer). Übersprungen.
+- Wunsch 2 `cherry-laurel` (Platzhalter-latin; = Kirschlorbeer / *Prunus laurocerasus*): **erfüllt** → `fertig/monographie-kirschlorbeer.json` (`id: prunus-laurocerasus`, sci `Prunus laurocerasus L.`, Synonyme `Laurocerasus officinalis M.Roem.`, `Cerasus laurocerasus`, `Padus laurocerasus` verifiziert; Warneintrag `not_for_use`). Übersprungen.
+- Kandidatenliste: `Counter({'entwurf_fertig': 87})`, **0× `offen`** → kein Bau möglich. Self-Heal-Prüfung ohne Handlungsbedarf (kein `offen`-Kandidat, dessen Datei bereits existiert).
+- Ergebnis: **0 offene Arten** aus beiden Quellen.
+
+**Ergebnis:** Kein Bau, keine Statusänderung in `kraeuter-kandidaten.json`, `docs/changelog.json` inhaltlich unverändert. Sauber beendet — kein Fehler.
+
+**Benachrichtigung:** bewusst keine. Lage seit 2026-08-04 unverändert; Idle-Push ging bereits 2026-08-09 raus. Erneuter Push desselben Zustands wäre Rauschen.
+
+**Für den Arzt (unverändert):** Seit 2026-08-04 kein Nachschub. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.
