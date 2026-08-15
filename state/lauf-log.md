@@ -2227,3 +2227,11 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
 **Benachrichtigung:** bewusst keine (Lage unverändert; Idle-Push lief bereits 2026-08-09).
 **Für den Arzt (unverändert):** Seit 2026-08-04 kein Nachschub. Nur ein Mensch kann Nachschub liefern: neue Wunschlisten-Einträge, neue `offen`-Kandidaten oder die 87 Entwürfe sichten/auf `geprueft` setzen. Empfehlung: Routine-Intervall strecken oder pausieren.
+
+## 2026-08-15T00:19:40Z (Routine, autonom) — Leerlauf: nichts zu tun (39.+ in Folge)
+
+**Vorbereitung:** `pip install -r requirements.txt` ok (jsonschema 4.26.0). `docs/wunschliste.json` (2 Einträge) und `kraeuter-kandidaten.json` gelesen, Quelldateien **direkt ausgezählt** (nicht dem Vorlauf-Log vertraut).
+**Auswahl/Dedup (Vorrang Wunschliste):** Wunsch 1 `agastache-mexicana` → **erfüllt** (`fertig/monographie-mexikanische-duftnessel.json`, direkter id-Treffer `id: agastache-mexicana`). Wunsch 2 `cherry-laurel`/*Prunus laurocerasus* → **erfüllt** (`fertig/monographie-kirschlorbeer.json`, `id: prunus-laurocerasus`, Synonyme `Laurocerasus officinalis M.Roem.` u. a. verifiziert). Kandidatenliste: `Counter({'entwurf_fertig': 87})`, **0× `offen`** → kein Bau möglich. Self-Heal-Prüfung: jeder Kandidat hat seine `fertig/`-Datei (0 fehlend) → kein Handlungsbedarf. → **0 offene Arten aus beiden Quellen.**
+**Ergebnis:** Kein Bau, keine Statusänderung in `kraeuter-kandidaten.json`, `docs/changelog.json` inhaltlich unverändert. Sauber beendet — kein Fehler.
+**Benachrichtigung:** bewusst keine (Lage seit 2026-08-04 unverändert; Idle-Push lief bereits 2026-08-09 — Wiederholung wäre Rauschen).
+**Für den Arzt (unverändert, dringlich):** ~39. Leerlauf in Folge. Seit 2026-08-04 kein Nachschub — die Routine feuert seit über einer Woche mehrfach täglich ins Leere, das Log wächst nur noch. Nachschub kann **nur ein Mensch** liefern: neue Wunschlisten-Einträge über die App, neue `offen`-Kandidaten in `kraeuter-kandidaten.json`, oder die 87 fertigen Entwürfe sichten und auf `geprueft` setzen. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
