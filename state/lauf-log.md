@@ -2258,3 +2258,10 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler. Log bewusst knapp gehalten (Datei wächst nur noch durch identische Leerläufe).
 **Benachrichtigung:** bewusst keine (Lage seit 2026-08-04 unverändert; Idle-Push lief 2026-08-09).
 **Für den Arzt:** ~42. Leerlauf in Folge. Seit 2026-08-04 kein Nachschub. Nur ein Mensch kann liefern: neue Wunschlisten-Einträge, neue `offen`-Kandidaten oder die 87 Entwürfe sichten/auf `geprueft` setzen. **Empfehlung unverändert: Routine strecken oder pausieren.**
+
+## 2026-08-16T00:20:00Z (Routine, autonom) — Leerlauf: nichts zu tun (43.+ in Folge)
+
+**Auswahl/Dedup (unabhängig verifiziert, nicht dem Vorlauf-Log vertraut):** `docs/wunschliste.json` (2 Einträge) + `kraeuter-kandidaten.json` direkt ausgezählt. Wunsch 1 `agastache-mexicana` → erfüllt (`fertig/monographie-mexikanische-duftnessel.json`, id-Treffer). Wunsch 2 `cherry-laurel`/*Prunus laurocerasus* → erfüllt (`fertig/monographie-kirschlorbeer.json`, id `prunus-laurocerasus`, Synonyme verifiziert, Warneintrag `not_for_use`). Kandidatenliste: 87× `entwurf_fertig`, **0× `offen`**. Self-Heal: kein `offen`-Kandidat → kein Handlungsbedarf. → **0 offene Arten.**
+**Ergebnis:** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+**Benachrichtigung:** bewusst keine (Lage seit 2026-08-04 unverändert; Idle-Push lief 2026-08-09).
+**Für den Arzt:** ~43. Leerlauf in Folge. Seit 2026-08-04 kein Nachschub. Nur ein Mensch kann liefern: neue Wunschlisten-Einträge, neue `offen`-Kandidaten oder die 87 Entwürfe sichten/auf `geprueft` setzen. **Empfehlung unverändert: Routine strecken oder pausieren, bis Nachschub vorliegt.**
