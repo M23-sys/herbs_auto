@@ -2361,3 +2361,9 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Auswahl/Dedup (verifiziert):** Wunschliste (2 Einträge) beide erfüllt — `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer), `cherry-laurel`/*Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme geprüft). Kandidatenliste per Python-Counter: `{'entwurf_fertig': 87}`, **0× `offen`**. Self-Heal: kein `offen`-Eintrag → kein Handlungsbedarf. → **0 offene Arten aus beiden Quellen.** Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
 **Benachrichtigung:** bewusst keine (Lage seit 2026-08-04 unverändert; Idle-Push lief bereits 2026-08-09).
 **Für den Arzt:** Situation unverändert seit ~2 Wochen. Nachschub kann nur ein Mensch liefern: neue Wunschlisten-Einträge (App), neue `offen`-Kandidaten, oder die 87 Entwürfe sichten/auf `geprueft` setzen. **Empfehlung unverändert: Routine-Intervall strecken oder pausieren, bis Nachschub vorliegt.**
+
+## 2026-08-19T18:18:44Z (Routine, autonom) — Leerlauf: nichts zu tun (58. in Folge)
+
+**Verifiziert:** Wunschliste (2 Einträge) beide erfüllt — `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json`, `cherry-laurel`/*Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json`. Kandidatenliste per Python-Counter: `{'entwurf_fertig': 87}`, **0× `offen`**. → 0 offene Arten. Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
+**Benachrichtigung:** bewusst keine (Lage seit 2026-08-04 unverändert; Idle-Push lief bereits 2026-08-09).
+**Für den Arzt:** Unverändert. Nachschub nur durch Menschen: neue Wunschlisten-/`offen`-Einträge oder die 87 Entwürfe sichten/auf `geprueft` setzen. **Empfehlung: Routine strecken/pausieren, bis Nachschub vorliegt.**
