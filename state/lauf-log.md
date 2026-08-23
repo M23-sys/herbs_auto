@@ -2457,3 +2457,9 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Verifiziert (Python):** Wunschliste (`stand` 2026-08-20, 2 Einträge) beide erfüllt — `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json`, `cherry-laurel`/*Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json`. Kandidatenliste: `{'entwurf_fertig': 87}`, **0× `offen`**. → 0 offene Arten. Kein Bau, keine Statusänderung, Changelog unverändert. Sauber beendet.
 **Benachrichtigung:** bewusst keine (Lage unverändert seit 2026-08-04 — Push wäre Rauschen).
 **Für den Arzt:** Unverändert seit ~3 Wochen (73 Leerläufe in Folge). Nachschub nur durch Menschen: neue Wunschlisten-/`offen`-Einträge oder die 87 Entwürfe auf `geprueft` setzen. **Empfehlung unverändert: Routine strecken/pausieren, bis Nachschub vorliegt.**
+
+## 2026-08-23 (Routine, autonom, 4. Lauf) — Leerlauf: nichts zu tun (74. in Folge)
+
+**Verifiziert (Python):** Wunschliste (`stand` 2026-08-20, 2 Einträge) beide erfüllt — `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json`, `cherry-laurel`/*Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json`. Kandidatenliste: `{'entwurf_fertig': 87}`, **0× `offen`**. → 0 offene Arten aus beiden Quellen. Kein Bau, keine Statusänderung, Changelog unverändert. Sauber beendet.
+**Benachrichtigung:** bewusst keine (Lage unverändert seit 2026-08-04 — Push wäre Rauschen).
+**Für den Arzt:** Unverändert seit ~3 Wochen (74 Leerläufe in Folge). Nachschub nur durch Menschen: neue Wunschlisten-/`offen`-Einträge oder die 87 Entwürfe auf `geprueft` setzen. **Empfehlung unverändert: Routine strecken/pausieren, bis Nachschub vorliegt.**
