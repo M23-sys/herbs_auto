@@ -2579,3 +2579,7 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Aktion:** Keine Monographie erzeugt, kein Status geändert, kein Changelog-Eintrag. Lauf sauber beendet (kein Fehler). Nur dieser Log-Eintrag.
 
 **Hinweis an den Arzt:** Der Katalog ist vollständig abgearbeitet. Neue Arbeit entsteht erst, wenn die App neue Einträge in die Wunschliste schreibt oder ein Kandidat wieder auf `offen` gesetzt wird.
+
+## 2026-08-28T12:50Z (Routine, autonom) — Leerlauf (92. in Folge), Kurzeintrag
+
+Unverändert: Wunschliste (2 Einträge) beide in `fertig/` erledigt (`agastache-mexicana`, `cherry-laurel`→`prunus-laurocerasus`); Kandidaten `{'entwurf_fertig': 87}`, **0× offen**. Kein Bau, kein Statuswechsel, `docs/changelog.json` unverändert. Bewusst nur eine Zeile (Log wächst sonst nur durch identische Leerlauf-Blöcke — bereits ~457 KB). Keine Benachrichtigung (Lage unverändert, kein Fehler). **Empfehlung unverändert: Routine pausieren, bis die App neue Wunschlisten-/`offen`-Einträge liefert oder Entwürfe gesichtet werden.**
