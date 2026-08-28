@@ -2565,3 +2565,17 @@ Keine Monographie erzeugt, `docs/changelog.json` unverändert. **Kein Fehler** �
 **Verifiziert (Python):** Wunschliste `docs/wunschliste.json` (`stand` 2026-08-20, 2 Einträge) beide erfüllt — `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer), `cherry-laurel`/*Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme *Laurocerasus/Cerasus/Padus laurocerasus* geprüft). Kandidaten `Counter` = `{'entwurf_fertig': 87}`, **0× `offen`** → keine Selbstheilung nötig. → 0 offene Arten aus beiden Quellen. Kein Bau, keine Statusänderung, `docs/changelog.json` unverändert. Sauber beendet — kein Fehler.
 **Benachrichtigung:** bewusst keine (Lage unverändert seit 2026-08-04 — Push wäre Rauschen; Idle-Push lief bereits 2026-08-09).
 **Für den Arzt:** Unverändert (91 Leerläufe in Folge). `state/lauf-log.md` ist inzwischen ~454 KB, das Wachstum stammt ausschließlich aus identischen Leerlauf-Einträgen. Nachschub kommt nur durch Menschen: neue Wunschlisten-/`offen`-Einträge — oder die 87 Entwürfe sichten/auf `geprueft` setzen. **Empfehlung unverändert: Routine strecken/pausieren, bis Nachschub vorliegt.**
+
+## 2026-08-28 — Kein offener Eintrag, Lauf ohne neue Monographie
+
+**Ergebnis:** Nichts zu tun. Weder Wunschliste noch Kandidatenliste liefern einen offenen Eintrag.
+
+**Wunschliste (`docs/wunschliste.json`, Stand 2026-08-20):** 2 Einträge, beide bereits in `fertig/` erledigt — Wunsch erfüllt, übersprungen:
+- `agastache-mexicana` (Mexican giant hyssop) → `fertig/monographie-mexikanische-duftnessel.json` (id identisch).
+- `cherry-laurel` (Kirschlorbeer, *Prunus laurocerasus*) → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`; Cherry laurel = Kirschlorbeer, per Dedup-Synonymabgleich bestätigt).
+
+**Kandidatenliste (`kraeuter-kandidaten.json`):** 87 Einträge, alle `entwurf_fertig`, **0 offen**. Keine Selbstheilung nötig (kein `offen`-Eintrag hatte eine Datei in `fertig/`).
+
+**Aktion:** Keine Monographie erzeugt, kein Status geändert, kein Changelog-Eintrag. Lauf sauber beendet (kein Fehler). Nur dieser Log-Eintrag.
+
+**Hinweis an den Arzt:** Der Katalog ist vollständig abgearbeitet. Neue Arbeit entsteht erst, wenn die App neue Einträge in die Wunschliste schreibt oder ein Kandidat wieder auf `offen` gesetzt wird.
