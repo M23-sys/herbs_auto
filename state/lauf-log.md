@@ -3124,3 +3124,11 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log): `pip install -r requiremen
 **Datenqualitaets-Hinweis an den Arzt (unveraendert):** Wunschlisten-Eintrag `cherry-laurel` traegt im Feld `latin` den engl. Trivialnamen statt *Prunus laurocerasus* und eine untaxonomische `id`; App-seitige Auto-Abhakung ueber id (`prunus-laurocerasus`) greift hier vermutlich nie -> der Wunsch bleibt evtl. dauerhaft stehen, obwohl in `fertig/` erledigt.
 
 **Empfehlung unveraendert:** Routine pausieren/strecken, bis die App neue Wunschlisten-/`offen`-Eintraege liefert oder die 87 Entwuerfe aerztlich auf `geprueft` gesichtet werden.
+
+## 2026-10-02T06:22Z (Routine, autonom) — Leerlauf (225. in Folge), Kurzeintrag
+
+Selbst verifiziert (Python/Tools, nicht aus dem Log): `pip install -r requirements.txt` ok (`jsonschema 4.26.0` einsatzbereit; Pruefskript nicht aufgerufen, da nichts gebaut). `fertig/` = **118** Monographien. Wunschliste `docs/wunschliste.json` (Stand 2026-08-20, 2 Eintraege) beide erledigt: `agastache-mexicana` -> direkter id-Treffer `monographie-mexikanische-duftnessel.json`; `cherry-laurel`/*Cherry laurel* -> taxonomisch *Prunus laurocerasus* L. = `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, `not_for_use`-Warneintrag). `kraeuter-kandidaten.json` = `{'entwurf_fertig': 87}`, **0x offen** -> keine Selbstheilung noetig. Kein offener Wunsch, kein offener Kandidat -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag (`docs/changelog.json` unveraendert). Keine Benachrichtigung (Lage unveraendert seit 2026-08-04, kein Fehler).
+
+**Datenqualitaets-Hinweis an den Arzt (unveraendert):** Wunschlisten-Eintrag `cherry-laurel` traegt im Feld `latin` den engl. Trivialnamen statt *Prunus laurocerasus* und eine untaxonomische `id`; App-seitige Auto-Abhakung ueber id greift hier vermutlich nie -> der Wunsch bleibt evtl. dauerhaft stehen, obwohl in `fertig/` erledigt.
+
+**Empfehlung unveraendert:** Routine pausieren/strecken, bis die App neue Wunschlisten-/`offen`-Eintraege liefert oder die 87 Entwuerfe aerztlich auf `geprueft` gesichtet werden.
