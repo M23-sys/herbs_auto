@@ -3204,3 +3204,21 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log): `pip install -r requiremen
 **Datenqualitaets-Hinweis an den Arzt (unveraendert):** Wunschlisten-Eintrag `cherry-laurel` traegt im Feld `latin` den engl. Trivialnamen statt *Prunus laurocerasus* und eine untaxonomische `id`; App-seitige Auto-Abhakung ueber id (`prunus-laurocerasus`) greift hier vermutlich nie -> der Wunsch bleibt evtl. dauerhaft stehen, obwohl in `fertig/` erledigt.
 
 **Empfehlung unveraendert:** Routine pausieren/strecken, bis die App neue Wunschlisten-/`offen`-Eintraege liefert oder die 87 Entwuerfe aerztlich auf `geprueft` gesichtet werden. Seit 234 Laeufen (Start der Idle-Serie ~2026-08-04) keine neue Arbeit; jeder Lauf verbraucht Ressourcen ohne Mehrwert.
+
+## 2026-10-04 — Kein Bau (Wunsch- und Kandidatenliste erschöpft)
+
+**Bearbeitet:** keine Monographie erzeugt. Ziel war „genau 2", es gab aber keine offene Art.
+
+**Auswahl-Prüfung (in Reihenfolge):**
+- **Wunschliste (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge):** beide bereits erfüllt, Dedup gegen `fertig/` inkl. `botany.synonyms`:
+  - `agastache-mexicana` (Mexican giant hyssop) → liegt als `fertig/monographie-mexikanische-duftnessel.json`, id `agastache-mexicana`. Übersprungen.
+  - `cherry-laurel` → botanisch *Prunus laurocerasus* (Kirschlorbeer); liegt als `fertig/monographie-kirschlorbeer.json`, id `prunus-laurocerasus`. Übersprungen.
+  → **0 offene Wünsche.** (Nicht aus der Liste entfernt — das macht die App.)
+- **Kandidatenliste (`kraeuter-kandidaten.json`, 87 Einträge):** alle auf `entwurf_fertig`, **kein** Eintrag `offen`. Alle referenzierten `datei`-Pfade existieren → keine Selbstheilung nötig.
+  → **0 offene Kandidaten.**
+
+**Ergebnis:** Weder Wunsch- noch Kandidatenliste liefern offene Arten → Lauf sauber beendet, kein Fehler. Keine Validierung/kein Changelog-Eintrag (nichts erzeugt). `pip install` übersprungen, da nichts zu prüfen war.
+
+### Hinweise für den Arzt
+- Der Wunschlisten-Eintrag `cherry-laurel` trug im Feld `latin` nur den englischen Namen „Cherry laurel" (keine Binomial-Nomenklatur). Er ist aber korrekt als *Prunus laurocerasus* / Kirschlorbeer bereits im Katalog — der Wunsch ist also erfüllt. Falls die App den Wunsch noch als offen zeigt, liegt es vermutlich am abweichenden `id` (`cherry-laurel` vs. akzeptierter botanischer Name `prunus-laurocerasus`); ggf. in der App abgleichen.
+- Die Kandidatenwarteschlange ist vollständig abgearbeitet (alle `entwurf_fertig`). Für künftige Läufe braucht es entweder neue Wunschlisten-Einträge oder neue Kandidaten; sonst laufen Routinen weiterhin leer.
