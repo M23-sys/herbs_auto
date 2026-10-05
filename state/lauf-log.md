@@ -3258,3 +3258,22 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log): `fertig/` = **118**, `krae
 ### Hinweise fuer den Arzt (unveraendert)
 - Wunschlisten-Eintrag `cherry-laurel` traegt im Feld `latin` den engl. Trivialnamen statt *Prunus laurocerasus* und eine untaxonomische `id`; die App-seitige Auto-Abhakung ueber die akzeptierte id (`prunus-laurocerasus`) greift hier vermutlich nie -> der Wunsch bleibt evtl. dauerhaft offen stehen, obwohl in `fertig/` erledigt.
 - Kandidatenwarteschlange vollstaendig abgearbeitet (alle 87 `entwurf_fertig`). Seit ~2026-08-04 keine neue Arbeit. Empfehlung: Routine pausieren/strecken, bis die App neue Wunschlisten-/`offen`-Eintraege liefert oder die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind.
+
+## 2026-10-05T12:38Z (Routine, autonom, geplant 12:16Z) — Leerlauf, nichts zu bauen (3. Leerlauf heute)
+
+Selbst verifiziert (Tools, nicht aus dem Log): `pip install -r requirements.txt` ok (`jsonschema` bereits installiert). `fertig/` = **118**, `kraeuter-kandidaten.json` = 87x `entwurf_fertig`, **0x offen**, 0 fehlende `datei`-Pfade; `docs/changelog.json` = 91 Eintraege (unveraendert). Pruefskript nicht aufgerufen (nichts gebaut).
+
+**Auswahl-Pruefung in Reihenfolge (Ziel war genau 2):**
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege) — beide bereits in `fertig/` erledigt (Dedup gegen id + `botany.synonyms`):
+  - `agastache-mexicana` -> direkter id-Treffer `fertig/monographie-mexikanische-duftnessel.json`. Uebersprungen.
+  - `cherry-laurel` (`latin` = nur engl. Trivialname) -> *Prunus laurocerasus* L. (Kirschlorbeer) = `fertig/monographie-kirschlorbeer.json`, id `prunus-laurocerasus`, Warneintrag. Uebersprungen.
+  -> **0 offene Wuensche.**
+- **Kandidatenliste**: 87 Eintraege, alle `entwurf_fertig`, **0x offen** -> keine Selbstheilung noetig.
+  -> **0 offene Kandidaten.**
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag, keine Validierung. Lauf sauber beendet, kein Fehler.
+
+### Hinweise fuer den Arzt
+- **Dritter Leerlauf in Folge heute** (06:16Z, ~morgens, jetzt 12:16Z). Seit ~2026-08-04 keine neue Arbeit. Die Routine laeuft wiederholt leer.
+- Wunschlisten-Eintrag `cherry-laurel` traegt im Feld `latin` nur den engl. Trivialnamen und eine untaxonomische `id`; die App-seitige Auto-Abhakung ueber die akzeptierte id (`prunus-laurocerasus`) greift hier vermutlich nie -> der Wunsch bleibt evtl. dauerhaft "offen" stehen, obwohl in `fertig/` erledigt. Ggf. in der App manuell abgleichen.
+- **Empfehlung:** Routine pausieren oder strecken, bis die App neue Wunschlisten-Eintraege liefert ODER neue Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst verbraucht jeder Lauf Ressourcen ohne Ergebnis.
