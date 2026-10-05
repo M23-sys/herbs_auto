@@ -3222,3 +3222,21 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log): `pip install -r requiremen
 ### Hinweise für den Arzt
 - Der Wunschlisten-Eintrag `cherry-laurel` trug im Feld `latin` nur den englischen Namen „Cherry laurel" (keine Binomial-Nomenklatur). Er ist aber korrekt als *Prunus laurocerasus* / Kirschlorbeer bereits im Katalog — der Wunsch ist also erfüllt. Falls die App den Wunsch noch als offen zeigt, liegt es vermutlich am abweichenden `id` (`cherry-laurel` vs. akzeptierter botanischer Name `prunus-laurocerasus`); ggf. in der App abgleichen.
 - Die Kandidatenwarteschlange ist vollständig abgearbeitet (alle `entwurf_fertig`). Für künftige Läufe braucht es entweder neue Wunschlisten-Einträge oder neue Kandidaten; sonst laufen Routinen weiterhin leer.
+
+## 2026-10-05 (Routine, autonom, geplant) — Leerlauf, nichts zu bauen
+
+Selbst verifiziert (Python/Tools, nicht aus dem Log): `pip install -r requirements.txt` ok (`jsonschema 4.26.0` bereits installiert). Pruefskript nicht aufgerufen (nichts gebaut).
+
+**Auswahl-Pruefung in Reihenfolge (Ziel war genau 2):**
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege) — beide bereits in `fertig/` erledigt (Dedup gegen id + `botany.synonyms`):
+  - `agastache-mexicana` (Agastache mexicana / Mexican giant hyssop) -> direkter id-Treffer `fertig/monographie-mexikanische-duftnessel.json`. Uebersprungen.
+  - `cherry-laurel` (`latin`-Feld traegt nur den engl. Trivialnamen, kein Binomial) -> taxonomisch *Prunus laurocerasus* L. (Kirschlorbeer) = `fertig/monographie-kirschlorbeer.json`, id `prunus-laurocerasus`, Warneintrag (not_for_use=true), Synonyme Laurocerasus officinalis / Cerasus laurocerasus / Padus laurocerasus. Uebersprungen.
+  -> **0 offene Wuensche.** (Nichts entfernt — das macht die App.)
+- **Kandidatenliste** (`kraeuter-kandidaten.json`, 87 Eintraege): alle `entwurf_fertig`, **0x offen**; alle referenzierten `datei`-Pfade existieren (0 fehlend) -> keine Selbstheilung noetig.
+  -> **0 offene Kandidaten.**
+
+**Ergebnis:** Weder Wunsch- noch Kandidatenliste liefern offene Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag, keine Validierung. Lauf sauber beendet, kein Fehler. `fertig/` = 118, `docs/changelog.json` unveraendert.
+
+### Hinweise fuer den Arzt (unveraendert)
+- Wunschlisten-Eintrag `cherry-laurel` traegt im Feld `latin` den engl. Trivialnamen statt *Prunus laurocerasus* und eine untaxonomische `id`; die App-seitige Auto-Abhakung ueber die akzeptierte id (`prunus-laurocerasus`) greift hier vermutlich nie -> der Wunsch bleibt evtl. dauerhaft offen stehen, obwohl in `fertig/` erledigt. Ggf. in der App manuell abgleichen.
+- Die Kandidatenwarteschlange ist vollstaendig abgearbeitet (alle 87 `entwurf_fertig`). Kuenftige Laeufe brauchen entweder neue Wunschlisten-Eintraege oder neue Kandidaten; sonst laufen Routinen weiterhin leer. Empfehlung: Routine pausieren/strecken, bis die App neue Eintraege liefert oder die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind.
