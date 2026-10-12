@@ -3789,3 +3789,23 @@ Selbst verifiziert (Tools, nicht aus dem Log): `pip install -r requirements.txt`
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld; App-Auto-Abhakung ueber `prunus-laurocerasus` greift hier vermutlich nie -> Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` erledigt. In der App manuell abgleichen (oder Wunsch-id auf `prunus-laurocerasus` korrigieren).
 - **29. Leerlauf in Folge** seit ~2026-08-04. Routine selbst NICHT pausiert (Aenderung nur durch den Arzt). **Keine** erneute Push-Notification: der actionable Zustand ist seit Lauf 8 (der bereits gepusht hat) unveraendert — ein identischer Wiederhol-Push waere nur Laerm.
 - **Empfehlung (unveraendert, 29x nicht umgesetzt):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-12T06:38Z (Routine, autonom, geplant) — Leerlauf, nichts zu bauen (30. Leerlauf in Folge)
+
+Selbst verifiziert (Tools, nicht aus dem Log): `pip install -r requirements.txt` ok. `fertig/` = **118** JSON-Dateien; `kraeuter-kandidaten.json` = 87 Eintraege, per `collections.Counter` gezaehlt: **87x `entwurf_fertig`, 0x offen**, kein Eintrag mit fehlender `datei`. `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert); Root-`wunschliste.json` Stand 2026-07-14, 0 Kandidaten.
+
+**Auswahl (Ziel war genau 2), Reihenfolge Wunschliste -> Kandidaten:**
+- **Wunschliste** (`docs/wunschliste.json`) — beide Eintraege diesen Lauf erneut per Tool (id + lat. Name) gegen den Dedup-Index aus `fertig/` geprueft, beide bereits vorhanden:
+  - `agastache-mexicana` -> direkter id-Treffer `fertig/monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`; syn u.a. *Cedronella mexicana Kunth*, *Brittonastrum mexicanum*, *Cedronella mexicana (Kunth) Benth.*). Uebersprungen.
+  - `cherry-laurel` (engl. Trivialname im `latin`-Feld, untaxonomische id) -> taxonomisch *Prunus laurocerasus* L. = `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, syn *Laurocerasus officinalis*, *Cerasus laurocerasus*, *Padus laurocerasus*). Uebersprungen.
+  -> **0 offene Wuensche** (nichts entfernt — das macht die App).
+- **Kandidatenliste**: 87x `entwurf_fertig`, **0x offen** -> keine Selbstheilung noetig (kein als `offen` markierter Kandidat; alle `datei`-Pfade existieren).
+  -> **0 offene Kandidaten.**
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag, keine (produktive) Validierung. Lauf sauber beendet, kein Fehler.
+
+### Hinweise fuer den Arzt
+- **Tooling-Fund (unveraendert, latent — blockiert Leerlauf nicht, wuerde aber einen echten Bau-Lauf still schwaechen):** `python3` = **3.11.17**; `pip install -r requirements.txt` legt jsonschema nach **Python 3.13** -> `import jsonschema` unter `python3` schlaegt mit `ModuleNotFoundError` fehl. `python3 validate_monographie.py` faengt das Fehlen still ab (`SCHEMA=None`) und meldet trotzdem "Alle Monographien bestehen die Pruefung" -> die strukturelle JSON-Schema-Pruefung waere bei einem echten Bau-Lauf inaktiv, ohne Fehlermeldung. Diesen Lauf per `python3 -m pip install jsonschema` (4.26.0) fuer 3.11 nachgezogen und die Validierung mit **aktivem Schema** gegen `fertig/monographie-kirschlorbeer.json` als `ok` verifiziert — aber nur ephemer fuer diese Session. **Fix im Setup:** `python3.11 -m pip install jsonschema` ODER Routine mit `python3.13 validate_monographie.py` aufrufen, damit bei einem echten Bau-Lauf die Schema-Pruefung garantiert greift.
+- `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld; App-Auto-Abhakung ueber `prunus-laurocerasus` greift hier vermutlich nie -> Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` erledigt. In der App manuell abgleichen (oder Wunsch-id auf `prunus-laurocerasus` korrigieren).
+- **30. Leerlauf in Folge** seit ~2026-08-04. Routine selbst NICHT pausiert (Aenderung nur durch den Arzt). **Keine** erneute Push-Notification: der actionable Zustand ist seit Lauf 8 (der bereits gepusht hat) unveraendert — ein identischer Wiederhol-Push waere nur Laerm.
+- **Empfehlung (unveraendert, 30x nicht umgesetzt):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
