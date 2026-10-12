@@ -3828,3 +3828,22 @@ Selbst verifiziert (Tools, nicht aus dem Log): `fertig/` = **118** JSON-Dateien;
 - **Tooling-Fund (unveraendert, latent):** jsonschema wird von `pip install -r requirements.txt` nach Python 3.13 gelegt, `python3` ist 3.11 -> bei einem echten Bau-Lauf waere die Schema-Pruefung still inaktiv (`SCHEMA=None`). Fix: Routine-Setup `python3.11 -m pip install jsonschema` ODER `python3.13 validate_monographie.py`.
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; in der App manuell abgleichen.
 - **Empfehlung (31x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind.
+
+## 2026-10-12T18:20Z (Routine, autonom, geplant) — Leerlauf, nichts zu bauen (32. Leerlauf in Folge)
+
+Selbst verifiziert (Tools, nicht aus dem Log): `pip install -r requirements.txt` ok (jsonschema bereits erfuellt). `fertig/` = **118** JSON-Dateien (118 unique ids); `kraeuter-kandidaten.json` = 87 Eintraege, per `collections.Counter` gezaehlt: **87x `entwurf_fertig`, 0x offen**, kein Eintrag mit fehlender `datei`. `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert); Root-`wunschliste.json` Stand 2026-07-14, 0 Kandidaten.
+
+**Auswahl (Ziel war genau 2), Reihenfolge Wunschliste -> Kandidaten:**
+- **Wunschliste** (`docs/wunschliste.json`) — beide Eintraege diesen Lauf erneut per Tool (id + lat. Name) gegen den Dedup-Index aus `fertig/` (ids + `botany.synonyms` + `scientific_name`) geprueft, beide bereits vorhanden:
+  - `agastache-mexicana` -> direkter id-Treffer in `fertig/` (= `fertig/monographie-mexikanische-duftnessel.json`). Uebersprungen.
+  - `cherry-laurel` (engl. Trivialname im `latin`-Feld, untaxonomische id) -> taxonomisch *Prunus laurocerasus* L.; Datei `fertig/monographie-kirschlorbeer.json` existiert und verifiziert (id `prunus-laurocerasus`, `scientific_name` "Prunus laurocerasus L.", `not_for_use`=true, 0 Indikationen = korrekter Warneintrag). Uebersprungen.
+  -> **0 offene Wuensche** (nichts entfernt — das macht die App).
+- **Kandidatenliste**: 87x `entwurf_fertig`, **0x offen** -> keine Selbstheilung noetig (kein als `offen` markierter Kandidat; alle `datei`-Pfade existieren). **0 offene Kandidaten.**
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag, keine (produktive) Validierung. Lauf sauber beendet, kein Fehler.
+
+### Hinweise fuer den Arzt
+- Zustand seit Lauf 8 unveraendert -> **keine erneute Push-Notification** (identischer Wiederhol-Push waere nur Laerm).
+- **Tooling-Fund (unveraendert, latent — wuerde einen echten Bau-Lauf still schwaechen):** `python3` = **3.11.17**; `import jsonschema` schlaegt unter `python3` mit `ModuleNotFoundError` fehl (die Bibliothek liegt nach Python 3.13). `validate_monographie.py` faengt das Fehlen still ab (`SCHEMA=None`) und meldet trotzdem Erfolg -> bei einem echten Bau-Lauf waere die strukturelle Schema-Pruefung inaktiv, ohne Warnung. Diesen Lauf nicht nachgezogen, da nichts zu validieren war. **Fix im Setup:** `python3.11 -m pip install jsonschema` ODER Routine mit `python3.13 validate_monographie.py` aufrufen.
+- `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` erledigt. In der App manuell abgleichen (oder Wunsch-id auf `prunus-laurocerasus` korrigieren).
+- **Empfehlung (32x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
