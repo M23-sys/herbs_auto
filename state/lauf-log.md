@@ -4056,3 +4056,23 @@ Selbst verifiziert (Tools, nicht aus dem Log): `fertig/` = **118** JSON-Dateien.
 - **Tooling-Fund (unveraendert, latent — wuerde einen echten Bau-Lauf still schwaechen):** Standard-`python3` = 3.11.x; `jsonschema` ist nur unter Python **3.13** installiert, daher `python3 -c "import jsonschema"` weiterhin `ModuleNotFoundError`. `validate_monographie.py` faengt das still ab (`except Exception: SCHEMA = None`) und meldet trotzdem Erfolg -> das Skript bricht NICHT mit Exit-Code 3 ab; die strukturelle Schema-Pruefung waere bei einem echten Bau still inaktiv. **Fix im Setup:** `python3.11 -m pip install jsonschema` ODER Routine mit `python3.13 validate_monographie.py` aufrufen.
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` erledigt. In der App manuell abgleichen (oder Wunsch-id auf `prunus-laurocerasus` korrigieren).
 - **Empfehlung (43x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-15T18:18Z (Routine, autonom, geplant) — Leerlauf, nichts zu bauen (44. Leerlauf in Folge)
+
+Selbst verifiziert (Tools, nicht aus dem Log): `fertig/` = **118** JSON-Dateien. `kraeuter-kandidaten.json` = 87 Eintraege, per `collections.Counter`: **87x `entwurf_fertig`, 0x offen**. `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert); Root-`wunschliste.json` Stand 2026-07-14, 0 Kandidaten.
+
+**Auswahl (Ziel genau 2), Reihenfolge Wunschliste -> Kandidaten:**
+- **Wunschliste** (`docs/wunschliste.json`) — beide Eintraege per id + lat. Name gegen Dedup-Index aus `fertig/` (ids + `botany.synonyms`) geprueft, beide bereits vorhanden:
+  - `agastache-mexicana` -> direkter id-Treffer `fertig/monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`; scientific_name *Agastache mexicana*; Synonyme Cedronella/Brittonastrum verifiziert). Uebersprungen.
+  - `cherry-laurel` (engl. Trivialname im `latin`-Feld, untaxonomische id -> kein direkter id-Treffer) -> taxonomisch *Prunus laurocerasus* L. = `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag `not_for_use=true`; Synonyme Laurocerasus/Cerasus/Padus verifiziert). Uebersprungen.
+  -> **0 offene Wuensche** (nichts entfernt — das macht die App).
+- **Kandidatenliste**: 87x `entwurf_fertig`, **0x offen** -> keine Selbstheilung noetig (kein als `offen` markierter Kandidat). **0 offene Kandidaten.**
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag, keine (produktive) Validierung. Lauf sauber beendet, kein Fehler.
+
+### Hinweise fuer den Arzt
+- Zustand seit Lauf 8 unveraendert -> **keine erneute Push-Notification** (identischer Wiederhol-Push waere nur Laerm).
+- **Tooling-Fund (unveraendert, latent — wuerde einen echten Bau-Lauf still schwaechen):** Standard-`python3` = **3.11.17**; `pip install -r requirements.txt` erfuellt `jsonschema` nur unter Python **3.13**, daher `python3 -c "import jsonschema"` diesen Lauf erneut `ModuleNotFoundError`. `validate_monographie.py` faengt das still ab (`except Exception: SCHEMA = None`) und meldet trotzdem Erfolg (Exit 0, diesen Lauf an `fertig/monographie-kirschlorbeer.json` verifiziert) -> das Skript bricht NICHT mit Exit-Code 3 ab; die strukturelle Schema-Pruefung waere bei einem echten Bau still inaktiv. **Fix im Setup:** `python3.11 -m pip install jsonschema` ODER Routine mit `python3.13 validate_monographie.py` aufrufen.
+- `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` erledigt. In der App manuell abgleichen (oder Wunsch-id auf `prunus-laurocerasus` korrigieren).
+- **Hinweis zum Log:** `state/lauf-log.md` ist durch 44 fast identische Leerlauf-Eintraege auf ~0,8 MB angewachsen; bei Gelegenheit alte Leerlauf-Bloecke archivieren/kuerzen.
+- **Empfehlung (44x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
