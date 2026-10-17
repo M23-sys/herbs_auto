@@ -4186,3 +4186,21 @@ Selbst verifiziert (Tools, nicht aus dem Log uebernommen): `kraeuter-kandidaten.
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` erledigt. In der App manuell abgleichen.
 - **Log-Bloat:** `state/lauf-log.md` ~0,8 MB durch ~50 fast identische Leerlauf-Eintraege; bei Gelegenheit archivieren/kuerzen (bewusst nicht autonom gekuerzt — Log ist der einzige Kanal zum Arzt).
 - **Empfehlung (50x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-17 (dritter Lauf des Tages; Routine, autonom, geplant) — Leerlauf, nichts zu bauen (51. Leerlauf in Folge)
+
+Selbst verifiziert (Tools, nicht aus dem Log uebernommen): `kraeuter-kandidaten.json` = 87 Eintraege, per `collections.Counter`: **87x `entwurf_fertig`, 0x offen**; alle 87 `datei`-Pfade existieren in `fertig/`. `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert). `fertig/` = **118 Monographien** (per `ls fertig/monographie-*.json | wc -l`).
+
+**Auswahl (Ziel genau 2), Reihenfolge Wunschliste -> Kandidaten:**
+- **Wunschliste** (hat Vorrang): beide Eintraege per id + Synonym-Abgleich gegen `fertig/` bereits erledigt:
+  - `agastache-mexicana` -> direkter id-Treffer `fertig/monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`). Uebersprungen.
+  - `cherry-laurel` -> taxonomisch *Prunus laurocerasus* = `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, engl. "Cherry laurel" als Trivialname gefuehrt). Uebersprungen.
+  -> **0 offene Wuensche** (nichts aus der Wunschliste entfernt — das macht die App).
+- **Kandidatenliste**: 0x offen -> keine Selbstheilung noetig. **0 offene Kandidaten.**
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag. `pip install` bewusst uebersprungen (keine Validierung noetig, da nichts gebaut). Lauf sauber beendet, kein Fehler. Keine Push-Notification (Zustand seit 50 Laeufen identisch -> Wiederhol-Push waere nur Laerm).
+
+### Hinweise fuer den Arzt (unveraendert)
+- `cherry-laurel`-Wunsch: untaxonomische id (`cherry-laurel`) + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` als Kirschlorbeer erledigt. In der App manuell abgleichen.
+- **Log-Bloat:** `state/lauf-log.md` ~0,8 MB durch ~51 fast identische Leerlauf-Eintraege; bei Gelegenheit archivieren/kuerzen (bewusst nicht autonom gekuerzt — Log ist der einzige Kanal zum Arzt).
+- **Empfehlung (51x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
