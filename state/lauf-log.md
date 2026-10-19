@@ -4311,3 +4311,25 @@ Selbst verifiziert (Tools, nicht aus dem Log):
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; Wunsch bleibt evtl. dauerhaft "offen", obwohl in `fertig/` als Kirschlorbeer erledigt. In der App manuell abgleichen.
 - **Log-Bloat:** `state/lauf-log.md` ~0,85 MB durch ~56 fast identische Leerlauf-Eintraege; bei Gelegenheit archivieren/kuerzen (bewusst nicht autonom gekuerzt — Log ist der einzige Kanal zum Arzt).
 - **Empfehlung (56x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-19T00:17Z (Routine, autonom, geplant) — Leerlauf, nichts zu bauen (57. Leerlauf in Folge)
+
+Selbst verifiziert (Python/Tools, nicht aus dem Log kopiert):
+- `kraeuter-kandidaten.json` = 87 Eintraege, `collections.Counter` -> **87x `entwurf_fertig`, 0x `offen`**; alle 87 `datei`-Pfade existieren in `fertig/` -> keine Selbstheilung noetig.
+- `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert).
+- `fertig/` = **118 `.json`-Monographien**.
+
+**Auswahl (Ziel genau 2), Reihenfolge Wunschliste -> Kandidaten:**
+- **Wunschliste** (Vorrang): beide Eintraege per id-/Synonym-Abgleich gegen `fertig/` bereits erledigt:
+  - `agastache-mexicana` -> direkter id-Treffer in `fertig/` (`monographie-mexikanische-duftnessel.json`). Uebersprungen.
+  - `cherry-laurel` -> taxonomisch *Prunus laurocerasus*, id-Treffer `prunus-laurocerasus` in `fertig/` (`monographie-kirschlorbeer.json`). Uebersprungen.
+  -> **0 offene Wuensche** (nichts aus `wunschliste.json` entfernt — das macht die App).
+- **Kandidatenliste**: 0x offen -> **0 offene Kandidaten.**
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag. Lauf sauber beendet, kein Fehler. **Keine Push-Notification** — Dauer-Leerlauf wurde in Lauf #54 einmalig gepusht ("kein Wiederhol-Spam" zugesagt), #55/#56 blieben konsequent still; nichts Neues blockiert.
+
+### Stehende Hinweise fuer den Arzt (unveraendert, Details in Lauf #55/#56)
+- **Validierungs-Tooling:** `python3`=3.11 kann `jsonschema` nicht importieren (pip installiert nach 3.13). `python3 validate_monographie.py` laeuft daher degradiert (nur Struktur-/Konsistenz-Checks, KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. Workaround fuer den naechsten produktiven Lauf: `python3.13 validate_monographie.py <datei>`. Dauerfix: `python3`/`pip` angleichen bzw. `jsonschema` fuer 3.11 bereitstellen (SessionStart-Hook). In diesem Leerlauf ohne Folge (nichts gebaut).
+- `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie; in der App manuell abgleichen.
+- **Log-Bloat:** `state/lauf-log.md` ~0,83 MB, 57 fast identische Leerlauf-Eintraege; bewusst nicht autonom gekuerzt (einziger Kanal zum Arzt).
+- **Empfehlung (57x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
