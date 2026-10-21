@@ -4509,3 +4509,19 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log kopiert):
 ### Hinweis für den Arzt
 - **Wunschlisten-Eintrag `cherry-laurel` ist schlampig befüllt:** Feld `id`=`cherry-laurel` und `latin`=`"Cherry laurel"` sind **keine** botanische Kennung (erwartet wäre `prunus-laurocerasus` / *Prunus laurocerasus*). Der Dedup-Abgleich über den deutschen Namen (Kirschlorbeer) und das akzeptierte Taxon hat den bereits vorhandenen Warneintrag trotzdem korrekt getroffen, sodass keine Dublette entstand. Falls die Herbarium-App diesen Wunsch nicht automatisch abhakt, liegt das vermutlich an der nicht-botanischen `id` — dort ggf. nachsehen.
 - Beide Wünsche betreffen Pflanzen, die der Arzt laut App „in der Hand hatte"; beide sind im Katalog vorhanden und geprüft-validiert. Aktuell besteht kein offener Erzeugungsbedarf.
+
+
+## 2026-10-21T12:16Z (Routine, autonom, geplant) — Leerlauf, nichts zu bauen (66. Leerlauf in Folge)
+
+Selbst verifiziert (Python/Tools, nicht aus dem Log kopiert):
+- `kraeuter-kandidaten.json` = 87 Eintraege -> **87x `entwurf_fertig`, 0x `offen`** -> keine Selbstheilung noetig (kein als `offen` markierter Kandidat liegt in `fertig/`).
+- `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert). Beide per id/Synonym-Abgleich gegen `fertig/` bereits erledigt: `agastache-mexicana` -> `monographie-mexikanische-duftnessel.json` (id-Treffer); `cherry-laurel` -> *Prunus laurocerasus* -> `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Synonyme Laurocerasus officinalis u.a.). -> **0 offene Wuensche** (nichts entfernt — das macht die App).
+- `fertig/` = 118 `.json` (unveraendert).
+
+**Ergebnis:** Keine offenen Arten (Wunschliste 0 offen, Kandidaten 0 offen) -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag. Lauf sauber beendet, kein Fehler. Keine Push-Notification (Dauer-Leerlauf; nichts Neues blockiert).
+
+### Stehende Hinweise fuer den Arzt (unveraendert, Details in #55-#65)
+- **Validierungs-Tooling:** `python3`=3.11.17 -> `import jsonschema` schlaegt fehl; Validator laeuft degradiert (nur Struktur/Konsistenz, KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. `python3.13` hat jsonschema 4.26.0. Workaround: `python3.13 validate_monographie.py <datei>`. Dauerfix: `python3`/`pip` angleichen bzw. SessionStart-Hook.
+- `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld; App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie -> in der App manuell abgleichen.
+- **Log-Bloat:** `state/lauf-log.md` ~0,88 MB, 66 fast identische Leerlauf-Eintraege; bewusst nicht autonom gekuerzt (einziger Kanal zum Arzt).
+- **Empfehlung (66x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
