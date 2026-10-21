@@ -4492,3 +4492,20 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log kopiert):
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld; App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie -> in der App manuell abgleichen.
 - **Log-Bloat:** `state/lauf-log.md` ~0,87 MB, 65 fast identische Leerlauf-Eintraege; bewusst nicht autonom gekuerzt (einziger Kanal zum Arzt).
 - **Empfehlung (65x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-21 — Nichts zu tun (beide Warteschlangen ohne offene Arten)
+
+**Ergebnis: 0 Monographien erzeugt.** Kein Fehler — weder Wunschliste noch Kandidatenliste lieferten eine offene Art. Ablauf sauber beendet.
+
+**Wunschliste (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge) — beide bereits erfüllt, übersprungen:**
+- `agastache-mexicana` (Mexican giant hyssop, *Agastache mexicana*, Region Bodensee) → liegt bereits als `fertig/monographie-mexikanische-duftnessel.json` (id `agastache-mexicana`, 2 Indikationen). Validierung erneut geprüft: `ok` (1 bewusster „unsicher/zu prüfen"-Hinweis).
+- `cherry-laurel` (Region Bodensee) → liegt bereits als `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag `not_for_use`, 0 Indikationen). Validierung erneut geprüft: `✓ alles sauber`.
+  Die App hakt erfüllte Wünsche selbst ab; ich entferne nichts aus `wunschliste.json`.
+
+**Kandidatenliste (`kraeuter-kandidaten.json`):** 87 Einträge, alle `entwurf_fertig`, **kein** Eintrag `offen`. Daher kein Rückfall-Kandidat. Keine Selbstheilung nötig (es gab keinen als `offen` markierten Eintrag, dessen Datei schon in `fertig/` liegt).
+
+**Keine Statusänderung, kein Changelog-Eintrag** — es wurde nichts Neues produziert.
+
+### Hinweis für den Arzt
+- **Wunschlisten-Eintrag `cherry-laurel` ist schlampig befüllt:** Feld `id`=`cherry-laurel` und `latin`=`"Cherry laurel"` sind **keine** botanische Kennung (erwartet wäre `prunus-laurocerasus` / *Prunus laurocerasus*). Der Dedup-Abgleich über den deutschen Namen (Kirschlorbeer) und das akzeptierte Taxon hat den bereits vorhandenen Warneintrag trotzdem korrekt getroffen, sodass keine Dublette entstand. Falls die Herbarium-App diesen Wunsch nicht automatisch abhakt, liegt das vermutlich an der nicht-botanischen `id` — dort ggf. nachsehen.
+- Beide Wünsche betreffen Pflanzen, die der Arzt laut App „in der Hand hatte"; beide sind im Katalog vorhanden und geprüft-validiert. Aktuell besteht kein offener Erzeugungsbedarf.
