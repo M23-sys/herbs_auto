@@ -4777,3 +4777,21 @@ Selbst verifiziert (Python/Tools, nicht aus dem Log kopiert):
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld; App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie -> in der App manuell abgleichen.
 - **Log-Bloat:** `state/lauf-log.md` ~0,9 MB, 80 fast identische Leerlauf-Eintraege; bewusst nicht autonom gekuerzt (einziger Kanal zum Arzt).
 - **Empfehlung (80x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-25T (Routine, autonom, geplant) — Leerlauf, nichts zu bauen (81. Leerlauf in Folge)
+
+Selbst verifiziert (Python/Tools, nicht aus dem Log kopiert):
+- `kraeuter-kandidaten.json` = 87 Eintraege -> **87x `entwurf_fertig`, 0x `offen`** (per `Counter` gezaehlt) -> kein Rueckfall-Kandidat; keine Selbstheilung noetig.
+- `docs/wunschliste.json` Stand 2026-08-20, 2 Eintraege (unveraendert). Beide per id-Abgleich gegen `fertig/` bereits erledigt:
+  - `agastache-mexicana` -> `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt).
+  - `cherry-laurel` -> *Prunus laurocerasus* -> `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag `not_for_use`; Syn. Laurocerasus/Cerasus/Padus laurocerasus).
+  -> **0 offene Wuensche** (nichts entfernt — das macht die App).
+- `fertig/` = 118 `.json`. `pip install -r requirements.txt`: alle Requirements erfuellt (jsonschema unter python3.13).
+
+**Ergebnis:** Keine offenen Arten -> kein Bau, kein Statuswechsel, kein Changelog-Eintrag, keine Recherche. Lauf sauber beendet, kein Fehler. Keine Push-Notification (Dauer-Leerlauf; Zustand identisch zu #54–#80, nichts Neues blockiert).
+
+### Stehende Hinweise fuer den Arzt (unveraendert, Details in #55–#80)
+- **Validierungs-Tooling:** `python3`=3.11.17 ohne `jsonschema` -> Validator faellt still auf eingebaute Pruefungen zurueck (nur Struktur/Konsistenz, KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. jsonschema nur unter python3.13. Workaround: `python3.13 validate_monographie.py <datei>`.
+- `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie -> in der App manuell abgleichen.
+- **Log-Bloat:** `state/lauf-log.md` ~0,9 MB, 81 fast identische Leerlauf-Eintraege; bewusst nicht autonom gekuerzt (einziger Kanal zum Arzt).
+- **Empfehlung (81x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
