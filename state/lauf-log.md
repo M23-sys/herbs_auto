@@ -4858,3 +4858,12 @@ Selbst verifiziert (nicht aus dem Log kopiert):
 - **Kandidatenliste:** alle 87 Eintraege `entwurf_fertig`, 0x `offen`. Keine Selbstheilung noetig (kein als `offen` markierter Kandidat liegt faelschlich schon in `fertig/`).
 - **Pruefung/Changelog:** nichts erzeugt, daher kein Validator-Lauf, kein Changelog-Eintrag.
 - **Keine erneute Eskalation:** Der strukturelle Dauer-Leerlauf wurde in #84 einmalig an den Arzt gemeldet; Lage unveraendert, daher bewusst keine weitere Push-Benachrichtigung (Vermeidung von Melde-Spam). Empfehlung aus #84 steht weiter: Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden oder die 87 Entwuerfe aerztlich gesichtet sind.
+
+## 2026-10-26 18:18 UTC — Leerlauf #86 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #85.
+
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege, unveraendert): beide bereits in `fertig/` erfuellt — `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id-Treffer exakt), `cherry-laurel` (*Prunus laurocerasus*) → `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag `not_for_use`). Dedup inkl. `botany.synonyms` geprueft. Entfernen macht die App selbst.
+- **Kandidatenliste:** alle 87 Eintraege `entwurf_fertig`, 0x `offen` (per `Counter` gezaehlt). Selbstheilung geprueft: kein als `offen` markierter Kandidat liegt faelschlich schon in `fertig/`, alle `datei`-Pfade existieren — nichts zu korrigieren.
+- **Pruefung/Changelog:** nichts erzeugt → kein Validator-Lauf, kein Changelog-Eintrag, keine Recherche.
+- **Keine erneute Eskalation:** Lage seit #84 unveraendert; dort einmalig an den Arzt gemeldet. Bewusst keine weitere Push-Benachrichtigung (Melde-Spam vermeiden). Empfehlung unveraendert: Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden oder die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
