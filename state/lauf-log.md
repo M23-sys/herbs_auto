@@ -4849,3 +4849,12 @@ Selbst verifiziert (nicht aus dem Log kopiert):
 - `cherry-laurel`-Wunsch: untaxonomische id + engl. Trivialname im `latin`-Feld -> App-Auto-Abhakung ueber `prunus-laurocerasus` greift vermutlich nie -> in der App manuell abgleichen.
 - **Log-Bloat:** `state/lauf-log.md` ~0,9 MB, 84 fast identische Leerlauf-Eintraege; bewusst nicht autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (84x unveraendert):** Routine pausieren/strecken, bis die App neue Wunschlisten-Eintraege liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-26 12:27 UTC — Leerlauf #85 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen.
+
+- **Wunschliste** (`docs/wunschliste.json`, 2 Eintraege): beide bereits in `fertig/` erfuellt — `agastache-mexicana` → `monographie-mexikanische-duftnessel.json`, `cherry-laurel` (*Prunus laurocerasus*) → `monographie-kirschlorbeer.json`. Dedup inkl. `botany.synonyms` geprueft. App-Auto-Abhakung erfolgt dort, nicht hier.
+- **Kandidatenliste:** alle 87 Eintraege `entwurf_fertig`, 0x `offen`. Keine Selbstheilung noetig (kein als `offen` markierter Kandidat liegt faelschlich schon in `fertig/`).
+- **Pruefung/Changelog:** nichts erzeugt, daher kein Validator-Lauf, kein Changelog-Eintrag.
+- **Keine erneute Eskalation:** Der strukturelle Dauer-Leerlauf wurde in #84 einmalig an den Arzt gemeldet; Lage unveraendert, daher bewusst keine weitere Push-Benachrichtigung (Vermeidung von Melde-Spam). Empfehlung aus #84 steht weiter: Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden oder die 87 Entwuerfe aerztlich gesichtet sind.
