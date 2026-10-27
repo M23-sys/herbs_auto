@@ -4884,3 +4884,20 @@ Selbst verifiziert (nicht aus dem Log kopiert):
 - **Validator-Tooling:** `python3`=3.11 OHNE `jsonschema` → Validator faellt still auf eingebaute Struktur-/Konsistenzpruefung zurueck (KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. jsonschema nur unter `python3.13`. Workaround: `python3.13 validate_monographie.py <datei>`. Dauerfix: `python3`/`pip` angleichen bzw. SessionStart-Hook.
 - **Log-Bloat:** `state/lauf-log.md` ~0,9 MB, 87 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (87x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-10-27 06:18 UTC — Leerlauf #88 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84–#87.
+
+Selbst verifiziert (nicht aus dem Log kopiert):
+- **Kandidatenliste** (`kraeuter-kandidaten.json`): 87 Eintraege, 87x `entwurf_fertig`, 0x `offen` (per `Counter` gezaehlt). Selbstheilung geprueft: kein als `offen` markierter Eintrag liegt faelschlich in `fertig/`, alle `datei`-Pfade existieren — nichts zu korrigieren.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege, unveraendert): beide bereits in `fertig/` erfuellt (Dedup inkl. `botany.synonyms`):
+  - `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id-Treffer exakt).
+  - `cherry-laurel` (Platzhalter-id, latin='Cherry laurel') → aufgeloest zu *Prunus laurocerasus* → `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`). Direkter id/latin-Abgleich greift NICHT (Platzhalter) — App-Auto-Abhakung in der App pruefen.
+- **Pruefung/Changelog:** nichts erzeugt → kein Validator-Lauf, kein Changelog-Eintrag, keine Recherche.
+- **Keine erneute Eskalation:** Lage seit #84 unveraendert; dort einmalig an den Arzt gemeldet. Bewusst keine weitere Push-Benachrichtigung (gesunder, stabiler Zustand; Melde-Spam vermeiden).
+
+### Stehende Hinweise (unveraendert)
+- **Validator-Tooling:** `python3`=3.11 OHNE `jsonschema` → Validator faellt still auf eingebaute Struktur-/Konsistenzpruefung zurueck (KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. jsonschema nur unter `python3.13`. Workaround: `python3.13 validate_monographie.py <datei>`. Dauerfix: `python3`/`pip` angleichen bzw. SessionStart-Hook.
+- **Log-Bloat:** `state/lauf-log.md` ~0,9 MB, 88 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
+- **Empfehlung (88x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
