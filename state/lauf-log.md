@@ -5117,3 +5117,21 @@ Selbst verifiziert (isolierter python3, nicht aus dem Log uebernommen):
 - **Validator-Tooling:** `python3`=3.11 OHNE `jsonschema` (erneut `ModuleNotFoundError` verifiziert) -> Validator faellt still auf eingebaute Struktur-/Konsistenzpruefung zurueck (KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. `pip install -r requirements.txt` meldet Deps erfuellt, installiert aber in 3.13-site-packages; jsonschema nur unter `python3.13` erreichbar (Workaround: `python3.13 validate_monographie.py <datei>`). Dieser Lauf erzeugt nichts -> ohne Auswirkung.
 - **Log-Bloat:** `state/lauf-log.md` ~0,95 MB, 100 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (100x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+
+## 2026-10-30 12:22 UTC — Leerlauf #101 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84-#100 (18. Leerlauf in Folge).
+
+Selbst verifiziert (isolierter python3, nicht aus dem Log uebernommen):
+- **Kandidatenliste** (`kraeuter-kandidaten.json`): 87 Eintraege, 87x `entwurf_fertig`, 0x `offen` (per `Counter` gezaehlt). Selbstheilung geprueft: kein als `offen` markierter Eintrag -> nichts zu korrigieren; kein `entwurf_fertig` mit fehlender Datei. 120 JSON-Dateien in `fertig/`.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege, unveraendert): beide bereits in `fertig/` erfuellt, Dedup gegen `id` + `botany.synonyms`:
+  - `agastache-mexicana` -> `monographie-mexikanische-duftnessel.json` (id-Treffer exakt bestaetigt; sci=*Agastache mexicana (Kunth) Lint & Epling*, "Mexican giant hyssop" in common_names_de).
+  - `cherry-laurel` (Platzhalter-id, latin='Cherry laurel', kein Binom) -> botanisch aufgeloest zu *Prunus laurocerasus* -> `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, synonyms u.a. `Laurocerasus officinalis`). Platzhalter-id greift bei direktem id-Abgleich NICHT -> manuell aufgeloest; App-Auto-Abhakung dort pruefen.
+- **Pruefung/Changelog:** nichts erzeugt -> kein Validator-Lauf, kein Changelog-Eintrag, keine Recherche.
+- **Keine Eskalation / kein Push-an-Arzt:** Lage seit #84 unveraendert, dort einmalig gemeldet. Gesunder, stabiler Zustand -> bewusst keine erneute Benachrichtigung (Melde-Spam vermeiden).
+
+### Stehende Hinweise (unveraendert)
+- **Validator-Tooling:** `python3`=3.11 OHNE `jsonschema` -> Validator faellt still auf eingebaute Struktur-/Konsistenzpruefung zurueck (KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. jsonschema nur unter `python3.13` erreichbar (Workaround: `python3.13 validate_monographie.py <datei>`). Dieser Lauf erzeugt nichts -> ohne Auswirkung.
+- **Log-Bloat:** `state/lauf-log.md` ~0,95 MB, 101 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
+- **Empfehlung (101x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
