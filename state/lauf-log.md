@@ -5242,3 +5242,21 @@ Selbst verifiziert (isolierter `python3`, nicht aus dem Log uebernommen):
 ### Stehende Hinweise (unveraendert)
 - **Log-Bloat:** `state/lauf-log.md` ~0,94 MB, 107 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (107x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-11-01 06:18 UTC — Leerlauf #108 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84-#107 (25. Leerlauf in Folge).
+
+Selbst verifiziert (isolierter `python3 -I`, nicht aus dem Log uebernommen):
+- **Kandidatenliste** (`kraeuter-kandidaten.json`): 87 Eintraege, per `Counter` 87x `entwurf_fertig`, 0x `offen`. Selbstheilung geprueft: kein `offen`-Eintrag zu korrigieren; 0 `entwurf_fertig` mit fehlender `datei`.
+- **fertig/**: 118 JSON-Dateien, 118 eindeutige ids, 221 Synonyme gesammelt.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege, unveraendert): beide bereits in `fertig/` erfuellt, Dedup gegen `id` + `botany.synonyms`:
+  - `agastache-mexicana` -> `monographie-mexikanische-duftnessel.json` (id-Treffer exakt).
+  - `cherry-laurel` (Platzhalter-id, latin='Cherry laurel', kein Binom) -> botanisch aufgeloest zu *Prunus laurocerasus* -> `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, synonyms u.a. `Laurocerasus officinalis M.Roem.`). Platzhalter-id greift beim direkten id-Abgleich NICHT -> manuell aufgeloest; App-Auto-Abhakung dort pruefen.
+- **Pruefung/Changelog:** nichts erzeugt -> kein Validator-Lauf, kein Changelog-Eintrag, keine Recherche.
+- **Keine Eskalation / kein Push-an-Arzt:** Lage seit #84 unveraendert, dort einmalig gemeldet. Gesunder, stabiler Zustand -> bewusst keine erneute Benachrichtigung (Melde-Spam vermeiden).
+
+### Stehende Hinweise (unveraendert)
+- **Validator-Tooling:** `python3`=3.11 OHNE `jsonschema` -> Validator faellt still auf eingebaute Struktur-/Konsistenzpruefung zurueck (KEIN JSON-Schema), bricht NICHT mit Exit 3 ab. jsonschema nur unter `python3.13` erreichbar. Dieser Lauf erzeugt nichts -> ohne Auswirkung.
+- **Log-Bloat:** `state/lauf-log.md` ~0,95 MB, 108 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
+- **Empfehlung (108x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
