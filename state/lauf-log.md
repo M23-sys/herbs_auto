@@ -5604,3 +5604,20 @@ Selbst verifiziert (isolierter `python3`, nicht aus dem Log uebernommen):
 ### Stehende Hinweise (unveraendert)
 - **Log-Bloat:** `state/lauf-log.md` ~988K, 128 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (128x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-11-06 12:21 UTC — Leerlauf #129 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84–#128 (46. Leerlauf in Folge).
+
+Selbst verifiziert (isolierter `python3`, nicht aus dem Log uebernommen):
+- **Kandidatenliste** (`kraeuter-kandidaten.json`): 87 Eintraege, per `Counter` 87x `entwurf_fertig`, 0x `offen`. Selbstheilung: kein `offen`-Eintrag zu korrigieren.
+- **fertig/**: 118 JSON-Dateien.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege, unveraendert): beide bereits in `fertig/` erfuellt, Dedup gegen `id` + `botany.synonyms` + `common_names_de`:
+  - `agastache-mexicana` -> `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt `agastache-mexicana`; common_names_de enthaelt auch "Mexican giant hyssop").
+  - `cherry-laurel` (Platzhalter-id, latin='Cherry laurel', kein Binom) -> botanisch aufgeloest zu *Prunus laurocerasus* -> `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`; synonyms u.a. Laurocerasus officinalis M.Roem.). Reiner String-Abgleich greift hier nicht (fertig/ fuehrt dt. common_names Kirschlorbeer/Lorbeerkirsche) -> manuell/botanisch aufgeloest; App-Auto-Abhakung dort pruefen.
+- **Pruefung/Changelog:** nichts erzeugt -> kein Bau, kein Validator-Lauf noetig, kein Changelog-Eintrag, keine Recherche. Hauptquellen: entfaellt. Korrekturversuche: 0.
+- **Keine Eskalation / kein Push-an-Arzt:** Lage seit #84 unveraendert, dort einmalig gemeldet. Gesunder, stabiler Zustand -> bewusst keine erneute Benachrichtigung (Melde-Spam vermeiden).
+
+### Stehende Hinweise (unveraendert)
+- **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 129 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
+- **Empfehlung (129x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
