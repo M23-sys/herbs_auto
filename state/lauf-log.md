@@ -5754,3 +5754,22 @@ Selbst verifiziert (isolierter `python3`, nicht aus dem Log uebernommen):
 ### Stehende Hinweise (unveraendert)
 - **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 136 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (136x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-11-08 12:18 UTC — Leerlauf #137 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84–#136 (54. Leerlauf in Folge).
+
+Selbst verifiziert (isolierter `python3 -I`, nicht aus dem Log uebernommen):
+- **Kandidatenliste** (`kraeuter-kandidaten.json`): 87 Eintraege, per `Counter` 87x `entwurf_fertig`, 0x `offen`. Selbstheilung: kein `offen`-Eintrag zu korrigieren.
+- **fertig/**: 118 JSON-Dateien.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Eintraege, unveraendert): beide bereits in `fertig/` erfuellt, Dedup gegen `id` + `botany.synonyms`:
+  - `agastache-mexicana` -> `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt). Wunsch erfuellt -> uebersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin='Cherry laurel', kein Binom) -> botanisch *Prunus laurocerasus* -> `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag; auch via Synonym *Laurocerasus officinalis*). Wunsch erfuellt -> uebersprungen.
+- **Bewusst NICHT gebaut:** Ziel war "genau 2", aber Dedup/Verfuegbarkeit schlaegt die Stueckzahl (CLAUDE.md: keine Zweitmonographie unter Alt-/Fremdname). Beide Wuensche erfuellt, 0 offene Kandidaten -> 0 valide Bauauftraege. Ein Bau waere eine verbotene Dublette gewesen.
+- **Pruefung/Changelog:** nichts erzeugt -> kein Changelog-Eintrag, keine Recherche. Kontroll-Lauf `validate_monographie.py` auf beide Zieldateien: beide ok (`Alle Monographien bestehen die Pruefung`). jsonschema installiert. Korrekturversuche: 0.
+- **Branch/Sync:** Arbeitsbranch `claude/adoring-turing-c6x4qr` = `origin/claude/main` (0 vor / 0 hinter, Stand bab261a). Auto-Merge funktioniert. Keine Aktion noetig.
+- **Keine Eskalation / kein Push-an-Arzt:** Lage seit #84 unveraendert, dort einmalig gemeldet. Gesunder, stabiler Zustand -> bewusst keine erneute Benachrichtigung (Melde-Spam vermeiden).
+
+### Stehende Hinweise (unveraendert)
+- **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 137 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
+- **Empfehlung (137x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
