@@ -5773,3 +5773,41 @@ Selbst verifiziert (isolierter `python3 -I`, nicht aus dem Log uebernommen):
 ### Stehende Hinweise (unveraendert)
 - **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 137 fast identische Leerlauf-Eintraege; bewusst NICHT autonom gekuerzt (Kanal zum Arzt, keine eigenmaechtige Loeschung seiner Daten).
 - **Empfehlung (137x unveraendert):** Routine pausieren/strecken, bis die App neue Wunsch-Eintraege liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwuerfe aerztlich auf `geprueft` gesichtet sind. Sonst laeuft die Routine weiter ins Leere.
+
+## 2026-11-08 18:18 UTC — Leerlauf #138 (keine offenen Arten) + NEUER BEFUND: Prüf-Toolchain degradiert
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand der Arbeitswarteschlange identisch zu #84–#137 (55. Leerlauf in Folge).
+
+Selbst verifiziert (isolierter `python3 -I`, nicht aus dem Log übernommen):
+- **Kandidatenliste** (`kraeuter-kandidaten.json`): 87 Einträge, per `Counter` 87x `entwurf_fertig`, 0x `offen`. Selbstheilung: kein `offen`-Eintrag zu korrigieren; alle 87 `datei`-Pfade existieren in `fertig/`.
+- **fertig/**: 118 JSON-Dateien.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge, unverändert): beide bereits in `fertig/` erfüllt, Dedup gegen `id` + `botany.synonyms` + `common_names_de`:
+  - `agastache-mexicana` -> `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt; sci *Agastache mexicana (Kunth) Lint & Epling*, common u.a. "Mexican giant hyssop"). Wunsch erfüllt -> übersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin='Cherry laurel', kein Binom) -> botanisch *Prunus laurocerasus* -> `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag; auch via Synonym *Laurocerasus officinalis* M.Roem.). Wunsch erfüllt -> übersprungen.
+- **Bewusst NICHT gebaut:** Ziel war "genau 2", aber Dedup/Verfügbarkeit schlägt die Stückzahl (CLAUDE.md: keine Zweitmonographie unter Alt-/Fremdname). Beide Wünsche erfüllt, 0 offene Kandidaten -> 0 valide Bauaufträge. Ein Bau wäre eine verbotene Dublette gewesen.
+- **Changelog:** nichts erzeugt -> kein Changelog-Eintrag, keine Recherche. Korrekturversuche: 0.
+- **Branch/Sync:** Arbeitsbranch `claude/adoring-turing-kbqpv0` = `origin/claude/main` (0 vor / 0 hinter, Stand e859648). Auto-Merge funktioniert.
+
+### ⚠️ NEUER BEFUND (zuvor NICHT gemeldet) — Prüfskript läuft ohne Schema-Validierung
+
+Der in der Routine vorgeschriebene Aufruf `python3 validate_monographie.py …` prüft derzeit **ohne** die JSON-Schema-Stufe. Ursache: Interpreter-/Paket-Mismatch im Container.
+- `python3` -> **Python 3.11.18**, hat **kein** `jsonschema`.
+- `pip install -r requirements.txt` installiert `jsonschema` nach **Python 3.13** (`pip 24.0 … (python 3.13)`), nicht nach 3.11.
+- Im Skript (`validate_monographie.py`, Zeile 20–26) fängt ein `try/except` den fehlenden Import ab und setzt `SCHEMA = None`. Folge: Die Schema-Prüfung (Zeile 65–68) wird **still übersprungen**, nur die eingebauten Strukturchecks greifen. Das Skript endet trotzdem mit `exit 0` und meldet „Alle Monographien bestehen die Prüfung".
+- **Widerspruch zur Routine-Anweisung:** Die Routine behauptet, ohne `jsonschema` breche das Skript „mit Exit-Code 3 ab — das ist Absicht". Diese Schutzannahme trifft auf den aktuellen Skriptstand NICHT zu (es gibt keinen `sys.exit(3)`-Pfad für fehlendes jsonschema). Die degradierte Prüfung ist dadurch unsichtbar.
+- **Vermutlich seit Längerem latent:** Frühere Läufe notierten „jsonschema installiert" und validierten per `python3`, also höchstwahrscheinlich ebenfalls ohne Schema-Stufe, ohne es zu bemerken.
+
+**Kontroll-Validierung diesen Lauf (beide Interpreter, beide Wunsch-Zieldateien):**
+- `python3` (3.11, ohne Schema): `monographie-mexikanische-duftnessel.json` + `monographie-kirschlorbeer.json` -> „Alle Monographien bestehen die Prüfung", exit 0 (nur Strukturchecks).
+- `python3.13` (mit Schema): dieselben beiden Dateien -> „Alle Monographien bestehen die Prüfung", exit 0 (**volle Schema-Stufe aktiv**).
+- Ergebnis: Keine der beiden relevanten Dateien ist betroffen; sie bestehen auch die volle Schema-Prüfung. **Kein Datenschaden.** Das Risiko ist latent und trifft erst einen echten Bau-Lauf, dessen Monographie einen rein schema-seitigen Verstoß enthält, den die Strukturchecks nicht fangen.
+
+**Empfehlung an den Arzt (Umgebung, nicht autonom geändert):** Eine der folgenden Korrekturen, damit die vorgeschriebene Prüfung wieder die Schema-Stufe durchläuft:
+1. `jsonschema` in die 3.11-Umgebung installieren (`python3.11 -m pip install jsonschema`) — am besten per Setup-Skript der Cloud-Umgebung, da Container ephemer sind; ODER
+2. die Routine/den Aufruf auf `python3.13 validate_monographie.py …` umstellen (dort ist `jsonschema` vorhanden); ODER
+3. `validate_monographie.py` so härten, dass fehlendes `jsonschema` ein echter Fehler (Exit-Code) ist statt stiller Degradierung — passend zur Routine-Anweisung.
+Bewusst NICHT autonom umgesetzt: Änderung an `requirements.txt`/Validator/Umgebung ist eine Grundsatzentscheidung des Arztes und würde den Befund sonst verschleiern.
+
+### Stehende Hinweise (unverändert)
+- **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 138 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt, keine eigenmächtige Löschung seiner Daten).
+- **Empfehlung (138x unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
