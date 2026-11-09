@@ -5837,3 +5837,23 @@ Selbst verifiziert (isolierter `python3 -c`, nicht aus dem Log übernommen):
 - **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 139 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt, keine eigenmächtige Löschung seiner Daten).
 - **Empfehlung (139x unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert, Kandidaten auf `offen` gesetzt werden ODER die 87 Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
 - **Keine Eskalation / kein Push-an-Arzt:** Arbeitswarteschlange seit #84 unverändert (einmalig gemeldet); Toolchain-Befund seit #138 unverändert und bereits im Log dokumentiert. Gesunder, stabiler Zustand ohne Datenschaden -> bewusst keine erneute Benachrichtigung (Melde-Spam vermeiden).
+
+## 2026-11-09 06:22 UTC — Leerlauf #140 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84–#139 (57. Leerlauf in Folge).
+
+Selbst verifiziert (isolierter `python3`, nicht aus dem Log übernommen):
+- **Kandidatenliste**: 87 Einträge, `Counter` = 87x `entwurf_fertig`, **0x `offen`**. Selbstheilung: kein `offen`-Eintrag zu korrigieren.
+- **fertig/**: 118 JSON-Dateien, 118 eindeutige `id`.
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge, unverändert) — Dedup gegen `id` + `botany.synonyms` + `scientific_name`:
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt; sci *Agastache mexicana (Kunth) Lint & Epling*, common u.a. „Mexican giant hyssop"). Erfüllt → übersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin=„Cherry laurel", kein Binom) → botanisch *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag `not_for_use`; auch via Synonym *Laurocerasus officinalis* M.Roem.). Erfüllt → übersprungen.
+- **Bewusst NICHT gebaut:** Ziel war „genau 2", aber Dedup/Verfügbarkeit schlägt die Stückzahl (CLAUDE.md: keine Zweitmonographie unter Alt-/Fremdname). Beide Wünsche erfüllt, 0 offene Kandidaten → 0 valide Bauaufträge. Ein Bau wäre eine verbotene Dublette gewesen.
+- **Changelog:** nichts erzeugt → kein Eintrag, keine Recherche. Korrekturversuche: 0.
+- **Branch/Sync:** Arbeitsbranch `claude/adoring-turing-scrls4` = `origin/claude/main` (0 vor / 0 hinter, Stand 5c03c12 vor diesem Commit). Auto-Merge funktioniert.
+
+### Stehende Hinweise (unverändert, Details in #138/#139)
+- **Prüf-Toolchain:** `python3` (3.11) hat kein `jsonschema` → Schema-Stufe wird im Validator still übersprungen (SCHEMA=None), Skript endet dennoch mit exit 0; `pip install -r requirements.txt` installiert `jsonschema` nach 3.13, nicht 3.11. Kein Datenschaden (beide Wunsch-Zieldateien bestehen auch die volle 3.13-Schema-Prüfung). Risiko latent. 3 Korrektur-Optionen in #138. Nicht autonom geändert (ärztliche Grundsatzentscheidung).
+- **Log-Bloat:** `state/lauf-log.md` ~1,0 MB, 140 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt). Dieser Eintrag bewusst kurz gehalten.
+- **Empfehlung (140x unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER die 87/118 Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
+- **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #139 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden).
