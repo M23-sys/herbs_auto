@@ -5930,3 +5930,22 @@ Selbst verifiziert (isolierter `python3`, nicht aus dem Log übernommen):
 - **Log-Bloat:** `state/lauf-log.md` ~1,1 MB, 144 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt). Eintrag bewusst kurz.
 - **Empfehlung (144× unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER die Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
 - **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #143 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#143).
+
+## 2026-11-10 18:18 UTC — Leerlauf #145 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. Zustand identisch zu #84–#144 (62. Leerlauf in Folge). Ziel „genau 2" nicht erfüllbar: Dedup/Verfügbarkeit schlägt Stückzahl (CLAUDE.md) — ein Bau wäre eine verbotene Dublette.
+
+Selbst verifiziert (isolierter `python3 -I`, nicht aus dem Log übernommen):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge, unverändert) — Dedup gegen alle `fertig/*.json` (`id` + `scientific_name` + `botany.synonyms`):
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt; sci *Agastache mexicana*, common u.a. „Mexican giant hyssop"). Erfüllt → übersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel", kein Binom) → botanisch *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Warneintrag `not_for_use`; auch via Synonym *Laurocerasus officinalis* M.Roem.). Erfüllt → übersprungen.
+  - Beide Zieldateien zur Kontrolle voll gegen Schema geprüft (`python3.13 validate_monographie.py`, jsonschema 4.26 aktiv): beide bestehen, kein FEHLER (Duftnessel 1 Hinweis „unsicher/zu prüfen", bewusst).
+- **Kandidatenliste**: 87 Einträge, `Counter` = 87× `entwurf_fertig`, **0× `offen`**. Alle 87 `datei`-Pfade existieren. Selbstheilung: kein `offen`-Eintrag zu korrigieren.
+- **fertig/**: 118 JSON-Dateien. **Changelog:** nichts erzeugt → kein Eintrag, keine Recherche. Korrekturversuche: 0.
+- **Branch/Sync:** Arbeitsbranch `claude/adoring-turing-87n6bs` = `origin/claude/main` (0 vor / 0 hinter, Stand 95f2627 vor diesem Commit). Auto-Merge funktioniert.
+
+### Stehende Hinweise (unverändert, Details #138–#144)
+- **Prüf-Toolchain:** Default-`python3` = 3.11 ohne `jsonschema` → Schema-Stufe wird im Validator still übersprungen (SCHEMA=None), Skript endet dennoch exit 0; `jsonschema` 4.26 ist für `python3.13` vorhanden (volle Schema-Stufe, in dieser Umgebung funktionsfähig). `pip install -r requirements.txt` installiert nach 3.13. Kein Datenschaden. Risiko latent. Nicht autonom geändert (ärztliche Grundsatzentscheidung).
+- **Log-Bloat:** `state/lauf-log.md` ~1,1 MB, 145 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt). Eintrag bewusst kurz.
+- **Empfehlung (145× unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER die Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
+- **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #144 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#144).
