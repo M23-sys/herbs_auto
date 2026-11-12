@@ -6025,3 +6025,22 @@ Selbst verifiziert (isoliertes `python3`, nicht aus dem Log übernommen):
 - **Log-Bloat:** `state/lauf-log.md` ~1,1 MB, 149 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt). Eintrag bewusst kurz.
 - **Empfehlung (149× unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER die Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
 - **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #148 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#148).
+
+
+## 2026-11-12 00:18 UTC — Leerlauf #150 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. 67. Leerlauf in Folge (seit #84). Ziel „genau 2" nicht erfüllbar: Dedup/Verfügbarkeit schlägt Stückzahl (CLAUDE.md) — ein Bau wäre eine verbotene Dublette. Prüfung/Recherche: entfällt (nichts erzeugt), 0 Korrekturversuche.
+
+Selbst verifiziert (isoliertes `python3 -I`, nicht aus dem Log übernommen):
+- **Wunschliste** (Stand 2026-08-20, 2 Einträge, unverändert) — Dedup gegen alle `fertig/*.json` (`id` + `scientific_name` + `botany.synonyms`):
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id + sci exakt). Erfüllt → übersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel", kein Binom) → *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`; auch via Synonyme *Laurocerasus/Cerasus laurocerasus*). Erfüllt → übersprungen.
+- **Kandidatenliste**: 87 Einträge, 87× `entwurf_fertig`, **0× `offen`**. Selbstheilung: nichts zu korrigieren.
+- **fertig/**: 118 Dateien. **Changelog**: 91 Einträge, nichts angehängt (nichts erzeugt).
+- **Branch/Sync:** Arbeitsbranch `claude/adoring-turing-k8x6ci`, HEAD 8b1e6f9 vor diesem Commit.
+
+### Stehende Hinweise (unverändert, Details #138–#149)
+- **Prüf-Toolchain:** `jsonschema` hier installiert (volle Schema-Stufe verfügbar). Default-`python3` ohne die Lib überspringt die Schema-Stufe still, Skript endet dennoch exit 0. Nicht autonom geändert (ärztliche Grundsatzentscheidung).
+- **Log-Bloat:** `state/lauf-log.md` >1 MB, 150 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt). Eintrag bewusst kurz.
+- **Empfehlung (150× unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER die Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
+- **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #149 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#149).
