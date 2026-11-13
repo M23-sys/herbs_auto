@@ -6101,3 +6101,21 @@ Selbst verifiziert (isoliertes `python3`, nicht aus dem Log übernommen):
 - **Log-Bloat:** `state/lauf-log.md` >1 MB, 153 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt). Eintrag bewusst kurz.
 - **Empfehlung (153× unverändert):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER die Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
 - **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #152 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#152).
+
+
+## 2026-11-13 00:22 UTC — Leerlauf #154 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. 71. Leerlauf in Folge (seit #84). Ziel „genau 2" nicht erfüllbar: Dedup schlägt Stückzahl (CLAUDE.md) — ein Bau wäre eine verbotene Dublette. Prüfung/Recherche: entfällt, 0 Korrekturversuche.
+
+Selbst verifiziert (isoliertes `python3` über alle `fertig/*.json`: `id` + `scientific_name` + `botany.synonyms`):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge, unverändert):
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt). Erfüllt → übersprungen.
+  - `cherry-laurel` (Platzhalter-id, kein Binom) → *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, auch via Synonym *Laurocerasus officinalis*). Erfüllt → übersprungen.
+- **Kandidatenliste:** 87 Einträge, 87× `entwurf_fertig`, **0× `offen`**. Selbstheilung: kein `offen` zu korrigieren.
+- **fertig/:** 118 JSON-Dateien. **Changelog:** 91 Einträge, nichts angehängt.
+- **Branch:** `claude/adoring-turing-q793jl`, HEAD 5a68238 (= #153) vor diesem Commit. `jsonschema` für `python3` vorhanden.
+
+### Stehende Hinweise (unverändert, Details #138–#153)
+- **Log-Bloat:** `state/lauf-log.md` >1 MB, 154 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt).
+- **Empfehlung (154×):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
+- **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #153 nichts Neues → bewusst kein Push (Melde-Spam vermeiden, Präzedenz #139–#153).
