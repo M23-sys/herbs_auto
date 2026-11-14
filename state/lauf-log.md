@@ -6233,3 +6233,22 @@ Selbst verifiziert (isoliertes `python3` über `fertig/*.json`: `id` + `scientif
 - **Log-Bloat:** `state/lauf-log.md` >1 MB, 160 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt).
 - **Empfehlung (160×):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
 - **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #159 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#159).
+
+
+## 2026-11-14 18:17 UTC — Leerlauf #161 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. 78. Leerlauf in Folge (seit #84). Ziel „genau 2" nicht erfüllbar: Dedup/Verfügbarkeit schlägt Stückzahl (CLAUDE.md) — ein Bau wäre eine verbotene Dublette. Prüfung/Recherche: entfällt, 0 Korrekturversuche.
+
+Selbst verifiziert (isoliertes `python3 -I` über alle `fertig/*.json`: `id` + `scientific_name` + `botany.synonyms`):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge, unverändert):
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt, sci „Agastache mexicana (Kunth) Lint & Epling"). Erfüllt → übersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel", kein Binom) → *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, auch via Synonym *Laurocerasus officinalis*). Erfüllt → übersprungen.
+- **Kandidatenliste:** 87 Einträge, 87× `entwurf_fertig`, **0× `offen`**. Selbstheilung: kein `offen` zu korrigieren; alle hinterlegten `datei`-Pfade existieren.
+- **fertig/:** 118 JSON-Dateien. **Changelog:** 91 Einträge, nichts angehängt (nichts erzeugt).
+- **Branch:** `claude/adoring-turing-v3gk65`, HEAD bbe8c3d (= #160) vor diesem Commit.
+- **jsonschema:** in diesem Container für `python3` vorhanden (`pip install -r requirements.txt` already satisfied) — ungenutzt, da nichts gebaut.
+
+### Stehende Hinweise (unverändert, Details #138–#160)
+- **Log-Bloat:** `state/lauf-log.md` >1 MB, 161 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt).
+- **Empfehlung (161×):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
+- **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden; seit #160 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#160).
