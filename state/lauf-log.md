@@ -6275,3 +6275,25 @@ Selbst verifiziert (isoliertes `python3 -I` über alle `fertig/*.json`: `id` + `
 - **Log-Bloat:** `state/lauf-log.md` >1 MB, 162 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt).
 - **Empfehlung (162×):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
 - **Keine Benachrichtigung:** Gesunder, unveränderter Arbeitszustand ohne Datenschaden; der Python/jsonschema-Konflikt blockiert aktuell nichts (nichts zu bauen). Seit #161 keine neue Arbeit → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#161).
+
+
+## 2026-11-15 (Lauf-ID session_014nqxdMR1bitoAVsRFsdJWq) — Leerlauf #163 (keine offenen Arten)
+
+**Bearbeitet:** keine. Wunschliste 0 offen / Kandidaten 0 offen. 80. Leerlauf in Folge (seit #84). Ziel „genau 2" nicht erfüllbar: Dedup/Verfügbarkeit schlägt Stückzahl (CLAUDE.md) — ein Bau wäre eine verbotene Dublette. Keine Prüfung/Recherche nötig, 0 Korrekturversuche.
+
+Selbst verifiziert (isoliertes `python3.13 -I` über alle 118 `fertig/*.json`: `id` + `scientific_name` + `botany.synonyms`; zusätzlich inhaltliche Prüfung der Platzhalter-ids):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, 2 Einträge, unverändert):
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id-Treffer exakt). Erfüllt → übersprungen.
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel", kein Binom) = engl. Name von *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, common_de „Kirschlorbeer"). Erfüllt → übersprungen. Reiner String-Dedup griffe hier NICHT (weder id- noch Synonym-Treffer auf „Cherry laurel") — nur die inhaltliche Zuordnung erkennt die Dublette.
+- **Kandidatenliste:** 87 Einträge, 87× `entwurf_fertig`, **0× `offen`**. Selbstheilung: kein `offen` zu korrigieren; alle 87 hinterlegten `datei`-Pfade existieren.
+- **fertig/:** 118 JSON-Dateien, 118 eindeutige ids. **Changelog:** unverändert, nichts angehängt (nichts erzeugt).
+- **Branch:** `claude/adoring-turing-1dy49w`, HEAD 81f863f (= #162) vor diesem Commit.
+
+### Stehender Hinweis — Python/jsonschema (für Arzt relevant, sobald wieder gebaut wird)
+- `python3` = **3.11** (`/usr/local/bin/python3`), **ohne** `jsonschema`. `jsonschema` liegt nur unter **3.13** (`python3.13` → Import ok). Folge: `python3 validate_monographie.py …` bräche mangels `jsonschema` mit Exit-Code 3 ab (beabsichtigte Hart-Abbruchbedingung). Diesen Lauf nicht betroffen (nichts gebaut/geprüft).
+- Abhilfe bei künftigem Bau-Lauf: `python3.13 validate_monographie.py …` nutzen ODER vorab `python3 -m pip install jsonschema`. Container ephemer → am besten dauerhaft im Setup-Skript der Umgebung. (Regression seit #162; frühere Container hatten `jsonschema` unter `python3`.)
+
+### Stehende Hinweise (unverändert, Details #138–#162)
+- **Log-Bloat:** `state/lauf-log.md` >1 MB, 163 fast identische Leerlauf-Einträge; bewusst NICHT autonom gekürzt (Kanal zum Arzt).
+- **Empfehlung (163×):** Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert ODER Kandidaten auf `offen` gesetzt werden ODER Entwürfe ärztlich auf `geprueft` gesichtet sind. Sonst läuft die Routine weiter ins Leere.
+- **Keine Benachrichtigung:** Gesunder, unveränderter Arbeitszustand ohne Datenschaden; seit #162 nichts Neues → bewusst kein Push-an-Arzt (Melde-Spam vermeiden, Präzedenz #139–#162).
