@@ -6490,3 +6490,20 @@ Selbst verifiziert:
 - **Python/jsonschema:** `python3` (3.11) ohne `jsonschema`; Modul nur unter `python3.13`. Für diesen Lauf irrelevant (nichts geprüft). Bei künftigem Bau: `python3.13 validate_monographie.py …` oder vorab `pip install jsonschema` — idealerweise im Setup-Skript der Umgebung verankern (Container ephemer).
 - **Log-Bloat:** `state/lauf-log.md` >1 MB; bewusst nicht autonom gekürzt (einziger Kanal zum Arzt).
 - **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden. Spam-Vermeidung, Präzedenz #139–#171.
+
+## 2026-11-17 (Lauf-ID session_014nqxdLQEBfsLvHqMfEsan8) — Leerlauf #173 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt, nichts geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert.
+
+Selbst verifiziert in diesem Container (Branch `claude/adoring-turing-kbwuu1`, HEAD d33d965):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen.
+  - `agastache-mexicana` → `fertig/monographie-mexikanische-duftnessel.json` (id exakt `agastache-mexicana`).
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel", kein Binom) = engl. Name von *Prunus laurocerasus* → `fertig/monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Syn. u. a. *Laurocerasus officinalis*). Nur inhaltliche Zuordnung erkennt die Dublette; reiner String-Abgleich griffe nicht.
+- **Kandidatenliste:** 87 Einträge, Tally 87× `entwurf_fertig`, **0× `offen`**. Keine Selbstheilung nötig.
+- **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert.
+
+### Stehende Hinweise (unverändert seit #138–#172 — Details dort)
+- **Dauer-Leerlauf (173×, seit #84):** Routine läuft bei jedem Firing ins Leere. Empfehlung an den Arzt: Routine pausieren/strecken, bis die App neue Wunsch-Einträge liefert, Kandidaten auf `offen` gesetzt werden, oder Entwürfe ärztlich auf `geprueft` gesichtet sind.
+- **Python/jsonschema:** `python3` (3.11) ohne `jsonschema`; Modul nur unter `python3.13`. Für diesen Lauf irrelevant (nichts geprüft). Bei künftigem Bau: `python3.13 validate_monographie.py …` oder vorab `pip install jsonschema` — idealerweise im Setup-Skript der Umgebung verankern (Container ephemer). (In diesem Lauf lieferte `pip install -r requirements.txt` bereits ein erfülltes `jsonschema` unter 3.13.)
+- **Log-Bloat:** `state/lauf-log.md` >1 MB; bewusst nicht autonom gekürzt (einziger Kanal zum Arzt).
+- **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden, nichts Neues seit #172 → kein Push-an-Arzt (Spam-Vermeidung, Präzedenz #139–#172).
