@@ -6529,3 +6529,14 @@ Selbst verifiziert:
 - **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert. jsonschema unter py3.13 erfüllt (`pip install -r requirements.txt`).
 
 Stehende Hinweise unverändert seit #138–#174 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Benachrichtigung (gesunder, unveränderter Zustand, Spam-Vermeidung, Präzedenz #139–#174).
+
+## 2026-11-18 (Lauf-ID session_014nqxdLUY9SoAq8S8ysw54u) — Leerlauf #176 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-7zgs1u`, HEAD 561d625.
+
+Selbst verifiziert:
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen. `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id exakt `agastache-mexicana`); `cherry-laurel` (Platzhalter, latin „Cherry laurel", kein Binom) = *Prunus laurocerasus* → `monographie-kirschlorbeer.json` (Synonym-Abgleich u. a. *Laurocerasus officinalis*, nicht reiner String). Wunschliste nicht angefasst (App-Hoheit).
+- **Kandidatenliste:** 87× `entwurf_fertig`, **0× `offen`** (grep bestätigt). Keine Selbstheilung nötig (kein `offen`, keine fehlende Datei).
+- **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert. jsonschema unter py3.13 erfüllt (`pip install -r requirements.txt`).
+
+Stehende Hinweise unverändert seit #138–#175 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Benachrichtigung (gesunder, unveränderter Zustand ohne Datenschaden, Spam-Vermeidung, Präzedenz #139–#175).
