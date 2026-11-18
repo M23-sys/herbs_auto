@@ -6507,3 +6507,14 @@ Selbst verifiziert in diesem Container (Branch `claude/adoring-turing-kbwuu1`, H
 - **Python/jsonschema:** `python3` (3.11) ohne `jsonschema`; Modul nur unter `python3.13`. Für diesen Lauf irrelevant (nichts geprüft). Bei künftigem Bau: `python3.13 validate_monographie.py …` oder vorab `pip install jsonschema` — idealerweise im Setup-Skript der Umgebung verankern (Container ephemer). (In diesem Lauf lieferte `pip install -r requirements.txt` bereits ein erfülltes `jsonschema` unter 3.13.)
 - **Log-Bloat:** `state/lauf-log.md` >1 MB; bewusst nicht autonom gekürzt (einziger Kanal zum Arzt).
 - **Keine Benachrichtigung:** Gesunder, unveränderter Zustand ohne Datenschaden, nichts Neues seit #172 → kein Push-an-Arzt (Spam-Vermeidung, Präzedenz #139–#172).
+
+## 2026-11-18 (Lauf-ID session_014nqxdL3Vkvq9M1JAk6iVNd) — Leerlauf #174 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-uds80h`, HEAD 7e4140d.
+
+Selbst verifiziert:
+- **Wunschliste** (Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen. `agastache-mexicana` → `monographie-mexikanische-duftnessel.json`; `cherry-laurel` (Platzhalter, latin „Cherry laurel", kein Binom) = *Prunus laurocerasus* → `monographie-kirschlorbeer.json` (Synonym-Abgleich, nicht String). Wunschliste nicht angefasst (App-Hoheit).
+- **Kandidatenliste:** 87× `entwurf_fertig`, **0× `offen`**. Keine Selbstheilung nötig (kein `offen`, keine fehlende Datei). jsonschema unter py3.13 erfüllt.
+- **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert.
+
+Stehende Hinweise unverändert seit #138–#173 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Benachrichtigung (gesunder, unveränderter Zustand, Spam-Vermeidung, Präzedenz #139–#173).
