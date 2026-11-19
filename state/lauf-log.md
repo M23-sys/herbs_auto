@@ -6588,3 +6588,17 @@ Selbst verifiziert (diesmal Dateiinhalt statt nur Log-Übernahme):
 - **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert. `pip install -r requirements.txt`: jsonschema bereits erfüllt (py3.13 site-packages); Prüfskript nicht ausgeführt, da nichts gebaut.
 
 Stehende Hinweise unverändert seit #138–#179 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; latente jsonschema-Degradation beim Standard-`python3` (nur bei künftigem Bau relevant, siehe #177); Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand, Spam-Vermeidung, Präzedenz #139–#179).
+
+## 2026-11-19 (Lauf-ID session_014nqxdHewtAgkZt8aYD9K6e) — Leerlauf #181 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-onl3gz`, HEAD vor Commit 3bdd467.
+
+Selbst verifiziert (Dateiinhalt, nicht nur Log-Übernahme):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen.
+  - `agastache-mexicana` → `monographie-mexikanische-duftnessel.json`: Datei trägt id exakt `agastache-mexicana`, synonyms u. a. *Cedronella mexicana*. ✓
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel" = engl. Trivialname, kein Binom) = *Prunus laurocerasus* → `monographie-kirschlorbeer.json`: id `prunus-laurocerasus`, synonyms u. a. *Laurocerasus officinalis* — Identitäts-/Synonymabgleich, kein reiner String-Match. ✓
+  - Wunschliste nicht angefasst (App-Hoheit). Leere Root-`wunschliste.json` (`anzahl: 0`) nicht maßgeblich — CLAUDE.md/Routine verweisen auf `docs/`.
+- **Kandidatenliste:** 0× `offen` (alle `entwurf_fertig`). Keine Selbstheilung nötig (kein `offen`, keine fehlende Datei).
+- **fertig/:** 118 Monographien. **Changelog:** unverändert. `pip install` nicht nötig (nichts zu prüfen; jsonschema-Lage siehe #177).
+
+Stehende Hinweise unverändert seit #138–#180 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; latente jsonschema-Degradation beim Standard-`python3` (nur bei künftigem Bau relevant, siehe #177); Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand, Spam-Vermeidung, Präzedenz #139–#180).
