@@ -6563,3 +6563,14 @@ Selbst verifiziert:
 - **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert. `pip install -r requirements.txt`: jsonschema bereits erfüllt (py3.13 site-packages).
 
 Stehende Hinweise unverändert seit #138–#177 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; latente jsonschema-Degradation beim Standard-`python3` (nur relevant bei künftigem Bau, siehe #177); Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand, Spam-Vermeidung, Präzedenz #139–#177).
+
+## 2026-11-19 (Lauf-ID session_014nqxdMTH2P3GcDrEnPJGzL) — Leerlauf #179 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-hm1836`, HEAD vor Commit 290cc60.
+
+Selbst verifiziert:
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen. `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id exakt `agastache-mexicana`); `cherry-laurel` (Platzhalter-id, latin „Cherry laurel", kein Binom) = engl. Name von *Prunus laurocerasus* → `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, Identitäts-/Synonymabgleich u. a. *Laurocerasus officinalis*, nicht reiner String). Wunschliste nicht angefasst (App-Hoheit). Leere Root-`wunschliste.json` (`anzahl: 0`) ist nicht maßgeblich — CLAUDE.md/Routine verweisen auf `docs/`.
+- **Kandidatenliste:** 87× `entwurf_fertig`, **0× `offen`** (grep bestätigt). Keine Selbstheilung nötig (kein `offen`; alle 87 `datei`-Pfade existieren, kein fehlendes Feld).
+- **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert. `pip install -r requirements.txt` nicht nötig (nichts zu prüfen; jsonschema-Lage siehe #177).
+
+Stehende Hinweise unverändert seit #138–#178 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; latente jsonschema-Degradation beim Standard-`python3` (nur relevant bei künftigem Bau, siehe #177); Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand, Spam-Vermeidung, Präzedenz #139–#178).
