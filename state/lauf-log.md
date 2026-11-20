@@ -6644,3 +6644,19 @@ Selbst verifiziert (Dateiinhalt, nicht nur Log-Übernahme):
 - **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert. `pip install -r requirements.txt`: jsonschema bereits erfüllt (py3.13 site-packages); Prüfskript nicht ausgeführt, da nichts gebaut.
 
 Stehende Hinweise unverändert seit #138–#183 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; latente jsonschema-Degradation beim Standard-`python3` (nur bei künftigem Bau relevant, siehe #177); Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand, Spam-Vermeidung, Präzedenz #139–#183).
+
+## 2026-11-20 (Lauf-ID session_014nqxdJQspsPd1WLpf5cBsy) — Leerlauf #185 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-9wf65s`.
+
+Selbst verifiziert (Dateiinhalt, nicht nur Log-Übernahme):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen.
+  - `agastache-mexicana` → `monographie-mexikanische-duftnessel.json`: id exakt `agastache-mexicana`, `scientific_name` „Agastache mexicana (Kunth) Lint & Epling", synonyms u. a. *Cedronella mexicana*. ✓
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel" = engl. Trivialname, kein Binom) = *Prunus laurocerasus* → `monographie-kirschlorbeer.json`: id `prunus-laurocerasus`, `scientific_name` „Prunus laurocerasus L.", synonyms u. a. *Laurocerasus officinalis* — Identitäts-/Synonymabgleich, kein reiner String-Match. ✓
+  - Wunschliste nicht angefasst (App-Hoheit). Leere Root-`wunschliste.json` (`anzahl: 0`) nicht maßgeblich — CLAUDE.md/Routine verweisen auf `docs/`.
+- **Kandidatenliste:** 87× `entwurf_fertig`, **0× `offen`** (Counter-Auszählung bestätigt). Keine Selbstheilung nötig (kein `offen`, keine fehlende Datei).
+- **fertig/:** 118 Monographien. **Changelog:** 91 Einträge, unverändert.
+
+Umgebung/jsonschema (Präzisierung zu #177, weiterhin nur bei künftigem Bau relevant): `pip install -r requirements.txt` meldet „already satisfied", installiert aber nach **python3.13**-site-packages; der Validator läuft per Shebang `#!/usr/bin/env python3` unter **python3.11** (`/usr/local/bin/python3`), dort ist jsonschema NICHT importierbar (ModuleNotFoundError). Ein künftiger Bau-Lauf würde das Prüfskript daher im degradierten Modus bzw. (laut Routine) mit Exit-Code 3 treffen, bis jsonschema für python3.11 verfügbar gemacht wird (z. B. `python3.11 -m pip install jsonschema` oder Validator mit `python3.13` aufrufen). Diesen Lauf nicht blockierend, da nichts gebaut.
+
+Stehende Hinweise unverändert seit #138–#184 (Details dort): Dauer-Leerlauf seit #84 → Empfehlung Routine pausieren/strecken, bis die App neue Wünsche liefert / Kandidaten auf `offen` / Entwürfe ärztlich `geprueft`; Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt); keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand, Spam-Vermeidung, Präzedenz #139–#184).
