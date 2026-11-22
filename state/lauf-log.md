@@ -6744,3 +6744,17 @@ Selbst verifiziert (Dateiinhalt + Auszählung, nicht nur Log-Übernahme):
 - **fertig/:** 118 Monographien. **Changelog:** unverändert.
 
 Stehende Hinweise unverändert seit #138–#190 (Details dort): Dauer-Leerlauf seit #84 → **Empfehlung an den Arzt: Routine pausieren oder strecken**, bis die App neue Wünsche liefert / Kandidaten auf `offen` gesetzt werden / Entwürfe ärztlich `geprueft` sind; jeder Lauf verbraucht sonst Ressourcen ohne Ertrag. Latente jsonschema-Degradation beim Shebang-`python3` (python3.11 ohne jsonschema; nur bei künftigem Bau relevant — dann Validator mit `python3.13` aufrufen oder `python3.11 -m pip install jsonschema`). Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt). Keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand; Spam-Vermeidung; Präzedenz #139–#190).
+
+## 2026-11-22 (Lauf-ID session_014nqxdMivcHG8XsqhUkoKFb) — Leerlauf #192 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-g1x1ee`.
+
+Selbst verifiziert (Dateiinhalt + Auszählung, nicht nur Log-Übernahme):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen (Dedup über id + Synonym).
+  - `agastache-mexicana` → `monographie-mexikanische-duftnessel.json` (id exakt `agastache-mexicana`). ✓
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel" = engl. Trivialname) = *Prunus laurocerasus* → `monographie-kirschlorbeer.json` (id `prunus-laurocerasus`, synonym *Laurocerasus officinalis*). ✓
+  - Wunschliste nicht angefasst (App-Hoheit).
+- **Kandidatenliste:** 87× `entwurf_fertig`, **0× `offen`**. Keine Selbstheilung nötig.
+- **fertig/:** 118 Monographien. **Changelog:** unverändert.
+
+Stehende Hinweise unverändert seit #138–#191: Dauer-Leerlauf seit #84 → **Empfehlung an den Arzt: Routine pausieren oder strecken**, bis die App neue Wünsche liefert / Kandidaten auf `offen` gesetzt werden / Entwürfe ärztlich `geprueft` sind; jeder Lauf verbraucht sonst Ressourcen ohne Ertrag. Latente jsonschema-Degradation beim Shebang-`python3` (nur bei künftigem Bau relevant — dann `python3.13` oder `python3.11 -m pip install jsonschema`). Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt). Keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand; Spam-Vermeidung; Präzedenz #139–#191).
