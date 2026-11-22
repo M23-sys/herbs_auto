@@ -6730,3 +6730,17 @@ Selbst verifiziert (Dateiinhalt + Auszählung, nicht nur Log-Übernahme):
 - **fertig/:** 118 Monographien. **Changelog:** unverändert.
 
 Stehende Hinweise unverändert seit #138–#189 (Details dort): Dauer-Leerlauf seit #84 → **Empfehlung an den Arzt: Routine pausieren oder strecken**, bis die App neue Wünsche liefert / Kandidaten auf `offen` gesetzt werden / Entwürfe ärztlich `geprueft` sind; jeder Lauf verbraucht sonst Ressourcen ohne Ertrag. Latente jsonschema-Degradation beim Shebang-`python3` (python3.11 ohne jsonschema; nur bei künftigem Bau relevant — dann Validator mit `python3.13` aufrufen oder `python3.11 -m pip install jsonschema`). Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt). Keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand; Spam-Vermeidung; Präzedenz #139–#189).
+
+## 2026-11-22 (Lauf-ID session_014nqxdKwtRekLfT8do6derf) — Leerlauf #191 (keine offenen Arten)
+
+Ziel „genau 2" nicht erfüllbar — kein Bau, da jede Quelle ohne offene Art. Nichts erzeugt/geprüft (0 Korrekturversuche, 0 Übersprungene). Changelog/Kandidatenliste/fertig unverändert. Branch `claude/adoring-turing-jl9d9d`.
+
+Selbst verifiziert (Dateiinhalt + Auszählung, nicht nur Log-Übernahme):
+- **Wunschliste** (`docs/wunschliste.json`, Stand 2026-08-20, `anzahl: 2`, unverändert): beide Einträge bereits in `fertig/` → übersprungen (Dedup über id + Synonym, kein reiner String-Match).
+  - `agastache-mexicana` → `monographie-mexikanische-duftnessel.json`: id exakt `agastache-mexicana`, scientific_name „Agastache mexicana (Kunth) Lint & Epling", synonyms u. a. *Cedronella mexicana*. ✓
+  - `cherry-laurel` (Platzhalter-id, latin „Cherry laurel" = engl. Trivialname, kein Binom) = *Prunus laurocerasus* → `monographie-kirschlorbeer.json`: id `prunus-laurocerasus`, synonyms u. a. *Laurocerasus officinalis*. ✓
+  - Wunschliste nicht angefasst (App-Hoheit). Leere Root-`wunschliste.json` (`anzahl: 0`) nicht maßgeblich — CLAUDE.md/Routine verweisen auf `docs/`.
+- **Kandidatenliste:** Status-Auszählung ergibt 87× `entwurf_fertig`, **0× `offen`**. Keine Selbstheilung nötig (kein `offen`, keine fehlende Datei).
+- **fertig/:** 118 Monographien. **Changelog:** unverändert.
+
+Stehende Hinweise unverändert seit #138–#190 (Details dort): Dauer-Leerlauf seit #84 → **Empfehlung an den Arzt: Routine pausieren oder strecken**, bis die App neue Wünsche liefert / Kandidaten auf `offen` gesetzt werden / Entwürfe ärztlich `geprueft` sind; jeder Lauf verbraucht sonst Ressourcen ohne Ertrag. Latente jsonschema-Degradation beim Shebang-`python3` (python3.11 ohne jsonschema; nur bei künftigem Bau relevant — dann Validator mit `python3.13` aufrufen oder `python3.11 -m pip install jsonschema`). Log-Bloat >1 MB bewusst nicht autonom gekürzt (einziger Kanal zum Arzt). Keine Push-Benachrichtigung (gesunder, unveränderter Datenzustand; Spam-Vermeidung; Präzedenz #139–#190).
